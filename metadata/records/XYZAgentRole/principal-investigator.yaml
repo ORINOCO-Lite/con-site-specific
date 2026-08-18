@@ -1,4 +1,3 @@
-# Source: pinned pool evidence recorded in profiles/con/provenance/people.yaml
 pid: obo:NCIT_C19924
 schema_type: xyzri:XYZAgentRole
 display_label: Principal investigator (PI)

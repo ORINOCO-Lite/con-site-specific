@@ -1,4 +1,3 @@
-# Source: public pool snapshot recorded in profiles/con/provenance/selection.yaml
 pid: obo:IAO_0000010
 schema_type: xyzri:XYZInstrumentType
 display_label: Software
