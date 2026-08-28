@@ -76,14 +76,14 @@ Zotero item keys and the library version must remain available as source identif
 Fetch a live source snapshot and review its candidates without changing tracked evidence with:
 
 ```console
-./source-adapters/metadata/metadata-review review -- --only zotero
+./.orinoco-lite/source-adapters/metadata/metadata-review review -- --only zotero
 ```
 
 Candidate `XYZ*.json` files and the reconciliation report are written below `build/metadata-review/zotero/`.
 After resolving every reported blocker, refresh only the committed snapshot and deterministic candidates with:
 
 ```console
-./source-adapters/metadata/metadata-review refresh-evidence -- --only zotero
+./.orinoco-lite/source-adapters/metadata/metadata-review refresh-evidence -- --only zotero
 ```
 
 Neither command promotes canonical metadata.
