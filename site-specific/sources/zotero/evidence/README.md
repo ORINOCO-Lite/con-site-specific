@@ -3,7 +3,7 @@
 Inspect the public Zotero API against `snapshot.json` without changing tracked evidence with:
 
 ```console
-./source-adapters/metadata/metadata-review review -- --only zotero
+./.orinoco-lite/source-adapters/metadata/metadata-review review -- --only zotero
 ```
 
 It records the collection definitions, all top-level items, retrieval time, API URLs, requested and returned API versions, one consistent Zotero library version, record counts, and a normalized content digest needed to interpret a transform.
