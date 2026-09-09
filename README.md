@@ -1,9 +1,8 @@
-# Center for Open Neuroscience site content
+# Center for Open Neuroscience site inputs
 
-This repository contains the site-owned inputs for the Center for Open
-Neuroscience website. It is intended to be imported as the `site-specific/`
-subtree of an Orinoco Lite downstream while retaining this repository's focused
-content history.
+This directory is the declarative, site-owned layer of the Center for Open Neuroscience website.
+It is the repository root here and is integrated at `site-specific/` in the Orinoco Lite downstream through `git subtree`.
+Paths in this document are relative to this directory.
 
 ## Structure
 
@@ -16,18 +15,38 @@ content history.
 | `assets/`, `static/` | Site-owned presentation and static assets. |
 | `sources/`, `curation-records/` | Source declarations and reviewed curation decisions. |
 
-The homepage is `content/_index.md`. Portraits live beside generated person
-pages as `portrait.*`, and project artwork lives beside generated project pages
-as `logo.*`. These are ordinary Hugo page resources and do not require a
-downstream theme override.
+The homepage is `content/_index.md`.
+Portraits live beside generated person pages as `portrait.*`, and project artwork lives beside generated project pages as `logo.*`.
+These are ordinary Hugo page resources and do not require a downstream theme override.
 
-Source declarations refer to executable adapters under
-`extensions/source-adapters/` in the containing downstream. Adapter code is not
-part of this content repository.
+Source declarations refer to executable adapters under `extensions/source-adapters/` from the downstream repository root.
+Adapter code and the Orinoco Lite scaffold remain outside this subtree.
+
+## Subtree integration
+
+Import this history into a new downstream without squashing it:
+
+```console
+git subtree add \
+  --prefix=site-specific \
+  git@github.com:ORINOCO-Lite/con-site-specific.git \
+  main
+```
+
+Pull a reviewed content update into an existing downstream with:
+
+```console
+git subtree pull \
+  --prefix=site-specific \
+  git@github.com:ORINOCO-Lite/con-site-specific.git \
+  main
+```
+
+Do not add `--squash`; the focused history in this repository is part of the subtree's value.
 
 ## Edit, validate, and preview
 
-Run the following commands from the containing Orinoco Lite downstream:
+Run these commands from the downstream repository root, not this directory:
 
 ```console
 pixi run validate
@@ -35,5 +54,5 @@ pixi run build
 pixi run serve
 ```
 
-Review the source diff and rendered build. Do not commit or hand-edit generated
-projection output.
+Review the source diff and rendered build.
+Do not commit or hand-edit generated projection output.
