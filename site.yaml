@@ -1,9 +1,9 @@
 version: 1
 record_prefix: "xyzrins:"
 identity:
-  title: CON · Orinoco Lite demo
-  description: Test-only full-content Orinoco Lite downstream for the Center for Open Neuroscience.
-  base_url: https://leej3.github.io/orinoco-lite-demo/
+  title: Center for Open Neuroscience
+  description: The Center for Open Neuroscience brings open practices into the everyday work of neuroscience.
+  base_url: https://dev.centerforopenneuroscience.org/
 navigation:
   - name: People
     page_ref: /persons/
