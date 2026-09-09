@@ -1,6 +1,6 @@
 # Center for Open Neuroscience site inputs
 
-This directory is the declarative, site-owned layer of the Center for Open Neuroscience website.
+This directory is the declarative, site-owned layer of the Center for Open Neuroscience website and a presentation-independent store of reviewed CON metadata.
 It is the repository root here and is integrated at `site-specific/` in the Orinoco Lite downstream through `git subtree`.
 Paths in this document are relative to this directory.
 
@@ -14,6 +14,10 @@ Paths in this document are relative to this directory.
 | `content/` | Editorial pages, group order, and Hugo page resources. |
 | `assets/`, `static/` | Site-owned presentation and static assets. |
 | `sources/`, `curation-records/` | Source declarations and reviewed curation decisions. |
+
+Together, `metadata/records/` and `metadata/overlays/annotations/` are the canonical metadata store for reviewed CON assertions and their machine provenance.
+The Orinoco Lite website is one projection of those inputs.
+Other consumers can derive different representations from the same metadata without depending on the website or treating generated output as canonical.
 
 The homepage is `content/_index.md`.
 Portraits live beside generated person pages as `portrait.*`, and project artwork lives beside generated project pages as `logo.*`.
