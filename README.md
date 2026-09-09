@@ -4,6 +4,17 @@ This directory is the declarative, site-owned layer of the Center for Open Neuro
 It is the repository root here and is integrated at `site-specific/` in the Orinoco Lite downstream through `git subtree`.
 Paths in this document are relative to this directory.
 
+## Content provenance
+
+The full provenance for this content is not yet consolidated.
+Its history is spread across:
+
+- [CON research information](https://github.com/con/dump-research-info/);
+- [the Orinoco Lite demo](https://github.com/leej3/orinoco-lite-demo); and
+- [the existing CON website](https://centerforopenneuroscience.org).
+
+Additional context for the earlier trimming of `orinoco-lite-demo` is preserved in [this shared conversation](https://claude.ai/share/a2aeb683-48a5-4f41-aff1-db2287ef3566).
+
 ## Structure
 
 | Path | Purpose |
@@ -60,3 +71,12 @@ pixi run serve
 
 Review the source diff and rendered build.
 Do not commit or hand-edit generated projection output.
+
+## Documentation above this layer
+
+- [Orinoco Lite template](https://github.com/ORINOCO-Lite/orinoco-lite-template): downstream scaffold creation and maintenance.
+- [Project design charter](https://github.com/ORINOCO-Lite/orinoco-lite-dev/blob/main/docs/project-design.md): system responsibilities and data flows.
+- [Orinoco Lite package](https://github.com/ORINOCO-Lite/orinoco-lite-dev/tree/main/packages/orinoco-lite): commands and package integrity.
+- [Orinoco Lite releases](https://github.com/ORINOCO-Lite/orinoco-lite-dev/releases): immutable package and template selections.
+
+Those shared layers do not own CON records, site-specific policy, or this site's provenance.
