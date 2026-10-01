@@ -1,2 +1,4 @@
-* annex.backend=MD5E
-**/.git* annex.largefiles=nothing
+* annex.backend=SHA256E
+* annex.largefiles=nothing
+assets/** annex.largefiles=(mimeencoding=binary)
+static/** annex.largefiles=(mimeencoding=binary)
