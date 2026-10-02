@@ -61,7 +61,7 @@ Start with the [DataLad project]({{< ref "/projects/datalad" >}}), browse the fu
 ### Promote
 
 Scientific software projects rarely have dedicated resources for community outreach.
-The following legacy CON materials remain useful for exhibits, bulletin boards, teaching, and conversations about open neuroscience.
+The following CON materials are available for exhibits, bulletin boards, teaching, and conversations about open neuroscience.
 Follow each pamphlet image to its printable PDF where available.
 
 #### Pamphlet collation
@@ -111,8 +111,8 @@ This pamphlet introduces the [Brain Imaging Data Structure]({{< ref "/projects/b
 
 ## Support
 
-The legacy CON site acknowledged institutional and grant support from the organizations below.
-These links preserve that published record; they do not assert a current award period.
+CON has received institutional and grant support from the organizations below.
+These acknowledgments describe past support, not current award periods.
 
 ### Center for Cognitive Neuroscience
 
