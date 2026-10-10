@@ -1,0 +1,11 @@
+annotations:
+  obo:NCIT_C54269: m.hanke@fz-juelich.de
+  sio:SIO_001083: '2026-03-08T10:39:08.918541'
+description: Releases data, code, and documentation and fosters cross-site collaborations
+  to accelerate scientific progress. By making resources public and encouraging standardized
+  practices, they increase transparency, enable secondary analyses, and support large-scale
+  studies that combine datasets to address questions requiring greater statistical
+  power or diverse populations.
+pid: xyzrins:objectives/87be5fa3-80fb-4221-8406-2ddd40fb1fd1
+schema_type: xyzri:XYZObjective
+title: Promote open science through shared data and collaboration

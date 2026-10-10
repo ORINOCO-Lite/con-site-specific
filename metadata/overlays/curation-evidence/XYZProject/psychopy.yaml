@@ -1,0 +1,193 @@
+# Evidence for every dated claim in records/XYZProject/psychopy.yaml.
+#
+# Shape follows con-site-specific's metadata/overlays/machine-provenance-
+# annotations/: a `record` pid, and `assertions` that address the asserted
+# value by JSON Pointer `path`.  The pointer is strictly better than the
+# `supports: [start]` tag it replaces -- it names the exact slot, so a
+# validator can check coverage instead of trusting a label.
+#
+# The extra keys (kind, bound, quote, confidence, captured, would_confirm) are
+# CON-local.  PAV's importedBy/importedFrom describe a machine import; these
+# describe a human reading a source and deciding what it supports.
+record: xyzrins:projects/psychopy
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2008-04-09"
+    bound: upper
+    kind: upstream-git
+    source: pkg-exppsy:psychopy
+    locator: ecb5bb56a
+    quote: first commit of 'trunk'
+    note: >-
+      The point of recording this: it is 14 months before our first commit,
+      so "we were at the inception" is false.  Upper bound -- the history was
+      converted from SVN, so PsychoPy may well be older than its repository.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/0/started/at_time
+    value: "2009-06-15"
+    bound: upper
+    kind: upstream-git
+    source: pkg-exppsy:psychopy
+    locator: 3e6f7d2dc
+    quote: ensure 2.8 version of wx for IDE
+    note: >-
+      First YOH commit.  Upper bound -- the real start is at or before this:
+      earlier work under another spelling of the name would be invisible
+      across the SVN conversion.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/0/ended/at_time
+    value: "2018-04-06"
+    bound: lower
+    kind: upstream-git
+    source: pkg-exppsy:psychopy
+    locator: 598d1ee5a
+    quote: 'BF: do not generate psychojs zip upon "clean"'
+    note: >-
+      Last YOH commit.  Lower bound -- involvement that left no commit would
+      not show here.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/0/roles/0
+    value: marcrel:ctb
+    kind: upstream-git
+    source: pkg-exppsy:psychopy
+    locator: 4178d2b09
+    quote: starting to add unit tests (for Yaro ;-) )
+    note: >-
+      Jon Peirce, 2009-10-02; the first commit under psychopy/tests.  Upstream
+      attributes the prompt to us, but it is Peirce's commit and does not say
+      we asked -- "we initiated unit testing" is an inference from it, not a
+      quotation of it.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/0/roles/0
+    value: marcrel:ctb
+    kind: upstream-git
+    source: pkg-exppsy:psychopy
+    locator: 6048ffd0b
+    quote: 'lib: added butterworth filters to filter.py (thanks to Yaroslav)'
+    note: >-
+      Jon Peirce, 2010-01-28 -- an algorithmic contribution routed through the
+      maintainer, invisible in a commit count.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/0/roles/0
+    value: marcrel:ctb
+    kind: upstream-git
+    source: pkg-exppsy:psychopy
+    locator: f89f153e8
+    quote: 'ENH(BIG): adding travis-ci.org and coveralls.io support'
+    note: >-
+      YOH, 2013-05-31, heading a burst of CI work -- better evidence of the
+      "we pushed testing here" story than the 2009 one-liner.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/1/started/at_time
+    value: "2009-06-19"
+    bound: upper
+    kind: debian-changelog
+    source: pkg-exppsy:psychopy-debmed/debian/changelog
+    locator: 1.00.04.dfsg-1
+    quote: '* Initial release (Closes: #532111)'
+    note: >-
+      YOH, 1.00.04.dfsg-1 -- the first RELEASED package.  The release date is
+      exact; as evidence for when packaging began it is an upper bound, since
+      the packaging work precedes the upload.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/1/ended/at_time
+    value: "2018-09-26"
+    bound: lower
+    kind: upstream-git
+    source: pkg-exppsy:psychopy-debmed
+    locator: e44b42c5e
+    quote: working through dependencies (might need changes/tuneup)
+    note: >-
+      Last YOH commit to the packaging, touching debian/control.  An earlier
+      draft said 2018-05-23 -- the last changelog TRAILER -- and missed three
+      later commits (7417072cb and eb5c9680d, 2018-05-25; this one).  A
+      trailer is one kind of artifact, not the newest one.  Still a lower
+      bound: formal Uploaders standing continues past it.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/1/ended/at_time
+    value: "2018-09-26"
+    bound: lower
+    kind: debian-changelog
+    source: pkg-exppsy:psychopy-debmed/debian/changelog
+    locator: YOH's last trailer
+    quote: ' -- Yaroslav Halchenko <debian@onerussian.com>  Wed, 23 May 2018 09:19:15 -0400'
+    note: >-
+      Kept as the weaker corroborating artifact, and as the reason the date
+      was wrong: this is where the first draft stopped looking.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/1/ended/object
+    value: xyzrins:organizations/debian-med
+    kind: debian-changelog
+    source: pkg-exppsy:psychopy-debmed/debian/changelog
+    locator: 280a3cf18
+    quote: Moved package to Debian Med team
+    note: >-
+      Andreas Tille, 2020-02-09, changing debian/control from
+      "Maintainer: NeuroDebian Team" to "Maintainer: Debian Med Packaging
+      Team".  This is the event itself, not a trace of it -- rule 2's third
+      row -- so no bound applies.  An earlier draft cited Tille's first
+      changelog trailer (2020-02-24) and wrote "the real handover sits
+      somewhere in that gap"; the gap was closable.  For symmetry, the
+      NeuroDebian Team line was itself set by YOH in 597aff8c1, 2010-06-25,
+      "moving under NeuroDebian umbrella".  64 changelog entries total, latest
+      2026-07-09: the package outlived our involvement, which is the point.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/2/started/at_time
+    value: "2008-04-23"
+    bound: upper
+    kind: debian-changelog
+    source: pkg-exppsy:psychopy-debmed/debian/changelog
+    locator: 0.93.5-1 UNRELEASED
+    quote: ' -- Michael Hanke <michael.hanke@gmail.com>  Wed, 23 Apr 2008 08:08:17 +0200'
+    note: >-
+      UNRELEASED.  Establishes that Hanke opened the package, not that a
+      package was released.  Upper bound -- the oldest surviving entry.
+    confidence: certain
+    captured: "2026-10-10"
+
+# Claims that are NOT asserted in the record.  Quarantined here with what
+# would settle them; promoting one means moving it into the record and giving
+# it an evidence entry above.
+pending:
+  - proposed_path: /associated_with/-
+    proposed_value:
+      schema_type: dlthings:Association
+      object: xyzrins:persons/yaroslav-halchenko
+      roles: [xyzrins:agent-roles/user]
+    kind: recollection
+    source: conversation 2026-10-10
+    quote: >-
+      we were at the inception and initiated unittesting (some time at Yale
+      hackathon IIRC, need to verify)
+    note: >-
+      Three sub-claims, all unsupported.  "At the inception" is contradicted
+      by /started/at_time above.  The venue is unsourced -- 4178d2b09 dates
+      the testing push to 2009-10-02 and names no venue.  And remaining a
+      PsychoPy user after the handover has no evidence in any checked source.
+    would_confirm: >-
+      PsychoPy mailing-list archives for 2009-09..2009-10, or a hackathon
+      announcement naming the venue; for the user claim, anything at all.
+    confidence: unverified
+    captured: "2026-10-10"

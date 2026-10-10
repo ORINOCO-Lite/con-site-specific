@@ -1,0 +1,15 @@
+annotations:
+  obo:NCIT_C54269: yaroslav.o.halchenko@oneukrainian.com
+  sio:SIO_001083: '2026-10-10T18:00:00.000000'
+description: 'Neural data outgrew the file-attachment model years ago -- single
+  experiments now run to terabytes, and the archives holding them have to stay readable
+  for decades, not for a grant cycle. The objective is archives that scale in both
+  directions: large enough for whole-brain electrophysiology and high-resolution
+  imaging, and reliable enough that a dataset deposited today can still be found,
+  cited, validated and downloaded long after the people who made it have moved on.
+  In practice that means versioned, standards-validated deposition (DANDI, EMBER,
+  OpenNeuro), content-addressed storage that does not depend on any single host,
+  and the egress to make the data actually usable rather than merely present.'
+pid: xyzrins:objectives/scalable-neural-archiving
+schema_type: xyzri:XYZObjective
+title: Scalable and reliable archiving of neural data

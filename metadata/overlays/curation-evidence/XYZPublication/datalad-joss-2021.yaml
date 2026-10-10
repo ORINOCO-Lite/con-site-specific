@@ -1,0 +1,21 @@
+# The Zotero importer vouches for /attributes and /characterized_by on this
+# record but not for /generated_by, so the publication date arrived with no
+# provenance of its own.  Confirmed against the registry rather than assumed.
+record: xyzrins:publications/datalad-joss-2021
+format: con-association-evidence-v1
+
+assertions:
+  - path: /generated_by/0/at_time
+    value: "2021-07-01"
+    bound: exact
+    kind: publication
+    source: https://doi.org/10.21105/joss.03262
+    locator: Crossref works metadata
+    quote: '"published": {"date-parts": [[2021, 7, 1]]}'
+    note: >-
+      Crossref gives issued, published and created all as 2021-07-01 for
+      "DataLad: distributed system for joint management of code, data, and
+      their relationship".  A registered publication date is a record of the
+      event, not a surviving trace of it, so `exact`.
+    confidence: certain
+    captured: "2026-10-10"
