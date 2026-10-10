@@ -1,0 +1,18 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://impressive.sourceforge.net
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Impressive
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Impressive
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: Impressive
+display_label: Impressive
+pid: xyzrins:projects/impressive
+schema_type: xyzri:XYZProject
+short_name: Impressive
+title: Impressive

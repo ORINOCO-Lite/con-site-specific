@@ -1,0 +1,34 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://con.github.io/tributors/
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: con/tributors is a Python library and GitHub Action to automate maintenance of
+    contributor attribution files. It updates all-contributors, Zenodo metadata (.zenodo.json),
+    and CodeMeta (codemeta.json) files in one go, using a shared .tributors cache that
+    maps GitHub logins to ORCID iDs and other persistent identifiers — so that contributor
+    records stay consistent and up-to-date across all metadata files with a single command.
+    For example, DataLad uses a dedicated GitHub Actions workflow powered by con/tributors
+    to automatically keep its contributor files current.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: con/tributors
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: con/tributors
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: con/tributors
+description: con/tributors is a Python library and GitHub Action to automate maintenance
+  of contributor attribution files. It updates all-contributors, Zenodo metadata (.zenodo.json),
+  and CodeMeta (codemeta.json) files in one go, using a shared .tributors cache that maps
+  GitHub logins to ORCID iDs and other persistent identifiers — so that contributor records
+  stay consistent and up-to-date across all metadata files with a single command. For
+  example, DataLad uses a dedicated GitHub Actions workflow powered by con/tributors to
+  automatically keep its contributor files current.
+display_label: con/tributors
+pid: xyzrins:projects/con-tributors
+schema_type: xyzri:XYZProject
+short_name: con/tributors
+title: con/tributors

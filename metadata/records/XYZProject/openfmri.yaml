@@ -1,0 +1,18 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://openfmri.org/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: OpenfMRI
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: OpenfMRI
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: OpenfMRI
+display_label: OpenfMRI
+pid: xyzrins:projects/openfmri
+schema_type: xyzri:XYZProject
+short_name: OpenfMRI
+title: OpenfMRI

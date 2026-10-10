@@ -1,0 +1,18 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://repronim.org/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: ReproNim
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: ReproNim
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: ReproNim
+display_label: ReproNim
+pid: xyzrins:projects/repronim
+schema_type: xyzri:XYZProject
+short_name: ReproNim
+title: ReproNim

@@ -1,0 +1,18 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://pandas.pydata.org/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Pandas
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Pandas
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: Pandas
+display_label: Pandas
+pid: xyzrins:projects/pandas
+schema_type: xyzri:XYZProject
+short_name: Pandas
+title: Pandas

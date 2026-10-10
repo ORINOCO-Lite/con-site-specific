@@ -1,0 +1,18 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://fsl.fmrib.ox.ac.uk
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: FSL
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: FSL
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: FSL
+display_label: FSL
+pid: xyzrins:projects/fsl
+schema_type: xyzri:XYZProject
+short_name: FSL
+title: FSL

@@ -1,0 +1,18 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://incf.org
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: INCF
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: INCF
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: INCF
+display_label: INCF
+pid: xyzrins:projects/incf
+schema_type: xyzri:XYZProject
+short_name: INCF
+title: INCF

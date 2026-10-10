@@ -1,0 +1,18 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://www.humanconnectome.org/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: HCP
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: HCP
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: HCP
+display_label: HCP
+pid: xyzrins:projects/hcp
+schema_type: xyzri:XYZProject
+short_name: HCP
+title: HCP

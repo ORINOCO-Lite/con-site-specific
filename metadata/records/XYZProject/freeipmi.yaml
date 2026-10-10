@@ -1,0 +1,18 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.gnu.org/software/freeipmi/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: FreeIPMI
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: FreeIPMI
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: FreeIPMI
+display_label: FreeIPMI
+pid: xyzrins:projects/freeipmi
+schema_type: xyzri:XYZProject
+short_name: FreeIPMI
+title: FreeIPMI

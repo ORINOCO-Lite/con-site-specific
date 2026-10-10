@@ -1,0 +1,18 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://brainlife.io/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: brainlife.io
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: brainlife.io
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: brainlife.io
+display_label: brainlife.io
+pid: xyzrins:projects/brainlife-io
+schema_type: xyzri:XYZProject
+short_name: brainlife.io
+title: brainlife.io

@@ -1,0 +1,18 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://nipy.org/nibabel/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Nibabel
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Nibabel
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: Nibabel
+display_label: Nibabel
+pid: xyzrins:projects/nibabel
+schema_type: xyzri:XYZProject
+short_name: Nibabel
+title: Nibabel

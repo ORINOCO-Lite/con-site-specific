@@ -1,0 +1,27 @@
+attributes:
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: con/fscacher
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: con/fscacher is a Python library providing a persistent, file-content-aware memoization
+    cache. Functions decorated with @cache.memoize_path are re-executed only when the
+    fingerprint (timestamps + size) of their file arguments changes — making it easy to
+    cache expensive operations on large file trees without stale results. It is used internally
+    by the DANDI client and other CON tools.
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: con/fscacher
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: con/fscacher
+description: con/fscacher is a Python library providing a persistent, file-content-aware
+  memoization cache. Functions decorated with @cache.memoize_path are re-executed only
+  when the fingerprint (timestamps + size) of their file arguments changes — making it
+  easy to cache expensive operations on large file trees without stale results. It is
+  used internally by the DANDI client and other CON tools.
+display_label: con/fscacher
+pid: xyzrins:projects/con-fscacher
+schema_type: xyzri:XYZProject
+short_name: con/fscacher
+title: con/fscacher

@@ -1,0 +1,18 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://www.xnat.org/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: XNAT
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: XNAT
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: XNAT
+display_label: XNAT
+pid: xyzrins:projects/xnat
+schema_type: xyzri:XYZProject
+short_name: XNAT
+title: XNAT

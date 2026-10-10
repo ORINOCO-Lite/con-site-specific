@@ -1,0 +1,32 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://stamped-principles.org
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: STAMPED is a set of seven principles, Self-containment, Tracking, Actionability,
+    Modularity, Portability, Ephemerality, and Distributability, for building research
+    objects that others can trust, rerun, and build upon. Each principle is a spectrum
+    from a practical minimum to an aspirational ideal, so adoption can be incremental
+    and start from existing practice. STAMPED grew out of YODA and comes with an interactive
+    checklist and worked examples.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: STAMPED Principles
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: STAMPED Principles
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: STAMPED Principles
+description: STAMPED is a set of seven principles, Self-containment, Tracking, Actionability,
+  Modularity, Portability, Ephemerality, and Distributability, for building research objects
+  that others can trust, rerun, and build upon. Each principle is a spectrum from a practical
+  minimum to an aspirational ideal, so adoption can be incremental and start from existing
+  practice. STAMPED grew out of YODA and comes with an interactive checklist and worked
+  examples.
+display_label: STAMPED Principles
+pid: xyzrins:projects/stamped-principles
+schema_type: xyzri:XYZProject
+short_name: STAMPED Principles
+title: STAMPED Principles
