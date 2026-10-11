@@ -1,3 +1,46 @@
+associated_with:
+- object: xyzrins:persons/joey-hess
+  roles:
+  - marcrel:led
+  - marcrel:cre
+  schema_type: dlthings:Association
+- identifiers:
+  - creator: xyzrins:projects/dandi
+    notation: https://git-annex.branchable.com/projects/dandi/
+    schema_type: dlthings:Identifier
+  object: xyzrins:projects/dandi
+  roles:
+  - marcrel:fnd
+  schema_type: dlthings:Association
+- identifiers:
+  - creator: xyzrins:projects/repronim
+    notation: https://git-annex.branchable.com/projects/repronim/
+    schema_type: dlthings:Identifier
+  object: xyzrins:projects/repronim
+  roles:
+  - marcrel:fnd
+  schema_type: dlthings:Association
+- identifiers:
+  - creator: xyzrins:projects/openneuro
+    notation: https://git-annex.branchable.com/projects/openneuro/
+    schema_type: dlthings:Identifier
+  object: xyzrins:projects/openneuro
+  roles:
+  - marcrel:fnd
+  schema_type: dlthings:Association
+- identifiers:
+  - creator: xyzrins:projects/datalad
+    notation: https://git-annex.branchable.com/projects/datalad/
+    schema_type: dlthings:Identifier
+  object: xyzrins:projects/datalad
+  roles:
+  - marcrel:fnd
+  schema_type: dlthings:Association
+- description: no funder page on git-annex.branchable.com
+  object: xyzrins:projects/ember
+  roles:
+  - marcrel:fnd
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
