@@ -18,6 +18,26 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: MyKrok
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<figure> <a href="https://mykrok.github.io/mykrok/"> <img src="/theme/img/3rd/mykrok_logo.svg"
+    alt="MyKrok" class="pull-right" style="width:80px;padding-left:5px;margin-top:-0.5em;"
+    /> </a> </figure> <p> <a href="https://github.com/mykrok/mykrok">MyKrok</a> (Ukrainian:
+    "мій крок" — "my step") is a CLI tool to incrementally back up fitness activities
+    from <a href="https://www.strava.com">Strava</a>, including GPS tracks, photos, comments,
+    and kudos. Backups are browsable offline through a built-in web frontend with interactive
+    maps and activity statistics — applying the same git-annex / open-data philosophy
+    of CON''s archival tools to personal fitness data. Try the <a href="https://mykrok.github.io/mykrok/">live
+    demo</a> with synthetic data. </p>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: mykrok
+- predicate: dlthings:logo_style
+  schema_type: dlthings:AttributeSpecification
+  value: width:80px;padding-left:5px;margin-top:-0.5em;
 description: 'MyKrok (Ukrainian: "мій крок" — "my step") is a CLI tool to incrementally
   back up fitness activities from Strava, including GPS tracks, photos, comments, and
   kudos. Backups are browsable offline through a built-in web frontend with interactive

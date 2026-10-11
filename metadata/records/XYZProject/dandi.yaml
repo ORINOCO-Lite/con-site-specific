@@ -25,9 +25,41 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: Distributed Archives for Neurophysiology Data Integration
-description: Platform for publishing, sharing, and processing neurophysiology data
-  supported by the BRAIN Initiative. Provides data upload and distribution with supplementary
-  client tools for data introspection and organization. Compliant with NWB standards.
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<figure> <a href="https://dandiarchive.org"><img src="/theme/img/3rd/dandi_logo.png"
+    alt="DANDI" class="pull-left" style="width:155px;padding-right:5px;margin-top:0em;"
+    /></a> </figure> <p> <a href="https://dandiarchive.org">Distributed Archives for Neurophysiology
+    Data Integration (DANDI)</a> is a platform for publishing, sharing, and processing
+    neurophysiology data funded by the <a href="https://braininitiative.nih.gov/">BRAIN
+    Initiative</a>. The platform is now available for data upload and distribution, and
+    provides supplementary client tools to assist with introspection and organization
+    of data following <a href="#nwb">NWB standard</a>. </p> <ul> <li> <a href="https://reporter.nih.gov/project-details/9795271">NIH
+    (#1R24MH117295-01A1)</a>. PIs: <a href="https://mcgovern.mit.edu/profile/satrajit-ghosh/"
+    class="centroid">S. Ghosh</a> and <a href="/whoweare#yaroslav_o_halchenko_" class="centroid">Y.O.
+    Halchenko</a> </li> <li> <a href="https://github.com/dandi/dandisets">dandisets</a>:
+    a <a href="#datalad">DataLad</a> superdataset providing unified access to all public
+    DANDI datasets, with individual dandisets also mirrored as DataLad datasets in the
+    <a href="https://github.com/dandisets">dandisets</a> GitHub organization and their
+    Zarr stores in <a href="https://github.com/dandizarrs">dandizarrs</a>. </li> <li>
+    <a href="https://github.com/dandi-compute">DANDI Compute</a>: an experimental reproducible-computing
+    initiative running processing pipelines directly on DANDI assets. The first campaign
+    applies the <a href="https://github.com/AllenNeuralDynamics/aind-ephys-pipeline">AIND
+    ephys pipeline</a> to electrophysiology dandisets, with orchestration code and a public
+    job queue hosted in the <a href="https://github.com/dandi-compute">dandi-compute</a>
+    GitHub organization. </li> </ul>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: dandi
+- predicate: dlthings:logo_style
+  schema_type: dlthings:AttributeSpecification
+  value: width:155px;padding-right:5px;margin-top:0em;
+description: Platform for publishing, sharing, and processing neurophysiology data supported
+  by the BRAIN Initiative. Provides data upload and distribution with supplementary client
+  tools for data introspection and organization. Compliant with NWB standards.
 display_label: DANDI
 part_of:
 - xyzrins:.

@@ -15,6 +15,22 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: distribits
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: <figure> <a href="https://www.distribits.live/"><img src="/theme/img/3rd/distribits_logo.webp"
+    alt="Distribits" class="pull-left" style="width:155px;padding-right:5px;margin-top:0em;"
+    /></a> </figure> <p> <a href="https://www.distribits.live">distribits</a> is a community
+    for enthusiasts of tools and workflows in the domain of distributed data. Take a look
+    at the <a href="https://www.distribits.live/topics/">topics</a> of past meeting contributions,
+    and <a href="https://www.youtube.com/playlist?list=PLEQHbPfpVqU6esVrgqjfYybY394XD2qf2">YouTube
+    videos from distribits 2024</a> to learn what is being talked about at distribits.
+    </p>
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Meetings
+- predicate: dlthings:logo_style
+  schema_type: dlthings:AttributeSpecification
+  value: width:155px;padding-right:5px;margin-top:0em;
 description: Community for enthusiasts of tools and workflows in the domain of distributed
   data.
 display_label: distribits

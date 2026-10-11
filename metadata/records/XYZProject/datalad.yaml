@@ -25,9 +25,9 @@ attributes:
   value: https://datalad.org
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: A data management platform that adapts open-source software distribution
-    models to address data-sharing limitations. Provides a versatile data management
-    platform using git-annex for large data tracking built on Git.
+  value: A data management platform that adapts open-source software distribution models
+    to address data-sharing limitations. Provides a versatile data management platform
+    using git-annex for large data tracking built on Git.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: DataLad
@@ -37,9 +37,51 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: DataLad
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<figure> <a href="https://datalad.org"> <img src="/theme/img/3rd/datalad_logo.png"
+    alt="DataLad" class="pull-right" style="width:255px;padding-left:5px;margin-top:-2em;"
+    /></a> </figure> <p> <a href="https://datalad.org">DataLad</a> is ongoing work funded
+    by NSF and German BMBF, to adapt the model of open-source software (OSS) distributions
+    to address the technical limitations of today''s data-sharing and provides a versatile
+    data management platform. It uses software for data tracking and deployment logistics
+    specialized for large data (<a class="reference external" href="http://git-annex.branchable.com">git-annex</a>)
+    built atop <a class="reference external" href="http://git-scm.com">Git</a>, the most
+    capable distributed version control system (dVCS) available today. DataLad provides
+    access to data available from various sources (e.g. lab or consortium web-sites such
+    as <a class="reference external" href="http://humanconnectome.org">humanconnectome.org</a>;
+    data sharing portals such as <a class="reference external" href="http://openneuro.org">openneuro.org</a>
+    and <a class="reference external" href="http://crcns.org">crcns.org</a>) through a
+    single interface. It enables students and scientists to operate on data using familiar
+    concepts, such as files and directories, while transparently managing data access
+    and authorization with underlying hosting providers. </p> <ul> <li> <a href="/whoweare#michael_hanke_"
+    class="centroid">M. Hanke</a>, <a href="/whoweare#matteo_visconti_di_oleggio_castello_"
+    class="centroid">M. Visconti di Oleggio Castello</a>, <a href="/whoweare#kyle_meyer_"
+    class="centroid">K. Meyer</a>, <a href="/whoweare#benjamin_poldrack_" class="centroid">B.
+    Poldrack</a>, and <a href="/whoweare#yaroslav_o_halchenko_" class="centroid">Y.O.
+    Halchenko</a> (2018). <a href="https://github.com/myyoda/poster/blob/master/ohbm2018.pdf">YODA:
+    YODA''s organigram on data analysis.</a> OHBM 2018, Singapore. </li> <li> <a href="https://doi.org/10.21105/joss.03262">JOSS
+    paper</a>: providing a succinct overview of DataLad </li> <li> <a href="http://handbook.datalad.org">DataLad
+    Handbook</a>: everything you need to know about DataLad. </li> <li> <a href="https://www.datalad.org/#supporting-datalad">Funding
+    support</a> </li> <li> <a href="https://github.com/datalad/datalad-container">datalad-container</a>:
+    a DataLad extension for working with containerized computational environments. It
+    enables version-controlled execution of containerized pipelines (Singularity, Docker,
+    and others) with full provenance capture as DataLad run records. </li> <li> <a href="https://github.com/datalad/datalad-fuse">datalad-fuse</a>:
+    a DataLad extension to read annexed files from their remote URLs without a full download
+    — sparse fetching via <a href="https://github.com/fsspec/filesystem_spec">fsspec</a>
+    and optional FUSE mount give immediate access to petabyte-scale datasets. </li> </ul>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: datalad
+- predicate: dlthings:logo_style
+  schema_type: dlthings:AttributeSpecification
+  value: width:255px;padding-left:5px;margin-top:-2em;
 description: A data management platform that adapts open-source software distribution
-  models to address data-sharing limitations. Provides a versatile data management
-  platform using git-annex for large data tracking built on Git.
+  models to address data-sharing limitations. Provides a versatile data management platform
+  using git-annex for large data tracking built on Git.
 display_label: DataLad
 part_of:
 - xyzrins:.

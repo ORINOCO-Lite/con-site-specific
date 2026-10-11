@@ -29,6 +29,34 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: HeuDiConv
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<p> <a href="https://github.com/nipy/heudiconv">HeuDiConv</a> is a flexible
+    DICOM converter for organizing brain imaging data into structured directory layouts.
+    As a part of the larger, NIH supported <a href="http://repronim.org">ReproNim</a>
+    effort, we are developing a HeuDiConv-based <a href="http://reproin.repronim.org">ReproIn</a>
+    solution for turnkey automatic conversion of all collected MR data to a collection
+    of the BIDS DataLad datasets. It includes a flexible BIDS-like specification how to
+    name scanning sequences in the scanner, and a <a href="https://github.com/nipy/heudiconv/blob/master/heudiconv/heuristics/reproin.py">HeuDiConv
+    reproin.py heuristic</a> to automate layout and conversion of the datasets. This solution
+    is deployed at <a href="https://www.dartmouth.edu/dbic/">DBIC (Dartmouth Brain Imaging
+    Center)</a>, it already facilitates reproducible research, data sharing, and uploads
+    to central archives such as NDA. </p> <ul> <li> Halchenko et al., (2024). HeuDiConv
+    — flexible DICOM conversion into structured directory layouts. Journal of Open Source
+    Software, 9(99), 5839 <a href="https://joss.theoj.org/papers/10.21105/joss.05839">DOI:
+    10.21105/joss.05839</a>. </li> <li> <a href="/whoweare#matteo_visconti_di_oleggio_castello_"
+    class="centroid">M. Visconti di Oleggio Castello</a>, James E. Dobson, Terry Sackett,
+    Chandana Kodiweera, <a href="/whoweare#james_v_haxby_" class="centroid">J.V. Haxby</a>,
+    M. Goncalves, S. Ghosh, <a href="/whoweare#yaroslav_o_halchenko_" class="centroid">Y.O.
+    Halchenko</a> <a href="http://goo.gl/Z3soj7">ReproIn: automatic generation of shareable,
+    version-controlled BIDS datasets from MR scanners</a>, OHBM 2018, Singapore. </li>
+    </ul>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: heudiconv
 description: Flexible DICOM converter for organizing brain imaging data into structured
   directory layouts. Includes the ReproIn component for turnkey automatic conversion of
   MR data to BIDS DataLad datasets.

@@ -24,6 +24,26 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: 'Neurodata Without Borders: Neurophysiology'
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<figure> <a href="https://www.nwb.org/"> <img src="/theme/img/3rd/nwb_logo.png"
+    alt="NWB" class="pull-left" style="width:255px;padding-right:10px;margin-top:0em;"
+    /> </a> </figure> <p> <a href="https://www.nwb.org/">NWB:N</a> is a data standard
+    for neurophysiology, providing neuroscientists with a common standard to share, archive,
+    use, and build analysis tools for neurophysiology data. It is a standard supported
+    by <a href="#bids">BIDS</a> and the <a href="#dandi">DANDI archive</a>. </p> <ul>
+    <li> <a href="https://github.com/con/nwb2bids">con/nwb2bids</a>: a CON tool to reorganize
+    NWB files into a BIDS directory layout, enabling NWB-format datasets to be shared
+    and validated using BIDS conventions. </li> </ul>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Standards
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: nwb
+- predicate: dlthings:logo_style
+  schema_type: dlthings:AttributeSpecification
+  value: width:255px;padding-right:10px;margin-top:0em;
 description: A data standard providing neuroscientists with a common standard to share,
   archive, use, and build analysis tools for neurophysiology data.
 display_label: NWB

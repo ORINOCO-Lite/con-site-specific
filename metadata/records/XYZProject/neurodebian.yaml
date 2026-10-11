@@ -13,9 +13,9 @@ attributes:
   value: https://neuro.debian.net
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: Turnkey research software platform for all aspects of the neuroscientific
-    research process. Provides a comprehensive suite of readily usable and fully integrated
-    software with robust testing and deployment infrastructure.
+  value: Turnkey research software platform for all aspects of the neuroscientific research
+    process. Provides a comprehensive suite of readily usable and fully integrated software
+    with robust testing and deployment infrastructure.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: NeuroDebian
@@ -25,6 +25,34 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: NeuroDebian
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<figure> <a href="https://neuro.debian.net"><img src="/theme/img/3rd/neurodebian_logo.jpg"
+    alt="neurodebian" class="pull-right" style="padding-left:10px;margin-top:-2em;" /></a>
+    </figure> <p> <a href="https://neuro.debian.net">NeuroDebian</a> is a turnkey research
+    software platform for all aspects of the neuroscientific research process. It takes
+    the ideas of the software hosting portals such as <a href="http://nitrc.org">NITRC</a>
+    on maximizing research transparency and methods sharing, one step further, by providing
+    a comprehensive suite of readily usable and fully integrated software with a robust
+    testing and deployment infrastructure. Consequently, it improves interoperability
+    among the tools and frees researchers from the burden of tedious installation or upgrade
+    procedures. That, in turn, positively affects their availability for actual research
+    activities, as well as their motivation to test new analysis tools and stay connected
+    with the latest methodological developments in the field. </p> <ul> <li> <a href="/whoweare#yaroslav_o_halchenko_"
+    class="centroid">Y.O. Halchenko</a> &amp; <a href="/whoweare#michael_hanke_" class="centroid">M.
+    Hanke</a> (2012). <a href="https://www.frontiersin.org/articles/10.3389/fninf.2012.00022/full">
+    Open is not enough. Let''s take the next step: An integrated, community-driven computing
+    platform for neuroscience.</a> Frontiers in Neuroinformatics, 6:22. <a href="http://haxbylab.dartmouth.edu/publications/HH12.pdf">[PDF]</a>
+    DOI: 10.3389/fninf.2012.00022 </li> </ul>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: neurodebian
+- predicate: dlthings:logo_style
+  schema_type: dlthings:AttributeSpecification
+  value: padding-left:10px;margin-top:-2em;
 description: Turnkey research software platform for all aspects of the neuroscientific
   research process. Provides a comprehensive suite of readily usable and fully integrated
   software with robust testing and deployment infrastructure.

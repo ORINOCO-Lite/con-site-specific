@@ -19,6 +19,26 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: ReproNim/containers
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: <figure> <a href="https://github.com/ReproNim/containers"><img src="/theme/img/3rd/repronim-containers-1-single-wide.svg"
+    alt="ReproNim/containers" class="pull-left" style="width:400px;padding-right:10px;margin-top:0em;"
+    /></a> </figure> <p> <a href="https://github.com/ReproNim/containers">ReproNim/containers</a>
+    is a <a href="#datalad">DataLad</a> dataset providing a ready-to-use "distribution"
+    of containerized neuroimaging environments (Singularity images) for reproducible analysis.
+    It collects a curated set of containers — including those used by <a href="#heudiconv">HeuDiConv</a>
+    and the broader <a href="http://repronim.org">ReproNim</a> ecosystem — and exposes
+    them via the <code>///repronim/containers</code> DataLad dataset path, making it trivial
+    to pin and share exact software environments alongside data and workflows. </p>
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: repronim-containers
+- predicate: dlthings:logo_style
+  schema_type: dlthings:AttributeSpecification
+  value: width:400px;padding-right:10px;margin-top:0em;
 description: ReproNim/containers is a DataLad dataset providing a ready-to-use "distribution"
   of containerized neuroimaging environments (Singularity images) for reproducible analysis.
   It collects a curated set of containers — including those used by HeuDiConv and the

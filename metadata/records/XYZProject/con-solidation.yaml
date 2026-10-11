@@ -21,6 +21,19 @@ attributes:
 - predicate: dlthings:code_repository
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/con/solidation
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: <p> <a href="https://github.com/con/solidation">con/solidation</a> is a command-line
+    tool that produces a Markdown activity report of recent issue and pull-request events
+    across a configured set of GitHub repositories and organizations. It is used by CON
+    to generate regular summaries of activity across the projects it maintains and contributes
+    to, enabling lightweight project-health monitoring without leaving the terminal. </p>
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: solidation
 description: con/solidation is a command-line tool that produces a Markdown activity report
   of recent issue and pull-request events across a configured set of GitHub repositories
   and organizations. It is used by CON to generate regular summaries of activity across
