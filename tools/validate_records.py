@@ -68,6 +68,17 @@ ARTIFACT_KINDS = {"site-git-history", "upstream-git", "debian-changelog"}
 # psychopy.yaml marked a first commit `lower` while marking a whois creation
 # date `upper`, which are the same situation pointing opposite ways.
 BOUND_RULE = {"started": "upper", "ended": "lower"}
+# ...but that assumes the artifact is a TRACE of the work.  Some artifacts are
+# a RECORD OF THE TRANSITION itself, and those behave differently: the commit
+# that first files someone under "Emeritus" is written AFTER they left, so it
+# is an upper bound on an `ended` where a last-commit date would be a lower
+# one.  An assertion says which it is; `trace` is the default because it is
+# the common case and the riskier one to get wrong.
+#
+#   trace   + started -> upper      trace  + ended -> lower
+#   record  + either  -> upper      (the record is written after the event)
+ARTIFACT_KIND = {"trace", "record"}
+RECORD_RULE = {"started": "upper", "ended": "upper"}
 # W3CISO8601, the subset things-properties actually accepts.
 CURIE = re.compile(r"^[A-Za-z][\w.-]*:\S")
 W3CISO = re.compile(
@@ -281,6 +292,14 @@ def main():
             kind = entry.get("kind")
             if kind not in KINDS:
                 fails.append((path, f"{pointer}: kind {kind!r} not one of {sorted(KINDS)}"))
+            if entry.get("artifact") not in (None,) and \
+                    entry.get("artifact") not in ARTIFACT_KIND:
+                fails.append((path, f"{pointer}: artifact "
+                                    f"{entry.get('artifact')!r} not one of "
+                                    f"{sorted(ARTIFACT_KIND)}"))
+            if entry.get("artifact") == "record" and not entry.get("note"):
+                fails.append((path, f"{pointer}: `artifact: record` inverts the "
+                                    f"bound rule, so it needs a `note` saying why"))
             if entry.get("confidence") not in CONF:
                 fails.append((path, f"{pointer}: confidence {entry.get('confidence')!r} "
                                     f"not one of {sorted(CONF)}"))
@@ -314,7 +333,14 @@ def main():
                     continue      # the importer vouches for this container
                 fails.append((path, f"{pointer} -- {RULE['backed']}"))
                 continue
-            want = BOUND_RULE.get(role)
+            # An entry that calls itself a record of the transition is judged
+            # by RECORD_RULE instead.  Mixed support falls back to the
+            # stricter trace rule, since one careless `record` should not
+            # excuse the rest.
+            arts_all = [e for e in entries if e.get("kind") in ARTIFACT_KINDS]
+            as_record = arts_all and all(e.get("artifact") == "record"
+                                         for e in arts_all)
+            want = (RECORD_RULE if as_record else BOUND_RULE).get(role)
             # The kind test used to sit INSIDE the all(), so a single
             # non-artifact entry beside the artifact ones made the conjunction
             # False and suppressed the rule entirely -- which is how a

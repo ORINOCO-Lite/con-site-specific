@@ -9,149 +9,290 @@ associated_with:
   roles:
   - marcrel:led
   schema_type: dlthings:Association
+  started:
+    at_time: '2015-07-22'
+    schema_type: dlthings:Start
 - object: xyzrins:persons/isaac-to
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
+  started:
+    at_time: '2023-01-03'
+    schema_type: dlthings:Start
 - object: xyzrins:persons/austin-macdonald
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
+  started:
+    at_time: '2022-12-07'
+    schema_type: dlthings:Start
 - object: xyzrins:persons/vadim-melnik
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
+  started:
+    at_time: '2024-10-16'
+    schema_type: dlthings:Start
 - object: xyzrins:persons/cody-baker
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
+  started:
+    at_time: '2025-04-28'
+    schema_type: dlthings:Start
 - object: xyzrins:persons/john-lee
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
-- object: xyzrins:persons/adina-wagner
+  started:
+    at_time: '2026-07-07'
+    schema_type: dlthings:Start
+- ended:
+    at_time: '2019-04-18'
+    schema_type: dlthings:End
+  object: xyzrins:persons/adina-wagner
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+  started:
+    at_time: '2018-11-19'
+    schema_type: dlthings:Start
 - object: xyzrins:persons/chris-markiewicz
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+  started:
+    at_time: '2026-07-08'
+    schema_type: dlthings:Start
 - object: xyzrins:persons/david-kennedy
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+  started:
+    at_time: '2024-06-07'
+    schema_type: dlthings:Start
 - object: xyzrins:persons/jean-baptiste-poline
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+  started:
+    at_time: '2024-06-07'
+    schema_type: dlthings:Start
 - object: xyzrins:persons/joey-hess
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+  started:
+    at_time: '2015-07-22'
+    schema_type: dlthings:Start
 - object: xyzrins:persons/franco-pestilli
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+  started:
+    at_time: '2020-06-27'
+    schema_type: dlthings:Start
 - object: xyzrins:persons/michael-hanke
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+  started:
+    at_time: '2015-07-22'
+    schema_type: dlthings:Start
 - object: xyzrins:persons/satrajit-ghosh
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+  started:
+    at_time: '2020-05-19'
+    schema_type: dlthings:Start
 - object: xyzrins:persons/jeremy-manning
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+  started:
+    at_time: '2017-02-15'
+    schema_type: dlthings:Start
 - object: xyzrins:persons/luke-chang
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+  started:
+    at_time: '2018-03-21'
+    schema_type: dlthings:Start
 - object: xyzrins:persons/matthijs-van-der-meer
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+  started:
+    at_time: '2017-10-03'
+    schema_type: dlthings:Start
 - object: xyzrins:persons/tor-wager
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
-- object: xyzrins:persons/jason-gors
+  started:
+    at_time: '2024-10-14'
+    schema_type: dlthings:Start
+- ended:
+    at_time: '2016-01-05'
+    schema_type: dlthings:End
+  object: xyzrins:persons/jason-gors
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
-- object: xyzrins:persons/gergana-alteva
+  started:
+    at_time: '2015-07-22'
+    schema_type: dlthings:Start
+- ended:
+    at_time: '2017-02-14'
+    schema_type: dlthings:End
+  object: xyzrins:persons/gergana-alteva
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
-- object: xyzrins:persons/oliver-contier
+  started:
+    at_time: '2017-01-25'
+    schema_type: dlthings:Start
+- ended:
+    at_time: '2018-11-19'
+    schema_type: dlthings:End
+  object: xyzrins:persons/oliver-contier
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
-- object: xyzrins:persons/matteo-visconti-di-oleggio-castello
+  started:
+    at_time: '2017-08-31'
+    schema_type: dlthings:Start
+- ended:
+    at_time: '2018-11-19'
+    schema_type: dlthings:End
+  object: xyzrins:persons/matteo-visconti-di-oleggio-castello
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
-- object: xyzrins:persons/samuel-nastase
+  started:
+    at_time: '2015-07-22'
+    schema_type: dlthings:Start
+- ended:
+    at_time: '2018-11-19'
+    schema_type: dlthings:End
+  object: xyzrins:persons/samuel-nastase
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
-- object: xyzrins:persons/nikolaas-oosterhof
+  started:
+    at_time: '2015-07-22'
+    schema_type: dlthings:Start
+- ended:
+    at_time: '2020-06-29'
+    schema_type: dlthings:End
+  object: xyzrins:persons/nikolaas-oosterhof
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
-- object: xyzrins:persons/matthew-brett
+  started:
+    at_time: '2015-08-17'
+    schema_type: dlthings:Start
+- ended:
+    at_time: '2020-06-29'
+    schema_type: dlthings:End
+  object: xyzrins:persons/matthew-brett
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
-- object: xyzrins:persons/kyle-meyer
+  started:
+    at_time: '2015-07-22'
+    schema_type: dlthings:Start
+- ended:
+    at_time: '2021-06-16'
+    schema_type: dlthings:End
+  object: xyzrins:persons/kyle-meyer
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
-- object: xyzrins:persons/chris-cheng
+  started:
+    at_time: '2018-01-13'
+    schema_type: dlthings:Start
+- ended:
+    at_time: '2021-06-16'
+    schema_type: dlthings:End
+  object: xyzrins:persons/chris-cheng
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
-- object: xyzrins:persons/soichi-hayashi
+  started:
+    at_time: '2018-11-19'
+    schema_type: dlthings:Start
+- ended:
+    at_time: '2024-06-07'
+    schema_type: dlthings:End
+  object: xyzrins:persons/soichi-hayashi
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
-- object: xyzrins:persons/vanessa-sochat
+  started:
+    at_time: '2020-06-27'
+    schema_type: dlthings:Start
+- ended:
+    at_time: '2024-06-07'
+    schema_type: dlthings:End
+  object: xyzrins:persons/vanessa-sochat
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
-- object: xyzrins:persons/benjamin-poldrack
+  started:
+    at_time: '2020-07-01'
+    schema_type: dlthings:Start
+- ended:
+    at_time: '2024-06-07'
+    schema_type: dlthings:End
+  object: xyzrins:persons/benjamin-poldrack
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
-- object: xyzrins:persons/horea-ioanas
+  started:
+    at_time: '2015-10-06'
+    schema_type: dlthings:Start
+- ended:
+    at_time: '2024-10-14'
+    schema_type: dlthings:End
+  object: xyzrins:persons/horea-ioanas
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
-- object: xyzrins:persons/john-wodder
+  started:
+    at_time: '2021-09-02'
+    schema_type: dlthings:Start
+- ended:
+    at_time: '2025-08-22'
+    schema_type: dlthings:End
+  object: xyzrins:persons/john-wodder
   roles:
   - marcrel:ctb
   - marcrel:swd
   schema_type: dlthings:Association
+  started:
+    at_time: '2021-04-04'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

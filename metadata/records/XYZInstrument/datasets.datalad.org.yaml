@@ -1,0 +1,22 @@
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/datalad/datasets.datalad.org
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: datasets.datalad.org
+description: Registry of public datasets provided by the DataLad project
+display_label: datasets.datalad.org
+generated_by:
+- at_time: '2017-10-06'
+  object: xyzrins:projects/datalad
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: datasets.datalad.org
+pid: xyzrins:instruments/datasets.datalad.org
+schema_type: xyzri:XYZInstrument
