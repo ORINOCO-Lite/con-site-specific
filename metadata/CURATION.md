@@ -253,6 +253,27 @@ overlays on the same record.
    to exclude the early work — see below — but to avoid claiming an
    institution signed a 2005 upload.
 
+## The site history is frozen
+
+`whoweare.html` and `projects.html` in con.org are now GENERATED from these
+records. So a `site-git-history` citation naming a commit after that point
+would be the records quoting themselves — and that is not hypothetical: an
+unsourced "Co-Director of the Center for Open Neuroscience" in a person
+record acquired a corroborating-looking hit in `hugo-sample/public/`, which
+is a page built from that very record.
+
+The freeze is **con.org 53e2e40, 2026-10-08**, titled "Move Jim into
+Affiliated Faculty to not overload with 'directorship'" — the last revision
+of those pages written by a person. `validate_records.py` enforces it: a
+`site-git-history` entry captured after that date must declare
+`predates_freeze: true`, and before adding one, check the claim:
+
+    git -C <con.org> merge-base --is-ancestor <locator> 53e2e40
+
+All 36 existing site-history commits were checked this way and all are
+ancestors. New facts about who joined when have to come from somewhere other
+than the pages the records now write.
+
 ## What the gates still cannot see
 
 Both gates check a record against the schema and against its own evidence.

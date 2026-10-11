@@ -19,6 +19,7 @@ assertions:
     value: "2015-07"
     bound: upper
     kind: site-git-history
+    predates_freeze: true
     source: con.org
     locator: b6d277c
     quote: Changes/pruning and tune up 1st wave

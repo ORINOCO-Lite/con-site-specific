@@ -54,6 +54,14 @@ KINDS = {"debian-changelog", "upstream-git", "site-git-history",
          "copyright-extract", "publication", "registry", "recollection"}
 CONF = {"certain", "approximate", "unverified"}
 BOUND = {"exact", "lower", "upper"}
+# The last HUMAN-AUTHORED revision of con.org's pages.  After this commit
+# whoweare.html and projects.html are generated from these records, so
+# site-git-history evidence taken from a later commit would be citing this
+# store back to itself.  Any new site-git-history locator must be an ancestor
+# of this.
+SITE_HISTORY_FREEZE = "53e2e40"
+SITE_HISTORY_FREEZE_DATE = "2026-10-08"
+
 # Evidence kinds that survive only as artifacts: a repository, a changelog, a
 # website's history.  They never show the event, only the oldest or newest
 # trace of it, so the direction of the uncertainty is fixed by which end of a
@@ -96,6 +104,10 @@ RULE = {
     "role": "a role must be an IRI (prefix:local), not a bare word",
     "pid": "a pid is the store's index key; two records cannot share one",
     "value": "an evidence `value` must equal what the record actually says",
+    "freeze": (f"site-git-history evidence captured after the pages became "
+               f"generated must name a commit at or before "
+               f"{SITE_HISTORY_FREEZE} and say so with `predates_freeze: true` "
+               f"-- otherwise the records are citing themselves"),
 }
 
 
@@ -288,6 +300,13 @@ def main():
             if "value" in entry and entry["value"] != found:
                 fails.append((path, f"{pointer}: evidence says {entry['value']!r}, "
                                     f"record has {found!r} -- {RULE['value']}"))
+
+            # A site-git-history citation must predate the freeze, or it is
+            # the records quoting themselves.
+            if (entry.get("kind") == "site-git-history"
+                    and entry.get("captured", "") > SITE_HISTORY_FREEZE_DATE
+                    and not entry.get("predates_freeze")):
+                fails.append((path, f"{pointer}: {RULE['freeze']}"))
 
             kind = entry.get("kind")
             if kind not in KINDS:

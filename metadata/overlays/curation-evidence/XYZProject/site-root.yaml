@@ -1,17 +1,22 @@
 # When people joined CON and when they left, derived from the site's own git
-# history: whoweare.html has 126 commits back to 2015-07-21, so the commit
+# history: whoweare.html has 128 commits back to 2015-07-21, so the commit
 # that first mentions someone bounds their arrival and the commit that first
 # files them under Emeritus bounds their departure.
 #
-# All UPPER bounds.  An edit to a website follows the fact it records -- the
-# page is updated after someone joins, not before -- so the real date is at
-# or earlier.
+# `started` entries are UPPER bounds -- the page is edited after someone
+# joins.  `ended` entries declare `artifact: record`, because a commit filing
+# someone under Emeritus is a record of the departure written after it, not
+# the newest trace of their work.
 #
-# NOT dated, deliberately: the five entries present in the very first commit
-# (YOH, plus Simon Tennant / Guilherme Santos / Mizar Fernandez / a literal
-# "TODO", which are leftovers of the buddycloud theme this repo was imported
-# from).  For those the date bounds the REPOSITORY, not the person, and
-# recording 2015-07-21 for YOH would say CON started when its website did.
+# NOT dated: the five entries present in the very first commit (YOH, plus
+# Simon Tennant / Guilherme Santos / Mizar Fernandez / a literal "TODO",
+# leftovers of the buddycloud theme this repo was imported from).  For those
+# the date bounds the REPOSITORY, not the person.
+#
+# NOT derived here: Michael Hanke and Chris Markiewicz, whose associations
+# are dated from the work rather than from the page, and Adina Wagner's
+# second association, which begins when con.org 85ca73100 moved her back from
+# Emeritus to Collaborators.
 record: xyzrins:.
 format: con-association-evidence-v1
 
@@ -20,25 +25,28 @@ assertions:
     value: "2015-07-22"
     bound: upper
     kind: site-git-history
+    predates_freeze: true
     source: con.org
     locator: f96d1de67
     quote: first commit to content/pages/whoweare.html naming James V. Haxby
     confidence: certain
     captured: "2026-10-10"
-  - path: /associated_with/24/started/at_time
+  - path: /associated_with/25/started/at_time
     value: "2015-07-22"
     bound: upper
     kind: site-git-history
+    predates_freeze: true
     source: con.org
     locator: f96d1de67
     quote: first commit to content/pages/whoweare.html naming Samuel Nastase
     confidence: certain
     captured: "2026-10-10"
-  - path: /associated_with/24/ended/at_time
+  - path: /associated_with/25/ended/at_time
     value: "2018-11-19"
     bound: upper
     artifact: record
     kind: site-git-history
+    predates_freeze: true
     source: con.org
     locator: 35e1b3473
     quote: first commit filing Samuel Nastase under Emeritus
@@ -47,20 +55,22 @@ assertions:
       edited after someone leaves, so the real date is at or earlier.
     confidence: certain
     captured: "2026-10-10"
-  - path: /associated_with/20/started/at_time
+  - path: /associated_with/21/started/at_time
     value: "2015-07-22"
     bound: upper
     kind: site-git-history
+    predates_freeze: true
     source: con.org
     locator: f96d1de67
     quote: first commit to content/pages/whoweare.html naming Jason Gors
     confidence: certain
     captured: "2026-10-10"
-  - path: /associated_with/20/ended/at_time
+  - path: /associated_with/21/ended/at_time
     value: "2016-01-05"
     bound: upper
     artifact: record
     kind: site-git-history
+    predates_freeze: true
     source: con.org
     locator: c03106f3c
     quote: first commit filing Jason Gors under Emeritus
@@ -69,7 +79,476 @@ assertions:
       edited after someone leaves, so the real date is at or earlier.
     confidence: certain
     captured: "2026-10-10"
+  - path: /associated_with/27/started/at_time
+    value: "2015-07-22"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: bbae4759e
+    quote: first commit to content/pages/whoweare.html naming Matthew Brett
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/27/ended/at_time
+    value: "2020-06-29"
+    bound: upper
+    artifact: record
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 85ca73100
+    quote: first commit filing Matthew Brett under Emeritus
+    note: >-
+      A record of the departure, not a trace of the work: the page is
+      edited after someone leaves, so the real date is at or earlier.
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/13/started/at_time
+    value: "2015-07-22"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: bbae4759e
+    quote: first commit to content/pages/whoweare.html naming Joey Hess
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/24/started/at_time
+    value: "2015-07-22"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 28612c2ba
+    quote: first commit to content/pages/whoweare.html naming Matteo Visconti di Oleggio Castello
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/24/ended/at_time
+    value: "2018-11-19"
+    bound: upper
+    artifact: record
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 35e1b3473
+    quote: first commit filing Matteo Visconti di Oleggio Castello under Emeritus
+    note: >-
+      A record of the departure, not a trace of the work: the page is
+      edited after someone leaves, so the real date is at or earlier.
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/26/started/at_time
+    value: "2015-08-17"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: d927466dd
+    quote: first commit to content/pages/whoweare.html naming Nikolaas N. Oosterhof
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/26/ended/at_time
+    value: "2020-06-29"
+    bound: upper
+    artifact: record
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 85ca73100
+    quote: first commit filing Nikolaas N. Oosterhof under Emeritus
+    note: >-
+      A record of the departure, not a trace of the work: the page is
+      edited after someone leaves, so the real date is at or earlier.
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/32/started/at_time
+    value: "2015-10-06"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 70bd5ba0b
+    quote: first commit to content/pages/whoweare.html naming Benjamin Poldrack
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/32/ended/at_time
+    value: "2024-06-07"
+    bound: upper
+    artifact: record
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: a8d81349e
+    quote: first commit filing Benjamin Poldrack under Emeritus
+    note: >-
+      A record of the departure, not a trace of the work: the page is
+      edited after someone leaves, so the real date is at or earlier.
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/22/started/at_time
+    value: "2017-01-25"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 4232cfdb7
+    quote: first commit to content/pages/whoweare.html naming Gergana Alteva
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/22/ended/at_time
+    value: "2017-02-14"
+    bound: upper
+    artifact: record
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: ae7a72f56
+    quote: first commit filing Gergana Alteva under Emeritus
+    note: >-
+      A record of the departure, not a trace of the work: the page is
+      edited after someone leaves, so the real date is at or earlier.
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/17/started/at_time
+    value: "2017-02-15"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 035f39e41
+    quote: first commit to content/pages/whoweare.html naming Jeremy Rothman Manning
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/23/started/at_time
+    value: "2017-08-31"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: e02d284de
+    quote: first commit to content/pages/whoweare.html naming Oliver Contier
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/23/ended/at_time
+    value: "2018-11-19"
+    bound: upper
+    artifact: record
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: ac6da5f60
+    quote: first commit filing Oliver Contier under Emeritus
+    note: >-
+      A record of the departure, not a trace of the work: the page is
+      edited after someone leaves, so the real date is at or earlier.
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/19/started/at_time
+    value: "2017-10-03"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 1362edcbe
+    quote: first commit to content/pages/whoweare.html naming Matthijs (Matt) van der Meer
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/28/started/at_time
+    value: "2018-01-13"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 8c00f2b59
+    quote: first commit to content/pages/whoweare.html naming Kyle Meyer
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/28/ended/at_time
+    value: "2021-06-16"
+    bound: upper
+    artifact: record
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: e10235e52
+    quote: first commit filing Kyle Meyer under Emeritus
+    note: >-
+      A record of the departure, not a trace of the work: the page is
+      edited after someone leaves, so the real date is at or earlier.
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/18/started/at_time
+    value: "2018-03-21"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 8076bbe06
+    quote: first commit to content/pages/whoweare.html naming Luke Chang
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/8/started/at_time
+    value: "2018-11-19"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 32977bebd
+    quote: first commit to content/pages/whoweare.html naming Adina Wagner
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/8/ended/at_time
+    value: "2019-04-18"
+    bound: upper
+    artifact: record
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 1c466a840
+    quote: first commit filing Adina Wagner under Emeritus
+    note: >-
+      A record of the departure, not a trace of the work: the page is
+      edited after someone leaves, so the real date is at or earlier.
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/29/started/at_time
+    value: "2018-11-19"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 056cf684c
+    quote: first commit to content/pages/whoweare.html naming Chris Cheng
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/29/ended/at_time
+    value: "2021-06-16"
+    bound: upper
+    artifact: record
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: cc79ed6b7
+    quote: first commit filing Chris Cheng under Emeritus
+    note: >-
+      A record of the departure, not a trace of the work: the page is
+      edited after someone leaves, so the real date is at or earlier.
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/16/started/at_time
+    value: "2020-05-19"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: c7ecdc2c0
+    quote: first commit to content/pages/whoweare.html naming Satrajit Ghosh
+    confidence: certain
+    captured: "2026-10-10"
   - path: /associated_with/14/started/at_time
+    value: "2020-06-27"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 61646624c
+    quote: first commit to content/pages/whoweare.html naming Franco Pestilli
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/30/started/at_time
+    value: "2020-06-27"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 61646624c
+    quote: first commit to content/pages/whoweare.html naming Soichi Hayashi
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/30/ended/at_time
+    value: "2024-06-07"
+    bound: upper
+    artifact: record
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: a8d81349e
+    quote: first commit filing Soichi Hayashi under Emeritus
+    note: >-
+      A record of the departure, not a trace of the work: the page is
+      edited after someone leaves, so the real date is at or earlier.
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/31/started/at_time
+    value: "2020-07-01"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: bd64109b8
+    quote: first commit to content/pages/whoweare.html naming Vanessa Sochat
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/31/ended/at_time
+    value: "2024-06-07"
+    bound: upper
+    artifact: record
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: a8d81349e
+    quote: first commit filing Vanessa Sochat under Emeritus
+    note: >-
+      A record of the departure, not a trace of the work: the page is
+      edited after someone leaves, so the real date is at or earlier.
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/34/started/at_time
+    value: "2021-04-04"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 5af279497
+    quote: first commit to content/pages/whoweare.html naming John Wodder
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/34/ended/at_time
+    value: "2025-08-22"
+    bound: upper
+    artifact: record
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: bc49f7262
+    quote: first commit filing John Wodder under Emeritus
+    note: >-
+      A record of the departure, not a trace of the work: the page is
+      edited after someone leaves, so the real date is at or earlier.
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/33/started/at_time
+    value: "2021-09-02"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 14cce21a1
+    quote: first commit to content/pages/whoweare.html naming Horea-Ioan Ioanas
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/33/ended/at_time
+    value: "2024-10-14"
+    bound: upper
+    artifact: record
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 9f4726f49
+    quote: first commit filing Horea-Ioan Ioanas under Emeritus
+    note: >-
+      A record of the departure, not a trace of the work: the page is
+      edited after someone leaves, so the real date is at or earlier.
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/4/started/at_time
+    value: "2022-12-07"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: e1de2fe73
+    quote: first commit to content/pages/whoweare.html naming Austin Macdonald
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/3/started/at_time
+    value: "2023-01-03"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 7629f8933
+    quote: first commit to content/pages/whoweare.html naming Isaac To
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/11/started/at_time
+    value: "2024-06-07"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: b3219432d
+    quote: first commit to content/pages/whoweare.html naming David N. Kennedy
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/12/started/at_time
+    value: "2024-06-07"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: b3219432d
+    quote: first commit to content/pages/whoweare.html naming Jean-Baptiste Poline
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/20/started/at_time
+    value: "2024-10-14"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 9f4726f49
+    quote: first commit to content/pages/whoweare.html naming Tor D. Wager
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/5/started/at_time
+    value: "2024-10-16"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: cdb059b42
+    quote: first commit to content/pages/whoweare.html naming Vadim Melnik
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/6/started/at_time
+    value: "2025-04-28"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: e1fbe2e40
+    quote: first commit to content/pages/whoweare.html naming Cody Baker
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/7/started/at_time
+    value: "2026-07-07"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 8b69853ca
+    quote: first commit to content/pages/whoweare.html naming John Lee
+    confidence: certain
+    captured: "2026-10-10"
+  - path: /associated_with/9/started/at_time
+    value: "2020-06-29"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: 85ca73100
+    quote: 'Move Nick and Brett to emeritus, Adina into collaborators'
+    note: >-
+      She came back.  An earlier version of this file ended her association
+      at the first Emeritus filing and stopped looking, so the store said she
+      had left while her own tier said Collaborator.  Two associations with a
+      gap, which is what actually happened -- intern, then fourteen months
+      away, then collaborator.
+    confidence: certain
+    captured: "2026-10-11"
+
+  - path: /associated_with/15/started/at_time
     value: "2007-10-25"
     bound: upper
     kind: upstream-git
@@ -84,411 +563,17 @@ assertions:
       five months later.  They end up the two top contributors, 4502 and 3131.
       Upper bound, and known to be loose: both were already in pkg-exppsy
       before that -- fsl/debian/changelog bottoms out 2005-12-28 under Hanke
-      and pyepl 2006-06-18 under YOH -- which matches the recollection of
-      "somewhere like 2006-2007".  A tighter date needs the pkg-exppsy SVN
-      history, not this repo.
+      and pyepl 2006-06-18 under YOH.
+      NOTE this dates a COLLABORATION, on a record whose subject is CON
+      itself, eight years before CON existed.  Rule 4's escape -- put pre-CON
+      work on the person as the object of a PROJECT record -- does not apply
+      when the subject record is the Center.  Flagged rather than silently
+      kept; the alternative is to move it to PyMVPA's record, where it would
+      read correctly but would stop ordering the Collaborators list.
     confidence: certain
     captured: "2026-10-11"
-  - path: /associated_with/26/started/at_time
-    value: "2015-07-22"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: bbae4759e
-    quote: first commit to content/pages/whoweare.html naming Matthew Brett
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/26/ended/at_time
-    value: "2020-06-29"
-    bound: upper
-    artifact: record
-    kind: site-git-history
-    source: con.org
-    locator: 85ca73100
-    quote: first commit filing Matthew Brett under Emeritus
-    note: >-
-      A record of the departure, not a trace of the work: the page is
-      edited after someone leaves, so the real date is at or earlier.
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/12/started/at_time
-    value: "2015-07-22"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: bbae4759e
-    quote: first commit to content/pages/whoweare.html naming Joey Hess
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/23/started/at_time
-    value: "2015-07-22"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: 28612c2ba
-    quote: first commit to content/pages/whoweare.html naming Matteo Visconti di Oleggio Castello
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/23/ended/at_time
-    value: "2018-11-19"
-    bound: upper
-    artifact: record
-    kind: site-git-history
-    source: con.org
-    locator: 35e1b3473
-    quote: first commit filing Matteo Visconti di Oleggio Castello under Emeritus
-    note: >-
-      A record of the departure, not a trace of the work: the page is
-      edited after someone leaves, so the real date is at or earlier.
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/25/started/at_time
-    value: "2015-08-17"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: d927466dd
-    quote: first commit to content/pages/whoweare.html naming Nikolaas N. Oosterhof
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/25/ended/at_time
-    value: "2020-06-29"
-    bound: upper
-    artifact: record
-    kind: site-git-history
-    source: con.org
-    locator: 85ca73100
-    quote: first commit filing Nikolaas N. Oosterhof under Emeritus
-    note: >-
-      A record of the departure, not a trace of the work: the page is
-      edited after someone leaves, so the real date is at or earlier.
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/31/started/at_time
-    value: "2015-10-06"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: 70bd5ba0b
-    quote: first commit to content/pages/whoweare.html naming Benjamin Poldrack
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/31/ended/at_time
-    value: "2024-06-07"
-    bound: upper
-    artifact: record
-    kind: site-git-history
-    source: con.org
-    locator: a8d81349e
-    quote: first commit filing Benjamin Poldrack under Emeritus
-    note: >-
-      A record of the departure, not a trace of the work: the page is
-      edited after someone leaves, so the real date is at or earlier.
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/21/started/at_time
-    value: "2017-01-25"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: 4232cfdb7
-    quote: first commit to content/pages/whoweare.html naming Gergana Alteva
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/21/ended/at_time
-    value: "2017-02-14"
-    bound: upper
-    artifact: record
-    kind: site-git-history
-    source: con.org
-    locator: ae7a72f56
-    quote: first commit filing Gergana Alteva under Emeritus
-    note: >-
-      A record of the departure, not a trace of the work: the page is
-      edited after someone leaves, so the real date is at or earlier.
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/16/started/at_time
-    value: "2017-02-15"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: 035f39e41
-    quote: first commit to content/pages/whoweare.html naming Jeremy Rothman Manning
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/22/started/at_time
-    value: "2017-08-31"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: e02d284de
-    quote: first commit to content/pages/whoweare.html naming Oliver Contier
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/22/ended/at_time
-    value: "2018-11-19"
-    bound: upper
-    artifact: record
-    kind: site-git-history
-    source: con.org
-    locator: ac6da5f60
-    quote: first commit filing Oliver Contier under Emeritus
-    note: >-
-      A record of the departure, not a trace of the work: the page is
-      edited after someone leaves, so the real date is at or earlier.
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/18/started/at_time
-    value: "2017-10-03"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: 1362edcbe
-    quote: first commit to content/pages/whoweare.html naming Matthijs (Matt) van der Meer
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/27/started/at_time
-    value: "2018-01-13"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: 8c00f2b59
-    quote: first commit to content/pages/whoweare.html naming Kyle Meyer
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/27/ended/at_time
-    value: "2021-06-16"
-    bound: upper
-    artifact: record
-    kind: site-git-history
-    source: con.org
-    locator: e10235e52
-    quote: first commit filing Kyle Meyer under Emeritus
-    note: >-
-      A record of the departure, not a trace of the work: the page is
-      edited after someone leaves, so the real date is at or earlier.
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/17/started/at_time
-    value: "2018-03-21"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: 8076bbe06
-    quote: first commit to content/pages/whoweare.html naming Luke Chang
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/8/started/at_time
-    value: "2018-11-19"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: 32977bebd
-    quote: first commit to content/pages/whoweare.html naming Adina Wagner
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/28/started/at_time
-    value: "2018-11-19"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: 056cf684c
-    quote: first commit to content/pages/whoweare.html naming Chris Cheng
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/28/ended/at_time
-    value: "2021-06-16"
-    bound: upper
-    artifact: record
-    kind: site-git-history
-    source: con.org
-    locator: cc79ed6b7
-    quote: first commit filing Chris Cheng under Emeritus
-    note: >-
-      A record of the departure, not a trace of the work: the page is
-      edited after someone leaves, so the real date is at or earlier.
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/15/started/at_time
-    value: "2020-05-19"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: c7ecdc2c0
-    quote: first commit to content/pages/whoweare.html naming Satrajit Ghosh
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/13/started/at_time
-    value: "2020-06-27"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: 61646624c
-    quote: first commit to content/pages/whoweare.html naming Franco Pestilli
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/29/started/at_time
-    value: "2020-06-27"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: 61646624c
-    quote: first commit to content/pages/whoweare.html naming Soichi Hayashi
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/29/ended/at_time
-    value: "2024-06-07"
-    bound: upper
-    artifact: record
-    kind: site-git-history
-    source: con.org
-    locator: a8d81349e
-    quote: first commit filing Soichi Hayashi under Emeritus
-    note: >-
-      A record of the departure, not a trace of the work: the page is
-      edited after someone leaves, so the real date is at or earlier.
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/30/started/at_time
-    value: "2020-07-01"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: bd64109b8
-    quote: first commit to content/pages/whoweare.html naming Vanessa Sochat
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/30/ended/at_time
-    value: "2024-06-07"
-    bound: upper
-    artifact: record
-    kind: site-git-history
-    source: con.org
-    locator: a8d81349e
-    quote: first commit filing Vanessa Sochat under Emeritus
-    note: >-
-      A record of the departure, not a trace of the work: the page is
-      edited after someone leaves, so the real date is at or earlier.
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/33/started/at_time
-    value: "2021-04-04"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: 5af279497
-    quote: first commit to content/pages/whoweare.html naming John Wodder
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/33/ended/at_time
-    value: "2025-08-22"
-    bound: upper
-    artifact: record
-    kind: site-git-history
-    source: con.org
-    locator: bc49f7262
-    quote: first commit filing John Wodder under Emeritus
-    note: >-
-      A record of the departure, not a trace of the work: the page is
-      edited after someone leaves, so the real date is at or earlier.
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/32/started/at_time
-    value: "2021-09-02"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: 14cce21a1
-    quote: first commit to content/pages/whoweare.html naming Horea-Ioan Ioanas
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/32/ended/at_time
-    value: "2024-10-14"
-    bound: upper
-    artifact: record
-    kind: site-git-history
-    source: con.org
-    locator: 9f4726f49
-    quote: first commit filing Horea-Ioan Ioanas under Emeritus
-    note: >-
-      A record of the departure, not a trace of the work: the page is
-      edited after someone leaves, so the real date is at or earlier.
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/4/started/at_time
-    value: "2022-12-07"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: e1de2fe73
-    quote: first commit to content/pages/whoweare.html naming Austin Macdonald
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/3/started/at_time
-    value: "2023-01-03"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: 7629f8933
-    quote: first commit to content/pages/whoweare.html naming Isaac To
-    confidence: certain
-    captured: "2026-10-10"
+
   - path: /associated_with/10/started/at_time
-    value: "2024-06-07"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: b3219432d
-    quote: first commit to content/pages/whoweare.html naming David N. Kennedy
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/11/started/at_time
-    value: "2024-06-07"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: b3219432d
-    quote: first commit to content/pages/whoweare.html naming Jean-Baptiste Poline
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/19/started/at_time
-    value: "2024-10-14"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: 9f4726f49
-    quote: first commit to content/pages/whoweare.html naming Tor D. Wager
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/5/started/at_time
-    value: "2024-10-16"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: cdb059b42
-    quote: first commit to content/pages/whoweare.html naming Vadim Melnik
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/6/started/at_time
-    value: "2025-04-28"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: e1fbe2e40
-    quote: first commit to content/pages/whoweare.html naming Cody Baker
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/7/started/at_time
-    value: "2026-07-07"
-    bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: 8b69853ca
-    quote: first commit to content/pages/whoweare.html naming John Lee
-    confidence: certain
-    captured: "2026-10-10"
-  - path: /associated_with/9/started/at_time
     value: "2019-09-18"
     bound: upper
     kind: upstream-git
@@ -496,11 +581,9 @@ assertions:
     locator: oldest effigies commit
     quote: 'PIN: Nipype master'
     note: >-
-      First contribution to a CON-led project.  Upper bound, and loose: Chris
-      Markiewicz and YOH were already both committing to nibabel from
-      2012-06-25, and to bids-specification from 2019-02-15, so co-presence
-      predates working together on our own code.  The recollection is "likely
-      2020 or so" with an exact date to follow; this is the earliest thing
-      that is checkable now.
+      First contribution to a CON-led project.  Upper bound and loose: Chris
+      Markiewicz and YOH were both committing to nibabel from 2012-06-25 and
+      to bids-specification from 2019-02-15.  The recollection is "likely
+      2020 or so" with an exact date to follow.
     confidence: approximate
     captured: "2026-10-11"

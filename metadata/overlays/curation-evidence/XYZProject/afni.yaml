@@ -1,0 +1,19 @@
+record: xyzrins:projects/afni
+format: con-association-evidence-v1
+
+assertions:
+  - path: /associated_with/0/started/at_time
+    value: "2020-01-10"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/afni/afni
+    locator: oldest leej3 commit
+    quote: fix makefile bug
+    note: >-
+      399 commits to 2026-08-28, so still active.  Recorded because the
+      collaboration with John Lee runs through AFNI -- build and CMake
+      infrastructure -- for six years before he appears among the Centroids
+      on 2026-07-07.  The CON association is dated from the page; this is
+      where the earlier work actually is.
+    confidence: certain
+    captured: "2026-10-11"

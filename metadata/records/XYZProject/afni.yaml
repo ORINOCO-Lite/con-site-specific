@@ -1,3 +1,11 @@
+associated_with:
+- object: xyzrins:persons/john-lee
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2020-01-10'
+    schema_type: dlthings:Start
 attributes:
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
