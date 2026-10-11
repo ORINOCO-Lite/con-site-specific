@@ -17,9 +17,9 @@ attributes:
   value: https://github.com/nipy/heudiconv
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: Flexible DICOM converter for organizing brain imaging data into structured
-    directory layouts. Includes the ReproIn component for turnkey automatic conversion
-    of MR data to BIDS DataLad datasets.
+  value: Flexible DICOM converter for organizing brain imaging data into structured directory
+    layouts. Includes the ReproIn component for turnkey automatic conversion of MR data
+    to BIDS DataLad datasets.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: HeuDiConv / ReproIn
@@ -30,8 +30,8 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: HeuDiConv
 description: Flexible DICOM converter for organizing brain imaging data into structured
-  directory layouts. Includes the ReproIn component for turnkey automatic conversion
-  of MR data to BIDS DataLad datasets.
+  directory layouts. Includes the ReproIn component for turnkey automatic conversion of
+  MR data to BIDS DataLad datasets.
 display_label: HeuDiConv / ReproIn
 part_of:
 - xyzrins:.
