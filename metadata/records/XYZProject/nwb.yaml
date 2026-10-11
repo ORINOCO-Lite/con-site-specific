@@ -46,7 +46,7 @@ attributes:
   value: width:255px;padding-right:10px;margin-top:0em;
 description: A data standard providing neuroscientists with a common standard to share,
   archive, use, and build analysis tools for neurophysiology data.
-display_label: NWB
+display_label: 'Neurodata Without Borders: Neurophysiology (NWB:N)'
 pid: xyzrins:projects/nwb
 schema_type: xyzri:XYZProject
 short_name: NWB
