@@ -3,6 +3,17 @@ associated_with:
   roles:
   - marcrel:led
   schema_type: dlthings:Association
+- description: Past work on ReproStim.
+  ended:
+    at_time: '2024-03-26'
+    schema_type: dlthings:End
+  object: xyzrins:persons/horea-ioanas
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2023-05-05'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

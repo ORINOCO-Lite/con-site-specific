@@ -1,0 +1,35 @@
+associated_with:
+- description: 1 commit and 26 issues or pull requests.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- description: 5 commits and 15 issues or pull requests.
+  object: xyzrins:persons/austin-macdonald
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/nipoppy/nipoppy
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Lightweight framework for organising and processing neuroimaging and clinical
+    data, built on BIDS.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Nipoppy
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/nipoppy/nipoppy
+description: Lightweight framework for organising and processing neuroimaging and clinical
+  data, built on BIDS.
+display_label: Nipoppy
+pid: xyzrins:projects/nipoppy
+schema_type: xyzri:XYZProject
+short_name: Nipoppy
+started:
+  at_time: '2022-03-04'
+  schema_type: dlthings:Start
+title: Nipoppy

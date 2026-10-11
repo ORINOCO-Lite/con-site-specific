@@ -1,0 +1,40 @@
+associated_with:
+- description: 28 commits and 79 issues or pull requests.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- description: 1 issue or pull requests.
+  object: xyzrins:persons/austin-macdonald
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- description: 3 issues or pull requests.
+  object: xyzrins:persons/horea-ioanas
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/ReproNim/neurodocker
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Generates custom Docker and Singularity images for neuroimaging software, and
+    minimizes existing ones.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Neurodocker
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/ReproNim/neurodocker
+description: Generates custom Docker and Singularity images for neuroimaging software,
+  and minimizes existing ones.
+display_label: Neurodocker
+pid: xyzrins:projects/neurodocker
+schema_type: xyzri:XYZProject
+short_name: Neurodocker
+started:
+  at_time: '2017-04-18'
+  schema_type: dlthings:Start
+title: Neurodocker

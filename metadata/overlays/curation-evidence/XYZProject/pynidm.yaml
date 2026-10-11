@@ -1,0 +1,19 @@
+record: xyzrins:projects/pynidm
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2017-05-10"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/repos/incf-nidash/PyNIDM
+    locator: created_at
+    quote: '"created_at": "2017-05-10T..."'
+    note: >-
+      A tool ReproNim lists and CON takes part in, not one CON leads.  The
+      involvement was counted from BOTH commits and issue or pull-request
+      participation, because for several of these the contribution is
+      review and problem-reporting rather than code: yaroslav-halchenko 79 commits / 63 issues-or-PRs.  No record is
+      made for a person with neither.
+    confidence: certain
+    captured: "2026-10-11"

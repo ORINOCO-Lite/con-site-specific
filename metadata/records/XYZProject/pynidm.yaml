@@ -1,0 +1,30 @@
+associated_with:
+- description: 79 commits and 63 issues or pull requests.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/incf-nidash/PyNIDM
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Python APIs and tools for working with NIDM documents -- the implementation side
+    of the Neuroimaging Data Model.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: PyNIDM
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/incf-nidash/PyNIDM
+description: Python APIs and tools for working with NIDM documents -- the implementation
+  side of the Neuroimaging Data Model.
+display_label: PyNIDM
+pid: xyzrins:projects/pynidm
+schema_type: xyzri:XYZProject
+short_name: PyNIDM
+started:
+  at_time: '2017-05-10'
+  schema_type: dlthings:Start
+title: PyNIDM
