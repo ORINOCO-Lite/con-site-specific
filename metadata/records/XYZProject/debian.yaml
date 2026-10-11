@@ -1,0 +1,39 @@
+associated_with:
+- description: Debian Developer; maintains and uploads packages, and is an uploader on
+    37 Debian Med packages.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - xyzrins:agent-roles/debian-packager
+  schema_type: dlthings:Association
+  started:
+    at_time: '2005-07-04'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - xyzrins:agent-roles/debian-packager
+  schema_type: dlthings:Association
+  started:
+    at_time: '2005-12-28'
+    schema_type: dlthings:Start
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.debian.org
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Volunteer project packaging and integrating free software.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Debian
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborating projects
+description: 'The universal operating system: a volunteer project that packages and integrates
+  free software, with a social contract and a technical policy older than most of what
+  it ships. Not CON''s project -- the community CON''s practice was learned in, and still
+  packages into.'
+display_label: Debian
+pid: xyzrins:projects/debian
+schema_type: xyzri:XYZProject
+short_name: Debian
+title: Debian

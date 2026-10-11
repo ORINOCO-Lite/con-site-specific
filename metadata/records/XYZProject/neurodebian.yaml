@@ -63,6 +63,7 @@ description: Turnkey research software platform for all aspects of the neuroscie
 display_label: NeuroDebian
 part_of:
 - xyzrins:.
+- xyzrins:projects/debian
 pid: xyzrins:projects/neurodebian
 schema_type: xyzri:XYZProject
 short_name: NeuroDebian
