@@ -63,4 +63,7 @@ part_of:
 pid: xyzrins:projects/open-brain-consent
 schema_type: xyzri:XYZProject
 short_name: Open Brain Consent
+started:
+  at_time: '2015-02-20'
+  schema_type: dlthings:Start
 title: Open Brain Consent

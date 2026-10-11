@@ -45,4 +45,7 @@ part_of:
 pid: xyzrins:projects/con-solidation
 schema_type: xyzri:XYZProject
 short_name: con/solidation
+started:
+  at_time: '2023-02-14'
+  schema_type: dlthings:Start
 title: con/solidation

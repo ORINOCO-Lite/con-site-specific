@@ -42,4 +42,7 @@ part_of:
 pid: xyzrins:projects/con-duct
 schema_type: xyzri:XYZProject
 short_name: duct
+started:
+  at_time: '2024-04-06'
+  schema_type: dlthings:Start
 title: con/duct

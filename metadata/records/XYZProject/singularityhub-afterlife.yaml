@@ -19,4 +19,7 @@ part_of:
 pid: xyzrins:projects/singularityhub-afterlife
 schema_type: xyzri:XYZProject
 short_name: SingularityHub
+started:
+  at_time: '2017-01-24'
+  schema_type: dlthings:Start
 title: SingularityHub (after-life)

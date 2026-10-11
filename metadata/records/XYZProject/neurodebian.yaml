@@ -62,4 +62,7 @@ part_of:
 pid: xyzrins:projects/neurodebian
 schema_type: xyzri:XYZProject
 short_name: NeuroDebian
+started:
+  at_time: '2010-11-18'
+  schema_type: dlthings:Start
 title: NeuroDebian

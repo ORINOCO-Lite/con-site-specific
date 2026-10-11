@@ -50,4 +50,7 @@ display_label: NWB
 pid: xyzrins:projects/nwb
 schema_type: xyzri:XYZProject
 short_name: NWB
+started:
+  at_time: '2017-08-03'
+  schema_type: dlthings:Start
 title: 'Neurodata Without Borders: Neurophysiology'

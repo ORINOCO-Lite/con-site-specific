@@ -54,4 +54,7 @@ part_of:
 pid: xyzrins:projects/reproman
 schema_type: xyzri:XYZProject
 short_name: ReproMan
+started:
+  at_time: '2016-04-28'
+  schema_type: dlthings:Start
 title: ReproMan - Reproducible Computational Environments Manager

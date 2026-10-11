@@ -66,4 +66,7 @@ part_of:
 pid: xyzrins:projects/heudiconv
 schema_type: xyzri:XYZProject
 short_name: HeuDiConv
+started:
+  at_time: '2015-09-17'
+  schema_type: dlthings:Start
 title: HeuDiConv

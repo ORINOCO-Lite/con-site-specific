@@ -49,4 +49,7 @@ part_of:
 pid: xyzrins:projects/mykrok
 schema_type: xyzri:XYZProject
 short_name: MyKrok
+started:
+  at_time: '2025-12-19'
+  schema_type: dlthings:Start
 title: MyKrok

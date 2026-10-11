@@ -39,4 +39,7 @@ part_of:
 pid: xyzrins:projects/con-tinuous
 schema_type: xyzri:XYZProject
 short_name: tinuous
+started:
+  at_time: '2021-01-29'
+  schema_type: dlthings:Start
 title: con/tinuous

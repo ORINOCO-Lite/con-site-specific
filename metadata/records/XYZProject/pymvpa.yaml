@@ -63,4 +63,7 @@ part_of:
 pid: xyzrins:projects/pymvpa
 schema_type: xyzri:XYZProject
 short_name: PyMVPA
+started:
+  at_time: '2009-10-07'
+  schema_type: dlthings:Start
 title: PyMVPA

@@ -60,4 +60,7 @@ display_label: BIDS
 pid: xyzrins:projects/bids
 schema_type: xyzri:XYZProject
 short_name: BIDS
+started:
+  at_time: '2018-09-26'
+  schema_type: dlthings:Start
 title: Brain Imaging Data Structure

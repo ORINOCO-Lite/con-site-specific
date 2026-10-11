@@ -88,4 +88,7 @@ part_of:
 pid: xyzrins:projects/datalad
 schema_type: xyzri:XYZProject
 short_name: DataLad
+started:
+  at_time: '2013-11-01'
+  schema_type: dlthings:Start
 title: DataLad

@@ -58,4 +58,7 @@ part_of:
 pid: xyzrins:projects/duecredit
 schema_type: xyzri:XYZProject
 short_name: DueCredit
+started:
+  at_time: '2015-04-15'
+  schema_type: dlthings:Start
 title: DueCredit

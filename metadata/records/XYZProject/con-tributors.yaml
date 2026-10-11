@@ -53,4 +53,7 @@ part_of:
 pid: xyzrins:projects/con-tributors
 schema_type: xyzri:XYZProject
 short_name: con/tributors
+started:
+  at_time: '2020-06-27'
+  schema_type: dlthings:Start
 title: con/tributors

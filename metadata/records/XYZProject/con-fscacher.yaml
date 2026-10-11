@@ -46,4 +46,7 @@ part_of:
 pid: xyzrins:projects/con-fscacher
 schema_type: xyzri:XYZProject
 short_name: con/fscacher
+started:
+  at_time: '2020-05-12'
+  schema_type: dlthings:Start
 title: con/fscacher

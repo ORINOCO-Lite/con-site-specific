@@ -40,4 +40,7 @@ part_of:
 pid: xyzrins:projects/pyout
 schema_type: xyzri:XYZProject
 short_name: pyout
+started:
+  at_time: '2017-12-19'
+  schema_type: dlthings:Start
 title: pyout

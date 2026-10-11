@@ -48,4 +48,7 @@ part_of:
 pid: xyzrins:projects/mechababs
 schema_type: xyzri:XYZProject
 short_name: mechababs
+started:
+  at_time: '2026-03-20'
+  schema_type: dlthings:Start
 title: mechababs

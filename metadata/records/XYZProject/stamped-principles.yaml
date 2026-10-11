@@ -69,4 +69,7 @@ part_of:
 pid: xyzrins:projects/stamped-principles
 schema_type: xyzri:XYZProject
 short_name: STAMPED Principles
+started:
+  at_time: '2026-02-06'
+  schema_type: dlthings:Start
 title: STAMPED Principles

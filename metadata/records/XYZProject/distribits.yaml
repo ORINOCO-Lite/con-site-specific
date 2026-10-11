@@ -39,4 +39,7 @@ part_of:
 pid: xyzrins:projects/distribits
 schema_type: xyzri:XYZProject
 short_name: distribits
+started:
+  at_time: '2023-07-10'
+  schema_type: dlthings:Start
 title: distribits

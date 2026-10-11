@@ -66,4 +66,7 @@ part_of:
 pid: xyzrins:projects/dandi
 schema_type: xyzri:XYZProject
 short_name: DANDI
+started:
+  at_time: '2020-09-11'
+  schema_type: dlthings:Start
 title: Distributed Archives for Neurophysiology Data Integration
