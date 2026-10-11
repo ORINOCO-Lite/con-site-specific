@@ -93,6 +93,18 @@ influenced_by:
   roles:
   - FRAPO:Funding
   schema_type: xyzri:XYZInfluence
+- object: xyzrins:grants/nih-repronim
+  roles:
+  - FRAPO:Funding
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:grants/nih-dandi
+  roles:
+  - FRAPO:Funding
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:grants/nih-ember
+  roles:
+  - FRAPO:Funding
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/datalad
