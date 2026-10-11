@@ -36,7 +36,7 @@ traceback. The curation gate passed a record violating three of the six rules
 it advertised. Both are now fault-injected before use, and a change to either
 should be too.
 
-Current state: **233 records, 10 evidenced slots, both gates clean.**
+Current state: **343 records, 123 evidenced slots, both gates clean.**
 
 ## The encoding, and why it is not ours
 
@@ -117,7 +117,7 @@ fits. The minting convention is real but it is *psychoinformatics*':
 `pool.psychoinformatics.de-ui/config_default_xyzri.yaml` configures
 `xyzri:XYZAgentRole: 'xyzrins:agent-roles/{_randomUUID}'`, and
 `psychoinformatics-site-specific` carries five such records.
-This repo's own `records/XYZAgentRole/` held nine records before we added
+This repo's own `records/XYZAgentRole/` holds fifteen records, and
 one, and
 mints **none** — every pid there is reused from an external authority
 (`marcrel:*`, `obo:*`). Using a readable slug rather than a UUID diverges
@@ -212,11 +212,20 @@ overlays on the same record.
    a changelog, a website's history — never shows the event, only its oldest
    or newest surviving trace.
 
-   | claim | from | real date is | bound |
-   | ---------- | --------------------- | --------------- | ------- |
-   | `started` | the oldest artifact | at or *earlier* | `upper` |
-   | `ended` | the newest artifact | at or *later* | `lower` |
-   | either | a record of the event | as stated | `exact` |
+   | claim | from | real date is | bound | declare |
+   | --------- | --------------------- | --------------- | ------- | ------------------ |
+   | `started` | the oldest artifact | at or *earlier* | `upper` | (default, `trace`) |
+   | `ended` | the newest artifact | at or *later* | `lower` | (default, `trace`) |
+   | either | a record of the event | at or *earlier* | `upper` | `artifact: record` |
+
+   The third row used to say `exact`, which contradicted both the validator
+   and the corpus: 15 entries derived from a website edit use `upper`, and
+   `XYZPublication/datalad-joss-2021.yaml` uses `exact` for a Crossref
+   publication date. Both are defensible — a web edit lags the event, a
+   registered date does not — but the rule as documented would have rejected
+   15 of its own entries. A registry date with no latency is the `exact`
+   case, and `registry` is deliberately not in `ARTIFACT_KINDS`, so the
+   direction check does not apply to it.
 
    This is easy to get backwards and we kept doing it. An early draft marked
    a first commit `lower` while marking a whois creation date `upper` — the
@@ -326,7 +335,7 @@ Narrowed from four; two are now answered.
    resolves to `https://concepts.datalad.org/s/demo-research-information/ns/`,
    which reads like a demo — but `psychoinformatics-site-specific`, which
    backs the live psychoinformatics.de, uses it for 1166 of its records, and
-   con-site-specific for 201 of 224. It is the shared instance namespace of
+   con-site-specific for 317 of 343. It is the shared instance namespace of
    the schema, and sharing it is what lets CON reference psychoinformatics'
    objectives by their own pids rather than minting lookalikes.
 
