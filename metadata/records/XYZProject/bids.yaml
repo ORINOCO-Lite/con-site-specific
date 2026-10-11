@@ -7,6 +7,10 @@ associated_with:
   roles:
   - xyzrins:agent-roles/steering-committee-member
   schema_type: dlthings:Association
+- object: ror:04tfhh831
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
@@ -27,8 +31,6 @@ attributes:
 description: A standard providing a simple and intuitive way to organize and describe
   neuroimaging and behavioral data. Governed by a community-elected steering group.
 display_label: BIDS
-part_of:
-- xyzrins:.
 pid: xyzrins:projects/bids
 schema_type: xyzri:XYZProject
 short_name: BIDS

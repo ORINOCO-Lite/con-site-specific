@@ -4,8 +4,8 @@ attributes:
   value: kyle@kyleam.com
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: Emeritus member of the Center for Open Neuroscience. ReproMan and DataLad
-    contributor. Git expert and Magit authority.
+  value: Emeritus member of the Center for Open Neuroscience. ReproMan and DataLad contributor.
+    Git expert and Magit authority.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Kyle Meyer
@@ -18,6 +18,11 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Kyle
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
 description: Emeritus member of the Center for Open Neuroscience. ReproMan and DataLad
   contributor. Git expert and Magit authority.
 display_label: Kyle Meyer

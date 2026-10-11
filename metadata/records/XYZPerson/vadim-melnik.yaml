@@ -18,8 +18,13 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Vadim
-description: Software Engineer and Consultant at the Center for Open Neuroscience.
-  Working on ReproStim, ReproMon, con/noisseur, and event collection/timing projects.
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
+description: Software Engineer and Consultant at the Center for Open Neuroscience. Working
+  on ReproStim, ReproMon, con/noisseur, and event collection/timing projects.
 display_label: Vadim Melnik
 family_name: Melnik
 formatted_name: Vadim Melnik

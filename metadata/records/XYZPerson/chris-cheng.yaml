@@ -5,8 +5,8 @@ attributes:
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
   value: Emeritus member of the Center for Open Neuroscience. Dartmouth undergraduate
-    passionate about neuroimaging and open science. NiBabel contributor. ReproNim
-    training editor.
+    passionate about neuroimaging and open science. NiBabel contributor. ReproNim training
+    editor.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Chris Cheng
@@ -19,6 +19,11 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Chris
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
 description: Emeritus member of the Center for Open Neuroscience. Dartmouth undergraduate
   passionate about neuroimaging and open science. NiBabel contributor. ReproNim training
   editor.

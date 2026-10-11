@@ -4,8 +4,8 @@ attributes:
   value: glalteva@gmail.com
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: Emeritus member of the Center for Open Neuroscience. CS undergraduate at
-    Barnard College, Columbia University. 2016 DataLad developer intern.
+  value: Emeritus member of the Center for Open Neuroscience. CS undergraduate at Barnard
+    College, Columbia University. 2016 DataLad developer intern.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Gergana Alteva
@@ -18,8 +18,13 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Gergana
-description: Emeritus member of the Center for Open Neuroscience. CS undergraduate
-  at Barnard College, Columbia University. 2016 DataLad developer intern.
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
+description: Emeritus member of the Center for Open Neuroscience. CS undergraduate at
+  Barnard College, Columbia University. 2016 DataLad developer intern.
 display_label: Gergana Alteva
 family_name: Alteva
 formatted_name: Gergana Alteva

@@ -1,3 +1,8 @@
+associated_with:
+- object: ror:04tfhh831
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
@@ -12,8 +17,6 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: ReproNim
 display_label: ReproNim
-part_of:
-- xyzrins:.
 pid: xyzrins:projects/repronim
 schema_type: xyzri:XYZProject
 short_name: ReproNim

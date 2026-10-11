@@ -1,0 +1,30 @@
+record: xyzrins:instruments/dandidav
+format: con-association-evidence-v1
+
+assertions:
+  - path: /generated_by/0/at_time
+    value: "2024-01-29"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/repos/dandi/dandidav
+    locator: created_at
+    quote: '"created_at": "2024-01-29T..."'
+    note: >-
+      Repository creation date.  Upper bound: a repository is created for
+      work already decided on.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /invalidated_by/at_time
+    value: "2026-09-08"
+    bound: lower
+    kind: registry
+    source: https://api.github.com/repos/dandi/dandidav
+    locator: archived, pushed_at
+    quote: '"archived": true, "pushed_at": "2026-09-08T..."'
+    note: >-
+      GitHub reports the repository as archived; pushed_at is the last
+      push before it went read-only, so it is a LOWER bound on when the
+      work stopped -- the decision to archive comes after the work does.
+    confidence: certain
+    captured: "2026-10-10"

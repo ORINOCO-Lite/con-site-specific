@@ -2,13 +2,17 @@ attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
   value: leej3@dartmouth.edu
-description: John brings together research imaging, open-source infrastructure, and
-  an industry engineering perspective. His work spans NIH neuroimaging data sharing,
-  AFNI testing infrastructure, consulting and independent software work, and reproducible
-  biomedical image transformation. At CON, he works on building and applying the center's
-  tools for reproducibility and provenance tracking to healthcare image data, with
-  an interest in auditable autonomous systems for scientific research and clinical
-  translation.
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
+description: John brings together research imaging, open-source infrastructure, and an
+  industry engineering perspective. His work spans NIH neuroimaging data sharing, AFNI
+  testing infrastructure, consulting and independent software work, and reproducible biomedical
+  image transformation. At CON, he works on building and applying the center's tools for
+  reproducibility and provenance tracking to healthcare image data, with an interest in
+  auditable autonomous systems for scientific research and clinical translation.
 display_label: John Lee
 family_name: Lee
 formatted_name: John Lee

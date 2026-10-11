@@ -19,8 +19,13 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Samuel
-description: Emeritus member of the Center for Open Neuroscience. Formerly Dartmouth
-  Ph.D. student, now at Princeton. Cognitive Neuroscience Ph.D. PyMVPA user and NeuroDebian
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
+description: Emeritus member of the Center for Open Neuroscience. Formerly Dartmouth Ph.D.
+  student, now at Princeton. Cognitive Neuroscience Ph.D. PyMVPA user and NeuroDebian
   exhibitor.
 display_label: Samuel Nastase
 family_name: Nastase

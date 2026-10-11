@@ -4,9 +4,8 @@ attributes:
   value: austin@dartmouth.edu
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: Software Engineer at the Center for Open Neuroscience, Dartmouth College.
-    Passionate about open source values and developing inclusive, transparent open
-    science tools.
+  value: Software Engineer at the Center for Open Neuroscience, Dartmouth College. Passionate
+    about open source values and developing inclusive, transparent open science tools.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Austin Macdonald
@@ -19,6 +18,11 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Austin
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
 description: Software Engineer at the Center for Open Neuroscience, Dartmouth College.
   Passionate about open source values and developing inclusive, transparent open science
   tools.

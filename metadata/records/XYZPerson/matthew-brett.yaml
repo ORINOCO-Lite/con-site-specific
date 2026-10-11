@@ -19,9 +19,14 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Matthew
-description: Emeritus member of the Center for Open Neuroscience. Affiliated with
-  University of Birmingham. Neurologist and neuroimaging methods expert. Neuroimaging
-  in Python lead and NiPy/NiBabel developer.
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
+description: Emeritus member of the Center for Open Neuroscience. Affiliated with University
+  of Birmingham. Neurologist and neuroimaging methods expert. Neuroimaging in Python lead
+  and NiPy/NiBabel developer.
 display_label: Matthew Brett
 family_name: Brett
 formatted_name: Matthew Brett

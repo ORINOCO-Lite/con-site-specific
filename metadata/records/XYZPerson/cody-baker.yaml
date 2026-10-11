@@ -5,8 +5,8 @@ attributes:
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
   value: Research Software Engineer at the Center for Open Neuroscience. Data specialist
-    creating NWB and DANDI ecosystem software packages (NeuroConv, NWB Inspector,
-    NWB GUIDE). Experienced uploading hundreds of terabytes to NIH archives.
+    creating NWB and DANDI ecosystem software packages (NeuroConv, NWB Inspector, NWB
+    GUIDE). Experienced uploading hundreds of terabytes to NIH archives.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Cody Baker
@@ -19,9 +19,14 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Cody
-description: Research Software Engineer at the Center for Open Neuroscience. Data
-  specialist creating NWB and DANDI ecosystem software packages (NeuroConv, NWB Inspector,
-  NWB GUIDE). Experienced uploading hundreds of terabytes to NIH archives.
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
+description: Research Software Engineer at the Center for Open Neuroscience. Data specialist
+  creating NWB and DANDI ecosystem software packages (NeuroConv, NWB Inspector, NWB GUIDE).
+  Experienced uploading hundreds of terabytes to NIH archives.
 display_label: Cody Baker
 family_name: Baker
 formatted_name: Cody Baker
