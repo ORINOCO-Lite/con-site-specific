@@ -18,6 +18,18 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Kyle
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Programmer
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:kyle@kyleam.com
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/kyleam
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Emeritus
 delegated_by:
 - object: ror:04tfhh831
   roles:

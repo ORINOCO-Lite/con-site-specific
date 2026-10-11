@@ -15,6 +15,24 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Franco
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: University of Texas, Austin
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Department of Psychology
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://twitter.com/furranko
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.linkedin.com/in/francopestilli
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0002-2469-0494
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborators
 description: Collaborator at the Center for Open Neuroscience. Affiliated with University
   of Texas, Austin. Director and founder of brainlife.io cloud computing platform.
 display_label: Franco Pestilli

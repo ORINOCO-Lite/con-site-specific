@@ -2,6 +2,24 @@ attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
   value: leej3@dartmouth.edu
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Research Software Engineer
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:leej3@dartmouth.edu?Subject=Hello John @CON
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/leej3
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.linkedin.com/in/leej3
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0001-5884-4247
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Centroids
 delegated_by:
 - object: ror:04tfhh831
   roles:

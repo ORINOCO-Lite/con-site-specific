@@ -19,6 +19,24 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Cody
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Research Software Engineer
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:cody.c.baker.phd@gmail.com?Subject=Hello Cody @CON
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/CodyCBakerPhD
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.linkedin.com/in/cody-c-baker
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0002-0829-4790
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Centroids
 delegated_by:
 - object: ror:04tfhh831
   roles:

@@ -23,8 +23,29 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: David
-description: Collaborator at the Center for Open Neuroscience. Affiliated with UMass
-  Chan Medical School. The master-mind of the ReproNim project.
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: UMass Chan Medical School
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://profiles.umassmed.edu/display/130002
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://x.com/dnkennedy44
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/dnkennedy
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.linkedin.com/in/david-kennedy-2273ba/
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0002-9377-0797
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborators
+description: Collaborator at the Center for Open Neuroscience. Affiliated with UMass Chan
+  Medical School. The master-mind of the ReproNim project.
 display_label: David N. Kennedy
 family_name: Kennedy
 formatted_name: David N. Kennedy

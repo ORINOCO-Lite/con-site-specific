@@ -19,6 +19,27 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Matthew
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: "University of\n\t\tBirmingham, UK"
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:matthew.brett@gmail.com
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://matthew.dynevor.org/
+- predicate: vcard:hasURL
+  schema_type: dlthings:AttributeSpecification
+  value: http://matthew.dynevor.org/research/cv.html
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/matthew-brett
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0001-5500-2546
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Emeritus
 delegated_by:
 - object: ror:04tfhh831
   roles:

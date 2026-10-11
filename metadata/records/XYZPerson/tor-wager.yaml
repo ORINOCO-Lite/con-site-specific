@@ -9,8 +9,8 @@ attributes:
   value: D.
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: Professor at Dartmouth College. Director of Dartmouth Brain Imaging Center
-    and Center for Cognitive Neuroscience. Dedicated to developing functional neuroimaging
+  value: Professor at Dartmouth College. Director of Dartmouth Brain Imaging Center and
+    Center for Cognitive Neuroscience. Dedicated to developing functional neuroimaging
     analysis methods and sharing tools and data with the community.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
@@ -24,6 +24,27 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Tor
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Professor
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:Tor dot D dot Wager at dartmouth dot edu
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://sites.dartmouth.edu/canlab/
+- predicate: vcard:hasURL
+  schema_type: dlthings:AttributeSpecification
+  value: https://pbs.dartmouth.edu/sites/pbs/files/tor_wager_cv_current_v2.docx_.pdf
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/canlab
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0002-1936-5574
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Affiliated Faculty
 description: Professor at Dartmouth College. Director of Dartmouth Brain Imaging Center
   and Center for Cognitive Neuroscience. Dedicated to developing functional neuroimaging
   analysis methods and sharing tools and data with the community.

@@ -19,6 +19,18 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Chris
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Dartmouth College
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/chrispycheng
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:christopher.p.cheng.21@dartmouth.edu
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Emeritus
 delegated_by:
 - object: ror:04tfhh831
   roles:

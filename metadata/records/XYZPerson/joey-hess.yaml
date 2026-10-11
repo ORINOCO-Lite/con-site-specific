@@ -4,9 +4,9 @@ attributes:
   value: id@joeyh.name
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: Independent collaborator at the Center for Open Neuroscience. Core Debian
-    distribution contributor (debhelper, debian-installer, debconf, pristine-tar).
-    Developer of git-annex used in DataLad.
+  value: Independent collaborator at the Center for Open Neuroscience. Core Debian distribution
+    contributor (debhelper, debian-installer, debconf, pristine-tar). Developer of git-annex
+    used in DataLad.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Joey Hess
@@ -19,6 +19,21 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Joey
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Independent Guru
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:id@joeyh.name
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://twitter.com/joeyhess
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/joeyh
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborators
 description: Independent collaborator at the Center for Open Neuroscience. Core Debian
   distribution contributor (debhelper, debian-installer, debconf, pristine-tar). Developer
   of git-annex used in DataLad.

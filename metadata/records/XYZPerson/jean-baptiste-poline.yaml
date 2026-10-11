@@ -4,8 +4,8 @@ attributes:
   value: jbpoline@mcgill.ca
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: Collaborator at the Center for Open Neuroscience. Affiliated with McGill
-    University, Canada.
+  value: Collaborator at the Center for Open Neuroscience. Affiliated with McGill University,
+    Canada.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Jean-Baptiste Poline
@@ -18,6 +18,27 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Jean-Baptiste
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: McGill University, Canada
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.mcgill.ca/neuro/jean-baptiste-poline-phd
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://twitter.com/jbpoline
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/jbpoline
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.linkedin.com/in/jean-baptiste-poline-5923a04b
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0002-9794-749X
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborators
 description: Collaborator at the Center for Open Neuroscience. Affiliated with McGill
   University, Canada.
 display_label: Jean-Baptiste Poline
