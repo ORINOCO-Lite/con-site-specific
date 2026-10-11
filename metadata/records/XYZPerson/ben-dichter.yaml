@@ -7,5 +7,11 @@ display_label: Ben Dichter
 family_name: Dichter
 formatted_name: Ben Dichter
 given_name: Ben
+identifiers:
+- notation: bendichter
+  schema_type: dlthings:Identifier
+- creator: rrid:SCR_002630
+  notation: bendichter
+  schema_type: dlthings:Identifier
 pid: xyzrins:persons/ben-dichter
 schema_type: xyzri:XYZPerson
