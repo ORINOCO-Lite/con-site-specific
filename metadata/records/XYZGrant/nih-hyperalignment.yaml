@@ -1,0 +1,23 @@
+attributed_to:
+- object: ror:01cwqze88
+  roles:
+  - marcrel:fnd
+  schema_type: dlthings:Attribution
+- description: Contact PI, Dartmouth College.
+  object: xyzrins:persons/james-haxby
+  roles:
+  - obo:NCIT_C19924
+  schema_type: dlthings:Attribution
+- description: Co-Investigator.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - obo:NCIT_C25936
+  schema_type: dlthings:Attribution
+display_label: Infrastructure for hyperaligning fMRI data and estimating fu
+identifiers:
+- notation: 1R01MH127199-01A1
+  schema_type: dlthings:Identifier
+pid: xyzrins:grants/nih-hyperalignment
+schema_type: xyzri:XYZGrant
+short_name: 1R01MH127199-01A1
+title: Infrastructure for hyperaligning fMRI data and estimating functional topographies

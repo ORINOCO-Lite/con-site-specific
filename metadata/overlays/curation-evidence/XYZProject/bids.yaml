@@ -17,3 +17,29 @@ assertions:
       Good enough to order a page by; not a founding date.
     confidence: certain
     captured: "2026-10-11"
+  - path: /associated_with/1/started/at_time
+    value: "2023"
+    bound: exact
+    kind: recollection
+    source: halchenko_vita.tex
+    locator: Engagements, data standards
+    quote: (Elected member of the Steering Committee 2023--2025)
+    note: >-
+      The vita is the source; the BIDS website's governance page would
+      corroborate it.  Year precision is what the CV gives.
+    confidence: approximate
+    would_confirm: the BIDS governance page's past-members list
+    captured: "2026-10-11"
+  - path: /associated_with/1/ended/at_time
+    value: "2025"
+    bound: exact
+    kind: recollection
+    source: halchenko_vita.tex
+    locator: Engagements, data standards
+    quote: (Elected member of the Steering Committee 2023--2025)
+    note: >-
+      Confirmed in conversation: "BIDS steering committee participation was
+      those 3 years. Currently I am just a contributor."
+    confidence: approximate
+    would_confirm: the BIDS governance page's past-members list
+    captured: "2026-10-11"

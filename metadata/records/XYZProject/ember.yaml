@@ -60,6 +60,14 @@ description: BRAIN Initiative archive for multi-modal neurophysiological and beh
   data, supporting the Brain Behavior Quantification and Synchronization Program. Being
   developed based on DANDI.
 display_label: EMBER
+ended:
+  at_time: '2029-05-31'
+  schema_type: dlthings:End
+influenced_by:
+- object: xyzrins:grants/nih-ember
+  roles:
+  - FRAPO:Funding
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/ember

@@ -1,0 +1,29 @@
+associated_with:
+- description: Named as a BEP lead in the BIDS website's own data/beps/beps.yml.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://bids.neuroimaging.io/bep032
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'Extends BIDS to microelectrode electrophysiology. Leads: Sylvain Takerkart,
+    Benjamin Dichter, Yaroslav Halchenko, Lyuba Zehl, Andrew Davison.'
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: 'BEP032: Microelectrode electrophysiology'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Standards
+description: 'Extends BIDS to microelectrode electrophysiology. Leads: Sylvain Takerkart,
+  Benjamin Dichter, Yaroslav Halchenko, Lyuba Zehl, Andrew Davison.'
+display_label: BEP032
+part_of:
+- xyzrins:projects/bids
+pid: xyzrins:projects/bep032
+schema_type: xyzri:XYZProject
+short_name: BEP032
+title: 'BEP032: Microelectrode electrophysiology'

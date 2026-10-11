@@ -84,6 +84,15 @@ description: A data management platform that adapts open-source software distrib
   models to address data-sharing limitations. Provides a versatile data management platform
   using git-annex for large data tracking built on Git.
 display_label: DataLad
+influenced_by:
+- object: xyzrins:grants/nsf-1912266
+  roles:
+  - FRAPO:Funding
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:grants/nsf-1429999
+  roles:
+  - FRAPO:Funding
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/datalad

@@ -1,0 +1,12 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.nsf.gov
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: National Science Foundation
+display_label: NSF
+name: National Science Foundation
+pid: ror:021nxhr62
+schema_type: xyzri:XYZOrganization
+short_name: NSF

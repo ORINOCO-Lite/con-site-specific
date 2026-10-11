@@ -1,0 +1,31 @@
+associated_with:
+- description: Observer.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - obo:NCIT_C92650
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.dicomstandard.org/activity/wgs
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'The DICOM working group on imaging compression. CON''s interest is empirical:
+    what lossy compression actually costs downstream analyses, which is what the compression-comparisons
+    studies measure.'
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: 'DICOM Working Group 32: Digital Pathology and Imaging Compression'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Standards
+description: 'The DICOM working group on imaging compression. CON''s interest is empirical:
+  what lossy compression actually costs downstream analyses, which is what the compression-comparisons
+  studies measure.'
+display_label: DICOM WG-32
+part_of:
+- xyzrins:projects/dicom
+pid: xyzrins:projects/dicom-wg32
+schema_type: xyzri:XYZProject
+short_name: DICOM WG-32
+title: 'DICOM Working Group 32: Digital Pathology and Imaging Compression'

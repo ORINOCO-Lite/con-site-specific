@@ -1,0 +1,17 @@
+record: xyzrins:instruments/compression-comparisons
+format: con-association-evidence-v1
+
+assertions:
+  - path: /generated_by/0/at_time
+    value: "2026-08-25"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/repos/dandi/compression-comparisons
+    locator: created_at
+    quote: '"created_at": "2026-08-25T..."'
+    note: >-
+      Repository creation date.  Upper bound: a repository is created for
+      work already decided on.
+      Description on the repository: "Reproducing + extending DICOM WG-32".
+    confidence: certain
+    captured: "2026-10-11"

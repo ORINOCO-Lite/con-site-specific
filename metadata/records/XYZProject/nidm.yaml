@@ -1,0 +1,28 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://nidm.nidash.org
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: A family of specifications for describing neuroimaging experiments, their data
+    and their provenance, built on W3C PROV. NIDM-PROV is its provenance layer, and the
+    ancestor of the provenance work now carried into BIDS as BEP028.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Neuroimaging Data Model
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Standards
+description: A family of specifications for describing neuroimaging experiments, their
+  data and their provenance, built on W3C PROV. NIDM-PROV is its provenance layer, and
+  the ancestor of the provenance work now carried into BIDS as BEP028.
+display_label: NIDM
+pid: xyzrins:projects/nidm
+schema_type: xyzri:XYZProject
+short_name: NIDM
+title: Neuroimaging Data Model

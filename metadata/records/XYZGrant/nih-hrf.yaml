@@ -1,0 +1,24 @@
+attributed_to:
+- object: ror:01cwqze88
+  roles:
+  - marcrel:fnd
+  schema_type: dlthings:Attribution
+- description: PI at Dartmouth; contact PI Martin Lindquist, Johns Hopkins University.
+  object: xyzrins:persons/tor-wager
+  roles:
+  - obo:NCIT_C19924
+  schema_type: dlthings:Attribution
+- description: Co-Investigator.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - obo:NCIT_C25936
+  schema_type: dlthings:Attribution
+display_label: 'Personalized spatiotemporal hemodynamic response models for '
+identifiers:
+- notation: 1R01MH129397-01A1
+  schema_type: dlthings:Identifier
+pid: xyzrins:grants/nih-hrf
+schema_type: xyzri:XYZGrant
+short_name: 1R01MH129397-01A1
+title: Personalized spatiotemporal hemodynamic response models for functional magnetic
+  resonance imaging

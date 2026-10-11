@@ -1,0 +1,23 @@
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/ReproNim/OpenNeuroDerivatives-NIDM
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: OpenNeuroDerivatives-NIDM
+description: NIDM descriptions generated for the OpenNeuro derivatives, as a working demonstration
+  that the provenance layer can be produced at archive scale rather than by hand.
+display_label: OpenNeuroDerivatives-NIDM
+generated_by:
+- at_time: '2025-02-06'
+  object: xyzrins:projects/nidm
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: OpenNeuroDerivatives-NIDM
+pid: xyzrins:instruments/openneuro-derivatives-nidm
+schema_type: xyzri:XYZInstrument

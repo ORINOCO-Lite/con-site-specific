@@ -17,3 +17,19 @@ assertions:
       Good enough to order a page by; not a founding date.
     confidence: certain
     captured: "2026-10-11"
+  - path: /ended/at_time
+    value: "2028-05-31"
+    bound: exact
+    kind: registry
+    source: https://api.reporter.nih.gov/v2/projects/search
+    locator: "project_end_date for 2R24MH117179-06"
+    quote: '"project_end_date": "2028-05-31T00:00:00Z"'
+    note: >-
+      The end of the AWARD period, from the funder's own record.  A planned
+      end stated by a registry, not a trace of work, so `exact` rather than a
+      bound in either direction -- and `registry` is outside ARTIFACT_KINDS,
+      so the trace/record direction rule does not apply.  Note this is the
+      funding period, not the end of the effort: DANDI's award ended
+      2024-04-30 and DANDI did not.
+    confidence: certain
+    captured: "2026-10-11"

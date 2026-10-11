@@ -1,0 +1,24 @@
+attributed_to:
+- object: ror:01cwqze88
+  roles:
+  - marcrel:fnd
+  schema_type: dlthings:Attribution
+- description: Contact PI, UMass Chan Medical School.
+  object: xyzrins:persons/david-kennedy
+  roles:
+  - obo:NCIT_C19924
+  schema_type: dlthings:Attribution
+- description: Subcontract PI at Dartmouth and TR&D lead. The original award; 2P41EB019936
+    is its renewal.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - obo:NCIT_C25936
+  schema_type: dlthings:Attribution
+display_label: Center for Reproducible Neuroimaging Computation (CRNC)
+identifiers:
+- notation: 1P41EB019936-01A1
+  schema_type: dlthings:Identifier
+pid: xyzrins:grants/nih-repronim-crnc
+schema_type: xyzri:XYZGrant
+short_name: 1P41EB019936-01A1
+title: Center for Reproducible Neuroimaging Computation (CRNC)

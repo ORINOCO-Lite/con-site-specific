@@ -1,0 +1,16 @@
+record: xyzrins:projects/bids-2-0
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2020-08-02"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/repos/bids-standard/bids-2-devel
+    locator: created_at
+    quote: '"created_at": "2020-08-02T..."'
+    note: >-
+      Creation of the repository where the breaking changes are argued.
+      Upper bound, and loose -- the conversation predates the repository.
+    confidence: certain
+    captured: "2026-10-11"

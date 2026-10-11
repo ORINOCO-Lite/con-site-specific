@@ -54,6 +54,14 @@ description: One of the oldest and most well-known BRAIN Initiative archives for
   data. Uses git-annex as core technology, inspired by early DataLad crawling efforts.
   Successor to OpenfMRI.org.
 display_label: OpenNeuro
+ended:
+  at_time: '2028-05-31'
+  schema_type: dlthings:End
+influenced_by:
+- object: xyzrins:grants/nih-openneuro
+  roles:
+  - FRAPO:Funding
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/openneuro

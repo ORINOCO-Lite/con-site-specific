@@ -1,0 +1,6 @@
+description: An individual who conducts scientific research. Used where the role is not
+  the Principal Investigator of the award as a whole -- a Co-Investigator, or the PI of
+  a subaward.
+display_label: Investigator
+pid: obo:NCIT_C25936
+schema_type: xyzri:XYZAgentRole
