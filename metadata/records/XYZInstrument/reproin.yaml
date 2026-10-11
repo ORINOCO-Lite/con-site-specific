@@ -16,7 +16,7 @@ description: A convention and a setup for naming sequences at the scanner so tha
 display_label: ReproIn
 generated_by:
 - at_time: '2018-02-05'
-  object: xyzrins:projects/repronim
+  object: xyzrins:projects/repronim-trd3
   schema_type: dlthings:Generation
 kind: obo:IAO_0000010
 name: ReproIn

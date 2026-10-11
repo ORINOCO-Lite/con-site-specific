@@ -46,7 +46,7 @@ description: ReproNim/containers is a DataLad dataset providing a ready-to-use "
 display_label: ReproNim/containers
 part_of:
 - xyzrins:.
-- xyzrins:projects/repronim
+- xyzrins:projects/repronim-trd3
 pid: xyzrins:projects/repronim-containers
 schema_type: xyzri:XYZProject
 short_name: ReproNim/containers

@@ -1,0 +1,18 @@
+record: xyzrins:instruments/reprostim
+format: con-association-evidence-v1
+
+assertions:
+  - path: /generated_by/0/at_time
+    value: "2020-02-25"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/repos/ReproNim/reprostim
+    locator: created_at
+    quote: '"created_at": "2020-02-25T...", "description": "Automated capture
+      of audio-visual stimuli into BIDS datasets"'
+    note: >-
+      Contributors by commit count: vmdocua 1164, yarikoptic 126, TheChymera
+      104, andycon 39.  Vadim Melnik leads it by a wide margin, which is why
+      the attribution does not put YOH first.
+    confidence: certain
+    captured: "2026-10-11"
