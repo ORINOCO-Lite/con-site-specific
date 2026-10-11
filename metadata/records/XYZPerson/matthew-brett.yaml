@@ -40,6 +40,14 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Neurologist, neuroimaging methods guru, early proponent of reproducible practice
+    and in-depth understanding of the used analysis methodologies, lead of <a href="http://www.nipy.org">Neuroimaging
+    in Python</a> community and some of its popular software (<a href="http://www.nipy.org/nipy">NiPy</a>
+    and <a href="http://www.nipy.org/nibabel">NiBabel</a>) projects and infrastructural
+    solutions, such as <a href="/projects#nibotmi_">Nibotmi</a> which we are contributing
+    to.
 delegated_by:
 - object: ror:04tfhh831
   roles:

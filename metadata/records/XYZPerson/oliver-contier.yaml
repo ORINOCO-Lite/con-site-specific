@@ -36,6 +36,13 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Masters student in Psychology / Cognitive Neuroscience at the University of Magdeburg.
+    Oliver started his enthusiasm for open science as an intern at Dartmouth College where
+    he enjoyed a summer full of fMRI data analysis. His current goal is to provide his
+    University with a fully reproducible Masters thesis. Naturally, the perfect way to
+    do it is by using - and contributing to - open software frameworks.
 delegated_by:
 - object: ror:04tfhh831
   roles:

@@ -33,6 +33,12 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Centroids
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Austin Macdonald (asmacdo) is obstinately passionate about open source values
+    and is dedicated to developing open science tools as inclusively and transparently
+    as possible. He currently lives in Raleigh with his giant, spastic, and clumsy dog
+    Chonks.
 delegated_by:
 - object: ror:04tfhh831
   roles:

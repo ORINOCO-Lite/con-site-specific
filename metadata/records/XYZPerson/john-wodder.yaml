@@ -31,6 +31,12 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Works on the <a href="/projects#dandi_">DANDI</a> client and related projects.
+    Jack of all trades and skilled in Python, Rust, DevOps, testing, packaging, &amp;
+    type-hinting and in continuous integration. Likes abstract mathematics, *nix-based
+    operating systems, and large properly-formatted data files.
 delegated_by:
 - object: ror:04tfhh831
   roles:

@@ -36,6 +36,11 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Centroids
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Loves Python and open-source software. Works on <a href="/projects#dataladregistry_">DataLad-Registry</a>
+    and various metadata-related <a href="https://dandiarchive.org/">DANDI</a> things.
+    Currently resides in sunny Southern California with his wife and son.
 delegated_by:
 - object: ror:04tfhh831
   roles:

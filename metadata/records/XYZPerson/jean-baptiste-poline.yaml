@@ -39,6 +39,9 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Collaborators
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: The root cause of all kinds of Open and Standard things in neuroimaging.
 description: Collaborator at the Center for Open Neuroscience. Affiliated with McGill
   University, Canada.
 display_label: Jean-Baptiste Poline

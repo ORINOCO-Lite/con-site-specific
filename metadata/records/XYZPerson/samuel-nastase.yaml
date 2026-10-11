@@ -43,6 +43,11 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Formerly a Ph.D. student in Cognitive Neuroscience at Dartmouth. Avid <a href="/projects#pymvpa_">PyMVPA</a>
+    user and <a href="/projects#neurodebian_">NeuroDebian</a> exhibitor at recent SfN
+    and OHBM conferences.
 delegated_by:
 - object: ror:04tfhh831
   roles:

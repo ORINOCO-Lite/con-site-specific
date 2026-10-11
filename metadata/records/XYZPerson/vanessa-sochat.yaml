@@ -33,6 +33,14 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Research Software Engineer in the Stanford Research Computing Center. Likes programming,
+    containers, avocados, and open-source development. Developer of Singularity Hub and
+    other <a href="https://github.com/singularityhub" target="_blank">related tools</a>
+    for Singularity containers. See a <a href="https://vsoch.github.io/work" target="_blank">list</a>
+    of work or recent ideas on <a href="https://vsoch.github.io" target="_blank>">her
+    personal site</a>.
 delegated_by:
 - object: ror:04tfhh831
   roles:

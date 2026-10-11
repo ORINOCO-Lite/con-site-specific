@@ -64,6 +64,16 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Centroids
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Research Professor of Psychological and Brain Sciences and Adjunct Professor
+    of Computer Science at Dartmouth, official Debian Developer, contributor to <a href="https://www.openhub.net/accounts/yarikoptic">many</a>
+    open source projects -- Yaroslav (AKA Yarik) is a lead of <a href="/projects#dandi_">DANDI</a>,
+    <a href="/projects#datalad_">DataLad</a>, <a href="/projects#pymvpa_">PyMVPA</a>,
+    <a href="/projects#neurodebian_">NeuroDebian</a>, and other <a href="/projects">projects</a>.
+    He is also currently serving on BIDS standard Steering and <a href="/projects#neurodata_without_borders__neurophysiology_nwb_n_">NWB</a>
+    standard technical advisory committees, and engaged in various other initiatives,
+    projects, and efforts.
 delegated_by:
 - object: ror:04tfhh831
   roles:

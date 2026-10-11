@@ -36,6 +36,12 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Ph.D. in Psychology, master's degrees in Computer Science, Cognitive Science,
+    and Philosophy of Science, Technology and Society. Developer of <a href="/projects#pymvpa_">PyMVPA</a>,
+    promoter of <a href="/projects#neurodebian_">NeuroDebian</a>, and contributor to other
+    projects.
 delegated_by:
 - object: ror:04tfhh831
   roles:

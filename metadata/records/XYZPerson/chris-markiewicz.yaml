@@ -11,6 +11,14 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Collaborators
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: BIDS Guru and Jedi Master of all the *Preps. Software developer at Stanford's
+    <a href="https://poldracklab.stanford.edu/">Poldrack Lab</a> and research affiliate
+    of the MIT McGovern Institute for Brain Research. Core developer of <a href="https://fmriprep.org/">fMRIPrep</a>
+    and other <a href="https://www.nipreps.org/">NiPreps</a>, long-standing <a href="https://bids.neuroimaging.io/">BIDS</a>
+    maintainer, and one of the pillars of the neuroimaging Python ecosystem (<a href="https://nipy.org/nibabel/">NiBabel</a>,
+    <a href="https://nipype.readthedocs.io/">Nipype</a>, <a href="https://github.com/poldracklab/fitlins">FitLins</a>).
 description: BIDS Guru and Jedi Master of all the *Preps. Software developer at Stanford's
   Poldrack Lab and research affiliate of the MIT McGovern Institute for Brain Research.
   Core developer of fMRIPrep and other NiPreps, long-standing BIDS maintainer, and one

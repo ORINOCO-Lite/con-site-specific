@@ -39,6 +39,11 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Centroids
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: External consultant working on <a href="https://github.com/ReproNim/reprostim">ReproStim</a>,
+    <a href="https://github.com/ReproNim/repromon">ReproMon</a>, <a href="https://github.com/con/noisseur">con/noisseur</a>,
+    events collection/timing projects and cosmic harmony.
 delegated_by:
 - object: ror:04tfhh831
   roles:

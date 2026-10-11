@@ -39,6 +39,13 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Collaborators
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Ph.D. student in Michael Hanke's Psychoinformatics Lab and the lead of the amazing
+    <a href="http://handbook.datalad.org">DataLad Handbook</a>. Looks like a Clinical
+    Psychologist on paper, but strives for an open-science conducting, open-software developing
+    secret identity thanks to inspirational influences from Michael, Yarik, Benjamin,
+    and many more. project.
 description: Ph.D. Student at INM-7, Research Centre Jülich, Germany. Lead of the DataLad
   Handbook. Clinical Psychology background pursuing open science and open software.
 display_label: Adina Wagner

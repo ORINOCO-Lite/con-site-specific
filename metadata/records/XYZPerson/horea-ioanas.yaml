@@ -45,6 +45,13 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Worked on <a href="/projects#dandi_">DANDI</a> and related projects. Skilled
+    in Python, Gentoo Linux, magnetic resonance imaging, neuroscience, and psychopharmacology.
+    <ul> <li>Ioanas H-I, Macdonald A and Halchenko YO (2024) Neuroimaging article reexecution
+    and reproduction assessment system. Front. Neuroinform. 18:1376022. <a href="https://doi.org/10.3389/fninf.2024.1376022">DOI:10.3389/fninf.2024.1376022</a>
+    </li> </ul>
 delegated_by:
 - object: ror:04tfhh831
   roles:

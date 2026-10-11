@@ -36,6 +36,10 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Collaborators
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: An old-time partner in our "scientific plumbing" business and a lead of <a href="/projects#dandi_">DANDI</a>,
+    <a href="https://nipype.readthedocs.io/">NiPype</a> and other projects.
 description: Collaborator at the Center for Open Neuroscience. Affiliated with MIT and
   Harvard Medical School. Lead of DANDI, NiPype, and other projects.
 display_label: Satrajit Ghosh

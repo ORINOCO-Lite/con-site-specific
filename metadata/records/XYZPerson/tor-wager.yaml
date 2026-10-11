@@ -45,6 +45,14 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Affiliated Faculty
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Dr. Wager and his lab have a dedication toward developing analysis methods for
+    functional neuroimaging and sharing ideas, tools, and scientific data with the scientific
+    community and public. At the moment Tor is also leading <a href="https://www.dartmouth.edu/dbic/">Dartmouth
+    Brain Imaging Center (DBIC)</a> where CON pilots various deployments and automations
+    to improve efficiency and reproducibility in the neuroimaging, and the <a href="https://www.dartmouth.edu/ccn/">Center
+    for Cognitive Neuroscience</a>.
 description: Professor at Dartmouth College. Director of Dartmouth Brain Imaging Center
   and Center for Cognitive Neuroscience. Dedicated to developing functional neuroimaging
   analysis methods and sharing tools and data with the community.

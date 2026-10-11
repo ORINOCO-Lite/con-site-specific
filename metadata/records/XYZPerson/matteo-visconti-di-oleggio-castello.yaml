@@ -42,6 +42,12 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Formerly a Ph.D. student in Cognitive Neuroscience at Dartmouth, holds a M.Sc.
+    in Cognitive Science from the University of Trento, Italy and a degree in Mathematics
+    from the University of Torino, Italy. Co-developer of the <a href="/projects#duecredit_">DueCredit</a>
+    project.
 delegated_by:
 - object: ror:04tfhh831
   roles:

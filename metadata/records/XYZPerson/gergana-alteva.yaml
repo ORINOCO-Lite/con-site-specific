@@ -33,6 +33,15 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: A CS undergraduate from Columbia, worked on the <a href="/projects#datalad_">DataLad</a>
+    project as a developer intern at Dartmouth in the summer of 2016. "This internship
+    not only made me a contributor to a cool open source project, but through it I gained
+    valuable experience in software development teamwork and tools (Git/GitHub, Travis,
+    etc) which later made academic presentation of the same materials actually make sense
+    and gave me a leg up in my courses. It was an incredible opportunity to work with
+    and learn from such accomplished developers."
 delegated_by:
 - object: ror:04tfhh831
   roles:

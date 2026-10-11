@@ -33,6 +33,10 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Pythonista and heavy user of open-source offerings. Works on the <a href="/projects#datalad_">DataLad</a>
+    project.
 delegated_by:
 - object: ror:04tfhh831
   roles:

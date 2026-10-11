@@ -27,6 +27,10 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Worked on the <a href="/projects#datalad_">DataLad</a> project and the magician
+    behind OHBM 2020 Booth Design.
 delegated_by:
 - object: ror:04tfhh831
   roles:

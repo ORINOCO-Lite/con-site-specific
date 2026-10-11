@@ -44,6 +44,9 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Collaborators
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: The master-mind of the <a href="https://www.repronim.org/">ReproNim</a> project.
 description: Collaborator at the Center for Open Neuroscience. Affiliated with UMass Chan
   Medical School. The master-mind of the ReproNim project.
 display_label: David N. Kennedy
