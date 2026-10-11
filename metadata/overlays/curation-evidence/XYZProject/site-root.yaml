@@ -70,14 +70,25 @@ assertions:
     confidence: certain
     captured: "2026-10-10"
   - path: /associated_with/14/started/at_time
-    value: "2015-07-22"
+    value: "2007-10-25"
     bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: f96d1de67
-    quote: first commit to content/pages/whoweare.html naming Michael Hanke
+    kind: upstream-git
+    source: https://github.com/PyMVPA/PyMVPA
+    locator: oldest yarikoptic commit
+    quote: efficient getOutId
+    note: >-
+      The collaboration with Michael Hanke long predates CON and its website,
+      so the whoweare history dated it 2015-07-22, which is only when the page
+      first said so.  PyMVPA dates it properly: Hanke opened the repository on
+      2007-05-24 with "Initial commit.", and this is YOH's first commit to it,
+      five months later.  They end up the two top contributors, 4502 and 3131.
+      Upper bound, and known to be loose: both were already in pkg-exppsy
+      before that -- fsl/debian/changelog bottoms out 2005-12-28 under Hanke
+      and pyepl 2006-06-18 under YOH -- which matches the recollection of
+      "somewhere like 2006-2007".  A tighter date needs the pkg-exppsy SVN
+      history, not this repo.
     confidence: certain
-    captured: "2026-10-10"
+    captured: "2026-10-11"
   - path: /associated_with/26/started/at_time
     value: "2015-07-22"
     bound: upper
@@ -491,11 +502,18 @@ assertions:
     confidence: certain
     captured: "2026-10-10"
   - path: /associated_with/9/started/at_time
-    value: "2026-07-08"
+    value: "2019-09-18"
     bound: upper
-    kind: site-git-history
-    source: con.org
-    locator: 09ad2106c
-    quote: first commit to content/pages/whoweare.html naming Chris Markiewicz
-    confidence: certain
-    captured: "2026-10-10"
+    kind: upstream-git
+    source: https://github.com/nipy/heudiconv
+    locator: oldest effigies commit
+    quote: 'PIN: Nipype master'
+    note: >-
+      First contribution to a CON-led project.  Upper bound, and loose: Chris
+      Markiewicz and YOH were already both committing to nibabel from
+      2012-06-25, and to bids-specification from 2019-02-15, so co-presence
+      predates working together on our own code.  The recollection is "likely
+      2020 or so" with an exact date to follow; this is the earliest thing
+      that is checkable now.
+    confidence: approximate
+    captured: "2026-10-11"
