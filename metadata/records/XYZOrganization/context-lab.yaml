@@ -1,0 +1,21 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://context-lab.com/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Contextual Dynamics Lab
+description: Jeremy Manning's lab at Dartmouth, studying how context shapes memory and
+  thought.
+display_label: Context Lab
+influenced_by:
+- object: xyzrins:persons/jeremy-manning
+  roles:
+  - marcrel:ldr
+  schema_type: xyzri:XYZInfluence
+name: Contextual Dynamics Lab
+part_of:
+- ror:049s0rh22
+pid: xyzrins:organizations/context-lab
+schema_type: xyzri:XYZOrganization
+short_name: Context Lab
