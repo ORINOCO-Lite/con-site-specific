@@ -27,9 +27,7 @@ attributes:
   value: NeuroDebian
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: '<figure> <a href="https://neuro.debian.net"><img src="/theme/img/3rd/neurodebian_logo.jpg"
-    alt="neurodebian" class="pull-right" style="padding-left:10px;margin-top:-2em;" /></a>
-    </figure> <p> <a href="https://neuro.debian.net">NeuroDebian</a> is a turnkey research
+  value: '<p> <a href="https://neuro.debian.net">NeuroDebian</a> is a turnkey research
     software platform for all aspects of the neuroscientific research process. It takes
     the ideas of the software hosting portals such as <a href="http://nitrc.org">NITRC</a>
     on maximizing research transparency and methods sharing, one step further, by providing

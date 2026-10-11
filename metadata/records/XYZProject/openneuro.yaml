@@ -27,17 +27,15 @@ attributes:
   value: OpenNeuro
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: '<figure> <a href="https://openneuro.org"><img src="/theme/img/3rd/openneuro_logo.png"
-    alt="OpenNeuro" class="pull-left" style="width:155px;padding-right:5px;margin-top:0em;"
-    /></a> </figure> <p> <a href="https://openneuro.org">OpenNeuro</a> is likely the oldest
-    and the most well known <a href="https://braininitiative.nih.gov/">BRAIN Initiative</a>
-    archive for neuroimaging data. One of the exciting features of the project is that
-    being inspired by our early <a href="https://datasets.datalad.org/?dir=/openfmri">DataLad
-    crawling</a> of its <a href="https://openfmri.org/">OpenfMRI.org</a> precursor, it
-    is now using <a href="https://git-annex.branchable.com">git-annex</a> directly as
-    its core technology. CON is contributing in ensuring availability of recent versions
-    of git-annex and DataLad, involved standardization efforts, and inter-archive collaborations.
-    </p> <ul> <li> <a href="https://reporter.nih.gov/project-details/10881961">NIH (#5R24MH117179-07)</a>.
+  value: '<p> <a href="https://openneuro.org">OpenNeuro</a> is likely the oldest and the
+    most well known <a href="https://braininitiative.nih.gov/">BRAIN Initiative</a> archive
+    for neuroimaging data. One of the exciting features of the project is that being inspired
+    by our early <a href="https://datasets.datalad.org/?dir=/openfmri">DataLad crawling</a>
+    of its <a href="https://openfmri.org/">OpenfMRI.org</a> precursor, it is now using
+    <a href="https://git-annex.branchable.com">git-annex</a> directly as its core technology.
+    CON is contributing in ensuring availability of recent versions of git-annex and DataLad,
+    involved standardization efforts, and inter-archive collaborations. </p> <ul> <li>
+    <a href="https://reporter.nih.gov/project-details/10881961">NIH (#5R24MH117179-07)</a>.
     PI: <a href="https://profiles.stanford.edu/russell-poldrack">R. Poldrack</a>, Co-I:
     <a href="/whoweare#yaroslav_o_halchenko_" class="centroid">Y.O. Halchenko</a> </li>
     <li> <a href="https://github.com/OpenNeuroStudies/OpenNeuroStudies">OpenNeuroStudies</a>:

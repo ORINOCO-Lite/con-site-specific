@@ -39,11 +39,9 @@ attributes:
   value: DataLad
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: '<figure> <a href="https://datalad.org"> <img src="/theme/img/3rd/datalad_logo.png"
-    alt="DataLad" class="pull-right" style="width:255px;padding-left:5px;margin-top:-2em;"
-    /></a> </figure> <p> <a href="https://datalad.org">DataLad</a> is ongoing work funded
-    by NSF and German BMBF, to adapt the model of open-source software (OSS) distributions
-    to address the technical limitations of today''s data-sharing and provides a versatile
+  value: '<p> <a href="https://datalad.org">DataLad</a> is ongoing work funded by NSF
+    and German BMBF, to adapt the model of open-source software (OSS) distributions to
+    address the technical limitations of today''s data-sharing and provides a versatile
     data management platform. It uses software for data tracking and deployment logistics
     specialized for large data (<a class="reference external" href="http://git-annex.branchable.com">git-annex</a>)
     built atop <a class="reference external" href="http://git-scm.com">Git</a>, the most

@@ -27,13 +27,11 @@ attributes:
   value: Open Brain Consent
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: '<figure> <a href="https://open-brain-consent.readthedocs.io/"><img src="/theme/img/3rd/obc_logo.svg"
-    alt="Open Brain Consent" class="pull-right" style="width:155px;padding-left:5px;margin-top:0em;"
-    /></a> </figure> <p> <a href="http://open-brain-consent.readthedocs.org">Open Brain
-    Consent</a> initiative aims to facilitate neuroimaging data sharing by providing an
-    "out of the box" solution addressing aforementioned human subjects concerns and consisting
-    of </p> <ul> <li>widely acceptable consent form allowing deposition of anonymized
-    data to public data archives</li> <li>collection of tools/pipelines to help anonymization
+  value: '<p> <a href="http://open-brain-consent.readthedocs.org">Open Brain Consent</a>
+    initiative aims to facilitate neuroimaging data sharing by providing an "out of the
+    box" solution addressing aforementioned human subjects concerns and consisting of
+    </p> <ul> <li>widely acceptable consent form allowing deposition of anonymized data
+    to public data archives</li> <li>collection of tools/pipelines to help anonymization
     of neuroimaging data making it ready for sharing</li> </ul> <p>Initiated and managed
     by CON, OBC is now an international effort with materials for GDPR compliance and
     multiple internationalization efforts to make sure materials are available in all

@@ -27,9 +27,7 @@ attributes:
   value: Distributed Archives for Neurophysiology Data Integration
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: '<figure> <a href="https://dandiarchive.org"><img src="/theme/img/3rd/dandi_logo.png"
-    alt="DANDI" class="pull-left" style="width:155px;padding-right:5px;margin-top:0em;"
-    /></a> </figure> <p> <a href="https://dandiarchive.org">Distributed Archives for Neurophysiology
+  value: '<p> <a href="https://dandiarchive.org">Distributed Archives for Neurophysiology
     Data Integration (DANDI)</a> is a platform for publishing, sharing, and processing
     neurophysiology data funded by the <a href="https://braininitiative.nih.gov/">BRAIN
     Initiative</a>. The platform is now available for data upload and distribution, and

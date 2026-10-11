@@ -23,9 +23,7 @@ attributes:
   value: DataLad Registry
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: '<figure> <a href="https://registry.datalad.org"> <img src="/theme/img/3rd/registry_logo.svg"
-    alt="DataLad-Registry" class="pull-right" style="height:4.4em;padding-left:1em;margin-top:-0.3em;"/></a>
-    </figure> <p> <a href="https://registry.datalad.org">DataLad-Registry</a> is a service
+  value: '<p> <a href="https://registry.datalad.org">DataLad-Registry</a> is a service
     that maintains up-to-date information on an expanding collection of datasets, currently
     numbering over ten thousand. It automatically registers datasets from various online
     sources, extracts metadata, and keeps both the datasets and their metadata current.

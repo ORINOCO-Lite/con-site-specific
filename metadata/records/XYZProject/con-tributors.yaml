@@ -22,11 +22,9 @@ attributes:
   value: con/tributors
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: <figure> <a href="https://con.github.io/tributors/"> <img src="/theme/img/3rd/tributors_logo.png"
-    alt="tributors" class="pull-right" style="width:120px;padding-left:5px;margin-top:-1em;"
-    /> </a> </figure> <p> <a href="https://github.com/con/tributors">con/tributors</a>
-    is a Python library and GitHub Action to automate maintenance of contributor attribution
-    files. It updates <a href="https://allcontributors.org">all-contributors</a>, <a href="https://zenodo.org">Zenodo</a>
+  value: <p> <a href="https://github.com/con/tributors">con/tributors</a> is a Python
+    library and GitHub Action to automate maintenance of contributor attribution files.
+    It updates <a href="https://allcontributors.org">all-contributors</a>, <a href="https://zenodo.org">Zenodo</a>
     metadata (.zenodo.json), and <a href="https://codemeta.github.io/">CodeMeta</a> (codemeta.json)
     files in one go, using a shared <code>.tributors</code> cache that maps GitHub logins
     to ORCID iDs and other persistent identifiers — so that contributor records stay consistent
