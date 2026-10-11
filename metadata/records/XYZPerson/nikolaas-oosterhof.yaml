@@ -26,7 +26,7 @@ attributes:
   value: Hiding somewhere in Netherlands
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
-  value: https://scholar.google.it/citations?user=Kg7BwE0AAAAJ&amp;hl=en
+  value: https://scholar.google.it/citations?user=Kg7BwE0AAAAJ&hl=en
 - predicate: dlthings:github
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/nno

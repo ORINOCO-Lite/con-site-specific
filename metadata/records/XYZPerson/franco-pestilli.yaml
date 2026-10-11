@@ -39,7 +39,7 @@ attributes:
     platform <a href="https://brainlife.io" class="brainlife.io">brainlife.io</a>.
 - predicate: dlthings:scholar
   schema_type: dlthings:AttributeSpecification
-  value: https://scholar.google.com/citations?user=gh_KorwAAAAJ&amp;hl=en
+  value: https://scholar.google.com/citations?user=gh_KorwAAAAJ&hl=en
 - predicate: dlthings:github
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/francopestilli

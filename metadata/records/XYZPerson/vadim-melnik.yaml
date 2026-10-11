@@ -20,7 +20,7 @@ attributes:
   value: Vadim
 - predicate: dlthings:position
   schema_type: dlthings:AttributeSpecification
-  value: Software Engineer &amp; Consultant
+  value: Software Engineer & Consultant
 - predicate: vcard:hasEmail
   schema_type: dlthings:AttributeSpecification
   value: mailto:vmelnik@docsultant.com?Subject=Hello Vadim M. @CON
