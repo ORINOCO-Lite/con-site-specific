@@ -1,0 +1,14 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.nitrc.org
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: NITRC
+description: 'Neuroimaging Informatics Tools and Resources Clearinghouse: a registry of
+  neuroimaging software, data and computational resources.'
+display_label: NITRC
+name: NITRC
+pid: xyzrins:organizations/nitrc
+schema_type: xyzri:XYZOrganization
+short_name: NITRC

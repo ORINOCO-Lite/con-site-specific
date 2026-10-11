@@ -1,0 +1,16 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/fail2ban/fail2ban
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Fail2Ban
+description: Log-watching intrusion-prevention daemon written in Python.
+display_label: Fail2Ban software
+generated_by:
+- object: xyzrins:projects/fail2ban
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: Fail2Ban
+pid: xyzrins:instruments/fail2ban
+schema_type: xyzri:XYZInstrument

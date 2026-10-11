@@ -12,6 +12,8 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: ReproNim
 display_label: ReproNim
+part_of:
+- xyzrins:.
 pid: xyzrins:projects/repronim
 schema_type: xyzri:XYZProject
 short_name: ReproNim

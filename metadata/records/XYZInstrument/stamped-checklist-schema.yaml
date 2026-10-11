@@ -1,0 +1,17 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/stamped-principles/stamped-checklist-schema
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: stamped-checklist-schema
+description: The formal LinkML schema and instance for the STAMPED checklist.
+display_label: stamped-checklist-schema
+generated_by:
+- at_time: '2026-04-20'
+  object: xyzrins:projects/stamped-principles
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: stamped-checklist-schema
+pid: xyzrins:instruments/stamped-checklist-schema
+schema_type: xyzri:XYZInstrument

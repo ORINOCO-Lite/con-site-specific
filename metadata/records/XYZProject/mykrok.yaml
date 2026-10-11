@@ -24,6 +24,8 @@ description: 'MyKrok (Ukrainian: "мій крок" — "my step") is a CLI tool 
   maps and activity statistics — applying the same git-annex / open-data philosophy of
   CON''s archival tools to personal fitness data. Try the live demo with synthetic data.'
 display_label: MyKrok
+part_of:
+- xyzrins:.
 pid: xyzrins:projects/mykrok
 schema_type: xyzri:XYZProject
 short_name: MyKrok

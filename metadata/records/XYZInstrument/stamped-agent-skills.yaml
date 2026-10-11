@@ -1,0 +1,16 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/stamped-principles/stamped-agent-skills
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: stamped-agent-skills
+display_label: stamped-agent-skills
+generated_by:
+- at_time: '2026-07-09'
+  object: xyzrins:projects/stamped-principles
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: stamped-agent-skills
+pid: xyzrins:instruments/stamped-agent-skills
+schema_type: xyzri:XYZInstrument

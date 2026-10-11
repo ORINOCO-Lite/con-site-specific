@@ -1,0 +1,51 @@
+# Fail2Ban is the counter-example worth keeping: an association with no CON
+# connection at all, 989 commits over eighteen years, on software with 18764
+# stars that a large part of the field runs without thinking about it.
+record: xyzrins:projects/fail2ban
+format: con-association-evidence-v1
+
+assertions:
+  - path: /associated_with/0/started/at_time
+    value: "2005-12-27"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/fail2ban/fail2ban
+    locator: 3eb0ca0ee
+    quote: propagated fix for the path bug. Thanks to Nick Craig-Wood
+    note: >-
+      Oldest commit authored by yarikoptic, from the GitHub commits API paged
+      to its last page (989 commits).  Upper bound: the project predates its
+      GitHub repository, which was created 2011-09-28, so the history was
+      imported and anything before the import is invisible here.  The date
+      sits one day before fsl/debian/changelog bottoms out at 2005-12-28 --
+      the same period as the pkg-exppsy work.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/0/ended/at_time
+    value: "2023-11-22"
+    bound: lower
+    kind: upstream-git
+    source: https://github.com/fail2ban/fail2ban
+    locator: 22ce0c053
+    quote: Merge pull request #3630 from yarikoptic/enh-codespell
+    note: >-
+      Newest commit authored by yarikoptic.  Lower bound -- involvement that
+      left no commit does not show here.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/0/roles/0
+    value: marcrel:led
+    kind: registry
+    source: https://api.github.com/repos/fail2ban/fail2ban/contributors
+    locator: contributors, ranked by commit count
+    quote: '"login": "yarikoptic", "contributions": 989'
+    note: >-
+      Second of 8+ contributors by commit count, behind sebres (2420) and
+      ahead of grooverdan (854).  Commit rank is evidence of sustained
+      maintenance, not of a formal lead role; `marcrel:led` is the user's own
+      account of having been lead developer and maintainer, and this
+      corroborates the scale of it rather than proving the title.
+    confidence: approximate
+    captured: "2026-10-10"

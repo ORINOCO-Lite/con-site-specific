@@ -1,0 +1,14 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://incf.org
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: INCF
+description: International Neuroinformatics Coordinating Facility. Backed the grassroots
+  standardization work on NIDM and BIDS.
+display_label: INCF
+name: INCF
+pid: xyzrins:organizations/incf
+schema_type: xyzri:XYZOrganization
+short_name: INCF

@@ -1,3 +1,6 @@
+associated_with:
+- object: xyzrins:organizations/stamped-principles
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
@@ -26,6 +29,12 @@ description: STAMPED is a set of seven principles, Self-containment, Tracking, A
   practice. STAMPED grew out of YODA and comes with an interactive checklist and worked
   examples.
 display_label: STAMPED Principles
+part_of:
+- xyzrins:.
+- xyzrins:projects/repronim
+- xyzrins:projects/dandi
+- xyzrins:projects/ember
+- xyzrins:projects/openneuro
 pid: xyzrins:projects/stamped-principles
 schema_type: xyzri:XYZProject
 short_name: STAMPED Principles

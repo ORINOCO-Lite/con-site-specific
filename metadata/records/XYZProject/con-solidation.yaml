@@ -21,6 +21,8 @@ description: con/solidation is a command-line tool that produces a Markdown acti
   the projects it maintains and contributes to, enabling lightweight project-health monitoring
   without leaving the terminal.
 display_label: con/solidation
+part_of:
+- xyzrins:.
 pid: xyzrins:projects/con-solidation
 schema_type: xyzri:XYZProject
 short_name: con/solidation

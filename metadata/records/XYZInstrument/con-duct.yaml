@@ -1,0 +1,17 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/con/duct
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: con/duct
+description: Lightweight wrapper that records execution time, CPU and memory usage of
+  a command, for resource-aware reproducible runs.
+display_label: con/duct
+generated_by:
+- object: xyzrins:projects/repronim
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: con/duct
+pid: xyzrins:instruments/con-duct
+schema_type: xyzri:XYZInstrument

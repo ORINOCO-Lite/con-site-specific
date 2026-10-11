@@ -1,0 +1,20 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/?dir=/centerforopenneuroscience/contube
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: ConTube
+description: CON's archive of recorded talks and tutorials, maintained as a DataLad dataset
+  by con/annextube.
+display_label: ConTube
+generated_by:
+- object: xyzrins:instruments/annextube
+  schema_type: dlthings:Generation
+identifiers:
+- notation: https://datasets.datalad.org/?dir=/centerforopenneuroscience/contube
+  schema_type: dlthings:Identifier
+pid: xyzrins:datasets/contube
+schema_type: xyzri:XYZDataset
+short_name: ConTube
+title: ConTube

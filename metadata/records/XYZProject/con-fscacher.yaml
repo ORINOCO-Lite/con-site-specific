@@ -21,6 +21,8 @@ description: con/fscacher is a Python library providing a persistent, file-conte
   easy to cache expensive operations on large file trees without stale results. It is
   used internally by the DANDI client and other CON tools.
 display_label: con/fscacher
+part_of:
+- xyzrins:.
 pid: xyzrins:projects/con-fscacher
 schema_type: xyzri:XYZProject
 short_name: con/fscacher

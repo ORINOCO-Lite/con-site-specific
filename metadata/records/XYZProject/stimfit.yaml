@@ -1,18 +1,18 @@
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
-  value: https://incf.org
+  value: https://github.com/neurodroid/stimfit
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
-  value: INCF
+  value: Stimfit
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
-  value: INCF
+  value: Stimfit
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
-  value: INCF
-display_label: INCF
-pid: xyzrins:projects/incf
+  value: Stimfit
+display_label: Stimfit
+pid: xyzrins:projects/stimfit
 schema_type: xyzri:XYZProject
-short_name: INCF
-title: INCF
+short_name: Stimfit
+title: Stimfit

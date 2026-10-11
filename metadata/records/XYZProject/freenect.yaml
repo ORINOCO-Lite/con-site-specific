@@ -1,18 +1,18 @@
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
-  value: http://nitrc.org
+  value: https://github.com/openkinect
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
-  value: NITRC
+  value: Freenect
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
-  value: NITRC
+  value: Freenect
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
-  value: NITRC
-display_label: NITRC
-pid: xyzrins:projects/nitrc
+  value: Freenect
+display_label: Freenect
+pid: xyzrins:projects/freenect
 schema_type: xyzri:XYZProject
-short_name: NITRC
-title: NITRC
+short_name: Freenect
+title: Freenect

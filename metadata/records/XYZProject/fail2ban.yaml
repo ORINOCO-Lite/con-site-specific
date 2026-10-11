@@ -1,0 +1,33 @@
+associated_with:
+- ended:
+    at_time: '2023-11-22'
+    schema_type: dlthings:End
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2005-12-27'
+    schema_type: dlthings:Start
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.fail2ban.org
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Fail2Ban
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Fail2Ban
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: Fail2Ban
+description: Daemon that bans hosts causing repeated authentication failures, by watching
+  logs and driving the firewall. Not a neuroscience project; it runs under the infrastructure
+  CON and most of the field depend on.
+display_label: Fail2Ban
+pid: xyzrins:projects/fail2ban
+schema_type: xyzri:XYZProject
+short_name: Fail2Ban
+title: Fail2Ban

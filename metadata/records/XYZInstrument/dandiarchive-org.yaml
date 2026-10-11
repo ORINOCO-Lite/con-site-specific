@@ -1,0 +1,20 @@
+alternate_of:
+- xyzrins:instruments/dandi-ember
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://dandiarchive.org
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: dandiarchive.org
+description: The principal DANDI instance, operated for the BRAIN Initiative.
+display_label: dandiarchive.org
+identifiers:
+- notation: https://dandiarchive.org
+  schema_type: dlthings:Identifier
+kind: schema:Service
+name: dandiarchive.org
+pid: xyzrins:instruments/dandiarchive-org
+schema_type: xyzri:XYZInstrument
+specialization_of:
+- xyzrins:instruments/dandi-archive

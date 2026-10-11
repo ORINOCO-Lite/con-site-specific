@@ -27,6 +27,8 @@ description: HeuDiConv is a flexible DICOM converter for organizing brain imagin
   This solution is deployed at DBIC (Dartmouth Brain Imaging Center), it already facilitates
   reproducible research, data sharing, and uploads to central archives such as NDA.
 display_label: HeuDiConv / ReproIn
+part_of:
+- xyzrins:.
 pid: xyzrins:projects/heudiconv-reproin
 schema_type: xyzri:XYZProject
 short_name: HeuDiConv / ReproIn
