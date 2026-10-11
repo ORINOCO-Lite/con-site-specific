@@ -1,0 +1,14 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://osf.io
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Open Science Framework
+description: 'Open Science Framework: registration, preprint and project-management platform
+  operated by the Center for Open Science.'
+display_label: OSF
+kind: schema:Service
+name: Open Science Framework
+pid: xyzrins:instruments/osf
+schema_type: xyzri:XYZInstrument

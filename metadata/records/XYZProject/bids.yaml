@@ -3,14 +3,18 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - xyzrins:agent-roles/steering-committee-member
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://bids.neuroimaging.io
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: A standard providing a simple and intuitive way to organize and describe
-    neuroimaging and behavioral data. Governed by a community-elected steering group.
+  value: A standard providing a simple and intuitive way to organize and describe neuroimaging
+    and behavioral data. Governed by a community-elected steering group.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: BIDS

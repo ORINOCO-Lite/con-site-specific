@@ -1,0 +1,16 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://pbs.dartmouth.edu/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Department of Psychological and Brain Sciences
+description: Dartmouth's Department of Psychological and Brain Sciences. The department
+  hosting the Center for Open Neuroscience.
+display_label: PBS
+name: Department of Psychological and Brain Sciences
+part_of:
+- ror:049s0rh22
+pid: xyzrins:organizations/pbs
+schema_type: xyzri:XYZOrganization
+short_name: PBS

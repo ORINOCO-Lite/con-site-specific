@@ -1,11 +1,16 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - xyzrins:agent-roles/steering-committee-member
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://www.nwb.org/
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: A data standard providing neuroscientists with a common standard to share,
-    archive, use, and build analysis tools for neurophysiology data.
+  value: A data standard providing neuroscientists with a common standard to share, archive,
+    use, and build analysis tools for neurophysiology data.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: NWB

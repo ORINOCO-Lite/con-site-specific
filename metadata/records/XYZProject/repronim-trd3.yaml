@@ -1,0 +1,21 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.repronim.org/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: ReproNim TR&D3
+description: Technology Research and Development project 3 within ReproNim, on reproducible
+  execution and provenance capture.
+display_label: ReproNim TR&D3
+part_of:
+- xyzrins:projects/repronim
+pid: xyzrins:projects/repronim-trd3
+schema_type: xyzri:XYZProject
+short_name: TR&D3
+title: ReproNim TR&D3

@@ -15,7 +15,7 @@ influenced_by:
   schema_type: xyzri:XYZInfluence
 name: Cognitive and Affective Neuroscience Lab
 part_of:
-- ror:049s0rh22
+- xyzrins:organizations/pbs
 pid: xyzrins:organizations/canlab
 schema_type: xyzri:XYZOrganization
 short_name: CANlab

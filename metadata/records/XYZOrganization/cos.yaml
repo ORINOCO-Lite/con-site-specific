@@ -1,0 +1,14 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.cos.io
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Center for Open Science
+description: Non-profit behind the Open Science Framework (OSF), working on transparency,
+  reproducibility and openness in research practice.
+display_label: COS
+name: Center for Open Science
+pid: xyzrins:organizations/cos
+schema_type: xyzri:XYZOrganization
+short_name: COS

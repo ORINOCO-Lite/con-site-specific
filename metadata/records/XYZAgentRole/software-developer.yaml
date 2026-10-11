@@ -1,0 +1,4 @@
+description: Responsible for the creation of a computer program.
+display_label: Software developer
+pid: marcrel:swd
+schema_type: xyzri:XYZAgentRole

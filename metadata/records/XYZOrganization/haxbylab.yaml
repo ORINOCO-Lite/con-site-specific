@@ -15,7 +15,7 @@ influenced_by:
   schema_type: xyzri:XYZInfluence
 name: Haxby Lab
 part_of:
-- ror:049s0rh22
+- xyzrins:organizations/pbs
 pid: xyzrins:organizations/haxbylab
 schema_type: xyzri:XYZOrganization
 short_name: Haxby Lab
