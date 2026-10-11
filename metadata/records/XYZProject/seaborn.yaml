@@ -1,4 +1,7 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Statistical data visualization in Python, built on matplotlib.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://seaborn.pydata.org/
@@ -11,6 +14,10 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: seaborn
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/mwaskom/seaborn
+description: Statistical data visualization in Python, built on matplotlib.
 display_label: seaborn
 pid: xyzrins:projects/seaborn
 schema_type: xyzri:XYZProject

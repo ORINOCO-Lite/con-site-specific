@@ -1,4 +1,7 @@
 attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/con/fscacher
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: con/fscacher
@@ -15,6 +18,9 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: con/fscacher
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/con/fscacher
 description: con/fscacher is a Python library providing a persistent, file-content-aware
   memoization cache. Functions decorated with @cache.memoize_path are re-executed only
   when the fingerprint (timestamps + size) of their file arguments changes — making it

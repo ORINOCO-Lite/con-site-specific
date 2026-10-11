@@ -1,4 +1,7 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Image processing in Python.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://scikit-image.org/
@@ -11,6 +14,10 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: scikit-image
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/scikit-image/scikit-image
+description: Image processing in Python.
 display_label: scikit-image
 pid: xyzrins:projects/scikit-image
 schema_type: xyzri:XYZProject

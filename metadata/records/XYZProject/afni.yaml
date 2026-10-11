@@ -1,4 +1,8 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Official AFNI source and documentation. AFNI is a suite of programs for analysing,
+    visualising and interacting with functional and anatomical MRI data.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://afni.nimh.nih.gov/
@@ -11,6 +15,11 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: AFNI
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/afni/afni
+description: Official AFNI source and documentation. AFNI is a suite of programs for analysing,
+  visualising and interacting with functional and anatomical MRI data.
 display_label: AFNI
 pid: xyzrins:projects/afni
 schema_type: xyzri:XYZProject

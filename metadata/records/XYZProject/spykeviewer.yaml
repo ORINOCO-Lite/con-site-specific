@@ -1,4 +1,8 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: A multi-platform GUI application for navigating, analyzing and visualizing electrophysiological
+    data.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://neuralensemble.org/SpykeViewer/
@@ -11,6 +15,11 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: Spykeviewer
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/rproepp/spykeviewer
+description: A multi-platform GUI application for navigating, analyzing and visualizing
+  electrophysiological data.
 display_label: Spykeviewer
 pid: xyzrins:projects/spykeviewer
 schema_type: xyzri:XYZProject

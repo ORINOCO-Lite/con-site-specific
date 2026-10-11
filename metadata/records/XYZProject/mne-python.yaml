@@ -1,4 +1,8 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'MEG and EEG analysis in Python: preprocessing, source estimation, time-frequency
+    analysis and statistics.'
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://mne.tools/stable/index.html
@@ -11,6 +15,11 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: mne-python
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/mne-tools/mne-python
+description: 'MEG and EEG analysis in Python: preprocessing, source estimation, time-frequency
+  analysis and statistics.'
 display_label: mne-python
 pid: xyzrins:projects/mne-python
 schema_type: xyzri:XYZProject

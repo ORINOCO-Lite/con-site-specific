@@ -1,4 +1,7 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Python package to access a cacophony of neuro-imaging file formats.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://nipy.org/nibabel/
@@ -11,6 +14,10 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: Nibabel
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/nipy/nibabel
+description: Python package to access a cacophony of neuro-imaging file formats.
 display_label: Nibabel
 pid: xyzrins:projects/nibabel
 schema_type: xyzri:XYZProject

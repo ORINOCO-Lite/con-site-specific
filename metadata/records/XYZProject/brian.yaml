@@ -1,4 +1,7 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: A free, open-source simulator for spiking neural networks.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://briansimulator.org/
@@ -11,6 +14,10 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: Brian
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/brian-team/brian2
+description: A free, open-source simulator for spiking neural networks.
 display_label: Brian
 pid: xyzrins:projects/brian
 schema_type: xyzri:XYZProject

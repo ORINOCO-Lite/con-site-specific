@@ -1,4 +1,8 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Neuroimaging analysis and visualization suite, best known for cortical surface
+    reconstruction and segmentation.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://surfer.nmr.mgh.harvard.edu/fswiki
@@ -11,6 +15,11 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: FreeSurfer
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/freesurfer/freesurfer
+description: Neuroimaging analysis and visualization suite, best known for cortical surface
+  reconstruction and segmentation.
 display_label: FreeSurfer
 pid: xyzrins:projects/freesurfer
 schema_type: xyzri:XYZProject

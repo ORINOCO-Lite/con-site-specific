@@ -10,6 +10,10 @@ associated_with:
     at_time: '2010-03-24'
     schema_type: dlthings:Start
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'Machine learning in Python: classification, regression, clustering and model
+    selection on top of NumPy and SciPy.'
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://scikit-learn.org/stable/
@@ -22,6 +26,11 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: scikit-learn
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/scikit-learn/scikit-learn
+description: 'Machine learning in Python: classification, regression, clustering and model
+  selection on top of NumPy and SciPy.'
 display_label: scikit-learn
 pid: xyzrins:projects/scikit-learn
 schema_type: xyzri:XYZProject

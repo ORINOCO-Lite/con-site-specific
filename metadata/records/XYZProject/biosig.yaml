@@ -1,4 +1,8 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: A software library for processing biomedical signals, with readers for a large
+    number of EEG, ECG and other biosignal formats.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://biosig.sourceforge.net
@@ -11,6 +15,8 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: biosig
+description: A software library for processing biomedical signals, with readers for a
+  large number of EEG, ECG and other biosignal formats.
 display_label: biosig
 pid: xyzrins:projects/biosig
 schema_type: xyzri:XYZProject

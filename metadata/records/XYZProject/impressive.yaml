@@ -1,4 +1,8 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: A presentation tool that displays PDF and image slideshows with smooth transitions
+    and presenter aids.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://impressive.sourceforge.net
@@ -11,6 +15,8 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: Impressive
+description: A presentation tool that displays PDF and image slideshows with smooth transitions
+  and presenter aids.
 display_label: Impressive
 pid: xyzrins:projects/impressive
 schema_type: xyzri:XYZProject

@@ -1,4 +1,8 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: A Python compiler written in Python, fully compatible with the language and able
+    to produce standalone executables.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://nuitka.net/
@@ -11,6 +15,11 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: Nuitka
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/Nuitka/Nuitka
+description: A Python compiler written in Python, fully compatible with the language and
+  able to produce standalone executables.
 display_label: Nuitka
 pid: xyzrins:projects/nuitka
 schema_type: xyzri:XYZProject

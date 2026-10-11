@@ -1,10 +1,17 @@
 attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.mcgill.ca
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: McGill University
 - predicate: dlthings:name
   schema_type: dlthings:AttributeSpecification
   value: McGill University
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Public research university in Montreal, Quebec.
+description: Public research university in Montreal, Quebec.
 display_label: McGill University
 name: McGill University
 pid: ror:01pxwe438

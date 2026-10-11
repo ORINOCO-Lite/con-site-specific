@@ -1,4 +1,7 @@
 attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/con/mechababs
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: mechababs
@@ -15,6 +18,9 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: mechababs
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/con/mechababs
 description: 'mechababs runs BIDS Apps over many studies on an HPC cluster, with BABS
   running the jobs. It works on a BIDS study, adding derivatives to it, and records how
   each one was made inside the study itself: the exact mechababs and BABS versions pinned

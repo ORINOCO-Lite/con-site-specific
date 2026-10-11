@@ -1,4 +1,8 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: A PDF reader that links the static content of scientific articles to live online
+    resources, data and annotations.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://utopiadocs.com/
@@ -11,6 +15,8 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: Utopia Documents
+description: A PDF reader that links the static content of scientific articles to live
+  online resources, data and annotations.
 display_label: Utopia Documents
 pid: xyzrins:projects/utopia-documents
 schema_type: xyzri:XYZProject

@@ -42,6 +42,11 @@ associated_with:
   - marcrel:fnd
   schema_type: dlthings:Association
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Allows managing large files with git, without storing the file contents in git.
+    It can sync, back up and archive data, optionally encrypted, across many kinds of
+    remote.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://git-annex.branchable.com
@@ -54,6 +59,9 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: git-annex
+description: Allows managing large files with git, without storing the file contents in
+  git. It can sync, back up and archive data, optionally encrypted, across many kinds
+  of remote.
 display_label: git-annex
 pid: xyzrins:projects/git-annex
 schema_type: xyzri:XYZProject

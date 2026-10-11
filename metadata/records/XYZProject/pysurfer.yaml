@@ -1,4 +1,7 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Cortical neuroimaging visualization in Python.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://pysurfer.github.io/
@@ -11,6 +14,10 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: Pysurfer
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/nipy/PySurfer
+description: Cortical neuroimaging visualization in Python.
 display_label: Pysurfer
 pid: xyzrins:projects/pysurfer
 schema_type: xyzri:XYZProject

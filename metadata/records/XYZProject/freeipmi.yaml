@@ -1,4 +1,8 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: GNU FreeIPMI provides in-band and out-of-band IPMI software for system management,
+    monitoring and sensor reading.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://www.gnu.org/software/freeipmi/
@@ -11,6 +15,8 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: FreeIPMI
+description: GNU FreeIPMI provides in-band and out-of-band IPMI software for system management,
+  monitoring and sensor reading.
 display_label: FreeIPMI
 pid: xyzrins:projects/freeipmi
 schema_type: xyzri:XYZProject

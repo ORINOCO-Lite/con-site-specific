@@ -1,4 +1,8 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: The Connectome Coordination Facility houses and distributes public research data
+    from studies focused on mapping human brain connectivity.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://www.humanconnectome.org/
@@ -11,6 +15,8 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: HCP
+description: The Connectome Coordination Facility houses and distributes public research
+  data from studies focused on mapping human brain connectivity.
 display_label: HCP
 pid: xyzrins:projects/hcp
 schema_type: xyzri:XYZProject

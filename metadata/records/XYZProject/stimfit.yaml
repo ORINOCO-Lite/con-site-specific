@@ -1,4 +1,7 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: A program for viewing and analyzing electrophysiological data.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/neurodroid/stimfit
@@ -11,6 +14,10 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: Stimfit
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/neurodroid/stimfit
+description: A program for viewing and analyzing electrophysiological data.
 display_label: Stimfit
 pid: xyzrins:projects/stimfit
 schema_type: xyzri:XYZProject

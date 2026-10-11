@@ -1,4 +1,7 @@
 attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/con/solidation
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: con/solidation
@@ -15,6 +18,9 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: con/solidation
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/con/solidation
 description: con/solidation is a command-line tool that produces a Markdown activity report
   of recent issue and pull-request events across a configured set of GitHub repositories
   and organizations. It is used by CON to generate regular summaries of activity across

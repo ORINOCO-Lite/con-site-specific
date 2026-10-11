@@ -1,4 +1,7 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Graphical experiment builder for the social sciences.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://osdoc.cogsci.nl/
@@ -11,6 +14,10 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: opensesame
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/open-cogsci/OpenSesame
+description: Graphical experiment builder for the social sciences.
 display_label: opensesame
 pid: xyzrins:projects/opensesame
 schema_type: xyzri:XYZProject

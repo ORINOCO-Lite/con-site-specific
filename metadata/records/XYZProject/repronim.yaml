@@ -4,6 +4,10 @@ associated_with:
   - marcrel:ctb
   schema_type: dlthings:Association
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'ReproNim: A Center for Reproducible Neuroimaging Computation. A P41 center building
+    training, tools and standards so neuroimaging analyses can be reproduced.'
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://repronim.org/
@@ -16,6 +20,8 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: ReproNim
+description: 'ReproNim: A Center for Reproducible Neuroimaging Computation. A P41 center
+  building training, tools and standards so neuroimaging analyses can be reproduced.'
 display_label: ReproNim
 pid: xyzrins:projects/repronim
 schema_type: xyzri:XYZProject

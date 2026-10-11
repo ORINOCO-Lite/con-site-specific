@@ -1,4 +1,8 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'Diffusion imaging in Python: a 3D/4D+ medical imaging library with methods for
+    diffusion MRI, tractography, registration and segmentation.'
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://dipy.org/
@@ -11,6 +15,11 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: Dipy
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/dipy/dipy
+description: 'Diffusion imaging in Python: a 3D/4D+ medical imaging library with methods
+  for diffusion MRI, tractography, registration and segmentation.'
 display_label: Dipy
 pid: xyzrins:projects/dipy
 schema_type: xyzri:XYZProject

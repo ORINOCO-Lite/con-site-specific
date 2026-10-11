@@ -1,4 +1,8 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: A free set of Matlab and GNU Octave functions for vision and neuroscience research,
+    giving precise control over stimulus display and response collection.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://psychtoolbox.org/
@@ -11,6 +15,11 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: Psychtoolbox
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/Psychtoolbox-3/Psychtoolbox-3
+description: A free set of Matlab and GNU Octave functions for vision and neuroscience
+  research, giving precise control over stimulus display and response collection.
 display_label: Psychtoolbox
 pid: xyzrins:projects/psychtoolbox
 schema_type: xyzri:XYZProject

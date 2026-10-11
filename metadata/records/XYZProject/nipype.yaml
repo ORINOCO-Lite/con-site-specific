@@ -1,4 +1,8 @@
 attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Workflows and uniform interfaces across neuroimaging packages, so pipelines can
+    mix tools from different suites.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://nipype.readthedocs.io/
@@ -11,6 +15,11 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: Nipype
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/nipy/nipype
+description: Workflows and uniform interfaces across neuroimaging packages, so pipelines
+  can mix tools from different suites.
 display_label: Nipype
 pid: xyzrins:projects/nipype
 schema_type: xyzri:XYZProject
