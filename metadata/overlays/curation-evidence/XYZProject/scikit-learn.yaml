@@ -31,10 +31,13 @@ assertions:
     confidence: certain
     captured: "2026-10-10"
 
-# NOT asserted: Kyle Meyer's contributions to git-annex.  Recalled, and
-# plausible, but `datalad/git-annex` shows kyleam with zero commits, and the
-# upstream history lives in Joey Hess's own repository on
-# git-annex.branchable.com, which has no API to page through from here.
+# NOT asserted: contributions to UPSTREAM git-annex.  The recollection was
+# revised in conversation -- "I could be wrong ... I think I did some to
+# packaging and/or docs" -- which matches what is verifiable: the 230 and 197
+# commits are in `datalad/git-annex`, the BUILD repository, and that is where
+# they are recorded.  Nothing is claimed about Joey Hess's own tree, whose
+# history lives on git-annex.branchable.com and has no API to page through
+# from here.
 pending:
   - proposed_path: /associated_with/-
     proposed_value:
@@ -43,11 +46,13 @@ pending:
       roles: [marcrel:ctb]
     kind: recollection
     source: conversation 2026-10-10
-    quote: I and jwodder and I think Kyle did contribute a little got git-annex
+    quote: I could be wrong with statement that git-annex had contributions in
+      git-annex. I think I did some to packaging and/or docs etc.
     note: >-
-      Filed here against scikit-learn's overlay only because it came up in the
-      same breath; it belongs on git-annex once there is a source.  The claim
-      is about UPSTREAM git-annex, which this repo cannot query.
+      Filed against scikit-learn's overlay only because it came up in the same
+      breath; it belongs on git-annex once there is a source.  Kept as a
+      pending note rather than deleted, because "packaging and/or docs" is a
+      checkable claim and worth checking -- just not an asserted one.
     would_confirm: >-
       git log over a clone of git://git-annex.branchable.com/ filtered by
       author, or the contributors list on the upstream site.

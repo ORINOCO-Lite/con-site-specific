@@ -1,11 +1,16 @@
 attributes:
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Application containers for Linux, designed for reproducible scientific computing
-    on shared HPC systems. Now continued as Apptainer.
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
-  value: http://singularity.lbl.gov
+  value: https://sylabs.io/singularity/
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'Container platform for reproducible scientific computing on shared and HPC systems,
+    where unprivileged users need to run their own images. In 2021 the project forked:
+    SingularityCE continues under Sylabs and Apptainer moved to the Linux Foundation.
+    Both are live.'
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/sylabs/singularity
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Singularity
@@ -15,11 +20,10 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: Singularity
-- predicate: dlthings:code_repository
-  schema_type: dlthings:AttributeSpecification
-  value: https://github.com/apptainer/apptainer
-description: Application containers for Linux, designed for reproducible scientific computing
-  on shared HPC systems. Now continued as Apptainer.
+description: 'Container platform for reproducible scientific computing on shared and HPC
+  systems, where unprivileged users need to run their own images. In 2021 the project
+  forked: SingularityCE continues under Sylabs and Apptainer moved to the Linux Foundation.
+  Both are live.'
 display_label: Singularity
 pid: xyzrins:projects/singularity
 schema_type: xyzri:XYZProject

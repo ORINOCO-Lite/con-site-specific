@@ -1,0 +1,16 @@
+record: xyzrins:instruments/singularity
+format: con-association-evidence-v1
+assertions:
+  - path: /generated_by/0/at_time
+    value: "2021-05-04"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/repos/sylabs/singularity
+    locator: created_at
+    quote: '"created_at": "2021-05-04T..."'
+    note: >-
+      Creation of the SingularityCE repository under Sylabs.  Upper bound: the
+      project long predates this repository, which dates the split rather than
+      the project.
+    confidence: certain
+    captured: "2026-10-10"
