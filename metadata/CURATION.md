@@ -118,7 +118,6 @@ fits. The minting convention is real but it is *psychoinformatics*':
 `xyzri:XYZAgentRole: 'xyzrins:agent-roles/{_randomUUID}'`, and
 `psychoinformatics-site-specific` carries five such records.
 This repo's own `records/XYZAgentRole/` holds fifteen records, and
-one, and
 mints **none** — every pid there is reused from an external authority
 (`marcrel:*`, `obo:*`). Using a readable slug rather than a UUID diverges
 from the generator but matches this repo's own `persons/<slug>`,
