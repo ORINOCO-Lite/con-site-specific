@@ -52,7 +52,7 @@ attributes:
   value: Software
 - predicate: dlthings:anchor
   schema_type: dlthings:AttributeSpecification
-  value: dandi
+  value: ember
 - predicate: dlthings:logo_style
   schema_type: dlthings:AttributeSpecification
   value: width:155px;padding-left:5px;margin-top:0em;

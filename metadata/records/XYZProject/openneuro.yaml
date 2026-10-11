@@ -46,7 +46,7 @@ attributes:
   value: Software
 - predicate: dlthings:anchor
   schema_type: dlthings:AttributeSpecification
-  value: dandi
+  value: openneuro
 - predicate: dlthings:logo_style
   schema_type: dlthings:AttributeSpecification
   value: width:155px;padding-right:5px;margin-top:0em;
