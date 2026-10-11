@@ -1,0 +1,30 @@
+associated_with:
+- description: 'Uploader. UNDATED: the join date needs the same changelog research the
+    Debian Med migration got.'
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - xyzrins:agent-roles/debian-packager
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://wiki.debian.org/DebianScience
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Debian Pure Blend for scientific software and the team maintaining it. 28 of
+    the packages Yaroslav uploads are maintained here.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Debian Science
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborating projects
+description: Debian Pure Blend for scientific software and the team maintaining it. 28
+  of the packages Yaroslav uploads are maintained here.
+display_label: Debian Science
+part_of:
+- xyzrins:projects/debian
+pid: xyzrins:projects/debian-science
+schema_type: xyzri:XYZProject
+short_name: Debian Science
+title: Debian Science
