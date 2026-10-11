@@ -109,7 +109,7 @@ associated_with:
   - marcrel:ctb
   schema_type: dlthings:Association
   started:
-    at_time: '2007-10-25'
+    at_time: 2015-07
     schema_type: dlthings:Start
 - object: xyzrins:persons/satrajit-ghosh
   roles:

@@ -3,10 +3,16 @@ associated_with:
   roles:
   - marcrel:led
   schema_type: dlthings:Association
-- object: xyzrins:persons/michael-hanke
+- ended:
+    at_time: '2015-06-10'
+    schema_type: dlthings:End
+  object: xyzrins:persons/michael-hanke
   roles:
-  - marcrel:led
+  - marcrel:ctb
   schema_type: dlthings:Association
+  started:
+    at_time: '2009-03-28'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

@@ -17,3 +17,28 @@ assertions:
       Good enough to order a page by; not a founding date.
     confidence: certain
     captured: "2026-10-11"
+  - path: /associated_with/1/started/at_time
+    value: "2009-03-28"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/neurodebian/neurodebian
+    locator: oldest mih commit
+    quote: (oldest commit authored by mih)
+    note: >-
+      566 commits across six years.  Recorded here rather than on CON's own record: the
+      collaboration with Michael Hanke predates the Center, and CON's record
+      now starts his association at CON's founding, which is the honest
+      place for it.  The work itself lives on the projects where it happened.
+    confidence: certain
+    captured: "2026-10-11"
+  - path: /associated_with/1/ended/at_time
+    value: "2015-06-10"
+    bound: lower
+    kind: upstream-git
+    source: https://github.com/neurodebian/neurodebian
+    locator: newest mih commit
+    quote: Support update
+    note: >-
+      Lower bound: involvement that left no commit does not show here.
+    confidence: certain
+    captured: "2026-10-11"

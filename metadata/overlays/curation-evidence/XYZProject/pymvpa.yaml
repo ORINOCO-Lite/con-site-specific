@@ -17,3 +17,28 @@ assertions:
       Good enough to order a page by; not a founding date.
     confidence: certain
     captured: "2026-10-11"
+  - path: /associated_with/1/started/at_time
+    value: "2007-05-24"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/PyMVPA/PyMVPA
+    locator: oldest mih commit
+    quote: Initial commit
+    note: >-
+      Hanke opened the repository; he and YOH finish as its top two contributors, 3131 and 4502.  Recorded here rather than on CON's own record: the
+      collaboration with Michael Hanke predates the Center, and CON's record
+      now starts his association at CON's founding, which is the honest
+      place for it.  The work itself lives on the projects where it happened.
+    confidence: certain
+    captured: "2026-10-11"
+  - path: /associated_with/1/ended/at_time
+    value: "2018-01-13"
+    bound: lower
+    kind: upstream-git
+    source: https://github.com/PyMVPA/PyMVPA
+    locator: newest mih commit
+    quote: 'ENH: Robustify h5save() in the presence'
+    note: >-
+      Lower bound: involvement that left no commit does not show here.
+    confidence: certain
+    captured: "2026-10-11"

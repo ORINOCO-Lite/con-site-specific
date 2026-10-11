@@ -1,8 +1,4 @@
 associated_with:
-- object: xyzrins:persons/michael-hanke
-  roles:
-  - marcrel:led
-  schema_type: dlthings:Association
 - object: xyzrins:persons/matteo-visconti-di-oleggio-castello
   roles:
   - marcrel:ctb
@@ -19,6 +15,13 @@ associated_with:
   roles:
   - marcrel:led
   schema_type: dlthings:Association
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+  started:
+    at_time: '2015-08-18'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
