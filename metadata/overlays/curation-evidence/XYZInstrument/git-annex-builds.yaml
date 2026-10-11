@@ -1,0 +1,19 @@
+record: xyzrins:instruments/git-annex-builds
+format: con-association-evidence-v1
+
+assertions:
+  - path: /generated_by/0/at_time
+    value: "2020-11-04"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/datalad/git-annex
+    locator: oldest commit
+    quote: Init with README
+    note: >-
+      John Wodder, 2020-11-04, the repository's first commit.  Counts to date:
+      yarikoptic 230 (to 2026-10-07, still active), jwodder 197 (to
+      2025-01-15).  These are the DataLad-side BUILDS, not upstream git-annex
+      -- worth keeping distinct, since the project record `git-annex` is Joey
+      Hess's software and this is the machinery that packages it.
+    confidence: certain
+    captured: "2026-10-10"

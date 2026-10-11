@@ -1,3 +1,14 @@
+associated_with:
+- ended:
+    at_time: '2025-07-31'
+    schema_type: dlthings:End
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2010-03-24'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

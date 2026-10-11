@@ -1,0 +1,31 @@
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/john-wodder
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/datalad/git-annex
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: datalad/git-annex
+derived_from:
+- object: xyzrins:projects/git-annex
+  schema_type: dlthings:Derivation
+description: Build and distribution infrastructure that packages git-annex for DataLad's
+  platforms. Not upstream git-annex, which Joey Hess develops.
+display_label: git-annex builds
+generated_by:
+- at_time: '2020-11-04'
+  object: xyzrins:projects/datalad
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: datalad/git-annex
+pid: xyzrins:instruments/git-annex-builds
+schema_type: xyzri:XYZInstrument
