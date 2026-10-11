@@ -33,9 +33,11 @@ attributes:
     the <a href="https://braininitiative.nih.gov/research/systems-neuroscience/brain-behavior-quantification-and-synchronization-program">Brain
     Behavior Quantification and Synchronization (BBQS) Program</a>. The platform is being
     kick-started based on DANDI to provide data upload and distribution. CON is working
-    on integration with DANDI and involved standards. </p> <p> <a href="https://hearth.emberarchive.org">HEARTH</a>
-    is EMBER's companion suite of data management tools, providing apps for preparing
-    media prior to submission and publication on EMBER. </p> <div style="display:flex;flex-wrap:wrap;gap:1em;margin:0.5em
+    on integration with DANDI and involved standards. </p> <figure> <a href="https://hearth.emberarchive.org"><img
+    src="/theme/img/3rd/hearth_logo.svg" alt="HEARTH" class="pull-left" style="width:100px;padding-right:5px;margin-top:0em;"
+    /></a> </figure> <p> <a href="https://hearth.emberarchive.org">HEARTH</a> is EMBER's
+    companion suite of data management tools, providing apps for preparing media prior
+    to submission and publication on EMBER. </p> <div style="display:flex;flex-wrap:wrap;gap:1em;margin:0.5em
     0 1em;"> <div style="flex:1 1 260px;min-width:220px;display:flex;align-items:flex-start;gap:0.6em;">
     <a href="https://hearth.emberarchive.org" style="flex:0 0 auto;"> <img src="/theme/img/3rd/hearth_clip_extractor_logo.svg"
     alt="Clip Extractor" style="width:36px;" /> </a> <p style="margin:0;"> <a href="https://hearth.emberarchive.org"><strong>Clip

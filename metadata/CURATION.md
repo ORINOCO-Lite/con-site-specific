@@ -245,6 +245,26 @@ overlays on the same record.
    to exclude the early work — see below — but to avoid claiming an
    institution signed a 2005 upload.
 
+## What the gates still cannot see
+
+Both gates check a record against the schema and against its own evidence.
+Neither checks a record against the records it *points at*, and two reviews
+found the same class of defect through that hole:
+
+- Three DANDI instruments were `generated_by` a project whose `started` was
+  thirteen months later. Every date was individually true and the set was
+  incoherent.
+- A person's association was ended by the first commit filing them under
+  Emeritus, without asking whether a later commit moved them back. One did
+  (Adina Wagner, con.org 85ca73100), so the store said she had left while her
+  own `dlthings:tier` said Collaborator.
+- A `pending` entry proposed the wrong agent on the wrong project: its quote
+  is YOH about git-annex, and it named Kyle Meyer under scikit-learn. A
+  `pending` block is only checked for being quarantined, never for coherence.
+
+A cross-record check is the obvious next gate. Until it exists, these are the
+shapes to look for by hand.
+
 ## Known pitfalls, learned the hard way
 
 - Dates must be **re-derived from the sources**, not back-inferred from

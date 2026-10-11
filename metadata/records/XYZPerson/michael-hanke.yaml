@@ -30,7 +30,7 @@ attributes:
   value: https://twitter.com/eknahm
 - predicate: dlthings:github
   schema_type: dlthings:AttributeSpecification
-  value: https://github.com/hanke
+  value: https://github.com/mih
 - predicate: foaf:account
   schema_type: dlthings:AttributeSpecification
   value: https://de.linkedin.com/in/mhanke
@@ -58,10 +58,10 @@ family_name: Hanke
 formatted_name: Michael Hanke
 given_name: Michael
 identifiers:
-- notation: hanke
+- notation: mih
   schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630
-  notation: hanke
+  notation: mih
   schema_type: dlthings:Identifier
 pid: xyzrins:persons/michael-hanke
 schema_type: xyzri:XYZPerson

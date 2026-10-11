@@ -44,7 +44,7 @@ attributes:
   value: A software engineer at <a href="https://brainlife.io">brainlife.io</a>. A husband
     and a father of 2 who likes coding, cooking, bicycling, hiking, gardening, and just
     about anything else.
-- predicate: foaf:homepage
+- predicate: dlthings:home_page
   schema_type: dlthings:AttributeSpecification
   value: https://soichi.us
 delegated_by:

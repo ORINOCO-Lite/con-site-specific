@@ -288,19 +288,6 @@ assertions:
     quote: first commit to content/pages/whoweare.html naming Adina Wagner
     confidence: certain
     captured: "2026-10-10"
-  - path: /associated_with/8/ended/at_time
-    value: "2019-04-18"
-    bound: upper
-    artifact: record
-    kind: site-git-history
-    source: con.org
-    locator: 1c466a840
-    quote: first commit filing Adina Wagner under Emeritus
-    note: >-
-      A record of the departure, not a trace of the work: the page is
-      edited after someone leaves, so the real date is at or earlier.
-    confidence: certain
-    captured: "2026-10-10"
   - path: /associated_with/28/started/at_time
     value: "2018-11-19"
     bound: upper

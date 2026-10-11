@@ -52,10 +52,7 @@ associated_with:
   started:
     at_time: '2026-07-07'
     schema_type: dlthings:Start
-- ended:
-    at_time: '2019-04-18'
-    schema_type: dlthings:End
-  object: xyzrins:persons/adina-wagner
+- object: xyzrins:persons/adina-wagner
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
