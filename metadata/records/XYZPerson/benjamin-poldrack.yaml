@@ -31,6 +31,9 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Worked on the <a href="/projects#datalad_">DataLad</a> project and the magician
     behind OHBM 2020 Booth Design.
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://plus.google.com/107308863221154459192
 delegated_by:
 - object: ror:04tfhh831
   roles:

@@ -41,6 +41,9 @@ attributes:
     for Singularity containers. See a <a href="https://vsoch.github.io/work" target="_blank">list</a>
     of work or recent ideas on <a href="https://vsoch.github.io" target="_blank>">her
     personal site</a>.
+- predicate: foaf:weblog
+  schema_type: dlthings:AttributeSpecification
+  value: https://vsoch.github.io
 delegated_by:
 - object: ror:04tfhh831
   roles:

@@ -37,6 +37,12 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Franco is the director and founder of the partner project and cloud computing
     platform <a href="https://brainlife.io" class="brainlife.io">brainlife.io</a>.
+- predicate: dlthings:scholar
+  schema_type: dlthings:AttributeSpecification
+  value: https://scholar.google.com/citations?user=gh_KorwAAAAJ&amp;hl=en
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/francopestilli
 description: Collaborator at the Center for Open Neuroscience. Affiliated with University
   of Texas, Austin. Director and founder of brainlife.io cloud computing platform.
 display_label: Franco Pestilli

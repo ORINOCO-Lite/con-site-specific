@@ -47,6 +47,9 @@ attributes:
     in uploading several hundred terabytes of neurophysiology datasets to NIH archives.
     Currently working on <a href="https://github.com/dandi/dandi-infrastructure">DANDI
     infrastructure</a>.
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://codycbakerphd.com
 delegated_by:
 - object: ror:04tfhh831
   roles:

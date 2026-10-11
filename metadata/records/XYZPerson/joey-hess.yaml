@@ -43,6 +43,12 @@ attributes:
     <a href="https://joeyh.name/code/debian/">etc.</a>) and his work on variety of other
     software projects, such as <a href="https://git-annex.branchable.com/">git-annex</a>
     which we rely upon in the <a href="/projects#datalad_">DataLad</a> project.
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://joeyh.name
+- predicate: foaf:weblog
+  schema_type: dlthings:AttributeSpecification
+  value: https://joeyh.name/blog
 description: Independent collaborator at the Center for Open Neuroscience. Core Debian
   distribution contributor (debhelper, debian-installer, debconf, pristine-tar). Developer
   of git-annex used in DataLad.
