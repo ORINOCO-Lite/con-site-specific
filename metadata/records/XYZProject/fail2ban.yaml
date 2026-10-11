@@ -1,5 +1,16 @@
 associated_with:
 - ended:
+    at_time: '2018-04-04'
+    object: xyzrins:persons/sylvestre-ledru
+    schema_type: dlthings:End
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - xyzrins:agent-roles/debian-packager
+  schema_type: dlthings:Association
+  started:
+    at_time: '2005-07-04'
+    schema_type: dlthings:Start
+- ended:
     at_time: '2023-11-22'
     schema_type: dlthings:End
   object: xyzrins:persons/yaroslav-halchenko
