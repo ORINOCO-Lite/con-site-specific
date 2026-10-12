@@ -1,0 +1,44 @@
+{{ define "main" }}
+  <header>
+    {{ if .Params.showBreadcrumbs | default (.Site.Params.list.showBreadcrumbs | default false) }}
+      {{ partial "breadcrumbs.html" . }}
+    {{ end }}
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+  </header>
+  {{ if .Content }}
+    <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
+      <div class="min-h-0 min-w-0 grow">
+        {{ .Content | emojify }}
+      </div>
+    </section>
+  {{ end }}
+  <article class="prose max-w-full dark:prose-invert">
+    {{ if eq .Data.Plural "projects" }}
+      {{ $owned := slice }}
+      {{ $contributed := slice }}
+      {{ $other := slice }}
+      {{ range .Pages }}
+        {{ $member := partial "con-project-membership.html" (dict "page" .) }}
+        {{ if $member }}{{ $owned = $owned | append . }}{{ end }}
+        {{ if .Params.conContribution }}{{ $contributed = $contributed | append . }}{{ end }}
+        {{ if and (not $member) (not .Params.conContribution) }}{{ $other = $other | append . }}{{ end }}
+      {{ end }}
+      {{ range slice (dict "title" "Part of CON" "pages" $owned) (dict "title" "CON contributes to" "pages" $contributed) (dict "title" "Other projects" "pages" $other) }}
+        {{ if .pages }}
+          <h2>{{ .title }}</h2>
+          {{ partial "taxonomy-list-grid.html" (dict "Pages" .pages "Params" $.Params "Data" $.Data) }}
+        {{ end }}
+      {{ end }}
+    {{ else }}
+    {{ if and (isset .Params "filter") (eq .Params.filter true) }}
+      {{ partial "taxonomy-list-filter.html" . }}
+    {{ else }}
+      {{ if and (isset .Params "list_variant") (eq .Params.list_variant "vertical") }}
+        {{ partial "taxonomy-list-vertical.html" . }}
+      {{ else }}
+        {{ partial "taxonomy-list-grid.html" . }}
+      {{ end }}
+    {{ end }}
+    {{ end }}
+  </article>
+{{ end }}

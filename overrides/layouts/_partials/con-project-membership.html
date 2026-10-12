@@ -1,0 +1,19 @@
+{{- $page := .page -}}
+{{- $visited := .visited | default slice -}}
+{{- $member := false -}}
+{{- $pid := $page.Params.graphRootNodePID -}}
+{{- if not (in $visited $pid) -}}
+  {{- $visited = $visited | append $pid -}}
+  {{- range $page.Params.parentProjects -}}
+    {{- if eq . "xyzrins:." -}}
+      {{- $member = true -}}
+    {{- else -}}
+      {{- with site.GetPage (strings.TrimPrefix "xyzrins:" .) -}}
+        {{- if partial "con-project-membership.html" (dict "page" . "visited" $visited) -}}
+          {{- $member = true -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $member -}}
