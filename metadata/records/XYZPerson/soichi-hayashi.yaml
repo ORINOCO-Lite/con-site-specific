@@ -41,8 +41,9 @@ attributes:
   value: Emeritus
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: A software engineer at <a href="https://brainlife.io">brainlife.io</a>. A husband
-    and a father of 2 who likes coding, cooking, bicycling, hiking, gardening, and just
+  value: A former lead software engineer of <a href="https://brainlife.io">brainlife.io</a>.
+    He helped us save both COVID-times virtual OHBMs.
+    A hacker who likes coding, cooking, bicycling, hiking, gardening, and just
     about anything else.
 - predicate: dlthings:home_page
   schema_type: dlthings:AttributeSpecification
