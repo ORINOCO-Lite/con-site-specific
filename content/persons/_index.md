@@ -4,6 +4,7 @@ layout: editorial
 params:
   term:
     depiction_type: portrait
+    show_relations: expandable
 ---
 
 ## Centroids
