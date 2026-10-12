@@ -2,6 +2,9 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://www.vandermeerlab.org/
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborating labs & groups
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: van der Meer Lab

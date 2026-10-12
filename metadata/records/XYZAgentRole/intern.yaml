@@ -1,0 +1,10 @@
+# Referenced by site-root.yaml (Adina Wagner, 2018-11-19 to 2019-04-18) but
+# never defined here, so nothing could render a label for it.  The pid is
+# psychoinformatics-site-specific's -- reused, not re-minted, because the
+# association already points at it.  Shaped like CON's other role records
+# (display_label + description) rather than the upstream one's `name`.
+description: Person who works at a company or organization for a limited period to
+  gain practical experience, learn job skills, and build professional connections.
+display_label: Intern
+pid: xyzrins:agent-roles/79ce2c0b-ff6a-4d90-8914-924cdaaf40df
+schema_type: xyzri:XYZAgentRole
