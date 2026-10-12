@@ -44,9 +44,6 @@ attributes:
   value: External consultant working on <a href="https://github.com/ReproNim/reprostim">ReproStim</a>,
     <a href="https://github.com/ReproNim/repromon">ReproMon</a>, <a href="https://github.com/con/noisseur">con/noisseur</a>,
     events collection/timing projects and cosmic harmony.
-- predicate: dlthings:position
-  schema_type: dlthings:AttributeSpecification
-  value: Software Engineer &amp; Consultant
 - predicate: dlthings:home_page
   schema_type: dlthings:AttributeSpecification
   value: https://www.docsultant.com
