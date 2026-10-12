@@ -1,0 +1,32 @@
+record: xyzrins:projects/ohbm2020-posters
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2020-06-24"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/repos/datalad-datasets/ohbm2020-posters
+    locator: created_at
+    quote: '"created_at": "2020-06-24T03:41:37Z"'
+    note: >-
+      Creation of the repository, which for this project is close to exact:
+      it was built for a conference that opened on 2020-06-23 and has no
+      history imported from anywhere else.
+    confidence: certain
+    captured: "2026-10-12"
+
+pending:
+  - proposed_path: /ended/at_time
+    proposed_value: "2022-06-25"
+    kind: registry
+    would_confirm: >-
+      The repository was archived and its last push is 2022-06-25, but
+      `ended` on an XYZProject is used in this store for the end of a
+      FUNDING period -- DANDI's is 2024-04-30 and EMBER's is 2029-05-31,
+      both in projects that are very much running.  Recording "archived"
+      there would overload a slot that already means something else.  The
+      fact is in the description instead until this store has a way to say
+      it.  See also the dandidav question: several past-employee projects
+      are archived and none of them can say so.
+    confidence: certain

@@ -7,6 +7,10 @@ associated_with:
   roles:
   - obo:NCIT_C19924
   schema_type: dlthings:Association
+- object: xyzrins:persons/chris-markiewicz
+  roles:
+  - marcrel:tcd
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

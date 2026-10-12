@@ -1,3 +1,9 @@
+associated_with:
+- object: xyzrins:persons/satrajit-ghosh
+  roles:
+  - marcrel:cre
+  - marcrel:led
+  schema_type: dlthings:Association
 attributes:
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification

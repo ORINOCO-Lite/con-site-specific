@@ -1,0 +1,71 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:cre
+  - marcrel:led
+  schema_type: dlthings:Association
+- object: xyzrins:persons/soichi-hayashi
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+- description: 20 commits.
+  object: xyzrins:persons/chris-markiewicz
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- description: 5 commits.
+  object: xyzrins:persons/adina-wagner
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://datalad-datasets.github.io/ohbm2020-posters/
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'A centralized registry of posters and their Jitsi rooms for OHBM 2020, the first
+    edition held entirely online. The conference had no working way for an attendee to
+    find a poster and walk up to its author; this gave it one, as a browsable catalogue
+    backed by a DataLad dataset. Archived since 2022: it did its job for the meeting it
+    was built for.'
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: OHBM 2020 posters
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: OHBM 2020 posters
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: OHBM 2020 posters
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/datalad-datasets/ohbm2020-posters
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<p> <a href="https://datalad-datasets.github.io/ohbm2020-posters/">OHBM 2020
+    posters</a> was a centralized registry of posters and their <a href="https://jitsi.org">Jitsi</a>
+    rooms for <a href="https://www.humanbrainmapping.org">OHBM</a> 2020, the first edition
+    held entirely online. The conference had no working way for an attendee to find a
+    poster and walk up to its author; this gave it one, as a browsable catalogue backed
+    by a <a href="/projects#datalad_">DataLad</a> dataset. Twenty-three people contributed
+    to it in the weeks around the meeting. <a href="https://github.com/datalad-datasets/ohbm2020-posters">Archived</a>
+    since 2022: it did its job for the meeting it was built for. </p>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Meetings
+description: 'A centralized registry of posters and their Jitsi rooms for OHBM 2020, the
+  first edition held entirely online. The conference had no working way for an attendee
+  to find a poster and walk up to its author; this gave it one, as a browsable catalogue
+  backed by a DataLad dataset. Archived since 2022: it did its job for the meeting it
+  was built for.'
+display_label: OHBM 2020 posters
+part_of:
+- xyzrins:.
+pid: xyzrins:projects/ohbm2020-posters
+schema_type: xyzri:XYZProject
+short_name: OHBM 2020 posters
+started:
+  at_time: '2020-06-24'
+  schema_type: dlthings:Start
+title: OHBM 2020 posters
