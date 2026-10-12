@@ -25,9 +25,6 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Debian
-- predicate: dlthings:section
-  schema_type: dlthings:AttributeSpecification
-  value: Collaborating projects
 description: 'The universal operating system: a volunteer project that packages and integrates
   free software, with a social contract and a technical policy older than most of what
   it ships. Not CON''s project -- the community CON''s practice was learned in, and still

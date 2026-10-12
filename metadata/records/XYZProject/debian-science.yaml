@@ -16,9 +16,6 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Debian Science
-- predicate: dlthings:section
-  schema_type: dlthings:AttributeSpecification
-  value: Collaborating projects
 description: Debian Pure Blend for scientific software and the team maintaining it. 28
   of the packages Yaroslav uploads are maintained here.
 display_label: Debian Science
