@@ -12,7 +12,8 @@ attributes:
   value: Content-neutral engine and deterministic runtime for metadata-driven sites. A
     site's content lives as records in a store; the engine projects them into the pages
     that get served, so the records stay the single source of truth. This website is
-    built that way.
+    built that way. Derived from ORINOCO, the Psychoinformatics group's research
+    information infrastructure, and lighter by design.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: ORINOCO Lite
@@ -31,8 +32,15 @@ attributes:
 description: Content-neutral engine and deterministic runtime for metadata-driven sites.
   A site's content lives as records in a store; the engine projects them into the pages
   that get served, so the records stay the single source of truth. This website is built
-  that way.
+  that way. Derived from ORINOCO, the Psychoinformatics group's research information
+  infrastructure, and lighter by design.
 display_label: ORINOCO Lite
+informed_by:
+- description: ORINOCO Lite is a lighter re-implementation of the ORINOCO approach --
+    records in a store, projected into a served site -- built for sites that want the
+    projection without the knowledge-pool service behind it.
+  object: xyzrins:projects/orinoco
+  schema_type: xyzri:XYZCommunication
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/orinoco-lite
