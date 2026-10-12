@@ -14,7 +14,7 @@ records/                          the assertions
   XYZAgentRole/ XYZEntityRole/ XYZObjective/    ...
 overlays/
   machine-provenance-annotations/ what the importers vouch for (generated)
-  curation-evidence/              why we believe a hand-written claim
+sources/curation-evidence/        why we believe a hand-written claim
 tools/
   linkml_check.sh                 gate 1: the schema
   validate_records.py             gate 2: the curation rules
@@ -161,7 +161,7 @@ assertions:
     pav:importedFrom: https://github.com/con/dump-research-info/...
 ```
 
-`overlays/curation-evidence/` **extends** that shape rather than copying it.
+`sources/curation-evidence/` **extends** that shape rather than copying it.
 The existing overlays address a *container* (`path: /attributes`, six times
 over) and disambiguate by `assertion_sha256`; ours address the exact slot and
 drop the hash. That is better at naming and worse at surviving an edit —
