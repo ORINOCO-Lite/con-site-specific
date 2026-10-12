@@ -45,7 +45,7 @@ pages:
       - identifiers::creator
       - part_of
   xyzri:XYZPerson:
-    template: www-from-model:page_templates/person.md.j2
+    template: site-specific/templates/person.md.j2
     select:
       linked_from:
         pid: xyzrins:.

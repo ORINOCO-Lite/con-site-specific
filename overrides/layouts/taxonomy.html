@@ -14,6 +14,7 @@
   {{ end }}
   <article class="prose max-w-full dark:prose-invert">
     {{ if eq .Data.Plural "projects" }}
+      <link rel="stylesheet" href="{{ "project-groups.css" | relURL }}">
       {{ $owned := slice }}
       {{ $contributed := slice }}
       {{ $other := slice }}
@@ -25,8 +26,10 @@
       {{ end }}
       {{ range slice (dict "title" "Part of CON" "pages" $owned) (dict "title" "CON contributes to" "pages" $contributed) (dict "title" "Other projects" "pages" $other) }}
         {{ if .pages }}
-          <h2>{{ .title }}</h2>
-          {{ partial "taxonomy-list-grid.html" (dict "Pages" .pages "Params" $.Params "Data" $.Data) }}
+          <section class="project-group" aria-label="{{ .title }}">
+            <header class="project-group-heading"><h2>{{ .title }}</h2></header>
+            {{ partial "taxonomy-list-grid.html" (dict "Pages" .pages "Params" $.Params "Data" $.Data) }}
+          </section>
         {{ end }}
       {{ end }}
     {{ else }}

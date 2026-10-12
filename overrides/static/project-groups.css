@@ -1,0 +1,32 @@
+.project-group {
+  margin-top: 2rem;
+}
+.project-group ~ .project-group {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(0, 0, 0, .14);
+}
+.project-group-heading {
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid #547a76;
+  border-radius: 0 .5rem .5rem 0;
+  background: #edf3f2;
+}
+.prose .project-group-heading h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+html.dark .project-group ~ .project-group {
+  border-top-color: rgba(255, 255, 255, .18);
+}
+html.dark .project-group-heading {
+  border-left-color: #90b8b1;
+  background: #303b3a;
+}
+@media (max-width: 640px) {
+  .project-group ~ .project-group { margin-top: 2.75rem; padding-top: 1.5rem; }
+  .project-group-heading { padding: .8rem 1rem; }
+}

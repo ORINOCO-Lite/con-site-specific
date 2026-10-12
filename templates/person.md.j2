@@ -1,0 +1,14 @@
+{%- set p = {'graphRootNodePID': pid} -%}
+{%- for field in ['given_name', 'family_name', 'identifiers', 'description'] -%}
+  {%- if __rec.get(field) -%}
+    {%- set _ = p.update({field: __rec[field]}) -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- for attribute in attributes|default([]) -%}
+  {%- if attribute.predicate == 'dlthings:tier' -%}
+    {%- set _ = p.update({'tier': attribute.value}) -%}
+  {%- endif -%}
+{%- endfor -%}
+---
+{{ {'title': given_name ~ ' ' ~ family_name, 'params': p} | toyaml }}
+---

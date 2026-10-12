@@ -1,0 +1,20 @@
+{{ $people := slice }}
+{{ if .Get "tier" }}
+  {{ with site.GetPage "/persons" }}
+    {{ $people = where .Pages "Params.tier" ($.Get "tier") }}
+    {{ $people = sort $people "Params.family_name" }}
+  {{ end }}
+{{ else }}
+{{ range split (.Inner | strings.TrimSpace) "\n" }}
+  {{ with site.GetPage (. | strings.TrimSpace) }}
+    {{ $people = $people | append . }}
+  {{ end }}
+{{ end }}
+{{ end }}
+{{ with .Get "title" }}
+  <link rel="stylesheet" href="{{ "project-groups.css" | relURL }}">
+  <section class="project-group" aria-label="{{ . }}">
+    <header class="project-group-heading"><h2>{{ . }}</h2></header>
+{{ end }}
+{{ partial "taxonomy-list-grid.html" (dict "Pages" $people "Params" .Page.Params "Data" .Page.Data) }}
+{{ with .Get "title" }}</section>{{ end }}
