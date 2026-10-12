@@ -1,0 +1,44 @@
+record: xyzrins:projects/pymvpa
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2009-10-07"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/repos/PyMVPA/PyMVPA
+    locator: created_at
+    quote: '"created_at": "2009-10-07T..."'
+    note: >-
+      Creation of the project's primary repository.  An upper bound, and for
+      the older projects a loose one: PyMVPA's repository dates from
+      2009-10-07 but its first commit is 2007-05-24, imported from earlier
+      history, and NeuroDebian and DataLad predate GitHub in the same way.
+      Good enough to order a page by; not a founding date.
+    confidence: certain
+    captured: "2026-10-11"
+  - path: /associated_with/1/started/at_time
+    value: "2007-05-24"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/PyMVPA/PyMVPA
+    locator: oldest mih commit
+    quote: Initial commit
+    note: >-
+      Hanke opened the repository; he and YOH finish as its top two contributors, 3131 and 4502.  Recorded here rather than on CON's own record: the
+      collaboration with Michael Hanke predates the Center, and CON's record
+      now starts his association at CON's founding, which is the honest
+      place for it.  The work itself lives on the projects where it happened.
+    confidence: certain
+    captured: "2026-10-11"
+  - path: /associated_with/1/ended/at_time
+    value: "2018-01-13"
+    bound: lower
+    kind: upstream-git
+    source: https://github.com/PyMVPA/PyMVPA
+    locator: newest mih commit
+    quote: 'ENH: Robustify h5save() in the presence'
+    note: >-
+      Lower bound: involvement that left no commit does not show here.
+    confidence: certain
+    captured: "2026-10-11"

@@ -4,9 +4,9 @@ attributes:
   value: id@joeyh.name
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: Independent collaborator at the Center for Open Neuroscience. Core Debian
-    distribution contributor (debhelper, debian-installer, debconf, pristine-tar).
-    Developer of git-annex used in DataLad.
+  value: Independent collaborator at the Center for Open Neuroscience. Core Debian distribution
+    contributor (debhelper, debian-installer, debconf, pristine-tar). Developer of git-annex
+    used in DataLad.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Joey Hess
@@ -19,6 +19,36 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Joey
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Independent Guru
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:id@joeyh.name
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://twitter.com/joeyhess
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/joeyh
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborators
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Joey's own introduction <i>"I'm Joey Hess and I write <a href="https://joeyh.name/code/">programs</a>"</i>
+    conceals his paramount role in establishing the core of the <a href="http://debian.org">Debian
+    distribution</a> (<a href="https://joeyh.name/code/debhelper/">debhelper</a>, <a href="https://joeyh.name/code/debian-installer/">debian-installer</a>,
+    <a href="https://joeyh.name/code/debconf/">debconf</a>, <a href="https://joeyh.name/code/pristine-tar/">pristine-tar</a>,
+    <a href="https://joeyh.name/code/debian/">etc.</a>) and his work on variety of other
+    software projects, such as <a href="https://git-annex.branchable.com/">git-annex</a>
+    which we rely upon in the <a href="/projects#datalad_">DataLad</a> project.
+- predicate: foaf:weblog
+  schema_type: dlthings:AttributeSpecification
+  value: https://joeyh.name/blog
+- predicate: dlthings:home_page
+  schema_type: dlthings:AttributeSpecification
+  value: https://joeyh.name
 description: Independent collaborator at the Center for Open Neuroscience. Core Debian
   distribution contributor (debhelper, debian-installer, debconf, pristine-tar). Developer
   of git-annex used in DataLad.

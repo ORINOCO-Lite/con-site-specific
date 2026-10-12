@@ -13,8 +13,8 @@ attributes:
   value: https://github.com/duecredit/duecredit
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: Provides a solution for the problem of inadequate citation and referencing
-    of scientific software and methods. A Python-focused framework embedding publication
+  value: Provides a solution for the problem of inadequate citation and referencing of
+    scientific software and methods. A Python-focused framework embedding publication
     references in code with automatic citation collection and reporting.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
@@ -25,6 +25,27 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: DueCredit
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: <p> <a href="https://github.com/duecredit/duecredit">DueCredit</a> provides solution
+    for the problem of inadequate citation and referencing of scientific software and
+    methods. It provides a simple framework (at the moment for Python only) to embed publication
+    or other references in the original code so they are automatically collected and reported
+    to the user at the necessary level of reference detail, i.e. only references for actually
+    used functionality will be presented back if software provides multiple citeable implementations.
+    </p> <p> As a side-effect, we hope that DueCredit also will reduce demand in "prima-ballerina"
+    projects, will encourage contributions to existing open-source codebases, and as a
+    result would solidify scientific software ecosystem. </p> <ul> <li> <a href="/whoweare#yaroslav_o_halchenko_"
+    class="centroid">Y.O. Halchenko</a> and <a href="/whoweare#matteo_visconti_di_oleggio_castello_"
+    class="centroid">M. Visconti di Oleggio Castello</a> (2016). <a href="http://haxbylab.dartmouth.edu/publications/HV+OHBM16.pdf">
+    DueCredit - automagically collect citations for software, methods, and data you use.
+    </a> OHBM 2016, Geneva, Switzerland </li> </ul>
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+- predicate: dlthings:logo_style
+  schema_type: dlthings:AttributeSpecification
+  value: width:155px;padding-right:10px;margin-top:0em;
 description: Provides a solution for the problem of inadequate citation and referencing
   of scientific software and methods. A Python-focused framework embedding publication
   references in code with automatic citation collection and reporting.
@@ -34,4 +55,7 @@ part_of:
 pid: xyzrins:projects/duecredit
 schema_type: xyzri:XYZProject
 short_name: DueCredit
+started:
+  at_time: '2015-04-15'
+  schema_type: dlthings:Start
 title: DueCredit

@@ -1,0 +1,21 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://sites.dartmouth.edu/canlab/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Cognitive and Affective Neuroscience Lab
+description: Tor Wager's lab at Dartmouth, studying the neuroscience of pain, emotion
+  and their regulation.
+display_label: CANlab
+influenced_by:
+- object: xyzrins:persons/tor-wager
+  roles:
+  - marcrel:ldr
+  schema_type: xyzri:XYZInfluence
+name: Cognitive and Affective Neuroscience Lab
+part_of:
+- xyzrins:organizations/pbs
+pid: xyzrins:organizations/canlab
+schema_type: xyzri:XYZOrganization
+short_name: CANlab

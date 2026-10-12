@@ -1,0 +1,30 @@
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/kyle-meyer
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/datalad/datalad-crawler
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: datalad-crawler
+description: DataLad extension for tracking web resources as datasets
+display_label: datalad-crawler
+generated_by:
+- at_time: '2018-04-22'
+  object: xyzrins:projects/datalad
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: datalad-crawler
+pid: xyzrins:instruments/datalad-crawler
+schema_type: xyzri:XYZInstrument

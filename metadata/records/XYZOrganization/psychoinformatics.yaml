@@ -1,0 +1,20 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.psychoinformatics.de
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Psychoinformatics
+description: Research group at the Institute of Neuroscience and Medicine, Brain and Behaviour
+  (INM-7), Forschungszentrum Jülich. Home of DataLad and of the datalad-concepts metadata
+  work these records are built on.
+display_label: Psychoinformatics
+influenced_by:
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:led
+  schema_type: xyzri:XYZInfluence
+name: Psychoinformatics
+pid: xyzrins:organizations/psychoinformatics
+schema_type: xyzri:XYZOrganization
+short_name: Psychoinformatics

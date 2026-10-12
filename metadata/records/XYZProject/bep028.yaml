@@ -1,0 +1,32 @@
+associated_with:
+- description: Named as a BEP lead in the BIDS website's own data/beps/beps.yml.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://bids.neuroimaging.io/bep028
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'Extends BIDS to record how a derivative was produced -- the provenance layer,
+    carrying forward NIDM-PROV. Leads: Satrajit Ghosh, Camille Maumet, Yaroslav Halchenko.'
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: 'BEP028: BIDS Provenance'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Standards
+description: 'Extends BIDS to record how a derivative was produced -- the provenance layer,
+  carrying forward NIDM-PROV. Leads: Satrajit Ghosh, Camille Maumet, Yaroslav Halchenko.'
+display_label: BEP028
+part_of:
+- xyzrins:projects/bids
+pid: xyzrins:projects/bep028
+schema_type: xyzri:XYZProject
+short_name: BEP028
+started:
+  at_time: '2023-01-01'
+  schema_type: dlthings:Start
+title: 'BEP028: BIDS Provenance'

@@ -1,0 +1,22 @@
+attributed_to:
+- object: xyzrins:persons/cody-baker
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/dandi/access-page
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: access-page
+description: Visualizations of data usage for the DANDI Archive
+display_label: access-page
+generated_by:
+- at_time: '2025-05-05'
+  object: xyzrins:projects/dandi
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: access-page
+pid: xyzrins:instruments/access-page
+schema_type: xyzri:XYZInstrument

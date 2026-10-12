@@ -1,0 +1,25 @@
+attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Describing statistical models in Python using symbolic formulas.
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/pydata/patsy
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: patsy
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: patsy
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: patsy
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/pydata/patsy
+description: Describing statistical models in Python using symbolic formulas.
+display_label: patsy
+pid: xyzrins:projects/patsy
+schema_type: xyzri:XYZProject
+short_name: patsy
+title: patsy

@@ -1,0 +1,69 @@
+associated_with:
+- object: xyzrins:persons/joey-hess
+  roles:
+  - marcrel:led
+  - marcrel:cre
+  schema_type: dlthings:Association
+- identifiers:
+  - creator: xyzrins:projects/dandi
+    notation: https://git-annex.branchable.com/projects/dandi/
+    schema_type: dlthings:Identifier
+  object: xyzrins:projects/dandi
+  roles:
+  - marcrel:fnd
+  schema_type: dlthings:Association
+- identifiers:
+  - creator: xyzrins:projects/repronim
+    notation: https://git-annex.branchable.com/projects/repronim/
+    schema_type: dlthings:Identifier
+  object: xyzrins:projects/repronim
+  roles:
+  - marcrel:fnd
+  schema_type: dlthings:Association
+- identifiers:
+  - creator: xyzrins:projects/openneuro
+    notation: https://git-annex.branchable.com/projects/openneuro/
+    schema_type: dlthings:Identifier
+  object: xyzrins:projects/openneuro
+  roles:
+  - marcrel:fnd
+  schema_type: dlthings:Association
+- identifiers:
+  - creator: xyzrins:projects/datalad
+    notation: https://git-annex.branchable.com/projects/datalad/
+    schema_type: dlthings:Identifier
+  object: xyzrins:projects/datalad
+  roles:
+  - marcrel:fnd
+  schema_type: dlthings:Association
+- description: no funder page on git-annex.branchable.com
+  object: xyzrins:projects/ember
+  roles:
+  - marcrel:fnd
+  schema_type: dlthings:Association
+attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Allows managing large files with git, without storing the file contents in git.
+    It can sync, back up and archive data, optionally encrypted, across many kinds of
+    remote.
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://git-annex.branchable.com
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: git-annex
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: git-annex
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: git-annex
+description: Allows managing large files with git, without storing the file contents in
+  git. It can sync, back up and archive data, optionally encrypted, across many kinds
+  of remote.
+display_label: git-annex
+pid: xyzrins:projects/git-annex
+schema_type: xyzri:XYZProject
+short_name: git-annex
+title: git-annex

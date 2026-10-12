@@ -1,0 +1,9 @@
+annotations:
+  obo:NCIT_C54269: m.hanke@fz-juelich.de
+  sio:SIO_001083: '2025-12-14T21:58:59.526429'
+display_label: Employer
+exact_mappings:
+- http://purl.obolibrary.org/obo/OMRSE_00000087
+name: Employer
+pid: xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+schema_type: xyzri:XYZAgentRole

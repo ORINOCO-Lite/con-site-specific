@@ -1,0 +1,25 @@
+attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'Neuroimaging in Python: an fMRI analysis package.'
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://nipy.org/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: NiPy
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: NiPy
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: NiPy
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/nipy/nipy
+description: 'Neuroimaging in Python: an fMRI analysis package.'
+display_label: NiPy
+pid: xyzrins:projects/nipy
+schema_type: xyzri:XYZProject
+short_name: NiPy
+title: NiPy

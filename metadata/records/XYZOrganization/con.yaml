@@ -16,6 +16,9 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: CON
+- predicate: schema:foundingDate
+  schema_type: dlthings:AttributeSpecification
+  value: '2015-07'
 characterized_by:
 - object: https://www.wikidata.org/entity/Q131908
   predicate: dlthings:at_location

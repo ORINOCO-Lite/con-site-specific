@@ -1,0 +1,16 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/stamped-principles/stamped-paper
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: stamped-paper
+display_label: stamped-paper
+generated_by:
+- at_time: '2026-02-06'
+  object: xyzrins:projects/stamped-principles
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: stamped-paper
+pid: xyzrins:instruments/stamped-paper
+schema_type: xyzri:XYZInstrument

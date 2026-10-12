@@ -4,8 +4,8 @@ attributes:
   value: https://github.com/pyout/pyout
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: Python package that defines an interface for writing structured records as
-    a table in a terminal.
+  value: Python package that defines an interface for writing structured records as a
+    table in a terminal.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: pyout
@@ -15,12 +15,30 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: pyout
-description: Python package that defines an interface for writing structured records
-  as a table in a terminal.
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: <p> <a href="https://github.com/pyout/pyout/">pyout</a> is a Python package that
+    defines an interface for writing structured records as a table in a terminal. It is
+    being developed to replace custom code for displaying tabular data in in <a href="#dandi">DANDI
+    client</a> and others. </p>
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: pyout
+- predicate: dlthings:logo_style
+  schema_type: dlthings:AttributeSpecification
+  value: width:155px;padding-left:5px;margin-top:-2em;
+description: Python package that defines an interface for writing structured records as
+  a table in a terminal.
 display_label: pyout
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/pyout
 schema_type: xyzri:XYZProject
 short_name: pyout
+started:
+  at_time: '2017-12-19'
+  schema_type: dlthings:Start
 title: pyout

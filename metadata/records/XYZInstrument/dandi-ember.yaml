@@ -1,0 +1,20 @@
+alternate_of:
+- xyzrins:instruments/dandiarchive-org
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://dandi.emberarchive.org
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: DANDI at EMBER
+description: EMBER's DANDI instance, serving the EMBER archive community.
+display_label: DANDI at EMBER
+identifiers:
+- notation: https://dandi.emberarchive.org
+  schema_type: dlthings:Identifier
+kind: schema:Service
+name: DANDI at EMBER
+pid: xyzrins:instruments/dandi-ember
+schema_type: xyzri:XYZInstrument
+specialization_of:
+- xyzrins:instruments/dandi-archive

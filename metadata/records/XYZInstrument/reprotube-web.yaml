@@ -1,0 +1,25 @@
+alternate_of:
+- xyzrins:instruments/contube-web
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/repronim/ReproTube/web/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: ReproTube web UI
+derived_from:
+- object: xyzrins:datasets/reprotube
+  schema_type: dlthings:Derivation
+description: Browse, search, filter and watch the ReproTube collection. Deployed from
+  a copy of the UI carried inside the dataset itself, under web/, so the dataset and the
+  application it is browsed with are one self-contained artifact.
+display_label: ReproTube web UI
+identifiers:
+- notation: https://datasets.datalad.org/repronim/ReproTube/web/
+  schema_type: dlthings:Identifier
+kind: schema:Service
+name: ReproTube web UI
+pid: xyzrins:instruments/reprotube-web
+schema_type: xyzri:XYZInstrument
+specialization_of:
+- xyzrins:instruments/annextube

@@ -1,0 +1,17 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/stamped-principles/stamped-principles-schema
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: stamped-principles-schema
+description: The formal LinkML schema and instance for the STAMPED principles.
+display_label: stamped-principles-schema
+generated_by:
+- at_time: '2026-04-20'
+  object: xyzrins:projects/stamped-principles
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: stamped-principles-schema
+pid: xyzrins:instruments/stamped-principles-schema
+schema_type: xyzri:XYZInstrument

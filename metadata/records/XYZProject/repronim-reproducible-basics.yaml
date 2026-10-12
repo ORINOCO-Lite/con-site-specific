@@ -9,8 +9,8 @@ attributes:
   value: http://www.reproducibleimaging.org/module-reproducible-basics
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: Training module presenting daily core tools (shell, version control, etc)
-    and demonstrating research reproducibility improvement. Part of the ReproNim training
+  value: Training module presenting daily core tools (shell, version control, etc) and
+    demonstrating research reproducibility improvement. Part of the ReproNim training
     curriculum.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
@@ -18,9 +18,19 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: 'ReproNim: Reproducible Basics'
-description: Training module presenting daily core tools (shell, version control,
-  etc) and demonstrating research reproducibility improvement. Part of the ReproNim
-  training curriculum.
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: <p> <a href="http://www.reproducibleimaging.org/module-reproducible-basics">Reproducible
+    Basics</a> training module of the ReproNim training curriculum presents daily core
+    tools (shell, version control, etc) and explains how you could make your research
+    more reproducible having gained improved knowledge of them. </p> <ul> <li> <a href="/whoweare#yaroslav_o_halchenko_"
+    class="centroid">Y.O. Halchenko</a> et al. </li> </ul>
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Education
+description: Training module presenting daily core tools (shell, version control, etc)
+  and demonstrating research reproducibility improvement. Part of the ReproNim training
+  curriculum.
 display_label: 'ReproNim: Reproducible Basics'
 part_of:
 - xyzrins:.

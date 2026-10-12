@@ -18,8 +18,47 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Horea-Ioan
-description: Emeritus Research Scientist at the Center for Open Neuroscience. DANDI
-  contributor. Skilled in Python, neuroimaging, and psychopharmacology.
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Research Scientist
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:chr@chymera.eu
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.researchgate.net/profile/Horea-Christian
+- predicate: vcard:hasURL
+  schema_type: dlthings:AttributeSpecification
+  value: https://chymera.eu
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://twitter.com/TheChymera
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/TheChymera
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.linkedin.com/in/horeachristian
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0001-7037-2449
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Worked on <a href="/projects#dandi_">DANDI</a> and related projects. Skilled
+    in Python, Gentoo Linux, magnetic resonance imaging, neuroscience, and psychopharmacology.
+    <ul> <li>Ioanas H-I, Macdonald A and Halchenko YO (2024) Neuroimaging article reexecution
+    and reproduction assessment system. Front. Neuroinform. 18:1376022. <a href="https://doi.org/10.3389/fninf.2024.1376022">DOI:10.3389/fninf.2024.1376022</a>
+    </li> </ul>
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
+description: Emeritus Research Scientist at the Center for Open Neuroscience. DANDI contributor.
+  Skilled in Python, neuroimaging, and psychopharmacology.
 display_label: Horea-Ioan Ioanas
 family_name: Ioanas
 formatted_name: Horea-Ioan Ioanas

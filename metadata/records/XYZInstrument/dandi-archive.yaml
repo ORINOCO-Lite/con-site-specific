@@ -1,0 +1,17 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/dandi/dandi-archive
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: DANDI Archive
+description: 'Software stack behind the DANDI archive: API, web client and validation,
+  deployable as an independent instance.'
+display_label: DANDI Archive software
+generated_by:
+- object: xyzrins:projects/dandi
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: DANDI Archive
+pid: xyzrins:instruments/dandi-archive
+schema_type: xyzri:XYZInstrument

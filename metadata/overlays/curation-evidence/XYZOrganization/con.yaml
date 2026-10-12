@@ -1,0 +1,43 @@
+record: ror:04tfhh831
+format: con-association-evidence-v1
+
+assertions:
+  - path: /attributes/5/value
+    value: "2015-07"
+    bound: upper
+    kind: registry
+    source: whois centerforopenneuroscience.org
+    locator: Creation Date
+    quote: 'Creation Date: 2015-07-12T03:00:29Z'
+    note: >-
+      Upper bound: the organisation existed BY this date.  It may have been
+      conceived earlier; nothing found says so.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /attributes/5/value
+    value: "2015-07"
+    bound: upper
+    kind: site-git-history
+    predates_freeze: true
+    source: con.org
+    locator: b6d277c
+    quote: Changes/pruning and tune up 1st wave
+    note: >-
+      YOH, 2015-07-21: the first commit bringing "Center for Open
+      Neuroscience" into content/, nine days after the domain was registered.
+      Corroborates; does not independently establish.  This entry said
+      `bound: lower` in one draft -- the oldest surviving artifact, labelled
+      as if it were the newest.  Two reviewers caught it independently and
+      the validator could not, because the slot is an attribute rather than
+      an at_time and nothing walked it.
+    confidence: certain
+    captured: "2026-10-10"
+
+# CON formalises work already under way; it is not a starting gun.  The
+# pre-2015 efforts -- pkg-exppsy (2005), PsychoPy (2009), NeuroDebian (2010),
+# PyMVPA, DataLad (2013) -- established the foundation the Center was built on
+# and are the same person's work either way.  They belong in CON's lineage and
+# on the slide.  What the Association.object slot buys us is that we can say
+# so without claiming an institution signed a 2005 upload: the object is
+# xyzrins:persons/yaroslav-halchenko, and CON is simply not mentioned.

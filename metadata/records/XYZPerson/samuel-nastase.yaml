@@ -19,8 +19,42 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Samuel
-description: Emeritus member of the Center for Open Neuroscience. Formerly Dartmouth
-  Ph.D. student, now at Princeton. Cognitive Neuroscience Ph.D. PyMVPA user and NeuroDebian
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Princeton, NJ
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:sam.nastase@gmail.com
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://haxbylab.dartmouth.edu/ppl/sam.html
+- predicate: vcard:hasURL
+  schema_type: dlthings:AttributeSpecification
+  value: http://haxbylab.dartmouth.edu/publications/Nastase_CV.pdf
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/snastase
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.linkedin.com/in/samuelnastase
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0001-7013-5275
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Formerly a Ph.D. student in Cognitive Neuroscience at Dartmouth. Avid <a href="/projects#pymvpa_">PyMVPA</a>
+    user and <a href="/projects#neurodebian_">NeuroDebian</a> exhibitor at recent SfN
+    and OHBM conferences.
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
+description: Emeritus member of the Center for Open Neuroscience. Formerly Dartmouth Ph.D.
+  student, now at Princeton. Cognitive Neuroscience Ph.D. PyMVPA user and NeuroDebian
   exhibitor.
 display_label: Samuel Nastase
 family_name: Nastase

@@ -1,0 +1,25 @@
+attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Timeseries analysis for neuroscience data.
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://nipy.org/nitime/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Nitime
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Nitime
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: Nitime
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/nipy/nitime
+description: Timeseries analysis for neuroscience data.
+display_label: Nitime
+pid: xyzrins:projects/nitime
+schema_type: xyzri:XYZProject
+short_name: Nitime
+title: Nitime

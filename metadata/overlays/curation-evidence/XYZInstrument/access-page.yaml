@@ -1,0 +1,16 @@
+record: xyzrins:instruments/access-page
+format: con-association-evidence-v1
+
+assertions:
+  - path: /generated_by/0/at_time
+    value: "2025-05-05"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/repos/dandi/access-page
+    locator: created_at
+    quote: '"created_at": "2025-05-05T..."'
+    note: >-
+      Repository creation date.  Upper bound: a repository is created for
+      work already decided on.
+    confidence: certain
+    captured: "2026-10-10"

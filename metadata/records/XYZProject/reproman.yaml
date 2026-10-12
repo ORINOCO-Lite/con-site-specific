@@ -25,13 +25,33 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: ReproMan - Reproducible Computational Environments Manager
-description: Aims to facilitate reproducible computation via collection of detailed
-  information about origin of used components including Debian/Conda packages and
-  VCS repositories. Part of the NIH-supported ReproNim effort.
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<p> <a href="https://github.com/repronim/niceman">ReproMan (Reproducible computational
+    environments Manager; formerly known as REPROMAN)</a> is also a part of the NIH supported
+    <a href="http://repronim.org">ReproNim</a> effort. It aims to facilitate reproducible
+    computation via collection of detailed information about origin of the used components
+    (Debian and/or Conda packages, VCS repositories, etc), so that computational environments
+    could be analyzed, and re-created. </p> <ul> <li> M. Travers, R. Buccigrossi, C. Haselgrove,
+    <a href="/whoweare#kyle_meyer_" class="centroid">K. Meyer</a>, and <a href="/whoweare#yaroslav_o_halchenko_"
+    class="centroid">Y.O. Halchenko</a> <a href="http://goo.gl/CvaY1e">NICEMAN: NeuroImaging
+    Computational Environments Manager</a>, OHBM 2018, Singapore. </li> </ul>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+- predicate: dlthings:logo_style
+  schema_type: dlthings:AttributeSpecification
+  value: width:155px;padding-left:5px;margin-top:-2em;
+description: Aims to facilitate reproducible computation via collection of detailed information
+  about origin of used components including Debian/Conda packages and VCS repositories.
+  Part of the NIH-supported ReproNim effort.
 display_label: ReproMan
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/reproman
 schema_type: xyzri:XYZProject
 short_name: ReproMan
+started:
+  at_time: '2016-04-28'
+  schema_type: dlthings:Start
 title: ReproMan - Reproducible Computational Environments Manager

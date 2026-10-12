@@ -1,0 +1,27 @@
+attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: A package for representing electrophysiology data in Python, with readers for
+    a wide range of acquisition formats.
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://neuralensemble.org/neo/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Neo
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Neo
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: Neo
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/NeuralEnsemble/python-neo
+description: A package for representing electrophysiology data in Python, with readers
+  for a wide range of acquisition formats.
+display_label: Neo
+pid: xyzrins:projects/neo
+schema_type: xyzri:XYZProject
+short_name: Neo
+title: Neo

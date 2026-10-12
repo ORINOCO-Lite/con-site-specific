@@ -1,0 +1,38 @@
+#!/bin/sh
+# Validate records before they land.
+#
+# Two gates, deliberately split by cost:
+#
+#   validate_records.py  -- pure Python + PyYAML over metadata/.  ~0.7s on 316
+#                           records, so it runs on every commit.
+#   linkml_check.sh      -- the real schema check (unknown slots, wrong class,
+#                           wrong range), but it spawns uv/linkml per class and
+#                           takes ~36s, which is too slow for a commit hook.
+#                           Run it in CI, or by hand, or set CON_LINKML=1.
+#
+# NOTE on the obvious way to write this: `validator | tail -1` reports the exit
+# status of TAIL, which is always 0, so `set -e` never fires and the hook
+# silently passes everything.  That bug shipped here once.  Hence the explicit
+# status check below -- and if you edit this file, break a record on purpose
+# and confirm the commit is actually refused.
+#
+# Install:   git config core.hooksPath tools
+# Uninstall: git config --unset core.hooksPath
+# Skip once: git commit --no-verify
+set -e
+root=$(git rev-parse --show-toplevel)
+
+git diff --cached --name-only | grep -q '^metadata/' || exit 0
+
+if out=$(python3 "$root/tools/validate_records.py" 2>&1); then
+    printf 'records: %s\n' "$(printf '%s\n' "$out" | tail -1)"
+else
+    printf '%s\n' "$out" >&2
+    printf '\nrecords: validation FAILED -- commit refused.\n' >&2
+    printf 'Fix the above, or `git commit --no-verify` if you really mean it.\n' >&2
+    exit 1
+fi
+
+if [ -n "$CON_LINKML" ]; then
+    sh "$root/tools/linkml_check.sh" "$root/metadata/records"
+fi

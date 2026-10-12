@@ -1,0 +1,33 @@
+record: xyzrins:projects/debian
+format: con-association-evidence-v1
+
+assertions:
+  - path: /associated_with/0/started/at_time
+    value: "2005-07-04"
+    bound: upper
+    kind: debian-changelog
+    source: https://salsa.debian.org/python-team/packages/fail2ban
+    locator: 0.4.1-1, oldest entry
+    quote: '* First upstream release of a Debian package'
+    note: >-
+      The earliest Debian upload under Yaroslav's name that this store has
+      evidence for.  An upper bound in two senses: packaging precedes the
+      upload that records it, and an upload can predate becoming a Debian
+      Developer, so this dates the ACTIVITY and not the status.  The
+      Developer approval date is not public enough to cite -- nm.debian.org's
+      people search is JavaScript-driven and contributors.debian.org has no
+      entry -- so it is left unstated rather than guessed.
+    confidence: certain
+    captured: "2026-10-11"
+
+  - path: /associated_with/1/started/at_time
+    value: "2005-12-28"
+    bound: upper
+    kind: debian-changelog
+    source: pkg-exppsy:fsl/debian/changelog
+    locator: oldest entry
+    quote: Michael Hanke, 2005-12-28
+    note: >-
+      Where the fsl changelog bottoms out.  Upper bound for the same reasons.
+    confidence: approximate
+    captured: "2026-10-11"

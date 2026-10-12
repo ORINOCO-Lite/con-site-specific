@@ -1,0 +1,14 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/stamped-principles
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: STAMPED Principles
+description: GitHub organization holding the STAMPED principles paper, examples, checklist,
+  schemas and branding.
+display_label: STAMPED Principles (GitHub organization)
+name: STAMPED Principles
+pid: xyzrins:organizations/stamped-principles
+schema_type: xyzri:XYZOrganization
+short_name: STAMPED

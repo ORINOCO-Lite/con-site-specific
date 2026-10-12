@@ -18,9 +18,36 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Adina
-description: Ph.D. Student at INM-7, Research Centre Jülich, Germany. Lead of the
-  DataLad Handbook. Clinical Psychology background pursuing open science and open
-  software.
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: INM-7, Research Centre Julich, Germany
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/adswa
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://twitter.com/AdinaKrik
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:adina.wagner@t-online.de
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.linkedin.com/in/adina-wagner-611379123/
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0003-2917-3450
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborators
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Ph.D. student in Michael Hanke's Psychoinformatics Lab and the lead of the amazing
+    <a href="http://handbook.datalad.org">DataLad Handbook</a>. Looks like a Clinical
+    Psychologist on paper, but strives for an open-science conducting, open-software developing
+    secret identity thanks to inspirational influences from Michael, Yarik, Benjamin,
+    and many more. project.
+description: Ph.D. Student at INM-7, Research Centre Jülich, Germany. Lead of the DataLad
+  Handbook. Clinical Psychology background pursuing open science and open software.
 display_label: Adina Wagner
 family_name: Wagner
 formatted_name: Adina Wagner

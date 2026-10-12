@@ -1,0 +1,25 @@
+attributed_to:
+- object: ror:01cwqze88
+  roles:
+  - marcrel:fnd
+  schema_type: dlthings:Attribution
+- description: Contact PI, UMass Chan Medical School.
+  object: xyzrins:persons/david-kennedy
+  roles:
+  - obo:NCIT_C19924
+  schema_type: dlthings:Attribution
+- description: Subcontract PI at Dartmouth and lead of TR&D3, the technology research
+    and development project on reproducible execution and provenance capture. Not a PI
+    of the award as a whole.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - obo:NCIT_C25936
+  schema_type: dlthings:Attribution
+display_label: 'ReproNim: A Center for Reproducible Neuroimaging Computation'
+identifiers:
+- notation: 2P41EB019936-11
+  schema_type: dlthings:Identifier
+pid: xyzrins:grants/nih-repronim
+schema_type: xyzri:XYZGrant
+short_name: 2P41EB019936-11
+title: 'ReproNim: A Center for Reproducible Neuroimaging Computation'

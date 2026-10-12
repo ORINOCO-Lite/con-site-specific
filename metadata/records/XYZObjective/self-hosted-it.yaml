@@ -1,0 +1,6 @@
+annotations:
+  obo:NCIT_C54269: m.hanke@fz-juelich.de
+  sio:SIO_001083: '2025-12-11T22:00:10.838037'
+pid: xyzrins:objectives/self-hosted-it
+schema_type: xyzri:XYZObjective
+title: Self-hosted research IT infrastructure

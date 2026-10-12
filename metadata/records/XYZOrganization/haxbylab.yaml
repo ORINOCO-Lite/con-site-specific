@@ -1,0 +1,21 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://sites.dartmouth.edu/haxbylab/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Haxby Lab
+description: James Haxby's lab at Dartmouth. The lab where YOH and Michael Hanke were
+  postdocs, and out of which PyMVPA and NeuroDebian came.
+display_label: Haxby Lab
+influenced_by:
+- object: xyzrins:persons/james-haxby
+  roles:
+  - marcrel:ldr
+  schema_type: xyzri:XYZInfluence
+name: Haxby Lab
+part_of:
+- xyzrins:organizations/pbs
+pid: xyzrins:organizations/haxbylab
+schema_type: xyzri:XYZOrganization
+short_name: Haxby Lab

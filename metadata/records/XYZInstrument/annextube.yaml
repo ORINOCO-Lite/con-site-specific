@@ -1,0 +1,17 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/con/annextube
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: con/annextube
+description: YouTube-channel archiving system that uses git-annex for efficient, incremental
+  storage of video and metadata.
+display_label: con/annextube
+generated_by:
+- object: xyzrins:projects/con-annextube
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: con/annextube
+pid: xyzrins:instruments/annextube
+schema_type: xyzri:XYZInstrument

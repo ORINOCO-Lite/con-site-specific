@@ -1,0 +1,27 @@
+attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'An open platform for imaging-based research: archiving, managing and sharing
+    imaging and related study data.'
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://www.xnat.org/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: XNAT
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: XNAT
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: XNAT
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/NrgXnat/xnat
+description: 'An open platform for imaging-based research: archiving, managing and sharing
+  imaging and related study data.'
+display_label: XNAT
+pid: xyzrins:projects/xnat
+schema_type: xyzri:XYZProject
+short_name: XNAT
+title: XNAT

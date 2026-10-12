@@ -1,4 +1,7 @@
 attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.umassmed.edu
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: UMass Chan Medical School
@@ -8,6 +11,10 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: UMass Chan
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: UMass Chan Medical School, Worcester, Massachusetts.
+description: UMass Chan Medical School, Worcester, Massachusetts.
 display_label: UMass Chan Medical School
 name: University of Massachusetts Chan Medical School
 pid: ror:0464eyp60

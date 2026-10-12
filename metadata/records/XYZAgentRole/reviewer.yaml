@@ -1,0 +1,4 @@
+description: A person or organization responsible for reviewing a work.
+display_label: Reviewer
+pid: marcrel:rev
+schema_type: xyzri:XYZAgentRole

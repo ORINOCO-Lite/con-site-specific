@@ -9,9 +9,9 @@ attributes:
   value: https://registry.datalad.org
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: Service maintaining up-to-date information on an expanding collection of
-    datasets, currently numbering over ten thousand. Provides automatic dataset registration,
-    metadata extraction, and search functionality via web interface and RESTful API.
+  value: Service maintaining up-to-date information on an expanding collection of datasets,
+    currently numbering over ten thousand. Provides automatic dataset registration, metadata
+    extraction, and search functionality via web interface and RESTful API.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: DataLad Registry
@@ -21,13 +21,37 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: DataLad Registry
-description: Service maintaining up-to-date information on an expanding collection
-  of datasets, currently numbering over ten thousand. Provides automatic dataset registration,
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<p> <a href="https://registry.datalad.org">DataLad-Registry</a> is a service
+    that maintains up-to-date information on an expanding collection of datasets, currently
+    numbering over ten thousand. It automatically registers datasets from various online
+    sources, extracts metadata, and keeps both the datasets and their metadata current.
+    DataLad-Registry offers search functionalities, including metadata-based searches,
+    accessible through both a web interface and a RESTful API. Registry is regularly updated
+    with DataLad datasets discovered across multiple hosting portals and listed on our
+    <a href="https://github.com/datalad/datalad-usage-dashboard/">DataLad Usage Dashboard</a>.
+    </p> <ul> <li> 🎬 <a href="https://datasets.datalad.org/repronim/ReproTube/web/#/channel/DataLad/video/_McJ1BtLsiQ">Talk
+    at distribits 2024: Bringing Benefits of Centrality to DataLad</a> </li> </ul>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: datalad-registry
+- predicate: dlthings:logo_style
+  schema_type: dlthings:AttributeSpecification
+  value: height:4.4em;padding-left:1em;margin-top:-0.3em;
+description: Service maintaining up-to-date information on an expanding collection of
+  datasets, currently numbering over ten thousand. Provides automatic dataset registration,
   metadata extraction, and search functionality via web interface and RESTful API.
-display_label: DataLad Registry
+display_label: DataLad-Registry
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/datalad-registry
 schema_type: xyzri:XYZProject
 short_name: DataLad-Registry
+started:
+  at_time: '2020-09-15'
+  schema_type: dlthings:Start
 title: DataLad Registry

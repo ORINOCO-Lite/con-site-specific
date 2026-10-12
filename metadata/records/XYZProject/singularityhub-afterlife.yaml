@@ -2,13 +2,24 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://datasets.datalad.org/?dir=/shub
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: <p> To provide archival and uninterrupted access to over 9TBs of singularity-hub.org
+    Singularity containers, we have established <a href="https://datasets.datalad.org/?dir=/shub">///shub
+    DataLad dataset</a> and a service to serve all the shub:// URLs. </p>
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Infrastructure
 description: To provide archival and uninterrupted access to over 9TBs of singularity-hub.org
-  Singularity containers, CON established the ///shub DataLad dataset and a service
-  to serve the shub:// URLs.
+  Singularity containers, CON established the ///shub DataLad dataset and a service to
+  serve the shub:// URLs.
 display_label: SingularityHub (after-life)
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/singularityhub-afterlife
 schema_type: xyzri:XYZProject
 short_name: SingularityHub
+started:
+  at_time: '2017-01-24'
+  schema_type: dlthings:Start
 title: SingularityHub (after-life)

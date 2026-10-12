@@ -1,0 +1,19 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://catalystneuro.com
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: CatalystNeuro
+description: Company building neuroscience data infrastructure; a major contributor to
+  DANDI and the lead developer of NeuroConv.
+display_label: CatalystNeuro
+influenced_by:
+- object: xyzrins:persons/ben-dichter
+  roles:
+  - marcrel:led
+  schema_type: xyzri:XYZInfluence
+name: CatalystNeuro
+pid: xyzrins:organizations/catalystneuro
+schema_type: xyzri:XYZOrganization
+short_name: CatalystNeuro

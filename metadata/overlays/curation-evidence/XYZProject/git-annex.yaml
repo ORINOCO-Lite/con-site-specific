@@ -1,0 +1,29 @@
+record: xyzrins:projects/git-annex
+format: con-association-evidence-v1
+
+# NOT asserted.  The quote is YOH's, about UPSTREAM git-annex, and it was
+# filed against scikit-learn's overlay with Kyle Meyer as the proposed agent
+# -- wrong project and wrong person, neither of which any gate could see,
+# because a `pending` entry is only checked for being quarantined.
+pending:
+  - proposed_path: /associated_with/-
+    proposed_value:
+      schema_type: dlthings:Association
+      object: xyzrins:persons/yaroslav-halchenko
+      roles: [marcrel:ctb]
+    kind: recollection
+    source: conversation 2026-10-10
+    quote: >-
+      I could be wrong with statement that git-annex had contributions in
+      git-annex. I think I did some to packaging and/or docs etc.
+    note: >-
+      What IS verified sits on instruments/git-annex-builds: 230 commits from
+      YOH and 197 from John Wodder in datalad/git-annex, the build repository.
+      Nothing is claimed about Joey Hess's own tree.  A separate recollection
+      that Kyle Meyer contributed upstream is also unverified -- kyleam has
+      zero commits in the build repository.
+    would_confirm: >-
+      git log over a clone of git://git-annex.branchable.com/ filtered by
+      author.
+    confidence: unverified
+    captured: "2026-10-10"

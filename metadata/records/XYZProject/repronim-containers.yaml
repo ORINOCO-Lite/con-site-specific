@@ -1,0 +1,56 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/ReproNim/containers
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: ReproNim/containers is a DataLad dataset providing a ready-to-use "distribution"
+    of containerized neuroimaging environments (Singularity images) for reproducible analysis.
+    It collects a curated set of containers — including those used by HeuDiConv and the
+    broader ReproNim ecosystem — and exposes them via the ///repronim/containers DataLad
+    dataset path, making it trivial to pin and share exact software environments alongside
+    data and workflows.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: ReproNim/containers
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: ReproNim/containers
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: ReproNim/containers
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: <p> <a href="https://github.com/ReproNim/containers">ReproNim/containers</a>
+    is a <a href="#datalad">DataLad</a> dataset providing a ready-to-use "distribution"
+    of containerized neuroimaging environments (Singularity images) for reproducible analysis.
+    It collects a curated set of containers — including those used by <a href="#heudiconv">HeuDiConv</a>
+    and the broader <a href="http://repronim.org">ReproNim</a> ecosystem — and exposes
+    them via the <code>///repronim/containers</code> DataLad dataset path, making it trivial
+    to pin and share exact software environments alongside data and workflows. </p>
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: repronim-containers
+- predicate: dlthings:logo_style
+  schema_type: dlthings:AttributeSpecification
+  value: width:400px;padding-right:10px;margin-top:0em;
+description: ReproNim/containers is a DataLad dataset providing a ready-to-use "distribution"
+  of containerized neuroimaging environments (Singularity images) for reproducible analysis.
+  It collects a curated set of containers — including those used by HeuDiConv and the
+  broader ReproNim ecosystem — and exposes them via the ///repronim/containers DataLad
+  dataset path, making it trivial to pin and share exact software environments alongside
+  data and workflows.
+display_label: ReproNim/containers
+part_of:
+- xyzrins:.
+- xyzrins:projects/repronim-trd3
+pid: xyzrins:projects/repronim-containers
+schema_type: xyzri:XYZProject
+short_name: ReproNim/containers
+started:
+  at_time: '2019-04-18'
+  schema_type: dlthings:Start
+title: ReproNim/containers

@@ -1,0 +1,25 @@
+attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Simulator-independent specification of neuronal network models in Python.
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://neuralensemble.org/PyNN/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: PyNN
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: PyNN
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: PyNN
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/NeuralEnsemble/PyNN
+description: Simulator-independent specification of neuronal network models in Python.
+display_label: PyNN
+pid: xyzrins:projects/pynn
+schema_type: xyzri:XYZProject
+short_name: PyNN
+title: PyNN

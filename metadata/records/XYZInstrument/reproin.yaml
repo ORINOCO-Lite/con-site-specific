@@ -1,0 +1,24 @@
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/ReproNim/reproin
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: ReproIn
+description: A convention and a setup for naming sequences at the scanner so that conversion
+  to a shareable, version-controlled BIDS dataset needs no human in the loop. Runs on
+  HeuDiConv; deployed at DBIC.
+display_label: ReproIn
+generated_by:
+- at_time: '2018-02-05'
+  object: xyzrins:projects/repronim-trd3
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: ReproIn
+pid: xyzrins:instruments/reproin
+schema_type: xyzri:XYZInstrument

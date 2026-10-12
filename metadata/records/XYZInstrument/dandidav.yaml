@@ -1,0 +1,26 @@
+attributed_to:
+- object: xyzrins:persons/john-wodder
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/dandi/dandidav
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: dandidav
+description: WebDAV view to DANDI Archive
+display_label: dandidav
+generated_by:
+- at_time: '2024-01-29'
+  object: xyzrins:projects/dandi
+  schema_type: dlthings:Generation
+invalidated_by:
+  at_time: '2026-09-08'
+  object: xyzrins:projects/dandi
+  schema_type: dlthings:Invalidation
+kind: obo:IAO_0000010
+name: dandidav
+pid: xyzrins:instruments/dandidav
+schema_type: xyzri:XYZInstrument

@@ -1,0 +1,22 @@
+attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: A Python library to read and write Excel 2010 xlsx/xlsm files.
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://foss.heptapod.net/openpyxl/openpyxl
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: openpyxl
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: openpyxl
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: openpyxl
+description: A Python library to read and write Excel 2010 xlsx/xlsm files.
+display_label: openpyxl
+pid: xyzrins:projects/openpyxl
+schema_type: xyzri:XYZProject
+short_name: openpyxl
+title: openpyxl

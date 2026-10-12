@@ -1,0 +1,21 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.vandermeerlab.org/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: van der Meer Lab
+description: Matthijs van der Meer's lab at Dartmouth, studying memory, decision making
+  and their neural circuits.
+display_label: vandermeerlab
+influenced_by:
+- object: xyzrins:persons/matthijs-van-der-meer
+  roles:
+  - marcrel:ldr
+  schema_type: xyzri:XYZInfluence
+name: van der Meer Lab
+part_of:
+- xyzrins:organizations/pbs
+pid: xyzrins:organizations/vandermeerlab
+schema_type: xyzri:XYZOrganization
+short_name: vandermeerlab

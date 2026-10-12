@@ -1,0 +1,20 @@
+# No MARC relator means "maintains this software's distribution packaging".
+# `marcrel:dst` (distributor) is about distributing a published work and
+# `marcrel:pbl` (publisher) is worse, so this is minted locally.
+#
+# The namespace is the one pool.psychoinformatics.de-ui is configured to mint
+# under -- `xyzri:XYZAgentRole: 'xyzrins:agent-roles/{_randomUUID}'` -- and
+# psychoinformatics-site-specific carries five such records.  NOTE that
+# con-site-specific's nine XYZAgentRole records mint none of their own; every
+# pid there is reused from marcrel: or obo:.  A readable slug instead of a
+# UUID diverges from the generator but matches con-site-specific's
+# persons/<slug>, projects/<slug>, organizations/<slug> style.
+#
+# Only `display_label` and `description` are set, as all nine accepted
+# XYZAgentRole records do; `name` is schema-valid but unused by the corpus.
+pid: xyzrins:agent-roles/debian-packager
+schema_type: xyzri:XYZAgentRole
+display_label: Debian packager
+description: >-
+  Maintains a piece of software as a package within the Debian distribution:
+  packaging, the changelog, uploads, and the bug traffic that follows.

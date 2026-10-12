@@ -1,0 +1,35 @@
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/kyle-meyer
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/datalad/datalad-container
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: datalad-container
+description: DataLad extension for working with computational containers
+display_label: datalad-container
+generated_by:
+- at_time: '2018-05-07'
+  object: xyzrins:projects/datalad
+  schema_type: dlthings:Generation
+influenced_by:
+- object: xyzrins:grants/nih-repronim
+  roles:
+  - FRAPO:Funding
+  schema_type: xyzri:XYZInfluence
+kind: obo:IAO_0000010
+name: datalad-container
+pid: xyzrins:instruments/datalad-container
+schema_type: xyzri:XYZInstrument

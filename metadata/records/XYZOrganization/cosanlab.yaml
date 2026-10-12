@@ -1,0 +1,21 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://cosanlab.com/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Computational Social Affective Neuroscience Laboratory
+description: Luke Chang's lab at Dartmouth, studying the computational basis of social
+  and affective processes.
+display_label: COSAN Lab
+influenced_by:
+- object: xyzrins:persons/luke-chang
+  roles:
+  - marcrel:ldr
+  schema_type: xyzri:XYZInfluence
+name: Computational Social Affective Neuroscience Laboratory
+part_of:
+- xyzrins:organizations/pbs
+pid: xyzrins:organizations/cosanlab
+schema_type: xyzri:XYZOrganization
+short_name: COSAN Lab

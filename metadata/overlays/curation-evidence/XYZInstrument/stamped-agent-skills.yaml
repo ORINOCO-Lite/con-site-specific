@@ -1,0 +1,17 @@
+record: xyzrins:instruments/stamped-agent-skills
+format: con-association-evidence-v1
+
+assertions:
+  - path: /generated_by/0/at_time
+    value: "2026-07-09"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/orgs/stamped-principles/repos
+    locator: created_at
+    quote: '"created_at": "2026-07-09T..."'
+    note: >-
+      Repository creation date from the GitHub API.  An upper bound on when
+      the work began: a repository is created for work already decided on,
+      and anything that preceded the repo leaves no trace here.
+    confidence: certain
+    captured: "2026-10-10"

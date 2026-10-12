@@ -1,0 +1,22 @@
+attributed_to:
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/datalad/datalad-metalad
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: datalad-metalad
+description: Next generation metadata handling for DataLad
+display_label: datalad-metalad
+generated_by:
+- at_time: '2019-05-08'
+  object: xyzrins:projects/datalad
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: datalad-metalad
+pid: xyzrins:instruments/datalad-metalad
+schema_type: xyzri:XYZInstrument

@@ -1,0 +1,137 @@
+# Evidence for every dated claim in records/XYZProject/psychopy.yaml.
+#
+# Shape follows con-site-specific's metadata/overlays/machine-provenance-
+# annotations/: a `record` pid, and `assertions` that address the asserted
+# value by JSON Pointer `path`.  The pointer is strictly better than the
+# `supports: [start]` tag it replaces -- it names the exact slot, so a
+# validator can check coverage instead of trusting a label.
+#
+# The extra keys (kind, bound, quote, confidence, captured, would_confirm) are
+# CON-local.  PAV's importedBy/importedFrom describe a machine import; these
+# describe a human reading a source and deciding what it supports.
+record: xyzrins:projects/psychopy
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2008-04-09"
+    bound: upper
+    kind: upstream-git
+    source: pkg-exppsy:psychopy
+    locator: ecb5bb56a
+    quote: first commit of 'trunk'
+    note: >-
+      Jon Peirce, 14 months before our first commit, so "we were at the
+      inception" is false.  Upper bound -- the history was converted from
+      SVN, so PsychoPy may well be older than its repository.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/0/started/at_time
+    value: "2009-06-15"
+    bound: upper
+    kind: upstream-git
+    source: pkg-exppsy:psychopy
+    locator: 3e6f7d2dc
+    quote: ensure 2.8 version of wx for IDE
+    note: >-
+      First YOH commit upstream.  Upper bound -- earlier work under another
+      spelling of the name would be invisible across the SVN conversion.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/0/ended/at_time
+    value: "2018-04-06"
+    bound: lower
+    kind: upstream-git
+    source: pkg-exppsy:psychopy
+    locator: 598d1ee5a
+    quote: 'BF: do not generate psychojs zip upon "clean"'
+    note: Last YOH commit upstream.  Lower bound.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/0/roles/0
+    value: marcrel:ctb
+    kind: upstream-git
+    source: pkg-exppsy:psychopy
+    locator: f89f153e8
+    quote: 'ENH(BIG): adding travis-ci.org and coveralls.io support'
+    note: >-
+      YOH, 2013-05-31, heading a burst of CI work -- the best evidence for the
+      "we pushed testing here" story.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/1/started/at_time
+    value: "2009-06-19"
+    bound: upper
+    kind: debian-changelog
+    source: pkg-exppsy:psychopy-debmed/debian/changelog
+    locator: 1.00.04.dfsg-1
+    quote: '* Initial release (Closes: #532111)'
+    note: >-
+      The first RELEASED package.  The release date is exact; as evidence for
+      when packaging began it is an upper bound, since the work precedes the
+      upload.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/1/ended/at_time
+    value: "2020-02-24"
+    bound: upper
+    artifact: record
+    kind: debian-changelog
+    source: https://salsa.debian.org/med-team/psychopy
+    locator: first Debian Med trailer
+    quote: ' -- Andreas Tille <tille@debian.org>  Mon, 24 Feb 2020 08:56:57 +0100'
+    confidence: certain
+    captured: "2026-10-11"
+    note: >-
+      The package moving to Debian Med team maintenance.  A TRANSITION, not a
+      departure: Yaroslav is still listed first under Uploaders in
+      debian/control in 2026 and is an uploader on 37 Debian Med packages.
+      An earlier version ended this association at his last commit
+      (2018-09-26) and read as "he stopped", which was wrong -- what changed
+      was the maintainership model, from a small team to a larger one with
+      narrower target scope: current Debian rather than backports.
+      `artifact: record` because the trailer records the change itself, so
+      the real date is at or before it.
+
+  - path: /associated_with/1/ended/object
+    value: xyzrins:projects/debian-med
+    kind: debian-changelog
+    source: https://salsa.debian.org/med-team/psychopy
+    locator: first Debian Med trailer
+    quote: ' -- Andreas Tille <tille@debian.org>  Mon, 24 Feb 2020 08:56:57 +0100'
+    confidence: certain
+    captured: "2026-10-11"
+    note: >-
+      The trigger of the End: the team the package moved to.
+
+  - path: /associated_with/2/started/at_time
+    value: "2020-02-24"
+    bound: upper
+    artifact: record
+    kind: debian-changelog
+    source: https://salsa.debian.org/med-team/psychopy
+    locator: first Debian Med trailer
+    quote: ' -- Andreas Tille <tille@debian.org>  Mon, 24 Feb 2020 08:56:57 +0100'
+    confidence: certain
+    captured: "2026-10-11"
+    note: >-
+      The same event read the other way -- where the small-team association
+      ends, the Debian Med one begins.  Open-ended, because it has not.
+
+  - path: /associated_with/3/started/at_time
+    value: "2008-04-23"
+    bound: upper
+    kind: debian-changelog
+    source: pkg-exppsy:psychopy-debmed/debian/changelog
+    locator: 0.93.5-1 UNRELEASED
+    quote: ' -- Michael Hanke <michael.hanke@gmail.com>  Wed, 23 Apr 2008 08:08:17 +0200'
+    note: >-
+      UNRELEASED.  Establishes that Hanke opened the package, not that one was
+      released.  Upper bound -- the oldest surviving entry.
+    confidence: certain
+    captured: "2026-10-10"

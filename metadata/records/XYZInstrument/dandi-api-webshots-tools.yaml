@@ -1,0 +1,26 @@
+attributed_to:
+- object: xyzrins:persons/john-wodder
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/dandi/dandi-api-webshots-tools
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: dandi-api-webshots-tools
+description: Tooling for the DANDI API webshots
+display_label: dandi-api-webshots-tools
+generated_by:
+- at_time: '2021-08-11'
+  object: xyzrins:projects/dandi
+  schema_type: dlthings:Generation
+invalidated_by:
+  at_time: '2023-09-27'
+  object: xyzrins:projects/dandi
+  schema_type: dlthings:Invalidation
+kind: obo:IAO_0000010
+name: dandi-api-webshots-tools
+pid: xyzrins:instruments/dandi-api-webshots-tools
+schema_type: xyzri:XYZInstrument

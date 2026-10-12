@@ -1,0 +1,54 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/con/mechababs
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: mechababs
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'mechababs runs BIDS Apps over many studies on an HPC cluster, with BABS running
+    the jobs. It works on a BIDS study, adding derivatives to it, and records how each
+    one was made inside the study itself: the exact mechababs and BABS versions pinned
+    in a lock, and every orchestration step as a DataLad run record. A superstudy groups
+    many studies so one campaign sweeps them all, which is how mechababs feeds OpenNeuroStudies.'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: mechababs
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: mechababs
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/con/mechababs
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<p> <a href="https://github.com/con/mechababs">mechababs</a> runs <a href="https://bids-apps.neuroimaging.io">BIDS
+    Apps</a> over many studies on an HPC cluster, with <a href="https://github.com/PennLINC/babs">BABS</a>
+    running the jobs. It works on a BIDS study, adding derivatives to it, and records
+    how each one was made inside the study itself: the exact mechababs and BABS versions
+    pinned in a lock, and every orchestration step as a <a href="#datalad_">DataLad</a>
+    run record. A superstudy groups many studies so one campaign sweeps them all, which
+    is how mechababs feeds <a href="https://github.com/OpenNeuroStudies/OpenNeuroStudies">OpenNeuroStudies</a>.
+    </p>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: mechababs
+description: 'mechababs runs BIDS Apps over many studies on an HPC cluster, with BABS
+  running the jobs. It works on a BIDS study, adding derivatives to it, and records how
+  each one was made inside the study itself: the exact mechababs and BABS versions pinned
+  in a lock, and every orchestration step as a DataLad run record. A superstudy groups
+  many studies so one campaign sweeps them all, which is how mechababs feeds OpenNeuroStudies.'
+display_label: mechababs
+part_of:
+- xyzrins:.
+pid: xyzrins:projects/mechababs
+schema_type: xyzri:XYZProject
+short_name: mechababs
+started:
+  at_time: '2026-03-20'
+  schema_type: dlthings:Start
+title: mechababs

@@ -1,0 +1,26 @@
+attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Drivers and libraries for the Xbox Kinect device on Windows, Linux and OS X.
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/openkinect
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Freenect
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Freenect
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: Freenect
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/OpenKinect/libfreenect
+description: Drivers and libraries for the Xbox Kinect device on Windows, Linux and OS
+  X.
+display_label: Freenect
+pid: xyzrins:projects/freenect
+schema_type: xyzri:XYZProject
+short_name: Freenect
+title: Freenect

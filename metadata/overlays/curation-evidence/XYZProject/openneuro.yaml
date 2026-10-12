@@ -1,0 +1,35 @@
+record: xyzrins:projects/openneuro
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2017-08-14"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/repos/OpenNeuroOrg/openneuro
+    locator: created_at
+    quote: '"created_at": "2017-08-14T..."'
+    note: >-
+      Creation of the project's primary repository.  An upper bound, and for
+      the older projects a loose one: PyMVPA's repository dates from
+      2009-10-07 but its first commit is 2007-05-24, imported from earlier
+      history, and NeuroDebian and DataLad predate GitHub in the same way.
+      Good enough to order a page by; not a founding date.
+    confidence: certain
+    captured: "2026-10-11"
+  - path: /ended/at_time
+    value: "2028-05-31"
+    bound: exact
+    kind: registry
+    source: https://api.reporter.nih.gov/v2/projects/search
+    locator: "project_end_date for 2R24MH117179-06"
+    quote: '"project_end_date": "2028-05-31T00:00:00Z"'
+    note: >-
+      The end of the AWARD period, from the funder's own record.  A planned
+      end stated by a registry, not a trace of work, so `exact` rather than a
+      bound in either direction -- and `registry` is outside ARTIFACT_KINDS,
+      so the trace/record direction rule does not apply.  Note this is the
+      funding period, not the end of the effort: DANDI's award ended
+      2024-04-30 and DANDI did not.
+    confidence: certain
+    captured: "2026-10-11"
