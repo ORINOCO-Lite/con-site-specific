@@ -1,0 +1,10 @@
+# Reused from psychoinformatics-site-specific rather than re-minted, the same
+# way the Intern role is: one pid for one concept across the two stores.
+# Shaped like CON's other role records (display_label) rather than the
+# upstream one's `name`.
+description: A maintainer of a Dataset, software package, or other project. A maintainer
+  is a person or organization that manages contributions to, and/or publication of,
+  some (typically complex) artifact.
+display_label: Maintainer
+pid: xyzrins:agent-roles/7e8c6eda-7d12-4c9f-9a3e-225e53a3db46
+schema_type: xyzri:XYZAgentRole

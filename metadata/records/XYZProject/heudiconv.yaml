@@ -11,6 +11,14 @@ associated_with:
   roles:
   - marcrel:led
   schema_type: dlthings:Association
+- object: xyzrins:persons/satrajit-ghosh
+  roles:
+  - marcrel:cre
+  schema_type: dlthings:Association
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:cre
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

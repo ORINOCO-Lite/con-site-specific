@@ -19,6 +19,10 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+- object: xyzrins:persons/chris-markiewicz
+  roles:
+  - xyzrins:agent-roles/7e8c6eda-7d12-4c9f-9a3e-225e53a3db46
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
