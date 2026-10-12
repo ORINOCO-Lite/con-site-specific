@@ -18,6 +18,34 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Isaac
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Software Developer
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:Isaac.C.To@dartmouth.edu
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/candleindark
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.linkedin.com/in/candleindark/
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0002-4740-0824
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Centroids
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Loves Python and open-source software. Works on <a href="/projects#dataladregistry_">DataLad-Registry</a>
+    and various metadata-related <a href="https://dandiarchive.org/">DANDI</a> things.
+    Currently resides in sunny Southern California with his wife and son.
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
 description: Software Developer at the Center for Open Neuroscience. Python and open-source
   enthusiast. Works on DataLad-Registry and DANDI metadata-related initiatives.
 display_label: Isaac To

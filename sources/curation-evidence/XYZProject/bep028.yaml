@@ -1,0 +1,21 @@
+record: xyzrins:projects/bep028
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2023-01-01"
+    bound: upper
+    kind: recollection
+    source: conversation 2026-10-11
+    locator: null
+    quote: BEP028 I am part of
+    note: >-
+      APPROXIMATE.  The BIDS website's data/beps/beps.yml names Yaroslav
+      Halchenko as a lead but carries no start date for any BEP, and the
+      Google Doc behind it is not dated from outside.  2023-01-01 is a
+      placeholder, not a finding.
+    would_confirm: >-
+      The BEP028 Google Doc's creation date, or the first commit of
+      bids-standard/bids-specification touching the provenance BEP.
+    confidence: unverified
+    captured: "2026-10-11"

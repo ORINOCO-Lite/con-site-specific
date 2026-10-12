@@ -1,0 +1,54 @@
+associated_with:
+- ended:
+    at_time: '2018-04-06'
+    schema_type: dlthings:End
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2009-06-15'
+    schema_type: dlthings:Start
+- description: Solo and NeuroDebian-team packaging. It ends because the package moved
+    to Debian Med team maintenance, not because involvement stopped -- Yaroslav is still
+    listed first under Uploaders in 2026.
+  ended:
+    at_time: '2020-02-24'
+    object: xyzrins:projects/debian-med
+    schema_type: dlthings:End
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - xyzrins:agent-roles/debian-packager
+  schema_type: dlthings:Association
+  started:
+    at_time: '2009-06-19'
+    schema_type: dlthings:Start
+- description: Continuing as an uploader under Debian Med team maintenance. A larger team,
+    better process, narrower target -- current Debian rather than backports.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - xyzrins:agent-roles/debian-packager
+  schema_type: dlthings:Association
+  started:
+    at_time: '2020-02-24'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - xyzrins:agent-roles/debian-packager
+  schema_type: dlthings:Association
+  started:
+    at_time: '2008-04-23'
+    schema_type: dlthings:Start
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://psychopy.org
+description: Open-source package for running experiments in Python, created by Jon Peirce.
+display_label: PsychoPy
+pid: xyzrins:projects/psychopy
+schema_type: xyzri:XYZProject
+short_name: PsychoPy
+started:
+  at_time: '2008-04-09'
+  schema_type: dlthings:Start
+title: PsychoPy

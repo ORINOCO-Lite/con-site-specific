@@ -1,0 +1,12 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://about.meta.com
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Meta Platforms, Inc.
+display_label: Meta
+name: Meta Platforms, Inc.
+pid: xyzrins:organizations/meta
+schema_type: xyzri:XYZOrganization
+short_name: Meta

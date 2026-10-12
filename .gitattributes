@@ -1,4 +1,5 @@
 * annex.backend=SHA256E
 * annex.largefiles=nothing
+content/** annex.largefiles=((mimeencoding=binary)and(largerthan=0))
 assets/** annex.largefiles=((mimeencoding=binary)and(largerthan=0))
 static/** annex.largefiles=((mimeencoding=binary)and(largerthan=0))

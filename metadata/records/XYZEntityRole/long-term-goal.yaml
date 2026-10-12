@@ -1,0 +1,7 @@
+annotations:
+  obo:NCIT_C54269: m.hanke@fz-juelich.de
+  sio:SIO_001083: '2026-03-07T11:42:38.410768'
+description: An ambition or a vision.
+name: Long-term goal
+pid: xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+schema_type: xyzri:XYZEntityRole

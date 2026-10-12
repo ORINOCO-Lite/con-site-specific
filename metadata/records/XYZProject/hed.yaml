@@ -1,0 +1,27 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - xyzrins:agent-roles/steering-committee-member
+  schema_type: dlthings:Association
+- object: ror:04tfhh831
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.hedtags.org
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Hierarchical Event Descriptors
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: HED
+description: 'Hierarchical Event Descriptors: a controlled vocabulary and annotation system
+  for describing what happened during an experiment, at the resolution of individual events.
+  The annotation layer BIDS event files carry and NEMAR searches by.'
+display_label: HED
+pid: xyzrins:projects/hed
+schema_type: xyzri:XYZProject
+short_name: HED
+title: Hierarchical Event Descriptors

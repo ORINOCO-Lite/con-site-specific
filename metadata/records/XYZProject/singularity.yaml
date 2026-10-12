@@ -1,0 +1,31 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://sylabs.io/singularity/
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'Container platform for reproducible scientific computing on shared and HPC systems,
+    where unprivileged users need to run their own images. In 2021 the project forked:
+    SingularityCE continues under Sylabs and Apptainer moved to the Linux Foundation.
+    Both are live.'
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/sylabs/singularity
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Singularity
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Singularity
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: Singularity
+description: 'Container platform for reproducible scientific computing on shared and HPC
+  systems, where unprivileged users need to run their own images. In 2021 the project
+  forked: SingularityCE continues under Sylabs and Apptainer moved to the Linux Foundation.
+  Both are live.'
+display_label: Singularity
+pid: xyzrins:projects/singularity
+schema_type: xyzri:XYZProject
+short_name: Singularity
+title: Singularity

@@ -1,0 +1,19 @@
+record: xyzrins:projects/ember-study-template
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2025-11-06"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/repos/brain-bbqs/study-template
+    locator: created_at
+    quote: '"created_at": "2025-11-06T...", "description": "Template for EMBER
+      study, organized as a BIDS study, for data ingest etc"'
+    note: >-
+      In the brain-bbqs organisation -- the NIH BRAIN Initiative Brain
+      Behavior Quantification and Synchronization programme -- not in EMBER's
+      own.  Contributors are yarikoptic and CodyCBakerPhD.  Upper bound: a
+      repository is created for work already decided on.
+    confidence: certain
+    captured: "2026-10-11"

@@ -1,0 +1,26 @@
+attributed_to:
+- object: xyzrins:persons/john-wodder
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/datalad/datalad-fuse
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: datalad-fuse
+description: DataLad extension providing a FUSE filesystem view
+display_label: datalad-fuse
+generated_by:
+- at_time: '2021-03-02'
+  object: xyzrins:projects/datalad
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: datalad-fuse
+pid: xyzrins:instruments/datalad-fuse
+schema_type: xyzri:XYZInstrument

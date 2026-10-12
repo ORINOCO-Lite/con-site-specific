@@ -1,12 +1,18 @@
 associated_with:
-- object: xyzrins:persons/michael-hanke
-  roles:
-  - marcrel:led
-  schema_type: dlthings:Association
 - object: xyzrins:persons/yaroslav-halchenko
   roles:
   - marcrel:led
   schema_type: dlthings:Association
+- ended:
+    at_time: '2018-01-13'
+    schema_type: dlthings:End
+  object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+  started:
+    at_time: '2007-05-24'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
@@ -14,9 +20,8 @@ attributes:
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
   value: Python-based framework for neural decoding using multivariate pattern analysis.
-    Supports volume and surface-based analyses, supervised/unsupervised learning,
-    representational similarity analyses, searchlight analyses, hyperalignment, and
-    model-based decoding/encoding.
+    Supports volume and surface-based analyses, supervised/unsupervised learning, representational
+    similarity analyses, searchlight analyses, hyperalignment, and model-based decoding/encoding.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: PyMVPA
@@ -26,14 +31,42 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: PyMVPA
-description: Python-based framework for neural decoding using multivariate pattern
-  analysis. Supports volume and surface-based analyses, supervised/unsupervised learning,
-  representational similarity analyses, searchlight analyses, hyperalignment, and
-  model-based decoding/encoding.
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<p> <a href="http://www.pymvpa.org">PyMVPA</a> is a Python-based framework for
+    neural decoding using multivariate pattern analysis. It affords both volume- and surface-based
+    analyses using a wide variety of supervised and unsupervised machine learning methods,
+    representational similarity analyses, searchlight analyses, hyperalignment of representational
+    spaces, and model-based decoding and encoding. The software also can be used for neural
+    data other than fMRI, including analysis of MEG and EEG data through spatio-temporo-frequency
+    band searchlights and cross-modal EEG to fMRI trans-fusion. It also has been used
+    for analyses on data unrelated to neuroscience, demonstrating its general utility.
+    PyMVPA also serves as a repository for sample data sets (e.g., Haxby et al. 2001)
+    that has found wide applicability for education, development of new algorithms, or
+    new analyses and independent research reports. </p> <ul> <li> <a href="/whoweare#michael_hanke_"
+    class="centroid">M. Hanke</a>, <a href="/whoweare#yaroslav_o_halchenko_" class="centroid">Y.O.
+    Halchenko</a>, et al. (2009). <a href="http://link.springer.com/article/10.1007%2Fs12021-008-9041-y">PyMVPA:
+    A Python toolbox for multivariate pattern analysis of fMRI data.</a> Neuroinformatics,
+    7, 37-53. DOI: 10.1007/s12021-008-9041-y </li> </ul>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: pymvpa
+- predicate: dlthings:logo_style
+  schema_type: dlthings:AttributeSpecification
+  value: width:395px;padding-right:10px;margin-top:0em;
+description: Python-based framework for neural decoding using multivariate pattern analysis.
+  Supports volume and surface-based analyses, supervised/unsupervised learning, representational
+  similarity analyses, searchlight analyses, hyperalignment, and model-based decoding/encoding.
 display_label: PyMVPA
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/pymvpa
 schema_type: xyzri:XYZProject
 short_name: PyMVPA
+started:
+  at_time: '2009-10-07'
+  schema_type: dlthings:Start
 title: PyMVPA

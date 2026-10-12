@@ -1,0 +1,5 @@
+description: An individual who attends and follows the work of a body without holding
+  a seat in it.
+display_label: Observer
+pid: obo:NCIT_C92650
+schema_type: xyzri:XYZAgentRole

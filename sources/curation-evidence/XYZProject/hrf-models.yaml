@@ -1,0 +1,26 @@
+record: xyzrins:projects/hrf-models
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2022-09-15"
+    bound: exact
+    kind: registry
+    source: https://api.reporter.nih.gov/v2/projects/search
+    locator: "project_start_date for 1R01MH129397-01A1"
+    quote: '"project_start_date": "2022-09-15T00:00:00Z"'
+    note: >-
+      The award period from the funder's own record.  The project is dated by
+      its funding because that is what defines it; CON's own involvement is
+      advisory and recorded as an association, not as the project's span.
+    confidence: certain
+    captured: "2026-10-11"
+  - path: /ended/at_time
+    value: "2027-07-31"
+    bound: exact
+    kind: registry
+    source: https://api.reporter.nih.gov/v2/projects/search
+    locator: "project_end_date for 1R01MH129397-01A1"
+    quote: '"project_end_date": "2027-07-31T00:00:00Z"'
+    confidence: certain
+    captured: "2026-10-11"

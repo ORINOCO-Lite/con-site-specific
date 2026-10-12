@@ -1,0 +1,30 @@
+associated_with:
+- description: 1 issue or pull requests.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/neurobagel/bagel-cli
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'Federated search across neuroimaging studies: a schema, a CLI for annotating
+    datasets, and a query tool over the resulting graph.'
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Neurobagel
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/neurobagel/bagel-cli
+description: 'Federated search across neuroimaging studies: a schema, a CLI for annotating
+  datasets, and a query tool over the resulting graph.'
+display_label: Neurobagel
+pid: xyzrins:projects/neurobagel
+schema_type: xyzri:XYZProject
+short_name: Neurobagel
+started:
+  at_time: '2022-05-16'
+  schema_type: dlthings:Start
+title: Neurobagel

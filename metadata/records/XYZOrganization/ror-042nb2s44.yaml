@@ -1,4 +1,7 @@
 attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://web.mit.edu
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: MIT
@@ -8,6 +11,10 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: MIT
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Massachusetts Institute of Technology.
+description: Massachusetts Institute of Technology.
 display_label: MIT
 name: Massachusetts Institute of Technology
 pid: ror:042nb2s44

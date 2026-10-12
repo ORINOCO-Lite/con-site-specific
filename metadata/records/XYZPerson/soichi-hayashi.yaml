@@ -4,8 +4,8 @@ attributes:
   value: soichih@gmail.com
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: Emeritus member of the Center for Open Neuroscience. Software engineer at
-    Indiana University, Bloomington, working on brainlife.io.
+  value: Emeritus member of the Center for Open Neuroscience. Software engineer at Indiana
+    University, Bloomington, working on brainlife.io.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Soichi Hayashi
@@ -18,8 +18,42 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Soichi
-description: Emeritus member of the Center for Open Neuroscience. Software engineer
-  at Indiana University, Bloomington, working on brainlife.io.
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Indiana University, Bloomington
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://twitter.com/soichih
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/soichih
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.linkedin.com/in/soichihayashi/
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:soichih@gmail.com
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0003-3641-3491
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: A software engineer at <a href="https://brainlife.io">brainlife.io</a>. A husband
+    and a father of 2 who likes coding, cooking, bicycling, hiking, gardening, and just
+    about anything else.
+- predicate: dlthings:home_page
+  schema_type: dlthings:AttributeSpecification
+  value: https://soichi.us
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
+description: Emeritus member of the Center for Open Neuroscience. Software engineer at
+  Indiana University, Bloomington, working on brainlife.io.
 display_label: Soichi Hayashi
 family_name: Hayashi
 formatted_name: Soichi Hayashi

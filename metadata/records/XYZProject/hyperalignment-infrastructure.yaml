@@ -1,0 +1,40 @@
+associated_with:
+- object: xyzrins:persons/james-haxby
+  roles:
+  - obo:NCIT_C19924
+  schema_type: dlthings:Association
+- description: Co-Investigator. CON provides advisory input on data standards and assistance
+    with the data infrastructure, rather than running the science.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - obo:NCIT_C25936
+  schema_type: dlthings:Association
+attributes:
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Infrastructure for hyperaligning fMRI data and estimating functional topographies
+description: 'Dartmouth/Bologna project building shared infrastructure for hyperalignment.
+  CON''s part is advisory: data standards (BIDS) and the data-management and conversion
+  infrastructure (DataLad, HeuDiConv).'
+display_label: Hyperalignment infrastructure
+ended:
+  at_time: '2026-05-31'
+  schema_type: dlthings:End
+influenced_by:
+- object: xyzrins:grants/nih-hyperalignment
+  roles:
+  - FRAPO:Funding
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:projects/bids
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:projects/datalad
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:projects/heudiconv
+  schema_type: xyzri:XYZInfluence
+pid: xyzrins:projects/hyperalignment-infrastructure
+schema_type: xyzri:XYZProject
+short_name: Hyperalignment infrastructure
+started:
+  at_time: '2022-08-23'
+  schema_type: dlthings:Start
+title: Infrastructure for hyperaligning fMRI data and estimating functional topographies

@@ -1,0 +1,52 @@
+record: xyzrins:projects/debian-med
+format: con-association-evidence-v1
+
+# When the NeuroDebian-carried packages moved into Debian Med team
+# maintenance, from the packages' own changelogs:
+#
+#   psychopy     2020-02-24   first Debian Med trailer
+#   nifticlib    2020-08-12   "Take over packaging into Debian Med team"
+#   gifticlib    2020-12-07   "Move package to Debian Med team"
+#   odin         2020-12-15   "Take over package into Debian Med team maintenance"
+#   cmtk         2021-11-12   "Move packaging to Debian Med team"
+#
+# A migration over roughly two years, not a single handover.
+
+assertions:
+  - path: /started/at_time
+    value: "2020-02-24"
+    bound: upper
+    kind: debian-changelog
+    source: https://salsa.debian.org/med-team/psychopy
+    locator: first Debian Med trailer
+    quote: ' -- Andreas Tille <tille@debian.org>  Mon, 24 Feb 2020 08:56:57 +0100'
+    note: >-
+      The earliest of the migrations found, dating CON's involvement WITH THE
+      TEAM rather than the team itself, which is far older.  Upper bound.
+    confidence: certain
+    captured: "2026-10-11"
+
+  - path: /associated_with/0/started/at_time
+    value: "2020-02-24"
+    bound: upper
+    kind: debian-changelog
+    source: https://salsa.debian.org/med-team/psychopy
+    locator: first Debian Med trailer
+    quote: ' -- Andreas Tille <tille@debian.org>  Mon, 24 Feb 2020 08:56:57 +0100'
+    note: >-
+      Open-ended: Yaroslav is an uploader on 37 med-team packages, per his
+      Debian QA developer page, so the association is current.
+    confidence: certain
+    captured: "2026-10-11"
+
+  - path: /associated_with/1/started/at_time
+    value: "2020-02-24"
+    bound: upper
+    kind: debian-changelog
+    source: https://salsa.debian.org/med-team/psychopy
+    locator: first Debian Med trailer
+    quote: ' -- Andreas Tille <tille@debian.org>  Mon, 24 Feb 2020 08:56:57 +0100'
+    note: >-
+      Michael Hanke is likewise still an uploader on the package.
+    confidence: approximate
+    captured: "2026-10-11"

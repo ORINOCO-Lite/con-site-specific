@@ -1,0 +1,72 @@
+associated_with:
+- object: xyzrins:organizations/stamped-principles
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://stamped-principles.org
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: STAMPED is a set of seven principles, Self-containment, Tracking, Actionability,
+    Modularity, Portability, Ephemerality, and Distributability, for building research
+    objects that others can trust, rerun, and build upon. Each principle is a spectrum
+    from a practical minimum to an aspirational ideal, so adoption can be incremental
+    and start from existing practice. STAMPED grew out of YODA and comes with an interactive
+    checklist and worked examples.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: STAMPED Principles
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: STAMPED Principles
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: STAMPED Principles
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<p> <a href="https://stamped-principles.org">STAMPED</a> is a set of seven principles,
+    Self-containment, Tracking, Actionability, Modularity, Portability, Ephemerality,
+    and Distributability, for building research objects that others can trust, rerun,
+    and build upon. Each principle is a spectrum from a practical minimum to an aspirational
+    ideal, so adoption can be incremental and start from existing practice. STAMPED grew
+    out of <a href="https://f1000research.com/posters/7-1965">YODA</a> and comes with
+    an <a href="https://checklist.stamped-principles.org">interactive checklist</a> and
+    <a href="https://examples.stamped-principles.org">worked examples</a>. </p> <ul> <li>
+    <a href="/whoweare#austin_macdonald_" class="centroid">Austin Macdonald</a>, <a href="/whoweare#cody_baker_"
+    class="centroid">Cody C. Baker</a>, <a href="/whoweare#isaac_to_" class="centroid">Isaac
+    To</a>, <a href="/whoweare#john_lee_" class="centroid">John A. Lee</a>, <a href="/whoweare#yaroslav_o_halchenko_"
+    class="centroid">Yaroslav O. Halchenko</a>. <a href="https://doi.org/10.31222/osf.io/f3h82_v1">STAMPED
+    principles for reproducible research objects</a> (preprint). DOI: 10.31222/osf.io/f3h82_v1
+    </li> <li> 🎬 <a href="https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/8NTWKHer5Zo">Talk
+    by Cody C. Baker introducing STAMPED</a> — archived on CON/tube. </li> <li> 🎬 <a href="https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/1XbTbJ_P2x0">YODA:
+    Structure your studies, observable and reproducible they become</a> — webinar recording
+    archived on CON/tube. </li> </ul>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Standards
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: stamped
+- predicate: dlthings:logo_style
+  schema_type: dlthings:AttributeSpecification
+  value: width:255px;padding-left:10px;margin-top:-2em;
+description: STAMPED is a set of seven principles, Self-containment, Tracking, Actionability,
+  Modularity, Portability, Ephemerality, and Distributability, for building research objects
+  that others can trust, rerun, and build upon. Each principle is a spectrum from a practical
+  minimum to an aspirational ideal, so adoption can be incremental and start from existing
+  practice. STAMPED grew out of YODA and comes with an interactive checklist and worked
+  examples.
+display_label: STAMPED Principles
+part_of:
+- xyzrins:.
+- xyzrins:projects/repronim
+- xyzrins:projects/dandi
+- xyzrins:projects/ember
+- xyzrins:projects/openneuro
+pid: xyzrins:projects/stamped-principles
+schema_type: xyzri:XYZProject
+short_name: STAMPED Principles
+started:
+  at_time: '2026-02-06'
+  schema_type: dlthings:Start
+title: STAMPED Principles

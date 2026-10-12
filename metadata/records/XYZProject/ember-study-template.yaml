@@ -1,0 +1,42 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+- object: xyzrins:persons/cody-baker
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/brain-bbqs/study-template
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Template for EMBER study, organized as a BIDS study, for data ingest etc.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: EMBER BIDS study template
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/brain-bbqs/study-template
+description: A template for an EMBER study laid out as a BIDS study, so that data ingest
+  starts from a structure the archive already understands rather than from a conversion
+  afterwards.
+display_label: EMBER study template
+influenced_by:
+- object: xyzrins:projects/bids
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:grants/nih-ember
+  roles:
+  - FRAPO:Funding
+  schema_type: xyzri:XYZInfluence
+part_of:
+- xyzrins:projects/ember
+pid: xyzrins:projects/ember-study-template
+schema_type: xyzri:XYZProject
+short_name: study-template
+started:
+  at_time: '2025-11-06'
+  schema_type: dlthings:Start
+title: EMBER BIDS study template

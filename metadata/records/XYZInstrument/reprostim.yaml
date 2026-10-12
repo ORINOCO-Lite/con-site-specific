@@ -1,0 +1,32 @@
+attributed_to:
+- object: xyzrins:persons/vadim-melnik
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/horea-ioanas
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/ReproNim/reprostim
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: ReproStim
+description: Automated capture of the audio-visual stimuli actually presented during an
+  experiment, into BIDS datasets -- so what the participant saw and heard is recorded
+  rather than inferred from the script that was supposed to show it.
+display_label: ReproStim
+generated_by:
+- at_time: '2020-02-25'
+  object: xyzrins:projects/repronim-trd3
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: ReproStim
+pid: xyzrins:instruments/reprostim
+schema_type: xyzri:XYZInstrument

@@ -1,0 +1,7 @@
+annotations:
+  obo:NCIT_C54269: j.goddard@fz-juelich.de
+  sio:SIO_001083: '2026-03-03T09:50:33.160054'
+description: An amount of money available to finance some project or activity.
+name: Funding
+pid: FRAPO:Funding
+schema_type: xyzri:XYZEntityRole

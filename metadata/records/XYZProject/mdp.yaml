@@ -1,0 +1,27 @@
+attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'Modular toolkit for Data Processing: a Python library of data-processing algorithms
+    that can be combined into pipelines.'
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://mdp-toolkit.sourceforge.net
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: MDP
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: MDP
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: MDP
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/mdp-toolkit/mdp-toolkit
+description: 'Modular toolkit for Data Processing: a Python library of data-processing
+  algorithms that can be combined into pipelines.'
+display_label: MDP
+pid: xyzrins:projects/mdp
+schema_type: xyzri:XYZProject
+short_name: MDP
+title: MDP

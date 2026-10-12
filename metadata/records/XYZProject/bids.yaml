@@ -3,14 +3,30 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+- description: Elected member of the BIDS Steering Group for three years. Now a contributor
+    without a seat.
+  ended:
+    at_time: '2025'
+    schema_type: dlthings:End
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - xyzrins:agent-roles/steering-committee-member
+  schema_type: dlthings:Association
+  started:
+    at_time: '2023'
+    schema_type: dlthings:Start
+- object: ror:04tfhh831
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://bids.neuroimaging.io
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: A standard providing a simple and intuitive way to organize and describe
-    neuroimaging and behavioral data. Governed by a community-elected steering group.
+  value: A standard providing a simple and intuitive way to organize and describe neuroimaging
+    and behavioral data. Governed by a community-elected steering group.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: BIDS
@@ -20,12 +36,37 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: Brain Imaging Data Structure
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<p> <a href="http://bids.neuroimaging.io">BIDS</a> is a project lead by a steering
+    group elected by the BIDS community to provide a simple and intuitive way to organize
+    and describe your neuroimaging and behavioral data. </p> <ul> <li> Gorgolewski, K.
+    J., et many, <a href="/whoweare#yaroslav_o_halchenko_" class="centroid">Y.O. Halchenko</a>
+    et many more (2016). <a href="http://www.nature.com/articles/sdata201644">The brain
+    imaging data structure, a format for organizing and describing outputs of neuroimaging
+    experiments.</a> Scientific Data, 3. DOI: 10.1038/sdata.2016.44 </li> <li> <a href="https://github.com/bids-standard/bids-examples">Example
+    (test) datasets</a> </li> <li> <a href="http://datasets.datalad.org/?dir=/openfmri">Historical
+    OpenfMRI</a> and up-to-date <a href="http://datasets.datalad.org/?dir=/openneuro">OpenNeuro</a>
+    Datasets in DataLad distribution. </li> <li> <a href="https://github.com/bids-dandisets">bids-dandisets</a>:
+    a GitHub organization hosting individual DANDI dandisets converted to BIDS format
+    using <a href="#nwb">con/nwb2bids</a>, with a <a href="https://github.com/bids-dandisets/dashboard">conversion
+    dashboard</a> tracking the status across all dandisets. </li> </ul>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Standards
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: bids
+- predicate: dlthings:logo_style
+  schema_type: dlthings:AttributeSpecification
+  value: width:255px;padding-left:10px;margin-top:-2em;
 description: A standard providing a simple and intuitive way to organize and describe
   neuroimaging and behavioral data. Governed by a community-elected steering group.
-display_label: BIDS
-part_of:
-- xyzrins:.
+display_label: Brain Imaging Data Structure (BIDS)
 pid: xyzrins:projects/bids
 schema_type: xyzri:XYZProject
 short_name: BIDS
+started:
+  at_time: '2018-09-26'
+  schema_type: dlthings:Start
 title: Brain Imaging Data Structure

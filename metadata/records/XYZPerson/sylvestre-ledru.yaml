@@ -1,0 +1,13 @@
+description: Debian developer; took over fail2ban packaging.
+display_label: Sylvestre Ledru
+family_name: Ledru
+formatted_name: Sylvestre Ledru
+given_name: Sylvestre
+identifiers:
+- notation: sylvestre
+  schema_type: dlthings:Identifier
+- creator: rrid:SCR_002630
+  notation: sylvestre
+  schema_type: dlthings:Identifier
+pid: xyzrins:persons/sylvestre-ledru
+schema_type: xyzri:XYZPerson

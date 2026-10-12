@@ -5,8 +5,8 @@ attributes:
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
   value: Command for downloading build logs, artifacts, and release assets for a GitHub
-    repository. Supports GitHub Actions, Travis-CI.com, and Appveyor with optional
-    DataLad control for backup and distribution.
+    repository. Supports GitHub Actions, Travis-CI.com, and Appveyor with optional DataLad
+    control for backup and distribution.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: con/tinuous
@@ -16,13 +16,30 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: con/tinuous
-description: Command for downloading build logs, artifacts, and release assets for
-  a GitHub repository. Supports GitHub Actions, Travis-CI.com, and Appveyor with optional
-  DataLad control for backup and distribution.
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: <p> <a href="https://github.com/con/tinuous">con/tinuous</a> is a command for
+    downloading build logs and (for GitHub only) artifacts and release assets for a GitHub
+    repository from GitHub Actions, Travis-CI.com, and/or Appveyor. By downloading them
+    all, and optionally placing them under <a href="#datalad">DataLad</a> control you
+    can establish the backup, distribution, and convenient harmonious access to all those
+    artifacts. </p>
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: tinuous
+description: Command for downloading build logs, artifacts, and release assets for a GitHub
+  repository. Supports GitHub Actions, Travis-CI.com, and Appveyor with optional DataLad
+  control for backup and distribution.
 display_label: con/tinuous
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/con-tinuous
 schema_type: xyzri:XYZProject
 short_name: tinuous
+started:
+  at_time: '2021-01-29'
+  schema_type: dlthings:Start
 title: con/tinuous

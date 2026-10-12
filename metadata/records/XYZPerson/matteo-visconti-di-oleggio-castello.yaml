@@ -18,8 +18,43 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Matteo
-description: Emeritus member of the Center for Open Neuroscience. Formerly Dartmouth
-  Ph.D. student, now at UC Berkeley. Cognitive Neuroscience Ph.D. DueCredit co-developer.
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: UC Berkeley, CA
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:matteo.visconti.gr@dartmouth.edu
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://matteovisconti.com/
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://twitter.com/MatteoVdOC
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/mvdoc
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.linkedin.com/in/matteovisconti
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0001-7931-5272
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Formerly a Ph.D. student in Cognitive Neuroscience at Dartmouth, holds a M.Sc.
+    in Cognitive Science from the University of Trento, Italy and a degree in Mathematics
+    from the University of Torino, Italy. Co-developer of the <a href="/projects#duecredit_">DueCredit</a>
+    project.
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
+description: Emeritus member of the Center for Open Neuroscience. Formerly Dartmouth Ph.D.
+  student, now at UC Berkeley. Cognitive Neuroscience Ph.D. DueCredit co-developer.
 display_label: Matteo Visconti di Oleggio Castello
 family_name: Visconti di Oleggio Castello
 formatted_name: Matteo Visconti di Oleggio Castello

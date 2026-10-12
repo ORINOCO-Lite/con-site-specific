@@ -1,0 +1,19 @@
+attributed_to:
+- object: ror:021nxhr62
+  roles:
+  - marcrel:fnd
+  schema_type: dlthings:Attribution
+- description: PI, Dartmouth College.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - obo:NCIT_C19924
+  schema_type: dlthings:Attribution
+display_label: 'Collaborative Proposal: CRCNS US-German Data Sharing: DataLa'
+identifiers:
+- notation: '1912266'
+  schema_type: dlthings:Identifier
+pid: xyzrins:grants/nsf-1912266
+schema_type: xyzri:XYZGrant
+short_name: '1912266'
+title: 'Collaborative Proposal: CRCNS US-German Data Sharing: DataLad - a decentralized
+  system for integrated discovery, management, and publication of digital objects of science'

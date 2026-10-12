@@ -1,0 +1,14 @@
+annotations:
+  obo:NCIT_C54269: yaroslav.o.halchenko@oneukrainian.com
+  sio:SIO_001083: '2026-10-10T18:00:00.000000'
+description: 'Neuroscience does not have one standard, it has many -- BIDS for imaging
+  layouts, NWB for physiology, HED for event annotation, NIDM for provenance, DICOM
+  at the scanner -- each with its own community, release cadence and blind spots.
+  The objective is to work across them rather than behind one of them: sitting on
+  their governance bodies, carrying conventions from one into another, and building
+  the bridges (nwb2bids, HeuDiConv, BEP028) that let a dataset move between them
+  without being re-described by hand. A standard that cannot interoperate only relocates
+  the problem.'
+pid: xyzrins:objectives/cross-standards-harmonization
+schema_type: xyzri:XYZObjective
+title: Cross-standards collaboration and harmonization in neurosciences

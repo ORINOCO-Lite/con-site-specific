@@ -1,0 +1,26 @@
+attributed_to:
+- object: xyzrins:persons/john-wodder
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/datalad/datalad-installer
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: datalad-installer
+description: Installation script for DataLad and its dependencies
+display_label: datalad-installer
+generated_by:
+- at_time: '2020-12-11'
+  object: xyzrins:projects/datalad
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: datalad-installer
+pid: xyzrins:instruments/datalad-installer
+schema_type: xyzri:XYZInstrument

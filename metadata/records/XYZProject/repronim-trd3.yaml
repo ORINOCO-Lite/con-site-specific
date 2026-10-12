@@ -1,0 +1,45 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+- description: Past work on ReproStim.
+  ended:
+    at_time: '2024-03-26'
+    schema_type: dlthings:End
+  object: xyzrins:persons/horea-ioanas
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2023-05-05'
+    schema_type: dlthings:Start
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.repronim.org/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: ReproNim TR&D3
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Initiatives
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'The technology research and development project within ReproNim that YOH leads
+    at Dartmouth. In practice it is the tooling that makes a study reproducible end to
+    end: capturing what the scanner and the stimulus computer actually did, converting
+    it into standard layouts without a human in the loop, and re-running the analysis
+    in a recorded environment.'
+description: 'The technology research and development project within ReproNim that YOH
+  leads at Dartmouth. In practice it is the tooling that makes a study reproducible end
+  to end: capturing what the scanner and the stimulus computer actually did, converting
+  it into standard layouts without a human in the loop, and re-running the analysis in
+  a recorded environment.'
+display_label: ReproNim TR&D3
+part_of:
+- xyzrins:projects/repronim
+pid: xyzrins:projects/repronim-trd3
+schema_type: xyzri:XYZProject
+short_name: TR&D3
+title: ReproNim TR&D3

@@ -1,0 +1,25 @@
+attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Statistical modeling and econometrics in Python.
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://statsmodels.sourceforge.net/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: statsmodels
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: statsmodels
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: statsmodels
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/statsmodels/statsmodels
+description: Statistical modeling and econometrics in Python.
+display_label: statsmodels
+pid: xyzrins:projects/statsmodels
+schema_type: xyzri:XYZProject
+short_name: statsmodels
+title: statsmodels

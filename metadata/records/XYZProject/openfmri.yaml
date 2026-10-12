@@ -1,0 +1,23 @@
+attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: An early public repository for raw fMRI datasets, and the predecessor of OpenNeuro.
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://openfmri.org/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: OpenfMRI
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: OpenfMRI
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: OpenfMRI
+description: An early public repository for raw fMRI datasets, and the predecessor of
+  OpenNeuro.
+display_label: OpenfMRI
+pid: xyzrins:projects/openfmri
+schema_type: xyzri:XYZProject
+short_name: OpenfMRI
+title: OpenfMRI

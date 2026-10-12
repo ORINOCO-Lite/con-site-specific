@@ -1,0 +1,5 @@
+description: 'Holds a seat on the body that governs a standard or project: sets direction,
+  ratifies changes, and decides what the community''s specification says.'
+display_label: Steering committee member
+pid: xyzrins:agent-roles/steering-committee-member
+schema_type: xyzri:XYZAgentRole

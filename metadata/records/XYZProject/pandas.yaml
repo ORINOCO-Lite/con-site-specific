@@ -1,0 +1,25 @@
+attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Flexible and powerful data analysis and manipulation library for Python.
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://pandas.pydata.org/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Pandas
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Pandas
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: Pandas
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/pandas-dev/pandas
+description: Flexible and powerful data analysis and manipulation library for Python.
+display_label: Pandas
+pid: xyzrins:projects/pandas
+schema_type: xyzri:XYZProject
+short_name: Pandas
+title: Pandas

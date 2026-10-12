@@ -1,0 +1,18 @@
+record: xyzrins:instruments/datalad-deprecated
+format: con-association-evidence-v1
+
+assertions:
+  - path: /generated_by/0/at_time
+    value: "2021-04-09"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/repos/datalad/datalad-deprecated
+    locator: created_at
+    quote: '"created_at": "2021-04-09T..."'
+    note: >-
+      Repository creation date.  Contributors by commit count: yarikoptic:104, mih:48.
+      Attribution is recorded only for people who have a record here; the top
+      contributor to datalad-metalad is christian-monch of the
+      psychoinformatics group, and no claim is made on CON's behalf for it.
+    confidence: certain
+    captured: "2026-10-10"

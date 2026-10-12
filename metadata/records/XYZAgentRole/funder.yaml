@@ -1,0 +1,5 @@
+description: A person or organization that furnished financial support for the production
+  of the work.
+display_label: Funder
+pid: marcrel:fnd
+schema_type: xyzri:XYZAgentRole

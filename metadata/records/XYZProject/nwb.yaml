@@ -1,11 +1,20 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - xyzrins:agent-roles/steering-committee-member
+  schema_type: dlthings:Association
+- object: ror:04tfhh831
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://www.nwb.org/
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: A data standard providing neuroscientists with a common standard to share,
-    archive, use, and build analysis tools for neurophysiology data.
+  value: A data standard providing neuroscientists with a common standard to share, archive,
+    use, and build analysis tools for neurophysiology data.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: NWB
@@ -15,12 +24,30 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: 'Neurodata Without Borders: Neurophysiology'
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<p> <a href="https://www.nwb.org/">NWB:N</a> is a data standard for neurophysiology,
+    providing neuroscientists with a common standard to share, archive, use, and build
+    analysis tools for neurophysiology data. It is a standard supported by <a href="#bids">BIDS</a>
+    and the <a href="#dandi">DANDI archive</a>. </p> <ul> <li> <a href="https://github.com/con/nwb2bids">con/nwb2bids</a>:
+    a CON tool to reorganize NWB files into a BIDS directory layout, enabling NWB-format
+    datasets to be shared and validated using BIDS conventions. </li> </ul>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Standards
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: nwb
+- predicate: dlthings:logo_style
+  schema_type: dlthings:AttributeSpecification
+  value: width:255px;padding-right:10px;margin-top:0em;
 description: A data standard providing neuroscientists with a common standard to share,
   archive, use, and build analysis tools for neurophysiology data.
-display_label: NWB
-part_of:
-- xyzrins:.
+display_label: 'Neurodata Without Borders: Neurophysiology (NWB:N)'
 pid: xyzrins:projects/nwb
 schema_type: xyzri:XYZProject
 short_name: NWB
+started:
+  at_time: '2017-08-03'
+  schema_type: dlthings:Start
 title: 'Neurodata Without Borders: Neurophysiology'

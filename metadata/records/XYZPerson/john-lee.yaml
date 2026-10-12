@@ -2,13 +2,43 @@ attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
   value: leej3@dartmouth.edu
-description: John brings together research imaging, open-source infrastructure, and
-  an industry engineering perspective. His work spans NIH neuroimaging data sharing,
-  AFNI testing infrastructure, consulting and independent software work, and reproducible
-  biomedical image transformation. At CON, he works on building and applying the center's
-  tools for reproducibility and provenance tracking to healthcare image data, with
-  an interest in auditable autonomous systems for scientific research and clinical
-  translation.
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Research Software Engineer
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:leej3@dartmouth.edu?Subject=Hello John @CON
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/leej3
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.linkedin.com/in/leej3
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0001-5884-4247
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Centroids
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: John brings together research imaging, open-source infrastructure, and an industry
+    engineering perspective. His work spans NIH neuroimaging data sharing, AFNI testing
+    infrastructure, consulting and independent software work, and reproducible biomedical
+    image transformation. At CON, he works on building and applying the center's tools
+    for reproducibility and provenance tracking to healthcare image data, with an interest
+    in auditable autonomous systems for scientific research and clinical translation.
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
+description: John brings together research imaging, open-source infrastructure, and an
+  industry engineering perspective. His work spans NIH neuroimaging data sharing, AFNI
+  testing infrastructure, consulting and independent software work, and reproducible biomedical
+  image transformation. At CON, he works on building and applying the center's tools for
+  reproducibility and provenance tracking to healthcare image data, with an interest in
+  auditable autonomous systems for scientific research and clinical translation.
 display_label: John Lee
 family_name: Lee
 formatted_name: John Lee

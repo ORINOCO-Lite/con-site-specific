@@ -1,0 +1,24 @@
+attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: A free cloud platform for secure neuroscience data management, analysis and publication,
+    running reproducible apps on shared computing resources.
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://brainlife.io/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: brainlife.io
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: brainlife.io
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: brainlife.io
+description: A free cloud platform for secure neuroscience data management, analysis and
+  publication, running reproducible apps on shared computing resources.
+display_label: brainlife.io
+pid: xyzrins:projects/brainlife-io
+schema_type: xyzri:XYZProject
+short_name: brainlife.io
+title: brainlife.io

@@ -1,0 +1,17 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/stamped-principles/stamped-skills-assessment
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: stamped-skills-assessment
+description: A store of assessments for skills supporting STAMPED
+display_label: stamped-skills-assessment
+generated_by:
+- at_time: '2026-09-25'
+  object: xyzrins:projects/stamped-principles
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: stamped-skills-assessment
+pid: xyzrins:instruments/stamped-skills-assessment
+schema_type: xyzri:XYZInstrument

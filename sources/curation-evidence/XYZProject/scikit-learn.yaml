@@ -1,0 +1,32 @@
+record: xyzrins:projects/scikit-learn
+format: con-association-evidence-v1
+
+assertions:
+  - path: /associated_with/0/started/at_time
+    value: "2010-03-24"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/scikit-learn/scikit-learn
+    locator: dcda191dc
+    quote: 'DOC: minor spelling mistakes (just to check upload rights an...'
+    note: >-
+      Oldest of 49 commits authored by yarikoptic, from the commits API paged
+      to its last page.  The commit message says what it is -- a first commit
+      made to check that commit access worked -- which dates the access, and
+      the access predates it.  Upper bound.
+    confidence: certain
+    captured: "2026-10-10"
+
+  - path: /associated_with/0/ended/at_time
+    value: "2025-07-31"
+    bound: lower
+    kind: upstream-git
+    source: https://github.com/scikit-learn/scikit-learn
+    locator: ae9d0887a
+    quote: 'MNT Improve codespell support (and add CI) and make it fix f...'
+    note: >-
+      Newest commit authored by yarikoptic.  Lower bound: fifteen years after
+      the first, and still a contributor rather than only a packager -- which
+      is the distinction this record exists to make.
+    confidence: certain
+    captured: "2026-10-10"

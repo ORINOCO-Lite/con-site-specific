@@ -1,0 +1,26 @@
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/datalad/datalad-deprecated
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: datalad-deprecated
+description: Retired DataLad functionality, kept available
+display_label: datalad-deprecated
+generated_by:
+- at_time: '2021-04-09'
+  object: xyzrins:projects/datalad
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: datalad-deprecated
+pid: xyzrins:instruments/datalad-deprecated
+schema_type: xyzri:XYZInstrument

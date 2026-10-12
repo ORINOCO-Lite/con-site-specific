@@ -1,0 +1,29 @@
+associated_with:
+- description: Named as a BEP lead in the BIDS website's own data/beps/beps.yml.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://bids.neuroimaging.io/bep044
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'Extends BIDS to describe the stimuli presented during an experiment. Leads:
+    Seyed Yahya Shirazi, Dora Hermes, Yaroslav Halchenko, Kay Robbins, Scott Makeig.'
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: 'BEP044: Stimuli'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Standards
+description: 'Extends BIDS to describe the stimuli presented during an experiment. Leads:
+  Seyed Yahya Shirazi, Dora Hermes, Yaroslav Halchenko, Kay Robbins, Scott Makeig.'
+display_label: BEP044
+part_of:
+- xyzrins:projects/bids
+pid: xyzrins:projects/bep044
+schema_type: xyzri:XYZProject
+short_name: BEP044
+title: 'BEP044: Stimuli'

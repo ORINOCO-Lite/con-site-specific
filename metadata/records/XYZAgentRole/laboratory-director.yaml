@@ -1,0 +1,4 @@
+description: A person or organization that manages or supervises the work done in a laboratory.
+display_label: Laboratory director
+pid: marcrel:ldr
+schema_type: xyzri:XYZAgentRole

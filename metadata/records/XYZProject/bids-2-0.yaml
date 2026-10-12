@@ -1,0 +1,31 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/bids-standard/bids-2-devel
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: The effort to work out what BIDS should change when backwards compatibility is
+    no longer a constraint -- the breaking changes that a decade of 1.x could not make.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: BIDS 2.0
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Standards
+description: The effort to work out what BIDS should change when backwards compatibility
+  is no longer a constraint -- the breaking changes that a decade of 1.x could not make.
+display_label: BIDS 2.0
+part_of:
+- xyzrins:projects/bids
+pid: xyzrins:projects/bids-2-0
+schema_type: xyzri:XYZProject
+short_name: BIDS 2.0
+started:
+  at_time: '2020-08-02'
+  schema_type: dlthings:Start
+title: BIDS 2.0

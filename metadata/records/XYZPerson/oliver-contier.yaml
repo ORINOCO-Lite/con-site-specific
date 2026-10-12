@@ -18,8 +18,38 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Oliver
-description: Emeritus member of the Center for Open Neuroscience. Masters student
-  in Psychology/Cognitive Neuroscience at University of Magdeburg.
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: University of Magdeburg, Germany
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/oliver-contier
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://twitter.com/OliverContier
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:o.contier@gmail.com
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0002-2983-4709
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Masters student in Psychology / Cognitive Neuroscience at the University of Magdeburg.
+    Oliver started his enthusiasm for open science as an intern at Dartmouth College where
+    he enjoyed a summer full of fMRI data analysis. His current goal is to provide his
+    University with a fully reproducible Masters thesis. Naturally, the perfect way to
+    do it is by using - and contributing to - open software frameworks.
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
+description: Emeritus member of the Center for Open Neuroscience. Masters student in Psychology/Cognitive
+  Neuroscience at University of Magdeburg.
 display_label: Oliver Contier
 family_name: Contier
 formatted_name: Oliver Contier

@@ -1,0 +1,22 @@
+attributed_to:
+- object: xyzrins:persons/isaac-to
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/dandi/pydantic2linkml
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: pydantic2linkml
+description: Translating models expressed in Pydantic into LinkML
+display_label: pydantic2linkml
+generated_by:
+- at_time: '2024-02-06'
+  object: xyzrins:projects/dandi
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: pydantic2linkml
+pid: xyzrins:instruments/pydantic2linkml
+schema_type: xyzri:XYZInstrument

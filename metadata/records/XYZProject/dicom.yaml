@@ -1,0 +1,31 @@
+associated_with:
+- description: Attends WG-16 (Magnetic Resonance) and WG-32 (Digital Pathology and Imaging
+    Compression) as an observer -- "a fly on the wall" in his own words -- rather than
+    as a member.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - obo:NCIT_C92650
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.dicomstandard.org
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: The standard for medical imaging data and its exchange, and the format every
+    MRI scanner writes. Everything downstream -- BIDS layouts, HeuDiConv, ReproIn -- starts
+    from what the scanner put in the DICOM header.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Digital Imaging and Communications in Medicine
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Standards
+description: The standard for medical imaging data and its exchange, and the format every
+  MRI scanner writes. Everything downstream -- BIDS layouts, HeuDiConv, ReproIn -- starts
+  from what the scanner put in the DICOM header.
+display_label: DICOM
+pid: xyzrins:projects/dicom
+schema_type: xyzri:XYZProject
+short_name: DICOM
+title: Digital Imaging and Communications in Medicine

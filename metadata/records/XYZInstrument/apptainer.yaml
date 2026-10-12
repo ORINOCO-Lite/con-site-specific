@@ -1,0 +1,21 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://apptainer.org
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Apptainer
+derived_from:
+- object: xyzrins:instruments/singularity
+  schema_type: dlthings:Derivation
+description: Application containers for Linux; forked from Singularity in 2021 and
+  hosted by the Linux Foundation.
+display_label: Apptainer
+generated_by:
+- at_time: '2021-11-30'
+  object: xyzrins:projects/apptainer
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: Apptainer
+pid: xyzrins:instruments/apptainer
+schema_type: xyzri:XYZInstrument

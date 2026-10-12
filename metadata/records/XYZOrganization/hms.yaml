@@ -1,10 +1,17 @@
 attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://hms.harvard.edu
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Harvard Medical School
 - predicate: dlthings:name
   schema_type: dlthings:AttributeSpecification
   value: Harvard Medical School
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Harvard Medical School.
+description: Harvard Medical School.
 display_label: Harvard Medical School
 name: Harvard Medical School
 pid: xyzrins:organizations/hms

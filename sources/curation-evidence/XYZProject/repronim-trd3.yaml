@@ -1,0 +1,25 @@
+record: xyzrins:projects/repronim-trd3
+format: con-association-evidence-v1
+
+assertions:
+  - path: /associated_with/1/started/at_time
+    value: "2023-05-05"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/ReproNim/reprostim
+    locator: oldest TheChymera commit
+    quote: (oldest commit authored by TheChymera)
+    note: >-
+      104 commits, third by count behind vmdocua and yarikoptic.  Past work:
+      the span is closed because it is.
+    confidence: certain
+    captured: "2026-10-11"
+  - path: /associated_with/1/ended/at_time
+    value: "2024-03-26"
+    bound: lower
+    kind: upstream-git
+    source: https://github.com/ReproNim/reprostim
+    locator: newest TheChymera commit
+    quote: (newest commit authored by TheChymera)
+    confidence: certain
+    captured: "2026-10-11"

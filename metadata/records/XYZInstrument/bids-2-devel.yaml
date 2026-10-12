@@ -1,0 +1,17 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/bids-standard/bids-2-devel
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: bids-2-devel
+description: Where the backwards-incompatible changes for BIDS 2.0 are proposed and argued.
+display_label: bids-2-devel
+generated_by:
+- at_time: '2020-08-02'
+  object: xyzrins:projects/bids-2-0
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: bids-2-devel
+pid: xyzrins:instruments/bids-2-devel
+schema_type: xyzri:XYZInstrument

@@ -1,0 +1,12 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.nih.gov
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: National Institutes of Health
+display_label: NIH
+name: National Institutes of Health
+pid: ror:01cwqze88
+schema_type: xyzri:XYZOrganization
+short_name: NIH

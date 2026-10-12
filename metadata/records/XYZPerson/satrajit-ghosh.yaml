@@ -1,8 +1,8 @@
 attributes:
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: Collaborator at the Center for Open Neuroscience. Affiliated with MIT and
-    Harvard Medical School. Lead of DANDI, NiPype, and other projects.
+  value: Collaborator at the Center for Open Neuroscience. Affiliated with MIT and Harvard
+    Medical School. Lead of DANDI, NiPype, and other projects.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Satrajit Ghosh
@@ -15,8 +15,33 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Satrajit
-description: Collaborator at the Center for Open Neuroscience. Affiliated with MIT
-  and Harvard Medical School. Lead of DANDI, NiPype, and other projects.
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: MIT, Harvard Medical School
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://satra.cogitatum.org/
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://twitter.com/satra_
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/satra
+- predicate: foaf:account
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.linkedin.com/in/satra/
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0002-5312-6729
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborators
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: An old-time partner in our "scientific plumbing" business and a lead of <a href="/projects#dandi_">DANDI</a>,
+    <a href="https://nipype.readthedocs.io/">NiPype</a> and other projects.
+description: Collaborator at the Center for Open Neuroscience. Affiliated with MIT and
+  Harvard Medical School. Lead of DANDI, NiPype, and other projects.
 display_label: Satrajit Ghosh
 family_name: Ghosh
 formatted_name: Satrajit Ghosh

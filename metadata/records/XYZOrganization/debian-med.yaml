@@ -1,0 +1,13 @@
+# Present as the trigger entity of an End -- the team a package was handed to.
+pid: xyzrins:organizations/debian-med
+schema_type: xyzri:XYZOrganization
+name: Debian Med
+display_label: Debian Med
+short_name: Debian Med
+description: >-
+  Debian Pure Blend grouping medical and life-science packaging within
+  Debian.
+attributes:
+  - predicate: foaf:homepage
+    schema_type: dlthings:AttributeSpecification
+    value: https://www.debian.org/devel/debian-med/

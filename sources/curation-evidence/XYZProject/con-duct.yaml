@@ -1,0 +1,19 @@
+record: xyzrins:projects/con-duct
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2024-04-06"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/repos/con/duct
+    locator: created_at
+    quote: '"created_at": "2024-04-06T..."'
+    note: >-
+      Creation of the project's primary repository.  An upper bound, and for
+      the older projects a loose one: PyMVPA's repository dates from
+      2009-10-07 but its first commit is 2007-05-24, imported from earlier
+      history, and NeuroDebian and DataLad predate GitHub in the same way.
+      Good enough to order a page by; not a founding date.
+    confidence: certain
+    captured: "2026-10-11"

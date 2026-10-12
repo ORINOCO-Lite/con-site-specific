@@ -1,0 +1,18 @@
+record: xyzrins:instruments/datalad-crawler
+format: con-association-evidence-v1
+
+assertions:
+  - path: /generated_by/0/at_time
+    value: "2018-04-22"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/repos/datalad/datalad-crawler
+    locator: created_at
+    quote: '"created_at": "2018-04-22T..."'
+    note: >-
+      Repository creation date.  Contributors by commit count: yarikoptic:199, mih:54, kyleam:17.
+      Attribution is recorded only for people who have a record here; the top
+      contributor to datalad-metalad is christian-monch of the
+      psychoinformatics group, and no claim is made on CON's behalf for it.
+    confidence: certain
+    captured: "2026-10-10"

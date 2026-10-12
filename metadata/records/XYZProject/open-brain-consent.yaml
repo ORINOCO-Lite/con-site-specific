@@ -13,9 +13,9 @@ attributes:
   value: https://open-brain-consent.readthedocs.io/
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: Aims to facilitate neuroimaging data sharing by providing an out-of-the-box
-    solution including consent forms enabling anonymized data deposition and anonymization
-    tools/pipelines. An international effort with GDPR compliance materials.
+  value: Aims to facilitate neuroimaging data sharing by providing an out-of-the-box solution
+    including consent forms enabling anonymized data deposition and anonymization tools/pipelines.
+    An international effort with GDPR compliance materials.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Open Brain Consent
@@ -25,6 +25,33 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: Open Brain Consent
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<p> <a href="http://open-brain-consent.readthedocs.org">Open Brain Consent</a>
+    initiative aims to facilitate neuroimaging data sharing by providing an "out of the
+    box" solution addressing aforementioned human subjects concerns and consisting of
+    </p> <ul> <li>widely acceptable consent form allowing deposition of anonymized data
+    to public data archives</li> <li>collection of tools/pipelines to help anonymization
+    of neuroimaging data making it ready for sharing</li> </ul> <p>Initiated and managed
+    by CON, OBC is now an international effort with materials for GDPR compliance and
+    multiple internationalization efforts to make sure materials are available in all
+    applicable languages. <a href="https://github.com/con/open-brain-consent/blob/master/CONTRIBUTING.rst">Contribute</a>
+    if you see your language is missing!</p> <ul> <li> Bannier E, Barker G, Borghesani
+    V, Broeckx N, Clement P, Emblem KE, Ghosh S, Glerean E, Gorgolewski KJ, Havu M, <a
+    href="/whoweare#yaroslav_o_halchenko_" class="centroid">Halchenko YO</a>, Herholz
+    P, Hespel A, Heunis S, Hu Y, Hu CP, Huijser D, de la Iglesia Vayá M, Jancalek R, Katsaros
+    VK, Kieseler ML, Maumet C, Moreau CA, Mutsaerts HJ, Oostenveld R, Ozturk-Isik E, Pascual
+    Leone Espinosa N, Pellman J, Pernet CR, Pizzini FB, Trbalić AŠ, Toussaint PJ, <a href="/whoweare#matteo_visconti_di_oleggio_castello_"
+    class="centroid">Visconti di Oleggio Castello M</a>, Wang F, Wang C, Zhu H. <emph>The
+    Open Brain Consent: Informing research participants and obtaining consent to share
+    brain imaging data</emph>. Hum Brain Mapp. 2021 May;42(7):1945-1951. doi: <a href="http://doi.org/10.1002/hbm.25351">10.1002/hbm.25351</a>.
+    Epub 2021 Feb 1. PMID: 33522661; PMCID: PMC8046140. </li> </ul>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Initiatives
+- predicate: dlthings:logo_style
+  schema_type: dlthings:AttributeSpecification
+  value: width:155px;padding-left:5px;margin-top:0em;
 description: Aims to facilitate neuroimaging data sharing by providing an out-of-the-box
   solution including consent forms enabling anonymized data deposition and anonymization
   tools/pipelines. An international effort with GDPR compliance materials.
@@ -34,4 +61,7 @@ part_of:
 pid: xyzrins:projects/open-brain-consent
 schema_type: xyzri:XYZProject
 short_name: Open Brain Consent
+started:
+  at_time: '2015-02-20'
+  schema_type: dlthings:Start
 title: Open Brain Consent

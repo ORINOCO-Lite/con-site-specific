@@ -1,0 +1,18 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://sylabs.io/singularity/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: SingularityCE
+description: SingularityCE, the Community Edition of Singularity, continued by Sylabs
+  after the 2021 fork.
+display_label: SingularityCE
+generated_by:
+- at_time: '2021-05-04'
+  object: xyzrins:projects/singularity
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: SingularityCE
+pid: xyzrins:instruments/singularity
+schema_type: xyzri:XYZInstrument

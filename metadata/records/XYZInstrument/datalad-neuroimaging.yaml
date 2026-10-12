@@ -1,0 +1,26 @@
+attributed_to:
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/datalad/datalad-neuroimaging
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: datalad-neuroimaging
+description: DataLad extension for neuroimaging data
+display_label: datalad-neuroimaging
+generated_by:
+- at_time: '2018-03-29'
+  object: xyzrins:projects/datalad
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: datalad-neuroimaging
+pid: xyzrins:instruments/datalad-neuroimaging
+schema_type: xyzri:XYZInstrument

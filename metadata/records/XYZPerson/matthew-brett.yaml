@@ -19,9 +19,43 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Matthew
-description: Emeritus member of the Center for Open Neuroscience. Affiliated with
-  University of Birmingham. Neurologist and neuroimaging methods expert. Neuroimaging
-  in Python lead and NiPy/NiBabel developer.
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: "University of\n\t\tBirmingham, UK"
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:matthew.brett@gmail.com
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://matthew.dynevor.org/
+- predicate: vcard:hasURL
+  schema_type: dlthings:AttributeSpecification
+  value: http://matthew.dynevor.org/research/cv.html
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/matthew-brett
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0001-5500-2546
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Neurologist, neuroimaging methods guru, early proponent of reproducible practice
+    and in-depth understanding of the used analysis methodologies, lead of <a href="http://www.nipy.org">Neuroimaging
+    in Python</a> community and some of its popular software (<a href="http://www.nipy.org/nipy">NiPy</a>
+    and <a href="http://www.nipy.org/nibabel">NiBabel</a>) projects and infrastructural
+    solutions, such as <a href="/projects#nibotmi_">Nibotmi</a> which we are contributing
+    to.
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
+description: Emeritus member of the Center for Open Neuroscience. Affiliated with University
+  of Birmingham. Neurologist and neuroimaging methods expert. Neuroimaging in Python lead
+  and NiPy/NiBabel developer.
 display_label: Matthew Brett
 family_name: Brett
 formatted_name: Matthew Brett

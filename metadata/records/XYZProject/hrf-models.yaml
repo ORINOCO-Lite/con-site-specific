@@ -1,0 +1,42 @@
+associated_with:
+- object: xyzrins:persons/tor-wager
+  roles:
+  - obo:NCIT_C19924
+  schema_type: dlthings:Association
+- description: Co-Investigator. CON provides advisory input on data standards and assistance
+    with the data infrastructure, rather than running the science.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - obo:NCIT_C25936
+  schema_type: dlthings:Association
+attributes:
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Personalized spatiotemporal hemodynamic response models for functional magnetic
+    resonance imaging
+description: Johns Hopkins/Dartmouth project on personalised HRF modelling. CON's part
+  is advisory, on standards and on the infrastructure for getting the data in and out
+  reproducibly.
+display_label: HRF models
+ended:
+  at_time: '2027-07-31'
+  schema_type: dlthings:End
+influenced_by:
+- object: xyzrins:grants/nih-hrf
+  roles:
+  - FRAPO:Funding
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:projects/bids
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:projects/datalad
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:projects/heudiconv
+  schema_type: xyzri:XYZInfluence
+pid: xyzrins:projects/hrf-models
+schema_type: xyzri:XYZProject
+short_name: HRF models
+started:
+  at_time: '2022-09-15'
+  schema_type: dlthings:Start
+title: Personalized spatiotemporal hemodynamic response models for functional magnetic
+  resonance imaging

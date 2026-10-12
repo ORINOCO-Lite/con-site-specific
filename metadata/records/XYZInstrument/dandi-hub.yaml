@@ -1,0 +1,26 @@
+attributed_to:
+- object: xyzrins:persons/austin-macdonald
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/dandi/dandi-hub
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: dandi-hub
+description: Infrastructure and code for the dandihub
+display_label: dandi-hub
+generated_by:
+- at_time: '2019-11-22'
+  object: xyzrins:projects/dandi
+  schema_type: dlthings:Generation
+invalidated_by:
+  at_time: '2026-08-12'
+  object: xyzrins:projects/dandi
+  schema_type: dlthings:Invalidation
+kind: obo:IAO_0000010
+name: dandi-hub
+pid: xyzrins:instruments/dandi-hub
+schema_type: xyzri:XYZInstrument

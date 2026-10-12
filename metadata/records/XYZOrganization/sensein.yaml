@@ -1,0 +1,19 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://sensein.group
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Senseable Intelligence Group
+description: Research group at the McGovern Institute for Brain Research, MIT, working
+  on sensing, machine learning and open neuroscience infrastructure.
+display_label: Senseable Intelligence Group
+influenced_by:
+- object: xyzrins:persons/satrajit-ghosh
+  roles:
+  - marcrel:led
+  schema_type: xyzri:XYZInfluence
+name: Senseable Intelligence Group
+pid: xyzrins:organizations/sensein
+schema_type: xyzri:XYZOrganization
+short_name: SenseIn

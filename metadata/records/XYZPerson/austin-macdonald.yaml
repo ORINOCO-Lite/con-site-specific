@@ -4,9 +4,8 @@ attributes:
   value: austin@dartmouth.edu
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
-  value: Software Engineer at the Center for Open Neuroscience, Dartmouth College.
-    Passionate about open source values and developing inclusive, transparent open
-    science tools.
+  value: Software Engineer at the Center for Open Neuroscience, Dartmouth College. Passionate
+    about open source values and developing inclusive, transparent open science tools.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Austin Macdonald
@@ -19,6 +18,32 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Austin
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Software Engineer
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:austin@dartmouth.edu
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/asmacdo
+- predicate: dlthings:orcid
+  schema_type: dlthings:AttributeSpecification
+  value: https://orcid.org/0000-0002-8124-807X
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Centroids
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Austin Macdonald (asmacdo) is obstinately passionate about open source values
+    and is dedicated to developing open science tools as inclusively and transparently
+    as possible. He currently lives in Raleigh with his giant, spastic, and clumsy dog
+    Chonks.
+delegated_by:
+- object: ror:04tfhh831
+  roles:
+  - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
+  schema_type: dlthings:Delegation
 description: Software Engineer at the Center for Open Neuroscience, Dartmouth College.
   Passionate about open source values and developing inclusive, transparent open science
   tools.

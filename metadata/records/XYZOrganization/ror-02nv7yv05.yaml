@@ -1,4 +1,7 @@
 attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.fz-juelich.de/
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Research Centre Jülich
@@ -8,6 +11,12 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: FZJ
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'Forschungszentrum Jülich: a German national research centre, and home of the
+    INM-7 Psychoinformatics group.'
+description: 'Forschungszentrum Jülich: a German national research centre, and home of
+  the INM-7 Psychoinformatics group.'
 display_label: Research Centre Jülich
 name: Forschungszentrum Jülich
 pid: ror:02nv7yv05

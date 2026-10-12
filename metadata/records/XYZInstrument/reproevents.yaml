@@ -1,0 +1,21 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/ReproNim/reprostim/tree/master/Events
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: ReproEvents
+description: 'An event relay device: a single-board microcontroller running micropython
+  that sits between the input peripherals a participant uses and the event recording system,
+  so button presses are timestamped by hardware rather than by whatever the stimulus computer
+  was doing.'
+display_label: ReproEvents
+generated_by:
+- object: xyzrins:projects/repronim-trd3
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: ReproEvents
+part_of:
+- xyzrins:instruments/reprostim
+pid: xyzrins:instruments/reproevents
+schema_type: xyzri:XYZInstrument
