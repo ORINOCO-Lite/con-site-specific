@@ -39,3 +39,22 @@ assertions:
       2024-04-30 and DANDI did not.
     confidence: certain
     captured: "2026-10-11"
+  - path: /associated_with/0/started/at_time
+    value: "2019-07-24"
+    bound: upper
+    kind: recollection
+    source: conversation with YOH
+    locator: Ben Dichter's involvement in DANDI
+    quote: Ben associated with DANDI since its beginning.
+    note: >-
+      Pinned to the project's own `started`, which is itself an upper bound
+      (the org's oldest repository, dandi-about, 2019-07-24).  So this is an
+      upper bound twice over: if DANDI began before its first repository, he
+      was there for that too.  His oldest commit in a dandi organisation
+      repository is dandi-cli 2019-09-28, two months later -- consistent
+      with being there from the start, but not what establishes it.
+      CatalystNeuro, which he leads, is named in DANDI's own description as
+      a major contributor.
+    confidence: approximate
+    would_confirm: the DANDI proposal or kickoff records naming CatalystNeuro
+    captured: "2026-10-13"

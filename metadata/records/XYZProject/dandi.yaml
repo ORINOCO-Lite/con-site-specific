@@ -3,6 +3,9 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+  started:
+    at_time: '2019-07-24'
+    schema_type: dlthings:Start
 - object: xyzrins:persons/satrajit-ghosh
   roles:
   - obo:NCIT_C19924
