@@ -354,8 +354,12 @@ influenced_by:
   - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
   schema_type: xyzri:XYZInfluence
 - object: xyzrins:objectives/translational-research-infrastructure
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
   schema_type: xyzri:XYZInfluence
 - object: xyzrins:objectives/rich-naturalistic-data
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
   schema_type: xyzri:XYZInfluence
 - object: xyzrins:objectives/97ded4aa-108d-4b84-8195-d6076dce63ce
   roles:
