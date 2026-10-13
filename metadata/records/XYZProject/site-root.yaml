@@ -10,7 +10,7 @@ associated_with:
   - marcrel:led
   schema_type: dlthings:Association
   started:
-    at_time: '2015-07-22'
+    at_time: '2005-03-22'
     schema_type: dlthings:Start
 - object: xyzrins:persons/isaac-to
   roles:

@@ -1,0 +1,9 @@
+# A MARC relator, reused.  Without a record here the renderer has no label
+# for it and prints the bare pid -- "Haxby 2001 -- marcrel:dtm" is what the
+# page showed.
+description: A person or organization responsible for managing data, including
+  preparing it for distribution, and keeping it usable after the work it was
+  collected for is finished.
+display_label: Data manager
+pid: marcrel:dtm
+schema_type: xyzri:XYZAgentRole

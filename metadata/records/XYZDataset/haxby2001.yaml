@@ -1,0 +1,32 @@
+# Stephen Jose Hanson is the paper's first author and has no record here;
+# the citation in the description names him.  Only people with records can
+# be attributed.
+attributed_to:
+- object: xyzrins:persons/james-haxby
+  roles:
+  - marcrel:cre
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:dtm
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://data.pymvpa.org/datasets/haxby2001/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Haxby 2001 faces and objects
+description: The block-design fMRI study behind Haxby et al. 2001, prepared and
+  published as a dataset anyone could download and rerun. It is the data PyMVPA's
+  tutorials are built on, and it went on to be reanalysed far more often than a
+  single study's data usually is -- an early demonstration that sharing a dataset
+  outlives the paper it was collected for.
+display_label: Haxby 2001 faces and objects
+identifiers:
+- notation: http://data.pymvpa.org/datasets/haxby2001/
+  schema_type: dlthings:Identifier
+pid: xyzrins:datasets/haxby2001
+schema_type: xyzri:XYZDataset
+short_name: Haxby 2001
+title: Haxby 2001 faces and objects

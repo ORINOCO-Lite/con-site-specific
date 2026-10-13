@@ -22,15 +22,24 @@ format: con-association-evidence-v1
 
 assertions:
   - path: /associated_with/2/started/at_time
-    value: "2015-07-22"
+    value: "2005-03-22"
     bound: upper
-    kind: site-git-history
-    predates_freeze: true
-    source: con.org
-    locator: f96d1de67
-    quote: first commit to content/pages/whoweare.html naming James V. Haxby
-    confidence: certain
-    captured: "2026-10-10"
+    kind: recollection
+    source: YOH
+    locator: first contact, 2005-03-22
+    quote: >-
+      for haxby can date even back into Mar 22, 2005, before Michael Hanke
+    note: >-
+      Replaces 2015-07-22, the first commit of whoweare.html itself -- he
+      was on the page the day it was written, so that date said only when
+      the website began, ten years late.  What followed this is dated by its
+      output: the analysis of Haxby's 2001 data that became Hanson &
+      Halchenko, Neural Computation 20(2), published 2008-02, and the
+      dataset prepared from it for PyMVPA.  This is the earliest
+      association with the Center on record -- a year before Michael Hanke's
+      2006-04-11.
+    confidence: approximate
+    captured: "2026-10-13"
   - path: /associated_with/25/started/at_time
     value: "2015-07-22"
     bound: upper

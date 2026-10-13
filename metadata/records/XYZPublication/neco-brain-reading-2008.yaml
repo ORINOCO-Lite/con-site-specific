@@ -1,0 +1,45 @@
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  - obo:MS_1002035
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:locator
+  schema_type: dlthings:AttributeSpecification
+  value: 20, 2, 486-503
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: 2008/02
+- predicate: dcterms:language
+  schema_type: dlthings:AttributeSpecification
+  value: en
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: 'Brain Reading Using Full Brain Support Vector Machines for Object Recognition:
+    There Is No "Face" Identification Area'
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: 'Brain Reading Using Full Brain Support Vector Machines for Object Recognition:
+    There Is No "Face" Identification Area'
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'Hanson SJ and Halchenko YO (2008). Brain Reading Using Full Brain Support
+    Vector Machines for Object Recognition: There Is No "Face" Identification Area.
+    Neural Computation, 20(2):486-503, https://doi.org/10.1162/neco.2007.09-06-340'
+characterized_by:
+- object: bibo:AcademicArticle
+  predicate: dcterms:type
+description: 'Hanson SJ and Halchenko YO (2008). Brain Reading Using Full Brain Support
+  Vector Machines for Object Recognition: There Is No "Face" Identification Area.
+  Neural Computation, 20(2):486-503, https://doi.org/10.1162/neco.2007.09-06-340'
+display_label: 'Brain Reading Using Full Brain Support Vector Machines for Object
+  Recognition: There Is No "Face" Identification Area'
+identifiers:
+- notation: 10.1162/neco.2007.09-06-340
+  schema_type: dlthings:DOI
+kind: bibo:AcademicArticle
+pid: xyzrins:publications/neco-brain-reading-2008
+schema_type: xyzri:XYZPublication
+title: 'Brain Reading Using Full Brain Support Vector Machines for Object Recognition:
+  There Is No "Face" Identification Area'

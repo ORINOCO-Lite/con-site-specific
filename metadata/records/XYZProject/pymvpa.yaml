@@ -85,3 +85,6 @@ started:
   at_time: '2009-10-07'
   schema_type: dlthings:Start
 title: PyMVPA
+used:
+- object: xyzrins:datasets/haxby2001
+  schema_type: dlthings:Usage
