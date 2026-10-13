@@ -357,6 +357,10 @@ influenced_by:
   roles:
   - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
   schema_type: xyzri:XYZInfluence
+- object: xyzrins:objectives/rich-naturalistic-data
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:objectives/translational-research-infrastructure
+  schema_type: xyzri:XYZInfluence
 pid: xyzrins:.
 schema_type: xyzri:XYZProject
 short_name: CON

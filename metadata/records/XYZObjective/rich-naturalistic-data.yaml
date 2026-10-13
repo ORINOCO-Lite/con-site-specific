@@ -1,0 +1,7 @@
+description: |-
+  Support studies of brain function that record rich stimuli, behavior, and context, so their data can help answer questions beyond the original study.
+
+  A recording can be useful for more than the question that first prompted it. Keeping information about what a person or animal experienced, alongside measurements of brain activity and behavior, can help others understand and reuse the data. Extending this approach to animal studies is a possible direction for CON to discuss.
+pid: xyzrins:objectives/rich-naturalistic-data
+schema_type: xyzri:XYZObjective
+title: Rich naturalistic research data
