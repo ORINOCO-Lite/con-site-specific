@@ -14,6 +14,11 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+- description: 7 commits.
+  object: xyzrins:persons/soichi-hayashi
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification

@@ -28,7 +28,7 @@ associated_with:
   - marcrel:ctb
   - xyzrins:agent-roles/79ce2c0b-ff6a-4d90-8914-924cdaaf40df
   schema_type: dlthings:Association
-- description: Recorded by the Center's own site since before the move to GitHub; no commits under this handle.
+- description: 60 commits, 2015-04-17 to 2015-12-11.
   object: xyzrins:persons/jason-gors
   roles:
   - marcrel:ctb

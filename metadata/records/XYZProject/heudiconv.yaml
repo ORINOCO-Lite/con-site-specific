@@ -24,6 +24,16 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+- description: 1 commit.
+  object: xyzrins:persons/kyle-meyer
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- description: 2 commits.
+  object: xyzrins:persons/benjamin-poldrack
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

@@ -3,7 +3,7 @@ associated_with:
   roles:
   - marcrel:led
   schema_type: dlthings:Association
-- description: 1 commit.
+- description: 2 commits.
   object: xyzrins:persons/andy-connolly
   roles:
   - marcrel:ctb
@@ -11,7 +11,7 @@ associated_with:
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
-  value: https://github.com/dbic/handbook
+  value: https://dbic-handbook.readthedocs.io/
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
   value: The working handbook for the Dartmouth Brain Imaging Center -- how to get
