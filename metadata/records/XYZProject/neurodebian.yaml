@@ -47,7 +47,7 @@ attributes:
     Hanke</a> (2012). <a href="https://www.frontiersin.org/articles/10.3389/fninf.2012.00022/full">
     Open is not enough. Let''s take the next step: An integrated, community-driven computing
     platform for neuroscience.</a> Frontiers in Neuroinformatics, 6:22. <a href="http://haxbylab.dartmouth.edu/publications/HH12.pdf">[PDF]</a>
-    DOI: 10.3389/fninf.2012.00022 </li> </ul>'
+    DOI: 10.3389/fninf.2012.00022 </li> </ul> <p> NeuroDebian grew out of <a href="https://alioth-archive.debian.org/git/pkg-exppsy/">pkg-exppsy</a>, the Debian team packaging experimental psychology software -- FSL, PyEPL, PsychoPy -- from 2005 onwards. Same people, same work, wider scope. </p>'
 - predicate: dlthings:section
   schema_type: dlthings:AttributeSpecification
   value: Software
@@ -61,6 +61,12 @@ description: Turnkey research software platform for all aspects of the neuroscie
   research process. Provides a comprehensive suite of readily usable and fully integrated
   software with robust testing and deployment infrastructure.
 display_label: NeuroDebian
+informed_by:
+- description: NeuroDebian is what pkg-exppsy became. The team packaging experimental
+    psychology software for Debian -- FSL, PyEPL, PsychoPy -- grew into a
+    distribution of its own; same people, same work, wider scope.
+  object: xyzrins:projects/pkg-exppsy
+  schema_type: xyzri:XYZCommunication
 part_of:
 - xyzrins:.
 - xyzrins:projects/debian

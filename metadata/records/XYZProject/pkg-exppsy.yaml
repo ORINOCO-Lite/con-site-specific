@@ -1,0 +1,43 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  - xyzrins:agent-roles/debian-maintainer
+  schema_type: dlthings:Association
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:led
+  - xyzrins:agent-roles/debian-maintainer
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://alioth-archive.debian.org/git/pkg-exppsy/
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: The Debian packaging team for experimental psychology software -- FSL,
+    PyEPL, PsychoPy and the rest of what a psychology lab actually runs. Archived
+    with the rest of Alioth; the work and the people moved on into NeuroDebian.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: pkg-exppsy
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: pkg-exppsy
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: pkg-exppsy
+description: The Debian packaging team for experimental psychology software --
+  FSL, PyEPL, PsychoPy and the rest of what a psychology lab actually runs.
+  Archived with the rest of Alioth; the work and the people moved on into
+  NeuroDebian.
+display_label: pkg-exppsy
+part_of:
+- xyzrins:projects/debian
+pid: xyzrins:projects/pkg-exppsy
+schema_type: xyzri:XYZProject
+short_name: pkg-exppsy
+started:
+  at_time: '2005-12-28'
+  schema_type: dlthings:Start
+title: pkg-exppsy

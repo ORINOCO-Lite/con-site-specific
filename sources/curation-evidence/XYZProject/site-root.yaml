@@ -472,15 +472,20 @@ assertions:
     confidence: certain
     captured: "2026-10-10"
   - path: /associated_with/11/started/at_time
-    value: "2024-06-07"
+    value: "2012-03-30"
     bound: upper
-    kind: site-git-history
-    predates_freeze: true
-    source: con.org
-    locator: b3219432d
-    quote: first commit to content/pages/whoweare.html naming David N. Kennedy
-    confidence: certain
-    captured: "2026-10-10"
+    kind: recollection
+    source: YOH
+    locator: correspondence about NeuroDebian and XNAT
+    quote: >-
+      started collaborating around 30 Mar 2012 when corresponding about
+      Neurodebian and XNAT
+    note: >-
+      Replaces 2024-06-07, the first commit naming him on whoweare.html,
+      twelve years after the fact.  The collaboration became funded work on
+      the BD2K grant submission around September 2013.
+    confidence: approximate
+    captured: "2026-10-13"
   - path: /associated_with/12/started/at_time
     value: "2008"
     bound: upper
@@ -559,22 +564,28 @@ assertions:
     captured: "2026-10-11"
 
   - path: /associated_with/15/started/at_time
-    value: "2015-07"
+    value: "2006-04-11"
     bound: upper
-    kind: registry
-    source: whois centerforopenneuroscience.org
-    locator: Creation Date
-    quote: 'Creation Date: 2015-07-12T03:00:29Z'
+    kind: recollection
+    source: YOH
+    locator: >-
+      Steve Smith to Michael Hanke and Yaroslav Halchenko, cc Mark Jenkinson,
+      Daniel Rueckert, David Flitney
+    quote: >-
+      From: Steve Smith <steve@fmrib.ox.ac.uk> / To: Michael Hanke
+      <michael.hanke@gmail.com>, Yaroslav Halchenko <lists@ONERUSSIAN.COM>
     note: >-
-      Michael Hanke's association with THE CENTER begins when the Center
-      does.  An earlier version dated it 2007-10-25 from PyMVPA, which put a
-      collaboration eight years before CON on CON's own record -- exactly
-      what rule 4 exists to prevent.  The pre-CON work is not lost: it now
-      sits on the projects where it happened, PyMVPA from 2007-05-24,
-      NeuroDebian from 2009-03-28 and DataLad from 2015-08-18, each with its
-      own evidence.
-    confidence: certain
-    captured: "2026-10-11"
+      The earliest correspondence with both of them on it, about Debian
+      packaging of FSL and PyEPL -- the work that became pkg-exppsy and then
+      NeuroDebian.  Replaces 2015-07, which was CON's own founding: the
+      Center formalised a collaboration already nine years old, and dating
+      the association from the institution rather than from the work had it
+      backwards.  An upper bound, since an email with both names on it is a
+      trace of people already working together -- Hanke's pkg-exppsy
+      changelog entries bottom out earlier still, at 2005-12-28, and are
+      recorded on the Debian project.
+    confidence: approximate
+    captured: "2026-10-13"
 
   - path: /associated_with/10/started/at_time
     value: "2019-09-18"

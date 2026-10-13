@@ -1,0 +1,31 @@
+record: xyzrins:projects/pkg-exppsy
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2005-12-28"
+    bound: upper
+    kind: debian-changelog
+    source: pkg-exppsy:fsl/debian/changelog
+    locator: oldest entry
+    quote: Michael Hanke, 2005-12-28
+    note: >-
+      Where the fsl changelog bottoms out, which is the same artifact the
+      Debian record cites for his association with it.  An upper bound: a
+      changelog entry is someone already packaging, not someone starting to.
+    confidence: approximate
+    captured: "2026-10-13"
+
+pending:
+  - proposed_path: /ended/at_time
+    proposed_value: "2010-11-18"
+    kind: recollection
+    would_confirm: >-
+      pkg-exppsy did not stop so much as become NeuroDebian, and the
+      transition has no date -- NeuroDebian's repository is created
+      2010-11-18, which is a trace of the successor rather than the end of
+      this.  Left unstated, and the lineage is carried by NeuroDebian's
+      `informed_by` instead, which says the same thing without inventing a
+      day.  See also the OHBM 2020 posters record: `ended` on a project
+      means a funding period elsewhere in this store.
+    confidence: unverified
