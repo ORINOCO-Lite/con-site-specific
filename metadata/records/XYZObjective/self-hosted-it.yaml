@@ -1,6 +1,10 @@
 annotations:
   obo:NCIT_C54269: m.hanke@fz-juelich.de
   sio:SIO_001083: '2025-12-11T22:00:10.838037'
+description: >-
+  We help researchers run and maintain the services their work depends on.
+  Hosting these services themselves gives groups more control over their data
+  and how people access and use it.
 pid: xyzrins:objectives/self-hosted-it
 schema_type: xyzri:XYZObjective
 title: Self-hosted research IT infrastructure
