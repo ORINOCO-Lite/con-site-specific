@@ -3,6 +3,10 @@ attributed_to:
   roles:
   - marcrel:led
   schema_type: dlthings:Attribution
+- object: xyzrins:persons/isaac-to
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

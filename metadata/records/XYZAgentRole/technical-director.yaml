@@ -1,0 +1,9 @@
+# A MARC relator, reused rather than minted: "technical lead" is what the
+# vocabulary calls a technical director, and the alternative offered --
+# software developer plus maintainer -- says less with two roles than this
+# says with one.
+description: A person who is responsible for the technical aspects of a project, overseeing
+  its design and implementation.
+display_label: Technical director
+pid: marcrel:tcd
+schema_type: xyzri:XYZAgentRole

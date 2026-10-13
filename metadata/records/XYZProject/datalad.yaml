@@ -22,6 +22,27 @@ associated_with:
   started:
     at_time: '2015-08-18'
     schema_type: dlthings:Start
+- description: 187 commits, as a developer intern in the summer of 2016.
+  object: xyzrins:persons/gergana-alteva
+  roles:
+  - marcrel:ctb
+  - xyzrins:agent-roles/79ce2c0b-ff6a-4d90-8914-924cdaaf40df
+  schema_type: dlthings:Association
+- description: 61 commits, 2015-04-17 to 2015-12-11.
+  object: xyzrins:persons/jason-gors
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- description: 18 commits.
+  object: xyzrins:persons/vanessa-sochat
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- description: 12 commits.
+  object: xyzrins:persons/andy-connolly
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

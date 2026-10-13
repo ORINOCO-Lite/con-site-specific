@@ -1,0 +1,17 @@
+record: xyzrins:publications/f1000-phantom-2020
+format: con-association-evidence-v1
+
+assertions:
+  - path: /generated_by/0/at_time
+    value: "2020-09-14"
+    bound: exact
+    kind: registry
+    source: https://api.crossref.org/works/10.12688/f1000research.24544.1
+    locator: issued.date-parts
+    quote: '"issued": {"date-parts": [[2020, 9, 14]]}'
+    note: >-
+      Crossref's registered publication date.  `exact` rather than a bound:
+      a registry date has no latency, which is the case CURATION.md calls
+      out for `registry` not being an artifact kind.
+    confidence: certain
+    captured: "2026-10-12"

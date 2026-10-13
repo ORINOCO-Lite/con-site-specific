@@ -22,7 +22,7 @@
 set -e
 root=$(git rev-parse --show-toplevel)
 
-git diff --cached --name-only | grep -q '^metadata/' || exit 0
+git diff --cached --name-only | grep -Eq '^(metadata/|sources/curation-evidence/|tools/validate_records\.py$)' || exit 0
 
 if out=$(python3 "$root/tools/validate_records.py" 2>&1); then
     printf 'records: %s\n' "$(printf '%s\n' "$out" | tail -1)"

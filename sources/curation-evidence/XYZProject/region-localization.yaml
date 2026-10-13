@@ -1,0 +1,17 @@
+record: xyzrins:projects/region-localization
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2019-06-09"
+    bound: upper
+    kind: publication
+    source: https://juser.fz-juelich.de/record/865045/files/OHBM_2019_Wagner.pdf
+    locator: OHBM 2019, Rome, 2019-06-09 .. 2019-06-13
+    quote: Functional ROI localization in a rich stimuli dataset requires non-GLM style approach
+    note: >-
+      The opening day of the meeting the poster was presented at.  A loose
+      upper bound: the work was done before it was presented, and how long
+      before is not recorded anywhere we have.
+    confidence: approximate
+    captured: "2026-10-12"

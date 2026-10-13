@@ -13,6 +13,21 @@ associated_with:
   started:
     at_time: '2007-05-24'
     schema_type: dlthings:Start
+- description: 884 commits.
+  object: xyzrins:persons/nikolaas-oosterhof
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- description: 2 commits.
+  object: xyzrins:persons/andy-connolly
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- description: 94 commits.
+  object: xyzrins:persons/matteo-visconti-di-oleggio-castello
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

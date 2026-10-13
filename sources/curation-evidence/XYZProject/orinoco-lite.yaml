@@ -1,0 +1,18 @@
+record: xyzrins:projects/orinoco-lite
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2026-07-30"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/repos/ORINOCO-Lite/orinoco-lite-dev
+    locator: created_at
+    quote: '"created_at": "2026-07-30T21:23:01Z"'
+    note: >-
+      Creation of the engine's repository.  An upper bound: the ORINOCO work
+      it is the "lite" of predates this repository, and the mirrors in the
+      same organization point at hub.psychoinformatics.de, so the effort is
+      older than the artifact.  Good enough to order a page by.
+    confidence: certain
+    captured: "2026-10-12"

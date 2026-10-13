@@ -3,14 +3,14 @@ associated_with:
     packages here was a change of maintainership model, not a departure.'
   object: xyzrins:persons/yaroslav-halchenko
   roles:
-  - xyzrins:agent-roles/debian-packager
+  - xyzrins:agent-roles/debian-maintainer
   schema_type: dlthings:Association
   started:
     at_time: '2020-02-24'
     schema_type: dlthings:Start
 - object: xyzrins:persons/michael-hanke
   roles:
-  - xyzrins:agent-roles/debian-packager
+  - xyzrins:agent-roles/debian-maintainer
   schema_type: dlthings:Association
   started:
     at_time: '2020-02-24'
@@ -25,9 +25,6 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Debian Med
-- predicate: dlthings:section
-  schema_type: dlthings:AttributeSpecification
-  value: Collaborating projects
 description: 'Debian Pure Blend for medicine and life sciences, and the team that maintains
   those packages. Between 2020 and 2021 the neuroimaging packages NeuroDebian had carried
   moved here: a smaller team handing maintenance to a larger one, trading scope -- current

@@ -1,0 +1,38 @@
+# The "infrastructural solutions, such as Nibotmi" that Matthew Brett's
+# description has referred to since 2015.  Until now it pointed at
+# /projects#nibotmi_, an entry that never existed; the record was missing,
+# not the link.  Found by searching the NIPY organization for commits under
+# his NAME rather than his GitHub handle.
+associated_with:
+- description: 352 commits.
+  object: xyzrins:persons/matthew-brett
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/nipy/nibotmi
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: The NIPY buildbot master -- the machine that builds and tests the Python
+    neuroimaging stack across the platforms its users actually have.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Nibotmi
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Nibotmi
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: Nibotmi
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/nipy/nibotmi
+description: The NIPY buildbot master -- the machine that builds and tests the Python
+  neuroimaging stack across the platforms its users actually have.
+display_label: Nibotmi
+pid: xyzrins:projects/nibotmi
+schema_type: xyzri:XYZProject
+short_name: Nibotmi
+title: Nibotmi

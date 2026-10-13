@@ -3,7 +3,7 @@ associated_with:
     Debian Med migration got.'
   object: xyzrins:persons/yaroslav-halchenko
   roles:
-  - xyzrins:agent-roles/debian-packager
+  - xyzrins:agent-roles/debian-maintainer
   schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
@@ -17,9 +17,6 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Debian Python Team
-- predicate: dlthings:section
-  schema_type: dlthings:AttributeSpecification
-  value: Collaborating projects
 description: Debian's packaging team for Python software -- a team rather than a Pure
   Blend, so it has no user-facing metapackages. 38 of the packages Yaroslav uploads are
   maintained here.

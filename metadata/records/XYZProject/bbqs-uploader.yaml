@@ -1,0 +1,40 @@
+associated_with:
+- description: 562 commits.
+  object: xyzrins:persons/cody-baker
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://upload.brain-bbqs.org
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: A drag-and-drop web app for BBQS teams to put files into an existing
+    dandiset on the EMBER Archive, so contributing data does not require learning
+    the command line first.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: BBQS uploader
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: BBQS uploader
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: BBQS uploader
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/brain-bbqs/bbqs-uploader
+description: A drag-and-drop web app for BBQS teams to put files into an existing
+  dandiset on the EMBER Archive, so contributing data does not require learning the
+  command line first.
+display_label: BBQS uploader
+part_of:
+- xyzrins:projects/ember
+pid: xyzrins:projects/bbqs-uploader
+schema_type: xyzri:XYZProject
+short_name: BBQS uploader
+started:
+  at_time: '2026-07-19'
+  schema_type: dlthings:Start
+title: BBQS uploader

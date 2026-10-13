@@ -2,6 +2,9 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://incf.org
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Partners
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: INCF

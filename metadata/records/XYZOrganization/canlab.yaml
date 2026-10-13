@@ -2,6 +2,9 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://sites.dartmouth.edu/canlab/
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborating labs & groups
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Cognitive and Affective Neuroscience Lab

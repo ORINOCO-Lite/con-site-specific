@@ -1,3 +1,8 @@
+attributed_to:
+- object: xyzrins:persons/adina-wagner
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
 description: Open-source software for distributed data management and reproducible
   research workflows.
 display_label: DataLad software

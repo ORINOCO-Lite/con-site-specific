@@ -1,0 +1,61 @@
+associated_with:
+- description: 237 commits.
+  object: xyzrins:persons/cody-baker
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+- description: 44 commits.
+  object: xyzrins:persons/isaac-to
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- description: 41 commits.
+  object: xyzrins:persons/austin-macdonald
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- description: 31 commits.
+  object: xyzrins:persons/horea-ioanas
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://nwb2bids.readthedocs.io/
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Reorganizes NWB files into a BIDS directory layout, so a dandiset can be
+    read by the tooling that expects BIDS without being converted twice.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: con/nwb2bids
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: con/nwb2bids
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: nwb2bids
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/con/nwb2bids
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<p> <a href="https://nwb2bids.readthedocs.io/">con/nwb2bids</a> reorganizes
+    <a href="/projects#neurodata_without_borders__neurophysiology_nwb_n_">NWB</a> files
+    into a <a href="/projects#brain_imaging_data_structure_bids_">BIDS</a> directory
+    layout, so a dandiset can be read by the tooling that expects BIDS without being
+    converted twice. It is what produces <a href="https://github.com/bids-dandisets">bids-dandisets</a>,
+    the GitHub organization holding individual DANDI dandisets in BIDS form. </p>'
+description: Reorganizes NWB files into a BIDS directory layout, so a dandiset can
+  be read by the tooling that expects BIDS without being converted twice.
+display_label: con/nwb2bids
+part_of:
+- xyzrins:projects/dandi
+pid: xyzrins:projects/nwb2bids
+schema_type: xyzri:XYZProject
+short_name: nwb2bids
+started:
+  at_time: '2024-02-29'
+  schema_type: dlthings:Start
+title: con/nwb2bids

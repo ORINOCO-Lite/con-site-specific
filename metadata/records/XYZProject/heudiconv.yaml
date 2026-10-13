@@ -11,6 +11,29 @@ associated_with:
   roles:
   - marcrel:led
   schema_type: dlthings:Association
+- object: xyzrins:persons/satrajit-ghosh
+  roles:
+  - marcrel:cre
+  schema_type: dlthings:Association
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:cre
+  schema_type: dlthings:Association
+- description: 5 commits.
+  object: xyzrins:persons/matthew-brett
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- description: 1 commit.
+  object: xyzrins:persons/kyle-meyer
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- description: 2 commits.
+  object: xyzrins:persons/benjamin-poldrack
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

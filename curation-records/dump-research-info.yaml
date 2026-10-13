@@ -285,11 +285,6 @@ decisions:
     disposition: accept
     review: github-comment:5420263058
     source_record_id: XYZProject:xyzrins:projects/heudiconv
-  xyzrins:projects/hypertools:
-    claim_sha256: sha256:33dfa51b7a76395519f7d0f0b5c37c9629217c26f18e05dd46b9d720d83b55e6
-    disposition: accept
-    review: github-comment:5420263058
-    source_record_id: XYZProject:xyzrins:projects/hypertools
   xyzrins:projects/neurodebian:
     claim_sha256: sha256:7c94aebb62ca77cef7d59980d6c359ba15e37fd22d8c5bb34eef739f3494fcb1
     disposition: accept
@@ -320,11 +315,6 @@ decisions:
     disposition: accept
     review: github-comment:5420263058
     source_record_id: XYZProject:xyzrins:projects/pyout
-  xyzrins:projects/quail:
-    claim_sha256: sha256:321381376cd0f4cfe844f92bd9f97e8bf5b0d4677070641a88674b61c659f82f
-    disposition: accept
-    review: github-comment:5420263058
-    source_record_id: XYZProject:xyzrins:projects/quail
   xyzrins:projects/reproman:
     claim_sha256: sha256:cc5378b9d8940bb50859ef8e3fa42623881dbedfafd6e8d4e204253a35b0a246
     disposition: accept
@@ -335,11 +325,6 @@ decisions:
     disposition: accept
     review: github-comment:5420263058
     source_record_id: XYZProject:xyzrins:projects/repronim-reproducible-basics
-  xyzrins:projects/supereeg:
-    claim_sha256: sha256:f01394cee1ba6b6efd5748fe864e589764db90b291b7a209f88c42ee53e353e5
-    disposition: accept
-    review: github-comment:5420263058
-    source_record_id: XYZProject:xyzrins:projects/supereeg
   xyzrins:projects/yoda:
     claim_sha256: sha256:c654c71270dbf6f38eb917b84a73073ab8e6cd0e2ca4dc5a12c4830d95afd4ff
     disposition: accept

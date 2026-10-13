@@ -7,6 +7,16 @@ associated_with:
   roles:
   - marcrel:cre
   schema_type: dlthings:Association
+- description: 8 commits.
+  object: xyzrins:persons/jason-gors
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- description: 26 commits.
+  object: xyzrins:persons/john-wodder
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

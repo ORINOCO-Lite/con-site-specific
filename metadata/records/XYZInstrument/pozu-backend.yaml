@@ -1,0 +1,19 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://pozu-codycbakerphd.pythonanywhere.com/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: pozu-backend
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/pozu-project/pozu-backend
+description: Flask server behind the labeler, holding the annotations people submit.
+display_label: pozu-backend
+generated_by:
+- object: xyzrins:projects/pozu
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: pozu-backend
+pid: xyzrins:instruments/pozu-backend
+schema_type: xyzri:XYZInstrument

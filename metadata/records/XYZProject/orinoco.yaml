@@ -1,0 +1,39 @@
+# The Psychoinformatics project that ORINOCO Lite is derived from.  The pid
+# is reused from psychoinformatics-site-specific rather than re-minted, the
+# same way the Intern and Maintainer roles are: one pid per concept across
+# the two stores.
+#
+# Deliberately NOT `part_of: xyzrins:.`, which the upstream record carries:
+# that term is relative to the store it is read in, so copying it here would
+# claim ORINOCO as CON's own.  Here it is a project we collaborate with.
+associated_with:
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:cre
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.psychoinformatics.de/projects/orinoco/
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'Self-hostable research information infrastructure from the Psychoinformatics
+    group: a LinkML schema toolkit, a generated edit UI and REST API over it, and
+    whole project websites generated from the resulting knowledge pool.'
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: ORINOCO
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: 'Organized Research Information: Ontology-mapping, Curation, Orchestration'
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: ORINOCO
+description: 'Self-hostable research information infrastructure from the Psychoinformatics
+  group: a LinkML schema toolkit, a generated edit UI and REST API over it, and whole
+  project websites generated from the resulting knowledge pool.'
+display_label: ORINOCO
+pid: xyzrins:projects/orinoco
+schema_type: xyzri:XYZProject
+short_name: ORINOCO
+title: 'Organized Research Information: Ontology-mapping, Curation, Orchestration'

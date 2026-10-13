@@ -1,3 +1,8 @@
+associated_with:
+- object: xyzrins:persons/austin-macdonald
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

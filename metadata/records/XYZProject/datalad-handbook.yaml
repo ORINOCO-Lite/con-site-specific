@@ -1,0 +1,37 @@
+associated_with:
+- object: xyzrins:persons/adina-wagner
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: http://handbook.datalad.org
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: A hands-on course in data management with DataLad, written to be worked through
+    rather than looked up.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: DataLad Handbook
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: DataLad Handbook
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: DataLad Handbook
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/datalad-handbook/book
+description: A hands-on course in data management with DataLad, written to be worked
+  through rather than looked up.
+display_label: DataLad Handbook
+part_of:
+- xyzrins:projects/datalad
+pid: xyzrins:projects/datalad-handbook
+schema_type: xyzri:XYZProject
+short_name: DataLad Handbook
+started:
+  at_time: '2019-06-18'
+  schema_type: dlthings:Start
+title: DataLad Handbook

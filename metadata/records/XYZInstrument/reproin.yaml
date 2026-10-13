@@ -3,6 +3,11 @@ attributed_to:
   roles:
   - marcrel:led
   schema_type: dlthings:Attribution
+- description: 16 commits.
+  object: xyzrins:persons/matteo-visconti-di-oleggio-castello
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

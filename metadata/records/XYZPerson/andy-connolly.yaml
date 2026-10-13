@@ -1,0 +1,37 @@
+attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Emeritus member of the Center for Open Neuroscience. Worked on PyMVPA, ReproStim
+    and the DBIC Handbook.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Andy Connolly
+- predicate: dlthings:family_name
+  schema_type: dlthings:AttributeSpecification
+  value: Connolly
+- predicate: dlthings:formatted_name
+  schema_type: dlthings:AttributeSpecification
+  value: Andy Connolly
+- predicate: dlthings:given_name
+  schema_type: dlthings:AttributeSpecification
+  value: Andy
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/andycon
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Emeritus
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: 'Worked across the Center''s imaging stack rather than any one corner of it:
+    <a href="/projects#pymvpa_">PyMVPA</a> early on, then the scanner-side work --
+    <a href="https://github.com/ReproNim/reprostim">ReproStim</a>, where most of his
+    commits are, and the <a href="https://github.com/dbic/handbook">DBIC Handbook</a>.'
+description: Emeritus member of the Center for Open Neuroscience. Worked on PyMVPA,
+  ReproStim and the DBIC Handbook.
+display_label: Andy Connolly
+family_name: Connolly
+formatted_name: Andy Connolly
+given_name: Andy
+pid: xyzrins:persons/andy-connolly
+schema_type: xyzri:XYZPerson

@@ -8,7 +8,7 @@ associated_with:
     schema_type: dlthings:End
   object: xyzrins:persons/michael-hanke
   roles:
-  - marcrel:ctb
+  - marcrel:led
   schema_type: dlthings:Association
   started:
     at_time: '2009-03-28'

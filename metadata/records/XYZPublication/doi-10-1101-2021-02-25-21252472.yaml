@@ -25,7 +25,7 @@ attributes:
     cross-validation and a subsequent linear discriminant analysis conducted on held-out
     samples were used to classify UD vs. HC. True-label model performance was compared
     against permuted-label model performance. Cortical myelin distinguished UD from
-    HC with 68% accuracy (p&lt;0.001; sensitivity=63.8%, specificity=71.5%). Consistently
+    HC with 68% accuracy (p<0.001; sensitivity=63.8%, specificity=71.5%). Consistently
     selected regions were located in the orbitofrontal cortex, anterior cingulate,
     extended visual, and auditory cortices, and showed statistically significant both
     decreases and increases in myelin levels in UD vs. HC. The patterns of cortical
@@ -60,7 +60,7 @@ description: 'The association of unipolar depression (UD), relative to healthy c
   75% female). A logistic elastic net regularized regression with nested cross-validation
   and a subsequent linear discriminant analysis conducted on held-out samples were
   used to classify UD vs. HC. True-label model performance was compared against permuted-label
-  model performance. Cortical myelin distinguished UD from HC with 68% accuracy (p&lt;0.001;
+  model performance. Cortical myelin distinguished UD from HC with 68% accuracy (p<0.001;
   sensitivity=63.8%, specificity=71.5%). Consistently selected regions were located
   in the orbitofrontal cortex, anterior cingulate, extended visual, and auditory cortices,
   and showed statistically significant both decreases and increases in myelin levels

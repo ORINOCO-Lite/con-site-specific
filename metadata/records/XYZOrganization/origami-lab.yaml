@@ -1,0 +1,25 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://neurodatascience.github.io/
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborating labs & groups
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: ORIGAMI Lab
+description: Jean-Baptiste Poline's group at the Montreal Neurological Institute, McGill
+  University. Builds methods and tools for neuroimaging and genetics data with an emphasis
+  on reproducibility; home of Neurobagel and Nipoppy.
+display_label: ORIGAMI Lab
+influenced_by:
+- object: xyzrins:persons/jean-baptiste-poline
+  roles:
+  - marcrel:ldr
+  schema_type: xyzri:XYZInfluence
+name: NeuroDataScience ORIGAMI Research Group
+part_of:
+- xyzrins:organizations/ror-01pxwe438
+pid: xyzrins:organizations/origami-lab
+schema_type: xyzri:XYZOrganization
+short_name: ORIGAMI Lab

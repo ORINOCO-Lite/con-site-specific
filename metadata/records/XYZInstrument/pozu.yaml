@@ -1,0 +1,19 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://pozu-project.github.io/pozu/
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: pozu
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/pozu-project/pozu
+description: 'The labeler itself: a pure web app, no install, that puts EMBER video in front of a person and collects pose annotations.'
+display_label: pozu
+generated_by:
+- object: xyzrins:projects/pozu
+  schema_type: dlthings:Generation
+kind: obo:IAO_0000010
+name: pozu
+pid: xyzrins:instruments/pozu
+schema_type: xyzri:XYZInstrument

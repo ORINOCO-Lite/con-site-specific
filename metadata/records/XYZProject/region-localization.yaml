@@ -1,0 +1,62 @@
+associated_with:
+- object: xyzrins:persons/samuel-nastase
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- object: xyzrins:persons/adina-wagner
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://juser.fz-juelich.de/record/865045/files/OHBM_2019_Wagner.pdf
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Localizing a functional region usually means running a dedicated localizer.
+    This asks whether the same regions can be found in data that was rich to begin
+    with -- a feature film, watched once -- and reports that a GLM is the wrong tool
+    for it. Dormant; worth returning to.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Highly specific region localization from naturally rich data
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Highly specific region localization from naturally rich data
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: Region localization from rich data
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<p> Localizing a functional region usually means running a dedicated localizer.
+    This asks whether the same regions can be found in data that was rich to begin
+    with -- a feature film, watched once -- and reports that a GLM is the wrong tool
+    for it. Dormant; worth returning to. </p> <ul> <li> A. Wagner, S. Nastase, Y.O.
+    Halchenko and M. Hanke (2019). <a href="https://juser.fz-juelich.de/record/865045/files/OHBM_2019_Wagner.pdf">Functional
+    ROI localization in a rich stimuli dataset requires non-GLM style approach</a>.
+    OHBM 2019, Rome, Italy. </li> </ul>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Initiatives
+description: Localizing a functional region usually means running a dedicated localizer.
+  This asks whether the same regions can be found in data that was rich to begin with
+  -- a feature film, watched once -- and reports that a GLM is the wrong tool for it.
+  Dormant; worth returning to.
+display_label: Highly specific region localization from naturally rich data
+part_of:
+- xyzrins:.
+pid: xyzrins:projects/region-localization
+schema_type: xyzri:XYZProject
+short_name: Region localization from rich data
+started:
+  at_time: '2019-06-09'
+  schema_type: dlthings:Start
+title: Highly specific region localization from naturally rich data
