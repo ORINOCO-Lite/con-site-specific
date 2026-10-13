@@ -1,0 +1,42 @@
+associated_with:
+- description: 246 commits across the four repositories.
+  object: xyzrins:persons/cody-baker
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://pozu-project.github.io/pozu/
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'Pose labeling of EMBER video data in the browser, by whoever is willing
+    to label it. Inspired by Galaxy Zoo: the bottleneck on pose estimation is
+    annotated video, and a web page anyone can open is a cheaper way to get it than
+    a pipeline only the lab can run.'
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Pozu
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Pozu
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: Pozu
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/pozu-project/pozu
+description: 'Pose labeling of EMBER video data in the browser, by whoever is willing
+  to label it. Inspired by Galaxy Zoo: the bottleneck on pose estimation is annotated
+  video, and a web page anyone can open is a cheaper way to get it than a pipeline
+  only the lab can run.'
+display_label: Pozu
+part_of:
+- xyzrins:projects/ember
+pid: xyzrins:projects/pozu
+schema_type: xyzri:XYZProject
+short_name: Pozu
+started:
+  at_time: '2026-05-22'
+  schema_type: dlthings:Start
+title: Pozu
