@@ -1,0 +1,12 @@
+description: 'Develop and test better ways to analyse brain activity and behaviour
+  during rich experiences, such as watching a film.
+
+
+  Films combine images, sound, and events that unfold over time. Understanding the
+  brain''s responses takes methods that can handle these details together. We develop
+  and test ways to make that analysis more reliable and practical, so researchers
+  can learn more from the same recordings. This builds on [Psychoinformatics'' objective
+  for naturalistic studies](https://www.psychoinformatics.de/objectives/b6e7dfb2-3534-487e-bd8a-d2f58ec47e47/).'
+pid: xyzrins:objectives/rich-naturalistic-data
+schema_type: xyzri:XYZObjective
+title: Understand brain function during everyday experiences
