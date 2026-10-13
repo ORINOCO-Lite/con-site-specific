@@ -11,10 +11,11 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
-- description: 54 commits.
+- description: Started the repository -- the oldest commit here is his, 2020-02-24,
+    a day before the repository itself was created on GitHub.  54 commits.
   object: xyzrins:persons/andy-connolly
   roles:
-  - marcrel:ctb
+  - marcrel:cre
   schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage

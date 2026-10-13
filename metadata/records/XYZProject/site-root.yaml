@@ -310,6 +310,18 @@ associated_with:
   started:
     at_time: '2014-02-21'
     schema_type: dlthings:Start
+- description: Hired by the Center for the ReproStim and DBIC Handbook work; a developer
+    rather than an outside contributor for this stretch.
+  ended:
+    at_time: '2023-01-05'
+    schema_type: dlthings:End
+  object: xyzrins:persons/andy-connolly
+  roles:
+  - marcrel:swd
+  schema_type: dlthings:Association
+  started:
+    at_time: '2020-02-24'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

@@ -609,3 +609,33 @@ assertions:
       and the DBIC Handbook.
     confidence: approximate
     captured: "2026-10-12"
+  - path: /associated_with/36/started/at_time
+    value: "2020-02-24"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/ReproNim/reprostim
+    locator: oldest commit in the repository
+    quote: 'Andy <andy@localhost.localdomain>, 2020-02-24, one day before the
+      repository was created on GitHub (created_at 2020-02-25T13:39:40Z)'
+    note: >-
+      The staff stretch, distinct from the contributor association above.
+      No employment record here, so bounded by the work: the oldest commit
+      in ReproStim is his, authored under an unmapped local identity
+      ("Andy <andy@localhost.localdomain>") that the andycon login does not
+      cover -- which is why the contributor assertion above says 2020-03-05,
+      the oldest commit GitHub attributes to andycon.  An upper bound: he
+      was hired no later than the day he started committing.
+    confidence: approximate
+    captured: "2026-10-13"
+  - path: /associated_with/36/ended/at_time
+    value: "2023-01-05"
+    bound: lower
+    kind: upstream-git
+    source: https://github.com/ReproNim/reprostim
+    locator: newest andycon commit
+    quote: (newest of 39 commits authored by andycon, 2020-03-05 .. 2023-01-05)
+    note: >-
+      Same trace as the contributor association's end, and the same caveat:
+      the newest surviving commit is a lower bound on when the work stopped.
+    confidence: approximate
+    captured: "2026-10-13"
