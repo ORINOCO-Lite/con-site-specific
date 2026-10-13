@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate metadata/records/ against the curation rules in metadata/CURATION.md.
+"""Validate metadata/records/ against the curation rules in docs/metadata-curation.md.
 
 This is the SECOND of two gates and it does not replace the first.
 `tools/linkml_check.sh` validates the records against the
@@ -42,7 +42,7 @@ except ImportError:
 
 HERE = pathlib.Path(__file__).resolve().parent.parent
 RECORDS = HERE / "metadata/records"
-OVERLAYS = HERE / "metadata/overlays/curation-evidence"
+OVERLAYS = HERE / "sources/curation-evidence"
 # The machine-import overlay addresses whole containers (`path: /attributes`)
 # rather than exact slots, and it covers the records this repo did not hand
 # write.  A dated slot under a container it claims is already accounted for;
