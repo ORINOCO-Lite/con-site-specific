@@ -89,15 +89,24 @@ assertions:
     confidence: certain
     captured: "2026-10-10"
   - path: /associated_with/27/started/at_time
-    value: "2015-07-22"
+    value: "2008"
     bound: upper
-    kind: site-git-history
-    predates_freeze: true
-    source: con.org
-    locator: bbae4759e
-    quote: first commit to content/pages/whoweare.html naming Matthew Brett
-    confidence: certain
-    captured: "2026-10-10"
+    kind: recollection
+    source: YOH
+    locator: NiPy workshop, Paris, 2008
+    quote: >-
+      Matthew Brett -- IIRC also Paris 2008 Nipy workshop
+    note: >-
+      Replaces 2015-07-22, the first commit of whoweare.html itself: he was
+      on the page the day it was written, so the date said only when the
+      website began.  The same meeting that begins Jean-Baptiste Poline's
+      association, and the year is corroborated for its setting if not for a
+      day -- NIPY's own history records Matthew Brett beginning full-time
+      work on NIPY at the UC Berkeley Brain Imaging Center in 2008
+      (http://nipy.org/nipy/history.html).  A bare year, because that is the
+      precision the recollection has, and the recollection says "IIRC".
+    confidence: approximate
+    captured: "2026-10-13"
   - path: /associated_with/27/ended/at_time
     value: "2020-06-29"
     bound: upper

@@ -221,7 +221,7 @@ associated_with:
   - marcrel:swd
   schema_type: dlthings:Association
   started:
-    at_time: '2015-07-22'
+    at_time: '2008'
     schema_type: dlthings:Start
 - ended:
     at_time: '2021-06-16'
