@@ -14,12 +14,16 @@
       {{ $depictions := .Resources.Match (print $depictionType ".*") }}
       <a class="item-card"
         href="{{ .Permalink }}">
-        <div class="item-depiction">
+        <div class="item-depiction item-depiction-{{ $depictionType }}">
             {{ with index $depictions 0 }}
               {{ if eq .MediaType.SubType "svg" }}
-                <img src="{{ .RelPermalink }}" style="margin: 0;" alt="{{ .Title }}">  
+                <img src="{{ .RelPermalink }}" style="margin: 0;" alt="{{ .Title }}">
               {{ else }}
-                <img src="{{ (.Fill "300x300 Top").RelPermalink }}" alt="{{ .Title }}">
+                {{ $img := .Fill "300x300 Top" }}
+                {{ if in (slice "portrait" "logo") $depictionType }}
+                  {{ $img = .Fit "600x600" }}
+                {{ end }}
+                <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}">
               {{ end }}
             {{ else }}
               {{ with resources.Get $meerkatPath }}
@@ -39,4 +43,5 @@
     {{ end }}
   {{ end }}
 </section>
-<link rel="stylesheet" href="/grid-list.css">
+<link rel="stylesheet" href="{{ "grid-list.css" | relURL }}">
+<link rel="stylesheet" href="{{ "con-grid-images.css" | relURL }}">
