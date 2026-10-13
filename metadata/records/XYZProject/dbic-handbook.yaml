@@ -1,0 +1,47 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+- description: 1 commit.
+  object: xyzrins:persons/andy-connolly
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/dbic/handbook
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: The working handbook for the Dartmouth Brain Imaging Center -- how to get
+    scanned, how data leaves the scanner, and the conventions everything downstream
+    assumes.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: DBIC Handbook
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: DBIC Handbook
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: DBIC Handbook
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/dbic/handbook
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Education
+description: The working handbook for the Dartmouth Brain Imaging Center -- how to
+  get scanned, how data leaves the scanner, and the conventions everything downstream
+  assumes.
+display_label: DBIC Handbook
+part_of:
+- xyzrins:.
+pid: xyzrins:projects/dbic-handbook
+schema_type: xyzri:XYZProject
+short_name: DBIC Handbook
+started:
+  at_time: '2019-10-04'
+  schema_type: dlthings:Start
+title: DBIC Handbook

@@ -1,3 +1,9 @@
+associated_with:
+- description: 59 commits.
+  object: xyzrins:persons/matthew-brett
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification

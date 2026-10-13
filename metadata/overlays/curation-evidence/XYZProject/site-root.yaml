@@ -580,3 +580,32 @@ assertions:
       2020 or so" with an exact date to follow.
     confidence: approximate
     captured: "2026-10-11"
+  - path: /associated_with/35/started/at_time
+    value: "2014-02-21"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/PyMVPA/PyMVPA
+    locator: oldest andycon commit
+    quote: (oldest commit authored by andycon, across the repositories here)
+    note: >-
+      No site history for him -- he predates the page he never appeared on.
+      Derived instead from the oldest commit of his in any repository these
+      records name: PyMVPA 2014-02-21, then a gap, then ReproStim from
+      2020-03-05.  An upper bound and a loose one, since a single 2014
+      commit is a trace of someone already around, not of someone arriving.
+    confidence: approximate
+    captured: "2026-10-12"
+  - path: /associated_with/35/ended/at_time
+    value: "2023-01-05"
+    bound: lower
+    kind: upstream-git
+    source: https://github.com/ReproNim/reprostim
+    locator: newest andycon commit
+    quote: (newest of 39 commits authored by andycon, 2020-03-05 .. 2023-01-05)
+    note: >-
+      The newest surviving trace, so a lower bound: he may have been
+      involved after his last commit.  ReproStim is where the bulk of his
+      work is -- 39 commits against 12 in DataLad and one each in PyMVPA
+      and the DBIC Handbook.
+    confidence: approximate
+    captured: "2026-10-12"

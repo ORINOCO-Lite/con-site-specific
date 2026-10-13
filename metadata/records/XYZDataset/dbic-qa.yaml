@@ -1,0 +1,22 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/?dir=/dbic/QA
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/dbic/QA
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: dbic/QA
+description: Phantom, human and LEGO scans for the MRI scanner QA at DBIC, accumulated
+  as a DataLad dataset since 2020.
+display_label: dbic/QA
+identifiers:
+- notation: https://datasets.datalad.org/?dir=/dbic/QA
+  schema_type: dlthings:Identifier
+- notation: https://github.com/dbic/QA
+  schema_type: dlthings:Identifier
+pid: xyzrins:datasets/dbic-qa
+schema_type: xyzri:XYZDataset
+short_name: dbic/QA
+title: dbic/QA

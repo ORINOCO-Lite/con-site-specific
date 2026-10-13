@@ -19,6 +19,11 @@ associated_with:
   roles:
   - marcrel:cre
   schema_type: dlthings:Association
+- description: 5 commits.
+  object: xyzrins:persons/matthew-brett
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

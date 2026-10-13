@@ -11,6 +11,11 @@ attributed_to:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Attribution
+- description: 39 commits.
+  object: xyzrins:persons/andy-connolly
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

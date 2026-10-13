@@ -1,0 +1,57 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+- object: xyzrins:persons/chris-cheng
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/dbic/QA
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Scanner QA data is acquired to watch the scanner, and then it is filed away.
+    This asks what else it is good for -- whether the variance in routine phantom
+    scans explains variance in the human data acquired around them, which would make
+    years of accumulated QA scans a covariate rather than a formality.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: MRI Phantoms Afterlife
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: MRI Phantoms Afterlife
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: MRI Phantoms Afterlife
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<p> Scanner QA data is acquired to watch the scanner, and then it is filed
+    away. This asks what else it is good for -- whether the variance in routine phantom
+    scans explains variance in the human data acquired around them, which would make
+    years of accumulated QA scans a covariate rather than a formality. It runs on
+    <a href="https://github.com/dbic/QA">dbic/QA</a>, the phantom, human and LEGO
+    scans <a href="https://datasets.datalad.org/?dir=/dbic/QA">collected at DBIC</a>.
+    </p> <ul> <li> C.P. Cheng and <a href="/whoweare#yaroslav_o_halchenko_" class="centroid">Y.O.
+    Halchenko</a> (2020). <a href="https://doi.org/10.12688/f1000research.24544.1">A
+    new virtue of phantom MRI data: explaining variance in human participant data</a>.
+    F1000Research, 9:1131. </li> </ul>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Initiatives
+description: Scanner QA data is acquired to watch the scanner, and then it is filed
+  away. This asks what else it is good for -- whether the variance in routine phantom
+  scans explains variance in the human data acquired around them, which would make
+  years of accumulated QA scans a covariate rather than a formality.
+display_label: MRI Phantoms Afterlife
+part_of:
+- xyzrins:.
+pid: xyzrins:projects/mri-phantoms-afterlife
+schema_type: xyzri:XYZProject
+short_name: MRI Phantoms Afterlife
+title: MRI Phantoms Afterlife
+used:
+- object: xyzrins:datasets/dbic-qa
+  schema_type: dlthings:Usage

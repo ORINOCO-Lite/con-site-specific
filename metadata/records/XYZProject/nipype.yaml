@@ -4,6 +4,11 @@ associated_with:
   - marcrel:cre
   - marcrel:led
   schema_type: dlthings:Association
+- description: 7 commits.
+  object: xyzrins:persons/oliver-contier
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
