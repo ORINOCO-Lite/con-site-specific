@@ -1,25 +1,7 @@
-attributed_to:
-- object: xyzrins:persons/vadim-melnik
-  roles:
-  - marcrel:led
-  schema_type: dlthings:Attribution
-- object: xyzrins:persons/yaroslav-halchenko
-  roles:
-  - marcrel:ctb
-  schema_type: dlthings:Attribution
-- object: xyzrins:persons/horea-ioanas
-  roles:
-  - marcrel:ctb
-  schema_type: dlthings:Attribution
-- description: 54 commits.
-  object: xyzrins:persons/andy-connolly
-  roles:
-  - marcrel:ctb
-  schema_type: dlthings:Attribution
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
-  value: https://github.com/ReproNim/reprostim
+  value: https://reprostim.readthedocs.io/en/latest/
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: ReproStim
@@ -29,7 +11,7 @@ description: Automated capture of the audio-visual stimuli actually presented du
 display_label: ReproStim
 generated_by:
 - at_time: '2020-02-25'
-  object: xyzrins:projects/repronim-trd3
+  object: xyzrins:projects/reprostim
   schema_type: dlthings:Generation
 kind: obo:IAO_0000010
 name: ReproStim

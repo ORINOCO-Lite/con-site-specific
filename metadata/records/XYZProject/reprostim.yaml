@@ -1,0 +1,69 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+- object: xyzrins:persons/vadim-melnik
+  roles:
+  - marcrel:swd
+  schema_type: dlthings:Association
+- object: xyzrins:persons/horea-ioanas
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- description: 54 commits.
+  object: xyzrins:persons/andy-connolly
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://reprostim.readthedocs.io/en/latest/
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Automated capture of the audio-visual stimuli actually presented during an
+    experiment, into BIDS datasets -- so what the participant saw and heard is recorded
+    rather than inferred from the script that was supposed to show it. ReproFlow is
+    the setup around it, from the screen and the event relay through to the dataset.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: ReproStim
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: ReproStim
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: ReproStim
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/ReproNim/reprostim
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<p> <a href="https://reprostim.readthedocs.io/en/latest/">ReproStim</a> captures
+    the audio-visual stimuli actually presented during an experiment, into BIDS datasets
+    -- so what the participant saw and heard is recorded rather than inferred from
+    the script that was supposed to show it. <a href="https://reprostim.readthedocs.io/en/latest/_images/reproflow.svg">ReproFlow</a>
+    is the setup around it, from the screen and the event relay through to the dataset.
+    </p> <ul> <li> <a href="https://reprostim.readthedocs.io/en/latest/_images/reproflow.svg">The
+    ReproFlow setup</a>, and a <a href="https://datasets.datalad.org/repronim/ReproTube/web/#/channel/ReproNim/video/SZ96Q6pwJzQ?tab=local&amp;wide=1">talk
+    walking through it</a>. </li> <li> <a href="https://github.com/ReproNim/reprostim/tree/master/Events">ReproEvents</a>:
+    the event relay that timestamps a button press in hardware rather than in
+    whatever the stimulus computer was doing. </li> </ul>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+description: Automated capture of the audio-visual stimuli actually presented during
+  an experiment, into BIDS datasets -- so what the participant saw and heard is recorded
+  rather than inferred from the script that was supposed to show it. ReproFlow is the
+  setup around it, from the screen and the event relay through to the dataset.
+display_label: ReproStim
+part_of:
+- xyzrins:.
+pid: xyzrins:projects/reprostim
+schema_type: xyzri:XYZProject
+short_name: ReproStim
+started:
+  at_time: '2020-02-25'
+  schema_type: dlthings:Start
+title: ReproStim

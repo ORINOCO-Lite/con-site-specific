@@ -1,0 +1,17 @@
+record: xyzrins:projects/reprostim
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2020-02-25"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/repos/ReproNim/reprostim
+    locator: created_at
+    quote: '"created_at": "2020-02-25T..."'
+    note: >-
+      Carried over from the instrument record this project was split out of,
+      where it was the `generated_by` time.  Creation of the repository, so
+      an upper bound in the usual way.
+    confidence: certain
+    captured: "2026-10-11"
