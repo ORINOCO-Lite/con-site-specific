@@ -88,7 +88,7 @@ associated_with:
   - marcrel:ctb
   schema_type: dlthings:Association
   started:
-    at_time: '2024-06-07'
+    at_time: '2008'
     schema_type: dlthings:Start
 - object: xyzrins:persons/joey-hess
   roles:

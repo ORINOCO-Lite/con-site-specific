@@ -482,15 +482,25 @@ assertions:
     confidence: certain
     captured: "2026-10-10"
   - path: /associated_with/12/started/at_time
-    value: "2024-06-07"
+    value: "2008"
     bound: upper
-    kind: site-git-history
-    predates_freeze: true
-    source: con.org
-    locator: b3219432d
-    quote: first commit to content/pages/whoweare.html naming Jean-Baptiste Poline
-    confidence: certain
-    captured: "2026-10-10"
+    kind: recollection
+    source: YOH
+    locator: NiPy workshop, Paris, 2008
+    quote: >-
+      collaboration with JB began pretty much as early as that NiPy workshop
+      in Paris in 2008
+    note: >-
+      Replaces 2024-06-07, which was the first commit naming him on
+      whoweare.html -- the date the website noticed, sixteen years after the
+      fact, and the limit of what site history can ever say about someone
+      who was collaborating before the site existed.  The year is corroborated
+      for its setting but not for a day: NIPY's own history records that in
+      2008 the team at Neurospin, Paris -- where he was -- began refactoring
+      their FFF code onto NIPY (http://nipy.org/nipy/history.html).  Recorded
+      as a bare year because that is the precision the recollection has.
+    confidence: approximate
+    captured: "2026-10-13"
   - path: /associated_with/20/started/at_time
     value: "2024-10-14"
     bound: upper
