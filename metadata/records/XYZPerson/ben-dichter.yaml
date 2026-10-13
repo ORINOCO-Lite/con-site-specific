@@ -2,6 +2,9 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://bendichter.com/
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborators
 description: Founder of CatalystNeuro; long-standing contributor to DANDI and NWB.
 display_label: Ben Dichter
 family_name: Dichter

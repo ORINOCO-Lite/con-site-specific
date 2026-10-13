@@ -322,6 +322,13 @@ associated_with:
   started:
     at_time: '2020-02-24'
     schema_type: dlthings:Start
+- object: xyzrins:persons/ben-dichter
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2018-04-20'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

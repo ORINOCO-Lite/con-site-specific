@@ -639,3 +639,20 @@ assertions:
       the newest surviving commit is a lower bound on when the work stopped.
     confidence: approximate
     captured: "2026-10-13"
+  - path: /associated_with/37/started/at_time
+    value: "2018-04-20"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/NeurodataWithoutBorders/nwb-schema
+    locator: oldest bendichter commit
+    quote: (oldest commit authored by bendichter in the NWB and DANDI repositories)
+    note: >-
+      Never on the whoweare page, so there is no site history to date him
+      from.  Derived instead from the work: his oldest commit in the
+      repositories behind the NWB and DANDI project records here --
+      nwb-schema 2018-04-20, then pynwb 2020-06-18 and dandi-cli
+      2019-09-28.  An upper bound and a loose one: a 2018 schema commit is
+      a trace of someone already working in this space, and CON's own NWB
+      record starts 2017-08-03.
+    confidence: approximate
+    captured: "2026-10-13"

@@ -1,4 +1,8 @@
 associated_with:
+- object: xyzrins:persons/ben-dichter
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 - object: xyzrins:persons/yaroslav-halchenko
   roles:
   - xyzrins:agent-roles/steering-committee-member
