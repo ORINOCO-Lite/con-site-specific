@@ -41,15 +41,23 @@ assertions:
     confidence: approximate
     captured: "2026-10-13"
   - path: /associated_with/25/started/at_time
-    value: "2015-07-22"
+    value: "2015-10-17"
     bound: upper
-    kind: site-git-history
-    predates_freeze: true
-    source: con.org
-    locator: f96d1de67
-    quote: first commit to content/pages/whoweare.html naming Samuel Nastase
-    confidence: certain
-    captured: "2026-10-10"
+    kind: recollection
+    source: YOH
+    locator: SfN 2015, Chicago, Poster 451.11
+    quote: >-
+      work started while he was in Haxby lab and we started joint work on
+      that "Highly specific region localization from naturally rich data"
+      umbrella project
+    note: >-
+      Replaces 2015-07-22, the first commit of whoweare.html itself.  He
+      leaves no commits in any repository these records name, so the
+      earliest trace is a poster: Finding Cortical Patches of Shared
+      Representations, SfN 2015.  An upper bound and a loose one -- the work
+      behind a poster precedes it, and he was in the Haxby lab before that.
+    confidence: approximate
+    captured: "2026-10-13"
   - path: /associated_with/25/ended/at_time
     value: "2018-11-19"
     bound: upper
@@ -122,25 +130,38 @@ assertions:
     confidence: certain
     captured: "2026-10-10"
   - path: /associated_with/13/started/at_time
-    value: "2015-07-22"
+    value: "2013-12-30"
     bound: upper
-    kind: site-git-history
-    predates_freeze: true
-    source: con.org
-    locator: bbae4759e
-    quote: first commit to content/pages/whoweare.html naming Joey Hess
-    confidence: certain
-    captured: "2026-10-10"
+    kind: recollection
+    source: YOH
+    locator: 'email, subject: contract opportunity for 2 years of open git-annex development'
+    quote: >-
+      collaboration with joey hess began from my email on 30 Dec 2013 with
+      subject "contract opportunity for 2 years of open git-annex
+      development" and never stopped
+    note: >-
+      Replaces 2015-07-22, the first commit of whoweare.html itself.  The
+      email that opened the collaboration, which is as close to an exact
+      date as this gets -- an upper bound only because the decision to send
+      it came first.  git-annex is what DataLad is built on, so this
+      predates DataLad's own public history.
+    confidence: approximate
+    captured: "2026-10-13"
   - path: /associated_with/24/started/at_time
-    value: "2015-07-22"
+    value: "2015-06-12"
     bound: upper
-    kind: site-git-history
-    predates_freeze: true
-    source: con.org
-    locator: 28612c2ba
-    quote: first commit to content/pages/whoweare.html naming Matteo Visconti di Oleggio Castello
-    confidence: certain
-    captured: "2026-10-10"
+    kind: upstream-git
+    source: https://github.com/duecredit/duecredit
+    locator: oldest commit authored by Matteo Visconti dOC
+    quote: (oldest of 17 commits, 2015-06-12)
+    note: >-
+      Replaces 2015-07-22, the first commit of whoweare.html itself.
+      DueCredit is the first project they worked on together, so its
+      history is where the collaboration first leaves a trace.  An upper
+      bound in the usual way, and he commits as "Matteo Visconti dOC" there
+      rather than under his full name.
+    confidence: approximate
+    captured: "2026-10-13"
   - path: /associated_with/24/ended/at_time
     value: "2018-11-19"
     bound: upper

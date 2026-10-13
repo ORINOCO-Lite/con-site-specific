@@ -95,7 +95,7 @@ associated_with:
   - marcrel:ctb
   schema_type: dlthings:Association
   started:
-    at_time: '2015-07-22'
+    at_time: '2013-12-30'
     schema_type: dlthings:Start
 - object: xyzrins:persons/franco-pestilli
   roles:
@@ -188,7 +188,7 @@ associated_with:
   - marcrel:swd
   schema_type: dlthings:Association
   started:
-    at_time: '2015-07-22'
+    at_time: '2015-06-12'
     schema_type: dlthings:Start
 - ended:
     at_time: '2018-11-19'
@@ -199,7 +199,7 @@ associated_with:
   - marcrel:swd
   schema_type: dlthings:Association
   started:
-    at_time: '2015-07-22'
+    at_time: '2015-10-17'
     schema_type: dlthings:Start
 - ended:
     at_time: '2020-06-29'

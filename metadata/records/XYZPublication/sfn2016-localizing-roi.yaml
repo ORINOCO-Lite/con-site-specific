@@ -1,0 +1,54 @@
+# J. Swaroop Guntupalli has no person record here, so he is named in the
+# citation and not attributed.
+attributed_to:
+- object: xyzrins:persons/samuel-nastase
+  roles:
+  - marcrel:aut
+  - obo:MS_1002034
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/james-haxby
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  - obo:MS_1002035
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: 2016/11
+- predicate: dcterms:language
+  schema_type: dlthings:AttributeSpecification
+  value: en
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Localizing functional regions of interest based on responses to dynamic
+    naturalistic stimuli
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Localizing functional regions of interest based on responses to dynamic
+    naturalistic stimuli
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Nastase SA, Guntupalli JS, Haxby JV and Halchenko YO (2016). Localizing
+    functional regions of interest based on responses to dynamic naturalistic
+    stimuli. Society for Neuroscience, San Diego.
+characterized_by:
+- object: bibo:Document
+  predicate: dcterms:type
+description: Nastase SA, Guntupalli JS, Haxby JV and Halchenko YO (2016). Localizing
+  functional regions of interest based on responses to dynamic naturalistic stimuli.
+  Society for Neuroscience, San Diego.
+display_label: Localizing functional regions of interest based on responses to
+  dynamic naturalistic stimuli
+generated_by:
+- at_time: '2016-11-12'
+  object: xyzrins:projects/region-localization
+  schema_type: dlthings:Generation
+kind: bibo:Document
+pid: xyzrins:publications/sfn2016-localizing-roi
+schema_type: xyzri:XYZPublication
+title: Localizing functional regions of interest based on responses to dynamic
+  naturalistic stimuli

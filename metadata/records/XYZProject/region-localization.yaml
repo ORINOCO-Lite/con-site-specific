@@ -3,6 +3,14 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+- object: xyzrins:persons/matteo-visconti-di-oleggio-castello
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- object: xyzrins:persons/james-haxby
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 - object: xyzrins:persons/adina-wagner
   roles:
   - marcrel:ctb
@@ -42,7 +50,14 @@ attributes:
     for it. Dormant; worth returning to. </p> <ul> <li> A. Wagner, S. Nastase, Y.O.
     Halchenko and M. Hanke (2019). <a href="https://juser.fz-juelich.de/record/865045/files/OHBM_2019_Wagner.pdf">Functional
     ROI localization in a rich stimuli dataset requires non-GLM style approach</a>.
-    OHBM 2019, Rome, Italy. </li> </ul>'
+    OHBM 2019, Rome, Italy. </li> <li> S.A. Nastase, J.S. Guntupalli, <a href="/whoweare#james_v_haxby_"
+    class="centroid">J.V. Haxby</a> and <a href="/whoweare#yaroslav_o_halchenko_" class="centroid">Y.O.
+    Halchenko</a> (2016). Localizing functional regions of interest based on responses
+    to dynamic naturalistic stimuli. SfN 2016, San Diego. </li> <li> <a href="/whoweare#matteo_visconti_di_oleggio_castello_"
+    class="centroid">M. Visconti di Oleggio Castello</a>, S.A. Nastase, M.I. Gobbini,
+    <a href="/whoweare#james_v_haxby_" class="centroid">J.V. Haxby</a> and <a href="/whoweare#yaroslav_o_halchenko_"
+    class="centroid">Y.O. Halchenko</a> (2015). Finding Cortical Patches of Shared
+    Representations. SfN 2015, Chicago, Poster 451.11. </li> </ul>'
 - predicate: dlthings:section
   schema_type: dlthings:AttributeSpecification
   value: Initiatives
@@ -57,6 +72,6 @@ pid: xyzrins:projects/region-localization
 schema_type: xyzri:XYZProject
 short_name: Region localization from rich data
 started:
-  at_time: '2019-06-09'
+  at_time: '2015-10-17'
   schema_type: dlthings:Start
 title: Highly specific region localization from naturally rich data

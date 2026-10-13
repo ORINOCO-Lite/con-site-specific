@@ -1,0 +1,61 @@
+# M. Ida Gobbini has no person record here, so she is named in the citation
+# and not attributed; only people with records can be.
+attributed_to:
+- object: xyzrins:persons/matteo-visconti-di-oleggio-castello
+  roles:
+  - marcrel:aut
+  - obo:MS_1002034
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/samuel-nastase
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/james-haxby
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  - obo:MS_1002035
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:locator
+  schema_type: dlthings:AttributeSpecification
+  value: Poster 451.11
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: 2015/10
+- predicate: dcterms:language
+  schema_type: dlthings:AttributeSpecification
+  value: en
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Finding Cortical Patches of Shared Representations
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Finding Cortical Patches of Shared Representations
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: 'Visconti di Oleggio Castello M, Nastase SA, Gobbini MI, Haxby JV and
+    Halchenko YO (2015). Finding Cortical Patches of Shared Representations: a
+    comparison of clustering algorithms on representational geometries, and the
+    effect of cross-validation to reduce physiological noise. Society for
+    Neuroscience, Chicago, Poster 451.11.'
+characterized_by:
+- object: bibo:Document
+  predicate: dcterms:type
+description: 'Visconti di Oleggio Castello M, Nastase SA, Gobbini MI, Haxby JV and
+  Halchenko YO (2015). Finding Cortical Patches of Shared Representations: a
+  comparison of clustering algorithms on representational geometries, and the
+  effect of cross-validation to reduce physiological noise. Society for
+  Neuroscience, Chicago, Poster 451.11.'
+display_label: Finding Cortical Patches of Shared Representations
+generated_by:
+- at_time: '2015-10-17'
+  object: xyzrins:projects/region-localization
+  schema_type: dlthings:Generation
+kind: bibo:Document
+pid: xyzrins:publications/sfn2015-shared-representations
+schema_type: xyzri:XYZPublication
+title: Finding Cortical Patches of Shared Representations

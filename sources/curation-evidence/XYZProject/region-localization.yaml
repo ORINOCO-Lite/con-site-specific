@@ -3,15 +3,19 @@ format: con-association-evidence-v1
 
 assertions:
   - path: /started/at_time
-    value: "2019-06-09"
+    value: "2015-10-17"
     bound: upper
-    kind: publication
-    source: https://juser.fz-juelich.de/record/865045/files/OHBM_2019_Wagner.pdf
-    locator: OHBM 2019, Rome, 2019-06-09 .. 2019-06-13
-    quote: Functional ROI localization in a rich stimuli dataset requires non-GLM style approach
+    kind: recollection
+    source: YOH
+    locator: SfN 2015, Chicago, Poster 451.11
+    quote: >-
+      Finding Cortical Patches of Shared Representations / SFN 2015 Poster
+      #451.11
     note: >-
-      The opening day of the meeting the poster was presented at.  A loose
-      upper bound: the work was done before it was presented, and how long
-      before is not recorded anywhere we have.
+      Replaces 2019-06-09, the OHBM poster, which was simply the only output
+      of this work recorded at the time.  Two earlier ones exist -- SfN 2016
+      and SfN 2015 -- and the 2015 one moves the start four years.  Still an
+      upper bound: a poster is the end of a piece of work, not the start,
+      and this is the earliest one found rather than the earliest there is.
     confidence: approximate
-    captured: "2026-10-12"
+    captured: "2026-10-13"

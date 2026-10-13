@@ -1,0 +1,18 @@
+record: xyzrins:publications/sfn2016-localizing-roi
+format: con-association-evidence-v1
+
+assertions:
+  - path: /generated_by/0/at_time
+    value: "2016-11-12"
+    bound: upper
+    kind: recollection
+    source: YOH
+    locator: SfN 2016, San Diego
+    quote: >-
+      Localizing functional regions of interest based on responses to
+      dynamic naturalistic stimuli
+    note: >-
+      The opening day of the meeting; SfN 2016 ran 2016-11-12 to 2016-11-16
+      in San Diego.  An upper bound, as with any conference date.
+    confidence: approximate
+    captured: "2026-10-13"
