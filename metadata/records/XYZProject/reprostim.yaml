@@ -1,7 +1,7 @@
 associated_with:
 - object: xyzrins:persons/yaroslav-halchenko
   roles:
-  - marcrel:led
+  - obo:NCIT_C19924
   schema_type: dlthings:Association
 - object: xyzrins:persons/vadim-melnik
   roles:
