@@ -18,12 +18,12 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
-- description: 1 commit.
+- description: 2 commits.
   object: xyzrins:persons/andy-connolly
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
-- description: 3 commits.
+- description: 94 commits.
   object: xyzrins:persons/matteo-visconti-di-oleggio-castello
   roles:
   - marcrel:ctb

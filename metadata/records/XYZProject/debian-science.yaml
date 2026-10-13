@@ -3,7 +3,7 @@ associated_with:
     Debian Med migration got.'
   object: xyzrins:persons/yaroslav-halchenko
   roles:
-  - xyzrins:agent-roles/debian-packager
+  - xyzrins:agent-roles/debian-maintainer
   schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage

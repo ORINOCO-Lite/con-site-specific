@@ -28,12 +28,12 @@ associated_with:
   - marcrel:ctb
   - xyzrins:agent-roles/79ce2c0b-ff6a-4d90-8914-924cdaaf40df
   schema_type: dlthings:Association
-- description: 60 commits, 2015-04-17 to 2015-12-11.
+- description: 61 commits, 2015-04-17 to 2015-12-11.
   object: xyzrins:persons/jason-gors
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
-- description: 17 commits.
+- description: 18 commits.
   object: xyzrins:persons/vanessa-sochat
   roles:
   - marcrel:ctb

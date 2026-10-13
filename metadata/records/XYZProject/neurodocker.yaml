@@ -14,7 +14,7 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
-- description: 12 commits.
+- description: 13 commits.
   object: xyzrins:persons/matteo-visconti-di-oleggio-castello
   roles:
   - marcrel:ctb

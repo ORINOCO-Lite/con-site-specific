@@ -11,7 +11,7 @@ attributed_to:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Attribution
-- description: 39 commits.
+- description: 54 commits.
   object: xyzrins:persons/andy-connolly
   roles:
   - marcrel:ctb

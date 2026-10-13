@@ -132,7 +132,7 @@ from the generator but matches this repo's own `persons/<slug>`,
 | funder | `marcrel:fnd` | funder |
 | in-kind host | `marcrel:sht` | supporting host *(see below)* |
 | consultant to a project | `marcrel:csp` | consultant to a project |
-| Debian packager | `xyzrins:agent-roles/debian-packager` | — minted here |
+| Debian maintainer | `xyzrins:agent-roles/debian-maintainer` | — minted here |
 
 `marcrel:fnd` is **funder**, not founder; MARC has no "founder". Easy to get
 wrong in exactly the place it matters.
@@ -307,6 +307,19 @@ shapes to look for by hand.
   2021-06-16 reorganisation reset most anchors.
 - The website's asset for a project is not necessarily its logo. The BIDS
   image on `projects.html` is the before/after directory-tree illustration.
+- **Count commits from a clone, with `git shortlog -sne`, and sum every
+  spelling.** Two other ways were tried and both lie:
+
+  | method | how it fails |
+  | ----------------------------------- | ------------------------------------------------------------------ |
+  | `GET /repos/*/contributors` | groups by LINKED ACCOUNT. Jason Gors authors as jason.gors.work@gmail.com, which no account claims, so he is simply absent -- reported here as "no commits under this handle" when there are 61. |
+  | `GET /search/commits` grouped by repo | `items` caps at 100 per page, so anyone prolific is undercounted. Kyle Meyer's DataLad commits come back as 77 and are 2318. |
+
+  People commit under several identities and all of them count: Vanessa
+  Sochat appears in DataLad as "vsoch", "Vanessa Sochat" and
+  "Vanessasaurus", Matteo Visconti di Oleggio Castello as both that and
+  "Matteo Visconti dOC" -- 94 PyMVPA commits that a single-spelling count
+  reported as 3. Match on surname plus known handles, and add them up.
 
 ## When CON itself began
 

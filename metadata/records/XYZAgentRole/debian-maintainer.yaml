@@ -12,9 +12,9 @@
 #
 # Only `display_label` and `description` are set, as all nine accepted
 # XYZAgentRole records do; `name` is schema-valid but unused by the corpus.
-pid: xyzrins:agent-roles/debian-packager
+pid: xyzrins:agent-roles/debian-maintainer
 schema_type: xyzri:XYZAgentRole
-display_label: Debian packager
+display_label: Debian maintainer
 description: >-
   Maintains a piece of software as a package within the Debian distribution:
   packaging, the changelog, uploads, and the bug traffic that follows.

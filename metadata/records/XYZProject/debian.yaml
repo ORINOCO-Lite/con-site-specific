@@ -3,14 +3,14 @@ associated_with:
     37 Debian Med packages.
   object: xyzrins:persons/yaroslav-halchenko
   roles:
-  - xyzrins:agent-roles/debian-packager
+  - xyzrins:agent-roles/debian-maintainer
   schema_type: dlthings:Association
   started:
     at_time: '2005-07-04'
     schema_type: dlthings:Start
 - object: xyzrins:persons/michael-hanke
   roles:
-  - xyzrins:agent-roles/debian-packager
+  - xyzrins:agent-roles/debian-maintainer
   schema_type: dlthings:Association
   started:
     at_time: '2005-12-28'
