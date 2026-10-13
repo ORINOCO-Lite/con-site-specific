@@ -72,7 +72,7 @@ params:
 ### Currently associated
 
 {% for ass in curr_associated -%}
-- [{{ ass.object.given_name }}&nbsp;{{ ass.object.family_name }}](/{{ ass.object.pid|replace('xyzrins:', '') }}) ({% for role in ass.roles %}{{ ', ' if not loop.first }}{{ role.display_label|default(role.name) }}{% endfor -%}){{ ("  \n  " ~ ass.description).rstrip() }}
+- [{{ ass.object.given_name }}&nbsp;{{ ass.object.family_name }}](/{{ ass.object.pid|replace('xyzrins:', '') }}) ({% for role in ass.roles %}{{ ', ' if not loop.first }}{{ role.display_label|default(role.name) }}{% endfor -%})
 {% endfor -%}
 {% endif -%}
 
@@ -80,7 +80,7 @@ params:
 ### Previously associated
 {% for ass in prev_associated -%}
 
-- [{{ ass.object.given_name }}&nbsp;{{ ass.object.family_name }}](/{{ ass.object.pid|replace('xyzrins:', '') }}) ({% for role in ass.roles %}{{ ', ' if not loop.first }}{{ role.display_label|default(role.name) }}{% endfor -%} {{ assoc_period(ass, "; ") }}){{ ("  \n  " ~ ass.description).rstrip() }}
+- [{{ ass.object.given_name }}&nbsp;{{ ass.object.family_name }}](/{{ ass.object.pid|replace('xyzrins:', '') }}) ({% for role in ass.roles %}{{ ', ' if not loop.first }}{{ role.display_label|default(role.name) }}{% endfor -%} {{ assoc_period(ass, "; ") }})
 {% endfor -%}
 {% endif -%}
 {% endif -%}
