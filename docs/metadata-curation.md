@@ -252,10 +252,17 @@ pull-request review retain the contribution history.
    a role IRI or a trigger IRI. Requiring it there only produced meaningless
    `exact` values.
 
-3. **Recollections are quarantined.** `kind: recollection` requires
-   `confidence: unverified` and a `would_confirm`, and lives under `pending`,
-   not `assertions` — a record asserts, and we are not asserting this.
-   Promoting one means moving it into the record *and* giving it evidence.
+3. **Direct curation can use recollections.** Edit the metadata record directly
+   and retain supporting evidence under `assertions`, using `kind: recollection`.
+   Identify who supplied the account, record what they said, and state the
+   confidence and any temporal bound. `would_confirm` can describe further
+   corroboration; it does not prevent publication. Direct edits do not require
+   a source adapter or machine-import provenance.
+
+   Use `pending` only for proposals that have not been adopted into metadata.
+   Recollections there use `confidence: unverified` and `would_confirm` to
+   describe what would settle the proposal. We can consider a more formal
+   annotation mechanism later; it is not a prerequisite for direct curation.
 
 4. **The agent is `Association.object`.** Work predating CON is
    `xyzrins:persons/yaroslav-halchenko`, not an institution. The point is not
