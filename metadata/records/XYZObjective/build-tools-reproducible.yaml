@@ -1,11 +1,10 @@
 annotations:
   obo:NCIT_C54269: m.hanke@fz-juelich.de
   sio:SIO_001083: '2026-03-08T09:35:47.153000'
-description: The emphasis is on creating software, workflows, and infrastructure that
-  make data processing, analysis, and sharing reliable and repeatable. By providing
-  versioned datasets, pipelines, and tooling (for example for neuroimaging and behavioral
-  measurements), the aim is to reduce technical barriers, minimize errors, and help
-  researchers reproduce results and reuse resources across projects.
+description: |-
+  Develop and sustain open tools, standards, and workflows that help researchers reproduce and build on scientific work.
+
+  A research result is easier to understand when people can see how it was produced. We help researchers keep their data, code, and working steps together, so they can repeat an analysis and others can check it or build on it.
 pid: xyzrins:objectives/97ded4aa-108d-4b84-8195-d6076dce63ce
 schema_type: xyzri:XYZObjective
-title: Build tools for reproducible, shareable science
+title: Make reproducible research practical

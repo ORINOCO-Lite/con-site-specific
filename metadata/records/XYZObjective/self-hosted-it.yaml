@@ -1,6 +1,10 @@
 annotations:
   obo:NCIT_C54269: m.hanke@fz-juelich.de
   sio:SIO_001083: '2025-12-11T22:00:10.838037'
+description: |-
+  Make research systems usable by labs and institutions in environments they can operate and control.
+
+  A lab should be able to run the systems it needs and make decisions about how they work. We help make those systems easier to set up and use, so researchers can choose where their data live and how their work is organized.
 pid: xyzrins:objectives/self-hosted-it
 schema_type: xyzri:XYZObjective
-title: Self-hosted research IT infrastructure
+title: Enable self-hosted research infrastructure
