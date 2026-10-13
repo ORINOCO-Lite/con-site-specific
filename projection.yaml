@@ -6,7 +6,7 @@ routing:
 
 homepage:
   pid: xyzrins:.
-  template: www-from-model:page_templates/homepage.md.j2
+  template: site-specific/templates/homepage.md.j2
   reverse_injections:
     - from: generated_by
       to: generated

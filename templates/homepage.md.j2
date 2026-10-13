@@ -1,14 +1,35 @@
+{% macro taxonomy_terms(taxonomy, type, objects, typeattr='object.schema_type', pidattr='object.pid') -%}
+{%- set matching = objects|selectattr(typeattr, 'eq', type)|map(attribute=pidattr)|map('replace', 'xyzrins:' ~ taxonomy ~ '/', '')|unique|sort -%}
+{% if matching|length -%}
+{{ taxonomy }}:
+{% for pid in matching -%}
+- {{ pid }}
+{% endfor -%}
+{%- endif -%}
+{%- endmacro -%}
 ---
-title: Center for Open Neuroscience
+title: {{ title|tojson }}
+{{ taxonomy_terms('projects', 'xyzri:XYZProject', parts, typeattr='schema_type', pidattr='pid') -}}
+{{ taxonomy_terms('objectives', 'xyzri:XYZObjective', influenced_by) -}}
+{{ taxonomy_terms('persons', 'xyzri:XYZPerson', associated_with) -}}
+{{ taxonomy_terms('instruments', 'xyzri:XYZInstrument', generated, typeattr='schema_type', pidattr='pid') -}}
 params:
-  hideGraph: true
-  graphRootNodePID: xyzrins:.
+  graphRootNodePID: {{ pid }}
 ---
 
+{% raw %}
 The Center for Open Neuroscience brings open practices into the everyday work of neuroscience.
 We build, connect, test, document, and share the tools and infrastructure that help researchers work transparently and reproducibly.
 
 
+{% endraw %}
+## Objectives
+
+{% for inf in influenced_by if inf.object.schema_type == "xyzri:XYZObjective" and not inf.ended -%}
+- [{{ inf.object.title }}](/{{ inf.object.pid|replace('xyzrins:', '') }}) ({% for role in inf.roles %}{{ ', ' if not loop.first }}{{ role.display_label|default(role.name) }}{% endfor %})
+{% endfor %}
+
+{% raw %}
 ## Our principles
 
 ### Open source
@@ -128,3 +149,4 @@ These acknowledgments describe past support, not current award periods.
 
 Support helps CON maintain open software, data services, documentation, and community infrastructure.
 [Contact the team]({{< ref "/contact" >}}) to discuss sponsorship or other forms of support.
+{% endraw %}
