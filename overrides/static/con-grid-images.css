@@ -1,0 +1,17 @@
+/* Preserve portraits and logo lettering within the square card frame. */
+.item-depiction-portrait img,
+.item-depiction-logo img {
+  object-fit: contain;
+  margin: 0;
+}
+.item-depiction-portrait img {
+  object-position: center top;
+}
+.item-depiction-logo {
+  box-sizing: border-box;
+  padding: 1rem;
+  background: #fff;
+}
+html.dark .item-depiction-logo {
+  background: #fff;
+}
