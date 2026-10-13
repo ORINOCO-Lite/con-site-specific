@@ -1,0 +1,48 @@
+associated_with:
+- description: 81 commits.
+  object: xyzrins:persons/cody-baker
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+- description: 2 commits.
+  object: xyzrins:persons/austin-macdonald
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://historia.readthedocs.io/
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Backs up a record of GitHub activity and turns it into a work-history
+    dashboard. CON uses it to see what its members have actually been doing, across
+    the several organizations the work is spread over.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Historia
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Historia
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: Historia
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/CodyCBakerPhD/historia
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+description: Backs up a record of GitHub activity and turns it into a work-history
+  dashboard. CON uses it to see what its members have actually been doing, across the
+  several organizations the work is spread over.
+display_label: Historia
+part_of:
+- xyzrins:.
+pid: xyzrins:projects/historia
+schema_type: xyzri:XYZProject
+short_name: Historia
+started:
+  at_time: '2026-04-29'
+  schema_type: dlthings:Start
+title: Historia

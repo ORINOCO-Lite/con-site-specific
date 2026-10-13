@@ -1,0 +1,16 @@
+record: xyzrins:projects/dandi-compute
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2025-11-25"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/orgs/dandi-compute/repos
+    locator: dandi-compute-core created_at
+    quote: '"name": "dandi-compute-core", "created_at": "2025-11-25T..."'
+    note: >-
+      Creation of the first repository in the organization, the core; the
+      runner follows on 2025-12-14.  An upper bound in the usual way.
+    confidence: certain
+    captured: "2026-10-13"

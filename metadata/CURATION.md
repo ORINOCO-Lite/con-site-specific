@@ -300,8 +300,10 @@ shapes to look for by hand.
   whichever quote was handy. The first draft of the PsychoPy record ended the
   contributor phase in 2011 because that was the last quote written down; the
   git log says 2018, and 42 commits — including the whole 2013 CI build-out —
-  fell in the gap. It also contradicted this repo's own
-  `reports/associations-evidence.json`.
+  fell in the gap. A harvested evidence report said so at the time and the
+  draft contradicted it; that report was an output of the migration tooling
+  and is gone with it, which is the second half of the lesson — derive from
+  the source, not from a frozen summary of it.
 - Site git history is the weakest source here: this repo begins 2011-04-14,
   `projects.html` was renamed from `features.html` on 2015-07-21, and a
   2021-06-16 reorganisation reset most anchors.

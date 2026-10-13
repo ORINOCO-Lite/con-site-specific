@@ -1,0 +1,52 @@
+associated_with:
+- description: 384 commits across the core and the runner.
+  object: xyzrins:persons/cody-baker
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/dandi-compute
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Runs processing pipelines directly on DANDI assets, rather than asking
+    everyone to download them first. Orchestration, a submission client and a public
+    queue; the first campaign puts the AIND ephys pipeline over electrophysiology
+    dandisets.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: DANDI Compute
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: DANDI Compute
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: DANDI Compute
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/dandi-compute/dandi-compute-core
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<p> <a href="https://github.com/dandi-compute">DANDI Compute</a> runs
+    processing pipelines directly on <a href="/projects#dandi_">DANDI</a> assets,
+    rather than asking everyone to download them first. The first campaign applies
+    the <a href="https://github.com/AllenNeuralDynamics/aind-ephys-pipeline">AIND
+    ephys pipeline</a> to electrophysiology dandisets. </p> <ul> <li> <a href="https://github.com/dandi-compute/dandi-compute-core">dandi-compute-core</a>:
+    orchestration and queue management. </li> <li> <a href="https://github.com/dandi-compute/dandi-compute-runner">dandi-compute-runner</a>:
+    submits jobs. </li> <li> <a href="https://github.com/dandi-compute/queue">queue</a>:
+    the processing queue, in public. </li> </ul>'
+description: Runs processing pipelines directly on DANDI assets, rather than asking
+  everyone to download them first. Orchestration, a submission client and a public
+  queue; the first campaign puts the AIND ephys pipeline over electrophysiology
+  dandisets.
+display_label: DANDI Compute
+part_of:
+- xyzrins:projects/dandi
+pid: xyzrins:projects/dandi-compute
+schema_type: xyzri:XYZProject
+short_name: DANDI Compute
+started:
+  at_time: '2025-11-25'
+  schema_type: dlthings:Start
+title: DANDI Compute
