@@ -1,6 +1,12 @@
 associated_with:
 - object: xyzrins:organizations/stamped-principles
   schema_type: dlthings:Association
+- description: Contributed to the STAMPED paper and checklist schemas, including controlled
+    access, modularity, and distributability.
+  object: xyzrins:persons/john-lee
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

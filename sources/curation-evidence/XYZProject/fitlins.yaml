@@ -1,0 +1,17 @@
+record: xyzrins:projects/fitlins
+format: con-association-evidence-v1
+assertions:
+- path: /associated_with/0
+  value:
+    description: Implemented AFNI 3dREMLfit first-level estimation.
+    object: xyzrins:persons/john-lee
+    roles:
+    - marcrel:ctb
+    schema_type: dlthings:Association
+  kind: upstream-git
+  source: https://github.com/poldracklab/fitlins/pull/171
+  locator: merged pull request authored by leej3
+  note: Supports a contributor relationship; does not establish leadership or the
+    beginning or end of involvement.
+  confidence: certain
+  captured: '2026-10-13'
