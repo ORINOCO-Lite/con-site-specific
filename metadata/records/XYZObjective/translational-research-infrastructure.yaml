@@ -1,7 +1,7 @@
 description: |-
-  Support researchers and clinicians in adapting open research tools and data-management practices for research with potential clinical applications.
+  Develop and test software, data standards, and analysis workflows that help researchers put new methods into practice.
 
-  Tools developed for basic research may also help people studying health and care. This proposed objective is to explore how our work can support those researchers and the clinicians they work with. This is a possible direction for CON to explore.
+  New methods become useful when other researchers can run them, inspect them, and build on them. We work with research communities to develop and test software, ways of organizing data, and analysis steps that work together. This helps people use research methods in their own studies.
 pid: xyzrins:objectives/translational-research-infrastructure
 schema_type: xyzri:XYZObjective
-title: Research infrastructure for translational research
+title: Turn research ideas into working tools
