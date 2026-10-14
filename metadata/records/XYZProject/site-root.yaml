@@ -343,6 +343,20 @@ associated_with:
   started:
     at_time: '2019-04-23'
     schema_type: dlthings:Start
+- object: xyzrins:persons/seyed-yahya-shirazi
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2022-12'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/dora-hermes
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2023-09'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

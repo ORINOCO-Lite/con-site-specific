@@ -43,3 +43,37 @@ assertions:
     confidence: approximate
     would_confirm: the BIDS governance page's past-members list
     captured: "2026-10-11"
+  - path: /associated_with/4/started/at_time
+    value: "2024-01"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/bids-standard/bids-website
+    locator: 19bebeabc19dcb2b72239eaca5daea8d1545e17e:docs/blog/posts/2024-01-11-steering-group-minutes.md
+    quote: '**Present:** Dora Hermes, Kimberly Ray, Ariel Rokem, Cyril Pernet,
+      Camille Maumet, Yaroslav Halchenko, Stefan Appelhoff'
+    note: >-
+      The first Steering Group minutes that list her among those present.
+      In the minutes of 2023-10-19 she appears only under a HED agenda item.
+      The website's current data/people/steering.yml lists her as a member,
+      but that file's history starts with a 2024 reorganization of the
+      repository, so it cannot date her seat.  An upper bound: the seat
+      began at or before this meeting, presumably with the new term in
+      January 2024.
+    confidence: approximate
+    captured: "2026-10-14"
+  - path: /associated_with/6/started/at_time
+    value: "2025-07"
+    bound: upper
+    artifact: record
+    kind: upstream-git
+    source: https://github.com/bids-standard/bids-specification
+    locator: dbe1cd08c5c73a28c5454d9cce8f445406fad75e
+    quote: '"Add Seyed (Yahya) Shirazi to BIDS Maintainers (#2176)" -- "Time
+      commitment: 2h/week; Scope: ExG, multimodal recording, events and
+      annotations; Joined: July 2025"'
+    note: >-
+      The commit that added him to the maintainers list, dated 2025-08-20,
+      states the month he joined.  It records the event rather than
+      tracing the work, so it is judged as a record: an upper bound.
+    confidence: certain
+    captured: "2026-10-14"

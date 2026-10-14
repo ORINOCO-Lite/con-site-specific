@@ -1,0 +1,51 @@
+attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Neuroscientist at Mayo Clinic, whose Multimodal Neuroimaging Lab studies the human
+    brain with intracranial EEG and fMRI. A member of the BIDS Steering Group and a lead
+    of BIDS BEP044 (Stimuli).
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Dora Hermes
+- predicate: dlthings:family_name
+  schema_type: dlthings:AttributeSpecification
+  value: Hermes
+- predicate: dlthings:formatted_name
+  schema_type: dlthings:AttributeSpecification
+  value: Dora Hermes
+- predicate: dlthings:given_name
+  schema_type: dlthings:AttributeSpecification
+  value: Dora
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Mayo Clinic, Rochester, MN
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://www.mayo.edu/research/faculty/hermes-miller-dora-ph-d/bio-20471548
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/dorahermes
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborators
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Her <a href="https://github.com/MultimodalNeuroimagingLab">Multimodal Neuroimaging
+    Lab</a> at Mayo Clinic studies the human brain with intracranial EEG and fMRI. A member
+    of the <a href="/projects#brain_imaging_data_structure_bids_">BIDS</a> Steering Group
+    and a lead of <a href="https://bids.neuroimaging.io/bep044">BEP044 (Stimuli)</a>.
+description: Neuroscientist at Mayo Clinic, whose Multimodal Neuroimaging Lab studies the
+  human brain with intracranial EEG and fMRI. A member of the BIDS Steering Group and a
+  lead of BIDS BEP044 (Stimuli).
+display_label: Dora Hermes
+family_name: Hermes
+formatted_name: Dora Hermes
+given_name: Dora
+identifiers:
+- notation: dorahermes
+  schema_type: dlthings:Identifier
+- creator: rrid:SCR_002630
+  notation: dorahermes
+  schema_type: dlthings:Identifier
+pid: xyzrins:persons/dora-hermes
+schema_type: xyzri:XYZPerson
