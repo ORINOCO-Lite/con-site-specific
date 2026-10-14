@@ -28,9 +28,6 @@
       ) }}
     </h1>
   </header>
-  {{ if eq $taxonomy "persons" }}
-    <div class="prose max-w-full dark:prose-invert">{{ .Content | emojify }}</div>
-  {{ end }}
   <article class="prose max-w-full dark:prose-invert">
   {{ if eq $taxonomy "projects" }}
     {{ if partial "con-project-membership.html" (dict "page" .) }}
@@ -110,7 +107,6 @@
     <p>{{ . | markdownify }}</p>
   {{ end }}
   </article>
-  {{ if ne $taxonomy "persons" }}
   <!-- Content from index page -->
   <section
     class="{{ if $toc -}}
@@ -130,8 +126,6 @@
       {{ .Content | emojify }}
     </div>
   </section>
-
-  {{ end }}
 
   {{ with .Params.distributions }}
     {{ partial "term-distributions.html" . }}

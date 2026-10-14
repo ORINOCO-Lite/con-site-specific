@@ -1,14 +1,15 @@
-{%- set p = {'graphRootNodePID': pid} -%}
-{%- for field in ['given_name', 'family_name', 'identifiers', 'description'] -%}
-  {%- if __rec.get(field) -%}
-    {%- set _ = p.update({field: __rec[field]}) -%}
-  {%- endif -%}
-{%- endfor -%}
-{%- for attribute in attributes|default([]) -%}
-  {%- if attribute.predicate == 'dlthings:tier' -%}
-    {%- set _ = p.update({'tier': attribute.value}) -%}
-  {%- endif -%}
-{%- endfor -%}
+{% extends "www-from-model:page_templates/person.md.j2" %}
+
+{% block frontmatter_params %}
+{{ super() }}
+{% for attribute in attributes|default([]) %}
+{% if attribute.predicate == 'dlthings:tier' %}
+  {{ {'tier': attribute.value}|toyaml|indent(2)|trim }}
+{% endif %}
+{% endfor %}
+{% endblock %}
+
+{% block content %}
 {%- set contacts = [] -%}
 {%- set seen = [] -%}
 {%- set labels = {
@@ -47,8 +48,5 @@
     {%- set _ = seen.append(value) -%}
   {%- endif -%}
 {%- endfor -%}
----
-{{ {'title': given_name ~ ' ' ~ family_name, 'params': p} | toyaml }}
----
-
 {{ contacts|join(' · ') }}
+{% endblock %}
