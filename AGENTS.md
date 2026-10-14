@@ -6,11 +6,12 @@ It sets the rules for hand-curated records: how to encode timed associations and
 Validate before committing:
 
 ```console
-python3 tools/validate_records.py
-THINGS_SCHEMAS=/path/to/things-schemas tools/linkml_check.sh
+pre-commit run --all-files
+THINGS_SCHEMAS=/path/to/things-schemas pre-commit run --all-files --hook-stage manual linkml-check
 ```
 
-`git config core.hooksPath tools` runs the first one on every commit.
+The first runs `tools/validate_records.py` and the YAML checks; the second runs `tools/linkml_check.sh`.
+`pre-commit install` runs the first on every commit, and CI runs both on every pull request.
 
 In a hand-written record, put each fact in one place:
 
