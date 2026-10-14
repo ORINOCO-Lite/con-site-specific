@@ -1,0 +1,51 @@
+attributes:
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Staff Scientist at Lawrence Berkeley National Laboratory and Research Affiliate
+    and Research Mentor at ICSI. A principal investigator of NWB who co-led the development
+    of NWB 2.0 and its software, PyNWB and HDMF.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Oliver Rübel
+- predicate: dlthings:family_name
+  schema_type: dlthings:AttributeSpecification
+  value: Rübel
+- predicate: dlthings:formatted_name
+  schema_type: dlthings:AttributeSpecification
+  value: Oliver Rübel
+- predicate: dlthings:given_name
+  schema_type: dlthings:AttributeSpecification
+  value: Oliver
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Staff Scientist, Lawrence Berkeley National Laboratory
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://profiles.lbl.gov/20413-oliver-ruebel
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/oruebel
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborators
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: A principal investigator of <a href="/projects#neurodata_without_borders__neurophysiology_nwb_n_">NWB</a>
+    who co-led the development of NWB 2.0 and of its software, <a href="https://github.com/NeurodataWithoutBorders/pynwb">PyNWB</a>
+    and <a href="https://github.com/hdmf-dev/hdmf">HDMF</a>. Also a Research Affiliate
+    and Research Mentor at <a href="https://icsi.berkeley.edu/people/oliver-rubel/">ICSI</a>.
+description: Staff Scientist at Lawrence Berkeley National Laboratory and Research Affiliate
+  and Research Mentor at ICSI. A principal investigator of NWB who co-led the development
+  of NWB 2.0 and its software, PyNWB and HDMF.
+display_label: Oliver Rübel
+family_name: Rübel
+formatted_name: Oliver Rübel
+given_name: Oliver
+identifiers:
+- notation: oruebel
+  schema_type: dlthings:Identifier
+- creator: rrid:SCR_002630
+  notation: oruebel
+  schema_type: dlthings:Identifier
+pid: xyzrins:persons/oliver-ruebel
+schema_type: xyzri:XYZPerson

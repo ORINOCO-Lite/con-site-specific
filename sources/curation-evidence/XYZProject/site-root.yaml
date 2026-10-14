@@ -716,3 +716,41 @@ assertions:
       record starts 2017-08-03.
     confidence: approximate
     captured: "2026-10-13"
+  - path: /associated_with/38/started/at_time
+    value: "2017-10-06"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/NeurodataWithoutBorders/nwb-schema
+    locator: abf52db28277601d4b3e25c6f3e4755a82dc6913
+    quote: 'Yaroslav Halchenko, 2017-10-06, "ENH: allow for groups section to not
+      be defined and find_missing_help to not fail"'
+    note: >-
+      YOH dates this collaboration to around the time the DANDI proposal was
+      being written and submitted, about when he started working with Ben
+      Dichter.  The trace used here is CON's own side of that: YOH's oldest
+      commit in nwb-schema, the repository Oliver Rübel led then (his oldest
+      commit there is 2017-03-23, and 439 of its commits are his).  The
+      commit sat on a branch until PR #290 merged it on 2019-08-14; YOH's
+      oldest commit to land in PyNWB, #606 on 2018-09-10, is the next trace.
+      The funded DANDI award is 1R24MH117295-01A1, a resubmission, so the
+      first proposal is older than the 2019 award.  An upper bound.
+    confidence: approximate
+    captured: "2026-10-14"
+  - path: /associated_with/39/started/at_time
+    value: "2019-04-23"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/NeurodataWithoutBorders/pynwb
+    locator: 669564951176ffc44b2b46c20b2c5a1949817a63
+    quote: 'Ryan Ly <rly@lbl.gov>, 2019-04-23, "import Device from device.py, not
+      ecephys.py (#899)"'
+    note: >-
+      YOH dates the collaboration with the LBL NWB team to around the DANDI
+      proposal (see Oliver Rübel's association above).  Ryan Ly joined that
+      team later: his oldest commit in PyNWB, HDMF (2019-05-01) and
+      nwb-schema (2019-05-24) is this one, so it is the earliest trace of
+      him working on NWB.  CON's DANDI project starts three months later
+      (2019-07-24).  An upper bound in the gate's sense: he was working on
+      NWB by this date and may have started a little earlier.
+    confidence: approximate
+    captured: "2026-10-14"
