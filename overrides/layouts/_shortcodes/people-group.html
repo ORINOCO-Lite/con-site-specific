@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="{{ "con-grid-images.css" | relURL }}">
 {{ $people := slice }}
 {{ if .Get "tier" }}
   {{ with site.GetPage "/persons" }}
@@ -19,3 +18,4 @@
 {{ end }}
 {{ partial "taxonomy-list-grid.html" (dict "Pages" $people "Params" .Page.Params "Data" .Page.Data) }}
 {{ with .Get "title" }}</section>{{ end }}
+<link rel="stylesheet" href="{{ "con-grid-images.css" | relURL }}">
