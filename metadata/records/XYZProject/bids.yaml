@@ -23,6 +23,30 @@ associated_with:
   roles:
   - xyzrins:agent-roles/7e8c6eda-7d12-4c9f-9a3e-225e53a3db46
   schema_type: dlthings:Association
+- description: Elected member of the BIDS Steering Group, now at the end of her term.
+  object: xyzrins:persons/dora-hermes
+  roles:
+  - xyzrins:agent-roles/steering-committee-member
+  schema_type: dlthings:Association
+  started:
+    at_time: '2024-01'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/dora-hermes
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- description: 'BIDS maintainer; scope: ExG, multimodal recording, events and annotations.'
+  object: xyzrins:persons/seyed-yahya-shirazi
+  roles:
+  - xyzrins:agent-roles/7e8c6eda-7d12-4c9f-9a3e-225e53a3db46
+  schema_type: dlthings:Association
+  started:
+    at_time: '2025-07'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/seyed-yahya-shirazi
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

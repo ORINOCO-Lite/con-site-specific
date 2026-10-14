@@ -7,6 +7,11 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+- description: 21 commits to hed-schemas.
+  object: xyzrins:persons/seyed-yahya-shirazi
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

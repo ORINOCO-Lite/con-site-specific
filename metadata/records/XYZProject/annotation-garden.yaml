@@ -1,0 +1,30 @@
+associated_with:
+- object: xyzrins:persons/seyed-yahya-shirazi
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+- description: An advisor to the initiative.
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:sad
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://annotation.garden
+description: 'Open infrastructure for collaborative annotation of neuroscience stimuli:
+  shared, versioned annotations of naturalistic movies, images and audio, built on BIDS
+  and HED, with AI-drafted annotations that people refine.'
+display_label: Annotation Garden Initiative
+influenced_by:
+- object: xyzrins:projects/bids
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:projects/hed
+  schema_type: xyzri:XYZInfluence
+pid: xyzrins:projects/annotation-garden
+schema_type: xyzri:XYZProject
+short_name: Annotation Garden
+started:
+  at_time: '2025-11-24'
+  schema_type: dlthings:Start
+title: Annotation Garden Initiative

@@ -1,0 +1,19 @@
+record: xyzrins:projects/annotation-garden
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2025-11-24"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/Annotation-Garden/management
+    locator: c456203155ca89659c138aaf6104c45e8430a4b7
+    quote: 'Seyed Yahya Shirazi, 2025-11-24, "Add management repository README"'
+    note: >-
+      The oldest commit in the initiative's own repositories: management
+      and the organization profile (.github, 5ae3d2b) both start that day.
+      HEDit, now in the organization, is older (2025-11-15), but it began
+      as hed-bot in Shirazi's own account and was moved in later, so it
+      does not date the initiative.  An upper bound.
+    confidence: approximate
+    captured: "2026-10-14"
