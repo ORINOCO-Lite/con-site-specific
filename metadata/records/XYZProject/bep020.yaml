@@ -11,14 +11,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://bids-specification.readthedocs.io/en/stable/modality-specific-files/physiological-recordings.html#eye-tracking
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: 'Extends BIDS to eye-tracking data: gaze position, pupil size and the events
-    detected from them. Merged into the specification in January 2026. Leads: Dejan Draschkow,
-    Martin Szinte.'
-- predicate: skos:prefLabel
-  schema_type: dlthings:AttributeSpecification
-  value: 'BEP020: Eye Tracking'
 - predicate: dlthings:section
   schema_type: dlthings:AttributeSpecification
   value: Standards

@@ -1,21 +1,4 @@
 attributes:
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Neuroscientist at Mayo Clinic, whose Multimodal Neuroimaging Lab studies the human
-    brain with intracranial EEG and fMRI. A member of the BIDS Steering Group and a lead
-    of BIDS BEP044 (Stimuli).
-- predicate: skos:prefLabel
-  schema_type: dlthings:AttributeSpecification
-  value: Dora Hermes
-- predicate: dlthings:family_name
-  schema_type: dlthings:AttributeSpecification
-  value: Hermes
-- predicate: dlthings:formatted_name
-  schema_type: dlthings:AttributeSpecification
-  value: Dora Hermes
-- predicate: dlthings:given_name
-  schema_type: dlthings:AttributeSpecification
-  value: Dora
 - predicate: dlthings:position
   schema_type: dlthings:AttributeSpecification
   value: Mayo Clinic, Rochester, MN
@@ -37,9 +20,7 @@ attributes:
 description: Neuroscientist at Mayo Clinic, whose Multimodal Neuroimaging Lab studies the
   human brain with intracranial EEG and fMRI. A member of the BIDS Steering Group and a
   lead of BIDS BEP044 (Stimuli).
-display_label: Dora Hermes
 family_name: Hermes
-formatted_name: Dora Hermes
 given_name: Dora
 identifiers:
 - notation: dorahermes

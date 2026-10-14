@@ -2,23 +2,6 @@ attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
   value: syshirazi@ucsd.edu
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Assistant Project Scientist at the Swartz Center for Computational Neuroscience,
-    UC San Diego. A BIDS maintainer and HED contributor, a lead of BIDS BEP044 (Stimuli)
-    and BEP042 (EMG), and the lead of the Annotation Garden Initiative.
-- predicate: skos:prefLabel
-  schema_type: dlthings:AttributeSpecification
-  value: Seyed (Yahya) Shirazi
-- predicate: dlthings:family_name
-  schema_type: dlthings:AttributeSpecification
-  value: Shirazi
-- predicate: dlthings:formatted_name
-  schema_type: dlthings:AttributeSpecification
-  value: Seyed Yahya Shirazi
-- predicate: dlthings:given_name
-  schema_type: dlthings:AttributeSpecification
-  value: Seyed Yahya
 - predicate: dlthings:nickname
   schema_type: dlthings:AttributeSpecification
   value: Yahya
@@ -53,7 +36,6 @@ description: Assistant Project Scientist at the Swartz Center for Computational 
   and BEP042 (EMG), and the lead of the Annotation Garden Initiative.
 display_label: Seyed (Yahya) Shirazi
 family_name: Shirazi
-formatted_name: Seyed Yahya Shirazi
 given_name: Seyed Yahya
 identifiers:
 - notation: neuromechanist

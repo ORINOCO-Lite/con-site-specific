@@ -1,21 +1,4 @@
 attributes:
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Staff Scientist at Lawrence Berkeley National Laboratory and Research Affiliate
-    and Research Mentor at ICSI. A principal investigator of NWB who co-led the development
-    of NWB 2.0 and its software, PyNWB and HDMF.
-- predicate: skos:prefLabel
-  schema_type: dlthings:AttributeSpecification
-  value: Oliver Rübel
-- predicate: dlthings:family_name
-  schema_type: dlthings:AttributeSpecification
-  value: Rübel
-- predicate: dlthings:formatted_name
-  schema_type: dlthings:AttributeSpecification
-  value: Oliver Rübel
-- predicate: dlthings:given_name
-  schema_type: dlthings:AttributeSpecification
-  value: Oliver
 - predicate: dlthings:position
   schema_type: dlthings:AttributeSpecification
   value: Staff Scientist, Lawrence Berkeley National Laboratory
@@ -37,9 +20,7 @@ attributes:
 description: Staff Scientist at Lawrence Berkeley National Laboratory and Research Affiliate
   and Research Mentor at ICSI. A principal investigator of NWB who co-led the development
   of NWB 2.0 and its software, PyNWB and HDMF.
-display_label: Oliver Rübel
 family_name: Rübel
-formatted_name: Oliver Rübel
 given_name: Oliver
 identifiers:
 - notation: oruebel

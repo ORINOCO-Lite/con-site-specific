@@ -1,21 +1,4 @@
 attributes:
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Senior Research Software Engineer at Lawrence Berkeley National Laboratory and
-    Research Affiliate at ICSI. Technical lead of the NWB data standard and software ecosystem
-    (PyNWB, HDMF, NWB GUIDE, LINDI).
-- predicate: skos:prefLabel
-  schema_type: dlthings:AttributeSpecification
-  value: Ryan Ly
-- predicate: dlthings:family_name
-  schema_type: dlthings:AttributeSpecification
-  value: Ly
-- predicate: dlthings:formatted_name
-  schema_type: dlthings:AttributeSpecification
-  value: Ryan Ly
-- predicate: dlthings:given_name
-  schema_type: dlthings:AttributeSpecification
-  value: Ryan
 - predicate: dlthings:position
   schema_type: dlthings:AttributeSpecification
   value: Senior Research Software Engineer, Lawrence Berkeley National Laboratory
@@ -38,9 +21,7 @@ attributes:
 description: Senior Research Software Engineer at Lawrence Berkeley National Laboratory
   and Research Affiliate at ICSI. Technical lead of the NWB data standard and software
   ecosystem (PyNWB, HDMF, NWB GUIDE, LINDI).
-display_label: Ryan Ly
 family_name: Ly
-formatted_name: Ryan Ly
 given_name: Ryan
 identifiers:
 - notation: rly
