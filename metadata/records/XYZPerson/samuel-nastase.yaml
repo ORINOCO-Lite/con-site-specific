@@ -37,9 +37,6 @@ attributes:
 - predicate: foaf:account
   schema_type: dlthings:AttributeSpecification
   value: https://www.linkedin.com/in/samuelnastase
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0000-0001-7013-5275
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Emeritus
@@ -61,6 +58,9 @@ family_name: Nastase
 formatted_name: Samuel Nastase
 given_name: Samuel
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0001-7013-5275
+  schema_type: xyzri:ORCID
 - notation: snastase
   schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630

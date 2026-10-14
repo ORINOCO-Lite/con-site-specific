@@ -27,9 +27,6 @@ attributes:
 - predicate: foaf:account
   schema_type: dlthings:AttributeSpecification
   value: https://www.linkedin.com/in/francopestilli
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0000-0002-2469-0494
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Collaborators
@@ -50,6 +47,9 @@ family_name: Pestilli
 formatted_name: Franco Pestilli
 given_name: Franco
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0002-2469-0494
+  schema_type: xyzri:ORCID
 - notation: francopestilli
   schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630
