@@ -1,0 +1,31 @@
+record: xyzrins:projects/bep020
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2018-04"
+    bound: exact
+    kind: registry
+    source: https://github.com/bids-standard/bids-website
+    locator: 78855b5e1613135b7f0a76eb805ef0fe232cc1d5:data/beps/beps_completed.yml
+    quote: 'number: "020" ... google_doc_created: 2018-04'
+    note: >-
+      The BIDS website's own register of completed BEPs, giving the month
+      the BEP's Google Doc was created.  The same entry records the pull
+      request as created 2022-06 and merged 2026-01.
+    confidence: certain
+    captured: "2026-10-14"
+  - path: /ended/at_time
+    value: "2026-01-16"
+    bound: upper
+    artifact: record
+    kind: upstream-git
+    source: https://github.com/bids-standard/bids-specification
+    locator: a87f131b95795c69b4166b67aadc7c7b63e21e06
+    quote: '[ENH] BEP 020 Eye Tracking (#1128)'
+    note: >-
+      The squash-merge of the BEP into the specification, which is what
+      ends a BEP: it becomes part of BIDS and is maintained there.  The
+      commit is the event itself, so it is judged as a record.
+    confidence: certain
+    captured: "2026-10-14"

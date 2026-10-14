@@ -3,6 +3,21 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+- object: xyzrins:persons/cody-baker
+  roles:
+  - marcrel:ctb
+  - marcrel:swd
+  schema_type: dlthings:Association
+- object: xyzrins:persons/oliver-ruebel
+  roles:
+  - obo:NCIT_C19924
+  - marcrel:swd
+  schema_type: dlthings:Association
+- object: xyzrins:persons/ryan-ly
+  roles:
+  - marcrel:led
+  - marcrel:swd
+  schema_type: dlthings:Association
 - object: xyzrins:persons/yaroslav-halchenko
   roles:
   - xyzrins:agent-roles/steering-committee-member

@@ -4,6 +4,16 @@ associated_with:
   roles:
   - marcrel:led
   schema_type: dlthings:Association
+- description: Named as a BEP lead in the BIDS website's own data/beps/beps.yml.
+  object: xyzrins:persons/seyed-yahya-shirazi
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+- description: Named as a BEP lead in the BIDS website's own data/beps/beps.yml.
+  object: xyzrins:persons/dora-hermes
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

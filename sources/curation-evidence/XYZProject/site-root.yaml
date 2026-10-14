@@ -716,3 +716,79 @@ assertions:
       record starts 2017-08-03.
     confidence: approximate
     captured: "2026-10-13"
+  - path: /associated_with/38/started/at_time
+    value: "2017-10-06"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/NeurodataWithoutBorders/nwb-schema
+    locator: abf52db28277601d4b3e25c6f3e4755a82dc6913
+    quote: 'Yaroslav Halchenko, 2017-10-06, "ENH: allow for groups section to not
+      be defined and find_missing_help to not fail"'
+    note: >-
+      YOH dates this collaboration to around the time the DANDI proposal was
+      being written and submitted, about when he started working with Ben
+      Dichter.  The trace used here is CON's own side of that: YOH's oldest
+      commit in nwb-schema, the repository Oliver Rübel led then (his oldest
+      commit there is 2017-03-23, and 439 of its commits are his).  The
+      commit sat on a branch until PR #290 merged it on 2019-08-14; YOH's
+      oldest commit to land in PyNWB, #606 on 2018-09-10, is the next trace.
+      The funded DANDI award is 1R24MH117295-01A1, a resubmission, so the
+      first proposal is older than the 2019 award.  An upper bound.
+    confidence: approximate
+    captured: "2026-10-14"
+  - path: /associated_with/39/started/at_time
+    value: "2019-04-23"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/NeurodataWithoutBorders/pynwb
+    locator: 669564951176ffc44b2b46c20b2c5a1949817a63
+    quote: 'Ryan Ly <rly@lbl.gov>, 2019-04-23, "import Device from device.py, not
+      ecephys.py (#899)"'
+    note: >-
+      YOH dates the collaboration with the LBL NWB team to around the DANDI
+      proposal (see Oliver Rübel's association above).  Ryan Ly joined that
+      team later: his oldest commit in PyNWB, HDMF (2019-05-01) and
+      nwb-schema (2019-05-24) is this one, so it is the earliest trace of
+      him working on NWB.  CON's DANDI project starts three months later
+      (2019-07-24).  An upper bound in the gate's sense: he was working on
+      NWB by this date and may have started a little earlier.
+    confidence: approximate
+    captured: "2026-10-14"
+  - path: /associated_with/40/started/at_time
+    value: "2022-12"
+    bound: upper
+    kind: recollection
+    source: conversation with YOH, 2026-10-14
+    locator: https://github.com/bids-standard/bids-specification/pull/1128#issuecomment-1354090167
+    quote: We started collaborating in Dec 2022 while working on
+      bids-specification PR #1128 (BEP020 eye tracking).
+    note: >-
+      YOH's account, pointing at a comment in the BEP020 pull request.  The
+      comment's timestamp could not be read from the authoring environment
+      (the GitHub API was not reachable), and the pull request's own commits
+      do not show the exchange.  Later traces agree with an earlier start:
+      a joint preprint on BEP020 (bioRxiv 10.64898/2026.02.03.703514), the
+      BEP044 leadership they share, and his BIDS maintainership from July
+      2025.
+    confidence: approximate
+    would_confirm: the created_at of issuecomment-1354090167 in
+      bids-standard/bids-specification#1128
+    captured: "2026-10-14"
+  - path: /associated_with/41/started/at_time
+    value: "2023-09"
+    bound: upper
+    kind: publication
+    source: https://doi.org/10.48550/arXiv.2309.05768
+    locator: arXiv identifier 2309.05768 (submitted September 2023)
+    quote: The Past, Present, and Future of the Brain Imaging Data Structure
+      (BIDS), with Dora Hermes and Yaroslav Halchenko among its authors
+    note: >-
+      YOH dates the collaboration to 2023 and to "A comparison of
+      neuroelectrophysiology databases" (Scientific Data, 2023-10-19,
+      doi:10.1038/s41597-023-02614-0), which both co-authored.  The BIDS
+      paper's arXiv preprint is a month older, so it is the earlier trace.
+      They may have overlapped before that on BIDS's iEEG and EEG
+      extensions: her oldest commit in bids-specification is 2019-01-27,
+      and his are from 2018.  An upper bound.
+    confidence: approximate
+    captured: "2026-10-14"

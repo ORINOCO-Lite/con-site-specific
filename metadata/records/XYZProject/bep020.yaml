@@ -1,0 +1,32 @@
+associated_with:
+- object: xyzrins:persons/seyed-yahya-shirazi
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://bids-specification.readthedocs.io/en/stable/modality-specific-files/physiological-recordings.html#eye-tracking
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Standards
+description: 'Extends BIDS to eye-tracking data: gaze position, pupil size and the events
+  detected from them. Merged into the specification in January 2026. Leads: Dejan Draschkow,
+  Martin Szinte.'
+display_label: BEP020
+ended:
+  at_time: '2026-01-16'
+  schema_type: dlthings:End
+part_of:
+- xyzrins:projects/bids
+pid: xyzrins:projects/bep020
+schema_type: xyzri:XYZProject
+short_name: BEP020
+started:
+  at_time: '2018-04'
+  schema_type: dlthings:Start
+title: 'BEP020: Eye Tracking including Gaze Position and Pupil Size'

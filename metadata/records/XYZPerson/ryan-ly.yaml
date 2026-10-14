@@ -1,0 +1,31 @@
+attributes:
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Senior Research Software Engineer, Lawrence Berkeley National Laboratory
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://profiles.lbl.gov/40898-ryan-ly
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/rly
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborators
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Technical lead of the <a href="/projects#neurodata_without_borders__neurophysiology_nwb_n_">NWB</a>
+    data standard and software ecosystem, developing <a href="https://github.com/NeurodataWithoutBorders/pynwb">PyNWB</a>,
+    <a href="https://github.com/hdmf-dev/hdmf">HDMF</a>, <a href="https://github.com/NeurodataWithoutBorders/nwb-guide">NWB
+    GUIDE</a> and <a href="https://github.com/NeurodataWithoutBorders/lindi">LINDI</a>.
+    Also a Research Affiliate at <a href="https://icsi.berkeley.edu/people/ryan-ly/">ICSI</a>.
+description: Senior Research Software Engineer at Lawrence Berkeley National Laboratory
+  and Research Affiliate at ICSI. Technical lead of the NWB data standard and software
+  ecosystem (PyNWB, HDMF, NWB GUIDE, LINDI).
+family_name: Ly
+given_name: Ryan
+identifiers:
+- creator: rrid:SCR_002630
+  notation: rly
+  schema_type: dlthings:Identifier
+pid: xyzrins:persons/ryan-ly
+schema_type: xyzri:XYZPerson

@@ -1,0 +1,45 @@
+attributes:
+- predicate: vcard:Email
+  schema_type: dlthings:AttributeSpecification
+  value: syshirazi@ucsd.edu
+- predicate: dlthings:nickname
+  schema_type: dlthings:AttributeSpecification
+  value: Yahya
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Assistant Project Scientist, SCCN, UC San Diego
+- predicate: vcard:hasEmail
+  schema_type: dlthings:AttributeSpecification
+  value: mailto:syshirazi@ucsd.edu
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://profiles.ucsd.edu/seyedyahya.shirazi
+- predicate: dlthings:home_page
+  schema_type: dlthings:AttributeSpecification
+  value: https://neuromechanist.github.io
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/neuromechanist
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborators
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Assistant Project Scientist at the <a href="https://sccn.ucsd.edu">Swartz Center
+    for Computational Neuroscience</a>, UC San Diego. A <a href="/projects#brain_imaging_data_structure_bids_">BIDS</a>
+    maintainer and <a href="https://www.hedtags.org">HED</a> contributor, a lead of <a
+    href="https://bids.neuroimaging.io/bep044">BEP044 (Stimuli)</a> and <a href="https://bids-specification.readthedocs.io/en/stable/modality-specific-files/electromyography.html">BEP042
+    (EMG)</a>, and the lead of the <a href="https://annotation.garden">Annotation Garden
+    Initiative</a>.
+description: Assistant Project Scientist at the Swartz Center for Computational Neuroscience,
+  UC San Diego. A BIDS maintainer and HED contributor, a lead of BIDS BEP044 (Stimuli)
+  and BEP042 (EMG), and the lead of the Annotation Garden Initiative.
+display_label: Seyed (Yahya) Shirazi
+family_name: Shirazi
+given_name: Seyed Yahya
+identifiers:
+- creator: rrid:SCR_002630
+  notation: neuromechanist
+  schema_type: dlthings:Identifier
+pid: xyzrins:persons/seyed-yahya-shirazi
+schema_type: xyzri:XYZPerson
