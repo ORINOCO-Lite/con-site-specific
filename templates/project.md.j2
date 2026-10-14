@@ -1,29 +1,7 @@
-{% macro taxonomy_terms(taxonomy, type, objects, typeattr='object.schema_type', pidattr='object.pid') -%}
-{%- set matching = objects|selectattr(typeattr, 'eq', type)|map(attribute=pidattr)|map('replace', 'xyzrins:' ~ taxonomy ~ '/', '')|sort -%}
-{% if matching|length -%}
-{{ taxonomy }}:
-{% for pid in matching -%}
-- {{ pid }}
-{% endfor -%}
-{%- endif -%}
-{%- endmacro -%}
-{% macro assoc_period(ass, pre="") -%}
-{% if ass.started is defined and ass.started.at_time is defined and ass.ended is defined and ass.ended.at_time is defined %}{{ pre ~ ass.started.at_time }} -- {{ ass.ended.at_time }}{% elif ass.started is defined and ass.started.at_time is defined %}{{ pre ~ "since"}} {{ass.started.at_time }}{% elif ass.ended is defined and ass.ended.at_time is defined %}{{pre ~ "until"}} {{ ass.ended.at_time }}{% endif %}
-{%- endmacro -%}
-{% macro url_overrides(tags) -%}
-{% if annotations is defined -%}
-{% if annotations["xyzrins:annotation-tags/psyinf-ns-id"] is defined -%}
-url: {{ annotations["xyzrins:annotation-tags/psyinf-ns-id"] }}
-{% endif -%}
-{% endif -%}
-{%- endmacro -%}
+{% extends "www-from-model:page_templates/project.md.j2" %}
 
-
-{%- set objectives = influenced_by | selectattr("object.schema_type", "eq", "xyzri:XYZObjective") | selectattr("ended", "undefined") | list -%}
-{%- set curr_associated = associated_with | selectattr("object.schema_type", "eq", "xyzri:XYZPerson") | selectattr("ended", "undefined") | list -%}
-{%- set prev_associated = associated_with | selectattr("object.schema_type", "eq", "xyzri:XYZPerson") | selectattr("ended", "defined") | list -%}
-
----
+{% block frontmatter_params %}
+{{ super() }}
 {% set con_contributions = [] %}
 {% for association in associated_with|default([]) %}
 {% if association.object.pid == 'ror:04tfhh831' %}
@@ -32,64 +10,9 @@ url: {{ annotations["xyzrins:annotation-tags/psyinf-ns-id"] }}
 {% endfor %}
 {% endif %}
 {% endfor %}
-{% block frontmatter -%}
-title: "{{ title }}"
-{{ taxonomy_terms('projects', 'xyzri:XYZProject', parts, typeattr='schema_type', pidattr='pid') -}}
-{{ taxonomy_terms('objectives', 'xyzri:XYZObjective', influenced_by) -}}
-{{ taxonomy_terms('persons', 'xyzri:XYZPerson', associated_with) -}}
-{{ taxonomy_terms('instruments', 'xyzri:XYZInstrument', generated, typeattr='schema_type', pidattr='pid') -}}
-{% endblock -%}
-params:
-  graphRootNodePID: {{ pid }}
   conContribution: {{ 'true' if con_contributions else 'false' }}
   parentProjects:
 {% for parent in part_of|default([]) %}
   - {{ parent.pid }}
 {% endfor %}
----
-
-{% block content -%}
-{{ description }}
-
-{% if part_of %}## Part of
-{% for item in part_of -%}
-- [{{ item.title }}](/{{ item.pid.replace('xyzrins:', '') }})
-{% endfor %}
-{% endif -%}
-
-{% if objectives -%}
-## Objectives
-
-{% for inf in objectives -%}
-- [{{ inf.object.title }}](/{{ inf.object.pid|replace('xyzrins:', '') }}) ({%for role in inf.roles %}{{ ', ' if not loop.first }}{{ role.display_label|default(role.name) }}{% endfor -%})
-{% endfor -%}
-{% endif -%}
-
-{% if curr_associated or prev_associated -%}
-## People
-
-{% if curr_associated -%}
-### Currently associated
-
-{% for ass in curr_associated -%}
-- [{{ ass.object.given_name }}&nbsp;{{ ass.object.family_name }}](/{{ ass.object.pid|replace('xyzrins:', '') }}) ({% for role in ass.roles %}{{ ', ' if not loop.first }}{{ role.display_label|default(role.name) }}{% endfor -%})
-{% endfor -%}
-{% endif -%}
-
-{% if prev_associated -%}
-### Previously associated
-{% for ass in prev_associated -%}
-
-- [{{ ass.object.given_name }}&nbsp;{{ ass.object.family_name }}](/{{ ass.object.pid|replace('xyzrins:', '') }}) ({% for role in ass.roles %}{{ ', ' if not loop.first }}{{ role.display_label|default(role.name) }}{% endfor -%} {{ assoc_period(ass, "; ") }})
-{% endfor -%}
-{% endif -%}
-{% endif -%}
-
-{% if generated -%}
-## Outputs
-
-{% for gen in generated -%}
-- [{{ gen.display_label|default(gen.title)|default(gen.name) }}]({{ gen.pid|replace('xyzrins:', '/') }})
-{% endfor -%}
-{% endif %}
 {% endblock %}
