@@ -10,6 +10,7 @@
 {% endblock %}
 
 {% block content %}
+{{ super() }}
 {%- set contacts = [] -%}
 {%- set seen = [] -%}
 {%- set labels = {
