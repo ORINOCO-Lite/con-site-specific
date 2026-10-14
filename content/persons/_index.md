@@ -2,6 +2,7 @@
 title: People
 layout: editorial
 params:
+  grid_image_fit: fit
   term:
     depiction_type: portrait
     show_relations: expandable

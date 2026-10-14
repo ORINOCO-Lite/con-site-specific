@@ -1,0 +1,8 @@
+  {{ if eq .Data.Plural "projects" }}
+    {{ if partial "con-project-membership.html" (dict "page" .) }}
+      <p>Part of <a href="{{ site.Home.RelPermalink }}">CON</a>.</p>
+    {{ end }}
+    {{ if .Params.conContribution }}
+      <p><a href="{{ site.Home.RelPermalink }}">CON</a> contributes to this project.</p>
+    {{ end }}
+  {{ end }}
