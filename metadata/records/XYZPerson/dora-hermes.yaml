@@ -23,8 +23,6 @@ description: Neuroscientist at Mayo Clinic, whose Multimodal Neuroimaging Lab st
 family_name: Hermes
 given_name: Dora
 identifiers:
-- notation: dorahermes
-  schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630
   notation: dorahermes
   schema_type: dlthings:Identifier

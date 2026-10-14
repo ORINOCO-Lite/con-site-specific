@@ -23,8 +23,6 @@ description: Staff Scientist at Lawrence Berkeley National Laboratory and Resear
 family_name: Rübel
 given_name: Oliver
 identifiers:
-- notation: oruebel
-  schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630
   notation: oruebel
   schema_type: dlthings:Identifier

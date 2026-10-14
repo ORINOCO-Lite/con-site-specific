@@ -38,8 +38,6 @@ display_label: Seyed (Yahya) Shirazi
 family_name: Shirazi
 given_name: Seyed Yahya
 identifiers:
-- notation: neuromechanist
-  schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630
   notation: neuromechanist
   schema_type: dlthings:Identifier

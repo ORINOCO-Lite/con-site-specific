@@ -24,8 +24,6 @@ description: Senior Research Software Engineer at Lawrence Berkeley National Lab
 family_name: Ly
 given_name: Ryan
 identifiers:
-- notation: rly
-  schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630
   notation: rly
   schema_type: dlthings:Identifier
