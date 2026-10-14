@@ -1,0 +1,37 @@
+# Gates for the record store; see docs/metadata-curation.md, "Two gates".
+#
+#   pre-commit install                      # run the fast gates on every commit
+#   pre-commit run --all-files              # the same, over the whole store
+#   THINGS_SCHEMAS=/path/to/things-schemas \
+#     pre-commit run --all-files --hook-stage manual linkml-check
+#
+# `pre-commit install` refuses to run while `core.hooksPath` is set, so unset
+# it first if you used `git config core.hooksPath tools` (tools/pre-commit runs
+# the same curation check).  CI runs both gates: .github/workflows/validate.yml.
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-yaml
+      - id: check-merge-conflict
+
+  - repo: local
+    hooks:
+      - id: validate-records
+        name: records follow the curation rules
+        entry: python tools/validate_records.py
+        language: python
+        additional_dependencies: [pyyaml]
+        files: ^(metadata/|sources/curation-evidence/|tools/validate_records\.py$)
+        pass_filenames: false
+
+      # The schema check spawns linkml per class (~40s) and needs a
+      # things-schemas checkout, so it runs on request and in CI rather than
+      # on every commit.
+      - id: linkml-check
+        name: records validate against demo-research-information
+        entry: tools/linkml_check.sh
+        language: script
+        files: ^(metadata/records/|tools/linkml_check\.sh$)
+        pass_filenames: false
+        stages: [manual]
