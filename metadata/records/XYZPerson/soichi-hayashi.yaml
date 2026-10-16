@@ -33,9 +33,6 @@ attributes:
 - predicate: vcard:hasEmail
   schema_type: dlthings:AttributeSpecification
   value: mailto:soichih@gmail.com
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0000-0003-3641-3491
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Emeritus
@@ -60,6 +57,9 @@ family_name: Hayashi
 formatted_name: Soichi Hayashi
 given_name: Soichi
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0003-3641-3491
+  schema_type: xyzri:ORCID
 - notation: soichih
   schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630

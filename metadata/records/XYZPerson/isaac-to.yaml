@@ -30,9 +30,6 @@ attributes:
 - predicate: foaf:account
   schema_type: dlthings:AttributeSpecification
   value: https://www.linkedin.com/in/candleindark/
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0000-0002-4740-0824
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Centroids
@@ -53,6 +50,9 @@ family_name: To
 formatted_name: Isaac To
 given_name: Isaac
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0002-4740-0824
+  schema_type: xyzri:ORCID
 - notation: candleindark
   schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630

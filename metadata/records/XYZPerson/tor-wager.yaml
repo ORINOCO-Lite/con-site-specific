@@ -39,9 +39,6 @@ attributes:
 - predicate: dlthings:github
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/canlab
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0000-0002-1936-5574
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Affiliated Faculty
@@ -61,6 +58,9 @@ family_name: Wager
 formatted_name: Tor D. Wager
 given_name: Tor
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0002-1936-5574
+  schema_type: xyzri:ORCID
 - notation: torwager
   schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630
