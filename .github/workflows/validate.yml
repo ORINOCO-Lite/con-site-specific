@@ -1,0 +1,55 @@
+name: Validate records
+
+# Both gates from docs/metadata-curation.md, through the hooks in
+# .pre-commit-config.yaml so that CI and a contributor's checkout run the
+# same thing.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  curation:
+    name: curation rules and YAML
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+      - run: pip install pre-commit
+      - run: pre-commit run --all-files --show-diff-on-failure
+
+  schema:
+    name: LinkML schema
+    runs-on: ubuntu-24.04
+    env:
+      # The things-schemas commit pinned by orinoco-lite-dev 94c3178, the
+      # package revision the downstream sites build with.  Move it together
+      # with that pin.
+      THINGS_SCHEMAS_REV: cb6c791aec4c5309775437df4bd58e94e1bfcc3c
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: ORINOCO-Lite/things-schemas
+          ref: ${{ env.THINGS_SCHEMAS_REV }}
+          path: .things-schemas
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+      - uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884 # v10.3.0
+      - run: pip install pre-commit
+      - run: pre-commit run --all-files --hook-stage manual linkml-check
+        env:
+          THINGS_SCHEMAS: ${{ github.workspace }}/.things-schemas

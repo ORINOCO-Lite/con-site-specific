@@ -37,6 +37,15 @@ traceback. The curation gate passed a record violating three of the six rules
 it advertised. Both are now fault-injected before use, and a change to either
 should be too.
 
+Both run in CI on every pull request (`.github/workflows/validate.yml`),
+through the hooks in `.pre-commit-config.yaml`; the schema gate uses the
+things-schemas commit that the downstream's pinned orinoco-lite carries.
+Locally, `pre-commit install` runs the curation gate on each commit, and
+`pre-commit run --all-files --hook-stage manual linkml-check` runs the schema
+gate given `THINGS_SCHEMAS`. Wiring them into CI found one more silent
+failure: under `set -e`, a non-zero exit from `linkml-validate` ended
+`linkml_check.sh` before it printed which record failed, or why.
+
 ## The encoding, and why it is not ours
 
 Everything below was checked against `things-schemas` and against production

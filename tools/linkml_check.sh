@@ -46,8 +46,11 @@ for d in "$RECORDS"/XYZ*/; do
   cls=$(basename "$d")
   mapfile -t files < <(find "$d" -name '*.yaml' -not -name '.*' | sort)
   [ ${#files[@]} -eq 0 ] && continue
-  out=$(uv run --quiet --with linkml linkml-validate -s "$SCHEMA" -C "$cls" "${files[@]}" 2>&1)
-  vrc=$?
+  # `|| vrc=$?`, not a bare assignment: under `set -e` a failing
+  # linkml-validate ended the script right here, before the FAIL line and the
+  # errors below were printed, so a broken record failed with no diagnostics.
+  vrc=0
+  out=$(uv run --quiet --with linkml linkml-validate -s "$SCHEMA" -C "$cls" "${files[@]}" 2>&1) || vrc=$?
   if [ $vrc -ne 0 ] || echo "$out" | grep -qE '\[ERROR\]|Traceback'; then
     printf '%-20s %3d file(s)  FAIL\n' "$cls" "${#files[@]}"
     echo "$out" | grep -E '\[ERROR\]|Error' | head -10 | sed 's/^/    /'
