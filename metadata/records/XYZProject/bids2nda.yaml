@@ -1,0 +1,25 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/bids-standard/bids2nda
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/bids-standard/bids2nda
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Prepares BIDS imaging metadata for submission to the NIMH Data Archive.
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+description: Prepares BIDS imaging metadata for submission to the NIMH Data Archive.
+display_label: BIDS2NDA
+pid: xyzrins:projects/bids2nda
+schema_type: xyzri:XYZProject
+short_name: BIDS2NDA
+title: BIDS2NDA
+associated_with:
+- description: Added support for FLASH scans.
+  object: xyzrins:persons/john-lee
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association

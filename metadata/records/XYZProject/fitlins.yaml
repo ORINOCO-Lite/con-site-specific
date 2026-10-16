@@ -1,0 +1,25 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/poldracklab/fitlins
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/poldracklab/fitlins
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Fits linear models to BIDS datasets.
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+description: Fits linear models to BIDS datasets.
+display_label: FitLins
+pid: xyzrins:projects/fitlins
+schema_type: xyzri:XYZProject
+short_name: FitLins
+title: FitLins
+associated_with:
+- description: Implemented AFNI 3dREMLfit first-level estimation.
+  object: xyzrins:persons/john-lee
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association

@@ -17,3 +17,17 @@ assertions:
       Good enough to order a page by; not a founding date.
     confidence: certain
     captured: "2026-10-11"
+  - path: /associated_with/8
+    value:
+      description: Added sequence names to metadata extracted for conversion heuristics.
+      object: xyzrins:persons/john-lee
+      roles:
+      - marcrel:ctb
+      schema_type: dlthings:Association
+    kind: upstream-git
+    source: https://github.com/nipy/heudiconv/pull/66
+    locator: merged pull request authored by leej3
+    note: Supports a contributor relationship; does not establish leadership or the
+      beginning or end of involvement.
+    confidence: certain
+    captured: '2026-10-13'
