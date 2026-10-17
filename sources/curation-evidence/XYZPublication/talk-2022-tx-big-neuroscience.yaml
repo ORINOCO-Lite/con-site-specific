@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2022-tx-big-neuroscience
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2022-09
+  bound: exact
+  kind: upstream-git
+  source: con/talks:2022-tx-big-neuroscience.html
+  locator: commits ee05bb0 2022-09-15 .. 20112e6 2022-09-16
+  note: The deck's commits run 2022-09-15 .. 2022-09-16. Only the month is claimed; the day
+    is not recorded.
+  confidence: approximate
+  captured: '2026-10-17'

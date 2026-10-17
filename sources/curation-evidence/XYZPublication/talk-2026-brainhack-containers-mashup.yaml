@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2026-brainhack-containers-mashup
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2026-06
+  bound: exact
+  kind: upstream-git
+  source: con/talks:2026-brainhack-containers-mashup.html
+  locator: commits aec26e2 2026-06-11 .. 16fd058 2026-06-11
+  note: The deck was written in a single commit; the session itself is not dated in it. Only
+    the month is claimed; the day is not recorded.
+  confidence: approximate
+  captured: '2026-10-17'

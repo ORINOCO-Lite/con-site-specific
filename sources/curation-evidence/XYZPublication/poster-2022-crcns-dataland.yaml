@@ -1,0 +1,13 @@
+record: xyzrins:publications/poster-2022-crcns-dataland
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2022-10
+  bound: exact
+  kind: upstream-git
+  source: con/talks:posters/crcns-2022-dataland.svg
+  locator: commits f17c96d 2022-10-26 .. 842ca01 2022-10-26
+  note: The poster's commits are all from 2022-10-26. Only the month is claimed; the day is
+    not recorded.
+  confidence: approximate
+  captured: '2026-10-17'

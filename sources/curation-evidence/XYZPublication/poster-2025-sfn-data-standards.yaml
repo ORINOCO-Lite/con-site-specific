@@ -1,0 +1,14 @@
+record: xyzrins:publications/poster-2025-sfn-data-standards
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2025-11
+  bound: exact
+  kind: registry
+  source: https://doi.org/10.5281/zenodo.18333008
+  locator: Zenodo record 18333008, publication_date
+  quote: '2025-11-11'
+  note: The Zenodo deposit of the poster is dated 2025-11-11, ahead of SfN 2025 in November;
+    only the month is claimed for the presentation.
+  confidence: approximate
+  captured: '2026-10-17'

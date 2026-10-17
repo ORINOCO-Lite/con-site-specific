@@ -1,0 +1,6 @@
+description: A display poster, typically containing text with illustrative figures and/or
+  tables, usually reporting research results or proposing hypotheses, submitted for acceptance
+  to and/or presented at a conference.
+display_label: Conference poster
+pid: fabio:ConferencePoster
+schema_type: xyzri:XYZBibliographicType

@@ -1,0 +1,14 @@
+record: xyzrins:publications/talk-2024-nsf-pose-bids
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2024-04
+  bound: exact
+  kind: publication
+  source: con/talks:202404xx-NSF-POSE-BIDS.pdf
+  locator: file name
+  quote: 202404xx-NSF-POSE-BIDS
+  note: The file name gives the year and month (the day is "xx"); it was committed to the
+    repository only in 2026.
+  confidence: approximate
+  captured: '2026-10-17'

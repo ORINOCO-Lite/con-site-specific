@@ -1,0 +1,28 @@
+# TODO(event): the meeting is only text in bibo:presentedAt.  Model it
+# as an XYZActivity record (with its dates and place) and link it, once
+# the store has a convention for events.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:presentedAt
+  value: NSF POSE (Pathways to Enable Open-Source Ecosystems)
+  schema_type: dlthings:AttributeSpecification
+- predicate: foaf:homepage
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/202404xx-NSF-POSE-BIDS.pdf
+  schema_type: dlthings:AttributeSpecification
+characterized_by:
+- object: bibo:Slideshow
+  predicate: dcterms:type
+description: Talk at NSF POSE (Pathways to Enable Open-Source Ecosystems), 2024-04.
+generated_by:
+- at_time: 2024-04
+  object: xyzrins:projects/bids
+  schema_type: dlthings:Generation
+kind: bibo:Slideshow
+pid: xyzrins:publications/talk-2024-nsf-pose-bids
+schema_type: xyzri:XYZPublication
+title: 'The Brain Imaging Data Structure (BIDS): an open community standard for neuroscience'

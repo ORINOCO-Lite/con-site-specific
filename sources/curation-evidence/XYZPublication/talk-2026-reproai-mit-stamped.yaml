@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2026-reproai-mit-stamped
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2026-10-16'
+  bound: exact
+  kind: publication
+  source: con/talks:2026-reproAI-MIT-STAMPED.html
+  locator: title slide, con/talks 53a6e40
+  quote: a ReproNim workshop — MIT Building 46, Cambridge MA — October 16th, 2026
+  note: The deck names the meeting and the day it was given.
+  confidence: certain
+  captured: '2026-10-17'

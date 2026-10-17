@@ -1,0 +1,14 @@
+record: xyzrins:publications/talk-2026-usrse-con-talk
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2026-10-19'
+  bound: exact
+  kind: publication
+  source: con/talks:2026-usrse/USRSE26_Conference-program.txt
+  locator: Monday, October 19 -- AI Assisted Code Development session
+  quote: 'Reuse, Compose, Extend, Standardize, Automate: Two Decades of RSEing Open (Neuro)Science
+    at CON by Yaroslav Halchenko, Cody Baker, Austin Macdonald, Isaac To and Vadim Melnik'
+  note: The conference program schedules the talk on Monday, October 19.
+  confidence: certain
+  captured: '2026-10-17'

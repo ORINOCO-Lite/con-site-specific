@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2026-mcgill-mechababs
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2026-08-11'
+  bound: exact
+  kind: publication
+  source: con/talks:2026-mcgill-mechababs/README.md
+  locator: README heading, con/talks b3bfb38
+  quote: mechababs — McGill neuroscience group, 2026-08-11
+  note: The deck's README names the group and the day.
+  confidence: certain
+  captured: '2026-10-17'

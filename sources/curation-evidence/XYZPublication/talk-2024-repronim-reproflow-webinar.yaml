@@ -1,0 +1,14 @@
+record: xyzrins:publications/talk-2024-repronim-reproflow-webinar
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2024-06
+  bound: exact
+  kind: upstream-git
+  source: con/talks:2024-repronim-reproflow-webinar/index.html (subdataset)
+  locator: commits 89433c3 2020-09-30 .. a597cbb 2024-06-07
+  note: Every commit adding the 2024 content is from 2024-06-07; the README's "December 2024"
+    is carried over from the 2020 webinar it continues. Only the month is claimed; the day
+    is not recorded.
+  confidence: approximate
+  captured: '2026-10-17'

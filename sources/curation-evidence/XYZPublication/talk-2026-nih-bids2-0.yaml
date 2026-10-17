@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2026-nih-bids2-0
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2026-06-02'
+  bound: exact
+  kind: publication
+  source: con/talks:2026-nih-bids2.0.html
+  locator: title slide, con/talks dcccfc9
+  quote: NIMH Data Science & Sharing Team — Lunch & Learn — June 2nd 2026
+  note: The deck names the meeting and the day it was given.
+  confidence: certain
+  captured: '2026-10-17'

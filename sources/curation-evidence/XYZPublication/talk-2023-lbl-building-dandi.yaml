@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2023-lbl-building-dandi
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2023-04
+  bound: exact
+  kind: upstream-git
+  source: con/talks:2023-lbl-building-dandi.html
+  locator: commits 2dfcfe2 2023-04-09 .. 4d6c936 2023-04-10
+  note: The deck's commits run 2023-04-09 .. 2023-04-10. Only the month is claimed; the day
+    is not recorded.
+  confidence: approximate
+  captured: '2026-10-17'

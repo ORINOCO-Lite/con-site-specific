@@ -1,0 +1,30 @@
+# TODO(event): the meeting is only text in bibo:presentedAt.  Model it
+# as an XYZActivity record (with its dates and place) and link it, once
+# the store has a convention for events.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:presentedAt
+  value: 'Neuroimaging, Reproducibility and LLMs: Early promises and future questions -- a
+    ReproNim workshop, MIT Building 46, Cambridge MA'
+  schema_type: dlthings:AttributeSpecification
+- predicate: foaf:homepage
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/2026-reproAI-MIT-STAMPED.html
+  schema_type: dlthings:AttributeSpecification
+characterized_by:
+- object: bibo:Slideshow
+  predicate: dcterms:type
+description: 'Talk at Neuroimaging, Reproducibility and LLMs: Early promises and future questions
+  -- a ReproNim workshop, MIT Building 46, Cambridge MA, 2026-10-16.'
+generated_by:
+- at_time: '2026-10-16'
+  object: xyzrins:projects/stamped-principles
+  schema_type: dlthings:Generation
+kind: bibo:Slideshow
+pid: xyzrins:publications/talk-2026-reproai-mit-stamped
+schema_type: xyzri:XYZPublication
+title: STAMPED principles and their role in the age of AI-driven scientific software development

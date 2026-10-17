@@ -1,0 +1,49 @@
+# TODO(event): the meeting is only text in bibo:presentedAt.  Model it
+# as an XYZActivity record (with its dates and place) and link it, once
+# the store has a convention for events.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/cody-baker
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/austin-macdonald
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/isaac-to
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/john-lee
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/vadim-melnik
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:presentedAt
+  value: US-RSE'26, the Research Software Engineers Conference
+  schema_type: dlthings:AttributeSpecification
+- predicate: foaf:homepage
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/2026-usrse-con-talk.html
+  schema_type: dlthings:AttributeSpecification
+characterized_by:
+- object: bibo:Slideshow
+  predicate: dcterms:type
+description: Talk at US-RSE'26, the Research Software Engineers Conference, 2026-10-19.
+generated_by:
+- at_time: '2026-10-19'
+  object: xyzrins:.
+  schema_type: dlthings:Generation
+kind: bibo:Slideshow
+pid: xyzrins:publications/talk-2026-usrse-con-talk
+schema_type: xyzri:XYZPublication
+title: 'Reuse, Compose, Extend, Standardize, Automate: Two Decades of RSEing Open (Neuro)Science
+  at CON'

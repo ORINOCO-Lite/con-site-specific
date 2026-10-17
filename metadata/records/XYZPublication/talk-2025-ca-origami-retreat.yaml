@@ -1,0 +1,28 @@
+# TODO(event): the meeting is only text in bibo:presentedAt.  Model it
+# as an XYZActivity record (with its dates and place) and link it, once
+# the store has a convention for events.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:presentedAt
+  value: CA Origami Retreat 2025
+  schema_type: dlthings:AttributeSpecification
+- predicate: foaf:homepage
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/2025-ca-origami-retreat.html
+  schema_type: dlthings:AttributeSpecification
+characterized_by:
+- object: bibo:Slideshow
+  predicate: dcterms:type
+description: Talk at CA Origami Retreat 2025, 2025-02.
+generated_by:
+- at_time: 2025-02
+  object: xyzrins:.
+  schema_type: dlthings:Generation
+kind: bibo:Slideshow
+pid: xyzrins:publications/talk-2025-ca-origami-retreat
+schema_type: xyzri:XYZPublication
+title: A challenge on the way to Neuroscience Nirvana

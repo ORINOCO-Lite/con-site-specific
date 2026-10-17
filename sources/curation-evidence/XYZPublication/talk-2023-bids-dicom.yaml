@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2023-bids-dicom
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2023-06
+  bound: exact
+  kind: upstream-git
+  source: con/talks:2023-bids-dicom.html
+  locator: commits dc55d52 2023-06-14 .. 4c795c7 2026-10-08
+  note: The deck was first committed 2023-06-14; later commits are maintenance. Only the month
+    is claimed; the day is not recorded.
+  confidence: approximate
+  captured: '2026-10-17'

@@ -1,0 +1,28 @@
+# TODO(event): the meeting is only text in bibo:presentedAt.  Model it
+# as an XYZActivity record (with its dates and place) and link it, once
+# the store has a convention for events.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:presentedAt
+  value: NIH SSCR pitch
+  schema_type: dlthings:AttributeSpecification
+- predicate: foaf:homepage
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/2022-nih-compcore.html
+  schema_type: dlthings:AttributeSpecification
+characterized_by:
+- object: bibo:Slideshow
+  predicate: dcterms:type
+description: Talk at NIH SSCR pitch, 2022-09.
+generated_by:
+- at_time: 2022-09
+  object: xyzrins:.
+  schema_type: dlthings:Generation
+kind: bibo:Slideshow
+pid: xyzrins:publications/talk-2022-nih-compcore
+schema_type: xyzri:XYZPublication
+title: An Integrated and Trusted Scientific and Statistical Computing Core

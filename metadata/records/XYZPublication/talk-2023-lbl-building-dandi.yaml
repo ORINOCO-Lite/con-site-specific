@@ -1,0 +1,28 @@
+# TODO(event): the meeting is only text in bibo:presentedAt.  Model it
+# as an XYZActivity record (with its dates and place) and link it, once
+# the store has a convention for events.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:presentedAt
+  value: Lawrence Berkeley National Laboratory (LBL)
+  schema_type: dlthings:AttributeSpecification
+- predicate: foaf:homepage
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/2023-lbl-building-dandi.html
+  schema_type: dlthings:AttributeSpecification
+characterized_by:
+- object: bibo:Slideshow
+  predicate: dcterms:type
+description: Talk at Lawrence Berkeley National Laboratory (LBL), 2023-04.
+generated_by:
+- at_time: 2023-04
+  object: xyzrins:projects/dandi
+  schema_type: dlthings:Generation
+kind: bibo:Slideshow
+pid: xyzrins:publications/talk-2023-lbl-building-dandi
+schema_type: xyzri:XYZPublication
+title: Building an Archive for Large-scale Neuroscience Data

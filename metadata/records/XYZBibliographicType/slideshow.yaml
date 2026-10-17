@@ -1,0 +1,5 @@
+description: A presentation of a series of slides, usually presented in front of an audience
+  with written text and images.
+display_label: Slideshow
+pid: bibo:Slideshow
+schema_type: xyzri:XYZBibliographicType

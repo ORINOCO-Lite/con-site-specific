@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2020-repronim-reprocomp-webinar
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2020-12
+  bound: exact
+  kind: publication
+  source: ReproNim/webinar-2020-reprocomp:README.md
+  locator: README heading, ecf92a7
+  quote: 'ReproNim December 2020 Webinar: Reproducible Execution of Data Collection/Processing'
+  note: The README gives the month; the last commits are 2020-12-03 .. 2020-12-04.
+  confidence: approximate
+  captured: '2026-10-17'

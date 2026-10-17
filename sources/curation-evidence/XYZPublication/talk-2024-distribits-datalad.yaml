@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2024-distribits-datalad
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2024-04
+  bound: exact
+  kind: upstream-git
+  source: con/talks:2024-distribits-datalad.html
+  locator: commits 2d371e1 2024-03-29 .. 63a47ad 2024-04-03
+  note: The deck's commits run 2024-03-29 .. 2024-04-03, just before distribits 2024 in April.
+    Only the month is claimed; the day is not recorded.
+  confidence: approximate
+  captured: '2026-10-17'

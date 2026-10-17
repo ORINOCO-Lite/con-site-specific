@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2026-repronim-yoda-bids-webinar
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2026-02-06'
+  bound: exact
+  kind: publication
+  source: con/talks:2026-repronim-YODA-BIDS-webinar.html
+  locator: title slide, con/talks 288b0dc
+  quote: ReproNim Webinar — Friday, February 6th, 2026
+  note: The deck names the meeting and the day it was given.
+  confidence: certain
+  captured: '2026-10-17'

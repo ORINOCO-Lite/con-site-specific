@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2023-brain-dandi
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2023-06
+  bound: exact
+  kind: upstream-git
+  source: con/talks:2023-brain-dandi.html
+  locator: commits 8f505fc 2023-06-27 .. 256392c 2023-06-29
+  note: The deck's commits run 2023-06-27 .. 2023-06-29. Only the month is claimed; the day
+    is not recorded.
+  confidence: approximate
+  captured: '2026-10-17'

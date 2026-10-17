@@ -1,0 +1,5 @@
+description: A performer contributing to a resource by speaking words, such as a lecture,
+  speech, etc.
+display_label: Speaker
+pid: marcrel:spk
+schema_type: xyzri:XYZAgentRole
