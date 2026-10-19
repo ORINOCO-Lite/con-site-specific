@@ -1,3 +1,16 @@
+attributed_to:
+- object: xyzrins:persons/mike-grauer
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/jacob-nesbitt
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/roni-choudhury
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Attribution
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

@@ -812,6 +812,61 @@ assertions:
     confidence: approximate
     captured: "2026-10-19"
 
+  - path: /associated_with/43/started/at_time
+    value: "2020-01-22"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/dandi/dandi-archive
+    locator: 419cb4ac
+    quote: 'Jacob Nesbitt, 2020-01-22, "Add Early Access tooltip to app bar"'
+    note: >-
+      The person's oldest commit in dandi-archive, the DANDI archive's web
+      application and API, which Kitware develops with CON.  Counted from a
+      clone with `git shortlog -sne --all`, every spelling summed.  An upper
+      bound: Kitware's involvement precedes any one engineer's commits.  1474 commits through 2026-10-15, in every year
+      since.
+    confidence: certain
+    captured: "2026-10-19"
+  - path: /associated_with/44/started/at_time
+    value: "2021-03-10"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/dandi/dandi-archive
+    locator: 1de8ed9c
+    quote: 'Roni Choudhury, 2021-03-10, "Carry out the deletion at the right time"'
+    note: >-
+      The person's oldest commit in dandi-archive, the DANDI archive's web
+      application and API, which Kitware develops with CON.  Counted from a
+      clone with `git shortlog -sne --all`, every spelling summed.  An upper
+      bound: Kitware's involvement precedes any one engineer's commits.  597 commits (366 as roni.choudhury@kitware.com, 231
+      as waxlamp) through 2026-10-16.
+    confidence: certain
+    captured: "2026-10-19"
+  - path: /associated_with/45/started/at_time
+    value: "2019-10-02"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/dandi/dandi-archive
+    locator: e8352186
+    quote: 'Mike Grauer, 2019-10-02, "Initial commit"'
+    note: >-
+      The repository's first commit.  81 commits in all, as "Mike Grauer"
+      and "Michael Grauer".
+    confidence: certain
+    captured: "2026-10-19"
+  - path: /associated_with/45/ended/at_time
+    value: "2020-12-08"
+    bound: lower
+    kind: upstream-git
+    source: https://github.com/dandi/dandi-archive
+    locator: 5ec256ae
+    quote: 'Mike Grauer, 2020-12-08, "Merge pull request #523 from dandi/increase-nginx-max-body-size"'
+    note: >-
+      His newest commit in dandi-archive.  A lower bound: work outside this
+      repository (reviews, infrastructure) is not traced here.
+    confidence: approximate
+    captured: "2026-10-19"
+
 pending:
   - proposed_path: /associated_with/42/started/at_time
     proposed_value: "2008"

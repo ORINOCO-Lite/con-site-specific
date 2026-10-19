@@ -364,6 +364,30 @@ associated_with:
   started:
     at_time: '2009-10'
     schema_type: dlthings:Start
+- object: xyzrins:persons/jacob-nesbitt
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2020-01-22'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/roni-choudhury
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2021-03-10'
+    schema_type: dlthings:Start
+- ended:
+    at_time: '2020-12-08'
+    schema_type: dlthings:End
+  object: xyzrins:persons/mike-grauer
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2019-10-02'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
