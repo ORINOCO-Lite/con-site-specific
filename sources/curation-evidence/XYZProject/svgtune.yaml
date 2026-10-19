@@ -1,0 +1,17 @@
+record: xyzrins:projects/svgtune
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2009-02-21"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/yarikoptic/svgtune
+    locator: 6cca1ff
+    quote: 'Yaroslav Halchenko, 2009-02-21, "First version ever"'
+    note: >-
+      The repository's oldest commit; GitHub's created_at for it is the same
+      day (2009-02-21T06:35:10Z).  An upper bound, though a tight one: the
+      message says this is the first version.
+    confidence: certain
+    captured: "2026-10-19"

@@ -1,0 +1,39 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:cre
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/yarikoptic/svgtune
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: <p> <a href="https://github.com/yarikoptic/svgtune">svgtune</a> generates a
+    set of SVG files from a single (Inkscape) drawing by toggling the visibility, style
+    or placement of its layers and groups, as directed by a short script -- the way to
+    build incremental slides, or to extract a panel of a poster that is regenerated
+    whenever the poster changes. Written in 2009 and <a href="https://packages.debian.org/svgtune">packaged
+    for Debian</a>, it was revived in 2026 with <code>%only</code>, <code>%prune</code>
+    and <code>%crop</code> directives and a test suite. </p>
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: svgtune
+description: svgtune generates a set of SVG files from a single (Inkscape) drawing by
+  toggling the visibility, style or placement of its layers and groups, as directed
+  by a short script -- the way to build incremental slides, or to extract a panel of
+  a poster that is regenerated whenever the poster changes. Written in 2009 and packaged
+  for Debian, it was revived in 2026 with %only, %prune and %crop directives and a test
+  suite.
+part_of:
+- xyzrins:.
+pid: xyzrins:projects/svgtune
+schema_type: xyzri:XYZProject
+short_name: svgtune
+started:
+  at_time: '2009-02-21'
+  schema_type: dlthings:Start
+title: svgtune
