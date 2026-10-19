@@ -357,6 +357,13 @@ associated_with:
   started:
     at_time: '2023-09'
     schema_type: dlthings:Start
+- object: xyzrins:persons/russell-poldrack
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2009-10'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

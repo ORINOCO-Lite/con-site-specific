@@ -47,6 +47,10 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+- object: xyzrins:persons/russell-poldrack
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

@@ -1,3 +1,8 @@
+associated_with:
+- object: xyzrins:persons/russell-poldrack
+  roles:
+  - obo:NCIT_C19924
+  schema_type: dlthings:Association
 attributes:
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification

@@ -19,6 +19,25 @@ attributes:
 - predicate: dlthings:given_name
   schema_type: dlthings:AttributeSpecification
   value: Russell
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborators
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Albert Ray Lang Professor of Psychology, Stanford University
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://poldracklab.org
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/poldrack
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: PI of <a href="/projects#openneuro_">OpenNeuro</a> and, before it, of <a href="https://openfmri.org">OpenfMRI</a>,
+    and among the creators of <a href="/projects#brain_imaging_data_structure_bids_">BIDS</a>.
+    The collaboration began with <a href="https://doi.org/10.1111/j.1467-9280.2009.02460.x">decoding
+    mental states across individuals</a> and continued with making OpenfMRI datasets
+    available through <a href="/projects#datalad_">DataLad</a>.
 description: PI of the OpenNeuro archive. Affiliated with Stanford University.
 display_label: Russell A. Poldrack
 family_name: Poldrack

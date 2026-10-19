@@ -792,3 +792,37 @@ assertions:
       and his are from 2018.  An upper bound.
     confidence: approximate
     captured: "2026-10-14"
+  - path: /associated_with/42/started/at_time
+    value: "2009-10"
+    bound: upper
+    kind: publication
+    source: https://doi.org/10.1111/j.1467-9280.2009.02460.x
+    locator: Psychological Science 20(11):1364-1372; Crossref "created" 2009-10-30
+    quote: >-
+      Poldrack, Halchenko and Hanson, "Decoding the Large-Scale Structure of
+      Brain Function by Classifying Mental States Across Individuals"
+    note: >-
+      The first joint work, and its record is in this store
+      (xyzrins:publications/doi-10-1111-j-1467-9280-2009-02460-x, issued
+      2009-10).  Publication lags the work, so this is a loose upper bound;
+      YOH places the start in 2008 (see pending).  Neither the PMC author
+      manuscript (PMC2935493) nor Crossref carries a received date.  The
+      collaboration continued with OpenfMRI datasets in DataLad, then
+      OpenNeuro and BIDS.
+    confidence: approximate
+    captured: "2026-10-19"
+
+pending:
+  - proposed_path: /associated_with/42/started/at_time
+    proposed_value: "2008"
+    kind: recollection
+    source: conversation with YOH, 2026-10-19
+    quote: >-
+      we started collaborating likely in 2008 while working on "Decoding the
+      Large-Scale Structure of Brain Function by Classifying Mental States
+      Across Individuals"
+    would_confirm: >-
+      the manuscript's submission date from Psychological Science, or a 2008
+      email, commit or analysis script for that paper
+    confidence: unverified
+    captured: "2026-10-19"
