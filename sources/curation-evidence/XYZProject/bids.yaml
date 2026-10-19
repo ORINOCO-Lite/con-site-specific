@@ -77,3 +77,25 @@ assertions:
       tracing the work, so it is judged as a record: an upper bound.
     confidence: certain
     captured: "2026-10-14"
+  - path: /associated_with/8/roles/0
+    value: marcrel:cre
+    kind: publication
+    source: https://doi.org/10.1162/imag_a_00103
+    locator: '"The birth of BIDS" (PMC10516110)'
+    quote: >-
+      The birth of BIDS can be traced back ultimately to a social media post
+      by Russ Poldrack on October 17, 2014 ... When Chris Gorgolewski and
+      Russ Poldrack began discussing the development of a new archive, they
+      recognized that it was essential to substantially shift the burden of
+      curation from the archive to the data owners ... "Subgroup1: OBIDS
+      (Open Brain Imaging Data Structure) format proposal (derived from the
+      OpenfMRI format)"
+    note: >-
+      The project's own history (xyzrins:publications/doi-10-1162-imag-a-00103,
+      Poldrack first author).  BIDS began in his group, from the OpenfMRI
+      layout he had run, and was first sketched at the January 2015 INCF
+      meeting at Stanford; the paper credits Chris Gorgolewski as the leader
+      who carried it to the community, so Russ is a creator, not the sole
+      one.  Gorgolewski has no record in this store.
+    confidence: certain
+    captured: "2026-10-19"

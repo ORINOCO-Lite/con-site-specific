@@ -49,7 +49,7 @@ associated_with:
   schema_type: dlthings:Association
 - object: xyzrins:persons/russell-poldrack
   roles:
-  - marcrel:ctb
+  - marcrel:cre
   schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
