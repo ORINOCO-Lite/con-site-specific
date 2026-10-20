@@ -375,15 +375,25 @@ assertions:
     confidence: certain
     captured: "2026-10-10"
   - path: /associated_with/16/started/at_time
-    value: "2020-05-19"
+    value: "2009-10-06"
     bound: upper
-    kind: site-git-history
-    predates_freeze: true
-    source: con.org
-    locator: c7ecdc2c0
-    quote: first commit to content/pages/whoweare.html naming Satrajit Ghosh
-    confidence: certain
-    captured: "2026-10-10"
+    kind: recollection
+    source: YOH
+    locator: >-
+      email to nipy-devel@neuroimaging.scipy.org, cc Yaroslav Halchenko,
+      subject: Re: [Nipy-devel] [nipype] 0.1 tagged
+    quote: >-
+      Date: Tue, 6 Oct 2009 13:45:12 -0400 / From: Satrajit Ghosh
+      <satra@mit.edu> / To: nipy-devel@neuroimaging.scipy.org / Cc: Yaroslav
+      Halchenko <lists@onerussian.com>
+    note: >-
+      Replaces 2020-05-19, the first commit of whoweare.html naming him
+      (c7ecdc2c0), which put an eleven-year collaboration after people who
+      joined in 2020.  One of the first joint emails, around the nipype 0.1
+      release.  An upper bound: YOH places the start earlier, at the 2008
+      NIPY meetup in Paris (see pending).
+    confidence: approximate
+    captured: "2026-10-20"
   - path: /associated_with/14/started/at_time
     value: "2020-06-27"
     bound: upper
@@ -881,3 +891,14 @@ pending:
       email, commit or analysis script for that paper
     confidence: unverified
     captured: "2026-10-19"
+  - proposed_path: /associated_with/16/started/at_time
+    proposed_value: "2008"
+    kind: recollection
+    source: conversation with YOH, 2026-10-20
+    quote: >-
+      I think it goes back into nipy meetup in Paris in 2008
+    would_confirm: >-
+      the date and attendee list of the 2008 NIPY meeting in Paris, or a 2008
+      email or commit with both Satrajit Ghosh and Yaroslav Halchenko on it
+    confidence: unverified
+    captured: "2026-10-20"
