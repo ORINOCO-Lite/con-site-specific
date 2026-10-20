@@ -1,7 +1,7 @@
 attributes:
 - predicate: dlthings:position
   schema_type: dlthings:AttributeSpecification
-  value: Software Engineer, Kitware
+  value: Technical Leader, Kitware
 - predicate: dlthings:github
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/waxlamp
@@ -13,7 +13,7 @@ attributes:
   value: Develops the <a href="/projects#dandi_">DANDI</a> archive's web application
     and API, <a href="https://github.com/dandi/dandi-archive">dandi-archive</a>, at <a
     href="https://www.kitware.com">Kitware</a> -- some 600 commits since 2021.
-description: Software engineer at Kitware, developing the DANDI archive's web application
+description: Technical leader at Kitware, developing the DANDI archive's web application
   and API (dandi-archive) since 2021.
 family_name: Choudhury
 given_name: Roni

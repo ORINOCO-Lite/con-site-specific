@@ -1,7 +1,7 @@
 attributes:
 - predicate: dlthings:position
   schema_type: dlthings:AttributeSpecification
-  value: Software Engineer, Kitware
+  value: Senior R&D Engineer, Kitware
 - predicate: dlthings:github
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/jjnesbitt
@@ -13,7 +13,7 @@ attributes:
   value: Develops the <a href="/projects#dandi_">DANDI</a> archive's web application
     and API, <a href="https://github.com/dandi/dandi-archive">dandi-archive</a>, at <a
     href="https://www.kitware.com">Kitware</a> -- over 1,400 commits since 2020.
-description: Software engineer at Kitware, developing the DANDI archive's web application
+description: Senior R&D engineer at Kitware, developing the DANDI archive's web application
   and API (dandi-archive) since 2020.
 family_name: Nesbitt
 given_name: Jacob

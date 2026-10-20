@@ -1,7 +1,7 @@
 attributes:
 - predicate: dlthings:position
   schema_type: dlthings:AttributeSpecification
-  value: Software Engineer, Kitware
+  value: Technical Leader, Kitware
 - predicate: dlthings:github
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/mgrauer
