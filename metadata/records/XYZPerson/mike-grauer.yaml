@@ -7,7 +7,7 @@ attributes:
   value: https://github.com/mgrauer
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
-  value: Emeritus
+  value: Emeritus Collaborators
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
   value: Started <a href="https://github.com/dandi/dandi-archive">dandi-archive</a>,

@@ -26,7 +26,7 @@ attributes:
   value: https://orcid.org/0000-0001-7628-0801
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
-  value: Emeritus
+  value: Emeritus Collaborators
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
   value: Worked on the <a href="/projects#datalad_">DataLad</a> project and the magician

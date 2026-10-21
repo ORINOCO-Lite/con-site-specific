@@ -39,7 +39,7 @@ attributes:
   value: https://orcid.org/0000-0001-5500-2546
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
-  value: Emeritus
+  value: Emeritus Collaborators
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
   value: Neurologist, neuroimaging methods guru, early proponent of reproducible practice
