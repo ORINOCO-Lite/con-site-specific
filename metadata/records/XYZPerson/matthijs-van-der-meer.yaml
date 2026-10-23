@@ -36,9 +36,6 @@ attributes:
 - predicate: dlthings:github
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/vandermeerlab
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0000-0002-2206-4473
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Affiliated Faculty
@@ -54,6 +51,9 @@ family_name: van der Meer
 formatted_name: Matthijs van der Meer
 given_name: Matthijs
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0002-2206-4473
+  schema_type: xyzri:ORCID
 - notation: vandermeerlab
   schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630

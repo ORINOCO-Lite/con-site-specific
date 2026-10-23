@@ -21,9 +21,6 @@ attributes:
 - predicate: dlthings:github
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/bpoldrack
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0000-0001-7628-0801
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Emeritus Collaborators
@@ -46,6 +43,9 @@ family_name: Poldrack
 formatted_name: Benjamin Poldrack
 given_name: Benjamin
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0001-7628-0801
+  schema_type: xyzri:ORCID
 - notation: bpoldrack
   schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630

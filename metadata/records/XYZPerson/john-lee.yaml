@@ -14,9 +14,6 @@ attributes:
 - predicate: foaf:account
   schema_type: dlthings:AttributeSpecification
   value: https://www.linkedin.com/in/leej3
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0000-0001-5884-4247
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Centroids
@@ -44,6 +41,9 @@ family_name: Lee
 formatted_name: John Lee
 given_name: John
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0001-5884-4247
+  schema_type: xyzri:ORCID
 - notation: leej3
   schema_type: dlthings:Identifier
 pid: xyzrins:persons/john-lee

@@ -27,9 +27,6 @@ attributes:
 - predicate: foaf:account
   schema_type: dlthings:AttributeSpecification
   value: https://www.linkedin.com/in/vsochat/
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0000-0002-4387-3819
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Emeritus Collaborators
@@ -56,6 +53,9 @@ family_name: Sochat
 formatted_name: Vanessa Sochat
 given_name: Vanessa
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0002-4387-3819
+  schema_type: xyzri:ORCID
 - notation: vsoch
   schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630
