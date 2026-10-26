@@ -1,0 +1,25 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/linkml/linkml
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/linkml/linkml
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: A linked data modeling language and tools for schemas and data validation.
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+description: A linked data modeling language and tools for schemas and data validation.
+display_label: LinkML
+pid: xyzrins:projects/linkml
+schema_type: xyzri:XYZProject
+short_name: LinkML
+title: LinkML
+associated_with:
+- description: Contributed URI type preservation and JSON Schema generation fixes.
+  object: xyzrins:persons/john-lee
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association

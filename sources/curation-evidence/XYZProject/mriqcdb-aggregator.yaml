@@ -1,0 +1,31 @@
+record: xyzrins:projects/mriqcdb-aggregator
+format: con-association-evidence-v1
+assertions:
+- path: /associated_with/0
+  value:
+    description: Contributed resumable bulk ingestion and dashboard filtering.
+    object: xyzrins:persons/john-lee
+    roles:
+    - marcrel:ctb
+    schema_type: dlthings:Association
+  kind: upstream-git
+  source: https://github.com/nimh-dsst/mriqcdb-aggregator/pull/6
+  locator: merged pull request authored by leej3
+  note: Supports a contributor relationship; does not establish leadership or the
+    beginning or end of involvement.
+  confidence: certain
+  captured: '2026-10-13'
+- path: /associated_with/0
+  value:
+    description: Contributed resumable bulk ingestion and dashboard filtering.
+    object: xyzrins:persons/john-lee
+    roles:
+    - marcrel:ctb
+    schema_type: dlthings:Association
+  kind: upstream-git
+  source: https://github.com/nimh-dsst/mriqcdb-aggregator/pull/13
+  locator: merged pull request authored by leej3
+  note: Supports a contributor relationship; does not establish leadership or the
+    beginning or end of involvement.
+  confidence: certain
+  captured: '2026-10-13'

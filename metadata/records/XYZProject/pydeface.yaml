@@ -1,0 +1,25 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/poldracklab/pydeface
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/poldracklab/pydeface
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Removes facial features from MRI images.
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+description: Removes facial features from MRI images.
+display_label: PyDeface
+pid: xyzrins:projects/pydeface
+schema_type: xyzri:XYZProject
+short_name: PyDeface
+title: PyDeface
+associated_with:
+- description: Contributed MRI defacing refactoring and dimension handling.
+  object: xyzrins:persons/john-lee
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association

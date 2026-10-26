@@ -1,0 +1,25 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/nipreps/mriqc
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/nipreps/mriqc
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Computes image quality metrics for structural and functional MRI.
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+description: Computes image quality metrics for structural and functional MRI.
+display_label: MRIQC
+pid: xyzrins:projects/mriqc
+schema_type: xyzri:XYZProject
+short_name: MRIQC
+title: MRIQC
+associated_with:
+- description: Listed as a contributor in the merged contributor-list update.
+  object: xyzrins:persons/john-lee
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association

@@ -1,0 +1,17 @@
+record: xyzrins:projects/mriqc
+format: con-association-evidence-v1
+assertions:
+- path: /associated_with/0
+  value:
+    description: Listed as a contributor in the merged contributor-list update.
+    object: xyzrins:persons/john-lee
+    roles:
+    - marcrel:ctb
+    schema_type: dlthings:Association
+  kind: upstream-git
+  source: https://github.com/nipreps/mriqc/pull/953
+  locator: merged contributor-list update naming leej3
+  note: Supports a contributor relationship; does not establish leadership or the
+    beginning or end of involvement.
+  confidence: certain
+  captured: '2026-10-13'

@@ -1,0 +1,31 @@
+record: xyzrins:projects/pydeface
+format: con-association-evidence-v1
+assertions:
+- path: /associated_with/0
+  value:
+    description: Contributed MRI defacing refactoring and dimension handling.
+    object: xyzrins:persons/john-lee
+    roles:
+    - marcrel:ctb
+    schema_type: dlthings:Association
+  kind: upstream-git
+  source: https://github.com/poldracklab/pydeface/pull/19
+  locator: merged pull request authored by leej3
+  note: Supports a contributor relationship; does not establish leadership or the
+    beginning or end of involvement.
+  confidence: certain
+  captured: '2026-10-13'
+- path: /associated_with/0
+  value:
+    description: Contributed MRI defacing refactoring and dimension handling.
+    object: xyzrins:persons/john-lee
+    roles:
+    - marcrel:ctb
+    schema_type: dlthings:Association
+  kind: upstream-git
+  source: https://github.com/poldracklab/pydeface/pull/16
+  locator: merged pull request authored by leej3
+  note: Supports a contributor relationship; does not establish leadership or the
+    beginning or end of involvement.
+  confidence: certain
+  captured: '2026-10-13'

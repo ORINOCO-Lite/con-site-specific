@@ -34,6 +34,11 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+- description: Added sequence names to metadata extracted for conversion heuristics.
+  object: xyzrins:persons/john-lee
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

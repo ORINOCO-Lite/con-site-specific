@@ -17,3 +17,18 @@ assertions:
       Good enough to order a page by; not a founding date.
     confidence: certain
     captured: "2026-10-11"
+  - path: /associated_with/1
+    value:
+      description: Contributed to the STAMPED paper and checklist schemas, including
+        controlled access, modularity, and distributability.
+      object: xyzrins:persons/john-lee
+      roles:
+      - marcrel:ctb
+      schema_type: dlthings:Association
+    kind: upstream-git
+    source: https://github.com/stamped-principles/stamped-paper/pull/191
+    locator: merged pull request authored by leej3
+    note: Supports a contributor relationship; does not establish leadership or the
+      beginning or end of involvement.
+    confidence: certain
+    captured: '2026-10-13'

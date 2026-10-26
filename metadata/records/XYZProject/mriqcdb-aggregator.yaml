@@ -1,0 +1,25 @@
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/nimh-dsst/mriqcdb-aggregator
+- predicate: dlthings:code_repository
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/nimh-dsst/mriqcdb-aggregator
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: Aggregates MRIQC database metrics for an imaging quality dashboard.
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Software
+description: Aggregates MRIQC database metrics for an imaging quality dashboard.
+display_label: MRIQCDB aggregator
+pid: xyzrins:projects/mriqcdb-aggregator
+schema_type: xyzri:XYZProject
+short_name: MRIQCDB aggregator
+title: MRIQCDB aggregator
+associated_with:
+- description: Contributed resumable bulk ingestion and dashboard filtering.
+  object: xyzrins:persons/john-lee
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
