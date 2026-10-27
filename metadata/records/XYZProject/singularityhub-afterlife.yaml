@@ -1,3 +1,11 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:cre
+  schema_type: dlthings:Association
+  started:
+    at_time: '2021-04-14'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

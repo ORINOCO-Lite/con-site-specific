@@ -17,3 +17,15 @@ assertions:
       Good enough to order a page by; not a founding date.
     confidence: certain
     captured: "2026-10-11"
+
+  - path: /associated_with/0/started/at_time
+    value: "2021-04-14"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/con/shub
+    locator: 3d7b720e6
+    quote: 'Initial steps for "service" and converter script to minimize what json  to load etc'
+    note: >-
+      First shub-specific commit in con/shub.  Earlier commits there are the DANDI redirector it was built from, not this project.  The ///shub dataset's own history could not be fetched: datasets.datalad.org/shub/.git reports master as 0000... and possible corruption.
+    confidence: certain
+    captured: "2026-10-27"

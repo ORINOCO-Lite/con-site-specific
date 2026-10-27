@@ -17,3 +17,15 @@ assertions:
       Good enough to order a page by; not a founding date.
     confidence: certain
     captured: "2026-10-11"
+
+  - path: /associated_with/0/started/at_time
+    value: "2026-03-19"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/con/mechababs
+    locator: 8a4230e
+    quote: 'initial commit'
+    note: >-
+      First commit of the repository, by Austin Macdonald.
+    confidence: certain
+    captured: "2026-10-27"

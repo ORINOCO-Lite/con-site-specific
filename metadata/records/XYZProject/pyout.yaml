@@ -4,6 +4,27 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+- object: xyzrins:persons/kyle-meyer
+  roles:
+  - marcrel:cre
+  schema_type: dlthings:Association
+  started:
+    at_time: '2017-12-13'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2017-12-19'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/john-wodder
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2022-01-26'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

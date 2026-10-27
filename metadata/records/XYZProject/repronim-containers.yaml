@@ -1,3 +1,25 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:cre
+  schema_type: dlthings:Association
+  started:
+    at_time: '2019-04-16'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/john-wodder
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2022-09-20'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/austin-macdonald
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2023-02-07'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

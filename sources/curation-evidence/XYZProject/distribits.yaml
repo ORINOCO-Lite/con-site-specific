@@ -17,3 +17,27 @@ assertions:
       Good enough to order a page by; not a founding date.
     confidence: certain
     captured: "2026-10-11"
+
+  - path: /associated_with/0/started/at_time
+    value: "2023-09-05"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/distribits/distribits-2024-website
+    locator: f05e7b5
+    quote: 'Create CNAME'
+    note: >-
+      First YOH commit in any distribits repository.  Upper bound: involvement in the meeting itself is not in git.
+    confidence: certain
+    captured: "2026-10-27"
+
+  - path: /associated_with/1/started/at_time
+    value: "2024-02-29"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/distribits/distribits-2024-website
+    locator: 203e9ec
+    quote: 'Add Yarik as a co-presenter of the talk'
+    note: >-
+      First Isaac To commit in any distribits repository, about the talk he co-presented.
+    confidence: certain
+    captured: "2026-10-27"

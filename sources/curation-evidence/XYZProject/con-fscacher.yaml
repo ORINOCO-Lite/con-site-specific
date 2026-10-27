@@ -17,3 +17,39 @@ assertions:
       Good enough to order a page by; not a founding date.
     confidence: certain
     captured: "2026-10-11"
+
+  - path: /associated_with/0/started/at_time
+    value: "2020-05-12"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/con/fscacher
+    locator: 708b616
+    quote: 'Initial commit'
+    note: >-
+      First commit of the repository, by YOH.
+    confidence: certain
+    captured: "2026-10-27"
+
+  - path: /associated_with/1/started/at_time
+    value: "2020-11-11"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/con/fscacher
+    locator: 63876cf
+    quote: 'Copy code from https://github.com/dandi/dandi-cli/blob/master/dandi/support/cache.py'
+    note: >-
+      First John T. Wodder II commit, importing the cache from dandi-cli; 112 commits under two addresses.
+    confidence: certain
+    captured: "2026-10-27"
+
+  - path: /associated_with/2/started/at_time
+    value: "2026-09-29"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/con/fscacher
+    locator: 4f13561
+    quote: 'Add custom_fingerprint to memoize_path, and a git-annex key fingerprint (#113)'
+    note: >-
+      First Cody Baker commit.
+    confidence: certain
+    captured: "2026-10-27"

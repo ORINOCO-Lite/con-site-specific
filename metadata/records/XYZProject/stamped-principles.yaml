@@ -1,6 +1,41 @@
 associated_with:
 - object: xyzrins:organizations/stamped-principles
   schema_type: dlthings:Association
+- object: xyzrins:persons/austin-macdonald
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+  started:
+    at_time: '2026-02-06'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - obo:NCIT_C19924
+  schema_type: dlthings:Association
+  started:
+    at_time: '2026-02-12'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/cody-baker
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2026-02-16'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/isaac-to
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2026-02-19'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/john-lee
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2026-07-27'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

@@ -17,3 +17,63 @@ assertions:
       Good enough to order a page by; not a founding date.
     confidence: certain
     captured: "2026-10-11"
+
+  - path: /associated_with/1/started/at_time
+    value: "2026-02-06"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/stamped-principles/stamped-paper
+    locator: 324b002
+    quote: 'Initial Overleaf Import'
+    note: >-
+      First commit of the STAMPED paper, the repository that started the project; Austin is its first author.
+    confidence: certain
+    captured: "2026-10-27"
+
+  - path: /associated_with/2/started/at_time
+    value: "2026-02-12"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/stamped-principles/stamped-paper
+    locator: 2128f35
+    quote: 'Propose STAMPED as encompassing acronym for all 7 dimensions'
+    note: >-
+      First YOH commit, proposing the STAMPED acronym itself.  Searched across all stamped-principles repositories; the paper holds the earliest.
+    confidence: certain
+    captured: "2026-10-27"
+
+  - path: /associated_with/3/started/at_time
+    value: "2026-02-16"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/stamped-principles/stamped-paper
+    locator: fefc324
+    quote: 'suggestions'
+    note: >-
+      First non-merge Cody Baker commit (he also commits as CodyCBakerPhD).  Earliest across all stamped-principles repositories.
+    confidence: certain
+    captured: "2026-10-27"
+
+  - path: /associated_with/4/started/at_time
+    value: "2026-02-19"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/stamped-principles/stamped-paper
+    locator: 05e8c41
+    quote: 'Add Isaac To as a co-author.'
+    note: >-
+      First Isaac To commit, adding himself as a co-author; his first stamped-examples commit follows a day later.
+    confidence: certain
+    captured: "2026-10-27"
+
+  - path: /associated_with/5/started/at_time
+    value: "2026-07-27"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/stamped-principles/stamped-paper
+    locator: 67418b1
+    quote: 'clarify: mention authorization as part of distribution'
+    note: >-
+      First John Lee commit (as leej3).  Earliest across all stamped-principles repositories; the checklist and schemas follow in September.
+    confidence: certain
+    captured: "2026-10-27"

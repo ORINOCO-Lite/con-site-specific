@@ -17,3 +17,15 @@ assertions:
       Good enough to order a page by; not a founding date.
     confidence: certain
     captured: "2026-10-11"
+
+  - path: /associated_with/1/started/at_time
+    value: "2020-06-27"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/con/tributors
+    locator: be5d60b
+    quote: 'Initial commit'
+    note: >-
+      First commit of the repository, by YOH.
+    confidence: certain
+    captured: "2026-10-27"
