@@ -17,3 +17,39 @@ assertions:
       Good enough to order a page by; not a founding date.
     confidence: certain
     captured: "2026-10-11"
+
+  - path: /associated_with/2/started/at_time
+    value: "2020-06-26"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/con/open-brain-consent
+    locator: 405f866
+    quote: 'Add Acknowledgements paragraph to contributing section'
+    note: >-
+      First Adina Wagner commit; 27 in all, credited as infra in .all-contributorsrc.
+    confidence: certain
+    captured: "2026-10-29"
+
+  - path: /associated_with/3/started/at_time
+    value: "2017-03-10"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/con/open-brain-consent
+    locator: ebfa65a
+    quote: 'Update annon_tools.rst'
+    note: >-
+      His one commit; credited as content in .all-contributorsrc.
+    confidence: certain
+    captured: "2026-10-29"
+
+  - path: /associated_with/4/started/at_time
+    value: "2020-05-03"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/con/open-brain-consent
+    locator: bb68be2
+    quote: '(translation courtesy of Cyril Pernet, Camille Maumet, and Clara Moreau)'
+    note: >-
+      Line in docs/source/i18n/ultimate.fr.rst as created by Valentina Borghesani in this commit; .all-contributorsrc credits cmaumet with translation.
+    confidence: certain
+    captured: "2026-10-29"

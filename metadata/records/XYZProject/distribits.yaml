@@ -1,14 +1,14 @@
 associated_with:
 - object: xyzrins:persons/yaroslav-halchenko
   roles:
-  - marcrel:ctb
+  - marcrel:orm
   schema_type: dlthings:Association
   started:
     at_time: '2023-09-05'
     schema_type: dlthings:Start
 - object: xyzrins:persons/isaac-to
   roles:
-  - marcrel:ctb
+  - marcrel:orm
   schema_type: dlthings:Association
   started:
     at_time: '2024-02-29'

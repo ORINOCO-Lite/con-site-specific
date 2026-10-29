@@ -19,6 +19,10 @@ attributed_to:
   roles:
   - obo:MS_1002036
   schema_type: dlthings:Attribution
+- object: xyzrins:persons/camille-maumet
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
 attributes:
 - predicate: dcterms:issued
   schema_type: dlthings:AttributeSpecification

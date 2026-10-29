@@ -15,3 +15,15 @@ assertions:
       writes them down.
     confidence: certain
     captured: "2026-10-12"
+
+  - path: /associated_with/2/started/at_time
+    value: "2023-07-26"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/dbic/handbook
+    locator: 4182d4b
+    quote: 'Add myself to contributors list'
+    note: >-
+      First Austin Macdonald commit; 25 in all.
+    confidence: certain
+    captured: "2026-10-29"

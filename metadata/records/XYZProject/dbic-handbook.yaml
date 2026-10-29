@@ -8,6 +8,13 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+- object: xyzrins:persons/austin-macdonald
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2023-07-26'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

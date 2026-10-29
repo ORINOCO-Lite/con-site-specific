@@ -7,6 +7,27 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+- object: xyzrins:persons/adina-wagner
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2020-06-26'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/satrajit-ghosh
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2017-03-10'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/camille-maumet
+  roles:
+  - marcrel:trl
+  schema_type: dlthings:Association
+  started:
+    at_time: '2020-05-03'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

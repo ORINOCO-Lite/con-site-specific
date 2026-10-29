@@ -6,6 +6,13 @@ associated_with:
   started:
     at_time: '2021-04-14'
     schema_type: dlthings:Start
+- object: xyzrins:persons/vanessa-sochat
+  roles:
+  - marcrel:cre
+  schema_type: dlthings:Association
+  started:
+    at_time: '2017-01-24'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

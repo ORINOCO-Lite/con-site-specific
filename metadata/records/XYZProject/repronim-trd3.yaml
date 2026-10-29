@@ -14,6 +14,17 @@ associated_with:
   started:
     at_time: '2023-05-05'
     schema_type: dlthings:Start
+- object: xyzrins:persons/austin-macdonald
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2023-01-31'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/john-lee
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

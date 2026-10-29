@@ -1,7 +1,8 @@
 associated_with:
 - object: xyzrins:persons/yaroslav-halchenko
   roles:
-  - marcrel:rtm
+  - obo:NCIT_C51812
+  - obo:NCIT_C93404
   schema_type: dlthings:Association
 - object: xyzrins:persons/brock-wester
   roles:

@@ -99,3 +99,15 @@ assertions:
       one.  Gorgolewski has no record in this store.
     confidence: certain
     captured: "2026-10-19"
+
+  - path: /associated_with/9/started/at_time
+    value: "2022-03-04"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/bids-standard/bids-specification
+    locator: f3aa34dc
+    quote: 'Update src/03-modality-agnostic-files.md'
+    note: >-
+      Her oldest commit in bids-specification; 24 through 2026-01-05.  Her BIDS work predates it through BEP028 and the 2016 Scientific Data paper she co-authored.
+    confidence: certain
+    captured: "2026-10-29"

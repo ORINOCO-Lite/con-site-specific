@@ -877,6 +877,18 @@ assertions:
     confidence: approximate
     captured: "2026-10-19"
 
+  - path: /associated_with/46/started/at_time
+    value: "2013-11-08"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/incf-nidash/nidm-specs
+    locator: a0a1784
+    quote: 'spm_results provn example and PDF'
+    note: >-
+      The first trace of joint work: her first NIDM commit, the day after the INCF task force meeting in San Diego where YOH places the start (see pending).  The -0800 timestamp puts her on the Pacific coast that day.
+    confidence: certain
+    captured: "2026-10-29"
+
 pending:
   - proposed_path: /associated_with/42/started/at_time
     proposed_value: "2008"
@@ -902,3 +914,15 @@ pending:
       email or commit with both Satrajit Ghosh and Yaroslav Halchenko on it
     confidence: unverified
     captured: "2026-10-20"
+  - proposed_path: /associated_with/46/started/at_time
+    proposed_value: "2013-11-07"
+    kind: recollection
+    source: conversation with YOH, 2026-10-29
+    quote: >-
+      we started to work together as part of the INCF Neuroimaging Task Force
+      meeting in San Diego Nov 7 2013
+    would_confirm: >-
+      the agenda or attendee list of the INCF Neuroimaging Data Sharing Task
+      Force meeting in San Diego in November 2013
+    confidence: unverified
+    captured: "2026-10-29"

@@ -1,0 +1,15 @@
+record: xyzrins:projects/nidm
+format: con-association-evidence-v1
+
+assertions:
+  - path: /associated_with/1/started/at_time
+    value: "2013-11-08"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/incf-nidash/nidm-specs
+    locator: a0a1784
+    quote: 'spm_results provn example and PDF'
+    note: >-
+      Her first commit in nidm-specs, timestamped -0800 the day after the INCF Neuroimaging Data Sharing Task Force meeting in San Diego (2013-11-07, see pending).  2349 commits there, the most of anyone, through 2020; NIDM-Results continued in incf-nidash/nidmresults (469).
+    confidence: certain
+    captured: "2026-10-29"

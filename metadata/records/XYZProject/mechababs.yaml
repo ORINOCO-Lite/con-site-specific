@@ -6,6 +6,10 @@ associated_with:
   started:
     at_time: '2026-03-19'
     schema_type: dlthings:Start
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - obo:NCIT_C19924
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

@@ -1,0 +1,6 @@
+description: One of two or more scientists working together on a research project. A
+  person that equally contributes to the research effort, but does not hold the award
+  as a whole -- that is the Principal Investigator.
+display_label: Co-Investigator (Co-I)
+pid: obo:NCIT_C51812
+schema_type: xyzri:XYZAgentRole

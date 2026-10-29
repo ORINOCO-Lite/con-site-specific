@@ -23,3 +23,15 @@ assertions:
     quote: (newest commit authored by TheChymera)
     confidence: certain
     captured: "2026-10-11"
+
+  - path: /associated_with/2/started/at_time
+    value: "2023-01-31"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/nipy/heudiconv
+    locator: 7b35a79
+    quote: 'add :Z option to the volume mount'
+    note: >-
+      Oldest Austin Macdonald commit across the TR&D3 umbrella's repositories -- heudiconv, ReproNim/containers (2023-02-07), mechababs (2026-03-19); none in reproin.
+    confidence: certain
+    captured: "2026-10-29"

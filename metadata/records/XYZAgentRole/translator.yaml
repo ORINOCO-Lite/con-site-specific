@@ -1,0 +1,5 @@
+description: A person or organization who renders a text from one language into another,
+  or from an older form of a language into the modern form.
+display_label: Translator
+pid: marcrel:trl
+schema_type: xyzri:XYZAgentRole

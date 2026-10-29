@@ -1,7 +1,7 @@
 associated_with:
 - object: xyzrins:persons/yaroslav-halchenko
   roles:
-  - marcrel:ctb
+  - marcrel:led
   schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage

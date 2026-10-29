@@ -1,0 +1,34 @@
+attributes:
+- predicate: dlthings:tier
+  schema_type: dlthings:AttributeSpecification
+  value: Collaborators
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Senior Research Scientist (Directrice de recherche), Inria, Empenn team, Rennes
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://camillemaumet.com
+- predicate: dlthings:github
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/cmaumet
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Studies neuroimaging reproducibility, and in particular the variability that
+    analytical pipelines introduce and its impact on reusing brain imaging data. A member
+    of the <a href="/projects#brain_imaging_data_structure_bids_">BIDS</a> Steering Group,
+    the lead of <a href="/projects#bep028_">BEP028</a> (BIDS provenance), and the principal
+    developer of NIDM-Results within <a href="/projects#nidm_">NIDM</a>. The collaboration
+    began at the INCF Neuroimaging Data Sharing Task Force meeting in San Diego in November
+    2013, and runs through NIDM, BIDS and its provenance extension, and the <a href="/projects#open_brain_consent_">Open
+    Brain Consent</a>, which she helped translate into French.
+description: Neuroinformatics researcher at Inria in Rennes who studies neuroimaging
+  reproducibility and the variability of analytical pipelines. A member of the BIDS Steering
+  Group, the lead of BEP028 (BIDS provenance), and the principal developer of NIDM-Results.
+family_name: Maumet
+given_name: Camille
+identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0002-6290-553X
+  schema_type: xyzri:ORCID
+pid: xyzrins:persons/camille-maumet
+schema_type: xyzri:XYZPerson

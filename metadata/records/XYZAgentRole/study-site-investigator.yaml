@@ -1,0 +1,5 @@
+description: A researcher at a study site who oversees multiple aspects of the study at
+  that site. In a multi-site award this is the site PI -- the PI of a subaward.
+display_label: Site PI
+pid: obo:NCIT_C93404
+schema_type: xyzri:XYZAgentRole

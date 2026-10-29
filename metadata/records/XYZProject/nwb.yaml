@@ -17,6 +17,7 @@ associated_with:
   roles:
   - marcrel:led
   - marcrel:swd
+  - xyzrins:agent-roles/steering-committee-member
   schema_type: dlthings:Association
 - object: xyzrins:persons/yaroslav-halchenko
   roles:

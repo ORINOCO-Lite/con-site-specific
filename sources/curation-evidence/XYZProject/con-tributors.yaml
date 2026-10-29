@@ -29,3 +29,15 @@ assertions:
       First commit of the repository, by YOH.
     confidence: certain
     captured: "2026-10-27"
+
+  - path: /associated_with/2/started/at_time
+    value: "2020-06-28"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/con/tributors
+    locator: b0918bd
+    quote: 'adding start of work for client and github action'
+    note: >-
+      First Vanessa Sochat commit (as vsoch), the day after YOH's initial commit; she wrote most of the tool (42 commits under three spellings).
+    confidence: certain
+    captured: "2026-10-29"

@@ -7,9 +7,17 @@ associated_with:
 - object: xyzrins:persons/yaroslav-halchenko
   roles:
   - marcrel:cre
+  - obo:NCIT_C19924
   schema_type: dlthings:Association
   started:
     at_time: '2020-06-27'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/vanessa-sochat
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+  started:
+    at_time: '2020-06-28'
     schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
