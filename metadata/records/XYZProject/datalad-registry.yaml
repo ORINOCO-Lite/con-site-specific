@@ -7,6 +7,13 @@ associated_with:
   roles:
   - obo:NCIT_C19924
   schema_type: dlthings:Association
+- object: xyzrins:persons/kyle-meyer
+  roles:
+  - marcrel:cre
+  schema_type: dlthings:Association
+  started:
+    at_time: '2020-08-24'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

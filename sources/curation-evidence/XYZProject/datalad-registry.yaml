@@ -17,3 +17,15 @@ assertions:
       Good enough to order a page by; not a founding date.
     confidence: certain
     captured: "2026-10-11"
+
+  - path: /associated_with/2/started/at_time
+    value: "2020-08-24"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/datalad/datalad-registry
+    locator: 5175bb7
+    quote: 'docs: Sketch initial registry API'
+    note: >-
+      The repository's first commit, by Kyle Meyer, followed the same day by 'Initial package setup' (476d3c2); 136 commits in all.
+    confidence: certain
+    captured: "2026-10-29"
