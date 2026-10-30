@@ -1,3 +1,11 @@
+associated_with:
+- object: xyzrins:persons/austin-macdonald
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+  started:
+    at_time: '2026-02-06'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification

@@ -3,7 +3,7 @@ associated_with:
   schema_type: dlthings:Association
 - object: xyzrins:persons/austin-macdonald
   roles:
-  - marcrel:led
+  - marcrel:ctb
   schema_type: dlthings:Association
   started:
     at_time: '2026-02-06'

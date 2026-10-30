@@ -15,3 +15,15 @@ assertions:
       and anything that preceded the repo leaves no trace here.
     confidence: certain
     captured: "2026-10-10"
+
+  - path: /associated_with/0/started/at_time
+    value: "2026-04-10"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/stamped-principles/stamped-checklist
+    locator: fd27794
+    quote: 'Initial commit'
+    note: >-
+      The repository's first commit, by Cody Baker; 28 commits in all, plus the Copilot ones he directed.
+    confidence: certain
+    captured: "2026-10-29"
