@@ -41,3 +41,41 @@ assertions:
       First Isaac To commit in any distribits repository, about the talk he co-presented.
     confidence: certain
     captured: "2026-10-27"
+
+  - path: /associated_with/2/started/at_time
+    value: "2023-10-15"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/distribits/distribits-2024-website
+    locator: 39a1571
+    quote: 'Update submission deadline'
+    note: >-
+      First Michael Hanke commit to the distribits 2024 website; 34 in all.
+    confidence: certain
+    captured: "2026-10-29"
+
+  - path: /associated_with/3/started/at_time
+    value: "2023-10-06"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/distribits/distribits-2024-website
+    locator: 01aa0be
+    quote: 'Add registration deadline to about page and schedule'
+    note: >-
+      First Adina Wagner commit to the distribits 2024 website; 42 in all.
+    confidence: certain
+    captured: "2026-10-29"
+
+  - path: /associated_with/1/ended/at_time
+    value: "2024-04-06"
+    bound: lower
+    kind: upstream-git
+    source: https://github.com/distribits/distribits-2024-website
+    locator: 005002b
+    quote: 'April 4th - April 6th, 2024 at “Haus der Universität”, Düsseldorf, Germany'
+    note: >-
+      The last day of distribits 2024, from the event's about page (content/about.md).
+      YOH recalls Isaac To organized only that first distribits; he made 4 commits
+      to its website and none to later ones.
+    confidence: certain
+    captured: "2026-10-29"

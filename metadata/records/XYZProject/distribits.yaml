@@ -6,12 +6,29 @@ associated_with:
   started:
     at_time: '2023-09-05'
     schema_type: dlthings:Start
-- object: xyzrins:persons/isaac-to
+- ended:
+    at_time: '2024-04-06'
+    schema_type: dlthings:End
+  object: xyzrins:persons/isaac-to
   roles:
   - marcrel:orm
   schema_type: dlthings:Association
   started:
     at_time: '2024-02-29'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:orm
+  schema_type: dlthings:Association
+  started:
+    at_time: '2023-10-15'
+    schema_type: dlthings:Start
+- object: xyzrins:persons/adina-wagner
+  roles:
+  - marcrel:orm
+  schema_type: dlthings:Association
+  started:
+    at_time: '2023-10-06'
     schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
