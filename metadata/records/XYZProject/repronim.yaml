@@ -3,6 +3,11 @@ associated_with:
   roles:
   - marcrel:ctb
   schema_type: dlthings:Association
+- description: Contact PI of the ReproNim P41 award (2P41EB019936).
+  object: xyzrins:persons/david-kennedy
+  roles:
+  - obo:NCIT_C19924
+  schema_type: dlthings:Association
 attributes:
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification

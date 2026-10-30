@@ -111,3 +111,15 @@ assertions:
       Her oldest commit in bids-specification; 24 through 2026-01-05.  Her BIDS work predates it through BEP028 and the 2016 Scientific Data paper she co-authored.
     confidence: certain
     captured: "2026-10-29"
+
+  - path: /associated_with/11/started/at_time
+    value: "2018-10-26"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/bids-standard/bids-specification
+    locator: e0cab0ca
+    quote: 'Update 01-contributors.md'
+    note: >-
+      First Franco Pestilli commit; 11 in all.
+    confidence: certain
+    captured: "2026-10-29"

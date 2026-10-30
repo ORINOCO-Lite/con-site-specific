@@ -1,0 +1,54 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:cre
+  - marcrel:led
+  schema_type: dlthings:Association
+  started:
+    at_time: '2016-04-07'
+    schema_type: dlthings:Start
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org
+- predicate: dcterms:description
+  schema_type: dlthings:AttributeSpecification
+  value: The original DataLad distribution, providing access to a wide collection of
+    data from various initiatives and hosting some datasets directly. Arguably one of
+    the largest hierarchies of nested git repositories.
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: datasets.datalad.org
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: datasets.datalad.org
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: datasets.datalad.org
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: '<p> <a href="https://datasets.datalad.org">datasets.datalad.org</a> is the
+    instance of the original <a href="#datalad">DataLad</a> distribution. It provides
+    access to a wide collection of data from various initiatives, such as <a href="https://datasets.datalad.org/?dir=/openfmri">OpenfMRI</a>,
+    and hosts some datasets directly. A single <code>datalad install</code> of its
+    superdataset reaches all of them, which arguably makes it one of the largest hierarchies
+    of nested git repositories out there. </p>'
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Archives
+- predicate: dlthings:anchor
+  schema_type: dlthings:AttributeSpecification
+  value: datasets-datalad-org
+description: The original DataLad distribution, providing access to a wide collection
+  of data from various initiatives and hosting some datasets directly. Arguably one of
+  the largest hierarchies of nested git repositories.
+display_label: datasets.datalad.org
+part_of:
+- xyzrins:.
+pid: xyzrins:projects/datasets-datalad-org
+schema_type: xyzri:XYZProject
+short_name: datasets.datalad.org
+started:
+  at_time: '2016-04-07'
+  schema_type: dlthings:Start
+title: datasets.datalad.org

@@ -18,3 +18,15 @@ assertions:
       2024-04-30 and DANDI did not.
     confidence: certain
     captured: "2026-10-11"
+
+  - path: /associated_with/2/started/at_time
+    value: "2025-08-06"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/flatironinstitute/neurosift
+    locator: 69e8fb5
+    quote: 'translate more pages'
+    note: >-
+      First commit of Cody Baker's neurosift PR #340 'Add EMBER', adding the EMBER archive to Neurosift; followed by EMBER upload support in neuroconv (#1486) and work in aplbrain/ember-dandi-access-summaries, aplbrain/BBQS-EMBER-web and emberarchive/.github.
+    confidence: certain
+    captured: "2026-10-29"

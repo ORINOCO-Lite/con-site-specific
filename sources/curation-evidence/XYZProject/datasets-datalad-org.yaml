@@ -1,0 +1,27 @@
+record: xyzrins:projects/datasets-datalad-org
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2016-04-07"
+    bound: upper
+    kind: upstream-git
+    source: https://datasets.datalad.org/.git
+    locator: a17fbd5
+    quote: 'Added openfmri as submodule via ''datalad install -l 2 --dataset /mnt/btrfs/datasets/datalad/crawl -s ./openfmri ./openfmri'''
+    note: >-
+      The superdataset's first commit.  The crawling that fed it is older, so
+      an upper bound.
+    confidence: certain
+    captured: "2026-10-29"
+  - path: /associated_with/0/started/at_time
+    value: "2016-04-07"
+    bound: upper
+    kind: upstream-git
+    source: https://datasets.datalad.org/.git
+    locator: a17fbd5
+    quote: 'Added openfmri as submodule via ''datalad install -l 2 --dataset /mnt/btrfs/datasets/datalad/crawl -s ./openfmri ./openfmri'''
+    note: >-
+      First commit, by Yaroslav Halchenko, who made 729 of its 730 commits.
+    confidence: certain
+    captured: "2026-10-29"

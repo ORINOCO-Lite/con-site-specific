@@ -31,3 +31,15 @@ assertions:
       place for it.  The work itself lives on the projects where it happened.
     confidence: certain
     captured: "2026-10-11"
+
+  - path: /associated_with/9/started/at_time
+    value: "2019-08-27"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/datalad/datalad
+    locator: b48290564
+    quote: 'shlex quote sys.executable'
+    note: >-
+      First Adina Wagner commit; 429 in all.
+    confidence: certain
+    captured: "2026-10-29"

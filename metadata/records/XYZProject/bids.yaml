@@ -63,6 +63,18 @@ associated_with:
   roles:
   - xyzrins:agent-roles/steering-committee-member
   schema_type: dlthings:Association
+- object: xyzrins:persons/franco-pestilli
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2018-10-26'
+    schema_type: dlthings:Start
+- description: Member of the BIDS Steering Group.
+  object: xyzrins:persons/franco-pestilli
+  roles:
+  - xyzrins:agent-roles/steering-committee-member
+  schema_type: dlthings:Association
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
