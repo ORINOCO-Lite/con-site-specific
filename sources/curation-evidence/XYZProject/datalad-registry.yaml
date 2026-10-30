@@ -29,3 +29,15 @@ assertions:
       The repository's first commit, by Kyle Meyer, followed the same day by 'Initial package setup' (476d3c2); 136 commits in all.
     confidence: certain
     captured: "2026-10-29"
+
+  - path: /associated_with/3/started/at_time
+    value: "2021-07-16"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/datalad/datalad-registry
+    locator: c802306
+    quote: 'Install types-requests alongside mypy'
+    note: >-
+      First John T. Wodder II commit; 59 in all.
+    confidence: certain
+    captured: "2026-10-29"

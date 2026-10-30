@@ -8,6 +8,16 @@ associated_with:
   roles:
   - obo:NCIT_C19924
   schema_type: dlthings:Association
+- description: Lead of TR&D2, 'Improving Research Generalizability through AI aided Study Planning and Benchmarking' (subproject 6306 of 2P41EB019936).
+  object: xyzrins:persons/satrajit-ghosh
+  roles:
+  - obo:NCIT_C25936
+  schema_type: dlthings:Association
+- description: Lead of TR&D3, 'AI-assisted Efficient and Observable Workflow Execution' (subproject 6307 of 2P41EB019936).
+  object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - obo:NCIT_C25936
+  schema_type: dlthings:Association
 attributes:
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
@@ -25,6 +35,9 @@ attributes:
 - predicate: dlthings:short_name
   schema_type: dlthings:AttributeSpecification
   value: ReproNim
+- predicate: dlthings:section
+  schema_type: dlthings:AttributeSpecification
+  value: Initiatives
 description: 'ReproNim: A Center for Reproducible Neuroimaging Computation. A P41 center
   building training, tools and standards so neuroimaging analyses can be reproduced.'
 display_label: ReproNim
@@ -39,4 +52,7 @@ influenced_by:
 pid: xyzrins:projects/repronim
 schema_type: xyzri:XYZProject
 short_name: ReproNim
+started:
+  at_time: '2016-04-15'
+  schema_type: dlthings:Start
 title: ReproNim

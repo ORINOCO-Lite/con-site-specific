@@ -135,6 +135,7 @@ influenced_by:
   schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
+- xyzrins:projects/repronim
 pid: xyzrins:projects/datalad
 schema_type: xyzri:XYZProject
 short_name: DataLad

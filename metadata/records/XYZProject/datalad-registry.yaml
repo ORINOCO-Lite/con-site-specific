@@ -14,6 +14,13 @@ associated_with:
   started:
     at_time: '2020-08-24'
     schema_type: dlthings:Start
+- object: xyzrins:persons/john-wodder
+  roles:
+  - marcrel:ctb
+  schema_type: dlthings:Association
+  started:
+    at_time: '2021-07-16'
+    schema_type: dlthings:Start
 attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
