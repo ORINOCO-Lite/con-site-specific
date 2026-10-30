@@ -27,3 +27,15 @@ assertions:
       First Austin Macdonald commit; 25 in all.
     confidence: certain
     captured: "2026-10-29"
+
+  - path: /associated_with/0/started/at_time
+    value: "2019-09-27"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/dbic/handbook
+    locator: e10288c
+    quote: 'initial version to turn BIDS spec repo into DBIC handbook repo'
+    note: >-
+      The handbook's first commit, by Yaroslav Halchenko, on top of an imported BIDS specification snapshot; 76 commits in all, the most of anyone.
+    confidence: certain
+    captured: "2026-10-29"

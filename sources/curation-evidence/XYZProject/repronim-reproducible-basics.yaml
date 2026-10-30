@@ -1,0 +1,16 @@
+record: xyzrins:projects/repronim-reproducible-basics
+format: con-association-evidence-v1
+
+assertions:
+
+  - path: /associated_with/0/started/at_time
+    value: "2016-10-18"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/ReproNim/module-reproducible-basics
+    locator: 81be7dd
+    quote: 'RF: changing _config.yml to point to repronim'
+    note: >-
+      First Yaroslav Halchenko commit, turning a Software Carpentry lesson template (whose history the repository keeps, from 2013) into the ReproNim module; 69 commits in all.
+    confidence: certain
+    captured: "2026-10-29"

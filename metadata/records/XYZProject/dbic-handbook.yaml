@@ -1,8 +1,12 @@
 associated_with:
 - object: xyzrins:persons/yaroslav-halchenko
   roles:
+  - marcrel:cre
   - marcrel:led
   schema_type: dlthings:Association
+  started:
+    at_time: '2019-09-27'
+    schema_type: dlthings:Start
 - description: 2 commits.
   object: xyzrins:persons/andy-connolly
   roles:
