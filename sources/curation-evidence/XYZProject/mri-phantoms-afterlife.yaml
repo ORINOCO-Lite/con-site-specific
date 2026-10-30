@@ -1,0 +1,16 @@
+record: xyzrins:projects/mri-phantoms-afterlife
+format: con-association-evidence-v1
+
+assertions:
+
+  - path: /associated_with/0/started/at_time
+    value: "2017-04-24"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/dbic/QA
+    locator: ab21d9af3
+    quote: '[DATALAD] aggregated meta data'
+    note: >-
+      First commit under Yaroslav Halchenko's own name; 213 in all.  The dataset itself starts on 2017-04-04 (7d8c02ac4, '[DATALAD] new dataset'), committed as 'DBIC BIDS Team' <bids@dbic.dartmouth.edu>, the identity the automated conversions commit under, so the date here is a loose upper bound.
+    confidence: certain
+    captured: "2026-10-29"
