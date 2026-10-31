@@ -26,8 +26,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: DataLad – decentralized data distribution for consumption and sharing
-  of scientific datasets
 identifiers:
 - notation: http://www.pymvpa.org/files/OHBM2016_Halchenko_datalad.pdf
   schema_type: dlthings:Identifier

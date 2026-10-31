@@ -36,8 +36,6 @@ characterized_by:
   predicate: dcterms:type
 description: 'Cheng CP and Halchenko YO (2020). A new virtue of phantom MRI data: explaining
   variance in human participant data. F1000Research, 9:1131, https://doi.org/10.12688/f1000research.24544.1'
-display_label: 'A new virtue of phantom MRI data: explaining variance in human participant
-  data'
 generated_by:
 - at_time: '2020-09-14'
   object: xyzrins:projects/mri-phantoms-afterlife

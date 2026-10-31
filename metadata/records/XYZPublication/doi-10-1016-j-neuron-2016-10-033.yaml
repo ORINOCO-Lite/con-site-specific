@@ -23,7 +23,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: To the Cloud! A Grassroots Proposal to Accelerate Brain Science Discovery
 identifiers:
 - notation: 10.1016/j.neuron.2016.10.033
   schema_type: dlthings:DOI

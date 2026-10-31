@@ -19,7 +19,6 @@ attributes:
   value: https://github.com/OpenKinect/libfreenect
 description: Drivers and libraries for the Xbox Kinect device on Windows, Linux and OS
   X.
-display_label: Freenect
 pid: xyzrins:projects/freenect
 schema_type: xyzri:XYZProject
 short_name: Freenect

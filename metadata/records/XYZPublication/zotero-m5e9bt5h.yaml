@@ -30,8 +30,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: 'ReproIn: automatic generation of shareable, version-controlled BIDS
-  datasets from MR scanners'
 identifiers:
 - notation: zotero:group:6197458:item:M5E9BT5H
   schema_type: dlthings:Identifier

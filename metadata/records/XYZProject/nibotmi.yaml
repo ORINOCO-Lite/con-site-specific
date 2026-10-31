@@ -31,7 +31,6 @@ attributes:
   value: https://github.com/nipy/nibotmi
 description: The NIPY buildbot master -- the machine that builds and tests the Python
   neuroimaging stack across the platforms its users actually have.
-display_label: Nibotmi
 pid: xyzrins:projects/nibotmi
 schema_type: xyzri:XYZProject
 short_name: Nibotmi

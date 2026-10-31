@@ -84,8 +84,6 @@ characterized_by:
 description: 'Halchenko et al., (2021). DataLad: distributed system for joint management
   of code, data, and their relationship. Journal of Open Source Software, 6(63), 3262,
   https://doi.org/10.21105/joss.03262'
-display_label: 'DataLad: distributed system for joint management of code, data, and
-  their relationship'
 generated_by:
 - at_location: ISSN:2475-9066
   at_time: '2021-07-01'

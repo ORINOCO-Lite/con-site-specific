@@ -36,7 +36,6 @@ attributes:
 description: Backs up a record of GitHub activity and turns it into a work-history
   dashboard. CON uses it to see what its members have actually been doing, across the
   several organizations the work is spread over.
-display_label: Historia
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/historia

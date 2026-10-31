@@ -13,10 +13,15 @@ attributed_to:
   roles:
   - obo:NCIT_C25936
   schema_type: dlthings:Attribution
-display_label: Ecosystem for Multi-modal Brain-behavior Experimentation and
+generated_by:
+  at_time: '2024-09-16'
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 1R24MH136632-01
   schema_type: dlthings:Identifier
+invalidated_by:
+  at_time: '2029-05-31'
+  schema_type: dlthings:Invalidation
 pid: xyzrins:grants/nih-ember
 schema_type: xyzri:XYZGrant
 short_name: 1R24MH136632-01

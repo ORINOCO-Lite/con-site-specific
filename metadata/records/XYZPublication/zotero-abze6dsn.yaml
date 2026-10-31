@@ -28,7 +28,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: Clustering cortical searchlights based on shared representational geometry
 identifiers:
 - notation: zotero:group:6197458:item:ABZE6DSN
   schema_type: dlthings:Identifier

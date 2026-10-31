@@ -17,7 +17,6 @@ attributes:
   value: Utopia Documents
 description: A PDF reader that links the static content of scientific articles to live
   online resources, data and annotations.
-display_label: Utopia Documents
 pid: xyzrins:projects/utopia-documents
 schema_type: xyzri:XYZProject
 short_name: Utopia Documents

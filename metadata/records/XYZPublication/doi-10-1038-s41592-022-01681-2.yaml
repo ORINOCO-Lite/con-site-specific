@@ -60,7 +60,6 @@ description: "Abstract\n            Reference anatomies of the brain (‘templat
   \ TemplateFlow enables multifaceted insights into brains across species, and supports\
   \ multiverse analyses testing whether results generalize across standard references,\
   \ scales, and in the long term, species."
-display_label: 'TemplateFlow: FAIR-sharing of multi-scale, multi-species brain models'
 identifiers:
 - notation: 10.1038/s41592-022-01681-2
   schema_type: dlthings:DOI

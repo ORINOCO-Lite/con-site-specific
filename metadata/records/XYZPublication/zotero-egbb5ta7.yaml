@@ -19,7 +19,6 @@ attributes:
 characterized_by:
 - object: bibo:BookSection
   predicate: dcterms:type
-display_label: The model of associative processor for numerical data sorting
 identifiers:
 - notation: zotero:group:6197458:item:EGBB5TA7
   schema_type: dlthings:Identifier

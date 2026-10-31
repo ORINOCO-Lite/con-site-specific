@@ -23,7 +23,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: Four aspects to make science open "by design" and not as an after-thought
 identifiers:
 - notation: 10.1186/s13742-015-0072-7
   schema_type: dlthings:DOI

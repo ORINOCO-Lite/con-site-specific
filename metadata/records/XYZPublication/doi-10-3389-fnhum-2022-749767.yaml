@@ -23,9 +23,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: The Relationship Between Default Mode and Dorsal Attention Networks
-  Is Associated With Depressive Disorder Diagnosis and the Strength of Memory Representations
-  Acquired Prior to the Resting State Scan
 identifiers:
 - notation: 10.3389/fnhum.2022.749767
   schema_type: dlthings:DOI

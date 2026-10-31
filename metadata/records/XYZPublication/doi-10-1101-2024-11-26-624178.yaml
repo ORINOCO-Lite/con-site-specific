@@ -26,8 +26,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: Behaviorally-relevant features of observed actions dominate cortical
-  representational geometry in natural vision
 identifiers:
 - notation: 10.1101/2024.11.26.624178
   schema_type: dlthings:DOI

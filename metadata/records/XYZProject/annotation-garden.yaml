@@ -15,7 +15,6 @@ attributes:
 description: 'Open infrastructure for collaborative annotation of neuroscience stimuli:
   shared, versioned annotations of naturalistic movies, images and audio, built on BIDS
   and HED, with AI-drafted annotations that people refine.'
-display_label: Annotation Garden Initiative
 influenced_by:
 - object: xyzrins:projects/bids
   schema_type: xyzri:XYZInfluence

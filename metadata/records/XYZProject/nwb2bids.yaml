@@ -53,7 +53,6 @@ attributes:
     the GitHub organization holding individual DANDI dandisets in BIDS form. </p>'
 description: Reorganizes NWB files into a BIDS directory layout, so a dandiset can
   be read by the tooling that expects BIDS without being converted twice.
-display_label: con/nwb2bids
 part_of:
 - xyzrins:projects/dandi
 pid: xyzrins:projects/nwb2bids

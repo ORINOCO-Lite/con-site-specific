@@ -38,8 +38,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: 'PyMVPA: A Python toolbox for multivariate pattern analysis of fMRI
-  data'
 identifiers:
 - notation: 10.1007/s12021-008-9041-y
   schema_type: dlthings:DOI

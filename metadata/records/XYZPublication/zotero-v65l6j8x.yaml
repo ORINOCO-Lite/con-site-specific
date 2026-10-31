@@ -20,7 +20,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: 'NICEMAN: NeuroImaging Computational Environments Manager'
 identifiers:
 - notation: zotero:group:6197458:item:V65L6J8X
   schema_type: dlthings:Identifier

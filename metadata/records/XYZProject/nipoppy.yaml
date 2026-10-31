@@ -29,7 +29,6 @@ attributes:
   value: https://github.com/nipoppy/nipoppy
 description: Lightweight framework for organising and processing neuroimaging and clinical
   data, built on BIDS.
-display_label: Nipoppy
 pid: xyzrins:projects/nipoppy
 schema_type: xyzri:XYZProject
 short_name: Nipoppy

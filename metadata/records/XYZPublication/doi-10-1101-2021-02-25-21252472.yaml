@@ -85,8 +85,6 @@ description: 'The association of unipolar depression (UD), relative to healthy c
   reporting guidelines and uploaded the relevant EQUATOR Network research reporting
   checklist(s) and other pertinent material as supplementary files, if applicable.YesData
   will be made publicly available upon publication.'
-display_label: Aberrant levels of cortical myelin distinguish individuals with unipolar
-  depression from healthy controls
 identifiers:
 - notation: 10.1101/2021.02.25.21252472
   schema_type: dlthings:DOI

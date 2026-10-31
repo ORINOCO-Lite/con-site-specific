@@ -34,8 +34,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: Attention alters animal and action representation in highly-distributed
-  functionally-defined cortical parcels
 identifiers:
 - notation: zotero:group:6197458:item:STIS8CE3
   schema_type: dlthings:Identifier

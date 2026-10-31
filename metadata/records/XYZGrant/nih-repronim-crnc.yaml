@@ -14,7 +14,6 @@ attributed_to:
   roles:
   - obo:NCIT_C25936
   schema_type: dlthings:Attribution
-display_label: Center for Reproducible Neuroimaging Computation (CRNC)
 identifiers:
 - notation: 1P41EB019936-01A1
   schema_type: dlthings:Identifier

@@ -57,7 +57,6 @@ description: Neuroimaging (e.g. fMRI) data are increasingly used to attempt to i
   feedback, subject to random differences of BOLD delays, with regions of interest
   missing at random for some subjects, measured with noise approximating the signal
   to noise ratio of the empirical data.
-display_label: Six problems for causal inference from fMRI
 identifiers:
 - notation: 10.1016/j.neuroimage.2009.08.065
   schema_type: dlthings:DOI

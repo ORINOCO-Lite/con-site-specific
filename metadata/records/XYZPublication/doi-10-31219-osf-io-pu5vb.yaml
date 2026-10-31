@@ -28,7 +28,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: 'Open and reproducible neuroimaging: from study inception to publication'
 identifiers:
 - notation: 10.31219/osf.io/pu5vb
   schema_type: dlthings:DOI

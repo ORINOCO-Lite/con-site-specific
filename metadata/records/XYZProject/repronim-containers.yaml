@@ -65,7 +65,6 @@ description: ReproNim/containers is a DataLad dataset providing a ready-to-use "
   broader ReproNim ecosystem — and exposes them via the ///repronim/containers DataLad
   dataset path, making it trivial to pin and share exact software environments alongside
   data and workflows.
-display_label: ReproNim/containers
 part_of:
 - xyzrins:.
 - xyzrins:projects/repronim-trd3

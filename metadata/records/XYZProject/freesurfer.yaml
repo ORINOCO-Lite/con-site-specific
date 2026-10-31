@@ -20,7 +20,6 @@ attributes:
   value: https://github.com/freesurfer/freesurfer
 description: Neuroimaging analysis and visualization suite, best known for cortical surface
   reconstruction and segmentation.
-display_label: FreeSurfer
 pid: xyzrins:projects/freesurfer
 schema_type: xyzri:XYZProject
 short_name: FreeSurfer

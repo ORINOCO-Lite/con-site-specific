@@ -35,7 +35,6 @@ attributes:
 description: Training module presenting daily core tools (shell, version control, etc)
   and demonstrating research reproducibility improvement. Part of the ReproNim training
   curriculum.
-display_label: 'ReproNim: Reproducible Basics'
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/repronim-reproducible-basics

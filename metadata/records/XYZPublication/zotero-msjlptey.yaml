@@ -26,8 +26,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: Decoding the neural representation of observed social and nonsocial
-  human actions
 identifiers:
 - notation: zotero:group:6197458:item:MSJLPTEY
   schema_type: dlthings:Identifier

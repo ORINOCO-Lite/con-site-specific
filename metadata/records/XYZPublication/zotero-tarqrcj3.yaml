@@ -32,7 +32,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: Attentional allocation locally warps representational space
 identifiers:
 - notation: zotero:group:6197458:item:TARQRCJ3
   schema_type: dlthings:Identifier

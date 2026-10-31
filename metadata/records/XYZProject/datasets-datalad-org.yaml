@@ -42,7 +42,6 @@ attributes:
 description: The original DataLad distribution, providing access to a wide collection
   of data from various initiatives and hosting some datasets directly. Arguably one of
   the largest hierarchies of nested git repositories.
-display_label: datasets.datalad.org
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/datasets-datalad-org

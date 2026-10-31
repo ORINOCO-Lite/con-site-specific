@@ -20,7 +20,6 @@ attributes:
   value: https://github.com/NrgXnat/xnat
 description: 'An open platform for imaging-based research: archiving, managing and sharing
   imaging and related study data.'
-display_label: XNAT
 pid: xyzrins:projects/xnat
 schema_type: xyzri:XYZProject
 short_name: XNAT

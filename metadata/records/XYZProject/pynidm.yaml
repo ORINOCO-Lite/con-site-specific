@@ -20,7 +20,6 @@ attributes:
   value: https://github.com/incf-nidash/PyNIDM
 description: Python APIs and tools for working with NIDM documents -- the implementation
   side of the Neuroimaging Data Model.
-display_label: PyNIDM
 pid: xyzrins:projects/pynidm
 schema_type: xyzri:XYZProject
 short_name: PyNIDM

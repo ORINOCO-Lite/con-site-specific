@@ -37,7 +37,6 @@ attributes:
 description: Daemon that bans hosts causing repeated authentication failures, by watching
   logs and driving the firewall. Not a neuroscience project; it runs under the infrastructure
   CON and most of the field depend on.
-display_label: Fail2Ban
 pid: xyzrins:projects/fail2ban
 schema_type: xyzri:XYZProject
 short_name: Fail2Ban

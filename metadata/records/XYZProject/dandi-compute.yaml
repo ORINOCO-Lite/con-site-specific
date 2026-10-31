@@ -40,7 +40,6 @@ description: Runs processing pipelines directly on DANDI assets, rather than ask
   everyone to download them first. Orchestration, a submission client and a public
   queue; the first campaign puts the AIND ephys pipeline over electrophysiology
   dandisets.
-display_label: DANDI Compute
 part_of:
 - xyzrins:projects/dandi
 pid: xyzrins:projects/dandi-compute

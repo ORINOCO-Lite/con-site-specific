@@ -27,8 +27,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: 'multimatch-gaze: The MultiMatch algorithm for gaze path comparison
-  in Python'
 identifiers:
 - notation: 10.21105/joss.01525
   schema_type: dlthings:DOI

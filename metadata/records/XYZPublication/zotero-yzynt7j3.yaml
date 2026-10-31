@@ -28,7 +28,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: Fantastic containers and how to tame them
 identifiers:
 - notation: https://github.com/ReproNim/artwork/raw/master/posters/ohbm2019-containers.pdf
   schema_type: dlthings:Identifier

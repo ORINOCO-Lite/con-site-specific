@@ -59,7 +59,6 @@ description: The Brain Imaging Data Structure (BIDS) is a community-driven stand
   been extended, and some of the challenges being addressed as it evolves. We also
   discuss the lessons learned through the project, with the aim of enabling researchers
   in other domains to learn from the success of BIDS.
-display_label: The Past, Present, and Future of the Brain Imaging Data Structure (BIDS)
 identifiers:
 - notation: 10.48550/arxiv.2309.05768
   schema_type: dlthings:DOI

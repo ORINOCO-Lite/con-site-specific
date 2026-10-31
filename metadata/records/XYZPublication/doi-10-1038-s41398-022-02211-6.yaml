@@ -21,8 +21,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: 'Working memory updating in individuals with bipolar and unipolar depression:
-  fMRI study'
 identifiers:
 - notation: 10.1038/s41398-022-02211-6
   schema_type: dlthings:DOI

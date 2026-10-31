@@ -10,7 +10,6 @@ attributes:
   value: dbic/QA
 description: Phantom, human and LEGO scans for the MRI scanner QA at DBIC, accumulated
   as a DataLad dataset since 2020.
-display_label: dbic/QA
 identifiers:
 - notation: https://datasets.datalad.org/?dir=/dbic/QA
   schema_type: dlthings:Identifier

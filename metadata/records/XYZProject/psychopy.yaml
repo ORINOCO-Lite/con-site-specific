@@ -44,7 +44,6 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: https://psychopy.org
 description: Open-source package for running experiments in Python, created by Jon Peirce.
-display_label: PsychoPy
 pid: xyzrins:projects/psychopy
 schema_type: xyzri:XYZProject
 short_name: PsychoPy

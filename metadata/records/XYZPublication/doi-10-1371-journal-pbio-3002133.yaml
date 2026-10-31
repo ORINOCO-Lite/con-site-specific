@@ -67,7 +67,6 @@ description: Characterizing cellular diversity at different levels of biological
   or adopted toward Findable, Accessible, Interoperable, and Reusable (FAIR) neuroscience.
   The combined BICCN ecosystem provides a comprehensive resource for the exploration
   and analysis of cell types in the brain.
-display_label: A guide to the BRAIN Initiative Cell Census Network data ecosystem
 identifiers:
 - notation: 10.1371/journal.pbio.3002133
   schema_type: dlthings:DOI

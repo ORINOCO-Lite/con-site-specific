@@ -35,7 +35,6 @@ attributes:
   value: https://github.com/ReproNim/neurodocker
 description: Generates custom Docker and Singularity images for neuroimaging software,
   and minimizes existing ones.
-display_label: Neurodocker
 pid: xyzrins:projects/neurodocker
 schema_type: xyzri:XYZProject
 short_name: Neurodocker

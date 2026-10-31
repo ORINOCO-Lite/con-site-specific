@@ -18,7 +18,6 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/pandas-dev/pandas
 description: Flexible and powerful data analysis and manipulation library for Python.
-display_label: Pandas
 pid: xyzrins:projects/pandas
 schema_type: xyzri:XYZProject
 short_name: Pandas

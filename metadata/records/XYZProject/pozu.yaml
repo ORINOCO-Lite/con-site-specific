@@ -30,7 +30,6 @@ description: 'Pose labeling of EMBER video data in the browser, by whoever is wi
   to label it. Inspired by Galaxy Zoo: the bottleneck on pose estimation is annotated
   video, and a web page anyone can open is a cheaper way to get it than a pipeline
   only the lab can run.'
-display_label: Pozu
 part_of:
 - xyzrins:projects/ember
 pid: xyzrins:projects/pozu

@@ -48,7 +48,6 @@ description: Abstract Successful interactions between people are dependent on ra
   absence of awareness of that face. While previous work has demonstrated that stimuli
   that signal threat are processed without awareness, our data suggest that the social
   relevance of a face, defined more broadly, is evaluated in the absence of awareness.
-display_label: Processing of invisible social cues
 identifiers:
 - notation: 10.1016/j.concog.2013.05.002
   schema_type: dlthings:DOI

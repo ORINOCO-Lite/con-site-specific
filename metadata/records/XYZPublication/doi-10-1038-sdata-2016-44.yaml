@@ -84,8 +84,6 @@ description: "Abstract\n            The development of magnetic resonance imagin
   \ and describing MRI datasets. The BIDS standard uses file formats compatible with\
   \ existing software, unifies the majority of practices already common in the field,\
   \ and captures the metadata necessary for most common data processing operations."
-display_label: The brain imaging data structure, a format for organizing and describing
-  outputs of neuroimaging experiments
 identifiers:
 - notation: 10.1038/sdata.2016.44
   schema_type: dlthings:DOI

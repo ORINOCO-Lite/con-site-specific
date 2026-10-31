@@ -27,7 +27,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: 'Statistical learning analysis in neuroscience: aiming for transparency'
 identifiers:
 - notation: 10.3389/neuro.01.007.2010
   schema_type: dlthings:DOI

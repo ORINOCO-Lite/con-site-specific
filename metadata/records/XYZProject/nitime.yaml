@@ -18,7 +18,6 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/nipy/nitime
 description: Timeseries analysis for neuroscience data.
-display_label: Nitime
 pid: xyzrins:projects/nitime
 schema_type: xyzri:XYZProject
 short_name: Nitime

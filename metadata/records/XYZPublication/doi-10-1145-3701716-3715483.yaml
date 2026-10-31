@@ -28,8 +28,6 @@ attributes:
 characterized_by:
 - object: bibo:Article
   predicate: dcterms:type
-display_label: 'Bridging the Scientific Knowledge Gap and Reproducibility: A Survey
-  of Provenance, Assertion and Evidence Ontologies'
 identifiers:
 - notation: 10.1145/3701716.3715483
   schema_type: dlthings:DOI

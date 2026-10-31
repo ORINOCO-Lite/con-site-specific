@@ -25,7 +25,6 @@ attributes:
   value: https://github.com/datalad-handbook/book
 description: A hands-on course in data management with DataLad, written to be worked
   through rather than looked up.
-display_label: DataLad Handbook
 part_of:
 - xyzrins:projects/datalad
 pid: xyzrins:projects/datalad-handbook

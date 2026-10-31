@@ -56,7 +56,6 @@ description: Reproducible research is a key element of the scientific process. R
   and results of a neuroimaging analysis, in order to generate a verifiable re-executable
   publication. Re-executability provides a starting point for examination of the generalizability
   and reproducibility of a given finding.
-display_label: A very simple, re-executable neuroimaging publication
 identifiers:
 - notation: 10.12688/f1000research.10783.2
   schema_type: dlthings:DOI

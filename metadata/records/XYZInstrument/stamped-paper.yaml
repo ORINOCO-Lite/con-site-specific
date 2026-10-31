@@ -13,6 +13,7 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: stamped-paper
+description: Manuscript formalizing the STAMPED properties of reproducible research objects.
 display_label: stamped-paper
 generated_by:
 - at_time: '2026-02-06'

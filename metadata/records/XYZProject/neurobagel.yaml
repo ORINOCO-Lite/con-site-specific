@@ -24,7 +24,6 @@ attributes:
   value: https://github.com/neurobagel/bagel-cli
 description: 'Federated search across neuroimaging studies: a schema, a CLI for annotating
   datasets, and a query tool over the resulting graph.'
-display_label: Neurobagel
 pid: xyzrins:projects/neurobagel
 schema_type: xyzri:XYZProject
 short_name: Neurobagel

@@ -19,9 +19,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://www.debian.org
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Volunteer project packaging and integrating free software.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Debian
@@ -29,7 +26,6 @@ description: 'The universal operating system: a volunteer project that packages 
   free software, with a social contract and a technical policy older than most of what
   it ships. Not CON''s project -- the community CON''s practice was learned in, and still
   packages into.'
-display_label: Debian
 pid: xyzrins:projects/debian
 schema_type: xyzri:XYZProject
 short_name: Debian

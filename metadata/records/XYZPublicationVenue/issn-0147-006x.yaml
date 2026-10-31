@@ -5,7 +5,6 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: Annual Review of Neuroscience
-display_label: Annual Review of Neuroscience
 identifiers:
 - creator: ror:026ytr635
   notation: 0147-006X

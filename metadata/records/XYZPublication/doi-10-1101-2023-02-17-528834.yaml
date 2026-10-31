@@ -22,8 +22,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: 'OME-Zarr: a cloud-optimized bioimaging file format with international
-  community support'
 identifiers:
 - notation: 10.1101/2023.02.17.528834
   schema_type: dlthings:DOI

@@ -20,7 +20,6 @@ attributes:
   value: https://github.com/Nuitka/Nuitka
 description: A Python compiler written in Python, fully compatible with the language and
   able to produce standalone executables.
-display_label: Nuitka
 pid: xyzrins:projects/nuitka
 schema_type: xyzri:XYZProject
 short_name: Nuitka

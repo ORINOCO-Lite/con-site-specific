@@ -17,7 +17,6 @@ attributes:
   value: HCP
 description: The Connectome Coordination Facility houses and distributes public research
   data from studies focused on mapping human brain connectivity.
-display_label: HCP
 pid: xyzrins:projects/hcp
 schema_type: xyzri:XYZProject
 short_name: HCP

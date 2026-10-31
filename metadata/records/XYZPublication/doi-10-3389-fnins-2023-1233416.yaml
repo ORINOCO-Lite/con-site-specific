@@ -60,8 +60,6 @@ description: <p>With the advent of multivariate pattern analysis (MVPA) as an im
   results are facilitated through visualizations. The PyMVPA BIDS-App is designed
   to be accessible to novice users, while also offering more control to experts through
   command-line arguments in a highly reproducible environment.</p>
-display_label: 'The PyMVPA BIDS-App: a robust multivariate pattern analysis pipeline
-  for fMRI data'
 identifiers:
 - notation: 10.3389/fnins.2023.1233416
   schema_type: dlthings:DOI

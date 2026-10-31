@@ -36,8 +36,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: Attention selectively reshapes the geometry of distributed semantic
-  representation
 identifiers:
 - notation: 10.1101/045252
   schema_type: dlthings:DOI

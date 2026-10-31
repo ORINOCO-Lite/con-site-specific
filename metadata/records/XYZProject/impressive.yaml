@@ -17,7 +17,6 @@ attributes:
   value: Impressive
 description: A presentation tool that displays PDF and image slideshows with smooth transitions
   and presenter aids.
-display_label: Impressive
 pid: xyzrins:projects/impressive
 schema_type: xyzri:XYZProject
 short_name: Impressive

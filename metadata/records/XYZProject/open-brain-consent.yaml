@@ -80,7 +80,6 @@ attributes:
 description: Aims to facilitate neuroimaging data sharing by providing an out-of-the-box
   solution including consent forms enabling anonymized data deposition and anonymization
   tools/pipelines. An international effort with GDPR compliance materials.
-display_label: Open Brain Consent
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/open-brain-consent

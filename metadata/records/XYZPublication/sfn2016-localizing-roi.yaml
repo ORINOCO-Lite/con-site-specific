@@ -41,8 +41,6 @@ characterized_by:
 description: Nastase SA, Guntupalli JS, Haxby JV and Halchenko YO (2016). Localizing
   functional regions of interest based on responses to dynamic naturalistic stimuli.
   Society for Neuroscience, San Diego.
-display_label: Localizing functional regions of interest based on responses to
-  dynamic naturalistic stimuli
 generated_by:
 - at_time: '2016-11-12'
   object: xyzrins:projects/region-localization

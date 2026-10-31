@@ -49,8 +49,6 @@ description: How can the components of visual comprehension be characterized as 
   structural equation modeling of the data yielded distinct patterns of interactivity
   among brain areas as a function of the degree to which bottom-up and top-down data
   were available.
-display_label: Bottom-up and top-down brain functional connectivity underlying comprehension
-  of everyday visual action
 identifiers:
 - notation: 10.1007/s00429-007-0160-2
   schema_type: dlthings:DOI

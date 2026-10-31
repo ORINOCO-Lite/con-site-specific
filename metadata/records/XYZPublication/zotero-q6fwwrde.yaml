@@ -19,7 +19,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: Fusion of functional brain imaging modalities via linear programming
 identifiers:
 - notation: http://www.onerussian.com/Sci/pubs/lpnfsi2003.pdf
   schema_type: dlthings:Identifier

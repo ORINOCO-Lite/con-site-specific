@@ -8,10 +8,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://apptainer.org
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Application containers for Linux; the Linux Foundation continuation of Singularity
-    after the 2021 fork.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Apptainer
@@ -20,7 +16,6 @@ attributes:
   value: https://github.com/apptainer/apptainer
 description: Application containers for Linux. The Linux Foundation continuation of Singularity
   after the 2021 fork, widely deployed on HPC systems.
-display_label: Apptainer
 pid: xyzrins:projects/apptainer
 schema_type: xyzri:XYZProject
 short_name: Apptainer

@@ -21,8 +21,6 @@ attributes:
 characterized_by:
 - object: bibo:Article
   predicate: dcterms:type
-display_label: Approach to parallel-hierarchical network learning for real-time image
-  sequence recognition
 identifiers:
 - notation: 10.1117/12.360283
   schema_type: dlthings:DOI

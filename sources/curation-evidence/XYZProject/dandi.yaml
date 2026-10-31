@@ -23,22 +23,6 @@ assertions:
       work behind it is not in any repository.
     confidence: certain
     captured: "2026-10-11"
-  - path: /ended/at_time
-    value: "2024-04-30"
-    bound: exact
-    kind: registry
-    source: https://api.reporter.nih.gov/v2/projects/search
-    locator: "project_end_date for 1R24MH117295-01A1"
-    quote: '"project_end_date": "2024-04-30T00:00:00Z"'
-    note: >-
-      The end of the AWARD period, from the funder's own record.  A planned
-      end stated by a registry, not a trace of work, so `exact` rather than a
-      bound in either direction -- and `registry` is outside ARTIFACT_KINDS,
-      so the trace/record direction rule does not apply.  Note this is the
-      funding period, not the end of the effort: DANDI's award ended
-      2024-04-30 and DANDI did not.
-    confidence: certain
-    captured: "2026-10-11"
   - path: /associated_with/0/started/at_time
     value: "2019-07-24"
     bound: upper

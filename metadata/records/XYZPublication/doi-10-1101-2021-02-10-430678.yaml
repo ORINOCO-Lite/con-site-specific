@@ -30,8 +30,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: 'TemplateFlow: a community archive of imaging templates and atlases
-  for improved consistency in neuroimaging'
 identifiers:
 - notation: 10.1101/2021.02.10.430678
   schema_type: dlthings:DOI

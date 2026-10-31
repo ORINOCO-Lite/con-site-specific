@@ -22,8 +22,6 @@ attributes:
 characterized_by:
 - object: bibo:Article
   predicate: dcterms:type
-display_label: 'Debian Med: Integrated software environment for all medical purposes
-  based on Debian GNU/Linux'
 identifiers:
 - notation: zotero:group:6197458:item:3ZVYRXU7
   schema_type: dlthings:Identifier

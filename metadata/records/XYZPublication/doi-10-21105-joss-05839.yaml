@@ -80,7 +80,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: HeuDiConv — flexible DICOM conversion into structureddirectory layouts
 identifiers:
 - notation: 10.21105/joss.05839
   schema_type: dlthings:DOI

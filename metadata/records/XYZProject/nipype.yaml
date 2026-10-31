@@ -31,7 +31,6 @@ attributes:
   value: https://github.com/nipy/nipype
 description: Workflows and uniform interfaces across neuroimaging packages, so pipelines
   can mix tools from different suites.
-display_label: Nipype
 pid: xyzrins:projects/nipype
 schema_type: xyzri:XYZProject
 short_name: Nipype

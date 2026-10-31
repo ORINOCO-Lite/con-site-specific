@@ -65,7 +65,6 @@ description: Localizing a functional region usually means running a dedicated lo
   This asks whether the same regions can be found in data that was rich to begin with
   -- a feature film, watched once -- and reports that a GLM is the wrong tool for it.
   Dormant; worth returning to.
-display_label: Highly specific region localization from naturally rich data
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/region-localization

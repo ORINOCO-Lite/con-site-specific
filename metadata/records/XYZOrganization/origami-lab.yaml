@@ -19,7 +19,7 @@ influenced_by:
   schema_type: xyzri:XYZInfluence
 name: NeuroDataScience ORIGAMI Research Group
 part_of:
-- xyzrins:organizations/ror-01pxwe438
+- ror:01pxwe438
 pid: xyzrins:organizations/origami-lab
 schema_type: xyzri:XYZOrganization
 short_name: ORIGAMI Lab

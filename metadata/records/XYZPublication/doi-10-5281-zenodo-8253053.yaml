@@ -19,7 +19,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: Dartmouth Brain Imaging Center (DBIC) QA data (weekly QA scans etc.)
 identifiers:
 - notation: 10.5281/zenodo.8253053
   schema_type: dlthings:DOI

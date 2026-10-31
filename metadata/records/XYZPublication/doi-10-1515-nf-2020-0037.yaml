@@ -73,7 +73,6 @@ description: "Abstract\n            Decentralized research data management (dRDM
   \ the four perspectives review how varying requirements of independent scientific\
   \ stakeholders can be addressed by a scalable, uniform dRDM solution and present\
   \ a working system as an exemplary implementation."
-display_label: In defense of decentralized research data management
 identifiers:
 - notation: 10.1515/nf-2020-0037
   schema_type: dlthings:DOI

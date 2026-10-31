@@ -26,8 +26,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: 'The Individualized Neural Tuning Model: Precise and generalizable
-  cartography of functional architecture in individual brains'
 identifiers:
 - notation: 10.1101/2022.05.15.492022
   schema_type: dlthings:DOI

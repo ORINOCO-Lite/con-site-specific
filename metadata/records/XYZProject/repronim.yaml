@@ -40,10 +40,6 @@ attributes:
   value: Initiatives
 description: 'ReproNim: A Center for Reproducible Neuroimaging Computation. A P41 center
   building training, tools and standards so neuroimaging analyses can be reproduced.'
-display_label: ReproNim
-ended:
-  at_time: '2031-06-30'
-  schema_type: dlthings:End
 influenced_by:
 - object: xyzrins:grants/nih-repronim
   roles:

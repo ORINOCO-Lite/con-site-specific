@@ -18,7 +18,6 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/pydata/patsy
 description: Describing statistical models in Python using symbolic formulas.
-display_label: patsy
 pid: xyzrins:projects/patsy
 schema_type: xyzri:XYZProject
 short_name: patsy

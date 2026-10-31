@@ -8,7 +8,6 @@ attributed_to:
   roles:
   - obo:NCIT_C19924
   schema_type: dlthings:Attribution
-display_label: 'CRCNS US-German Data Sharing: DataGit - converging catalogue'
 identifiers:
 - notation: '1429999'
   schema_type: dlthings:Identifier

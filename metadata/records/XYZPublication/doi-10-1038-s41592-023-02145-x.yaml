@@ -29,8 +29,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: 'Neurodesk: an accessible, flexible and portable data analysis environment
-  for reproducible neuroimaging'
 identifiers:
 - notation: 10.1038/s41592-023-02145-x
   schema_type: dlthings:DOI

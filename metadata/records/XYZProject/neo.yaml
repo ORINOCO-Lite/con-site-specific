@@ -20,7 +20,6 @@ attributes:
   value: https://github.com/NeuralEnsemble/python-neo
 description: A package for representing electrophysiology data in Python, with readers
   for a wide range of acquisition formats.
-display_label: Neo
 pid: xyzrins:projects/neo
 schema_type: xyzri:XYZProject
 short_name: Neo

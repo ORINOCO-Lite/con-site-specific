@@ -18,8 +18,6 @@ attributes:
 characterized_by:
 - object: bibo:Article
   predicate: dcterms:type
-display_label: 'Structural Equation Modeling of Neuroimaging Data: Exhaustive Search
-  and Markov Chain Monte Carlo'
 identifiers:
 - notation: zotero:group:6197458:item:6PQ9QZ2J
   schema_type: dlthings:Identifier

@@ -34,8 +34,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: Application of the Neuroimaging Data Model to Represent and Exchange
-  Primary and Derived Data
 identifiers:
 - notation: zotero:group:6197458:item:Y8UQ85MH
   schema_type: dlthings:Identifier

@@ -66,7 +66,6 @@ description: "Abstract\n            As data sharing has become more prevalent, t
   \ continues to grow within the neuroscientific community, this article will highlight\
   \ the various analytical and customizable tools developed within the chosen archives\
   \ that may advance the field of neuroinformatics."
-display_label: A comparison of neuroelectrophysiology databases
 identifiers:
 - notation: 10.1038/s41597-023-02614-0
   schema_type: dlthings:DOI

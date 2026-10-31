@@ -15,7 +15,6 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: openpyxl
 description: A Python library to read and write Excel 2010 xlsx/xlsm files.
-display_label: openpyxl
 pid: xyzrins:projects/openpyxl
 schema_type: xyzri:XYZProject
 short_name: openpyxl

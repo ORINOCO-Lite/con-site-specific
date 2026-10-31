@@ -19,7 +19,6 @@ attributes:
 characterized_by:
 - object: bibo:Article
   predicate: dcterms:type
-display_label: Method for image coordinate definition on extended laser paths
 identifiers:
 - notation: 10.1117/12.388446
   schema_type: dlthings:DOI

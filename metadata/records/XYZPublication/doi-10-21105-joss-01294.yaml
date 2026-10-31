@@ -47,7 +47,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: 'PyBIDS: Python tools for BIDS datasets'
 identifiers:
 - notation: 10.21105/joss.01294
   schema_type: dlthings:DOI

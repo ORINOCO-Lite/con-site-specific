@@ -26,8 +26,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: Localizing functional regions of interest based on responses to dynamic
-  naturalistic stimuli
 identifiers:
 - notation: zotero:group:6197458:item:PPL6EUFK
   schema_type: dlthings:Identifier

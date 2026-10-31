@@ -20,7 +20,6 @@ attributes:
   value: https://github.com/rproepp/spykeviewer
 description: A multi-platform GUI application for navigating, analyzing and visualizing
   electrophysiological data.
-display_label: Spykeviewer
 pid: xyzrins:projects/spykeviewer
 schema_type: xyzri:XYZProject
 short_name: Spykeviewer

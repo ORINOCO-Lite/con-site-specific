@@ -24,7 +24,6 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/scikit-image/scikit-image
 description: Image processing in Python.
-display_label: scikit-image
 pid: xyzrins:projects/scikit-image
 schema_type: xyzri:XYZProject
 short_name: scikit-image

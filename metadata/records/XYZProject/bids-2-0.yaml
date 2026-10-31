@@ -19,7 +19,6 @@ attributes:
   value: Standards
 description: The effort to work out what BIDS should change when backwards compatibility
   is no longer a constraint -- the breaking changes that a decade of 1.x could not make.
-display_label: BIDS 2.0
 part_of:
 - xyzrins:projects/bids
 pid: xyzrins:projects/bids-2-0

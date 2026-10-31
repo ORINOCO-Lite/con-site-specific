@@ -40,8 +40,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: 'Open is not enough. Let''s take the next step: An integrated, community-driven
-  computing platform for neuroscience'
 identifiers:
 - notation: 10.3389/fninf.2012.00022
   schema_type: dlthings:DOI

@@ -20,7 +20,6 @@ attributes:
   value: https://github.com/mne-tools/mne-python
 description: 'MEG and EEG analysis in Python: preprocessing, source estimation, time-frequency
   analysis and statistics.'
-display_label: mne-python
 pid: xyzrins:projects/mne-python
 schema_type: xyzri:XYZProject
 short_name: mne-python

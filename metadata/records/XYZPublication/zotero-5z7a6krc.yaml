@@ -18,8 +18,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: Overview of statistical evaluation techniques adopted by publicly available
-  MVPA toolboxes
 identifiers:
 - notation: http://www.pymvpa.org/files/OHBM2015_Halchenko.pdf
   schema_type: dlthings:Identifier

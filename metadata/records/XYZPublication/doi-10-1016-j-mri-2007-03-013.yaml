@@ -53,7 +53,6 @@ description: A mode-based clustering method is developed for identifying spatial
   that demonstrate that the mode clustering method consistently outperforms the commonly
   used single-linkage clustering, k means method (centroid method) and Ward's method
   (variance method).
-display_label: Dense mode clustering in brain maps
 identifiers:
 - notation: 10.1016/j.mri.2007.03.013
   schema_type: dlthings:DOI

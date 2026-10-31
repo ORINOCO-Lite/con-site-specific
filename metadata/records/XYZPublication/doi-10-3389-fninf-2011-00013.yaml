@@ -84,8 +84,6 @@ description: 'Current neuroimaging software offer users an incredible opportunit
   allows the software to quickly adapt and address the varied needs of the evolving
   neuroimaging community, especially in the context of increasing demand for reproducible
   research.'
-display_label: 'Nipype: a flexible, lightweight and extensible neuroimaging data processing
-  framework in python'
 identifiers:
 - notation: 10.3389/fninf.2011.00013
   schema_type: dlthings:DOI

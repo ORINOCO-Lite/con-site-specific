@@ -62,7 +62,6 @@ attributes:
 description: Allows managing large files with git, without storing the file contents in
   git. It can sync, back up and archive data, optionally encrypted, across many kinds
   of remote.
-display_label: git-annex
 pid: xyzrins:projects/git-annex
 schema_type: xyzri:XYZProject
 short_name: git-annex

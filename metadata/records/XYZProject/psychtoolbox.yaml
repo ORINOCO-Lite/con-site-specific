@@ -20,7 +20,6 @@ attributes:
   value: https://github.com/Psychtoolbox-3/Psychtoolbox-3
 description: A free set of Matlab and GNU Octave functions for vision and neuroscience
   research, giving precise control over stimulus display and response collection.
-display_label: Psychtoolbox
 pid: xyzrins:projects/psychtoolbox
 schema_type: xyzri:XYZProject
 short_name: Psychtoolbox

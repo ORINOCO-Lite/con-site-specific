@@ -48,8 +48,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: 'Brainhack: Developing a culture of open, inclusive, community-driven
-  neuroscience'
 identifiers:
 - notation: 10.1016/j.neuron.2021.04.001
   schema_type: dlthings:DOI

@@ -70,7 +70,6 @@ description: The value of research articles is increasingly contingent on comple
   which can greatly enhance the understanding of data analysis variability and the
   trust in results. Lastly, we comment at length on the outlook for reexecutable research
   outputs and encourage re-use and derivation of the system produced herein.
-display_label: Neuroimaging article reexecution and reproduction assessment system
 identifiers:
 - notation: 10.3389/fninf.2024.1376022
   schema_type: dlthings:DOI

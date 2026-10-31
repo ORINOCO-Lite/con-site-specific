@@ -24,7 +24,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: Transmodal Analysis of Neural Signals
 identifiers:
 - notation: http://arxiv.org/abs/1307.2150
   schema_type: dlthings:Identifier

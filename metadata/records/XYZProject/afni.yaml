@@ -28,7 +28,6 @@ attributes:
   value: https://github.com/afni/afni
 description: Official AFNI source and documentation. AFNI is a suite of programs for analysing,
   visualising and interacting with functional and anatomical MRI data.
-display_label: AFNI
 pid: xyzrins:projects/afni
 schema_type: xyzri:XYZProject
 short_name: AFNI

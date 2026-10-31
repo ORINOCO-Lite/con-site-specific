@@ -24,7 +24,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: Investigation of the familiar face recognition model
 identifiers:
 - notation: http://haxbylab.dartmouth.edu/publications/HGG+12_sfn12_famfaces.png
   schema_type: dlthings:Identifier

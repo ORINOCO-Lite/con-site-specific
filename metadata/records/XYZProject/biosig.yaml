@@ -17,7 +17,6 @@ attributes:
   value: biosig
 description: A software library for processing biomedical signals, with readers for a
   large number of EEG, ECG and other biosignal formats.
-display_label: biosig
 pid: xyzrins:projects/biosig
 schema_type: xyzri:XYZProject
 short_name: biosig

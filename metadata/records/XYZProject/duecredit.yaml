@@ -59,7 +59,6 @@ attributes:
 description: Provides a solution for the problem of inadequate citation and referencing
   of scientific software and methods. A Python-focused framework embedding publication
   references in code with automatic citation collection and reporting.
-display_label: DueCredit
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/duecredit

@@ -29,8 +29,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: The Neural Representation Of Personally Familiar And Unfamiliar Faces
-  In The Distributed System For Face Perception
 identifiers:
 - notation: 10.1038/s41598-017-12559-1
   schema_type: dlthings:DOI

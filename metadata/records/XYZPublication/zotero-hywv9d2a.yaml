@@ -24,7 +24,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: Improving efficiency in cognitive neuroscience research with NeuroDebian
 identifiers:
 - notation: zotero:group:6197458:item:HYWV9D2A
   schema_type: dlthings:Identifier

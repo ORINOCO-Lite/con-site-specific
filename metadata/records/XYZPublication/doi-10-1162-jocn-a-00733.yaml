@@ -27,7 +27,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: The animacy continuum in the human ventral vision pathway
 identifiers:
 - notation: 10.1162/jocn_a_00733
   schema_type: dlthings:DOI

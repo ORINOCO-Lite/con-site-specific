@@ -31,7 +31,6 @@ description: The Debian packaging team for experimental psychology software --
   FSL, PyEPL, PsychoPy and the rest of what a psychology lab actually runs.
   Archived with the rest of Alioth; the work and the people moved on into
   NeuroDebian.
-display_label: pkg-exppsy
 part_of:
 - xyzrins:projects/debian
 pid: xyzrins:projects/pkg-exppsy

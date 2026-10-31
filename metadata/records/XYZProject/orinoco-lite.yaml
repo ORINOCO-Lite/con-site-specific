@@ -38,7 +38,6 @@ description: Content-neutral engine and deterministic runtime for metadata-drive
   that get served, so the records stay the single source of truth. This website is built
   that way. Derived from ORINOCO, the Psychoinformatics group's research information
   infrastructure, and lighter by design.
-display_label: ORINOCO Lite
 informed_by:
 - description: ORINOCO Lite is a lighter re-implementation of the ORINOCO approach --
     records in a store, projected into a served site -- built for sites that want the

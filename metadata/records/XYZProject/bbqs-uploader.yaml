@@ -28,7 +28,6 @@ attributes:
 description: A drag-and-drop web app for BBQS teams to put files into an existing
   dandiset on the EMBER Archive, so contributing data does not require learning the
   command line first.
-display_label: BBQS uploader
 part_of:
 - xyzrins:projects/ember
 pid: xyzrins:projects/bbqs-uploader

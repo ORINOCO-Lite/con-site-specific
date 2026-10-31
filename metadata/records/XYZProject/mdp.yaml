@@ -20,7 +20,6 @@ attributes:
   value: https://github.com/mdp-toolkit/mdp-toolkit
 description: 'Modular toolkit for Data Processing: a Python library of data-processing
   algorithms that can be combined into pipelines.'
-display_label: MDP
 pid: xyzrins:projects/mdp
 schema_type: xyzri:XYZProject
 short_name: MDP

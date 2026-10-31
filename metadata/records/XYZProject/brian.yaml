@@ -18,7 +18,6 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/brian-team/brian2
 description: A free, open-source simulator for spiking neural networks.
-display_label: Brian
 pid: xyzrins:projects/brian
 schema_type: xyzri:XYZProject
 short_name: Brian

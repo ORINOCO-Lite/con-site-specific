@@ -13,10 +13,15 @@ attributed_to:
   roles:
   - obo:NCIT_C19924
   schema_type: dlthings:Attribution
-display_label: 'DANDI: Distributed Archives for Neurophysiology Data Integra'
+generated_by:
+  at_time: '2019-08-01'
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 1R24MH117295-01A1
   schema_type: dlthings:Identifier
+invalidated_by:
+  at_time: '2024-04-30'
+  schema_type: dlthings:Invalidation
 pid: xyzrins:grants/nih-dandi
 schema_type: xyzri:XYZGrant
 short_name: 1R24MH117295-01A1

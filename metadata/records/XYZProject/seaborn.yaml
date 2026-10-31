@@ -18,7 +18,6 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/mwaskom/seaborn
 description: Statistical data visualization in Python, built on matplotlib.
-display_label: seaborn
 pid: xyzrins:projects/seaborn
 schema_type: xyzri:XYZProject
 short_name: seaborn

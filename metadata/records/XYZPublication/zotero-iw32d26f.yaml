@@ -32,9 +32,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: 'Finding cortical patches of shared representations: a comparison of
-  clustering algorithms on representational geometries, and the effect of cross-validation
-  to reduce physiological noise'
 identifiers:
 - notation: zotero:group:6197458:item:IW32D26F
   schema_type: dlthings:Identifier

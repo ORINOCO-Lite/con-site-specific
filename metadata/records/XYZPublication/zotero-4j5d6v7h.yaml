@@ -16,7 +16,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: Resources for practicing PR4NI – pragmatic cursory overview
 identifiers:
 - notation: http://www.pymvpa.org/files/OHBM2016_Halchenko_resources.pdf
   schema_type: dlthings:Identifier

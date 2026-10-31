@@ -26,8 +26,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: Temporal dynamics and effective connectivity in the distributed system
-  of familiar face processing
 identifiers:
 - notation: zotero:group:6197458:item:FDB48TZJ
   schema_type: dlthings:Identifier

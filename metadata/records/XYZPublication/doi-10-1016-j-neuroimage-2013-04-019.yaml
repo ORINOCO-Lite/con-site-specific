@@ -62,8 +62,6 @@ description: How quickly can information about the neural response to a visual s
   cases, the opposite temporal relationship. These results have methodological implications
   for fMRI studies using MVPA because they demonstrate that information can be decoded
   from hemodynamic activity more quickly than previously assumed.
-display_label: Pattern classification precedes region-average hemodynamic response
-  in early visual cortex.
 identifiers:
 - notation: 10.1016/j.neuroimage.2013.04.019
   schema_type: dlthings:DOI

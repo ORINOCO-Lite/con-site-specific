@@ -8,7 +8,6 @@ attributed_to:
   roles:
   - obo:NCIT_C19924
   schema_type: dlthings:Attribution
-display_label: Brain and AI (OpenNeuro archive derivatives)
 pid: xyzrins:grants/meta-brain-and-ai
 schema_type: xyzri:XYZGrant
 title: Brain and AI (OpenNeuro archive derivatives)

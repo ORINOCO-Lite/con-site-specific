@@ -28,7 +28,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: Align with the NMIND consortium for better neuroimaging
 identifiers:
 - notation: 10.1038/s41562-023-01647-0
   schema_type: dlthings:DOI

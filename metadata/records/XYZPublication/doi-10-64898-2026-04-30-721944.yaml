@@ -41,8 +41,6 @@ description: "Abstract\n          Despite growing understanding of the benefits 
   \ methods. We discuss challenges related to cross-site data preparation for federated\
   \ learning, present solutions offered by recent neuroinformatics projects, and showcase\
   \ an example of tool integration applied to neurodegenerative disease data."
-display_label: Open neuroinformatics infrastructure ecosystem for federated multisite
-  studies
 identifiers:
 - notation: 10.64898/2026.04.30.721944
   schema_type: dlthings:DOI

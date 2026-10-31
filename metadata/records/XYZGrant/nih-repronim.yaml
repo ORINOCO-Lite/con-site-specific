@@ -15,10 +15,15 @@ attributed_to:
   roles:
   - obo:NCIT_C25936
   schema_type: dlthings:Attribution
-display_label: 'ReproNim: A Center for Reproducible Neuroimaging Computation'
+generated_by:
+  at_time: '2016-04-15'
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 2P41EB019936-11
   schema_type: dlthings:Identifier
+invalidated_by:
+  at_time: '2031-06-30'
+  schema_type: dlthings:Invalidation
 pid: xyzrins:grants/nih-repronim
 schema_type: xyzri:XYZGrant
 short_name: 2P41EB019936-11

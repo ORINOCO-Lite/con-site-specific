@@ -16,8 +16,6 @@ attributes:
 characterized_by:
 - object: bibo:Article
   predicate: dcterms:type
-display_label: Fusion of Functional Brain Imaging Modalities using L-Norms Signal
-  Reconstruction
 identifiers:
 - notation: zotero:group:6197458:item:PJ5U5BTZ
   schema_type: dlthings:Identifier

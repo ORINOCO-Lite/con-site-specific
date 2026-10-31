@@ -17,7 +17,6 @@ attributes:
   value: FSL
 description: 'FMRIB Software Library: a comprehensive set of analysis tools for functional,
   structural and diffusion brain imaging data.'
-display_label: FSL
 pid: xyzrins:projects/fsl
 schema_type: xyzri:XYZProject
 short_name: FSL

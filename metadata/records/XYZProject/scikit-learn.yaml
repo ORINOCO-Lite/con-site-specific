@@ -31,7 +31,6 @@ attributes:
   value: https://github.com/scikit-learn/scikit-learn
 description: 'Machine learning in Python: classification, regression, clustering and model
   selection on top of NumPy and SciPy.'
-display_label: scikit-learn
 pid: xyzrins:projects/scikit-learn
 schema_type: xyzri:XYZProject
 short_name: scikit-learn

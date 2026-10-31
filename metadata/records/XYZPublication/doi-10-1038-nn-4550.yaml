@@ -27,8 +27,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: Toward standard practices for sharing computer code and programs in
-  neuroscience
 identifiers:
 - notation: 10.1038/nn.4550
   schema_type: dlthings:DOI

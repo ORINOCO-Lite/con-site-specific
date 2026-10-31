@@ -19,9 +19,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://www.debian.org/devel/debian-med/
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Debian Pure Blend for medicine and life sciences.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Debian Med
@@ -29,7 +26,6 @@ description: 'Debian Pure Blend for medicine and life sciences, and the team tha
   those packages. Between 2020 and 2021 the neuroimaging packages NeuroDebian had carried
   moved here: a smaller team handing maintenance to a larger one, trading scope -- current
   Debian rather than backports -- for people and process.'
-display_label: Debian Med
 part_of:
 - xyzrins:projects/debian
 pid: xyzrins:projects/debian-med

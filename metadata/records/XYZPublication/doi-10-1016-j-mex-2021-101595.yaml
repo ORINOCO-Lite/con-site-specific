@@ -21,8 +21,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: Protocol for a machine learning algorithm predicting depressive disorders
-  using the T1w/T2w ratio
 identifiers:
 - notation: 10.1016/j.mex.2021.101595
   schema_type: dlthings:DOI

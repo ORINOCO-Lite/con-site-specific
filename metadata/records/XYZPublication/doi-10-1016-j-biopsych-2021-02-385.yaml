@@ -31,7 +31,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: 'IQ in Typical Development: A Mega-Analysis of the Historical Literature'
 identifiers:
 - notation: 10.1016/j.biopsych.2021.02.385
   schema_type: dlthings:DOI

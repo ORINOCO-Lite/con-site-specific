@@ -21,8 +21,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: White matter abnormalities in adults with bipolar disorder type-II
-  and unipolar depression
 identifiers:
 - notation: 10.1038/s41598-021-87069-2
   schema_type: dlthings:DOI

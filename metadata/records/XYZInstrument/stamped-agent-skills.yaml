@@ -5,6 +5,9 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: stamped-agent-skills
+description: 'Agent-agnostic skill that turns the STAMPED principles into AI coding agent
+  behavior: facts to establish, rules to follow while working, and an audit to run
+  before sharing.'
 display_label: stamped-agent-skills
 generated_by:
 - at_time: '2026-07-09'

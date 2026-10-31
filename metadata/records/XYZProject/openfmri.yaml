@@ -21,7 +21,6 @@ attributes:
   value: OpenfMRI
 description: An early public repository for raw fMRI datasets, and the predecessor of
   OpenNeuro.
-display_label: OpenfMRI
 pid: xyzrins:projects/openfmri
 schema_type: xyzri:XYZProject
 short_name: OpenfMRI

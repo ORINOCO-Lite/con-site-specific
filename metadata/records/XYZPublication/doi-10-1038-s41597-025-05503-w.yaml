@@ -21,8 +21,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: DICOM datasets for reproducible neuroimaging research across manufacturers
-  and software versions
 identifiers:
 - notation: 10.1038/s41597-025-05503-w
   schema_type: dlthings:DOI

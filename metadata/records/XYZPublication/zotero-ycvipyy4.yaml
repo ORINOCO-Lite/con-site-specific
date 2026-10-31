@@ -22,8 +22,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: Scanning parameters for optimal decoding using a 32-channel head coil
-  for fMRI
 identifiers:
 - notation: zotero:group:6197458:item:YCVIPYY4
   schema_type: dlthings:Identifier

@@ -38,8 +38,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: 'The Brain Imaging Data Structure: a standard for organizing and describing
-  outputs of neuroimaging experiments'
 identifiers:
 - notation: 10.1101/034561
   schema_type: dlthings:DOI

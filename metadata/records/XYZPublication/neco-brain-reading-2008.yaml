@@ -33,8 +33,6 @@ characterized_by:
 description: 'Hanson SJ and Halchenko YO (2008). Brain Reading Using Full Brain Support
   Vector Machines for Object Recognition: There Is No "Face" Identification Area.
   Neural Computation, 20(2):486-503, https://doi.org/10.1162/neco.2007.09-06-340'
-display_label: 'Brain Reading Using Full Brain Support Vector Machines for Object
-  Recognition: There Is No "Face" Identification Area'
 identifiers:
 - notation: 10.1162/neco.2007.09-06-340
   schema_type: dlthings:DOI

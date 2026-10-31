@@ -21,8 +21,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: 'Go Figure: Transparency in neuroscience images preserves context and
-  clarifies interpretation'
 identifiers:
 - notation: 10.48550/arxiv.2504.07824
   schema_type: dlthings:DOI

@@ -70,7 +70,6 @@ description: Scientists are increasingly leveraging advances in instruments, aut
   ultimately leading to closed-loop discovery. This maturity model offers a framework
   for assessing and improving operational practices in multidisciplinary research
   teams, guiding them towards greater efficiency and effectiveness in scientific inquiry.
-display_label: 'SciOps: Achieving Productivity and Reliability in Data-Intensive Research'
 identifiers:
 - notation: 10.48550/arxiv.2401.00077
   schema_type: dlthings:DOI

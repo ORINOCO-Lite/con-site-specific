@@ -37,8 +37,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: How the human brain represents perceived dangerousness or "predacity"
-  of animals
 identifiers:
 - notation: 10.1523/jneurosci.3395-15.2016
   schema_type: dlthings:DOI

@@ -55,8 +55,6 @@ description: Brain-imaging research has largely focused on localizing patterns o
   dimension. These results revealed a small organized set of large-scale networks
   that map cognitive processes across a highly diverse set of mental tasks, suggesting
   a novel way to characterize the neural basis of cognition.
-display_label: Decoding the Large-Scale Structure of Brain Function by Classifying
-  Mental States Across Individuals
 identifiers:
 - notation: 10.1111/j.1467-9280.2009.02460.x
   schema_type: dlthings:DOI

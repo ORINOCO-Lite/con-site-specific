@@ -22,8 +22,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: A multimodal fMRI dataset unifying naturalistic processes with a rich
-  array of experimental tasks
 identifiers:
 - notation: 10.1101/2024.06.21.599974
   schema_type: dlthings:DOI

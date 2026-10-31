@@ -111,7 +111,6 @@ attributes:
 description: A data management platform that adapts open-source software distribution
   models to address data-sharing limitations. Provides a versatile data management platform
   using git-annex for large data tracking built on Git.
-display_label: DataLad
 influenced_by:
 - object: xyzrins:grants/nsf-1912266
   roles:

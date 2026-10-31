@@ -20,8 +20,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: Advancing Neuroimaging Research with Predictive Multivariate Pattern
-  Analysis
 identifiers:
 - notation: 10.2417/1200909.1683
   schema_type: dlthings:DOI

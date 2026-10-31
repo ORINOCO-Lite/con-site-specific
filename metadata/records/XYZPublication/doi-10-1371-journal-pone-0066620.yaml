@@ -23,7 +23,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: Prioritized Detection of Personally Familiar Faces
 identifiers:
 - notation: 10.1371/journal.pone.0066620
   schema_type: dlthings:DOI

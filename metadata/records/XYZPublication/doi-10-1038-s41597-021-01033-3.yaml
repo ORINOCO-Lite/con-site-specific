@@ -52,8 +52,6 @@ description: "Abstract\n            The “Narratives” collection aggregates a
   \ stimuli with time-stamped phoneme- and word-level transcripts. All code and data\
   \ are publicly available with full provenance in keeping with current best practices\
   \ in transparent and reproducible neuroimaging."
-display_label: The “Narratives” fMRI dataset for evaluating models of naturalistic
-  language comprehension
 identifiers:
 - notation: 10.1038/s41597-021-01033-3
   schema_type: dlthings:DOI

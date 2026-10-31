@@ -18,7 +18,6 @@ attributes:
   value: Debian Science
 description: Debian Pure Blend for scientific software and the team maintaining it. 28
   of the packages Yaroslav uploads are maintained here.
-display_label: Debian Science
 part_of:
 - xyzrins:projects/debian
 pid: xyzrins:projects/debian-science

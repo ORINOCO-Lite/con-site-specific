@@ -51,8 +51,6 @@ description: This chapter provides a comprehensive survey of the motivations, as
   that correct fusion of multimodal data will allow previously inaccessible spatiotemporal
   structures to be visualized and formalized and thus eventually become a useful tool
   in brain imaging research.
-display_label: 'Advanced Image Processing in Magnetic Resonance Imaging: fMRI, MRI,
-  EEG, MEG'
 identifiers:
 - notation: http://www.onerussian.com/Sci/fusion
   schema_type: dlthings:Identifier

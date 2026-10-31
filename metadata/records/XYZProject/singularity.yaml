@@ -30,7 +30,6 @@ description: 'Container platform for reproducible scientific computing on shared
   systems, where unprivileged users need to run their own images. In 2021 the project
   forked: SingularityCE continues under Sylabs and Apptainer moved to the Linux Foundation.
   Both are live.'
-display_label: Singularity
 pid: xyzrins:projects/singularity
 schema_type: xyzri:XYZProject
 short_name: Singularity

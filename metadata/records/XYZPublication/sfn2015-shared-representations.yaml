@@ -50,7 +50,6 @@ description: 'Visconti di Oleggio Castello M, Nastase SA, Gobbini MI, Haxby JV a
   comparison of clustering algorithms on representational geometries, and the
   effect of cross-validation to reduce physiological noise. Society for
   Neuroscience, Chicago, Poster 451.11.'
-display_label: Finding Cortical Patches of Shared Representations
 generated_by:
 - at_time: '2015-10-17'
   object: xyzrins:projects/region-localization

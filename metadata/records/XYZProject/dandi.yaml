@@ -66,9 +66,6 @@ description: Platform for publishing, sharing, and processing neurophysiology da
   by the BRAIN Initiative. Provides data upload and distribution with supplementary client
   tools for data introspection and organization. Compliant with NWB standards.
 display_label: DANDI
-ended:
-  at_time: '2024-04-30'
-  schema_type: dlthings:End
 influenced_by:
 - object: xyzrins:grants/nih-dandi
   roles:

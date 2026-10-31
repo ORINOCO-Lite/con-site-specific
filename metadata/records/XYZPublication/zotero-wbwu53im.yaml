@@ -34,8 +34,6 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
-display_label: Attention locally modulates the discriminability of high-level, task-relevant
-  representations
 identifiers:
 - notation: zotero:group:6197458:item:WBWU53IM
   schema_type: dlthings:Identifier

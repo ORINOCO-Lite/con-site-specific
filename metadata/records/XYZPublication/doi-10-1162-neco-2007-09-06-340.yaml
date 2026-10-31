@@ -21,8 +21,6 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
-display_label: 'Brain reading using full brain support vector machines for object
-  recognition: there is no “face” identification area'
 identifiers:
 - notation: 10.1162/neco.2007.09-06-340
   schema_type: dlthings:DOI

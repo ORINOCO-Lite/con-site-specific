@@ -28,7 +28,6 @@ attributes:
 description: To provide archival and uninterrupted access to over 9TBs of singularity-hub.org
   Singularity containers, CON established the ///shub DataLad dataset and a service to
   serve the shub:// URLs.
-display_label: SingularityHub (after-life)
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/singularityhub-afterlife

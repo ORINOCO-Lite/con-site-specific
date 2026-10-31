@@ -1,0 +1,32 @@
+record: xyzrins:grants/nih-dandi
+format: con-association-evidence-v1
+
+assertions:
+  - path: /generated_by/at_time
+    value: "2019-08-01"
+    bound: exact
+    kind: registry
+    source: https://api.reporter.nih.gov/v2/projects/search
+    locator: "project_start_date for 1R24MH117295-01A1"
+    quote: '"project_start_date": "2019-08-01T00:00:00"'
+    note: >-
+      Start of the award period as the funder records it for the project
+      number (all budget periods, not only the latest).  Moved here from the
+      project record, which had been carrying the award period as if it were
+      the span of the effort.
+    confidence: certain
+    captured: "2026-10-31"
+
+  - path: /invalidated_by/at_time
+    value: "2024-04-30"
+    bound: exact
+    kind: registry
+    source: https://api.reporter.nih.gov/v2/projects/search
+    locator: "project_end_date for 1R24MH117295-01A1"
+    quote: '"project_end_date": "2024-04-30T00:00:00"'
+    note: >-
+      Planned end of the award period, from the funder's own record.  It
+      ends the funding, not the project, which is why it lives on the grant
+      and not as the project's `ended`.
+    confidence: certain
+    captured: "2026-10-31"

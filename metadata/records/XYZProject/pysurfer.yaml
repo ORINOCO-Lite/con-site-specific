@@ -24,7 +24,6 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/nipy/PySurfer
 description: Cortical neuroimaging visualization in Python.
-display_label: Pysurfer
 pid: xyzrins:projects/pysurfer
 schema_type: xyzri:XYZProject
 short_name: Pysurfer

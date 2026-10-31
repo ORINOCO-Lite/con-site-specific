@@ -13,10 +13,15 @@ attributed_to:
   roles:
   - obo:NCIT_C25936
   schema_type: dlthings:Attribution
-display_label: 'OpenNeuro: An open archive for analysis and sharing of BRAIN'
+generated_by:
+  at_time: '2018-09-15'
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 2R24MH117179-06
   schema_type: dlthings:Identifier
+invalidated_by:
+  at_time: '2028-05-31'
+  schema_type: dlthings:Invalidation
 pid: xyzrins:grants/nih-openneuro
 schema_type: xyzri:XYZGrant
 short_name: 2R24MH117179-06

@@ -13,7 +13,6 @@ attributed_to:
   roles:
   - obo:NCIT_C25936
   schema_type: dlthings:Attribution
-display_label: 'Personalized spatiotemporal hemodynamic response models for '
 identifiers:
 - notation: 1R01MH129397-01A1
   schema_type: dlthings:Identifier

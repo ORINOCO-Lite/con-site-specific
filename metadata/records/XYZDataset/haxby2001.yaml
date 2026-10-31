@@ -22,7 +22,6 @@ description: The block-design fMRI study behind Haxby et al. 2001, prepared and
   tutorials are built on, and it went on to be reanalysed far more often than a
   single study's data usually is -- an early demonstration that sharing a dataset
   outlives the paper it was collected for.
-display_label: Haxby 2001 faces and objects
 identifiers:
 - notation: http://data.pymvpa.org/datasets/haxby2001/
   schema_type: dlthings:Identifier

@@ -59,7 +59,6 @@ description: 'A centralized registry of posters and their Jitsi rooms for OHBM 2
   to find a poster and walk up to its author; this gave it one, as a browsable catalogue
   backed by a DataLad dataset. Archived since 2022: it did its job for the meeting it
   was built for.'
-display_label: OHBM 2020 posters
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/ohbm2020-posters

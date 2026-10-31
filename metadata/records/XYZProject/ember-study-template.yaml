@@ -11,9 +11,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/brain-bbqs/study-template
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Template for EMBER study, organized as a BIDS study, for data ingest etc.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: EMBER BIDS study template

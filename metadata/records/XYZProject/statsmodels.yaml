@@ -24,7 +24,6 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/statsmodels/statsmodels
 description: Statistical modeling and econometrics in Python.
-display_label: statsmodels
 pid: xyzrins:projects/statsmodels
 schema_type: xyzri:XYZProject
 short_name: statsmodels

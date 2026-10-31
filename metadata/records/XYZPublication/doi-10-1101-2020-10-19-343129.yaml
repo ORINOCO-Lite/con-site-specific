@@ -72,7 +72,6 @@ description: 'We report the generation of a multimodal cell census and atlas of 
   genetic and spatial information with multi-faceted phenotypic properties.Competing
   Interest StatementThe competing interests are detailed in the Competing Interests
   section in the manuscript file.'
-display_label: A multimodal cell census and atlas of the mammalian primary motor cortex
 identifiers:
 - notation: 10.1101/2020.10.19.343129
   schema_type: dlthings:DOI

@@ -17,7 +17,6 @@ attributes:
   value: brainlife.io
 description: A free cloud platform for secure neuroscience data management, analysis and
   publication, running reproducible apps on shared computing resources.
-display_label: brainlife.io
 pid: xyzrins:projects/brainlife-io
 schema_type: xyzri:XYZProject
 short_name: brainlife.io

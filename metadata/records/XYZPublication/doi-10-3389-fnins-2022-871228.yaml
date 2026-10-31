@@ -56,8 +56,6 @@ description: "The Brain Imaging Data Structure (BIDS) is a specification for org
   \ for hardware, image acquisition, and sample properties. This extension will facilitate\
   \ future harmonization efforts in the context of multi-modal, multi-scale imaging\
   \ such as the characterization of tissue microstructure with qMRI."
-display_label: 'Microscopy-BIDS: An Extension to the Brain Imaging Data Structure
-  for Microscopy Data'
 identifiers:
 - notation: 10.3389/fnins.2022.871228
   schema_type: dlthings:DOI

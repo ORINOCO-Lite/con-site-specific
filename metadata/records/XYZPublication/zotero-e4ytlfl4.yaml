@@ -16,7 +16,6 @@ attributes:
 characterized_by:
 - object: bibo:Thesis
   predicate: dcterms:type
-display_label: Predictive Decoding of Neural Data
 identifiers:
 - notation: http://www.onerussian.com/Sci/thesis
   schema_type: dlthings:Identifier

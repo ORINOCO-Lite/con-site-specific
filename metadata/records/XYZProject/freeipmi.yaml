@@ -17,7 +17,6 @@ attributes:
   value: FreeIPMI
 description: GNU FreeIPMI provides in-band and out-of-band IPMI software for system management,
   monitoring and sensor reading.
-display_label: FreeIPMI
 pid: xyzrins:projects/freeipmi
 schema_type: xyzri:XYZProject
 short_name: FreeIPMI

@@ -49,7 +49,6 @@ description: Scanner QA data is acquired to watch the scanner, and then it is fi
   away. This asks what else it is good for -- whether the variance in routine phantom
   scans explains variance in the human data acquired around them, which would make
   years of accumulated QA scans a covariate rather than a formality.
-display_label: MRI Phantoms Afterlife
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/mri-phantoms-afterlife

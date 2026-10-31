@@ -18,7 +18,6 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/open-cogsci/OpenSesame
 description: Graphical experiment builder for the social sciences.
-display_label: opensesame
 pid: xyzrins:projects/opensesame
 schema_type: xyzri:XYZProject
 short_name: opensesame
