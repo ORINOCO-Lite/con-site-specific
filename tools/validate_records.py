@@ -152,6 +152,11 @@ DATE_PREDICATES = {
     "schema:foundingDate": "started",
     "schema:dissolutionDate": "ended",
     "dcterms:created": "started",
+    # An Attribution (an entity's agent) has no started/ended slot, unlike an
+    # Association, so when a lead of an instrument or dataset is dated the
+    # date travels as an attribute of the Attribution itself.
+    "schema:startDate": "started",
+    "schema:endDate": "ended",
 }
 
 

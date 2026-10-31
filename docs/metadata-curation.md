@@ -117,6 +117,27 @@ predicate, and gives it the span-end it behaves like so the bound rule
 applies. The one date in the corpus that was wrong was this one, and it was
 wrong precisely because nothing walked it.
 
+Entities hit the same gap one level down. An `XYZInstrument` or
+`XYZDataset` is an `EntityMixin`, so it names its people through
+`attributed_to`, not `associated_with` — the schema rejects the latter on an
+entity — and an `Attribution`, unlike an `Association`, has no `started` or
+`ended`. When a lead of an instrument is dated, the date goes on the
+Attribution as an attribute, `schema:startDate` (or `schema:endDate`), which
+`dated_slots()` also walks:
+
+```yaml
+attributed_to:
+- attributes:
+  - predicate: schema:startDate
+    schema_type: dlthings:AttributeSpecification
+    value: '2026-04-10'
+  object: xyzrins:persons/cody-baker
+  roles: [marcrel:led]
+  schema_type: dlthings:Attribution
+```
+
+Its evidence addresses `/attributed_to/<n>/attributes/<m>/value`.
+
 ### Roles
 
 `roles` has `range: Thing` and is an IRI, never a bare word. The production
