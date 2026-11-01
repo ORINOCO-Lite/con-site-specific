@@ -20,29 +20,37 @@ assertions:
   - path: /associated_with/1/started/at_time
     value: "2023"
     bound: exact
-    kind: recollection
-    source: halchenko_vita.tex
-    locator: Engagements, data standards
-    quote: (Elected member of the Steering Committee 2023--2025)
+    kind: publication
+    source: https://github.com/bids-standard/bids-website
+    locator: fde470c018:docs/blog/posts/steering-group-election-2022.md
+    quote: >-
+      Cyril and Yaroslav have been elected to a term lasting from 2023-2025
     note: >-
-      The vita is the source; the BIDS website's governance page would
-      corroborate it.  Year precision is what the CV gives.
-    confidence: approximate
-    would_confirm: the BIDS governance page's past-members list
-    captured: "2026-10-11"
+      The BIDS Maintainers' announcement of the 2022 election result, dated
+      2022-11-07, which states the term.  It agrees with YOH's vita
+      (halchenko_vita.tex: "Elected member of the Steering Committee
+      2023--2025"), the source this entry cited before.  Year precision is
+      what both give.
+    confidence: certain
+    captured: "2026-11-01"
   - path: /associated_with/1/ended/at_time
     value: "2025"
     bound: exact
-    kind: recollection
-    source: halchenko_vita.tex
-    locator: Engagements, data standards
-    quote: (Elected member of the Steering Committee 2023--2025)
+    kind: publication
+    source: https://github.com/bids-standard/bids-website
+    locator: fde470c018:docs/blog/posts/steering-group-election-2022.md
+    quote: >-
+      Cyril and Yaroslav have been elected to a term lasting from 2023-2025
     note: >-
-      Confirmed in conversation: "BIDS steering committee participation was
-      those 3 years. Currently I am just a contributor."
-    confidence: approximate
-    would_confirm: the BIDS governance page's past-members list
-    captured: "2026-10-11"
+      The end of the elected term, from the same announcement and from YOH's
+      vita.  The website moved him to data/people/past_steering.yml in
+      01abf4cb (2026-01-16, "[ENH] update steering"), the commit that also
+      listed Martin Nørgaard and Jean-Baptiste Poline as members -- a later
+      record that agrees.  YOH, in
+      conversation: "BIDS steering committee participation was those 3
+      years. Currently I am just a contributor."
+    confidence: certain
+    captured: "2026-11-01"
   - path: /associated_with/4/started/at_time
     value: "2024-01"
     bound: upper

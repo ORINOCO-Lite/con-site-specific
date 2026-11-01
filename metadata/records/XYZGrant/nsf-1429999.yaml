@@ -8,6 +8,8 @@ attributed_to:
   roles:
   - obo:NCIT_C19924
   schema_type: dlthings:Attribution
+description: NSF award in the CRCNS US-German Data Sharing program (DataGit) that
+  funds DataLad, with Yaroslav Halchenko as PI at Dartmouth College.
 identifiers:
 - notation: '1429999'
   schema_type: dlthings:Identifier

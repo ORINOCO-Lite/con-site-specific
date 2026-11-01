@@ -13,7 +13,7 @@ attributes:
   value: Collaborators
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: Technical lead of the <a href="/projects#neurodata_without_borders__neurophysiology_nwb_n_">NWB</a>
+  value: Technical lead of the <a href="/projects#nwb_">NWB</a>
     data standard and software ecosystem, developing <a href="https://github.com/NeurodataWithoutBorders/pynwb">PyNWB</a>,
     <a href="https://github.com/hdmf-dev/hdmf">HDMF</a>, <a href="https://github.com/NeurodataWithoutBorders/nwb-guide">NWB
     GUIDE</a> and <a href="https://github.com/NeurodataWithoutBorders/lindi">LINDI</a>.

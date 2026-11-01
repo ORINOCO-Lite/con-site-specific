@@ -43,12 +43,9 @@ attributes:
 - predicate: dcterms:issued
   schema_type: dlthings:AttributeSpecification
   value: '2018'
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: YODA 2018 F1000Research
-- predicate: dlthings:title
-  schema_type: dlthings:AttributeSpecification
-  value: 'YODA: YODA''s Organigram on Data Analysis'
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: 'YODA: YODA’s organigram on data analysis'

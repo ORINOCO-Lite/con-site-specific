@@ -14,7 +14,7 @@ attributes:
   value: Debian's packaging team for Python software -- a team rather than a Pure Blend,
     so it has no user-facing metapackages. 38 of the packages Yaroslav uploads are maintained
     here.
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Debian Python Team
 description: Debian's packaging team for Python software -- a team rather than a Pure

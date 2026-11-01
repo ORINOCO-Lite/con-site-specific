@@ -117,6 +117,27 @@ predicate, and gives it the span-end it behaves like so the bound rule
 applies. The one date in the corpus that was wrong was this one, and it was
 wrong precisely because nothing walked it.
 
+Entities hit the same gap one level down. An `XYZInstrument` or
+`XYZDataset` is an `EntityMixin`, so it names its people through
+`attributed_to`, not `associated_with` — the schema rejects the latter on an
+entity — and an `Attribution`, unlike an `Association`, has no `started` or
+`ended`. When a lead of an instrument is dated, the date goes on the
+Attribution as an attribute, `schema:startDate` (or `schema:endDate`), which
+`dated_slots()` also walks:
+
+```yaml
+attributed_to:
+- attributes:
+  - predicate: schema:startDate
+    schema_type: dlthings:AttributeSpecification
+    value: '2026-04-10'
+  object: xyzrins:persons/cody-baker
+  roles: [marcrel:led]
+  schema_type: dlthings:Attribution
+```
+
+Its evidence addresses `/attributed_to/<n>/attributes/<m>/value`.
+
 ### Roles
 
 `roles` has `range: Thing` and is an IRI, never a bare word. The production
@@ -196,7 +217,8 @@ assertions:
     bound: upper
     kind: upstream-git        # debian-changelog | upstream-git
                               # | site-git-history | copyright-extract
-                              # | publication | registry | recollection
+                              # | publication | registry | correspondence
+                              # | recollection
     source: pkg-exppsy:psychopy
     locator: 3e6f7d2dc
     quote: "ensure 2.8 version of wx for IDE"
@@ -261,10 +283,39 @@ pull-request review retain the contribution history.
    a role IRI or a trigger IRI. Requiring it there only produced meaningless
    `exact` values.
 
-3. **Recollections are quarantined.** `kind: recollection` requires
-   `confidence: unverified` and a `would_confirm`, and lives under `pending`,
-   not `assertions` — a record asserts, and we are not asserting this.
-   Promoting one means moving it into the record *and* giving it evidence.
+3. **Recollections are quarantined unless first-hand.** A recollection is
+   testimony, and testimony is only as good as the witness's part in the
+   event. So `kind: recollection` lives under `pending`, with
+   `confidence: unverified` and a `would_confirm`, unless it is first-hand:
+   its `witness` names a person who is an agent of the same record (an
+   `associated_with` or `attributed_to` object), its confidence is
+   `approximate`, and it says what would settle it. Then the record may
+   assert it:
+
+   ```yaml
+   - path: /associated_with/27/started/at_time
+     value: "2008"
+     bound: upper
+     kind: recollection
+     source: YOH
+     quote: Matthew Brett -- IIRC also Paris 2008 Nipy workshop
+     confidence: approximate
+     witness: xyzrins:persons/yaroslav-halchenko
+     would_confirm: a participant list of the 2008 NiPy workshop in Paris
+   ```
+
+   This replaced a stricter rule that the corpus never followed: 16 entries
+   sat under `assertions` with `kind: recollection`, passing only because the
+   validator checked recollections under `pending` alone. Most were not
+   recollections at all. A quoted email header, a mailing-list post or an
+   issue comment is `correspondence`, an artifact kind whose `started` is an
+   upper bound like a first commit's; a conference poster or an announcement
+   is a `publication`. Of the 16, four are now `correspondence` and six
+   `publication`, with their source named; BEP028's placeholder start became
+   its repository's first commit; and five remain first-hand recollections
+   by YOH, each a party to the record it dates.
+   The validator rejects a `witness` on any other kind, so it cannot be used
+   to dress up a document as testimony.
 
 4. **The agent is `Association.object`.** Work predating CON is
    `xyzrins:persons/yaroslav-halchenko`, not an institution. The point is not

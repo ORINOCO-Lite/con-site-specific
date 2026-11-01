@@ -1,0 +1,32 @@
+record: xyzrins:grants/nih-hyperalignment
+format: con-association-evidence-v1
+
+assertions:
+  - path: /generated_by/at_time
+    value: "2022-08-23"
+    bound: exact
+    kind: registry
+    source: https://api.reporter.nih.gov/v2/projects/search
+    locator: "project_start_date for 1R01MH127199-01A1"
+    quote: '"project_start_date": "2022-08-23T00:00:00Z"'
+    note: >-
+      Start of the award period as the funder records it, the same RePORTER
+      value that dates xyzrins:projects/hyperalignment-infrastructure.  That project is this
+      award -- it has the award's title and exists because of it -- so the
+      period is recorded on both: here as the funding, there as the span of
+      the work.
+    confidence: certain
+    captured: "2026-10-11"
+
+  - path: /invalidated_by/at_time
+    value: "2026-05-31"
+    bound: exact
+    kind: registry
+    source: https://api.reporter.nih.gov/v2/projects/search
+    locator: "project_end_date for 1R01MH127199-01A1"
+    quote: '"project_end_date": "2026-05-31T00:00:00Z"'
+    note: >-
+      Planned end of the award period, from the funder's own record; also
+      the end of xyzrins:projects/hyperalignment-infrastructure, for the reason given above.
+    confidence: certain
+    captured: "2026-10-11"

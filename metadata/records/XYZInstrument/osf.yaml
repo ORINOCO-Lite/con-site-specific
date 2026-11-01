@@ -2,7 +2,7 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://osf.io
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Open Science Framework
 description: 'Open Science Framework: registration, preprint and project-management platform

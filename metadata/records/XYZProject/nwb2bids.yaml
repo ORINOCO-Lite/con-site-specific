@@ -46,7 +46,7 @@ attributes:
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
   value: '<p> <a href="https://nwb2bids.readthedocs.io/">con/nwb2bids</a> reorganizes
-    <a href="/projects#neurodata_without_borders__neurophysiology_nwb_n_">NWB</a> files
+    <a href="/projects#nwb_">NWB</a> files
     into a <a href="/projects#brain_imaging_data_structure_bids_">BIDS</a> directory
     layout, so a dandiset can be read by the tooling that expects BIDS without being
     converted twice. It is what produces <a href="https://github.com/bids-dandisets">bids-dandisets</a>,

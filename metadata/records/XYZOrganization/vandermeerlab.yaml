@@ -5,7 +5,7 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Collaborating labs & groups
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: van der Meer Lab
 description: Matthijs van der Meer's lab at Dartmouth, studying memory, decision making

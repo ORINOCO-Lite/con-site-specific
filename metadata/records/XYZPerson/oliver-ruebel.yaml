@@ -13,10 +13,10 @@ attributes:
   value: Collaborators
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: A principal investigator of <a href="/projects#neurodata_without_borders__neurophysiology_nwb_n_">NWB</a>
+  value: A principal investigator of <a href="/projects#nwb_">NWB</a>
     who co-led the development of NWB 2.0 and of its software, <a href="https://github.com/NeurodataWithoutBorders/pynwb">PyNWB</a>
     and <a href="https://github.com/hdmf-dev/hdmf">HDMF</a>. Also a Research Affiliate
-    and Research Mentor at <a href="https://icsi.berkeley.edu/people/oliver-rubel/">ICSI</a>.
+    and Research Mentor at <a href="https://icsi.berkeley.edu/team/research-affiliates/">ICSI</a>.
 description: Staff Scientist at Lawrence Berkeley National Laboratory and Research Affiliate
   and Research Mentor at ICSI. A principal investigator of NWB who co-led the development
   of NWB 2.0 and its software, PyNWB and HDMF.

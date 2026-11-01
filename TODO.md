@@ -1,73 +1,30 @@
 # Open findings from the 2026-10 metadata review
 
-Findings from reviewing `metadata/records/` that need a decision or a source before they can be fixed.
-The mechanical ones (duplicated or truncated `display_label`, a dangling `part_of`, stale description copies, award periods on projects) were fixed with this file.
+What the review found that still needs a source, a decision or a change outside this repository.
+The rest -- the red schema gate, asserted recollections, conflicting `skos:prefLabel`s, the NWB title, broken obfuscated `mailto:` links (now the addresses dartmouth.edu itself publishes), unlabelled entity roles, drifted attribute copies -- was fixed together with the validator rules that keep it fixed.
 
-## Schema gate is red on `main`
+## Facts that need a registry
 
-Since 139ad75 ("leads of the STAMPED instruments") `tools/linkml_check.sh` fails, and so does the "LinkML schema" CI job:
+The session that resolved the rest could not reach Crossref, NIH RePORTER or the NSF award search, so these are not guessed.
 
-    XYZInstrument/stamped-checklist.yaml  Additional properties are not allowed ('associated_with' was unexpected)
-    XYZInstrument/stamped-examples.yaml   (same)
-    XYZInstrument/stamped-paper.yaml      (same)
-
-An instrument is a PROV entity, and `associated_with` exists only on activities.
-Other instruments name their lead with `attributed_to` and `marcrel:led` (e.g. `dandi-api-webshots-tools`), but `Attribution` has no `started`, so converting drops the leads' start dates and their evidence.
-Decide whether to accept that loss, or to time the lead some other way.
-
-## Recollections asserted, against rule 3
-
-Rule 3 of `docs/metadata-curation.md` says `kind: recollection` lives under `pending`, with `confidence: unverified`.
-19 such entries sit under `assertions` instead, most with `confidence: approximate`:
-
-- `XYZProject/site-root.yaml`: `/associated_with/{2,11,12,13,15,16,25,27,40}/started/at_time`
-- `XYZProject/bids.yaml`: `/associated_with/1/started/at_time`, `/associated_with/1/ended/at_time`
-- `XYZProject/bep028.yaml`: `/started/at_time`
-- `XYZProject/dandi.yaml`: `/associated_with/0/started/at_time`
-- `XYZProject/region-localization.yaml`: `/started/at_time`
-- `XYZPublication/sfn2015-shared-representations.yaml`, `XYZPublication/sfn2016-localizing-roi.yaml`: `/generated_by/0/at_time`
-
-They pass because `tools/validate_records.py` (the `pending` loop near line 339) checks recollections only under `pending`.
-Either relax the rule (e.g. allow a first-hand recollection by the person concerned to be asserted as `approximate`) or move these to `pending`; then make the validator enforce whichever rule stands.
-
-## Grants
-
-- `hrf-models` and `hyperalignment-infrastructure` still carry their award period as the project's own `started`/`ended`.
-  That is right only if the project *is* the award; if so, say so, otherwise move the period to the grant as was done for DANDI, OpenNeuro, EMBER and ReproNim.
-- Six grants have no award period: `nih-hrf`, `nih-hyperalignment`, `nih-repronim-crnc`, `nsf-1429999`, `nsf-1912266`, `meta-brain-and-ai`.
-  NIH RePORTER and the NSF award search give the dates; record them as `generated_by`/`invalidated_by` (single-valued on `XYZGrant`).
-- No grant has a `description`, and `meta-brain-and-ai` has no identifier.
-
-## Incomplete records
-
+- Four grants have no award period: `nih-repronim-crnc`, `nsf-1429999`, `nsf-1912266` (NIH RePORTER and the NSF award search give them), and `meta-brain-and-ai` (no public record; YOH has the dates).
+  Record them as `generated_by`/`invalidated_by`, with `registry` evidence like `XYZGrant/nih-dandi`'s.
 - Three publications are stubs with no date, no `kind` and a single author:
   `doi-10-1093-cercor-bhaa115`, `doi-10-1146-annurev-neuro-100119-110036`, `doi-10-12688-f1000research-7628-1`.
   Crossref has all of it.
-- `sfn2016-localizing-roi` and `talk-2026-mcgill-mechababs` have no DOI, homepage or locator.
-- Persons: `brock-wester` and `sylvestre-ledru` have no `dlthings:tier`, `dlthings:position` or `dlthings:description_html`; `ben-dichter` has no position or HTML bio; `andy-connolly` has no position.
-- `XYZEntityRole/funding.yaml` and `XYZEntityRole/long-term-goal.yaml` have no label at all.
 
-## Labels
+## Incomplete records
 
-- `display_label` has `slot_uri: skos:prefLabel`, and 31 records also carry a `skos:prefLabel` attribute with a *different* value (e.g. BIDS: `Brain Imaging Data Structure (BIDS)` vs `BIDS`; DICOM, HED, NIDM, the BEPs).
-  In RDF that is two `skos:prefLabel`s on one resource, which SKOS forbids per language.
-  Pick one, or make the other an `skos:altLabel`.
-- The NWB title is still the retired "Neurodata Without Borders: Neurophysiology", both top-level and in the importer-vouched `dlthings:title` attribute.
-  The current name is "Neurodata Without Borders".
+- `sfn2016-localizing-roi` has no DOI or locator, and its venue is contested: the record says San Diego, while the Zotero item (PPL6EUFK) and the Haxby lab's publication list say "Chicago, IL" with the same year 2016.
+  SfN met in Chicago in 2015 and in San Diego in 2016.
+  The poster appears to be F1000Research 2016, 5:2830, which would settle the venue and give it a DOI.
+- `talk-2026-mcgill-mechababs` has no locator; unlike the other 2026 talks, its slides are not under `datasets.datalad.org/centerforopenneuroscience/talks/`.
+- `andy-connolly` (Emeritus) has no position; it needs a current affiliation from a source.
 
-## Emails
+## Upstream of this repository
 
-`vcard:Email` and `vcard:hasEmail` disagree on five people:
-
-- `matthijs-van-der-meer`, `tor-wager`: `hasEmail` is an obfuscated `mailto:… at … dot edu`, which is not a working link.
-  It may be deliberate anti-scraping carried over from the old site; if so, keep it out of `mailto:`.
-- `cody-baker`, `john-lee`, `vadim-melnik`: `hasEmail` adds `?Subject=Hello … @CON`.
-  Harmless, but not an email address.
-
-## Importer
-
-- `con/dump-research-info` truncated `display_label` to 60 characters (seven grant labels ended mid-word), and emitted `display_label` identical to `title` on 224 records.
-  Both were removed here; the next import will put them back unless the importer is fixed or curation runs after import (open question 2 in `docs/metadata-curation.md`).
-- Imported records keep attribute copies of top-level slots (`dcterms:description`, `dlthings:title`, …) that nothing reads.
-  Four had already drifted from the top-level value.
-  Drop them, or have `validate_records.py` require that each copy equals its slot.
+- `con/dump-research-info` truncated `display_label` at 60 characters and emitted `display_label` identical to `title` on 224 records; both were removed here.
+  `tools/validate_records.py` now fails on either, and on an attribute copy that differs from its slot, so a re-import that brings them back turns CI red instead of passing silently.
+  The importer itself is unchanged (open question 2 in `docs/metadata-curation.md`).
+- The Zotero group library's item W9MC83Q7 titles the HeuDiConv JOSS paper "...into structureddirectory layouts".
+  The record is corrected; the Zotero item is not, so the next Zotero import will reintroduce the typo, and the validator will flag it as a drifted copy.

@@ -22,13 +22,9 @@ attributes:
 - predicate: dcterms:issued
   schema_type: dlthings:AttributeSpecification
   value: '2012'
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Halchenko & Hanke 2012
-- predicate: dlthings:title
-  schema_type: dlthings:AttributeSpecification
-  value: 'Open is not enough. Let''s take the next step: an integrated, community-driven
-    computing platform for neuroscience'
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: 'Open is not enough. Let''s take the next step: An integrated, community-driven

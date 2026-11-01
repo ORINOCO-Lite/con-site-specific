@@ -83,7 +83,7 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: A standard providing a simple and intuitive way to organize and describe neuroimaging
     and behavioral data. Governed by a community-elected steering group.
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: BIDS
 - predicate: dlthings:short_name

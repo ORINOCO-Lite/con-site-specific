@@ -5,14 +5,22 @@ assertions:
   - path: /generated_by/0/at_time
     value: "2016-11-12"
     bound: upper
-    kind: recollection
-    source: YOH
+    kind: publication
+    source: Society for Neuroscience annual meeting (Neuroscience 2016), San Diego
     locator: SfN 2016, San Diego
     quote: >-
       Localizing functional regions of interest based on responses to
       dynamic naturalistic stimuli
     note: >-
       The opening day of the meeting; SfN 2016 ran 2016-11-12 to 2016-11-16
-      in San Diego.  An upper bound, as with any conference date.
+      in San Diego.  An upper bound, as with any conference date.  The Zotero
+      item (PPL6EUFK) and the Haxby lab's publication list both give this
+      poster as 2016 but in "Chicago, IL", which cannot both hold: SfN met
+      in Chicago in 2015 and in San Diego in 2016.  The year is the better
+      attested half, as the poster is also listed as F1000Research 2016,
+      5:2830.
     confidence: approximate
+    would_confirm: >-
+      the poster's F1000Research record (5:2830) or the SfN 2016 abstract,
+      naming the meeting
     captured: "2026-10-13"

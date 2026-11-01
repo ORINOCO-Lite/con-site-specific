@@ -26,7 +26,7 @@ attributes:
 - predicate: dcterms:issued
   schema_type: dlthings:AttributeSpecification
   value: '2009'
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Hanke et al. 2009 Neuroinformatics
 - predicate: dlthings:title

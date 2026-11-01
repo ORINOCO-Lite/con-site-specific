@@ -5,6 +5,13 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Collaborators
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Founder, CatalystNeuro
+- predicate: dlthings:description_html
+  schema_type: dlthings:AttributeSpecification
+  value: Founder of <a href="https://catalystneuro.com/">CatalystNeuro</a>; long-standing
+    contributor to <a href="/projects#dandi_">DANDI</a> and <a href="/projects#nwb_">NWB</a>.
 description: Founder of CatalystNeuro; long-standing contributor to DANDI and NWB.
 display_label: Ben Dichter
 family_name: Dichter

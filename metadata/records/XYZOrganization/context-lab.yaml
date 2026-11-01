@@ -5,7 +5,7 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Collaborating labs & groups
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Contextual Dynamics Lab
 description: Jeremy Manning's lab at Dartmouth, studying how context shapes memory and

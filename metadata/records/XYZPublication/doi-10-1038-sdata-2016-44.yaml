@@ -41,7 +41,7 @@ attributes:
 - predicate: dcterms:language
   schema_type: dlthings:AttributeSpecification
   value: en
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Gorgolewski et al. 2016
 - predicate: dlthings:title

@@ -19,7 +19,7 @@ attributes:
   value: A family of specifications for describing neuroimaging experiments, their data
     and their provenance, built on W3C PROV. NIDM-PROV is its provenance layer, and the
     ancestor of the provenance work now carried into BIDS as BEP028.
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Neuroimaging Data Model
 - predicate: dlthings:section
