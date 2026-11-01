@@ -1,7 +1,7 @@
 # Open findings from the 2026-10 metadata review
 
 What the review found that still needs a source, a decision or a change outside this repository.
-The rest -- the red schema gate, asserted recollections, conflicting `skos:prefLabel`s, the NWB title, broken obfuscated `mailto:` links, unlabelled entity roles, drifted attribute copies -- was fixed together with the validator rules that keep it fixed.
+The rest -- the red schema gate, asserted recollections, conflicting `skos:prefLabel`s, the NWB title, broken obfuscated `mailto:` links (now the addresses dartmouth.edu itself publishes), unlabelled entity roles, drifted attribute copies -- was fixed together with the validator rules that keep it fixed.
 
 ## Facts that need a registry
 
@@ -28,10 +28,3 @@ The session that resolved the rest could not reach Crossref, NIH RePORTER or the
   The importer itself is unchanged (open question 2 in `docs/metadata-curation.md`).
 - The Zotero group library's item W9MC83Q7 titles the HeuDiConv JOSS paper "...into structureddirectory layouts".
   The record is corrected; the Zotero item is not, so the next Zotero import will reintroduce the typo, and the validator will flag it as a drifted copy.
-
-## Decisions to confirm
-
-- `matthijs-van-der-meer` and `tor-wager` now have working `mailto:` links built from their `vcard:Email`.
-  The old site obfuscated them ("mvdm at dartmouth dot edu"), which made a link that opened no address, while the same records already published the plain address as `vcard:Email`.
-  If either asked for obfuscation, drop `vcard:hasEmail` and `vcard:Email` both, rather than restoring the broken link.
-- `cody-baker`, `john-lee` and `vadim-melnik` keep `?Subject=Hello … @CON` on their `mailto:`, as on the old site: RFC 6068 allows the header field, and it is deliberate.

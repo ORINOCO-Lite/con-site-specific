@@ -1,7 +1,7 @@
 attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
-  value: mvdm@dartmouth.edu
+  value: Matthijs.van.der.Meer@dartmouth.edu
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
   value: Associate Professor of Psychological and Brain Sciences at Dartmouth College.
@@ -26,7 +26,7 @@ attributes:
   value: Associate Professor
 - predicate: vcard:hasEmail
   schema_type: dlthings:AttributeSpecification
-  value: mailto:mvdm@dartmouth.edu
+  value: mailto:Matthijs.van.der.Meer@dartmouth.edu
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://www.vandermeerlab.org/
