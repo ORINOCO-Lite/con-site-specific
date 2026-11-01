@@ -13,6 +13,10 @@ attributed_to:
   roles:
   - obo:NCIT_C25936
   schema_type: dlthings:Attribution
+description: NIH R24 award that funds EMBER, the Ecosystem for Multi-modal Brain-behavior
+  Experimentation and Research. Brock Wester (Johns Hopkins University) is the contact
+  PI; Yaroslav Halchenko leads the Dartmouth subaward, which covers CON's EMBER study
+  template and DataLad work.
 generated_by:
   at_time: '2024-09-16'
   schema_type: dlthings:Generation

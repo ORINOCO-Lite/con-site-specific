@@ -8,6 +8,9 @@ attributed_to:
   roles:
   - obo:NCIT_C19924
   schema_type: dlthings:Attribution
+description: Collaborative NSF award in the CRCNS US-German Data Sharing program that
+  funds DataLad as a decentralized system for discovery, management and publication
+  of digital objects of science, with Yaroslav Halchenko as PI at Dartmouth College.
 identifiers:
 - notation: '1912266'
   schema_type: dlthings:Identifier

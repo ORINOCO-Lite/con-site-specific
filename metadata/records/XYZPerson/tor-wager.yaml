@@ -29,7 +29,7 @@ attributes:
   value: Professor
 - predicate: vcard:hasEmail
   schema_type: dlthings:AttributeSpecification
-  value: mailto:Tor dot D dot Wager at dartmouth dot edu
+  value: mailto:tor.d.wager@dartmouth.edu
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://sites.dartmouth.edu/canlab/

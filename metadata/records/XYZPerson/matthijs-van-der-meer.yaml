@@ -26,7 +26,7 @@ attributes:
   value: Associate Professor
 - predicate: vcard:hasEmail
   schema_type: dlthings:AttributeSpecification
-  value: mailto:mvdm at dartmouth dot edu
+  value: mailto:mvdm@dartmouth.edu
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://www.vandermeerlab.org/
