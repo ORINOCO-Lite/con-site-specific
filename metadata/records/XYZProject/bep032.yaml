@@ -12,7 +12,7 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'Extends BIDS to microelectrode electrophysiology. Leads: Sylvain Takerkart,
     Benjamin Dichter, Yaroslav Halchenko, Lyuba Zehl, Andrew Davison.'
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: 'BEP032: Microelectrode electrophysiology'
 - predicate: dlthings:section

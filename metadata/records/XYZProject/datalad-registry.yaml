@@ -30,7 +30,7 @@ attributes:
   value: Service maintaining up-to-date information on an expanding collection of datasets,
     currently numbering over ten thousand. Provides automatic dataset registration, metadata
     extraction, and search functionality via web interface and RESTful API.
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: DataLad Registry
 - predicate: dlthings:short_name

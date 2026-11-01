@@ -14,7 +14,7 @@ attributes:
   value: The DICOM working group responsible for MR. Where the conventions that make a
     scanner's output machine-readable are argued out, which is upstream of every BIDS
     conversion CON does.
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: 'DICOM Working Group 16: Magnetic Resonance'
 - predicate: dlthings:section

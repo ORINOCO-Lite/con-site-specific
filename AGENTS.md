@@ -17,6 +17,9 @@ In a hand-written record, put each fact in one place:
 
 - Do not repeat a top-level slot as an `attributes` entry: no `skos:prefLabel`, `dlthings:given_name`, `dlthings:family_name`, `dlthings:formatted_name`, `dlthings:short_name` or `dcterms:description` attribute.
   Imported records carry these copies because `con/dump-research-info` emits them, and nothing here reads them.
+  `tools/validate_records.py` fails a copy that differs from its slot, so correct the slot and drop the stale copy.
+  A second name that is not the preferred label is an `skos:altLabel` attribute, never a second `skos:prefLabel`.
+- Leave out a `display_label` that repeats `title`; every consumer reads `display_label or title`.
 - Leave out `display_label` and `formatted_name` on a person when `given_name` and `family_name` already compose the name.
 - Keep `description` (plain text) and, where links help, the `dlthings:description_html` attribute.
   The Orinoco Lite site renders the first and the centerforopenneuroscience.org pages render the second.

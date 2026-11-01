@@ -22,7 +22,7 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'Extends BIDS to record how a derivative was produced -- the provenance layer,
     carrying forward NIDM-PROV. Leads: Satrajit Ghosh, Camille Maumet, Yaroslav Halchenko.'
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: 'BEP028: BIDS Provenance'
 - predicate: dlthings:section

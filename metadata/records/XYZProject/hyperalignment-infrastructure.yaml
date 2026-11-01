@@ -10,7 +10,7 @@ associated_with:
   - obo:NCIT_C25936
   schema_type: dlthings:Association
 attributes:
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Infrastructure for hyperaligning fMRI data and estimating functional topographies
 description: 'Dartmouth/Bologna project building shared infrastructure for hyperalignment.

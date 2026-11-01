@@ -2,7 +2,7 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://pbs.dartmouth.edu/
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Department of Psychological and Brain Sciences
 description: Dartmouth's Department of Psychological and Brain Sciences. The department

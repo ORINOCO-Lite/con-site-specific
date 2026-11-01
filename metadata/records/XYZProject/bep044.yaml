@@ -22,7 +22,7 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'Extends BIDS to describe the stimuli presented during an experiment. Leads:
     Seyed Yahya Shirazi, Dora Hermes, Yaroslav Halchenko, Kay Robbins, Scott Makeig.'
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: 'BEP044: Stimuli'
 - predicate: dlthings:section

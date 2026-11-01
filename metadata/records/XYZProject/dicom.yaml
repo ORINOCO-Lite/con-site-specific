@@ -15,7 +15,7 @@ attributes:
   value: The standard for medical imaging data and its exchange, and the format every
     MRI scanner writes. Everything downstream -- BIDS layouts, HeuDiConv, ReproIn -- starts
     from what the scanner put in the DICOM header.
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Digital Imaging and Communications in Medicine
 - predicate: dlthings:section

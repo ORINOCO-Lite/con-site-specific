@@ -15,7 +15,7 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/dandi/dandi-archive
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: DANDI Archive
 description: 'Software stack behind the DANDI archive: API, web client and validation,
