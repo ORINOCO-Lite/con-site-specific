@@ -4,6 +4,9 @@ associated_with:
   roles:
   - marcrel:led
   schema_type: dlthings:Association
+  started:
+    at_time: '2023-09-28'
+    schema_type: dlthings:Start
 - description: Named as a BEP lead in the BIDS website's own data/beps/beps.yml.
   object: xyzrins:persons/camille-maumet
   roles:
@@ -37,6 +40,6 @@ pid: xyzrins:projects/bep028
 schema_type: xyzri:XYZProject
 short_name: BEP028
 started:
-  at_time: '2023-01-01'
+  at_time: '2020-03-05'
   schema_type: dlthings:Start
 title: 'BEP028: BIDS Provenance'

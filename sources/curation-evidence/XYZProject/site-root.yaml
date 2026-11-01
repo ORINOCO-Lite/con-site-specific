@@ -39,23 +39,28 @@ assertions:
       association with the Center on record -- a year before Michael Hanke's
       2006-04-11.
     confidence: approximate
+    witness: xyzrins:persons/yaroslav-halchenko
+    would_confirm: >-
+      the 2005-03-22 exchange itself (an email or a file shared with James
+      Haxby), from YOH's archive
     captured: "2026-10-13"
   - path: /associated_with/25/started/at_time
     value: "2015-10-17"
     bound: upper
-    kind: recollection
-    source: YOH
+    kind: publication
+    source: xyzrins:publications/sfn2015-shared-representations
     locator: SfN 2015, Chicago, Poster 451.11
     quote: >-
-      work started while he was in Haxby lab and we started joint work on
-      that "Highly specific region localization from naturally rich data"
-      umbrella project
+      Finding Cortical Patches of Shared Representations / SFN 2015 Poster
+      #451.11
     note: >-
       Replaces 2015-07-22, the first commit of whoweare.html itself.  He
       leaves no commits in any repository these records name, so the
       earliest trace is a poster: Finding Cortical Patches of Shared
       Representations, SfN 2015.  An upper bound and a loose one -- the work
-      behind a poster precedes it, and he was in the Haxby lab before that.
+      behind a poster precedes it, and he was in the Haxby lab before that.  YOH: "work started while he was
+      in Haxby lab and we started joint work on that 'Highly specific region
+      localization from naturally rich data' umbrella project".
     confidence: approximate
     captured: "2026-10-13"
   - path: /associated_with/25/ended/at_time
@@ -114,6 +119,10 @@ assertions:
       (http://nipy.org/nipy/history.html).  A bare year, because that is the
       precision the recollection has, and the recollection says "IIRC".
     confidence: approximate
+    witness: xyzrins:persons/yaroslav-halchenko
+    would_confirm: >-
+      a participant list or announcement of the 2008 NiPy workshop in Paris,
+      e.g. in the nipy-devel list archive
     captured: "2026-10-13"
   - path: /associated_with/27/ended/at_time
     value: "2020-06-29"
@@ -132,8 +141,8 @@ assertions:
   - path: /associated_with/13/started/at_time
     value: "2013-12-30"
     bound: upper
-    kind: recollection
-    source: YOH
+    kind: correspondence
+    source: email from Yaroslav Halchenko to Joey Hess
     locator: 'email, subject: contract opportunity for 2 years of open git-annex development'
     quote: >-
       collaboration with joey hess began from my email on 30 Dec 2013 with
@@ -144,8 +153,11 @@ assertions:
       email that opened the collaboration, which is as close to an exact
       date as this gets -- an upper bound only because the decision to send
       it came first.  git-annex is what DataLad is built on, so this
-      predates DataLad's own public history.
+      predates DataLad's own public history.  The message is identified by
+      its date and subject; the quote is YOH's description of it, not its
+      text.
     confidence: approximate
+    would_confirm: the message's own Date header
     captured: "2026-10-13"
   - path: /associated_with/24/started/at_time
     value: "2015-06-12"
@@ -377,8 +389,8 @@ assertions:
   - path: /associated_with/16/started/at_time
     value: "2009-10-06"
     bound: upper
-    kind: recollection
-    source: YOH
+    kind: correspondence
+    source: nipy-devel mailing list, as held by Yaroslav Halchenko
     locator: >-
       email to nipy-devel@neuroimaging.scipy.org, cc Yaroslav Halchenko,
       subject: Re: [Nipy-devel] [nipype] 0.1 tagged
@@ -393,6 +405,7 @@ assertions:
       release.  An upper bound: YOH places the start earlier, at the 2008
       NIPY meetup in Paris (see pending).
     confidence: approximate
+    would_confirm: the message in the public nipy-devel archive for October 2009
     captured: "2026-10-20"
   - path: /associated_with/14/started/at_time
     value: "2020-06-27"
@@ -534,6 +547,10 @@ assertions:
       twelve years after the fact.  The collaboration became funded work on
       the BD2K grant submission around September 2013.
     confidence: approximate
+    witness: xyzrins:persons/yaroslav-halchenko
+    would_confirm: >-
+      the Date header of the first message in that NeuroDebian/XNAT
+      correspondence, from YOH's mail archive
     captured: "2026-10-13"
   - path: /associated_with/12/started/at_time
     value: "2008"
@@ -554,6 +571,10 @@ assertions:
       their FFF code onto NIPY (http://nipy.org/nipy/history.html).  Recorded
       as a bare year because that is the precision the recollection has.
     confidence: approximate
+    witness: xyzrins:persons/yaroslav-halchenko
+    would_confirm: >-
+      a participant list or announcement of the 2008 NiPy workshop in Paris,
+      e.g. in the nipy-devel list archive
     captured: "2026-10-13"
   - path: /associated_with/20/started/at_time
     value: "2024-10-14"
@@ -615,8 +636,8 @@ assertions:
   - path: /associated_with/15/started/at_time
     value: "2006-04-11"
     bound: upper
-    kind: recollection
-    source: YOH
+    kind: correspondence
+    source: email held by Yaroslav Halchenko
     locator: >-
       Steve Smith to Michael Hanke and Yaroslav Halchenko, cc Mark Jenkinson,
       Daniel Rueckert, David Flitney
@@ -634,6 +655,7 @@ assertions:
       changelog entries bottom out earlier still, at 2005-12-28, and are
       recorded on the Debian project.
     confidence: approximate
+    would_confirm: the message's own Date header, which the quote omits
     captured: "2026-10-13"
 
   - path: /associated_with/10/started/at_time
@@ -767,8 +789,8 @@ assertions:
   - path: /associated_with/40/started/at_time
     value: "2022-12"
     bound: upper
-    kind: recollection
-    source: conversation with YOH, 2026-10-14
+    kind: correspondence
+    source: comment on bids-standard/bids-specification#1128, identified by YOH on 2026-10-14
     locator: https://github.com/bids-standard/bids-specification/pull/1128#issuecomment-1354090167
     quote: We started collaborating in Dec 2022 while working on
       bids-specification PR #1128 (BEP020 eye tracking).
