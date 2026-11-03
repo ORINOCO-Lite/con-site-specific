@@ -27,11 +27,18 @@ attributes:
     <a href="/projects#pymvpa_">PyMVPA</a> early on, then the scanner-side work --
     <a href="https://github.com/ReproNim/reprostim">ReproStim</a>, where most of his
     commits are, and the <a href="https://github.com/dbic/handbook">DBIC Handbook</a>.'
+- predicate: dlthings:position
+  schema_type: dlthings:AttributeSpecification
+  value: Department of Neurology, Geisel School of Medicine at Dartmouth
 description: Emeritus member of the Center for Open Neuroscience. Worked on PyMVPA,
   ReproStim and the DBIC Handbook.
 display_label: Andy Connolly
 family_name: Connolly
 formatted_name: Andy Connolly
 given_name: Andy
+identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0003-4366-8230
+  schema_type: xyzri:ORCID
 pid: xyzrins:persons/andy-connolly
 schema_type: xyzri:XYZPerson
