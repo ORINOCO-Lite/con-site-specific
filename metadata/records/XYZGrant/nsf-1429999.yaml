@@ -10,11 +10,17 @@ attributed_to:
   schema_type: dlthings:Attribution
 description: NSF award in the CRCNS US-German Data Sharing program (DataGit) that
   funds DataLad, with Yaroslav Halchenko as PI at Dartmouth College.
+generated_by:
+  at_time: '2014-09-01'
+  schema_type: dlthings:Generation
 identifiers:
 - notation: '1429999'
   schema_type: dlthings:Identifier
+invalidated_by:
+  at_time: '2018-08-31'
+  schema_type: dlthings:Invalidation
 pid: xyzrins:grants/nsf-1429999
 schema_type: xyzri:XYZGrant
 short_name: '1429999'
-title: 'CRCNS US-German Data Sharing: DataGit - converging catalogues, warehouses, and
-  deployment logistics into a federated data distribution'
+title: 'CRCNS US-German Data Sharing: DataGit - converging catalogues, warehouses,
+  and deployment logistics into a federated ''data distribution'''

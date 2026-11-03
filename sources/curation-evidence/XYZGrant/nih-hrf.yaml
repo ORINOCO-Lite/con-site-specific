@@ -8,7 +8,7 @@ assertions:
     kind: registry
     source: https://api.reporter.nih.gov/v2/projects/search
     locator: "project_start_date for 1R01MH129397-01A1"
-    quote: '"project_start_date": "2022-09-15T00:00:00Z"'
+    quote: '"project_start_date": "2022-09-15T00:00:00"'
     note: >-
       Start of the award period as the funder records it, the same RePORTER
       value that dates xyzrins:projects/hrf-models.  That project is this
@@ -16,7 +16,7 @@ assertions:
       period is recorded on both: here as the funding, there as the span of
       the work.
     confidence: certain
-    captured: "2026-10-11"
+    captured: "2026-11-03"
 
   - path: /invalidated_by/at_time
     value: "2027-07-31"
@@ -24,9 +24,9 @@ assertions:
     kind: registry
     source: https://api.reporter.nih.gov/v2/projects/search
     locator: "project_end_date for 1R01MH129397-01A1"
-    quote: '"project_end_date": "2027-07-31T00:00:00Z"'
+    quote: '"project_end_date": "2027-07-31T00:00:00"'
     note: >-
       Planned end of the award period, from the funder's own record; also
       the end of xyzrins:projects/hrf-models, for the reason given above.
     confidence: certain
-    captured: "2026-10-11"
+    captured: "2026-11-03"

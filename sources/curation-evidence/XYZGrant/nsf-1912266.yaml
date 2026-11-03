@@ -1,0 +1,29 @@
+record: xyzrins:grants/nsf-1912266
+format: con-association-evidence-v1
+
+assertions:
+  - path: /generated_by/at_time
+    value: "2019-12-01"
+    bound: exact
+    kind: registry
+    source: https://api.nsf.gov/services/v1/awards/1912266.json
+    locator: "startDate of NSF award 1912266"
+    quote: '"startDate": "12/01/2019"'
+    note: >-
+      Start of the award period in NSF's own award record (also shown at
+      https://www.nsf.gov/awardsearch/showAward?AWD_ID=1912266).
+    confidence: certain
+    captured: "2026-11-03"
+
+  - path: /invalidated_by/at_time
+    value: "2023-11-30"
+    bound: exact
+    kind: registry
+    source: https://api.nsf.gov/services/v1/awards/1912266.json
+    locator: "expDate of NSF award 1912266"
+    quote: '"expDate": "11/30/2023"'
+    note: >-
+      The award's expiration date in the same record.  It ends the funding,
+      not DataLad, which is why it lives on the grant.
+    confidence: certain
+    captured: "2026-11-03"
