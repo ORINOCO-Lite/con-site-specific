@@ -10,7 +10,7 @@ associated_with:
   - obo:NCIT_C25936
   schema_type: dlthings:Association
 attributes:
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Personalized spatiotemporal hemodynamic response models for functional magnetic
     resonance imaging

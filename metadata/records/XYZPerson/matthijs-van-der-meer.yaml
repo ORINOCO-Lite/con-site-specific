@@ -1,12 +1,12 @@
 attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
-  value: mvdm@dartmouth.edu
+  value: Matthijs.van.der.Meer@dartmouth.edu
 - predicate: dcterms:description
   schema_type: dlthings:AttributeSpecification
   value: Associate Professor of Psychological and Brain Sciences at Dartmouth College.
     Studies how neural ensembles across brain areas organize experience for adaptive behavior.
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Matt van der Meer
 - predicate: dlthings:family_name
@@ -26,7 +26,7 @@ attributes:
   value: Associate Professor
 - predicate: vcard:hasEmail
   schema_type: dlthings:AttributeSpecification
-  value: mailto:mvdm at dartmouth dot edu
+  value: mailto:Matthijs.van.der.Meer@dartmouth.edu
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: http://www.vandermeerlab.org/

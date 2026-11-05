@@ -10,12 +10,29 @@ attributes:
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
   value: A Gaussian Process Model of Human Electrocorticographic Data
+- predicate: bibo:locator
+  schema_type: dlthings:AttributeSpecification
+  value: 30, 10, 5333-5345
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2020-06-04'
+characterized_by:
+- object: bibo:AcademicArticle
+  predicate: dcterms:type
+description: Owen LLW, Muntianu TA, Heusser AC, Daly PM, Scangos KW and Manning JR
+  (2020). A Gaussian Process Model of Human Electrocorticographic Data. Cerebral Cortex,
+  30(10), 5333-5345. https://doi.org/10.1093/cercor/bhaa115
 display_label: Owen et al. 2020 Cerebral Cortex
 identifiers:
 - notation: 10.1093/cercor/bhaa115
   schema_type: dlthings:DOI
 - notation: https://doi.org/10.1093/cercor/bhaa115
   schema_type: dlthings:Identifier
+- notation: 1047-3211
+  schema_type: dlthings:ISSN
+- notation: 1460-2199
+  schema_type: dlthings:ISSN
+kind: bibo:AcademicArticle
 pid: xyzrins:publications/doi-10-1093-cercor-bhaa115
 schema_type: xyzri:XYZPublication
 title: A Gaussian Process Model of Human Electrocorticographic Data

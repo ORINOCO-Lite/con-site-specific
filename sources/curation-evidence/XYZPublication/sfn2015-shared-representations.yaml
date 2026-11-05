@@ -5,8 +5,8 @@ assertions:
   - path: /generated_by/0/at_time
     value: "2015-10-17"
     bound: upper
-    kind: recollection
-    source: YOH
+    kind: publication
+    source: Society for Neuroscience annual meeting (Neuroscience 2015), Chicago
     locator: SfN 2015, Chicago, Poster 451.11
     quote: >-
       Finding Cortical Patches of Shared Representations / SFN 2015 Poster

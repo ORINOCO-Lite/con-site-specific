@@ -5,7 +5,7 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Collaborating labs & groups
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Computational Social Affective Neuroscience Laboratory
 description: Luke Chang's lab at Dartmouth, studying the computational basis of social

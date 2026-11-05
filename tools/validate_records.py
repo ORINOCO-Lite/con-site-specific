@@ -51,7 +51,8 @@ OVERLAYS = HERE / "sources/curation-evidence"
 MACHINE = HERE / "metadata/overlays/machine-provenance-annotations"
 
 KINDS = {"debian-changelog", "upstream-git", "site-git-history",
-         "copyright-extract", "publication", "registry", "recollection"}
+         "copyright-extract", "publication", "registry", "correspondence",
+         "recollection"}
 CONF = {"certain", "approximate", "unverified"}
 BOUND = {"exact", "lower", "upper"}
 # The last HUMAN-AUTHORED revision of con.org's pages.  After this commit
@@ -66,7 +67,11 @@ SITE_HISTORY_FREEZE_DATE = "2026-10-08"
 # website's history.  They never show the event, only the oldest or newest
 # trace of it, so the direction of the uncertainty is fixed by which end of a
 # span the date sits at -- see BOUND_RULE below.
-ARTIFACT_KINDS = {"site-git-history", "upstream-git", "debian-changelog"}
+# A dated message -- an email, a mailing-list post, an issue comment -- is
+# the same kind of trace: people writing to each other were already working
+# together, so it bounds a `started` from above.
+ARTIFACT_KINDS = {"site-git-history", "upstream-git", "debian-changelog",
+                  "correspondence"}
 # A `started` taken from the OLDEST surviving artifact can only be an upper
 # bound: work before the artifact existed (or before an SVN conversion, or
 # under another spelling of a name) leaves no trace, so the real date is at or
@@ -99,6 +104,17 @@ RULE = {
     "bound": "an artifact-derived `started` is an upper bound and an `ended` a "
              "lower bound -- the artifact shows the oldest/newest trace, not the event",
     "quarantine": "kind `recollection` requires confidence `unverified` and a `would_confirm`",
+    "witness": ("a recollection is asserted only when it is first-hand: a "
+                "`witness` naming a person who is an agent of the same record "
+                "(an `associated_with` or `attributed_to` object), confidence "
+                "`approximate`, and a `would_confirm`; any other recollection "
+                "stays under `pending`"),
+    "copy": ("an `attributes` copy of a top-level slot must equal that slot "
+             "(skos:prefLabel: `display_label`, or `title` when there is none); "
+             "a different label is an skos:altLabel"),
+    "label": ("`display_label` must say something `title` does not: drop one "
+              "that repeats `title` or truncates it -- every consumer reads "
+              "`display_label or title`"),
     "pointer": "an evidence `path` must resolve in the record it names",
     "iso": "at_time must be W3CISO8601: YYYY, YYYY-MM, YYYY-MM-DD, or a full timestamp",
     "role": "a role must be an IRI (prefix:local), not a bare word",
@@ -152,6 +168,11 @@ DATE_PREDICATES = {
     "schema:foundingDate": "started",
     "schema:dissolutionDate": "ended",
     "dcterms:created": "started",
+    # An Attribution (an entity's agent) has no started/ended slot, unlike an
+    # Association, so when a lead of an instrument or dataset is dated the
+    # date travels as an attribute of the Attribution itself.
+    "schema:startDate": "started",
+    "schema:endDate": "ended",
 }
 
 
@@ -181,6 +202,63 @@ def dated_slots(doc, prefix=""):
     elif isinstance(doc, list):
         for i, v in enumerate(doc):
             yield from dated_slots(v, f"{prefix}/{i}")
+
+
+# Attribute copies of top-level slots.  con/dump-research-info and zotero emit
+# them and nothing here reads them, so they can drift unnoticed -- four had.
+# Each must equal its slot.  skos:prefLabel is the slot_uri of
+# `display_label`, so a second, different prefLabel is two prefLabels on one
+# resource, which SKOS forbids per language: that one is an skos:altLabel.
+COPY_SLOTS = {
+    "dlthings:title": "title",
+    "dcterms:description": "description",
+    "dlthings:given_name": "given_name",
+    "dlthings:family_name": "family_name",
+    "dlthings:formatted_name": "formatted_name",
+    "dlthings:short_name": "short_name",
+}
+# The dump-research-info importer cut `display_label` at this many characters,
+# mid-word ("DANDI: Distributed Archives for Neurophysiology Data Integra").
+IMPORTER_LABEL_CUT = 60
+
+
+def label_problems(doc):
+    """Attribute copies that disagree with their slot, and redundant labels."""
+    label = doc.get("display_label")
+    title = doc.get("title")
+    if isinstance(label, str) and isinstance(title, str):
+        if label == title:
+            yield f"display_label repeats title -- {RULE['label']}"
+        elif (len(label) == IMPORTER_LABEL_CUT and len(title) > len(label)
+              and title.startswith(label)):
+            yield (f"display_label {label!r} is title cut at "
+                   f"{IMPORTER_LABEL_CUT} characters -- {RULE['label']}")
+    attrs = doc.get("attributes")
+    if not isinstance(attrs, list):
+        return
+    for n, attr in enumerate(attrs):
+        if not isinstance(attr, dict):
+            continue
+        pred = attr.get("predicate")
+        if pred == "skos:prefLabel":
+            slot = "display_label" if "display_label" in doc else "title"
+        elif pred in COPY_SLOTS:
+            slot = COPY_SLOTS[pred]
+        else:
+            continue
+        if attr.get("value") != doc.get(slot):
+            yield (f"/attributes/{n} {pred} is {attr.get('value')!r}, "
+                   f"`{slot}` is {doc.get(slot)!r} -- {RULE['copy']}")
+
+
+def agents(doc):
+    """Every agent a record names: associated_with and attributed_to objects."""
+    out = set()
+    for key in ("associated_with", "attributed_to"):
+        for entry in doc.get(key) or []:
+            if isinstance(entry, dict) and isinstance(entry.get("object"), str):
+                out.add(entry["object"])
+    return out
 
 
 def load(path, fails):
@@ -223,6 +301,9 @@ def main():
                                 f"{records[pid][0].relative_to(HERE)} -- {RULE['pid']}"))
             continue
         records[pid] = (path, doc)
+
+        for msg in label_problems(doc):
+            fails.append((path, msg))
 
         dated_by_pid[pid] = {ptr: role for ptr, _, role in dated_slots(doc)}
         for pointer, value, _ in dated_slots(doc):
@@ -311,6 +392,23 @@ def main():
             kind = entry.get("kind")
             if kind not in KINDS:
                 fails.append((path, f"{pointer}: kind {kind!r} not one of {sorted(KINDS)}"))
+            # A recollection is testimony.  The record may assert it only when
+            # the person recalling took part -- an agent of this very record --
+            # and says how sure they are and what would settle it.  A
+            # recollection by anyone else, or one that claims more than
+            # `approximate`, stays quarantined under `pending`.
+            witness = entry.get("witness")
+            if kind == "recollection":
+                who = records.get(witness, (None, {}))[1] if isinstance(witness, str) else {}
+                if (not isinstance(witness, str)
+                        or who.get("schema_type") != "xyzri:XYZPerson"
+                        or witness not in agents(target)
+                        or entry.get("confidence") != "approximate"
+                        or not entry.get("would_confirm")):
+                    fails.append((path, f"{pointer}: {RULE['witness']}"))
+            elif witness is not None:
+                fails.append((path, f"{pointer}: `witness` qualifies a "
+                                    f"recollection; this entry is {kind!r}"))
             if entry.get("artifact") not in (None,) and \
                     entry.get("artifact") not in ARTIFACT_KIND:
                 fails.append((path, f"{pointer}: artifact "

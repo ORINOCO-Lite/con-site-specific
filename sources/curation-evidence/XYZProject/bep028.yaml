@@ -3,19 +3,30 @@ format: con-association-evidence-v1
 
 assertions:
   - path: /started/at_time
-    value: "2023-01-01"
+    value: "2020-03-05"
     bound: upper
-    kind: recollection
-    source: conversation 2026-10-11
-    locator: null
-    quote: BEP028 I am part of
+    kind: upstream-git
+    source: https://github.com/bids-standard/BEP028_BIDSprov
+    locator: 9350308
+    quote: Initial commit
     note: >-
-      APPROXIMATE.  The BIDS website's data/beps/beps.yml names Yaroslav
-      Halchenko as a lead but carries no start date for any BEP, and the
-      Google Doc behind it is not dated from outside.  2023-01-01 is a
-      placeholder, not a finding.
-    would_confirm: >-
-      The BEP028 Google Doc's creation date, or the first commit of
-      bids-standard/bids-specification touching the provenance BEP.
-    confidence: unverified
-    captured: "2026-10-11"
+      The first commit of the BEP's own repository, by Remi Adon (Inria).
+      Replaces 2023-01-01, which was a placeholder rather than a finding and
+      described YOH's involvement, not the BEP's.  Still an upper bound: the
+      proposal document behind the BEP may be older than its repository.
+    confidence: certain
+    captured: "2026-11-01"
+
+  - path: /associated_with/0/started/at_time
+    value: "2023-09-28"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/bids-standard/BEP028_BIDSprov
+    locator: a74859c
+    quote: Make "Used" to contain only unique values and sort them
+    note: >-
+      YOH's first commit to the BEP's repository, one of three that day.  An
+      upper bound on his involvement, which may have begun in discussion
+      before he committed.
+    confidence: certain
+    captured: "2026-11-01"

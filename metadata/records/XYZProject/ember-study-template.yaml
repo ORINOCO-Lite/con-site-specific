@@ -11,7 +11,7 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/brain-bbqs/study-template
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: EMBER BIDS study template
 - predicate: dlthings:code_repository

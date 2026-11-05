@@ -13,9 +13,19 @@ attributed_to:
   roles:
   - obo:NCIT_C25936
   schema_type: dlthings:Attribution
+description: NIH R01 award for personalized spatiotemporal hemodynamic response models
+  in fMRI, and the whole of the HRF models project, whose span is the award period.
+  Martin Lindquist (Johns Hopkins University) is the contact PI, Tor Wager the PI
+  at Dartmouth, and Yaroslav Halchenko a Co-Investigator.
+generated_by:
+  at_time: '2022-09-15'
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 1R01MH129397-01A1
   schema_type: dlthings:Identifier
+invalidated_by:
+  at_time: '2027-07-31'
+  schema_type: dlthings:Invalidation
 pid: xyzrins:grants/nih-hrf
 schema_type: xyzri:XYZGrant
 short_name: 1R01MH129397-01A1

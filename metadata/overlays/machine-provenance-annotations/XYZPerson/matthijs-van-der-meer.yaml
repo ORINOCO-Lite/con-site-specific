@@ -3,10 +3,6 @@ assertions:
   path: /attributes
   pav:importedBy: xyzrins:source-adapters/dump-research-info/v2
   pav:importedFrom: https://github.com/con/dump-research-info/blob/main/data/con_site/XYZPerson.json#record=xyzrins%3Apersons%2Fmatthijs-van-der-meer
-- assertion_sha256: sha256:3aa808c9fb92ad2d7223814b3b1110f7df06b2a88cae9e833da07facfa9bdb40
-  path: /attributes
-  pav:importedBy: xyzrins:source-adapters/dump-research-info/v2
-  pav:importedFrom: https://github.com/con/dump-research-info/blob/main/data/con_site/XYZPerson.json#record=xyzrins%3Apersons%2Fmatthijs-van-der-meer
 - assertion_sha256: sha256:4f262ec60143faa11685607a75dca7c8014c86df9492ae8c791416bd4cae125d
   path: /attributes
   pav:importedBy: xyzrins:source-adapters/dump-research-info/v2

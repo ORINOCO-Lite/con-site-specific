@@ -5,7 +5,7 @@ attributes:
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Collaborating labs & groups
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Cognitive and Affective Neuroscience Lab
 description: Tor Wager's lab at Dartmouth, studying the neuroscience of pain, emotion

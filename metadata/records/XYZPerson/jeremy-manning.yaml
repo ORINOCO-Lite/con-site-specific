@@ -11,7 +11,7 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Associate Professor of Psychological and Brain Sciences at Dartmouth College.
     Director of the Contextual Dynamics Lab.
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Jeremy R. Manning
 - predicate: dlthings:family_name

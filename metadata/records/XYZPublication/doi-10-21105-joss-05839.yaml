@@ -65,18 +65,15 @@ attributes:
 - predicate: dcterms:rights
   schema_type: dlthings:AttributeSpecification
   value: http://creativecommons.org/licenses/by/4.0/
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Halchenko et al. 2024 JOSS
 - predicate: dlthings:title
   schema_type: dlthings:AttributeSpecification
-  value: HeuDiConv - flexible DICOM conversion into structured directory layouts
-- predicate: dlthings:title
-  schema_type: dlthings:AttributeSpecification
-  value: HeuDiConv — flexible DICOM conversion into structureddirectory layouts
+  value: HeuDiConv — flexible DICOM conversion into structured directory layouts
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
-  value: HeuDiConv — flexible DICOM conversion into structureddirectory layouts
+  value: HeuDiConv — flexible DICOM conversion into structured directory layouts
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
@@ -94,4 +91,4 @@ identifiers:
 kind: bibo:AcademicArticle
 pid: xyzrins:publications/doi-10-21105-joss-05839
 schema_type: xyzri:XYZPublication
-title: HeuDiConv — flexible DICOM conversion into structureddirectory layouts
+title: HeuDiConv — flexible DICOM conversion into structured directory layouts

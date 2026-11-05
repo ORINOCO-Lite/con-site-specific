@@ -2,7 +2,7 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/stamped-principles
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: STAMPED Principles
 description: GitHub organization holding the STAMPED principles paper, examples, checklist,

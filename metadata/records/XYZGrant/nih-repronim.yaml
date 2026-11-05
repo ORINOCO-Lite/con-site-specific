@@ -15,6 +15,10 @@ attributed_to:
   roles:
   - obo:NCIT_C25936
   schema_type: dlthings:Attribution
+description: NIH P41 award that funds ReproNim, the Center for Reproducible Neuroimaging
+  Computation, including CON's DataLad and datalad-container work. David Kennedy (UMass
+  Chan Medical School) is the contact PI; Yaroslav Halchenko leads the Dartmouth subcontract
+  and TR&D3, on reproducible execution and provenance capture.
 generated_by:
   at_time: '2016-04-15'
   schema_type: dlthings:Generation

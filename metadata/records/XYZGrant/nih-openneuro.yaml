@@ -13,6 +13,9 @@ attributed_to:
   roles:
   - obo:NCIT_C25936
   schema_type: dlthings:Attribution
+description: NIH R24 award, in its renewal, that funds OpenNeuro, the open archive
+  for analysis and sharing of BRAIN Initiative data. Russell Poldrack (Stanford University)
+  is the contact PI; Yaroslav Halchenko leads the Dartmouth subaward.
 generated_by:
   at_time: '2018-09-15'
   schema_type: dlthings:Generation

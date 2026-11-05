@@ -11,6 +11,9 @@ attributes:
 - predicate: bibo:presentedAt
   value: McGill neuroscience group
   schema_type: dlthings:AttributeSpecification
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/con/talks/tree/master/2026-mcgill-mechababs
 characterized_by:
 - object: bibo:Slideshow
   predicate: dcterms:type

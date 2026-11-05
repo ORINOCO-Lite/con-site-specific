@@ -11,10 +11,6 @@ assertions:
   path: /attributes
   pav:importedBy: xyzrins:source-adapters/dump-research-info/v2
   pav:importedFrom: https://github.com/con/dump-research-info/blob/main/data/con_site/XYZPublication.json#record=https%3A%2F%2Fdoi.org%2F10.1007%2Fs12021-008-9041-y
-- assertion_sha256: sha256:99f76f65bd44fd7206e7e395137aff1ec5136ac30e9aad57092ff8fe347ddc7b
-  path: /attributes
-  pav:importedBy: xyzrins:source-adapters/dump-research-info/v2
-  pav:importedFrom: https://github.com/con/dump-research-info/blob/main/data/con_site/XYZPublication.json#record=https%3A%2F%2Fdoi.org%2F10.1007%2Fs12021-008-9041-y
 - assertion_sha256: sha256:ea443f10f46ba63721d3016bf3fd9949df412c19409e07fd5e94f7bcd4b2ad6f
   path: /attributes
   pav:importedBy: xyzrins:source-adapters/zotero/v1

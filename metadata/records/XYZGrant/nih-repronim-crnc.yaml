@@ -14,9 +14,19 @@ attributed_to:
   roles:
   - obo:NCIT_C25936
   schema_type: dlthings:Attribution
+description: The original NIH P41 award for the Center for Reproducible Neuroimaging
+  Computation (ReproNim); 2P41EB019936 is its renewal. David Kennedy (UMass Chan Medical
+  School) is the contact PI; Yaroslav Halchenko was subcontract PI at Dartmouth and
+  a TR&D lead.
+generated_by:
+  at_time: '2016-04-15'
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 1P41EB019936-01A1
   schema_type: dlthings:Identifier
+invalidated_by:
+  at_time: '2021-01-31'
+  schema_type: dlthings:Invalidation
 pid: xyzrins:grants/nih-repronim-crnc
 schema_type: xyzri:XYZGrant
 short_name: 1P41EB019936-01A1

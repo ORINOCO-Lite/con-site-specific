@@ -1,0 +1,29 @@
+record: xyzrins:grants/nsf-1429999
+format: con-association-evidence-v1
+
+assertions:
+  - path: /generated_by/at_time
+    value: "2014-09-01"
+    bound: exact
+    kind: registry
+    source: https://api.nsf.gov/services/v1/awards/1429999.json
+    locator: "startDate of NSF award 1429999"
+    quote: '"startDate": "09/01/2014"'
+    note: >-
+      Start of the award period in NSF's own award record (also shown at
+      https://www.nsf.gov/awardsearch/showAward?AWD_ID=1429999).
+    confidence: certain
+    captured: "2026-11-03"
+
+  - path: /invalidated_by/at_time
+    value: "2018-08-31"
+    bound: exact
+    kind: registry
+    source: https://api.nsf.gov/services/v1/awards/1429999.json
+    locator: "expDate of NSF award 1429999"
+    quote: '"expDate": "08/31/2018"'
+    note: >-
+      The award's expiration date in the same record.  It ends the funding,
+      not DataLad, which is why it lives on the grant.
+    confidence: certain
+    captured: "2026-11-03"

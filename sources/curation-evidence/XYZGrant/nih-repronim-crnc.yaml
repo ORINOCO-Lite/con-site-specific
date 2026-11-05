@@ -1,0 +1,31 @@
+record: xyzrins:grants/nih-repronim-crnc
+format: con-association-evidence-v1
+
+assertions:
+  - path: /generated_by/at_time
+    value: "2016-04-15"
+    bound: exact
+    kind: registry
+    source: https://api.reporter.nih.gov/v2/projects/search
+    locator: "project_start_date for 1P41EB019936-01A1"
+    quote: '"project_start_date": "2016-04-15T00:00:00"'
+    note: >-
+      From the FY2016 parent record of the original award, "Center for
+      Reproducible Neuroimaging Computation (CRNC)"; its sub-project records
+      carry no project dates.  The same date starts the core project
+      P41EB019936 that the renewal, xyzrins:grants/nih-repronim, continues.
+    confidence: certain
+    captured: "2026-11-03"
+
+  - path: /invalidated_by/at_time
+    value: "2021-01-31"
+    bound: exact
+    kind: registry
+    source: https://api.reporter.nih.gov/v2/projects/search
+    locator: "project_end_date for 1P41EB019936-01A1"
+    quote: '"project_end_date": "2021-01-31T00:00:00"'
+    note: >-
+      End of the original award's project period, as the FY2016 record gives
+      it; the renewal 2P41EB019936 took over from there.
+    confidence: certain
+    captured: "2026-11-03"

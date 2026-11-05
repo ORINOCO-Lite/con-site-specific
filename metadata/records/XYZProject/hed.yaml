@@ -16,7 +16,7 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://www.hedtags.org
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Hierarchical Event Descriptors
 - predicate: dlthings:short_name

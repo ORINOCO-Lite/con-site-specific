@@ -2,7 +2,7 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://www.cos.io
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Center for Open Science
 description: Non-profit behind the Open Science Framework (OSF), working on transparency,

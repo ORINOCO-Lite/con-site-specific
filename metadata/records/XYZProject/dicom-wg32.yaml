@@ -13,7 +13,7 @@ attributes:
   value: 'The DICOM working group on imaging compression. CON''s interest is empirical:
     what lossy compression actually costs downstream analyses, which is what the compression-comparisons
     studies measure.'
-- predicate: skos:prefLabel
+- predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: 'DICOM Working Group 32: Digital Pathology and Imaging Compression'
 - predicate: dlthings:section
