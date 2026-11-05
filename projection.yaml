@@ -52,7 +52,7 @@ pages:
         field: associated_with
     inline: [delegated_by::object, delegated_by::roles, identifiers::creator]
   xyzri:XYZPublication:
-    template: www-from-model:page_templates/publication.md.j2
+    template: site-specific/templates/publication.md.j2
     inline: [about, attributed_to::object]
   xyzri:XYZInstrument:
     template: www-from-model:page_templates/instrument.md.j2
