@@ -5,6 +5,11 @@ attributed_to:
 - object: xyzrins:persons/yaroslav-halchenko
   roles:
   - marcrel:aut
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:aut
   schema_type: dlthings:Attribution
 attributes:
 - predicate: bibo:presentedAt
@@ -20,7 +25,8 @@ characterized_by:
 - object: bibo:Slideshow
   predicate: dcterms:type
 description: 'Talk at Health Data Initiative Forum III: The Health Datapalooza, Washington DC,
-  2012-06. The title slide also credits the Debian Med team.'
+  2012-06. The title slide also credits the Debian Med team, and the last slide Stefano Zacchiroli
+  and Andreas Tille for portions of the slides.'
 generated_by:
 - at_time: 2012-06
   object: xyzrins:projects/debian

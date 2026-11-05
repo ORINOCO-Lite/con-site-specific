@@ -15,15 +15,15 @@ attributed_to:
 attributes:
 - predicate: bibo:presentedAt
   schema_type: dlthings:AttributeSpecification
-  value: First PyMVPA course
+  value: First PyMVPA course, Department of Psychological and Brain Sciences, Dartmouth College
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://datasets.datalad.org/centerforopenneuroscience/talks/pdfdeck.html?talk=2010-pymvpa-course
 characterized_by:
 - object: bibo:Slideshow
   predicate: dcterms:type
-description: 'First PyMVPA course, 2010-03. Lectures: Introduction; PyMVPA: What we have saw
-  but now in pictures.'
+description: 'First PyMVPA course, Department of Psychological and Brain Sciences, Dartmouth
+  College, 2010-03. Lectures: Introduction; PyMVPA: What we have saw but now in pictures.'
 generated_by:
 - at_time: 2010-03
   object: xyzrins:projects/pymvpa

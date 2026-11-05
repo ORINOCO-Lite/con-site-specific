@@ -8,6 +8,7 @@ assertions:
   source: pymvpa/papers:talk-pymvpa_course
   locator: commits 2010-02-24 .. 2010-03-02
   quote: re-enable GPS slide for the tutorial intro
-  note: Only the month of the last commit is claimed; the PDF is a rebuild of 2011-08-28.
+  note: Only the month of the last commit is claimed; the PDF is a rebuild of 2011-08-28. The
+    place is as Yaroslav Halchenko recalls it (2026-11-05); the slides do not state it.
   confidence: approximate
   captured: '2026-11-05'
