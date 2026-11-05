@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2019-umass-tales
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2019-09
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-umass2019-tales/talk-umass2019-tales.pdf
+  locator: title slide; commit of 2019-09-12
+  quote: September 2019
+  note: The commit reads "A version of complete talk for umass".
+  confidence: certain
+  captured: '2026-11-05'

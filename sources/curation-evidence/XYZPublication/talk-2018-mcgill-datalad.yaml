@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2018-mcgill-datalad
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2018-03
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-nifnih-datalad/nifnih-datalad.pdf
+  locator: title slide; commit of 2018-03-01
+  quote: McGill, March 2018
+  note: The commit reads "copied online intensive talk to tune up for the nih nih online cast".
+  confidence: certain
+  captured: '2026-11-05'

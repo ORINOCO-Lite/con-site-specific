@@ -1,0 +1,14 @@
+record: xyzrins:publications/talk-2014-giessen-pymvpa-workshop
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2014-09
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talks-pymvpa_course2014/pdfs/s-mvpaintro.pdf
+  locator: title slide; flyer https://www.uni-giessen.de/cms/fbz/fb06/psychologie/weitere-inst/bion/springschool/pyMVPA_Flyer
+  quote: Giessen 2014
+  note: The slide names the place; the flyer gives 19-20 September 2014 and names Michael Hanke
+    and Yaroslav O. Halchenko as those running the course.
+  confidence: approximate
+  captured: '2026-11-05'

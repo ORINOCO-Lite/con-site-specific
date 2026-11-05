@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2011-euroscipy-neurodebian
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2011-08
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-euroscipy_neurodebian/s.pdf
+  locator: title slide; commits to 2011-09-02
+  quote: EuroScipy 2011, Python in Neuroscience satellite, Paris
+  note: The month is that of the conference; the PDF is a rebuild of 2011-10-25.
+  confidence: approximate
+  captured: '2026-11-05'

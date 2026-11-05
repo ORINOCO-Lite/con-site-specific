@@ -1,0 +1,14 @@
+record: xyzrins:publications/talk-2013-sea-debian
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2013-04
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-sea2013/Halchenko_OpenIsNotEnough_UCAR2013.pdf
+  locator: PDF CreationDate 2013-04-02; commits 2013-03-28 .. 2013-04-05
+  quote: SEA 2013, Boulder CO March 2 2013
+  note: The title slide says March 2, but the talk's first commit is 2013-03-28 and the PDF
+    was built 2013-04-02, so the slide's date looks wrong; the month of the PDF is claimed.
+  confidence: approximate
+  captured: '2026-11-05'

@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2015-hackathon-neurodebian
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2015-10
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-dartcs2015/2015-Halchenko-Hackathon-NeuroDebian.pdf
+  locator: file name; PDF CreationDate 2015-10-24
+  quote: 2015-Halchenko-Hackathon-NeuroDebian
+  note: The file name gives the kind of event, the PDF its month.
+  confidence: approximate
+  captured: '2026-11-05'

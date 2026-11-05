@@ -1,0 +1,31 @@
+# TODO(event): the meeting is only text in bibo:presentedAt.  Model it
+# as an XYZActivity record (with its dates and place) and link it, once
+# the store has a convention for events.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: PsychoPy workshop
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/pdfdeck.html?talk=2011-psychopy-workshop
+- predicate: dcat:downloadURL
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/2011-psychopy-workshop.pdf
+characterized_by:
+- object: bibo:Slideshow
+  predicate: dcterms:type
+description: Talk at PsychoPy workshop, 2011-07.
+generated_by:
+- at_time: 2011-07
+  object: xyzrins:projects/psychopy
+  schema_type: dlthings:Generation
+kind: bibo:Slideshow
+pid: xyzrins:publications/talk-2011-psychopy-workshop
+schema_type: xyzri:XYZPublication
+title: 'PsychoPy Workshop: Coding, Git, et al.'

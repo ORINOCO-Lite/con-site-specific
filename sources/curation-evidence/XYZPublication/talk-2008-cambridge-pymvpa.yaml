@@ -1,0 +1,14 @@
+record: xyzrins:publications/talk-2008-cambridge-pymvpa
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2008-04
+  bound: exact
+  kind: upstream-git
+  source: pymvpa/papers:cambridge-pres
+  locator: commits 2008-04-07 .. 2008-04-24
+  quote: First steps towards cambridge talk.
+  note: The talk's first commits; only the month is claimed. The folder became talk-pymvpa_intro
+    on 2008-11-23; the PDF here is its build of 2008-10-19 and so has the edits of 2008-07.
+  confidence: approximate
+  captured: '2026-11-05'

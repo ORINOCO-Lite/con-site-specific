@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2016-data-ecosystem-1slide
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2016-07
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-data2016-1slide/s.tex
+  locator: s.tex (\date, commented out); PDF CreationDate 2016-07-25
+  quote: Open Data Ecosystem for Neuroscience, Washington DC, 2016
+  note: The folder is not under version control; the PDF gives the month.
+  confidence: approximate
+  captured: '2026-11-05'

@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2010-pymvpa-course
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2010-03
+  bound: exact
+  kind: upstream-git
+  source: pymvpa/papers:talk-pymvpa_course
+  locator: commits 2010-02-24 .. 2010-03-02
+  quote: re-enable GPS slide for the tutorial intro
+  note: Only the month of the last commit is claimed; the PDF is a rebuild of 2011-08-28.
+  confidence: approximate
+  captured: '2026-11-05'

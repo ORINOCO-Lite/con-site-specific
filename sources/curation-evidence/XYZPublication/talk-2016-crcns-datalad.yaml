@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2016-crcns-datalad
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2016-10
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-crcns2016-datalad/halchenko-crcns2016-1.pdf
+  locator: title slide; PDF CreationDate 2016-10-24
+  quote: CRCNS 2016, Paris, France 2016
+  note: The title slide names the meeting; the PDF was built that month.
+  confidence: approximate
+  captured: '2026-11-05'

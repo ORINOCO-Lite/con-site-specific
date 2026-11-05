@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2009-pymvpa-extravaganza
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2009-11
+  bound: exact
+  kind: upstream-git
+  source: pymvpa/papers:talk-workshop09
+  locator: commits 2009-11-24 .. 2009-11-29
+  quote: Could be the final of the intro talk on Monday?
+  note: The workshop's opening talk; only the month is claimed.
+  confidence: approximate
+  captured: '2026-11-05'

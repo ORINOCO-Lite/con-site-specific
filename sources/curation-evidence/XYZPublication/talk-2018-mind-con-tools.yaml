@@ -1,0 +1,14 @@
+record: xyzrins:publications/talk-2018-mind-con-tools
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2018-08
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-mind2018-con/s.pdf
+  locator: title slide; commits 2018-07-29 .. 2018-08-03
+  quote: August 2018
+  note: The commit "initial version for mind2017" copies the MIND series; the folder name gives
+    the year.
+  confidence: certain
+  captured: '2026-11-05'

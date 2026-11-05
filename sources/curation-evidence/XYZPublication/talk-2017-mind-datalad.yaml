@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2017-mind-datalad
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2017-08
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-mind2017-datalad/mind2017-datalad.pdf
+  locator: title slide; commit of 2017-08-14
+  quote: Dartmouth, Hanover, Aug 2017
+  note: The commit reads "version presented".
+  confidence: certain
+  captured: '2026-11-05'

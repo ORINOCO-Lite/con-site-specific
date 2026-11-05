@@ -1,0 +1,31 @@
+# TODO(event): the meeting is only text in bibo:presentedAt.  Model it
+# as an XYZActivity record (with its dates and place) and link it, once
+# the store has a convention for events.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: 'Health Data Initiative Forum III: The Health Datapalooza, Washington DC'
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/pdfdeck.html?talk=2012-hdi-debian-med
+- predicate: dcat:downloadURL
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/2012-hdi-debian-med.pdf
+characterized_by:
+- object: bibo:Slideshow
+  predicate: dcterms:type
+description: 'Talk at Health Data Initiative Forum III: The Health Datapalooza, Washington DC,
+  2012-06. The title slide also credits the Debian Med team.'
+generated_by:
+- at_time: 2012-06
+  object: xyzrins:projects/debian
+  schema_type: dlthings:Generation
+kind: bibo:Slideshow
+pid: xyzrins:publications/talk-2012-hdi-debian-med
+schema_type: xyzri:XYZPublication
+title: 'Debian Med: The ultimate operating system for medicine, pre-clinical research and bio-informatics'

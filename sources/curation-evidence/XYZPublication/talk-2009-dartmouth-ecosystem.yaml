@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2009-dartmouth-ecosystem
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2009-11
+  bound: exact
+  kind: upstream-git
+  source: pymvpa/papers:talk-dc2009
+  locator: commits 2009-11-10 .. 2009-11-24
+  quote: close to last version of the talk... or may be is the last
+  note: The abstract and last draft date from 2009-11; only the month is claimed.
+  confidence: approximate
+  captured: '2026-11-05'

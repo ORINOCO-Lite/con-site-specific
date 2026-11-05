@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2011-psychopy-workshop
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2011-07
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-psychopy2011/psychopy-yoh2011.pdf
+  locator: title slide; commits 2011-07-19 .. 2011-07-22
+  quote: July 22, 2011
+  note: The date on the slide is \today at build, so only the month is claimed.
+  confidence: approximate
+  captured: '2026-11-05'

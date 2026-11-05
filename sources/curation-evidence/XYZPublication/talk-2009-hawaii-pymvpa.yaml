@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2009-hawaii-pymvpa
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2009-04-17'
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-oahu_talk2009/announcement.txt
+  locator: announcement.txt
+  quote: Friday, 4/17, 1:15 - 2:15, POST 127
+  note: The seminar announcement names speaker, day and room.
+  confidence: certain
+  captured: '2026-11-05'

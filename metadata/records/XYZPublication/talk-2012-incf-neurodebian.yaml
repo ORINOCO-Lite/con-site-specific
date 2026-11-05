@@ -1,0 +1,31 @@
+# TODO(event): the meeting is only text in bibo:presentedAt.  Model it
+# as an XYZActivity record (with its dates and place) and link it, once
+# the store has a convention for events.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: INCF 2012, Munich, Germany
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/pdfdeck.html?talk=2012-incf-neurodebian
+- predicate: dcat:downloadURL
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/2012-incf-neurodebian.pdf
+characterized_by:
+- object: bibo:Slideshow
+  predicate: dcterms:type
+description: Talk at INCF 2012, Munich, Germany, 2012-09.
+generated_by:
+- at_time: 2012-09
+  object: xyzrins:projects/neurodebian
+  schema_type: dlthings:Generation
+kind: bibo:Slideshow
+pid: xyzrins:publications/talk-2012-incf-neurodebian
+schema_type: xyzri:XYZPublication
+title: 'Applied NeuroDebian: Python in Neuroimaging'

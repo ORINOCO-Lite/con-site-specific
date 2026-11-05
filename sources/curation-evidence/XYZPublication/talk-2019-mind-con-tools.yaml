@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2019-mind-con-tools
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2019-08
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-mind2019-con/s-copy.pdf
+  locator: title slide; PDF CreationDate 2019-08-08
+  quote: August 2019
+  note: s-copy.pdf is the build from the time of the talk; s.pdf was rebuilt in 2022.
+  confidence: certain
+  captured: '2026-11-05'
