@@ -2,13 +2,23 @@ record: xyzrins:publications/talk-2024-distribits-datalad-name
 format: con-association-evidence-v1
 assertions:
 - path: /generated_by/0/at_time
-  value: 2024-08
+  value: 2024-04
   bound: exact
-  kind: upstream-git
-  source: con/talks:2024-distribits-datalad-name.html
-  locator: commits 872855b 2024-08-14 .. 872855b 2024-08-14
-  note: The deck was committed 2024-08-14, but INDEX.md calls it a distribits 2024 lightning
-    talk and distribits 2024 was in April; one of the two is wrong. Only the month is claimed;
-    the day is not recorded.
-  confidence: unverified
-  captured: '2026-10-17'
+  kind: recollection
+  source: Yaroslav Halchenko, 2026-11-06
+  note: Yaroslav Halchenko confirmed the talk was given at distribits 2024, which was in April
+    (see talk-2024-distribits-datalad). The only commit of the deck, 872855b of 2024-08-14, says
+    it was "found laying around", so it came after the talk. Only the month is claimed.
+  confidence: approximate
+  would_confirm: the distribits 2024 program
+  witness: xyzrins:persons/yaroslav-halchenko
+  captured: '2026-11-06'
+- path: /attributes/0/value
+  value: distribits 2024 (lightning talk)
+  kind: recollection
+  source: Yaroslav Halchenko, 2026-11-06
+  note: Asked about the unverified venue, Yaroslav Halchenko answered "it was given".
+  confidence: approximate
+  would_confirm: the distribits 2024 program
+  witness: xyzrins:persons/yaroslav-halchenko
+  captured: '2026-11-06'
