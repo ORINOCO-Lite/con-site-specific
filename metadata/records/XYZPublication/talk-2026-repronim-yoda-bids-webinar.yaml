@@ -14,6 +14,9 @@ attributes:
 - predicate: foaf:homepage
   value: https://datasets.datalad.org/centerforopenneuroscience/talks/2026-repronim-YODA-BIDS-webinar.html
   schema_type: dlthings:AttributeSpecification
+- predicate: schema:video
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/1XbTbJ_P2x0
+  schema_type: dlthings:AttributeSpecification
 characterized_by:
 - object: bibo:Slideshow
   predicate: dcterms:type

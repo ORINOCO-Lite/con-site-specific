@@ -11,3 +11,12 @@ assertions:
   note: The talk's README gives the workshop and its date.
   confidence: certain
   captured: '2026-10-17'
+- path: /attributes/2/value
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/8NTWKHer5Zo
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: 'video_id 8NTWKHer5Zo, published 2026-03-30, channel CON: Center for Open Neuroscience'
+  quote: 'Guidelines for Reproducible Research (STAMPED)'
+  note: The video description names the BBQS workshop of March 2026 and the transcript opens with Cody Baker.
+  confidence: certain
+  captured: '2026-11-06'

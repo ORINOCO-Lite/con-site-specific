@@ -14,6 +14,9 @@ attributes:
 - predicate: foaf:homepage
   value: https://datasets.datalad.org/centerforopenneuroscience/talks/2020-repronim-reprocomp-webinar/index.html
   schema_type: dlthings:AttributeSpecification
+- predicate: schema:video
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/dwBtrpI2iS0
+  schema_type: dlthings:AttributeSpecification
 characterized_by:
 - object: bibo:Slideshow
   predicate: dcterms:type

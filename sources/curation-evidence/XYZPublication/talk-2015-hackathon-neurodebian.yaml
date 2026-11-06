@@ -11,3 +11,12 @@ assertions:
   note: The file name gives the kind of event, the PDF its month.
   confidence: approximate
   captured: '2026-11-05'
+- path: /attributes/3/value
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/Qxtco8tupdo
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: video_id Qxtco8tupdo, published 2015-10-24, channel Brainhack-AMX
+  quote: 'NeuroDebian'
+  note: Yaroslav Halchenko presenting NeuroDebian at Brainhack-AMX, on the day the PDF was created (2015-10-24); the title of the video and of the deck differ.
+  confidence: approximate
+  captured: '2026-11-06'

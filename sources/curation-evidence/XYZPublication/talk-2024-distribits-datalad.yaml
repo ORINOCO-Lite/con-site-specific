@@ -11,3 +11,12 @@ assertions:
     Only the month is claimed; the day is not recorded.
   confidence: approximate
   captured: '2026-10-17'
+- path: /attributes/2/value
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/Mkb7qpYaL7o
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: video_id Mkb7qpYaL7o, published 2024-04-09, channel DataLad
+  quote: 'Yaroslav Halchenko: "What''s in the DataLad sandwich?" AKA DataLad "ecosystem"'
+  note: The title, date and channel of the video match this talk.
+  confidence: certain
+  captured: '2026-11-06'

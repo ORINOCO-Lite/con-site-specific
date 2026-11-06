@@ -17,6 +17,9 @@ attributes:
 - predicate: dcat:downloadURL
   schema_type: dlthings:AttributeSpecification
   value: https://datasets.datalad.org/centerforopenneuroscience/talks/2018-mind-con-tools.pdf
+- predicate: schema:video
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/RBaJn2Xtqzg
+  schema_type: dlthings:AttributeSpecification
 characterized_by:
 - object: bibo:Slideshow
   predicate: dcterms:type

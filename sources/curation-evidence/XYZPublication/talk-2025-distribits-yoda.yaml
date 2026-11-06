@@ -12,3 +12,12 @@ assertions:
     the day is not recorded.
   confidence: approximate
   captured: '2026-10-17'
+- path: /attributes/2/value
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/EuKVapscUQ4
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: video_id EuKVapscUQ4, published 2025-11-12, channel DataLad
+  quote: 'Yaroslav Halchenko: "Pragmatic YODA: overview of YODA principles and their wild life encounters"'
+  note: The title, date and channel of the video match this talk.
+  confidence: certain
+  captured: '2026-11-06'

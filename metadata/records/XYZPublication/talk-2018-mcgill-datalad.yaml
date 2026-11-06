@@ -17,6 +17,9 @@ attributes:
 - predicate: dcat:downloadURL
   schema_type: dlthings:AttributeSpecification
   value: https://datasets.datalad.org/centerforopenneuroscience/talks/2018-mcgill-datalad.pdf
+- predicate: schema:video
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/59CE6iOr45k
+  schema_type: dlthings:AttributeSpecification
 characterized_by:
 - object: bibo:Slideshow
   predicate: dcterms:type

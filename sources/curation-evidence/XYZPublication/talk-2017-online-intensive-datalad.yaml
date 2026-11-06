@@ -11,3 +11,12 @@ assertions:
   note: The title slide gives the month.
   confidence: certain
   captured: '2026-11-05'
+- path: /attributes/3/value
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/5R-lFlFBciE
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: video_id 5R-lFlFBciE, published 2017-09-01, channel Brain Intensive
+  quote: 'Decentralized Distribution and Sharing of Scientific Datasets -  Yaroslav Halchenko'
+  note: The title, date and channel of the video match this talk.
+  confidence: certain
+  captured: '2026-11-06'

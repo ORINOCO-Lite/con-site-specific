@@ -17,6 +17,9 @@ attributes:
 - predicate: dcat:downloadURL
   schema_type: dlthings:AttributeSpecification
   value: https://datasets.datalad.org/centerforopenneuroscience/talks/2015-hackathon-neurodebian.pdf
+- predicate: schema:video
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/Qxtco8tupdo
+  schema_type: dlthings:AttributeSpecification
 characterized_by:
 - object: bibo:Slideshow
   predicate: dcterms:type
