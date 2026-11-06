@@ -1,0 +1,42 @@
+# TODO(event): the meeting is only text in bibo:presentedAt.  Model it
+# as an XYZActivity record (with its dates and place) and link it, once
+# the store has a convention for events.
+# J. Swaroop Guntupalli and M. Ida Gobbini have no person record here, so bibo:authorList carries the
+# full author list and only people with records are attributed.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/jason-gors
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/james-haxby
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Society for Neuroscience Annual Meeting (SfN 2012)
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/posters/sfn-2012-familiar-faces.pdf
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav O. Halchenko; Jason Gors; J. Swaroop Guntupalli; James V. Haxby; M. Ida Gobbini
+characterized_by:
+- object: fabio:ConferencePoster
+  predicate: dcterms:type
+description: 'Poster at Society for Neuroscience Annual Meeting (SfN 2012), 2012-10. Authors: Yaroslav
+  O. Halchenko, Jason Gors, J. Swaroop Guntupalli, James V. Haxby, M. Ida Gobbini.'
+generated_by:
+- at_time: 2012-10
+  object: xyzrins:projects/pymvpa
+  schema_type: dlthings:Generation
+kind: fabio:ConferencePoster
+pid: xyzrins:publications/poster-2012-sfn-familiar-faces
+schema_type: xyzri:XYZPublication
+title: Investigation of the familiar face recognition model

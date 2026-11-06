@@ -5,6 +5,7 @@ attributed_to:
 - object: xyzrins:persons/yaroslav-halchenko
   roles:
   - marcrel:aut
+  - marcrel:spk
   schema_type: dlthings:Attribution
 - object: xyzrins:persons/michael-hanke
   roles:
