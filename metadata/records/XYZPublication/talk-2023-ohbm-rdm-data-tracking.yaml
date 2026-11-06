@@ -1,0 +1,28 @@
+# TODO(event): the meeting is only text in bibo:presentedAt.  Model it
+# as an XYZActivity record (with its dates and place) and link it, once
+# the store has a convention for events.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: 'OHBM 2023 Educational Course: Open and Reproducible Neuroimaging, Montreal'
+- predicate: schema:video
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/cYQWk8eQLlI
+characterized_by:
+- object: bibo:Slideshow
+  predicate: dcterms:type
+description: 'Talk at OHBM 2023 Educational Course: Open and Reproducible Neuroimaging, Montreal, 2023-07-22. Recording only, no slides at hand.'
+generated_by:
+- at_time: '2023-07-22'
+  object: xyzrins:projects/repronim
+  schema_type: dlthings:Generation
+kind: bibo:Slideshow
+pid: xyzrins:publications/talk-2023-ohbm-rdm-data-tracking
+schema_type: xyzri:XYZPublication
+title: 'Research Data Management & Data tracking'

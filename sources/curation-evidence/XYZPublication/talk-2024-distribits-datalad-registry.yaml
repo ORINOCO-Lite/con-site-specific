@@ -1,0 +1,21 @@
+record: xyzrins:publications/talk-2024-distribits-datalad-registry
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2024-04-05'
+  bound: exact
+  kind: registry
+  source: https://www.distribits.live/talks/2024/to-registry/
+  locator: 'talk page'
+  quote: '5 April 2024'
+  note: 'The page gives the day and both speakers.'
+  confidence: certain
+  captured: '2026-11-06'
+- path: /attributes/1/value
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/_McJ1BtLsiQ
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: video_id _McJ1BtLsiQ
+  note: The recording in the CON mirror of the talk's video.
+  confidence: certain
+  captured: '2026-11-06'

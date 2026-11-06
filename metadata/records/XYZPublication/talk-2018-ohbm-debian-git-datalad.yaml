@@ -1,0 +1,28 @@
+# TODO(event): the meeting is only text in bibo:presentedAt.  Model it
+# as an XYZActivity record (with its dates and place) and link it, once
+# the store has a convention for events.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: 'OHBM 2018 training course (ReproNim), Singapore'
+- predicate: schema:video
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/2Qm4krjaSfM
+characterized_by:
+- object: bibo:Slideshow
+  predicate: dcterms:type
+description: 'Talk at OHBM 2018 training course (ReproNim), Singapore, 2018-06. Recording only, no slides at hand.'
+generated_by:
+- at_time: 2018-06
+  object: xyzrins:projects/repronim
+  schema_type: dlthings:Generation
+kind: bibo:Slideshow
+pid: xyzrins:publications/talk-2018-ohbm-debian-git-datalad
+schema_type: xyzri:XYZPublication
+title: '(Neuro)Debian/Git/GitAnnex/DataLad: Distributions and Version Control'
