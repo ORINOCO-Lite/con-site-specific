@@ -22,3 +22,19 @@ assertions:
   would_confirm: the meeting program or a photo at the poster
   witness: xyzrins:persons/yaroslav-halchenko
   captured: '2026-11-05'
+- path: /identifiers/0/notation
+  value: 10.5281/zenodo.18333007
+  kind: registry
+  source: https://doi.org/10.5281/zenodo.18333007
+  locator: Zenodo record 18333008, conceptdoi
+  note: The DOI of all versions of the deposit, in the CON community on Zenodo.
+  confidence: certain
+  captured: '2026-11-06'
+- path: /attributes/2/value
+  value: Oliver Rübel; Cody Baker; Jyl Boline; Kristofer Bouchard; Andrew P. Davison; Saskia de Vries; Ben Dichter; Andrey Fedorov; Satrajit Ghosh; Tom Gillespie; Jeffrey S. Grethe; Nicole Guittari; Sean N. Hatton; Erik Johnson; David Keator; David N. Kennedy; Ryan Ly; Chris Markiewicz; Peyman Najafi; Stephen Nichols; Franco Pestilli; Jean-Baptiste Poline; Samuel Prince; Kay A. Robbins; Chris Rorden; Melissa Kline Struhl; Nile E.S. Tregoning; Adam L. Tyson; Thomas Wachtler; Brock Wester; Helen Yi; Lyuba Zehl; Kaiwen Zhuang; Yaroslav O. Halchenko
+  kind: registry
+  source: https://doi.org/10.5281/zenodo.18333007
+  locator: Zenodo record 18333008, creators
+  note: The 34 creators in deposit order; people with a person record go by their label here.
+  confidence: certain
+  captured: '2026-11-06'

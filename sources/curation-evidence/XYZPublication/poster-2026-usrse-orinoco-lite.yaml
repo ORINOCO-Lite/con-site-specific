@@ -22,3 +22,11 @@ assertions:
   would_confirm: the meeting program or a photo at the poster
   witness: xyzrins:persons/yaroslav-halchenko
   captured: '2026-11-05'
+- path: /identifiers/0/notation
+  value: 10.5281/zenodo.22834595
+  kind: registry
+  source: https://doi.org/10.5281/zenodo.22834595
+  locator: Zenodo record 22834596, conceptdoi
+  note: The DOI of all versions of the deposit, in the CON community on Zenodo.
+  confidence: certain
+  captured: '2026-11-06'

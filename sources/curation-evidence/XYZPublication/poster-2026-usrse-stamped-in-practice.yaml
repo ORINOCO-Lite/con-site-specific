@@ -1,0 +1,30 @@
+record: xyzrins:publications/poster-2026-usrse-stamped-in-practice
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2026-10
+  bound: exact
+  kind: registry
+  source: https://doi.org/10.5281/zenodo.22833915
+  locator: Zenodo record 23697003, meeting
+  quote: Oct 19-21, 2026
+  note: Only the month is claimed; the day of the poster session is not recorded.
+  confidence: approximate
+  captured: '2026-11-06'
+- path: /attributed_to/0/roles/1
+  value: marcrel:spk
+  kind: recollection
+  source: Yaroslav Halchenko, 2026-11-05
+  note: Asked who presented the posters, Yaroslav Halchenko answered "likely the first author".
+  confidence: approximate
+  would_confirm: the meeting program or a photo at the poster
+  witness: xyzrins:persons/yaroslav-halchenko
+  captured: '2026-11-06'
+- path: /identifiers/0/notation
+  value: 10.5281/zenodo.22833915
+  kind: registry
+  source: https://doi.org/10.5281/zenodo.22833915
+  locator: Zenodo record 23697003, conceptdoi
+  note: The DOI of all versions of the deposit, in the CON community on Zenodo.
+  confidence: certain
+  captured: '2026-11-06'

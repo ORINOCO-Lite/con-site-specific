@@ -1,6 +1,8 @@
 # TODO(event): the meeting is only text in bibo:presentedAt.  Model it
 # as an XYZActivity record (with its dates and place) and link it, once
 # the store has a convention for events.
+# Not every author has a person record here, so bibo:authorList carries the
+# full author list and only people with records are attributed.
 attributed_to:
 - object: xyzrins:persons/oliver-ruebel
   roles:
@@ -18,6 +20,9 @@ attributes:
 - predicate: foaf:homepage
   value: https://datasets.datalad.org/centerforopenneuroscience/talks/2025-sfn-poster-data-standards.pdf
   schema_type: dlthings:AttributeSpecification
+- predicate: bibo:authorList
+  value: Oliver Rübel; Cody Baker; Jyl Boline; Kristofer Bouchard; Andrew P. Davison; Saskia de Vries; Ben Dichter; Andrey Fedorov; Satrajit Ghosh; Tom Gillespie; Jeffrey S. Grethe; Nicole Guittari; Sean N. Hatton; Erik Johnson; David Keator; David N. Kennedy; Ryan Ly; Chris Markiewicz; Peyman Najafi; Stephen Nichols; Franco Pestilli; Jean-Baptiste Poline; Samuel Prince; Kay A. Robbins; Chris Rorden; Melissa Kline Struhl; Nile E.S. Tregoning; Adam L. Tyson; Thomas Wachtler; Brock Wester; Helen Yi; Lyuba Zehl; Kaiwen Zhuang; Yaroslav O. Halchenko
+  schema_type: dlthings:AttributeSpecification
 characterized_by:
 - object: fabio:ConferencePoster
   predicate: dcterms:type
@@ -27,6 +32,9 @@ generated_by:
 - at_time: 2025-11
   object: xyzrins:.
   schema_type: dlthings:Generation
+identifiers:
+- notation: 10.5281/zenodo.18333007
+  schema_type: dlthings:DOI
 kind: fabio:ConferencePoster
 pid: xyzrins:publications/poster-2025-sfn-data-standards
 schema_type: xyzri:XYZPublication
