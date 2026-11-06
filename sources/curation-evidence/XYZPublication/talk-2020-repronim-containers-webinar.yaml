@@ -1,0 +1,29 @@
+record: xyzrins:publications/talk-2020-repronim-containers-webinar
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2020-06-05'
+  bound: exact
+  kind: registry
+  source: https://www.repronim.org/webinar-series.html
+  locator: 'entry of Friday, June 5, 2020'
+  quote: 'ReproNim Monthly Webinar, June 5, 2020'
+  note: 'The page names the event and its date.'
+  confidence: certain
+  captured: '2026-11-06'
+- path: /attributes/3/value
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/ix3lC6HGo-Q
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: video_id ix3lC6HGo-Q
+  note: Linked from the same page as the slides, or named there.
+  confidence: certain
+  captured: '2026-11-06'
+- path: /attributes/4/value
+  value: https://docs.google.com/presentation/d/1NvjpsrbDHz_9WivvYICTh2U8Xak8TFk5nyWLiCdrHAU
+  kind: registry
+  source: https://www.repronim.org/webinar-series.html
+  locator: 'entry of Friday, June 5, 2020'
+  note: The Google Slides deck the page links; the PDF here is its export of 2026-11-06.
+  confidence: certain
+  captured: '2026-11-06'

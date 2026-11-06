@@ -1,0 +1,29 @@
+record: xyzrins:publications/talk-2019-repronim-reproin-webinar
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2019-12-06'
+  bound: exact
+  kind: registry
+  source: https://www.repronim.org/webinar-series.html
+  locator: 'entry of Friday, December 6'
+  quote: 'ReproNim Monthly Webinar, December 6, 2019'
+  note: 'The page names the event and its date.'
+  confidence: certain
+  captured: '2026-11-06'
+- path: /attributes/3/value
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/j2SKX37-w4c
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: video_id j2SKX37-w4c
+  note: Linked from the same page as the slides, or named there.
+  confidence: certain
+  captured: '2026-11-06'
+- path: /attributes/4/value
+  value: https://docs.google.com/presentation/d/14UNWQVY49c9Xc-7sj1FkoILXnt-wYjW404oqT-FtCW8
+  kind: registry
+  source: https://www.repronim.org/webinar-series.html
+  locator: 'entry of Friday, December 6'
+  note: The Google Slides deck the page links; the PDF here is its export of 2026-11-06.
+  confidence: certain
+  captured: '2026-11-06'

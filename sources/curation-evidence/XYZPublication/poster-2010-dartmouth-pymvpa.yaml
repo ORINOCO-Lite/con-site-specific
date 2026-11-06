@@ -1,0 +1,25 @@
+record: xyzrins:publications/poster-2010-dartmouth-pymvpa
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2010-01
+  bound: exact
+  kind: upstream-git
+  source: pymvpa/papers:pug-poster/poster.svg
+  locator: commit of 2010-01-30; dc-neurosciday2010.doc dated 2010-01-12
+  quote: final change for poster at neurosci day
+  note: The commit names the event and the .doc its year; Dartmouth is read from the "dc-" in that
+    file name and the first author's affiliation. The poster dates from 2008 and was refreshed for
+    this event.
+  confidence: approximate
+  captured: '2026-11-05'
+- path: /attributed_to/0/roles/1
+  value: marcrel:spk
+  kind: recollection
+  source: Yaroslav Halchenko, 2026-11-05
+  note: Asked who presented the poster, Yaroslav Halchenko answered "likely the first author", and
+    for the SfN 2010 NeuroDebian poster, both himself and Michael Hanke.
+  confidence: approximate
+  would_confirm: the meeting program or a photo at the poster
+  witness: xyzrins:persons/yaroslav-halchenko
+  captured: '2026-11-05'

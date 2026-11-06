@@ -19,6 +19,9 @@ attributes:
 - predicate: foaf:homepage
   value: https://datasets.datalad.org/centerforopenneuroscience/talks/2026-bbqs-stamped.pdf
   schema_type: dlthings:AttributeSpecification
+- predicate: schema:video
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/8NTWKHer5Zo
+  schema_type: dlthings:AttributeSpecification
 characterized_by:
 - object: bibo:Slideshow
   predicate: dcterms:type

@@ -1,0 +1,14 @@
+record: xyzrins:publications/talk-2017-dartmouth-datalad
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2017-07
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-dartmouth2017-datalad/s.pdf
+  locator: title slide; commit of 2017-07-27
+  quote: Dartmouth, Hanover, 2017
+  note: The commit reads "RFed crcns talk into a one for local dartmouth gig"; the PDF was built
+    the same day.
+  confidence: approximate
+  captured: '2026-11-05'

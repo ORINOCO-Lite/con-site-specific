@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2014-siemens-pymvpa-neurodebian
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2014-07
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-siemens2014/Halchenko-siemens2014.pdf
+  locator: title slide; PDF CreationDate 2014-07-20
+  quote: Siemens, Princeton 2014
+  note: The title slide names the place; the PDF was built that month.
+  confidence: approximate
+  captured: '2026-11-05'

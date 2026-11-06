@@ -1,0 +1,33 @@
+record: xyzrins:publications/poster-2010-sfn-neurodebian
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2010-11
+  bound: exact
+  kind: upstream-git
+  source: pymvpa/papers:poster-sfn2010_neurodebian/poster.svg
+  locator: commit of 2010-11-05
+  quote: Printed SfN2010 poster.
+  note: The commit names the meeting; only the month is claimed.
+  confidence: approximate
+  captured: '2026-11-05'
+- path: /attributed_to/0/roles/1
+  value: marcrel:spk
+  kind: recollection
+  source: Yaroslav Halchenko, 2026-11-05
+  note: Asked who presented the poster, Yaroslav Halchenko answered "likely the first author", and
+    for the SfN 2010 NeuroDebian poster, both himself and Michael Hanke.
+  confidence: approximate
+  would_confirm: the meeting program or a photo at the poster
+  witness: xyzrins:persons/yaroslav-halchenko
+  captured: '2026-11-05'
+- path: /attributed_to/2/roles/1
+  value: marcrel:spk
+  kind: recollection
+  source: Yaroslav Halchenko, 2026-11-05
+  note: Asked who presented the poster, Yaroslav Halchenko answered "likely the first author", and
+    for the SfN 2010 NeuroDebian poster, both himself and Michael Hanke.
+  confidence: approximate
+  would_confirm: the meeting program or a photo at the poster
+  witness: xyzrins:persons/yaroslav-halchenko
+  captured: '2026-11-05'

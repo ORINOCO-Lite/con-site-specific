@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2009-nipy-pymvpa
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2009-04
+  bound: exact
+  kind: upstream-git
+  source: pymvpa/papers:talk-nipy_sprint2009
+  locator: commits 2009-04-02 .. 2009-04-23
+  quote: Finalize the talk.
+  note: Second part of the same session; the PDF dates from 2009-04-17.
+  confidence: approximate
+  captured: '2026-11-05'

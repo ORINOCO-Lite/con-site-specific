@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2019-brown-open-science
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2019-11
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-brown2019/s.pdf
+  locator: title slide; commits 2019-11-21 .. 2019-11-22
+  quote: Almost Thanksgiving, 2019
+  note: The commit reads "initial version of brown talk based on mind2019".
+  confidence: certain
+  captured: '2026-11-05'

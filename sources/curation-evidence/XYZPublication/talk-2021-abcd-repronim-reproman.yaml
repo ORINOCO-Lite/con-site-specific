@@ -1,0 +1,21 @@
+record: xyzrins:publications/talk-2021-abcd-repronim-reproman
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2021-02
+  bound: exact
+  kind: registry
+  source: https://abcd-repronim.github.io/materials/week-10/
+  locator: 'ReproNim Lecture; slides at https://drive.google.com/file/d/17YdE7wHXEG3P-mDj5qfDQIDTTRQSqzdy/view'
+  quote: 'ReproNim Lecture: ReproMan – Execution and Environment Manager'
+  note: 'The recording was published 2021-02-01; only the month is claimed.'
+  confidence: approximate
+  captured: '2026-11-06'
+- path: /attributes/3/value
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/grIVFbYH7YE
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: video_id grIVFbYH7YE
+  note: Linked from the same page as the slides, or named there.
+  confidence: certain
+  captured: '2026-11-06'

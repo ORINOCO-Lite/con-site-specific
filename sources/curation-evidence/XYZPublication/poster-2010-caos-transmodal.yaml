@@ -1,0 +1,23 @@
+record: xyzrins:publications/poster-2010-caos-transmodal
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2010-05-22'
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:poster-caos2010_fusion/CAOS2010_PosterSessions_Final.pdf
+  locator: session of May 22, poster 34
+  quote: Transmodal Analysis of Neural Signals
+  note: The poster list gives the board and the day; the schedule's heading reads "May 22st".
+  confidence: certain
+  captured: '2026-11-05'
+- path: /attributed_to/0/roles/1
+  value: marcrel:spk
+  kind: recollection
+  source: Yaroslav Halchenko, 2026-11-05
+  note: Asked who presented the poster, Yaroslav Halchenko answered "likely the first author", and
+    for the SfN 2010 NeuroDebian poster, both himself and Michael Hanke.
+  confidence: approximate
+  would_confirm: the meeting program or a photo at the poster
+  witness: xyzrins:persons/yaroslav-halchenko
+  captured: '2026-11-05'

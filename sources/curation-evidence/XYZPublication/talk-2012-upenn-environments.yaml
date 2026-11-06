@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2012-upenn-environments
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2012-02
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-upenn2011_pymvpa/HalchenkoHanke_ContemporaryNeuroimaging_PENN2012.pdf
+  locator: title slide; PDF CreationDate 2012-02-02
+  quote: UPENN 2012, Philadelphia PA, USA
+  note: The title slide names the place; the PDF was built that month.
+  confidence: approximate
+  captured: '2026-11-05'

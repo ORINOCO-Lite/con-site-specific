@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2009-tu-berlin-pymvpa
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2009-01
+  bound: exact
+  kind: upstream-git
+  source: pymvpa/papers:talk-modalities
+  locator: commit of 2009-01-03
+  quote: Add announcment for MKP talk at TU Berlin.
+  note: The announcement gives no date; only the month is claimed.
+  confidence: approximate
+  captured: '2026-11-05'

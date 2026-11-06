@@ -5,6 +5,7 @@ attributed_to:
 - object: xyzrins:persons/john-lee
   roles:
   - marcrel:aut
+  - marcrel:spk
   schema_type: dlthings:Attribution
 - object: xyzrins:persons/isaac-to
   roles:
@@ -30,6 +31,9 @@ generated_by:
 - at_time: '2026-10-19'
   object: xyzrins:projects/orinoco-lite
   schema_type: dlthings:Generation
+identifiers:
+- notation: 10.5281/zenodo.22834595
+  schema_type: dlthings:DOI
 kind: fabio:ConferencePoster
 pid: xyzrins:publications/poster-2026-usrse-orinoco-lite
 schema_type: xyzri:XYZPublication

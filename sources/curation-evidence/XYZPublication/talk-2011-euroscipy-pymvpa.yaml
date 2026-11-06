@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2011-euroscipy-pymvpa
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2011-08
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-euroscipy2011_pymvpa/halchenko-euroscipy2011-pymvpa.pdf
+  locator: title slide; PDF CreationDate 2011-08-29
+  quote: EuroScipy 2011, Paris, France
+  note: The title slide names the conference; the PDF was built that month.
+  confidence: approximate
+  captured: '2026-11-05'

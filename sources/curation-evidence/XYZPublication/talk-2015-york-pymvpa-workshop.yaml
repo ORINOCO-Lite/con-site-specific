@@ -1,0 +1,15 @@
+record: xyzrins:publications/talk-2015-york-pymvpa-workshop
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2015-05
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talks-pymvpa_course2014/s-mvpaintro.pdf
+  locator: title slide; commits 2015-05-10 .. 2015-05-13
+  quote: York 2015
+  note: The slide names the place; the month is that of the commits fixing place and time, and
+    the PDF is of 2015-05-29. The department's announcement of 2015-02-23 says it is taught
+    by Michael Hanke and Yaroslav Halchenko.
+  confidence: approximate
+  captured: '2026-11-05'

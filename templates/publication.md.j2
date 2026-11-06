@@ -1,0 +1,81 @@
+{#- www-from-model's publication.md.j2, plus the date and slides of a talk.
+    Standalone like project.md.j2: page.md.j2 is not on this template's path. -#}
+{% macro taxonomy_terms(taxonomy, type, objects, typeattr='object.schema_type', pidattr='object.pid') -%}
+{%- set matching = objects|selectattr(typeattr, 'eq', type)|map(attribute=pidattr)|map('replace', 'xyzrins:' ~ taxonomy ~ '/', '')|sort -%}
+{% if matching|length -%}
+{{ taxonomy }}:
+{% for pid in matching -%}
+- {{ pid }}
+{% endfor -%}
+{%- endif -%}
+{%- endmacro -%}
+
+{%- set doi = (
+    __rec.identifiers
+    | selectattr('schema_type', 'equalto', 'dlthings:DOI')
+    | list
+    | first
+) if __rec.identifiers is defined and __rec.identifiers is sequence else none -%}
+
+{%- set generation = (
+    __rec.generated_by
+    | selectattr('object', 'equalto', 'obo:IAO_0000444')
+    | list
+    | first
+) if __rec.generated_by is defined and __rec.generated_by is sequence else none -%}
+
+{%- set issued = (__rec.attributes | default([])
+    | selectattr('predicate', 'equalto', 'dcterms:issued')
+    | map(attribute='value') | first) | default(none) -%}
+
+{#- A talk is dated by when it was given and links to its slides. -#}
+{%- set is_talk = __rec.kind == 'bibo:Slideshow' -%}
+{%- set given = (__rec.generated_by | first).at_time
+    if is_talk and __rec.generated_by is defined and __rec.generated_by else none -%}
+{%- set slides = (__rec.attributes | default([])
+    | selectattr('predicate', 'equalto', 'foaf:homepage')
+    | map(attribute='value') | first) | default(none) if is_talk else none -%}
+{%- set pdf = (__rec.attributes | default([])
+    | selectattr('predicate', 'equalto', 'dcat:downloadURL')
+    | map(attribute='value') | first) | default(none) if is_talk else none -%}
+
+{%- set authors = [] -%}
+{%- for auth in __rec.attributed_to -%}
+  {%- set _ = authors.append({
+    "pid": auth.object.pid | default(none),
+    "given_name": auth.object.given_name | default(none),
+    "family_name": auth.object.family_name | default(none)
+  }) -%}
+{%- endfor -%}
+
+{%- set topics = [] -%}
+{%- for top in __rec.about -%}
+  {%- set _ = topics.append({
+    "pid": top.pid | default(none),
+    "display_label": top.display_label | default(none)
+  }) -%}
+{%- endfor -%}
+
+{%- set publication = {
+  "pid": __rec.pid | default(none),
+  "doi": doi.notation | default(none) if doi else none,
+  "date": given or (generation.at_time | default(issued) if generation else issued),
+  "slides_url": slides,
+  "pdf_url": pdf,
+  "title": __rec.title | default(none),
+  "description": __rec.description | default(none),
+  "kind": __rec.kind | default(none),
+  "author": authors | default(none),
+  "topic": topics | default(none)
+} -%}
+
+
+---
+title: {{ publication.title | toyaml | replace('...\n','') | trim }}
+{{ taxonomy_terms('persons', 'xyzri:XYZPerson', attributed_to) -}}
+{{ taxonomy_terms('topics', 'xyzri:XYZTopic', about, typeattr='schema_type', pidattr='pid') -}}
+params:
+  graphRootNodePID: {{ pid }}
+  sortkey: "{{ publication.date | default('')}}{{ publication.title | default('') | escape }}"
+  {{ publication | toyaml | indent(2) | trim }}
+---

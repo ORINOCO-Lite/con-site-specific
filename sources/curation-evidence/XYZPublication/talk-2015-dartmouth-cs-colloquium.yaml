@@ -1,0 +1,14 @@
+record: xyzrins:publications/talk-2015-dartmouth-cs-colloquium
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2015'
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-dartcs2015/2015-Halchenko-DartmouthCSColloq.pdf
+  locator: second slide; file name
+  quote: CS Colloquium, Dartmouth 2015
+  note: The slide gives the year; the PDF dates from 2015-07-09 and the folder's commits begin
+    2015-05-04, so the month stays open.
+  confidence: approximate
+  captured: '2026-11-05'

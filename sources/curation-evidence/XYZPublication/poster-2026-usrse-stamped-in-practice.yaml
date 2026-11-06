@@ -1,0 +1,31 @@
+record: xyzrins:publications/poster-2026-usrse-stamped-in-practice
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2026-10
+  bound: exact
+  kind: registry
+  source: https://doi.org/10.5281/zenodo.22833915
+  locator: Zenodo record 23697003, meeting
+  quote: Oct 19-21, 2026
+  note: Only the month is claimed; the poster was prepared for this meeting but not shown.
+  confidence: approximate
+  captured: '2026-11-06'
+- path: /attributes/0/value
+  value: US-RSE'26, the Research Software Engineers Conference (poster session) -- not presented
+  kind: recollection
+  source: Yaroslav Halchenko, 2026-11-06
+  note: Yaroslav Halchenko recalled it "was not really shown due to printing" trouble, so nobody
+    is recorded as presenter.
+  confidence: approximate
+  would_confirm: the authors of the poster
+  witness: xyzrins:persons/yaroslav-halchenko
+  captured: '2026-11-06'
+- path: /identifiers/0/notation
+  value: 10.5281/zenodo.22833915
+  kind: registry
+  source: https://doi.org/10.5281/zenodo.22833915
+  locator: Zenodo record 23697003, conceptdoi
+  note: The DOI of all versions of the deposit, in the CON community on Zenodo.
+  confidence: certain
+  captured: '2026-11-06'

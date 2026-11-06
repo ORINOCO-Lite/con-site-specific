@@ -1,0 +1,14 @@
+record: xyzrins:publications/talk-2011-dartmouth-searchlight
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2011-04
+  bound: exact
+  kind: upstream-git
+  source: pymvpa/papers:talk-bb2011_sslight
+  locator: commits 2011-04-07 .. 2011-04-20
+  quote: draft for brown bag talk on searchlights
+  note: One commit says "final (not) presented version", so whether it was given as is stays
+    open; only the month is claimed.
+  confidence: approximate
+  captured: '2026-11-05'

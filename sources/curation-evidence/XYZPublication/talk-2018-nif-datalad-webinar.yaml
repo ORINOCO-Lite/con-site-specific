@@ -1,0 +1,21 @@
+record: xyzrins:publications/talk-2018-nif-datalad-webinar
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2018-03-02'
+  bound: exact
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: 'description of video 59CE6iOr45k'
+  quote: 'this week''s NeuroTools Webinar on March 2nd, 2018'
+  note: 'The description names the webinar series and its date.'
+  confidence: certain
+  captured: '2026-11-06'
+- path: /attributes/1/value
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/59CE6iOr45k
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: video_id 59CE6iOr45k
+  note: The recording in the CON mirror of the talk's video.
+  confidence: certain
+  captured: '2026-11-06'

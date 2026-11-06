@@ -1,0 +1,23 @@
+record: xyzrins:publications/poster-2011-hbm-neurodebian
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2011-06
+  bound: exact
+  kind: upstream-git
+  source: pymvpa/papers:poster-hbm2011_neurodebian/poster.svg
+  locator: 'commit of 2011-06-22; the poster reads HBM2011, booth #108'
+  quote: Poster for print.
+  note: The poster names the meeting; its statistics run to June 2011. Only the month is claimed.
+  confidence: approximate
+  captured: '2026-11-05'
+- path: /attributed_to/0/roles/1
+  value: marcrel:spk
+  kind: recollection
+  source: Yaroslav Halchenko, 2026-11-05
+  note: Asked who presented the poster, Yaroslav Halchenko answered "likely the first author", and
+    for the SfN 2010 NeuroDebian poster, both himself and Michael Hanke.
+  confidence: approximate
+  would_confirm: the meeting program or a photo at the poster
+  witness: xyzrins:persons/yaroslav-halchenko
+  captured: '2026-11-05'

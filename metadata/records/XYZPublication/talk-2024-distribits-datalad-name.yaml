@@ -9,7 +9,7 @@ attributed_to:
   schema_type: dlthings:Attribution
 attributes:
 - predicate: bibo:presentedAt
-  value: distribits 2024 (lightning talk) -- unverified, see the evidence
+  value: distribits 2024 (lightning talk)
   schema_type: dlthings:AttributeSpecification
 - predicate: foaf:homepage
   value: https://datasets.datalad.org/centerforopenneuroscience/talks/2024-distribits-datalad-name.html
@@ -17,9 +17,9 @@ attributes:
 characterized_by:
 - object: bibo:Slideshow
   predicate: dcterms:type
-description: Talk at distribits 2024 (lightning talk) -- unverified, see the evidence, 2024-08.
+description: Talk at distribits 2024 (lightning talk), 2024-04.
 generated_by:
-- at_time: 2024-08
+- at_time: 2024-04
   object: xyzrins:projects/datalad
   schema_type: dlthings:Generation
 kind: bibo:Slideshow

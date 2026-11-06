@@ -1,0 +1,21 @@
+record: xyzrins:publications/talk-2024-neuro-prize-bids
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2024-04
+  bound: exact
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: 'published_at of video 6QoFWqfIZDU'
+  quote: '2024-04-29'
+  note: 'The month the recording was published; the talk itself is not dated anywhere found.  The speaker says the slides were prepared by Ariel, of the University of Washington, who is listed as an author for that.'
+  confidence: approximate
+  captured: '2026-11-06'
+- path: /attributes/1/value
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/6QoFWqfIZDU
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: video_id 6QoFWqfIZDU
+  note: The recording in the CON mirror of the talk's video.
+  confidence: certain
+  captured: '2026-11-06'

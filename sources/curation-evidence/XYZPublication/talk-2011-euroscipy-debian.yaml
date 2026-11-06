@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2011-euroscipy-debian
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2011-08
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-euroscipy2011_debian/Halchenko_3_14s_in_Debian.pdf
+  locator: title slide
+  quote: EuroScipy 2011, Paris, France
+  note: The month is that of the conference; the commits run to 2011-09.
+  confidence: approximate
+  captured: '2026-11-05'

@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2010-debconf-neurodebian
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2010-08
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-debconf10/HankeHalchenko_NeuroDebianDebConf10.pdf
+  locator: title slide; PDF CreationDate 2010-08-05
+  quote: DebConf10, New York City
+  note: The title slide names the conference; the PDF was built that month.
+  confidence: approximate
+  captured: '2026-11-05'

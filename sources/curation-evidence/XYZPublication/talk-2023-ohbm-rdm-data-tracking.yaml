@@ -1,0 +1,21 @@
+record: xyzrins:publications/talk-2023-ohbm-rdm-data-tracking
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2023-07-22'
+  bound: exact
+  kind: registry
+  source: https://repronim.github.io/news_archive.html
+  locator: 'OHBM 2023'
+  quote: 'OHBM Educational Courses, Saturday, July 22, 2023'
+  note: 'The page names the course, this date and Yaroslav Halchenko as a presenter.'
+  confidence: certain
+  captured: '2026-11-06'
+- path: /attributes/1/value
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/cYQWk8eQLlI
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: video_id cYQWk8eQLlI
+  note: The recording in the CON mirror of the talk's video.
+  confidence: certain
+  captured: '2026-11-06'

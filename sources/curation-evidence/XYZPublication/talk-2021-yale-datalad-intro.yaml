@@ -1,0 +1,21 @@
+record: xyzrins:publications/talk-2021-yale-datalad-intro
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2021-03-25'
+  bound: exact
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: 'description of video pVrjRRrmKbY; slides at https://drive.google.com/file/d/1T4IGAphMwgxOmhqwXwpqMNuivnXxmS1G/view'
+  quote: 'as presented at the Yale-ReproNim Training Activities (YRTA) event on March 25, 2021'
+  note: 'The page names the event and its date.'
+  confidence: certain
+  captured: '2026-11-06'
+- path: /attributes/3/value
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/pVrjRRrmKbY
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: video_id pVrjRRrmKbY
+  note: Linked from the same page as the slides, or named there.
+  confidence: certain
+  captured: '2026-11-06'

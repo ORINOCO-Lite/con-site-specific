@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2017-nih-datalad
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2017-08
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-nih2017-datalad/s.pdf
+  locator: title slide
+  quote: NIH, Bethesda, Aug 2017
+  note: The title slide gives the place and month.
+  confidence: certain
+  captured: '2026-11-05'

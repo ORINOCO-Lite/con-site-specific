@@ -1,0 +1,36 @@
+# TODO(event): the meeting is only text in bibo:presentedAt.  Model it
+# as an XYZActivity record (with its dates and place) and link it, once
+# the store has a convention for events.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:aut
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: PyMVPA Workshop 2015, University of York
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/pdfdeck.html?talk=2015-york-pymvpa-workshop
+characterized_by:
+- object: bibo:Slideshow
+  predicate: dcterms:type
+description: 'PyMVPA Workshop 2015, University of York, 2015-05. Lectures: Workshop schedule;
+  Quick Python quiz; A very short introduction to multivariate pattern analysis (MVPA) for neuroscience;
+  Basic MVPA strategies; Recent and upcoming developments; PyMVPA and the larger scientific
+  software ecosystem.'
+generated_by:
+- at_time: 2015-05
+  object: xyzrins:projects/pymvpa
+  schema_type: dlthings:Generation
+kind: bibo:Slideshow
+pid: xyzrins:publications/talk-2015-york-pymvpa-workshop
+schema_type: xyzri:XYZPublication
+title: PyMVPA Workshop 2015

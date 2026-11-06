@@ -1,0 +1,22 @@
+record: xyzrins:publications/talk-2019-mind-con-tools
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2019-08
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-mind2019-con/s-copy.pdf
+  locator: title slide; PDF CreationDate 2019-08-08
+  quote: August 2019
+  note: s-copy.pdf is the build from the time of the talk; s.pdf was rebuilt in 2022.
+  confidence: certain
+  captured: '2026-11-05'
+- path: /attributes/3/value
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/Ao9ZIce7yn4
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: video_id Ao9ZIce7yn4, published 2020-03-03, channel MIND Summer School
+  quote: '[MIND 2019] Yaroslav Halchenko: Open Science Tools from the Center for Open Neuroscience'
+  note: The title, date and channel of the video match this talk.
+  confidence: certain
+  captured: '2026-11-06'

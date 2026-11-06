@@ -11,3 +11,12 @@ assertions:
   note: The README gives the month; the last commits are 2020-12-03 .. 2020-12-04.
   confidence: approximate
   captured: '2026-10-17'
+- path: /attributes/2/value
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/dwBtrpI2iS0
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: video_id dwBtrpI2iS0, published 2020-12-04, channel ReproNim
+  quote: 'ReproNim Webinar: Reproducible Execution of Data Collection/Processing'
+  note: The title, date and channel of the video match this talk.
+  confidence: certain
+  captured: '2026-11-06'

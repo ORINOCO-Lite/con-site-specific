@@ -1,0 +1,28 @@
+# TODO(event): the meeting is only text in bibo:presentedAt.  Model it
+# as an XYZActivity record (with its dates and place) and link it, once
+# the store has a convention for events.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: 'NWB User Days 2021 (HCK11)'
+- predicate: schema:video
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/8OMLmUnc6Cs
+characterized_by:
+- object: bibo:Slideshow
+  predicate: dcterms:type
+description: 'Talk at NWB User Days 2021 (HCK11), 2021-08-26. Recording only, no slides at hand.'
+generated_by:
+- at_time: '2021-08-26'
+  object: xyzrins:projects/dandi
+  schema_type: dlthings:Generation
+kind: bibo:Slideshow
+pid: xyzrins:publications/talk-2021-nwb-dandi-guide
+schema_type: xyzri:XYZPublication
+title: 'A guide to DANDI, the BRAIN Initiative archive for publishing and sharing neurophysiology data'

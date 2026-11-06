@@ -1,0 +1,14 @@
+record: xyzrins:publications/talk-2008-nipy-sprint-pymvpa
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2008-03
+  bound: exact
+  kind: upstream-git
+  source: pymvpa/papers:nipy-pres
+  locator: commit e869256b, 2008-03-16
+  quote: the first and the last version of presentation for NiPy
+  note: The title slide reads May 22, 2008, but that is \today at the build of that day. The
+    folder became talk-nipy_sprint on 2008-11-23.
+  confidence: approximate
+  captured: '2026-11-05'

@@ -1,0 +1,13 @@
+record: xyzrins:publications/talk-2012-incf-neurodebian
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2012-09
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-incf2012/Halchenko_AppliedNeuroDebian_INCF2012.pdf
+  locator: title slide; file name; PDF CreationDate 2012-09-15
+  quote: Munich, Germany 2012
+  note: The slide and file name give place and event; the PDF was built that month.
+  confidence: approximate
+  captured: '2026-11-05'

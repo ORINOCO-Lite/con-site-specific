@@ -1,0 +1,38 @@
+# TODO(event): the meeting is only text in bibo:presentedAt.  Model it
+# as an XYZActivity record (with its dates and place) and link it, once
+# the store has a convention for events.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Online intensive, from Dartmouth
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/pdfdeck.html?talk=2017-online-intensive-datalad
+- predicate: dcat:downloadURL
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/2017-online-intensive-datalad.pdf
+- predicate: schema:video
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/5R-lFlFBciE
+  schema_type: dlthings:AttributeSpecification
+characterized_by:
+- object: bibo:Slideshow
+  predicate: dcterms:type
+description: Talk at Online intensive, from Dartmouth, 2017-08.
+generated_by:
+- at_time: 2017-08
+  object: xyzrins:projects/datalad
+  schema_type: dlthings:Generation
+kind: bibo:Slideshow
+pid: xyzrins:publications/talk-2017-online-intensive-datalad
+schema_type: xyzri:XYZPublication
+title: DataLad -- Decentralized Distribution and Sharing of Scientific Datasets
