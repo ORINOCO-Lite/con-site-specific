@@ -5,7 +5,6 @@ attributed_to:
 - object: xyzrins:persons/john-lee
   roles:
   - marcrel:aut
-  - marcrel:spk
   schema_type: dlthings:Attribution
 - object: xyzrins:persons/austin-macdonald
   roles:
@@ -21,7 +20,7 @@ attributed_to:
   schema_type: dlthings:Attribution
 attributes:
 - predicate: bibo:presentedAt
-  value: US-RSE'26, the Research Software Engineers Conference (poster session)
+  value: US-RSE'26, the Research Software Engineers Conference (poster session) -- not presented
   schema_type: dlthings:AttributeSpecification
 - predicate: foaf:homepage
   value: https://datasets.datalad.org/centerforopenneuroscience/talks/2026-usrse/stamped-ai-study/index.html
@@ -32,7 +31,7 @@ attributes:
 characterized_by:
 - object: fabio:ConferencePoster
   predicate: dcterms:type
-description: Poster at US-RSE'26, the Research Software Engineers Conference (poster session), 2026-10.
+description: Poster for US-RSE'26, the Research Software Engineers Conference (poster session) -- not presented, 2026-10.
 generated_by:
 - at_time: 2026-10
   object: xyzrins:.
