@@ -1,0 +1,13 @@
+record: xyzrins:publications/poster-2010-caos-transmodal
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2010-05-22'
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:poster-caos2010_fusion/CAOS2010_PosterSessions_Final.pdf
+  locator: session of May 22, poster 34
+  quote: Transmodal Analysis of Neural Signals
+  note: The poster list gives the board and the day; the schedule's heading reads "May 22st".
+  confidence: certain
+  captured: '2026-11-05'

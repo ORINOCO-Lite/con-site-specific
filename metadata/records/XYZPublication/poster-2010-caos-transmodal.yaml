@@ -1,0 +1,46 @@
+# TODO(event): the meeting is only text in bibo:presentedAt.  Model it
+# as an XYZActivity record (with its dates and place) and link it, once
+# the store has a convention for events.
+# Stephen José Hanson and Christoph S. Herrmann have no person record here, so bibo:authorList carries the
+# full author list and only people with records are attributed.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/james-haxby
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Fourth Annual Rovereto Workshop on Concepts, Actions and Objects (CAOS 2010)
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/posters/caos-2010-transmodal.pdf
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav O. Halchenko; Michael Hanke; James V. Haxby; Stephen José Hanson; Christoph S.
+    Herrmann
+- predicate: bibo:locator
+  schema_type: dlthings:AttributeSpecification
+  value: Poster 34
+characterized_by:
+- object: fabio:ConferencePoster
+  predicate: dcterms:type
+description: 'Poster at Fourth Annual Rovereto Workshop on Concepts, Actions and Objects (CAOS 2010),
+  2010-05. Authors: Yaroslav O. Halchenko, Michael Hanke, James V. Haxby, Stephen José Hanson, Christoph
+  S. Herrmann.'
+generated_by:
+- at_time: '2010-05-22'
+  object: xyzrins:projects/pymvpa
+  schema_type: dlthings:Generation
+kind: fabio:ConferencePoster
+pid: xyzrins:publications/poster-2010-caos-transmodal
+schema_type: xyzri:XYZPublication
+title: Transmodal Analysis of Neural Signals

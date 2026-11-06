@@ -1,0 +1,13 @@
+record: xyzrins:publications/poster-2010-cns-predictive-mapping
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2010-04
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:poster-cns2010_fusion/docs/CNS2010_Program.pdf
+  locator: p. 132, Poster Session D, D60
+  quote: NEURAL ACTIVITY LOCALIZATION BY PREDICTIVE MAPPING BETWEEN IMAGING MODALITIES
+  note: The meeting opened on 2010-04-17; only the month is claimed.
+  confidence: certain
+  captured: '2026-11-05'

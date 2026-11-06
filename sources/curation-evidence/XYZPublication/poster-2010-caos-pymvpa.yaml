@@ -1,0 +1,13 @@
+record: xyzrins:publications/poster-2010-caos-pymvpa
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2010-05-21'
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:poster-caos2010_fusion/CAOS2010_PosterSessions_Final.pdf
+  locator: session of May 21, poster 24
+  quote: 'PyMVPA 0.5: A Major Update Of The Comprehensive Framework'
+  note: The poster list gives the board and the day.
+  confidence: certain
+  captured: '2026-11-05'

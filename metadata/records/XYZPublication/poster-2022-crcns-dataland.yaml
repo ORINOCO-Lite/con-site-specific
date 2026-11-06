@@ -29,6 +29,9 @@ attributes:
 - predicate: foaf:homepage
   value: https://datasets.datalad.org/centerforopenneuroscience/talks/posters/crcns-2022-dataland.pdf
   schema_type: dlthings:AttributeSpecification
+- predicate: bibo:authorList
+  value: Yaroslav O. Halchenko; Michael Hanke; Adina Wagner; Benjamin Poldrack; Stephan Heunis; Michał Szczepanik; John Wodder; Christian Moench
+  schema_type: dlthings:AttributeSpecification
 characterized_by:
 - object: fabio:ConferencePoster
   predicate: dcterms:type

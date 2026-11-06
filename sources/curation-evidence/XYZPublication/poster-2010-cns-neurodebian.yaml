@@ -1,0 +1,14 @@
+record: xyzrins:publications/poster-2010-cns-neurodebian
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: 2010-04
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:poster-cns2010_fusion/docs/CNS2010_Program.pdf
+  locator: p. 204, Poster Session F, F128
+  quote: IMPROVING EFFICIENCY IN COGNITIVE NEUROSCIENCE RESEARCH WITH NEURODEBIAN
+  note: The meeting opened on 2010-04-17; only the month is claimed. The program lists Hanke and
+    Halchenko; the poster itself also names Haxby and Pollmann.
+  confidence: certain
+  captured: '2026-11-05'
