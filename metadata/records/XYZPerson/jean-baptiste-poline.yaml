@@ -33,9 +33,6 @@ attributes:
 - predicate: foaf:account
   schema_type: dlthings:AttributeSpecification
   value: https://www.linkedin.com/in/jean-baptiste-poline-5923a04b
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0000-0002-9794-749X
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Collaborators
@@ -49,6 +46,9 @@ family_name: Poline
 formatted_name: Jean-Baptiste Poline
 given_name: Jean-Baptiste
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0002-9794-749X
+  schema_type: xyzri:ORCID
 - notation: jbpoline
   schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630

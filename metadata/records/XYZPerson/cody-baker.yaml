@@ -31,9 +31,6 @@ attributes:
 - predicate: foaf:account
   schema_type: dlthings:AttributeSpecification
   value: https://www.linkedin.com/in/cody-c-baker
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0000-0002-0829-4790
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Centroids
@@ -63,6 +60,9 @@ family_name: Baker
 formatted_name: Cody Baker
 given_name: Cody
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0002-0829-4790
+  schema_type: xyzri:ORCID
 - notation: CodyCBakerPhD
   schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630

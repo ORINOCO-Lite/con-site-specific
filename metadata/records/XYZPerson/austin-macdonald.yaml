@@ -27,9 +27,6 @@ attributes:
 - predicate: dlthings:github
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/asmacdo
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0000-0002-8124-807X
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Centroids
@@ -52,6 +49,9 @@ family_name: Macdonald
 formatted_name: Austin Macdonald
 given_name: Austin
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0002-8124-807X
+  schema_type: xyzri:ORCID
 - notation: asmacdo
   schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630

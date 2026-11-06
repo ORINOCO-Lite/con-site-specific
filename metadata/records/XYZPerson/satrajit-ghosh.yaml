@@ -30,9 +30,6 @@ attributes:
 - predicate: foaf:account
   schema_type: dlthings:AttributeSpecification
   value: https://www.linkedin.com/in/satra/
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0000-0002-5312-6729
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Collaborators
@@ -47,6 +44,9 @@ family_name: Ghosh
 formatted_name: Satrajit Ghosh
 given_name: Satrajit
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0002-5312-6729
+  schema_type: xyzri:ORCID
 - notation: satra
   schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630

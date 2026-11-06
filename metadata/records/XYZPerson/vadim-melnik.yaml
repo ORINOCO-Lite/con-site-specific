@@ -33,9 +33,6 @@ attributes:
 - predicate: foaf:account
   schema_type: dlthings:AttributeSpecification
   value: https://www.linkedin.com/in/vadim-melnik
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0009-0007-3981-0798
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Centroids
@@ -59,6 +56,9 @@ family_name: Melnik
 formatted_name: Vadim Melnik
 given_name: Vadim
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0009-0007-3981-0798
+  schema_type: xyzri:ORCID
 - notation: vmdocua
   schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630

@@ -30,9 +30,6 @@ attributes:
 - predicate: dlthings:github
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/nno
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0000-0003-0880-0734
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Emeritus
@@ -55,6 +52,9 @@ family_name: Oosterhof
 formatted_name: Nikolaas N. Oosterhof
 given_name: Nikolaas
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0003-0880-0734
+  schema_type: xyzri:ORCID
 - notation: nno
   schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630

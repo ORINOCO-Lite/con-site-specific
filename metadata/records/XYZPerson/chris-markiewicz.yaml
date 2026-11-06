@@ -5,9 +5,6 @@ attributes:
 - predicate: dlthings:github
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/effigies
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0000-0002-6533-164X
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Collaborators
@@ -28,6 +25,9 @@ family_name: Markiewicz
 formatted_name: Chris Markiewicz
 given_name: Chris
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0002-6533-164X
+  schema_type: xyzri:ORCID
 - notation: effigies
   schema_type: dlthings:Identifier
 pid: xyzrins:persons/chris-markiewicz

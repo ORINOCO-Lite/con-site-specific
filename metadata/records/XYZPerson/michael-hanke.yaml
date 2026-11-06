@@ -34,9 +34,6 @@ attributes:
 - predicate: foaf:account
   schema_type: dlthings:AttributeSpecification
   value: https://de.linkedin.com/in/mhanke
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0000-0001-6398-6370
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Collaborators
@@ -58,6 +55,9 @@ family_name: Hanke
 formatted_name: Michael Hanke
 given_name: Michael
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0001-6398-6370
+  schema_type: xyzri:ORCID
 - notation: mih
   schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630

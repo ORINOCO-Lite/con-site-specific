@@ -36,9 +36,6 @@ attributes:
 - predicate: foaf:account
   schema_type: dlthings:AttributeSpecification
   value: https://www.linkedin.com/in/matteovisconti
-- predicate: dlthings:orcid
-  schema_type: dlthings:AttributeSpecification
-  value: https://orcid.org/0000-0001-7931-5272
 - predicate: dlthings:tier
   schema_type: dlthings:AttributeSpecification
   value: Emeritus
@@ -60,6 +57,9 @@ family_name: Visconti di Oleggio Castello
 formatted_name: Matteo Visconti di Oleggio Castello
 given_name: Matteo
 identifiers:
+- creator: ror:04fa4r544
+  notation: 0000-0001-7931-5272
+  schema_type: xyzri:ORCID
 - notation: mvdoc
   schema_type: dlthings:Identifier
 - creator: rrid:SCR_002630

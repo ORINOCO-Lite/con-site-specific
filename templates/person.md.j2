@@ -9,6 +9,46 @@
     {%- set _ = p.update({'tier': attribute.value}) -%}
   {%- endif -%}
 {%- endfor -%}
+{%- set contacts = [] -%}
+{%- set seen = [] -%}
+{%- set labels = {
+  'vcard:hasEmail': 'Email', 'vcard:Email': 'Email',
+  'vcard:hasTelephone': 'Phone', 'foaf:homepage': 'Research page',
+  'dlthings:home_page': 'Home page', 'vcard:hasURL': 'CV',
+  'foaf:weblog': 'Blog', 'dlthings:scholar': 'Google Scholar',
+  'dlthings:github': 'GitHub'
+} -%}
+{%- set named_identifiers = identifiers|default([])|selectattr('creator', 'defined')|list -%}
+{%- set github_identifiers = named_identifiers|selectattr('creator.name', 'defined')|selectattr('creator.name', 'equalto', 'GitHub')|list -%}
+{%- set github_urls = [] -%}
+{%- for identifier in github_identifiers -%}
+  {%- set _ = github_urls.append(('https://github.com/' ~ identifier.notation).lower()) -%}
+{%- endfor -%}
+{%- set explicit_email = attributes|default([])|selectattr('predicate', 'equalto', 'vcard:hasEmail')|list -%}
+{%- for attribute in attributes|default([]) -%}
+  {%- set pred = attribute.predicate -%}
+  {%- set value = attribute.value -%}
+  {%- set label = labels.get(pred) -%}
+  {%- if pred == 'foaf:account' -%}
+    {%- set host = value.split('/')[2] if '://' in value else '' -%}
+    {%- set label = {'www.linkedin.com': 'LinkedIn', 'linkedin.com': 'LinkedIn',
+      'twitter.com': 'Twitter', 'x.com': 'Twitter', 'fosstodon.org': 'Mastodon',
+      'www.facebook.com': 'Facebook'}.get(host, 'Profile') -%}
+  {%- endif -%}
+  {%- if pred == 'vcard:Email' -%}
+    {%- set value = 'mailto:' ~ value -%}
+  {%- endif -%}
+  {%- if label and value not in seen
+      and not (pred == 'vcard:Email' and explicit_email)
+      and not (pred == 'dlthings:github' and value.lower() in github_urls)
+      and not value.rstrip('/').endswith('centerforopenneuroscience.org/whoweare')
+      and 'plus.google.com/' not in value -%}
+    {%- set _ = contacts.append('[' ~ label ~ '](<' ~ value.replace(' ', '%20').replace('<', '%3C').replace('>', '%3E') ~ '>)') -%}
+    {%- set _ = seen.append(value) -%}
+  {%- endif -%}
+{%- endfor -%}
 ---
 {{ {'title': given_name ~ ' ' ~ family_name, 'params': p} | toyaml }}
 ---
+
+{{ contacts|join(' · ') }}
