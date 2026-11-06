@@ -42,6 +42,9 @@ generated_by:
 - at_time: '2026-10-19'
   object: xyzrins:.
   schema_type: dlthings:Generation
+identifiers:
+- notation: 10.5281/zenodo.22783261
+  schema_type: dlthings:DOI
 kind: bibo:Slideshow
 pid: xyzrins:publications/talk-2026-usrse-con-talk
 schema_type: xyzri:XYZPublication

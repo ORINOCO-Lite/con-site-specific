@@ -12,3 +12,11 @@ assertions:
   note: The conference program schedules the talk on Monday, October 19.
   confidence: certain
   captured: '2026-10-17'
+- path: /identifiers/0/notation
+  value: 10.5281/zenodo.22783261
+  kind: registry
+  source: https://doi.org/10.5281/zenodo.22783261
+  locator: Zenodo record 23547116, conceptdoi
+  note: The DOI of all versions of the deposit, in the CON community on Zenodo.
+  confidence: certain
+  captured: '2026-11-06'

@@ -38,6 +38,9 @@ generated_by:
 - at_time: '2026-10-19'
   object: xyzrins:projects/con-duct
   schema_type: dlthings:Generation
+identifiers:
+- notation: 10.5281/zenodo.22833930
+  schema_type: dlthings:DOI
 kind: fabio:ConferencePoster
 pid: xyzrins:publications/poster-2026-usrse-duct
 schema_type: xyzri:XYZPublication
