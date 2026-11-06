@@ -11,12 +11,3 @@ assertions:
   note: The commit reads "copied online intensive talk to tune up for the nih nih online cast".
   confidence: certain
   captured: '2026-11-05'
-- path: /attributes/3/value
-  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/59CE6iOr45k
-  kind: registry
-  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
-  locator: video_id 59CE6iOr45k, published 2018-03-02, channel Neuroscience Information Framework
-  quote: 'DataLad, Dr. Yaroslav O. Halchenko'
-  note: A NIF NeuroTools webinar on DataLad of 2018-03-02, the day after the commit tuning the deck for the online cast; the video does not show the deck title.
-  confidence: approximate
-  captured: '2026-11-06'
