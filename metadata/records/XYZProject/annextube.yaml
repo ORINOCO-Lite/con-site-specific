@@ -52,7 +52,7 @@ description: 'annextube is a YouTube-channel archiving system that uses git-anne
   Actively maintained archives include:'
 part_of:
 - xyzrins:.
-pid: xyzrins:projects/con-annextube
+pid: xyzrins:projects/annextube
 schema_type: xyzri:XYZProject
 short_name: annextube
 started:
