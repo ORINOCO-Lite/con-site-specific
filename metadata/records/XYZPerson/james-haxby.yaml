@@ -7,11 +7,6 @@ attributes:
 - predicate: dlthings:additional_names
   schema_type: dlthings:AttributeSpecification
   value: V.
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Professor of Psychological and Brain Sciences at Dartmouth. Directed the Dartmouth
-    Brain Imaging Center and the Center for Cognitive Neuroscience, and cradled many of
-    the CON projects.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: James V. Haxby
@@ -51,14 +46,16 @@ attributes:
   value: Affiliated Faculty
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: Dr. Haxby for many years directed the <a href="https://www.dartmouth.edu/dbic/">Dartmouth
+  value: Dr. Haxby, Professor of Psychological and Brain Sciences at Dartmouth, for many
+    years directed the <a href="https://www.dartmouth.edu/dbic/">Dartmouth
     Brain Imaging Center (DBIC)</a> and the <a href="https://www.dartmouth.edu/ccn//">Center
     for Cognitive Neuroscience (CCN)</a> and cradled many of the CON projects. Dr.Haxby
     has an outstanding history of developing and disseminating in the open novel research
     methodologies, as well as influential datasets.
-description: Professor of Psychological and Brain Sciences at Dartmouth. Directed the
-  Dartmouth Brain Imaging Center and the Center for Cognitive Neuroscience, and cradled
-  many of the CON projects.
+description: Dr. Haxby, Professor of Psychological and Brain Sciences at Dartmouth, for many
+  years directed the Dartmouth Brain Imaging Center (DBIC) and the Center for Cognitive Neuroscience
+  (CCN) and cradled many of the CON projects. Dr.Haxby has an outstanding history of developing
+  and disseminating in the open novel research methodologies, as well as influential datasets.
 display_label: James V. Haxby
 family_name: Haxby
 formatted_name: James V. Haxby

@@ -2,10 +2,6 @@ attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
   value: glalteva@gmail.com
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Emeritus member of the Center for Open Neuroscience. CS undergraduate at Barnard
-    College, Columbia University. 2016 DataLad developer intern.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Gergana Alteva
@@ -35,7 +31,7 @@ attributes:
   value: Emeritus
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: A CS undergraduate from Columbia, worked on the <a href="/projects#datalad_">DataLad</a>
+  value: A CS undergraduate from Columbia, worked on the <a href="xyzrins:projects/datalad">DataLad</a>
     project as a developer intern at Dartmouth in the summer of 2016. "This internship
     not only made me a contributor to a cool open source project, but through it I gained
     valuable experience in software development teamwork and tools (Git/GitHub, Travis,
@@ -47,8 +43,12 @@ delegated_by:
   roles:
   - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
   schema_type: dlthings:Delegation
-description: Emeritus member of the Center for Open Neuroscience. CS undergraduate at
-  Barnard College, Columbia University. 2016 DataLad developer intern.
+description: A CS undergraduate from Columbia, worked on the DataLad project as a developer
+  intern at Dartmouth in the summer of 2016. "This internship not only made me a contributor
+  to a cool open source project, but through it I gained valuable experience in software development
+  teamwork and tools (Git/GitHub, Travis, etc) which later made academic presentation of the
+  same materials actually make sense and gave me a leg up in my courses. It was an incredible
+  opportunity to work with and learn from such accomplished developers."
 display_label: Gergana Alteva
 family_name: Alteva
 formatted_name: Gergana Alteva

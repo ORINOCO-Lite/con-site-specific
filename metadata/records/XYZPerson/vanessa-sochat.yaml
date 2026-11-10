@@ -1,8 +1,4 @@
 attributes:
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Emeritus member of the Center for Open Neuroscience. Research Software Engineer
-    at Stanford University. Singularity Hub developer.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Vanessa Sochat
@@ -49,8 +45,10 @@ delegated_by:
   roles:
   - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
   schema_type: dlthings:Delegation
-description: Emeritus member of the Center for Open Neuroscience. Research Software Engineer
-  at Stanford University. Singularity Hub developer.
+description: Research Software Engineer in the Stanford Research Computing Center. Likes programming,
+  containers, avocados, and open-source development. Developer of Singularity Hub and other
+  related tools for Singularity containers. See a list of work or recent ideas on ">her personal
+  site.
 display_label: Vanessa Sochat
 family_name: Sochat
 formatted_name: Vanessa Sochat

@@ -1,8 +1,4 @@
 attributes:
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Emeritus member of the Center for Open Neuroscience. Worked on PyMVPA, ReproStim
-    and the DBIC Handbook.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Andy Connolly
@@ -24,14 +20,15 @@ attributes:
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
   value: 'Worked across the Center''s imaging stack rather than any one corner of it:
-    <a href="/projects#pymvpa_">PyMVPA</a> early on, then the scanner-side work --
+    <a href="xyzrins:projects/pymvpa">PyMVPA</a> early on, then the scanner-side work --
     <a href="https://github.com/ReproNim/reprostim">ReproStim</a>, where most of his
     commits are, and the <a href="https://github.com/dbic/handbook">DBIC Handbook</a>.'
 - predicate: dlthings:position
   schema_type: dlthings:AttributeSpecification
   value: Department of Neurology, Geisel School of Medicine at Dartmouth
-description: Emeritus member of the Center for Open Neuroscience. Worked on PyMVPA,
-  ReproStim and the DBIC Handbook.
+description: 'Worked across the Center''s imaging stack rather than any one corner of it:
+  PyMVPA early on, then the scanner-side work -- ReproStim, where most of his commits are,
+  and the DBIC Handbook.'
 display_label: Andy Connolly
 family_name: Connolly
 formatted_name: Andy Connolly

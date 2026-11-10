@@ -8,6 +8,13 @@
   {%- if attribute.predicate == 'dlthings:tier' -%}
     {%- set _ = p.update({'tier': attribute.value}) -%}
   {%- endif -%}
+  {#- the written bio; `description` is derived from it (validate_records.py) -#}
+  {%- if attribute.predicate == 'dlthings:description_html' -%}
+    {%- set _ = p.update({'description_html': attribute.value}) -%}
+  {%- endif -%}
+  {%- if attribute.predicate == 'dlthings:position' -%}
+    {%- set _ = p.update({'position': p.get('position', []) + [attribute.value]}) -%}
+  {%- endif -%}
 {%- endfor -%}
 ---
 {{ {'title': given_name ~ ' ' ~ family_name, 'params': p} | toyaml }}

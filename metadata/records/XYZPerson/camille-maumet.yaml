@@ -15,15 +15,18 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Studies neuroimaging reproducibility, and in particular the variability that
     analytical pipelines introduce and its impact on reusing brain imaging data. A member
-    of the <a href="/projects#brain_imaging_data_structure_bids_">BIDS</a> Steering Group,
-    the lead of <a href="/projects#bep028_">BEP028</a> (BIDS provenance), and the principal
-    developer of NIDM-Results within <a href="/projects#nidm_">NIDM</a>. The collaboration
+    of the <a href="xyzrins:projects/bids">BIDS</a> Steering Group,
+    the lead of <a href="xyzrins:projects/bep028">BEP028</a> (BIDS provenance), and the principal
+    developer of NIDM-Results within <a href="xyzrins:projects/nidm">NIDM</a>. The collaboration
     began at the INCF Neuroimaging Data Sharing Task Force meeting in San Diego in November
-    2013, and runs through NIDM, BIDS and its provenance extension, and the <a href="/projects#open_brain_consent_">Open
+    2013, and runs through NIDM, BIDS and its provenance extension, and the <a href="xyzrins:projects/open-brain-consent">Open
     Brain Consent</a>, which she helped translate into French.
-description: Neuroinformatics researcher at Inria in Rennes who studies neuroimaging
-  reproducibility and the variability of analytical pipelines. A member of the BIDS Steering
-  Group, the lead of BEP028 (BIDS provenance), and the principal developer of NIDM-Results.
+description: Studies neuroimaging reproducibility, and in particular the variability that
+  analytical pipelines introduce and its impact on reusing brain imaging data. A member of
+  the BIDS Steering Group, the lead of BEP028 (BIDS provenance), and the principal developer
+  of NIDM-Results within NIDM. The collaboration began at the INCF Neuroimaging Data Sharing
+  Task Force meeting in San Diego in November 2013, and runs through NIDM, BIDS and its provenance
+  extension, and the Open Brain Consent, which she helped translate into French.
 family_name: Maumet
 given_name: Camille
 identifiers:

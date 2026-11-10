@@ -1,9 +1,4 @@
 attributes:
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Collaborator at the Center for Open Neuroscience. J.-Prof. at INM-7, Research
-    Centre Jülich, Germany and University of Magdeburg. Official Debian developer. Lead
-    of PyMVPA, NeuroDebian, DataLad projects.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Michael Hanke
@@ -44,15 +39,16 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Formerly a visiting post-doctoral researcher in Dr.Haxby's lab, now a J.-Prof.,
     one of the first Psychoinformaticians, official Debian developer, member of INCF neuroimaging
-    task force -- he is an old-time collaborator and a lead of <a href="/projects#pymvpa_">PyMVPA</a>,
-    <a href="/projects#neurodebian_">NeuroDebian</a>, <a href="/projects#datalad_">DataLad</a>,
+    task force -- he is an old-time collaborator and a lead of <a href="xyzrins:projects/pymvpa">PyMVPA</a>,
+    <a href="xyzrins:projects/neurodebian">NeuroDebian</a>, <a href="xyzrins:projects/datalad">DataLad</a>,
     and other projects.
 - predicate: foaf:account
   schema_type: dlthings:AttributeSpecification
   value: https://plus.google.com/105639751406966312638
-description: Collaborator at the Center for Open Neuroscience. J.-Prof. at INM-7, Research
-  Centre Jülich, Germany and University of Magdeburg. Official Debian developer. Lead
-  of PyMVPA, NeuroDebian, DataLad projects.
+description: Formerly a visiting post-doctoral researcher in Dr.Haxby's lab, now a J.-Prof.,
+  one of the first Psychoinformaticians, official Debian developer, member of INCF neuroimaging
+  task force -- he is an old-time collaborator and a lead of PyMVPA, NeuroDebian, DataLad,
+  and other projects.
 display_label: Michael Hanke
 family_name: Hanke
 formatted_name: Michael Hanke

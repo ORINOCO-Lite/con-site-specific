@@ -11,10 +11,6 @@ assertions:
   path: /attributes
   pav:importedBy: xyzrins:source-adapters/dump-research-info/v2
   pav:importedFrom: https://github.com/con/dump-research-info/blob/main/data/con_site/XYZPerson.json#record=xyzrins%3Apersons%2Fadina-wagner
-- assertion_sha256: sha256:af937a11c93f03b44f1258ea27487bde07ca9b63f23ef6a0c01587f7c4c6a829
-  path: /attributes
-  pav:importedBy: xyzrins:source-adapters/dump-research-info/v2
-  pav:importedFrom: https://github.com/con/dump-research-info/blob/main/data/con_site/XYZPerson.json#record=xyzrins%3Apersons%2Fadina-wagner
 - assertion_sha256: sha256:e46d8478929db3bfd364a32befac30a7b9c204541c8387995491fe05a7d405ae
   path: /attributes
   pav:importedBy: xyzrins:source-adapters/dump-research-info/v2

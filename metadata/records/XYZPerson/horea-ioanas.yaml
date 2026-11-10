@@ -2,10 +2,6 @@ attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
   value: chr@chymera.eu
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Emeritus Research Scientist at the Center for Open Neuroscience. DANDI contributor.
-    Skilled in Python, neuroimaging, and psychopharmacology.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Horea-Ioan Ioanas
@@ -47,7 +43,7 @@ attributes:
   value: Emeritus
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: Worked on <a href="/projects#dandi_">DANDI</a> and related projects. Skilled
+  value: Worked on <a href="xyzrins:projects/dandi">DANDI</a> and related projects. Skilled
     in Python, Gentoo Linux, magnetic resonance imaging, neuroscience, and psychopharmacology.
     <ul> <li>Ioanas H-I, Macdonald A and Halchenko YO (2024) Neuroimaging article reexecution
     and reproduction assessment system. Front. Neuroinform. 18:1376022. <a href="https://doi.org/10.3389/fninf.2024.1376022">DOI:10.3389/fninf.2024.1376022</a>
@@ -57,8 +53,8 @@ delegated_by:
   roles:
   - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
   schema_type: dlthings:Delegation
-description: Emeritus Research Scientist at the Center for Open Neuroscience. DANDI contributor.
-  Skilled in Python, neuroimaging, and psychopharmacology.
+description: Worked on DANDI and related projects. Skilled in Python, Gentoo Linux, magnetic
+  resonance imaging, neuroscience, and psychopharmacology.
 display_label: Horea-Ioan Ioanas
 family_name: Ioanas
 formatted_name: Horea-Ioan Ioanas

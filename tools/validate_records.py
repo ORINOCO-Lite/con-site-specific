@@ -30,6 +30,7 @@ way:
 
 Exit status is non-zero if anything fails.
 """
+import html
 import json
 import pathlib
 import re
@@ -115,6 +116,11 @@ RULE = {
     "label": ("`display_label` must say something `title` does not: drop one "
               "that repeats `title` or truncates it -- every consumer reads "
               "`display_label or title`"),
+    "derived": ("`description` is the plain text of the lead of "
+                "`dlthings:description_html` -- edit the HTML and run "
+                "tools/sync_descriptions.py, never the two separately"),
+    "link": ("an `xyzrins:` link in `dlthings:description_html` must name a "
+             "record in this store; each site resolves it to its own URL"),
     "pointer": "an evidence `path` must resolve in the record it names",
     "iso": "at_time must be W3CISO8601: YYYY, YYYY-MM, YYYY-MM-DD, or a full timestamp",
     "role": "a role must be an IRI (prefix:local), not a bare word",
@@ -251,6 +257,39 @@ def label_problems(doc):
                    f"`{slot}` is {doc.get(slot)!r} -- {RULE['copy']}")
 
 
+# A record with both a marked-up and a plain description used to carry two
+# texts written separately, and they drifted: the plain one lost every link
+# and gained facts the page never showed.  For these classes the HTML is
+# written and the plain text is derived from it -- its lead, since the lists
+# that follow (papers, talks) read as a run-on sentence once the markup goes.
+DERIVED_DESCRIPTION = {"xyzri:XYZPerson"}
+BLOCK = re.compile(r"<(?:ul|ol|div|figure|blockquote|table|p)\b", re.I)
+PID_LINK = re.compile(r'href="(xyzrins:[^"]*)"')
+
+
+def lead_text(markup):
+    """The plain text of the first paragraph of an HTML description.
+
+    That is the first <p> if the HTML opens with one, otherwise everything
+    before the first block element.
+    """
+    m = re.match(r"\s*<p\b[^>]*>(.*?)</p>", markup, re.S | re.I)
+    if m:
+        markup = m.group(1)
+    else:
+        b = BLOCK.search(markup)
+        markup = markup[:b.start()] if b else markup
+    text = html.unescape(re.sub(r"<[^>]+>", "", markup))
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def description_html(doc):
+    for attr in doc.get("attributes") or []:
+        if isinstance(attr, dict) and attr.get("predicate") == "dlthings:description_html":
+            return attr.get("value")
+    return None
+
+
 def agents(doc):
     """Every agent a record names: associated_with and attributed_to objects."""
     out = set()
@@ -304,6 +343,12 @@ def main():
 
         for msg in label_problems(doc):
             fails.append((path, msg))
+
+        markup = description_html(doc)
+        if (isinstance(markup, str) and doc.get("schema_type") in DERIVED_DESCRIPTION
+                and doc.get("description") != lead_text(markup)):
+            fails.append((path, f"description differs from the lead of "
+                                f"dlthings:description_html -- {RULE['derived']}"))
 
         dated_by_pid[pid] = {ptr: role for ptr, _, role in dated_slots(doc)}
         for pointer, value, _ in dated_slots(doc):
@@ -467,6 +512,11 @@ def main():
                 kinds = sorted({e.get("kind") for e in arts})
                 fails.append((path, f"{pointer}: supported by {kinds} yet no such "
                                     f"entry says `bound: {want}` -- {RULE['bound']}"))
+
+    for pid, (path, doc) in records.items():
+        for target in PID_LINK.findall(description_html(doc) or ""):
+            if target not in records:
+                fails.append((path, f"link to {target} -- {RULE['link']}"))
 
     for path, msg in fails:
         print(f"{path.relative_to(HERE)}: {msg}")

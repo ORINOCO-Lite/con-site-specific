@@ -37,6 +37,11 @@
       <p><a href="{{ site.Home.RelPermalink }}">CON</a> contributes to this project.</p>
     {{ end }}
   {{ end }}
+  <!-- Position: a person's title and affiliation, which the bio does not repeat.
+       It may carry a link (Haxby's National Academy election). -->
+  {{ with .Params.position }}
+    <p class="mt-0 text-lg">{{ delimit . " · " | safeHTML }}</p>
+  {{ end }}
   <!-- Links -->
   {{ partial "term-info-links.html" . }}
   <!-- Persons -->
@@ -102,9 +107,15 @@
       </td>
     </tr>
   </table>
-  <!-- Description -->
-  {{ with .Params.description }}
-    <p>{{ . | markdownify }}</p>
+  <!-- Description: the written HTML where the record has it, with links to
+       other records (href="xyzrins:projects/datalad") pointed at their pages
+       here; the plain `description` otherwise. -->
+  {{ with .Params.description_html }}
+    <div>{{ replaceRE `href="xyzrins:([^"]+)"` (printf `href="%s$1/"` site.Home.RelPermalink) . | safeHTML }}</div>
+  {{ else }}
+    {{ with .Params.description }}
+      <p>{{ . | markdownify }}</p>
+    {{ end }}
   {{ end }}
   </article>
   <!-- Content from index page -->

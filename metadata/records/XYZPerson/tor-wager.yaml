@@ -7,11 +7,6 @@ attributes:
 - predicate: dlthings:additional_names
   schema_type: dlthings:AttributeSpecification
   value: D.
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Professor at Dartmouth College. Director of Dartmouth Brain Imaging Center and
-    Center for Cognitive Neuroscience. Dedicated to developing functional neuroimaging
-    analysis methods and sharing tools and data with the community.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Tor D. Wager
@@ -53,9 +48,11 @@ attributes:
     Brain Imaging Center (DBIC)</a> where CON pilots various deployments and automations
     to improve efficiency and reproducibility in the neuroimaging, and the <a href="https://www.dartmouth.edu/ccn/">Center
     for Cognitive Neuroscience</a>.
-description: Professor at Dartmouth College. Director of Dartmouth Brain Imaging Center
-  and Center for Cognitive Neuroscience. Dedicated to developing functional neuroimaging
-  analysis methods and sharing tools and data with the community.
+description: Dr. Wager and his lab have a dedication toward developing analysis methods for
+  functional neuroimaging and sharing ideas, tools, and scientific data with the scientific
+  community and public. At the moment Tor is also leading Dartmouth Brain Imaging Center (DBIC)
+  where CON pilots various deployments and automations to improve efficiency and reproducibility
+  in the neuroimaging, and the Center for Cognitive Neuroscience.
 display_label: Tor D. Wager
 family_name: Wager
 formatted_name: Tor D. Wager

@@ -4,11 +4,6 @@ attributes:
 - predicate: dlthings:additional_names
   schema_type: dlthings:AttributeSpecification
   value: N.
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Emeritus member of the Center for Open Neuroscience. Ph.D. in Psychology with
-    Masters in Computer Science, Cognitive Science, and Philosophy. PyMVPA developer and
-    NeuroDebian promoter.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Nikolaas N. Oosterhof
@@ -39,17 +34,17 @@ attributes:
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
   value: Ph.D. in Psychology, master's degrees in Computer Science, Cognitive Science,
-    and Philosophy of Science, Technology and Society. Developer of <a href="/projects#pymvpa_">PyMVPA</a>,
-    promoter of <a href="/projects#neurodebian_">NeuroDebian</a>, and contributor to other
+    and Philosophy of Science, Technology and Society. Developer of <a href="xyzrins:projects/pymvpa">PyMVPA</a>,
+    promoter of <a href="xyzrins:projects/neurodebian">NeuroDebian</a>, and contributor to other
     projects.
 delegated_by:
 - object: ror:04tfhh831
   roles:
   - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
   schema_type: dlthings:Delegation
-description: Emeritus member of the Center for Open Neuroscience. Ph.D. in Psychology
-  with Masters in Computer Science, Cognitive Science, and Philosophy. PyMVPA developer
-  and NeuroDebian promoter.
+description: Ph.D. in Psychology, master's degrees in Computer Science, Cognitive Science,
+  and Philosophy of Science, Technology and Society. Developer of PyMVPA, promoter of NeuroDebian,
+  and contributor to other projects.
 display_label: Nikolaas N. Oosterhof
 family_name: Oosterhof
 formatted_name: Nikolaas N. Oosterhof

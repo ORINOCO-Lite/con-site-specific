@@ -2,11 +2,6 @@ attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
   value: christopher.p.cheng.21@dartmouth.edu
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Emeritus member of the Center for Open Neuroscience. Dartmouth undergraduate
-    passionate about neuroimaging and open science. NiBabel contributor. ReproNim training
-    editor.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Chris Cheng
@@ -45,9 +40,10 @@ delegated_by:
   roles:
   - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
   schema_type: dlthings:Delegation
-description: Emeritus member of the Center for Open Neuroscience. Dartmouth undergraduate
-  passionate about neuroimaging and open science. NiBabel contributor. ReproNim training
-  editor.
+description: Dartmouth undergrad with a passion for learning more about neuroimaging, open
+  science, and reproducible neuroscience. One of NiBabel's active contributors. Editor of
+  select ReproNim training materials. Worked to model relationship between fMRI QA metrics
+  and human scan data under Yarik's wise mentorship.
 display_label: Chris Cheng
 family_name: Cheng
 formatted_name: Chris Cheng
