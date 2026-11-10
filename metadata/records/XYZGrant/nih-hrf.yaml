@@ -13,6 +13,10 @@ attributed_to:
   roles:
   - obo:NCIT_C25936
   schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://reporter.nih.gov/project-details/10585582
 description: NIH R01 award for personalized spatiotemporal hemodynamic response models
   in fMRI, and the whole of the HRF models project, whose span is the award period.
   Martin Lindquist (Johns Hopkins University) is the contact PI, Tor Wager the PI

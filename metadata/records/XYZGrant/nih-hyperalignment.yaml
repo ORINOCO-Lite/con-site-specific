@@ -13,6 +13,10 @@ attributed_to:
   roles:
   - obo:NCIT_C25936
   schema_type: dlthings:Attribution
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://reporter.nih.gov/project-details/10520678
 description: NIH R01 award for infrastructure to hyperalign fMRI data and estimate
   functional topographies, and the whole of the Hyperalignment infrastructure project,
   whose span is the award period. James Haxby (Dartmouth College) is the contact PI
