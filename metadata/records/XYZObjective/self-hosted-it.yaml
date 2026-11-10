@@ -1,10 +1,10 @@
 annotations:
   obo:NCIT_C54269: m.hanke@fz-juelich.de
   sio:SIO_001083: '2025-12-11T22:00:10.838037'
-description: >-
-  We help researchers run and maintain the services their work depends on.
-  Hosting these services themselves gives groups more control over their data
-  and how people access and use it.
+description: |-
+  We are making research software and services that groups can run on their own computers, such as [NeuroDebian](https://neuro.debian.net), [Debian Med](https://www.debian.org/devel/debian-med/), [DANDI](https://dandiarchive.org), and [ORINOCO Lite](https://github.com/ORINOCO-Lite); [con/serve](https://con.github.io/serve/) collects how to run them.
+
+  Many research groups depend on tools and services they do not control. When a provider changes its terms or shuts down, a group can lose the services its work depends on, and sometimes its data.
 pid: xyzrins:objectives/self-hosted-it
 schema_type: xyzri:XYZObjective
-title: Self-hosted research IT infrastructure
+title: Self-hosted research tools and services

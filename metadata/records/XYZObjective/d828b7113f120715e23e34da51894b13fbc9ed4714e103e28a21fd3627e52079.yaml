@@ -1,11 +1,7 @@
-description: 'Develop and test software, data standards, and analysis workflows that
-  help researchers put new methods into practice.
+description: |-
+  We are working with method developers to turn published methods into software that other researchers can install, inspect, and run on their own data.
 
-
-  New methods become useful when other researchers can run them, inspect them, and
-  build on them. We work with research communities to develop and test software, ways
-  of organizing data, and analysis steps that work together. This helps people use
-  research methods in their own studies.'
+  Many new methods are described in papers but never released as usable software, so other researchers cannot try them.
 pid: xyzrins:objectives/translational-research-infrastructure
 schema_type: xyzri:XYZObjective
 title: Turn research ideas into working tools

@@ -2,9 +2,9 @@ annotations:
   obo:NCIT_C54269: yaroslav.o.halchenko@oneukrainian.com
   sio:SIO_001083: '2026-10-10T18:00:00.000000'
 description: |-
-  Keep data, code, and other research materials accessible and recoverable over time, including materials hosted on other websites and services.
+  We are building tools and practices, collected in [con/serve](https://con.github.io/serve/), that keep data, code, recordings, and other research materials findable and recoverable, with copies in more than one place.
 
-  Research produces more than a published paper. Data, code, notes, and recordings help explain how the work was done. We help researchers keep these materials, find them again, and use them later—even when copies are hosted on other websites and services. This helps people return to their own work and gives others a clearer starting point.
+  A paper is only part of the work. The data, code, and notes behind it are easily lost when a service shuts down, a link breaks, or a project ends.
 pid: xyzrins:objectives/scalable-neural-archiving
 schema_type: xyzri:XYZObjective
 title: Preserve research artifacts
