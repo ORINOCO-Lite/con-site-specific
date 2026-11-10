@@ -64,6 +64,11 @@ description: Service maintaining up-to-date information on an expanding collecti
   datasets, currently numbering over ten thousand. Provides automatic dataset registration,
   metadata extraction, and search functionality via web interface and RESTful API.
 display_label: DataLad-Registry
+influenced_by:
+- object: xyzrins:objectives/87be5fa3-80fb-4221-8406-2ddd40fb1fd1
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/datalad-registry

@@ -31,6 +31,14 @@ influenced_by:
   schema_type: xyzri:XYZInfluence
 - object: xyzrins:projects/heudiconv
   schema_type: xyzri:XYZInfluence
+- object: xyzrins:objectives/rich-naturalistic-data
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:objectives/translational-research-infrastructure
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 pid: xyzrins:projects/hyperalignment-infrastructure
 schema_type: xyzri:XYZProject
 short_name: Hyperalignment infrastructure

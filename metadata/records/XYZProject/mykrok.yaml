@@ -49,6 +49,11 @@ description: 'MyKrok (Ukrainian: "мій крок" — "my step") is a CLI tool 
   kudos. Backups are browsable offline through a built-in web frontend with interactive
   maps and activity statistics — applying the same git-annex / open-data philosophy of
   CON''s archival tools to personal fitness data. Try the live demo with synthetic data.'
+influenced_by:
+- object: xyzrins:objectives/scalable-neural-archiving
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/mykrok

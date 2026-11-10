@@ -24,6 +24,11 @@ description: The DICOM working group responsible for MR. Where the conventions t
   a scanner's output machine-readable are argued out, which is upstream of every BIDS
   conversion CON does.
 display_label: DICOM WG-16
+influenced_by:
+- object: xyzrins:objectives/cross-standards-harmonization
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:projects/dicom
 pid: xyzrins:projects/dicom-wg16

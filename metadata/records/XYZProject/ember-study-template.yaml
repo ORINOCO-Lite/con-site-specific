@@ -28,6 +28,10 @@ influenced_by:
   roles:
   - FRAPO:Funding
   schema_type: xyzri:XYZInfluence
+- object: xyzrins:objectives/cross-standards-harmonization
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:projects/ember
 pid: xyzrins:projects/ember-study-template

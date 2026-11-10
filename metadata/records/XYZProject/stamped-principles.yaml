@@ -91,6 +91,11 @@ description: STAMPED is a set of seven principles, Self-containment, Tracking, A
   minimum to an aspirational ideal, so adoption can be incremental and start from existing
   practice. STAMPED grew out of YODA and comes with an interactive checklist and worked
   examples.
+influenced_by:
+- object: xyzrins:objectives/97ded4aa-108d-4b84-8195-d6076dce63ce
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
 - xyzrins:projects/repronim

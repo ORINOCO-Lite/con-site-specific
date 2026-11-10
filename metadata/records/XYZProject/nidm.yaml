@@ -29,6 +29,11 @@ description: A family of specifications for describing neuroimaging experiments,
   data and their provenance, built on W3C PROV. NIDM-PROV is its provenance layer, and
   the ancestor of the provenance work now carried into BIDS as BEP028.
 display_label: NIDM
+influenced_by:
+- object: xyzrins:objectives/cross-standards-harmonization
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 pid: xyzrins:projects/nidm
 schema_type: xyzri:XYZProject
 short_name: NIDM

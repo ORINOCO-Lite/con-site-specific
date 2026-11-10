@@ -46,6 +46,11 @@ attributes:
 description: The working handbook for the Dartmouth Brain Imaging Center -- how to
   get scanned, how data leaves the scanner, and the conventions everything downstream
   assumes.
+influenced_by:
+- object: xyzrins:objectives/97ded4aa-108d-4b84-8195-d6076dce63ce
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/dbic-handbook

@@ -25,6 +25,11 @@ description: The standard for medical imaging data and its exchange, and the for
   MRI scanner writes. Everything downstream -- BIDS layouts, HeuDiConv, ReproIn -- starts
   from what the scanner put in the DICOM header.
 display_label: DICOM
+influenced_by:
+- object: xyzrins:objectives/cross-standards-harmonization
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 pid: xyzrins:projects/dicom
 schema_type: xyzri:XYZProject
 short_name: DICOM

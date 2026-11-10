@@ -26,6 +26,11 @@ description: 'Debian Pure Blend for medicine and life sciences, and the team tha
   those packages. Between 2020 and 2021 the neuroimaging packages NeuroDebian had carried
   moved here: a smaller team handing maintenance to a larger one, trading scope -- current
   Debian rather than backports -- for people and process.'
+influenced_by:
+- object: xyzrins:objectives/self-hosted-it
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:projects/debian
 pid: xyzrins:projects/debian-med

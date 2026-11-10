@@ -54,6 +54,11 @@ description: 'mechababs runs BIDS Apps over many studies on an HPC cluster, with
   each one was made inside the study itself: the exact mechababs and BABS versions pinned
   in a lock, and every orchestration step as a DataLad run record. A superstudy groups
   many studies so one campaign sweeps them all, which is how mechababs feeds OpenNeuroStudies.'
+influenced_by:
+- object: xyzrins:objectives/97ded4aa-108d-4b84-8195-d6076dce63ce
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/mechababs

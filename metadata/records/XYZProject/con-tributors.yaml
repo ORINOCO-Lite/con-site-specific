@@ -66,6 +66,11 @@ description: con/tributors is a Python library and GitHub Action to automate mai
   stay consistent and up-to-date across all metadata files with a single command. For
   example, DataLad uses a dedicated GitHub Actions workflow powered by con/tributors to
   automatically keep its contributor files current.
+influenced_by:
+- object: xyzrins:objectives/87be5fa3-80fb-4221-8406-2ddd40fb1fd1
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/con-tributors

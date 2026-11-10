@@ -19,6 +19,11 @@ attributes:
   value: Standards
 description: The effort to work out what BIDS should change when backwards compatibility
   is no longer a constraint -- the breaking changes that a decade of 1.x could not make.
+influenced_by:
+- object: xyzrins:objectives/cross-standards-harmonization
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:projects/bids
 pid: xyzrins:projects/bids-2-0

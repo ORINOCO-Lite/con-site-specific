@@ -75,6 +75,11 @@ attributes:
 description: Python-based framework for neural decoding using multivariate pattern analysis.
   Supports volume and surface-based analyses, supervised/unsupervised learning, representational
   similarity analyses, searchlight analyses, hyperalignment, and model-based decoding/encoding.
+influenced_by:
+- object: xyzrins:objectives/translational-research-infrastructure
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/pymvpa

@@ -60,6 +60,15 @@ attributes:
 description: Turnkey research software platform for all aspects of the neuroscientific
   research process. Provides a comprehensive suite of readily usable and fully integrated
   software with robust testing and deployment infrastructure.
+influenced_by:
+- object: xyzrins:objectives/self-hosted-it
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:objectives/97ded4aa-108d-4b84-8195-d6076dce63ce
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 informed_by:
 - description: NeuroDebian is what pkg-exppsy became. The team packaging experimental
     psychology software for Debian -- FSL, PyEPL, PsychoPy -- grew into a

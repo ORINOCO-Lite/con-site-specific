@@ -47,6 +47,15 @@ description: 'The technology research and development project within ReproNim th
   to end: capturing what the scanner and the stimulus computer actually did, converting
   it into standard layouts without a human in the loop, and re-running the analysis in
   a recorded environment.'
+influenced_by:
+- object: xyzrins:objectives/97ded4aa-108d-4b84-8195-d6076dce63ce
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:objectives/cross-standards-harmonization
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:projects/repronim
 pid: xyzrins:projects/repronim-trd3

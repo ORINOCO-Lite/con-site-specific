@@ -28,6 +28,11 @@ attributes:
 description: To provide archival and uninterrupted access to over 9TBs of singularity-hub.org
   Singularity containers, CON established the ///shub DataLad dataset and a service to
   serve the shub:// URLs.
+influenced_by:
+- object: xyzrins:objectives/scalable-neural-archiving
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/singularityhub-afterlife

@@ -58,6 +58,15 @@ description: Automated capture of the audio-visual stimuli actually presented du
   an experiment, into BIDS datasets -- so what the participant saw and heard is recorded
   rather than inferred from the script that was supposed to show it. ReproFlow is the
   setup around it, from the screen and the event relay through to the dataset.
+influenced_by:
+- object: xyzrins:objectives/97ded4aa-108d-4b84-8195-d6076dce63ce
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:objectives/rich-naturalistic-data
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/reprostim

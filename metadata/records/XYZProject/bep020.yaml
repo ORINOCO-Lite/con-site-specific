@@ -21,6 +21,11 @@ display_label: BEP020
 ended:
   at_time: '2026-01-16'
   schema_type: dlthings:End
+influenced_by:
+- object: xyzrins:objectives/cross-standards-harmonization
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:projects/bids
 pid: xyzrins:projects/bep020

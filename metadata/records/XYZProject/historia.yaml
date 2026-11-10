@@ -36,6 +36,11 @@ attributes:
 description: Backs up a record of GitHub activity and turns it into a work-history
   dashboard. CON uses it to see what its members have actually been doing, across the
   several organizations the work is spread over.
+influenced_by:
+- object: xyzrins:objectives/scalable-neural-archiving
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
 pid: xyzrins:projects/historia
