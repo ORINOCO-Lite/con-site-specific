@@ -62,9 +62,9 @@ attributes:
     open source projects -- Yaroslav (AKA Yarik) is a lead of <a href="xyzrins:projects/dandi">DANDI</a>,
     <a href="xyzrins:projects/datalad">DataLad</a>, <a href="xyzrins:projects/pymvpa">PyMVPA</a>,
     <a href="xyzrins:projects/neurodebian">NeuroDebian</a>, and other <a href="/projects">projects</a>.
-    He is also currently serving on BIDS standard Steering and <a href="xyzrins:projects/nwb">NWB</a>
-    standard technical advisory committees, and engaged in various other initiatives,
-    projects, and efforts.
+    He is also currently serving on the <a href="xyzrins:projects/nwb">NWB</a> standard technical
+    advisory committee, previously served on the <a href="xyzrins:projects/bids">BIDS</a>
+    Steering Group, and is engaged in various other initiatives, projects, and efforts.
 delegated_by:
 - object: ror:04tfhh831
   roles:
@@ -73,8 +73,9 @@ delegated_by:
 description: Research Professor of Psychological and Brain Sciences and Adjunct Professor
   of Computer Science at Dartmouth, official Debian Developer, contributor to many open source
   projects -- Yaroslav (AKA Yarik) is a lead of DANDI, DataLad, PyMVPA, NeuroDebian, and other
-  projects. He is also currently serving on BIDS standard Steering and NWB standard technical
-  advisory committees, and engaged in various other initiatives, projects, and efforts.
+  projects. He is also currently serving on the NWB standard technical advisory committee,
+  previously served on the BIDS Steering Group, and is engaged in various other initiatives,
+  projects, and efforts.
 display_label: Yaroslav O. Halchenko
 family_name: Halchenko
 formatted_name: Yaroslav O. Halchenko
