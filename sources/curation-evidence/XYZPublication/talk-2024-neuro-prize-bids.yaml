@@ -2,15 +2,15 @@ record: xyzrins:publications/talk-2024-neuro-prize-bids
 format: con-association-evidence-v1
 assertions:
 - path: /generated_by/0/at_time
-  value: 2024-04
+  value: '2023-11-30'
   bound: exact
   kind: registry
-  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
-  locator: 'published_at of video 6QoFWqfIZDU'
-  quote: '2024-04-29'
-  note: 'The month the recording was published; the talk itself is not dated anywhere found.  The speaker says the slides were prepared by Ariel, of the University of Washington, who is listed as an author for that.'
+  source: https://www.mcgill.ca/neuro/article/rewarding-excellence-open-science
+  locator: 'November 30, 2023: Prize Ceremony and Open Science Symposium'
+  quote: 'will be awarded in-person at the Open Science in Action Symposium on November 30, 2023'
+  note: 'Yaroslav Halchenko pointed to this page on 2026-11-10.  It names BIDS, with Ariel Rokem of the University of Washington, as the International Prize winner; the speaker in the recording says Ariel prepared the slides.  The recording itself says "2024 ... Prize" and was published 2024-04-29, so the day is not certain.'
   confidence: approximate
-  captured: '2026-11-06'
+  captured: '2026-11-10'
 - path: /attributes/1/value
   value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/6QoFWqfIZDU
   kind: registry
