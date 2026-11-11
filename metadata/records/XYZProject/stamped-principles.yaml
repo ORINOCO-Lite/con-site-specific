@@ -95,12 +95,16 @@ influenced_by:
   roles:
   - FRAPO:Funding
   schema_type: xyzri:XYZInfluence
+- object: xyzrins:projects/repronim
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:projects/dandi
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:projects/ember
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:projects/openneuro
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
-- xyzrins:projects/repronim
-- xyzrins:projects/dandi
-- xyzrins:projects/ember
-- xyzrins:projects/openneuro
 pid: xyzrins:projects/stamped-principles
 schema_type: xyzri:XYZProject
 short_name: STAMPED Principles
