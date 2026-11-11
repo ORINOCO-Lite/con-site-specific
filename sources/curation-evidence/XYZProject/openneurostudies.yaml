@@ -1,0 +1,15 @@
+record: xyzrins:projects/openneurostudies
+format: con-association-evidence-v1
+
+assertions:
+  - path: /started/at_time
+    value: "2025-11-06"
+    bound: upper
+    kind: registry
+    source: https://api.github.com/repos/OpenNeuroStudies/OpenNeuroStudies
+    locator: created_at
+    quote: '"created_at": "2025-11-06T18:09:32Z"'
+    note: >-
+      Creation of the project's primary repository.
+    confidence: certain
+    captured: "2026-11-11"

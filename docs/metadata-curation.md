@@ -431,6 +431,27 @@ they ever diverge, that is a curation question, not a modelling one.
 Two are CON's own: cross-standards collaboration and harmonization in
 neurosciences, and scalable and reliable archiving of neural data.
 
+## Parts and collaborations
+
+`part_of` says a project is a piece of another: DANDI Compute of DANDI,
+OpenNeuroStudies of OpenNeuro, TR&D3 of ReproNim.  The site lists such
+projects as the parent's components.
+
+A project run *together with* another, but not inside it, names that one
+in `influenced_by` with the role `xyzrins:entity-roles/95aaecaf-895c-4c28-939f-26a1ec1b9356`
+("Collaborative project"; `XYZEntityRole/collaborative-project.yaml`):
+
+```yaml
+influenced_by:
+- object: xyzrins:projects/repronim
+  roles:
+  - xyzrins:entity-roles/95aaecaf-895c-4c28-939f-26a1ec1b9356
+  schema_type: xyzri:XYZInfluence
+```
+
+OpenNeuro and DataLad are ReproNim's collaborative projects; they had been
+`part_of` it, which made them read as ReproNim's components.
+
 ## Open questions
 
 Narrowed from four; two are now answered.

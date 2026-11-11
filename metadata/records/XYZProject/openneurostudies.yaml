@@ -1,0 +1,38 @@
+associated_with:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:led
+  schema_type: dlthings:Association
+attributes:
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://github.com/OpenNeuroStudies/OpenNeuroStudies
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: OpenNeuroStudies
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: OpenNeuroStudies
+- predicate: dlthings:short_name
+  schema_type: dlthings:AttributeSpecification
+  value: OpenNeuroStudies
+description: A DataLad superdataset organising OpenNeuro datasets into BIDS Study
+  structure together with their derivatives.
+influenced_by:
+- object: xyzrins:grants/nih-openneuro
+  roles:
+  - FRAPO:Funding
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:grants/meta-brain-and-ai
+  roles:
+  - FRAPO:Funding
+  schema_type: xyzri:XYZInfluence
+part_of:
+- xyzrins:projects/openneuro
+pid: xyzrins:projects/openneurostudies
+schema_type: xyzri:XYZProject
+short_name: OpenNeuroStudies
+started:
+  at_time: '2025-11-06'
+  schema_type: dlthings:Start
+title: OpenNeuroStudies

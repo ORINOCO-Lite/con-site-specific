@@ -117,9 +117,12 @@ influenced_by:
   roles:
   - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
   schema_type: xyzri:XYZInfluence
+- object: xyzrins:projects/repronim
+  roles:
+  - xyzrins:entity-roles/95aaecaf-895c-4c28-939f-26a1ec1b9356
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
-- xyzrins:projects/repronim
 pid: xyzrins:projects/datalad
 schema_type: xyzri:XYZProject
 short_name: DataLad

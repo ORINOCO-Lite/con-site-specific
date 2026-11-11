@@ -1,0 +1,7 @@
+description: A project carried out in collaboration with another one, rather than
+  as a part of it -- OpenNeuro and DataLad with ReproNim.  The collaborating
+  project names the other in its influenced_by, with this role.
+display_label: Collaborative project
+name: Collaborative project
+pid: xyzrins:entity-roles/95aaecaf-895c-4c28-939f-26a1ec1b9356
+schema_type: xyzri:XYZEntityRole

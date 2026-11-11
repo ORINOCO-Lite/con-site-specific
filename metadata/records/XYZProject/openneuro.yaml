@@ -31,17 +31,14 @@ attributes:
   value: OpenNeuro
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: '<p> <a href="https://openneuro.org">OpenNeuro</a> is likely the oldest and the
+  value: <p> <a href="https://openneuro.org">OpenNeuro</a> is likely the oldest and the
     most well known <a href="https://braininitiative.nih.gov/">BRAIN Initiative</a> archive
     for neuroimaging data. One of the exciting features of the project is that being inspired
     by our early <a href="https://datasets.datalad.org/?dir=/openfmri">DataLad crawling</a>
     of its <a href="https://openfmri.org/">OpenfMRI.org</a> precursor, it is now using
     <a href="https://git-annex.branchable.com">git-annex</a> directly as its core technology.
     CON is contributing in ensuring availability of recent versions of git-annex and DataLad,
-    involved standardization efforts, and inter-archive collaborations. </p> <ul> <li>
-    <a href="https://github.com/OpenNeuroStudies/OpenNeuroStudies">OpenNeuroStudies</a>:
-    a <a href="#datalad">DataLad</a> superdataset organising OpenNeuro datasets into BIDS
-    Study structure together with their derivatives. </li> </ul>'
+    involved standardization efforts, and inter-archive collaborations. </p>
 - predicate: dlthings:section
   schema_type: dlthings:AttributeSpecification
   value: Software
@@ -63,9 +60,12 @@ influenced_by:
   roles:
   - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
   schema_type: xyzri:XYZInfluence
+- object: xyzrins:projects/repronim
+  roles:
+  - xyzrins:entity-roles/95aaecaf-895c-4c28-939f-26a1ec1b9356
+  schema_type: xyzri:XYZInfluence
 part_of:
 - xyzrins:.
-- xyzrins:projects/repronim
 pid: xyzrins:projects/openneuro
 schema_type: xyzri:XYZProject
 short_name: OpenNeuro
