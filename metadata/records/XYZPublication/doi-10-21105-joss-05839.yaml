@@ -77,6 +77,9 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/heudiconv
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 10.21105/joss.05839
   schema_type: dlthings:DOI

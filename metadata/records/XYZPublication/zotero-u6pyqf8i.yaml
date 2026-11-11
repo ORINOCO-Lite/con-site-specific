@@ -24,6 +24,9 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/openfmri
+  schema_type: dlthings:Generation
 identifiers:
 - notation: http://f1000research.com/posters/4-299
   schema_type: dlthings:Identifier

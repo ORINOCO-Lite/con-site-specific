@@ -18,6 +18,9 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/pymvpa
+  schema_type: dlthings:Generation
 identifiers:
 - notation: http://www.pymvpa.org/files/OHBM2015_Halchenko.pdf
   schema_type: dlthings:Identifier

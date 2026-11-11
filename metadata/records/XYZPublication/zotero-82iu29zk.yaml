@@ -20,6 +20,9 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/neurodebian
+  schema_type: dlthings:Generation
 identifiers:
 - notation: http://us-rse.org/rse-stories/2019/yaroslav/
   schema_type: dlthings:Identifier

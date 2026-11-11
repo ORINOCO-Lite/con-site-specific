@@ -13,6 +13,10 @@ attributed_to:
   roles:
   - marcrel:aut
   schema_type: dlthings:Attribution
+- object: xyzrins:persons/cody-baker
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
 attributes:
 - predicate: bibo:presentedAt
   value: Society for Neuroscience (SfN) 2025
@@ -32,9 +36,24 @@ generated_by:
 - at_time: 2025-11
   object: xyzrins:.
   schema_type: dlthings:Generation
+- object: xyzrins:projects/bids
+  schema_type: dlthings:Generation
+- object: xyzrins:projects/nwb
+  schema_type: dlthings:Generation
+- object: xyzrins:projects/dicom
+  schema_type: dlthings:Generation
+- object: xyzrins:projects/hed
+  schema_type: dlthings:Generation
+- object: xyzrins:projects/nidm
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 10.5281/zenodo.18333007
   schema_type: dlthings:DOI
+influenced_by:
+- object: xyzrins:objectives/cross-standards-harmonization
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 kind: fabio:ConferencePoster
 pid: xyzrins:publications/poster-2025-sfn-data-standards
 schema_type: xyzri:XYZPublication

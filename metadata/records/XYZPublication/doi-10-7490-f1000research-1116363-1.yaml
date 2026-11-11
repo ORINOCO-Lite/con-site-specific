@@ -55,6 +55,9 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/yoda
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 10.7490/f1000research.1116363.1
   schema_type: dlthings:DOI

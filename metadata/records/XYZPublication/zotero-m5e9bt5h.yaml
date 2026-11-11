@@ -30,6 +30,9 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/heudiconv
+  schema_type: dlthings:Generation
 identifiers:
 - notation: zotero:group:6197458:item:M5E9BT5H
   schema_type: dlthings:Identifier

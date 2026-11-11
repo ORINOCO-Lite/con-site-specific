@@ -41,6 +41,10 @@ influenced_by:
   roles:
   - FRAPO:Funding
   schema_type: xyzri:XYZInfluence
+- object: xyzrins:objectives/cross-standards-harmonization
+  roles:
+  - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
+  schema_type: xyzri:XYZInfluence
 kind: bibo:Report
 pid: xyzrins:publications/doi-10-5281-zenodo-23968879
 schema_type: xyzri:XYZPublication

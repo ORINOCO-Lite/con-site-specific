@@ -21,6 +21,9 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/dicom
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 10.1038/s41597-025-05503-w
   schema_type: dlthings:DOI

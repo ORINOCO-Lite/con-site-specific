@@ -28,6 +28,9 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/repronim-containers
+  schema_type: dlthings:Generation
 identifiers:
 - notation: https://github.com/ReproNim/artwork/raw/master/posters/ohbm2019-containers.pdf
   schema_type: dlthings:Identifier

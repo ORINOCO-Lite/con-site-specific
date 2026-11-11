@@ -20,6 +20,9 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/pymvpa
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 10.2417/1200909.1683
   schema_type: dlthings:DOI

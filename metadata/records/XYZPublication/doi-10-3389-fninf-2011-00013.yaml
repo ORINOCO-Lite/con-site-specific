@@ -84,6 +84,9 @@ description: 'Current neuroimaging software offer users an incredible opportunit
   allows the software to quickly adapt and address the varied needs of the evolving
   neuroimaging community, especially in the context of increasing demand for reproducible
   research.'
+generated_by:
+- object: xyzrins:projects/nipype
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 10.3389/fninf.2011.00013
   schema_type: dlthings:DOI

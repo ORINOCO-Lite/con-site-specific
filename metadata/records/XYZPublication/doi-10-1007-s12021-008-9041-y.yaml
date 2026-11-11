@@ -38,6 +38,9 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/pymvpa
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 10.1007/s12021-008-9041-y
   schema_type: dlthings:DOI

@@ -28,6 +28,9 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/neurodebian
+  schema_type: dlthings:Generation
 identifiers:
 - notation: zotero:group:6197458:item:7U85ZJ95
   schema_type: dlthings:Identifier

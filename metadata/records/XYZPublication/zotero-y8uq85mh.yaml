@@ -34,6 +34,9 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/nidm
+  schema_type: dlthings:Generation
 identifiers:
 - notation: zotero:group:6197458:item:Y8UQ85MH
   schema_type: dlthings:Identifier

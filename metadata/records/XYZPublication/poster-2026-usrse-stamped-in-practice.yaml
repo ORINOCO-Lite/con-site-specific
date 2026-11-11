@@ -36,6 +36,8 @@ generated_by:
 - at_time: 2026-10
   object: xyzrins:.
   schema_type: dlthings:Generation
+- object: xyzrins:projects/stamped-principles
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 10.5281/zenodo.22833915
   schema_type: dlthings:DOI

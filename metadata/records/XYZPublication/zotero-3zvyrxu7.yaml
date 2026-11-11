@@ -22,6 +22,9 @@ attributes:
 characterized_by:
 - object: bibo:Article
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/debian-med
+  schema_type: dlthings:Generation
 identifiers:
 - notation: zotero:group:6197458:item:3ZVYRXU7
   schema_type: dlthings:Identifier

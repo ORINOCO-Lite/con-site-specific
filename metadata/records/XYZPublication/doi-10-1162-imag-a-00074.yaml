@@ -82,6 +82,9 @@ description: "Abstract\n            Neuroimaging research faces a crisis of repr
   \ to data from the Healthy Brain Network (HBN; n = 2,565). Taken together, BABS\
   \ allows reproducible and scalable image processing and is broadly extensible via\
   \ an open-source development model."
+generated_by:
+- object: xyzrins:projects/datalad
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 10.1162/imag_a_00074
   schema_type: dlthings:DOI

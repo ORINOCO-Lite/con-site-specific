@@ -26,6 +26,9 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/datalad
+  schema_type: dlthings:Generation
 identifiers:
 - notation: http://www.pymvpa.org/files/OHBM2016_Halchenko_datalad.pdf
   schema_type: dlthings:Identifier

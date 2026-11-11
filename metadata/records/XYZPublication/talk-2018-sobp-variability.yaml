@@ -25,6 +25,8 @@ generated_by:
 - at_time: 2018-05
   object: xyzrins:.
   schema_type: dlthings:Generation
+- object: xyzrins:projects/neurodebian
+  schema_type: dlthings:Generation
 kind: bibo:Slideshow
 pid: xyzrins:publications/talk-2018-sobp-variability
 schema_type: xyzri:XYZPublication

@@ -26,6 +26,9 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/hyperalignment-infrastructure
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 10.1162/imag_a_00032
   schema_type: dlthings:DOI

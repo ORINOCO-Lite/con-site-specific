@@ -29,6 +29,9 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/pymvpa
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 10.1016/j.neuron.2011.08.026
   schema_type: dlthings:DOI

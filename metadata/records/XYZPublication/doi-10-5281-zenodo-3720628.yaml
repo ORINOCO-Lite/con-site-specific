@@ -40,6 +40,9 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/bids
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 10.5281/zenodo.3720628
   schema_type: dlthings:DOI

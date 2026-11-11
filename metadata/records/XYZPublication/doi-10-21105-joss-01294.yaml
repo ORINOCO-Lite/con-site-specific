@@ -47,6 +47,9 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/bids
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 10.21105/joss.01294
   schema_type: dlthings:DOI

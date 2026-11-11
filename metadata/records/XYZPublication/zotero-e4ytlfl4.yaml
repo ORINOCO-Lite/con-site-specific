@@ -16,6 +16,9 @@ attributes:
 characterized_by:
 - object: bibo:Thesis
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/pymvpa
+  schema_type: dlthings:Generation
 identifiers:
 - notation: http://www.onerussian.com/Sci/thesis
   schema_type: dlthings:Identifier

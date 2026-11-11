@@ -32,6 +32,9 @@ attributes:
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type
+generated_by:
+- object: xyzrins:projects/bids
+  schema_type: dlthings:Generation
 identifiers:
 - notation: zotero:group:6197458:item:C62B4PEX
   schema_type: dlthings:Identifier
