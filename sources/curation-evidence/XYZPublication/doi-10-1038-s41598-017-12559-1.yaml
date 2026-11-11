@@ -9,3 +9,11 @@ assertions:
   locator: Crossref work 10.1038/s41598-017-12559-1, author
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/0/object
+  value: xyzrins:publications/doi-10-1101-138297
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41598-017-12559-1
+  locator: Crossref work, relation
+  quote: '"has-preprint": 10.1101/138297'
+  confidence: certain
+  captured: '2026-11-11'

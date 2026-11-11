@@ -1,0 +1,35 @@
+record: xyzrins:publications/doi-10-52294-001c-92760
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2024-03-18'
+  kind: registry
+  source: https://api.crossref.org/works/10.52294/001c.92760
+  locator: Crossref work 10.52294/001c.92760, published
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Stefano Moia; Hao-Ting Wang; Anibal S. Heinsfeld; Dorota Jarecka; Yu Fang
+    Yang; Stephan Heunis; Michele Svanera; Benjamin De Leener; Andrea Gondová; Sin
+    Kim; Arshitha Basavaraj; Johanna M.M. Bayer; Roza G. Bayrak; Pierre-Louis Bazin;
+    Isil Poyraz Bilgin; Steffen Bollmann; Daniel Borek; Valentina Borghesani; Trang
+    Cao; Gang Chen; Alejandro De La Vega; Sebastian Dresbach; Philipp Ehses; Jan
+    Ernsting; Inês Esteves; Oscar Ferrante; Kelly G. Garner; Rémi Gau; Elodie Germani;
+    Tara Ghafari; Satrajit S. Ghosh; Sarah E. Goodale; Cassandra D. Gould van Praag;
+    Samuel Guay; Omer Faruk Gulban; Yaroslav O. Halchenko; Michael Hanke; Peer Herholz;
+    Katja Heuer; Felix Hoffstaedter; Ruoqi Huang; Renzo Huber; Ole Jensen; Kan Keeratimahat;
+    Julian Q. Kosciessa; Sladjana Lukic; Neville Magielse; Christopher J. Markiewicz;
+    Caroline G. Martin; Camille Maumet; Anna Menacher; Jeff Mentch; Christian Mönch;
+    Shammi More; Leonardo Muller-Rodriguez; Samuel A. Nastase; Eliana Nicolaisen-Sobesky;
+    Dylan M. Nielson; Christopher R. Nolan; François Paugam; Pedro Pinheiro-Chagas;
+    Ana Luísa Pinho; Alessandra Pizzuti; Benjamin Poldrack; Benedikt A. Poser; Roberta
+    Rocca; Jacob Sanz-Robinson; Kelvin Sarink; Kevin R. Sitek; Nadine Spychala;
+    Rüdiger Stirnberg; Michał Szczepanik; Mohammad Torabi; Roberto Toro; Sebastian
+    G.W. Urchs; Sofie L. Valk; Adina S. Wagner; Laura K. Waite; Alexander Q. Waite;
+    Lea Waller; Tyler J. Wishard; Jianxiao Wu; Yuchen Zhou; Janine D. Bijsterbosch;
+    The Physiopy Community
+  kind: registry
+  source: https://api.crossref.org/works/10.52294/001c.92760
+  locator: Crossref work 10.52294/001c.92760, author
+  confidence: certain
+  captured: '2026-11-11'

@@ -32,3 +32,11 @@ assertions:
   locator: Crossref work 10.1162/imag_a_00103, author
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/0/object
+  value: xyzrins:publications/doi-10-48550-arxiv-2309-05768
+  kind: registry
+  source: https://api.datacite.org/dois/10.48550/arxiv.2309.05768
+  locator: DataCite DOI, relatedIdentifiers
+  quote: '"relationType": "IsVersionOf", "relatedIdentifier": "10.1162/imag_a_00103"'
+  confidence: certain
+  captured: '2026-11-11'

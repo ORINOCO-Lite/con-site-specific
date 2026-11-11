@@ -39,6 +39,11 @@ identifiers:
   schema_type: dlthings:ISSN
 - notation: zotero:group:6197458:item:8SM6U444
   schema_type: dlthings:Identifier
+influenced_by:
+- object: xyzrins:publications/doi-10-1101-045104
+  roles:
+  - xyzrins:entity-roles/296e863e-7361-47ee-b337-e51a7e6bfe8d
+  schema_type: xyzri:XYZInfluence
 kind: bibo:AcademicArticle
 pid: xyzrins:publications/doi-10-1038-nn-4550
 schema_type: xyzri:XYZPublication

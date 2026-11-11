@@ -48,7 +48,7 @@ assertions:
     value: "2015-10-17"
     bound: upper
     kind: publication
-    source: xyzrins:publications/sfn2015-shared-representations
+    source: xyzrins:publications/zotero-iw32d26f
     locator: SfN 2015, Chicago, Poster 451.11
     quote: >-
       Finding Cortical Patches of Shared Representations / SFN 2015 Poster

@@ -2,6 +2,7 @@ attributed_to:
 - object: xyzrins:persons/yaroslav-halchenko
   roles:
   - marcrel:aut
+  - marcrel:spk
   schema_type: dlthings:Attribution
 - object: xyzrins:persons/benjamin-poldrack
   roles:
@@ -29,11 +30,19 @@ attributes:
 - predicate: bibo:authorList
   schema_type: dlthings:AttributeSpecification
   value: Yaroslav. O Halchenko; Benjamin Poldrack; Michael Hanke
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/pdfdeck.html?talk=2016-ohbm-datalad
+- predicate: dcat:downloadURL
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/2016-ohbm-datalad.pdf
 characterized_by:
 - object: bibo:Slideshow
   predicate: dcterms:type
+description: Talk at OHBM 2016, Geneva, Switzerland, 2016-06.
 generated_by:
-- object: xyzrins:projects/datalad
+- at_time: 2016-06
+  object: xyzrins:projects/datalad
   schema_type: dlthings:Generation
 identifiers:
 - notation: http://www.pymvpa.org/files/OHBM2016_Halchenko_datalad.pdf

@@ -1,0 +1,56 @@
+attributed_to:
+- object: xyzrins:persons/austin-macdonald
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/jean-baptiste-poline
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2026-05-21'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: 'Nipoppy: A framework for standardizing neuroimaging studies to facilitate
+    international derived-data sharing'
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: 'Nipoppy: A framework for standardizing neuroimaging studies to facilitate
+    international derived-data sharing'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Nikhil Bhagwat; Michelle Wang; Mathieu Dugré; Julia-Katharina Pfarr; Alyssa
+    Dai; Sebastian Urchs; Brent McPherson; Rémi Gau; Eva M. van Heese; Emile d’Angremont;
+    Max A. Laansma; Shweta Prasad; Jacob Sanz-Robinson; Mohammad Torabi; Arman Jahanpour;
+    Matthew Danyluik; Alice Joubert; Austin Macdonald; Lea Waller; Ashley Stewart; Matthieu
+    Joulot; Erin Dickie; Gabriel A. Devenyi; Sylvain Bouix; Steffen Bollmann; Neda Jahanshad;
+    Paul M. Thompson; Ninon Burgos; M. Mallar Chakravarty; Yaroslav O. Halchenko; Ysbrand
+    D. van der Werf; Jean-Baptiste Poline
+characterized_by:
+- object: fabio:Preprint
+  predicate: dcterms:type
+description: Neuroimaging data management and processing are tedious and error-prone,
+  prompting reproducibility concerns. Globally, studies with heterogeneous infrastructure
+  and governance policies lead to eclectic data processing and sharing, necessitating
+  standardization of data workflows to ensure reusability and comparability of multi-centric
+  datasets. The Nipoppy neuroinformatics framework facilitates such standardization
+  by combining specification, protocol, and software to manage study-level data workflows.
+  With its adoption, researchers can share standardized, derived datasets enabling efficient,
+  reproducible, and inclusive research.
+generated_by:
+- object: xyzrins:projects/nipoppy
+  schema_type: dlthings:Generation
+identifiers:
+- notation: 10.64898/2026.05.18.723593
+  schema_type: dlthings:DOI
+kind: fabio:Preprint
+pid: xyzrins:publications/doi-10-64898-2026-05-18-723593
+schema_type: xyzri:XYZPublication
+title: 'Nipoppy: A framework for standardizing neuroimaging studies to facilitate international
+  derived-data sharing'

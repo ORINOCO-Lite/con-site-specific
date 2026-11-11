@@ -12,3 +12,11 @@ assertions:
   locator: Crossref work 10.1162/imag_a_00074, author
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/0/object
+  value: xyzrins:publications/doi-10-1101-2023-08-16-552472
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/2023.08.16.552472
+  locator: Crossref work, relation
+  quote: '"is-preprint-of": 10.1162/imag_a_00074'
+  confidence: certain
+  captured: '2026-11-11'

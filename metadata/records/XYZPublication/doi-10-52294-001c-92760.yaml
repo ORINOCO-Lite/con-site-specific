@@ -1,0 +1,75 @@
+attributed_to:
+- object: xyzrins:persons/satrajit-ghosh
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/camille-maumet
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/samuel-nastase
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/benjamin-poldrack
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/adina-wagner
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2024-03-18'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Proceedings of the OHBM Brainhack 2022
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Proceedings of the OHBM Brainhack 2022
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Stefano Moia; Hao-Ting Wang; Anibal S. Heinsfeld; Dorota Jarecka; Yu Fang Yang;
+    Stephan Heunis; Michele Svanera; Benjamin De Leener; Andrea Gondová; Sin Kim; Arshitha
+    Basavaraj; Johanna M.M. Bayer; Roza G. Bayrak; Pierre-Louis Bazin; Isil Poyraz Bilgin;
+    Steffen Bollmann; Daniel Borek; Valentina Borghesani; Trang Cao; Gang Chen; Alejandro
+    De La Vega; Sebastian Dresbach; Philipp Ehses; Jan Ernsting; Inês Esteves; Oscar
+    Ferrante; Kelly G. Garner; Rémi Gau; Elodie Germani; Tara Ghafari; Satrajit S. Ghosh;
+    Sarah E. Goodale; Cassandra D. Gould van Praag; Samuel Guay; Omer Faruk Gulban;
+    Yaroslav O. Halchenko; Michael Hanke; Peer Herholz; Katja Heuer; Felix Hoffstaedter;
+    Ruoqi Huang; Renzo Huber; Ole Jensen; Kan Keeratimahat; Julian Q. Kosciessa; Sladjana
+    Lukic; Neville Magielse; Christopher J. Markiewicz; Caroline G. Martin; Camille
+    Maumet; Anna Menacher; Jeff Mentch; Christian Mönch; Shammi More; Leonardo Muller-Rodriguez;
+    Samuel A. Nastase; Eliana Nicolaisen-Sobesky; Dylan M. Nielson; Christopher R. Nolan;
+    François Paugam; Pedro Pinheiro-Chagas; Ana Luísa Pinho; Alessandra Pizzuti; Benjamin
+    Poldrack; Benedikt A. Poser; Roberta Rocca; Jacob Sanz-Robinson; Kelvin Sarink;
+    Kevin R. Sitek; Nadine Spychala; Rüdiger Stirnberg; Michał Szczepanik; Mohammad
+    Torabi; Roberto Toro; Sebastian G.W. Urchs; Sofie L. Valk; Adina S. Wagner; Laura
+    K. Waite; Alexander Q. Waite; Lea Waller; Tyler J. Wishard; Jianxiao Wu; Yuchen
+    Zhou; Janine D. Bijsterbosch; The Physiopy Community
+characterized_by:
+- object: bibo:AcademicArticle
+  predicate: dcterms:type
+description: OHBM Brainhack 2022 took place in June 2022. The first hybrid OHBM hackathon,
+  it had an in-person component taking place in Glasgow and three hubs around the globe
+  to improve inclusivity and fit as many timezones as possible. In the buzzing setting
+  of the Queen Margaret Union and of the virtual platform, 23 projects were presented
+  after development. Following are the reports of 14 of those, as well as a recapitulation
+  of the organisation of the event.
+identifiers:
+- notation: 10.52294/001c.92760
+  schema_type: dlthings:DOI
+kind: bibo:AcademicArticle
+pid: xyzrins:publications/doi-10-52294-001c-92760
+schema_type: xyzri:XYZPublication
+title: Proceedings of the OHBM Brainhack 2022

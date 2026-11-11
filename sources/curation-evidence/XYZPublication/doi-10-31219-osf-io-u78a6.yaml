@@ -1,0 +1,21 @@
+record: xyzrins:publications/doi-10-31219-osf-io-u78a6
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2018-12-18'
+  kind: registry
+  source: https://api.crossref.org/works/10.31219/osf.io/u78a6
+  locator: Crossref work 10.31219/osf.io/u78a6, published
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: David N. Kennedy; Satrajit S Ghosh; Tom Gillespie; Mathias Goncalves; Jeffrey
+    Sean Grethe; Yaroslav O Halchenko; Michael Hanke; Dorota Jarecka; Jakub Roman
+    Kaczmarzyk; David Keator; Kyle Meyer; Maryann Elizabeth Martone; Jean-Baptiste
+    Poline; Nina Preuss; Sanu Ann Abraham; Julianna F. Bates; Albert Crowley; Christian
+    Haselgrove; Steven M. Hodge; Smruti Padhy; Troy Sincomb
+  kind: registry
+  source: https://api.crossref.org/works/10.31219/osf.io/u78a6
+  locator: Crossref work 10.31219/osf.io/u78a6, author
+  confidence: certain
+  captured: '2026-11-11'

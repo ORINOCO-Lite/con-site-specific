@@ -12,3 +12,12 @@ assertions:
   locator: Crossref work 10.1016/j.neuroimage.2022.119623, author
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/0/object
+  value: xyzrins:publications/doi-10-31219-osf-io-pu5vb
+  kind: publication
+  source: https://www.oneukrainian.com/resume/halchenko_vita.tex
+  locator: YOH's curriculum vitae, \preprint{} of the entry
+  quote: \item \rbibentry{NBA+22} \openaccessdoi{10.1016/j.neuroimage.2022.119623}
+    \preprint{10.31219/osf.io/pu5vb}  \githubref{oreoni} % open and repro neuroi
+  confidence: certain
+  captured: '2026-11-11'

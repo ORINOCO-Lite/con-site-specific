@@ -1,0 +1,29 @@
+record: xyzrins:publications/doi-10-18112-openneuro-ds002345-v1-0-0
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2019'
+  kind: registry
+  source: https://api.datacite.org/dois/10.18112/openneuro.ds002345.v1.0.0
+  locator: DataCite DOI 10.18112/openneuro.ds002345.v1.0.0, publicationYear
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Samuel A. Nastase; Yun-Fei Liu; Hanna Hillman; Asieh Zadbood; Liat Hasenfratz;
+    Neggin Keshavarzian; Janice Chen; Christopher J. Honey; Yaara Yeshurun; Mor
+    Regev; Mai Nguyen; Claire H. C. Chang; Christopher Baldassano; Olga Lositsky;
+    Erez Simony; Michael A. Chow; Yuan Chang Leong; Paula P. Brooks; Emily Micciche;
+    Gina Choe; Ariel Goldstein; Yaroslav O. Halchenko; Kenneth A. Norman; Uri Hasson
+  kind: registry
+  source: https://api.datacite.org/dois/10.18112/openneuro.ds002345.v1.0.0
+  locator: DataCite DOI 10.18112/openneuro.ds002345.v1.0.0, creators
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: https://openneuro.org/datasets/ds002345
+  kind: registry
+  source: https://api.datacite.org/dois/10.18112/openneuro.ds002345.v1.0.0
+  locator: DataCite DOI 10.18112/openneuro.ds002345.v1.0.0, url
+  note: The dataset's page rather than this release's.
+  confidence: certain
+  captured: '2026-11-11'

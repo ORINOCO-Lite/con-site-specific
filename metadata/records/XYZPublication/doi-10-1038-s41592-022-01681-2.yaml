@@ -76,6 +76,11 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:YJDVXBFQ
   schema_type: dlthings:Identifier
+influenced_by:
+- object: xyzrins:publications/doi-10-1101-2021-02-10-430678
+  roles:
+  - xyzrins:entity-roles/296e863e-7361-47ee-b337-e51a7e6bfe8d
+  schema_type: xyzri:XYZInfluence
 kind: bibo:AcademicArticle
 pid: xyzrins:publications/doi-10-1038-s41592-022-01681-2
 schema_type: xyzri:XYZPublication

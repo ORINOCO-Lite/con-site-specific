@@ -8,3 +8,34 @@ assertions:
   locator: Zotero item, creators
   confidence: certain
   captured: '2026-11-11'
+- path: /kind
+  value: fabio:ConferencePoster
+  kind: publication
+  source: https://datasets.datalad.org/centerforopenneuroscience/talks/posters/cns-2010-neurodebian.pdf
+  locator: the Talks site, which lists it among the posters
+  note: Merged with the Talks-site record of the same poster (poster-2010-cns-neurodebian),
+    which had it as one.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /generated_by/0/at_time
+  value: 2010-04
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:poster-cns2010_fusion/docs/CNS2010_Program.pdf
+  locator: p. 204, Poster Session F, F128
+  quote: IMPROVING EFFICIENCY IN COGNITIVE NEUROSCIENCE RESEARCH WITH NEURODEBIAN
+  note: The meeting opened on 2010-04-17; only the month is claimed. The program
+    lists Hanke and Halchenko; the poster itself also names Haxby and Pollmann.
+  confidence: certain
+  captured: '2026-11-05'
+- path: /attributed_to/0/roles/1
+  value: marcrel:spk
+  kind: recollection
+  source: Yaroslav Halchenko, 2026-11-05
+  note: Asked who presented the poster, Yaroslav Halchenko answered "likely the
+    first author", and for the SfN 2010 NeuroDebian poster, both himself and Michael
+    Hanke.
+  confidence: approximate
+  would_confirm: the meeting program or a photo at the poster
+  witness: xyzrins:persons/yaroslav-halchenko
+  captured: '2026-11-05'

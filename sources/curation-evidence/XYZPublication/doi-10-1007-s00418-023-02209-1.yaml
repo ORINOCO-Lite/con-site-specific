@@ -22,3 +22,11 @@ assertions:
   locator: Crossref work 10.1007/s00418-023-02209-1, author
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/0/object
+  value: xyzrins:publications/doi-10-1101-2023-02-17-528834
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/2023.02.17.528834
+  locator: Crossref work, relation
+  quote: '"is-preprint-of": 10.1007/s00418-023-02209-1'
+  confidence: certain
+  captured: '2026-11-11'

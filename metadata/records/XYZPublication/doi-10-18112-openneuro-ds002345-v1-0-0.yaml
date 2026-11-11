@@ -1,0 +1,39 @@
+attributed_to:
+- object: xyzrins:persons/samuel-nastase
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2019'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Narratives
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Narratives
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Samuel A. Nastase; Yun-Fei Liu; Hanna Hillman; Asieh Zadbood; Liat Hasenfratz;
+    Neggin Keshavarzian; Janice Chen; Christopher J. Honey; Yaara Yeshurun; Mor Regev;
+    Mai Nguyen; Claire H. C. Chang; Christopher Baldassano; Olga Lositsky; Erez Simony;
+    Michael A. Chow; Yuan Chang Leong; Paula P. Brooks; Emily Micciche; Gina Choe; Ariel
+    Goldstein; Yaroslav O. Halchenko; Kenneth A. Norman; Uri Hasson
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://openneuro.org/datasets/ds002345
+characterized_by:
+- object: fabio:Dataset
+  predicate: dcterms:type
+identifiers:
+- notation: 10.18112/openneuro.ds002345.v1.0.0
+  schema_type: dlthings:DOI
+kind: fabio:Dataset
+pid: xyzrins:publications/doi-10-18112-openneuro-ds002345-v1-0-0
+schema_type: xyzri:XYZPublication
+title: Narratives

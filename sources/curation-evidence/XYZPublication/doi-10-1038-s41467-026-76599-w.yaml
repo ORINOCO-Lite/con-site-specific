@@ -28,3 +28,14 @@ assertions:
     also names NSF 1835200, which has no record here.
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/2/object
+  value: xyzrins:publications/doi-10-1101-2024-11-26-624178
+  kind: publication
+  source: https://doi.org/10.1101/2024.11.26.624178
+  locator: title and authors
+  quote: Behaviorally-relevant features of observed actions dominate cortical representational
+    geometry in natural vision
+  note: The same title and the same CON authors; the journal published it after
+    the preprint.
+  confidence: certain
+  captured: '2026-11-11'

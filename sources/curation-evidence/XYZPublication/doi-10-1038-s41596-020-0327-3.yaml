@@ -21,3 +21,11 @@ assertions:
   locator: Crossref work 10.1038/s41596-020-0327-3, author
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/0/object
+  value: xyzrins:publications/doi-10-1101-694364
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41596-020-0327-3
+  locator: Crossref work, relation
+  quote: '"has-preprint": 10.1101/694364'
+  confidence: certain
+  captured: '2026-11-11'

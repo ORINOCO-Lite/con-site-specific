@@ -452,6 +452,21 @@ influenced_by:
 OpenNeuro and DataLad are ReproNim's collaborative projects; they had been
 `part_of` it, which made them read as ReproNim's components.
 
+## Preprints and datasets
+
+A preprint is a publication of kind `fabio:Preprint`.  Once it is published,
+the journal's record names it in `influenced_by` with the role
+`xyzrins:entity-roles/296e863e-7361-47ee-b337-e51a7e6bfe8d` ("Preprint";
+`XYZEntityRole/preprint.yaml`), and the site lists the paper with a link to
+its preprint instead of listing both.  The evidence for the pairing is the
+registry's relation (Crossref `has-preprint`/`is-preprint-of`, DataCite
+`IsVersionOf`) where there is one.
+
+A dataset is a publication of kind `fabio:Dataset`, by the DOI of its first
+release; a paper that analyses it names it in `influenced_by` with no role.
+Only datasets whose DOI record lists a CON member among its creators are
+recorded -- OpenNeuro's search also finds datasets that merely mention one.
+
 ## Open questions
 
 Narrowed from four; two are now answered.

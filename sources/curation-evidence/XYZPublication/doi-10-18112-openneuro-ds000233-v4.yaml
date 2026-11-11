@@ -1,0 +1,26 @@
+record: xyzrins:publications/doi-10-18112-openneuro-ds000233-v4
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2018'
+  kind: registry
+  source: https://api.datacite.org/dois/10.18112/openneuro.ds000233.v4
+  locator: DataCite DOI 10.18112/openneuro.ds000233.v4, publicationYear
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Samuel A. Nastase; Yaroslav O. Halchenko; Andrew C. Connolly; M. Ida Gobbini;
+    James V. Haxby
+  kind: registry
+  source: https://api.datacite.org/dois/10.18112/openneuro.ds000233.v4
+  locator: DataCite DOI 10.18112/openneuro.ds000233.v4, creators
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: https://openneuro.org/datasets/ds000233
+  kind: registry
+  source: https://api.datacite.org/dois/10.18112/openneuro.ds000233.v4
+  locator: DataCite DOI 10.18112/openneuro.ds000233.v4, url
+  note: The dataset's page rather than this release's.
+  confidence: certain
+  captured: '2026-11-11'

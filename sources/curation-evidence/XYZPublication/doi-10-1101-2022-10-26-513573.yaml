@@ -1,0 +1,36 @@
+record: xyzrins:publications/doi-10-1101-2022-10-26-513573
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2022-10-30'
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/2022.10.26.513573
+  locator: Crossref work 10.1101/2022.10.26.513573, published
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: BICCN Data Ecosystem Collaboration; Michael J Hawrylycz; Maryann E Martone;
+    Patrick R Hof; Ed S Lein; Aviv Regev; Giorgio A. A Ascoli; Jan G Bjaalie; Hong-Wei
+    Dong; Satrajit S Ghosh; Jesse Gillis; Ronna Hertzano; David R Haynor; Yongsoo
+    Kim; Yufeng Liu; Jeremy A Miller; Partha P Mitra; Eran Mukamel; David Osumi-Sutherland;
+    Hanchuan Peng; Patrick L Ray; Raymond Sanchez; Alex Ropelewski; Richard H Scheuermann;
+    Shawn Z K Tan; Timothy Tickle; Hagen Tilgner; Merina Varghese; Brock Wester;
+    Owen White; Brian Aevermann; David Allemang; Seth Ament; Thomas L Athey; Pamela
+    M Baker; Cody Baker; Katherine S Baker; Anita Bandrowski; Prajal Bishwakarma;
+    Ambrose Carr; Min Chen; Roni Choudhury; Jonah Cool; Heather Creasy; Florence
+    D'Orazi; Kylee Degatano; Benjamin Dichter; Song-Lin Ding; Tim Dolbeare; Joseph
+    R Ecker; Rongxin Fang; Jean-Christophe Fillion-Robin; Timothy P Fliss; James
+    Gee; Tom Gillespie; Nathan Gouwens; Yaroslav O Halchenko; Nomi Harris; Brian
+    R Herb; Houri Hintiryan; Gregory Hood; Sam Horvath; Dorota Jarecka; Shengdian
+    Jiang; Farzaneh Khajouei; Elizabeth A Kiernan; Huseyin Kir; Lauren Kruse; Changkyu
+    Lee; Boudewijn Lelieveldt; Yang Li; Hanqing Liu; Anup Markuhar; James Mathews;
+    Kaylee L Mathews; Michael I Miller; Tyler Mollenkopf; Shoaib Mufti; Christopher
+    J Mungall; Lydia Ng; Joshua Orvis; Maja A Puchades; Lei Qu; Joseph P Receveur;
+    Bing Ren; Nathan Sjoquist; Brian Staats; Carol L Thompson; Daniel Tward; Cindy
+    T J van Velthoven; Quanxin Wang; Fangming Xie; Hua Xu; Zizhen Yao; Zhixi Yun;
+    Hongkui Zeng; Guo-Qiang Zhang; Yun R Zhang; Jim W Zheng; Brian Zingg
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/2022.10.26.513573
+  locator: Crossref work 10.1101/2022.10.26.513573, author
+  confidence: certain
+  captured: '2026-11-11'

@@ -1,0 +1,18 @@
+record: xyzrins:publications/doi-10-1101-268144
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2018-02-20'
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/268144
+  locator: Crossref work 10.1101/268144, published
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Samuel A. Nastase; Yaroslav O. Halchenko; Andrew C. Connolly; M. Ida Gobbini;
+    James V. Haxby
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/268144
+  locator: Crossref work 10.1101/268144, author
+  confidence: certain
+  captured: '2026-11-11'

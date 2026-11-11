@@ -16,3 +16,12 @@ assertions:
   locator: Crossref work 10.1002/hbm.25351, author
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/0/object
+  value: xyzrins:publications/doi-10-31234-osf-io-f6mnp
+  kind: publication
+  source: https://www.oneukrainian.com/resume/halchenko_vita.tex
+  locator: YOH's curriculum vitae, \preprint{} of the entry
+  quote: \item \rbibentry{BBB+21} \openaccessdoi{10.1002/hbm.25351} \preprint{10.31234/osf.io/f6mnp}  \githubref{con/open-brain-consent}
+    % open brain consent
+  confidence: certain
+  captured: '2026-11-11'

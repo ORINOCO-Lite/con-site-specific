@@ -1,0 +1,26 @@
+record: xyzrins:publications/doi-10-3389-fnins-2018-00316
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2018-05-15'
+  kind: registry
+  source: https://api.crossref.org/works/10.3389/fnins.2018.00316
+  locator: Crossref work 10.3389/fnins.2018.00316, published
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Samuel A. Nastase; Yaroslav O. Halchenko; Andrew C. Connolly; M. Ida Gobbini;
+    James V. Haxby
+  kind: registry
+  source: https://api.crossref.org/works/10.3389/fnins.2018.00316
+  locator: Crossref work 10.3389/fnins.2018.00316, author
+  confidence: certain
+  captured: '2026-11-11'
+- path: /influenced_by/0/object
+  value: xyzrins:publications/doi-10-1101-268144
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/268144
+  locator: Crossref work, relation
+  quote: '"is-preprint-of": 10.3389/fnins.2018.00316'
+  confidence: certain
+  captured: '2026-11-11'

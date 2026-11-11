@@ -76,7 +76,7 @@ attributes:
     Thirion; Adam G. Thomas; Sajjad Torabian; Gael Varoquaux; Bradley Voytek; Julius
     Welzel; Martin Wilson; Tal Yarkoni; Krzysztof J. Gorgolewski
 characterized_by:
-- object: bibo:AcademicArticle
+- object: fabio:Preprint
   predicate: dcterms:type
 description: The Brain Imaging Data Structure (BIDS) is a community-driven standard
   for the organization of data and metadata from a growing range of neuroscience modalities.
@@ -95,7 +95,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:A8MQ2A7G
   schema_type: dlthings:Identifier
-kind: bibo:AcademicArticle
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-48550-arxiv-2309-05768
 schema_type: xyzri:XYZPublication
 title: The Past, Present, and Future of the Brain Imaging Data Structure (BIDS)

@@ -1,0 +1,74 @@
+attributed_to:
+- object: xyzrins:persons/camille-maumet
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/satrajit-ghosh
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/russell-poldrack
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/franco-pestilli
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/david-kennedy
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/jean-baptiste-poline
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2026-10-27'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: 'Neurobagel: building an international network for distributed data discovery'
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: 'Neurobagel: building an international network for distributed data discovery'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Sebastian Georg Wenzel Urchs; Alyssa Dai; Arman Jahanpour; Michelle Wang; Mathieu
+    Dugré; Nikhil Bhagwat; Brent Caleb McPherson; Julia-Katharina Pfarr; Eva van Heese;
+    Max A. Laansma; Emile d'Angremont; Barbara Strasser-Kirchweger; Camille MAUMET;
+    Jeffrey Sean Grethe; Vincent Taschereau-Dumouchel; Lyuba Zehl; Gabriel Allan Devenyi;
+    Florian Hutzler; Sean N Hatton; Michael Hanke; Erin W Dickie; Francis Jeanson; Yaroslav
+    O Halchenko; Christopher Johnson Markiewicz; Katie M. Lavigne; Neda Jahanshad; Paul
+    Thompson; David Keator; Satrajit S Ghosh; Russell A. Poldrack; Stéphane Lehéricy;
+    Jan G. Bjaalie; Franco Pestilli; David N. Kennedy; Ysbrand van der Werf; Tristan
+    Glatard; M. Mallar Chakravarty; Jean-Baptiste Poline
+characterized_by:
+- object: fabio:Preprint
+  predicate: dcterms:type
+description: International data privacy regulations impede the pooling of research data
+  for collaborative analysis. We introduce Neurobagel, a federated network enabling
+  cohort discovery across locally governed, access-controlled datasets. Through intuitive
+  graphical tools and a decentralized query infrastructure, Neurobagel facilitates harmonization,
+  control, and discovery of data according to local regulations. Today, Neurobagel is
+  deployed by consortia and data platforms in Europe, North America, Asia, and Australia,
+  supporting diverse and evolving regulatory frameworks.
+generated_by:
+- object: xyzrins:projects/neurobagel
+  schema_type: dlthings:Generation
+identifiers:
+- notation: 10.31222/osf.io/x64tn_v2
+  schema_type: dlthings:DOI
+kind: fabio:Preprint
+pid: xyzrins:publications/doi-10-31222-osf-io-x64tn-v2
+schema_type: xyzri:XYZPublication
+title: 'Neurobagel: building an international network for distributed data discovery'

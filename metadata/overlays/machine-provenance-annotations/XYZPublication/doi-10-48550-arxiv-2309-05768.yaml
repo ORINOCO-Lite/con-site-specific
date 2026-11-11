@@ -15,8 +15,4 @@ assertions:
   path: /attributes
   pav:importedBy: xyzrins:source-adapters/zotero/v1
   pav:importedFrom: https://api.zotero.org/groups/6197458/items/A8MQ2A7G
-- assertion_sha256: sha256:daaf525b6f3d3378a5630d6cee38e0b0b19098a51ceab864edf5e50321977190
-  path: /characterized_by
-  pav:importedBy: xyzrins:source-adapters/zotero/v1
-  pav:importedFrom: https://api.zotero.org/groups/6197458/items/A8MQ2A7G
 record: xyzrins:publications/doi-10-48550-arxiv-2309-05768

@@ -96,6 +96,11 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:CMI7RGJ8
   schema_type: dlthings:Identifier
+influenced_by:
+- object: xyzrins:publications/doi-10-1101-2022-10-26-513573
+  roles:
+  - xyzrins:entity-roles/296e863e-7361-47ee-b337-e51a7e6bfe8d
+  schema_type: xyzri:XYZInfluence
 kind: bibo:AcademicArticle
 pid: xyzrins:publications/doi-10-1371-journal-pbio-3002133
 schema_type: xyzri:XYZPublication

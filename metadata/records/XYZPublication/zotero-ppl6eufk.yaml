@@ -2,6 +2,7 @@ attributed_to:
 - object: xyzrins:persons/samuel-nastase
   roles:
   - marcrel:aut
+  - obo:MS_1002034
   schema_type: dlthings:Attribution
 - object: xyzrins:persons/james-haxby
   roles:
@@ -10,6 +11,7 @@ attributed_to:
 - object: xyzrins:persons/yaroslav-halchenko
   roles:
   - marcrel:aut
+  - obo:MS_1002035
   schema_type: dlthings:Attribution
 attributes:
 - predicate: dcterms:issued
@@ -25,18 +27,32 @@ attributes:
     stimuli
 - predicate: bibo:presentedAt
   schema_type: dlthings:AttributeSpecification
-  value: Annual meeting of the Society for Neuroscience, Chicago, IL
+  value: Annual meeting of the Society for Neuroscience, San Diego, CA
 - predicate: bibo:authorList
   schema_type: dlthings:AttributeSpecification
   value: Samuel A. Nastase; J. Swaroop Guntupalli; James V. Haxby; Yaroslav O. Halchenko
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://f1000research.com/posters/5-2830
+- predicate: dcterms:language
+  schema_type: dlthings:AttributeSpecification
+  value: en
 characterized_by:
 - object: fabio:ConferencePoster
   predicate: dcterms:type
+description: Nastase SA, Guntupalli JS, Haxby JV and Halchenko YO (2016). Localizing
+  functional regions of interest based on responses to dynamic naturalistic stimuli.
+  Society for Neuroscience, San Diego.
 generated_by:
-- object: xyzrins:projects/region-localization
+- at_time: '2016-11-12'
+  object: xyzrins:projects/region-localization
   schema_type: dlthings:Generation
 identifiers:
 - notation: zotero:group:6197458:item:PPL6EUFK
+  schema_type: dlthings:Identifier
+- notation: 10.7490/f1000research.1113507.1
+  schema_type: dlthings:DOI
+- notation: https://doi.org/10.7490/f1000research.1113507.1
   schema_type: dlthings:Identifier
 kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-ppl6eufk

@@ -1,0 +1,110 @@
+attributed_to:
+- object: xyzrins:persons/samuel-nastase
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/satrajit-ghosh
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/horea-ioanas
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/david-kennedy
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/camille-maumet
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/jean-baptiste-poline
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/matteo-visconti-di-oleggio-castello
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2021-02-12'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: 'Brainhack: developing a culture of open, inclusive, community-driven neuroscience'
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: 'Brainhack: developing a culture of open, inclusive, community-driven neuroscience'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Remi Gau; Stephanie Noble; Katja Heuer; Katherine L Bottenhorn; Isil Poyraz
+    Bilgin; Yu-Fang Yang; Julia M Huntenburg; Johanna Margarete Marianne Bayer; Richard
+    A.I. Bethlehem; Shawn A Rhoads; Christoph Vogelbacher; Valentina Borghesani; Elizabeth
+    Levitis; Hao-Ting Wang; Sofie Van Den Bossche; Xenia Kobeleva; Jon Haitz Legarreta
+    Gorroño; Samuel Guay; Melvin Selim ATAY; Gael P. Varoquaux; Dorien Huijser; Malin
+    Sofia Sandström; Peer Herholz; Samuel A. Nastase; AmanPreet Badhwar; Guillaume Dumas;
+    Simon Schwab; Stefano Moia; Michael Dayan; Yasmine Bassil; Paula P. Brooks; Matteo
+    Mancini; James Shine; David O'Connor; Xihe Xie; Davide Poggiali; Anibal Solon Heinsfeld;
+    Patrick Friedrich; Lydia Riedl; Roberto Toro; César Caballero-Gaudes; Anders Eklund;
+    Kelly Garner; Christopher Raymond Nolan; Damion Demeter; Fernando Alejandro Barrios;
+    Junaid Salim Merchant; Elizabeth Ann McDevitt; Robert Oostenveld; Cameron Craddock;
+    Ariel Rokem; Andrew Doyle; Nathalia Bianchini Esper; Satrajit S Ghosh; Georg Langs;
+    Aki Nikolaidis; Olivia Stanley; Eneko Uruñuela; Brainhack community; nasim anousheh;
+    Guillaume Auzias; Aurina Arnatkeviciute; Dipankar Bachar; Elise Bannier; Ruggero
+    Basanisi; Arshitha Basavaraj; Marco Bedini; Pierre Bellec; R. Austin Benn; Kathryn
+    Berluti; Saskia Bollmann; Steffen Bollmann; Claire Bradley; Jesse Brown; Augusto
+    Buchweitz; Patrick Callahan; Micaela Chan; Bramsh Q. Chandio; Theresa W Cheng; Sidhant
+    Chopra; Ai Wern Chung; Thomas Close; Etienne Combrisson; Giorgia Cona; Robert T.
+    Constable; Claire Cury; KamalakerDadi; Samir Das; Pablo F. Damasceno; Fabrizio De
+    Vico Fallani; Krista Leigh DeStasio; Erin W Dickie; Lena Dorfschmidt; Eugene Duff;
+    Elizabeth DuPre; Sarah Louise Dziura; Oscar Esteban; Shreyas Fadnavis; Guillaume
+    Flandin; Jessica E. Flannery; John Coleman Flournoy; Stephanie J Forkel; Alexandre
+    Franco; Saampras Ganesan; Siyuan Gao; José C. García Alanis; Eleftherios Garyfallidis;
+    Tristan Glatard; Enrico Glerean; Javier Gonzalez-Castillo; Cassandra Doris Gould
+    van Praag; Abigail S. Greene; Geetika Gupta; Catherine Alice Hahn; Yaroslav O Halchenko;
+    Daniel A. Handwerker; Thomas S Hartmann; Valérie Hayot-Sasson; Stephan Heunis; Felix
+    Hoffstaedter; Corey Horien; Daniela Michelle Hohmann; Horea-Ioan Ioanas; Jason Kai;
+    Michael Joseph; Agah Karakuzu; David N. Kennedy; Anisha Keshavan; Ali Raza Khan;
+    Greg Kiar; P. Christiaan Klink; Vincent Koppelmans; Serge Koudoro; Angie Laird;
+    Marissa Laws; Roxane Licandro; Sook-Lei Liew; Tomislav Lipic; Krisanne Litinas;
+    Daniel J Lurie; Désirée Lussier; Christopher R Madan; Lea-Theresa Mais; Sina Mansour
+    L.; J. P. Manzano-Patron; Dimitra Maoutsa; Matheus Marcon; Daniel S. Margulies;
+    Giorgio Marinato; Daniele Marinazzo; Christopher Johnson Markiewicz; Camille MAUMET;
+    Felipe Meneguzzi; David Meunier; Michael Milham; Kathryn L. Mills; Davide Momi;
+    Clara A Moreau; Aysha Motala; Iska Moxon-Emre; Thomas Nichols; Dylan M Nielson;
+    Gustav Nilsonne; Lisa Novello; Caroline O'Brien; Emily Olafson; Lindsay D Oliver;
+    John A. Onofrey; Edwina R Orchard; Kendra Oudyk; Patrick Park; mah Parsa; Lorenzo
+    Pasquini; Scott Peltier; Cyril R Pernet; Rudolph Pienaar; Pedro Pinheiro-Chagas;
+    Jean-Baptiste Poline; Anqi Qiu; Tiago Quendera; Laura Rice; Joscelin Rocha-Hidalgo;
+    Saige Rutherford; Mathias Scharinger; Dustin Scheinost; Deena Shariq; Thomas Shaw;
+    Viviana Siless; Molly Simmonite; Nikoloz Sirmpilatze; Hayli Spence; Julia Sprenger;
+    Andrija Stajduhar; Sylvain Takerkart; Martin Szinte; Angela Tam; Link Tejavibulya;
+    Michel Thiebaut; Ina Thome; Laura Tomaz da Silva; Nicolas Traut; Lucina Uddin; Antonino
+    Vallesi; Ashley S. VanMeter; Nandita Vijayakumar; Matteo Visconti di Oleggio Castello;
+    Jakub Vohryzek; Jakša Vukojević; Kirstie Jane Whitaker; Lucy Whitmore; Steve Wideman;
+    Suzanne Witt; hua xie; Ting Xu; Chao-Gan Yan; Fang-Cheng Yeh; B.T. Thomas Yeo; Xi-Nian
+    Zuo
+characterized_by:
+- object: fabio:Preprint
+  predicate: dcterms:type
+description: Brainhack is an innovative meeting format that promotes scientific collaboration
+  and education in an open and inclusive environment. Departing from the formats of
+  typical scientific workshops, these events are based on grassroots projects and training,
+  and foster open and reproducible scientific practices. We describe here the multifaceted,
+  lasting benefits of Brainhacks for individual participants, particularly early career
+  researchers. We further highlight the unique contributions that Brainhacks can make
+  to the research community, contributing to scientific progress by complementing opportunities
+  available in conventional formats.
+identifiers:
+- notation: 10.31234/osf.io/rytjq
+  schema_type: dlthings:DOI
+kind: fabio:Preprint
+pid: xyzrins:publications/doi-10-31234-osf-io-rytjq
+schema_type: xyzri:XYZPublication
+title: 'Brainhack: developing a culture of open, inclusive, community-driven neuroscience'

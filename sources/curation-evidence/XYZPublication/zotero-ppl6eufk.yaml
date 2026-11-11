@@ -12,18 +12,49 @@ assertions:
   confidence: certain
   captured: '2026-11-11'
 - path: /attributes/3/value
-  value: Annual meeting of the Society for Neuroscience, Chicago, IL
+  value: Annual meeting of the Society for Neuroscience, San Diego, CA
   kind: registry
-  source: https://api.zotero.org/groups/6197458/items/PPL6EUFK
-  locator: Zotero item, extra
-  quote: 'Published: Poster presented at the annual meeting of the Society for Neuroscience,
-    Chicago, IL'
+  source: https://doi.org/10.7490/f1000research.1113507.1
+  locator: F1000Research 2016, 5:2830 (poster)
+  quote: Presented at 46th Annual Meeting of the Society for Neuroscience 2016
   confidence: certain
   captured: '2026-11-11'
+  note: The Zotero item says "Chicago, IL", where SfN met in 2015; the poster record
+    says 2016, which met in San Diego.
 - path: /attributes/4/value
   value: Samuel A. Nastase; J. Swaroop Guntupalli; James V. Haxby; Yaroslav O. Halchenko
   kind: registry
   source: https://api.zotero.org/groups/6197458/items/PPL6EUFK
   locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'
+- path: /generated_by/0/at_time
+  value: '2016-11-12'
+  bound: upper
+  kind: publication
+  source: https://doi.org/10.7490/f1000research.1113507.1
+  locator: F1000Research 2016, 5:2830 (poster)
+  quote: Presented at 46th Annual Meeting of the Society for Neuroscience 2016
+  note: The opening day of that meeting, Neuroscience 2016, which ran 2016-11-12
+    to 2016-11-16 in San Diego.  An upper bound, as with any conference date.  The
+    poster's F1000Research record (posted 2016-12-07, the same four authors) settles
+    the year and the meeting that the Zotero item PPL6EUFK and the Haxby lab's publication
+    list contradict, both giving "Chicago, IL" -- where SfN met in 2015.
+  confidence: approximate
+  captured: '2026-11-03'
+- path: /attributes/5/value
+  value: https://f1000research.com/posters/5-2830
+  kind: publication
+  source: xyzrins:publications/sfn2016-localizing-roi
+  locator: foaf:homepage
+  note: From the hand-made record of the same poster, merged into this one.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/6/value
+  value: en
+  kind: publication
+  source: xyzrins:publications/sfn2016-localizing-roi
+  locator: dcterms:language
+  note: From the hand-made record of the same poster, merged into this one.
   confidence: certain
   captured: '2026-11-11'

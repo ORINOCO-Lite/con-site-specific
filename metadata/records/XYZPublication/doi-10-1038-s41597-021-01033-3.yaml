@@ -68,6 +68,13 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:NFYHSYVV
   schema_type: dlthings:Identifier
+influenced_by:
+- object: xyzrins:publications/doi-10-1101-2020-12-23-424091
+  roles:
+  - xyzrins:entity-roles/296e863e-7361-47ee-b337-e51a7e6bfe8d
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:publications/doi-10-18112-openneuro-ds002345-v1-0-0
+  schema_type: xyzri:XYZInfluence
 kind: bibo:AcademicArticle
 pid: xyzrins:publications/doi-10-1038-s41597-021-01033-3
 schema_type: xyzri:XYZPublication

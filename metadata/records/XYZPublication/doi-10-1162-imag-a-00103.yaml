@@ -85,6 +85,11 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:YTICP679
   schema_type: dlthings:Identifier
+influenced_by:
+- object: xyzrins:publications/doi-10-48550-arxiv-2309-05768
+  roles:
+  - xyzrins:entity-roles/296e863e-7361-47ee-b337-e51a7e6bfe8d
+  schema_type: xyzri:XYZInfluence
 kind: bibo:AcademicArticle
 pid: xyzrins:publications/doi-10-1162-imag-a-00103
 schema_type: xyzri:XYZPublication

@@ -7,11 +7,11 @@ The rest was fixed together with the validator rules that keep it fixed: the red
 
 - `meta-brain-and-ai` has no award period and no public record to take one from.
 - The talks imported from `pymvpa/papers` carry what their slides and commits say, and no more:
-  - only a place or a word is known of the venue of `talk-2008-cambridge-pymvpa`, `talk-2009-bccn-pymvpa`, `talk-2015-hackathon-neurodebian`, `talk-2011-psychopy-workshop`, `talk-2018-sobp-variability`, `talk-2019-umass-tales` and `talk-2019-brown-open-science`;
+  - only a place or a word is known of the venue of `talk-2008-cambridge-pymvpa`, `talk-2009-bccn-pymvpa`, `talk-2015-hackathon-neurodebian`, `talk-2011-psychopy-workshop`, `zotero-7u85zj95` (was `talk-2018-sobp-variability`), `talk-2019-umass-tales` and `talk-2019-brown-open-science`;
   - most dates are months taken from commits or PDF build dates, `talk-2013-sea-debian` overrides its title slide (see its evidence), and the workshops in Giessen and York have their month only, not their day;
   - `marcrel:spk` is set only where a slide or file name shows who spoke, so joint talks without such a hint have authors but no speaker.
-- Four Zotero records are the same talks as records added here: `zotero-4j5d6v7h` = `talk-2016-ohbm-pr4ni-resources`, `zotero-5z7a6krc` = `talk-2015-ohbm-signitools`, `zotero-7ahrxd2x` = `talk-2016-ohbm-datalad`, `zotero-7u85zj95` = `talk-2018-sobp-variability`.
-  Decide whether to retire the Zotero items; editing the records here would not survive the next import.
+- Duplicates were merged into the Zotero-imported record, keeping its pid: `zotero-4j5d6v7h` ← `talk-2016-ohbm-pr4ni-resources`, `zotero-5z7a6krc` ← `talk-2015-ohbm-signitools`, `zotero-7ahrxd2x` ← `talk-2016-ohbm-datalad`, `zotero-7u85zj95` ← `talk-2018-sobp-variability`, `zotero-yq6vtmde` ← `poster-2012-sfn-familiar-faces`, `zotero-hywv9d2a` ← `poster-2010-cns-neurodebian`, `zotero-iw32d26f` ← `sfn2015-shared-representations`, `zotero-ppl6eufk` ← `sfn2016-localizing-roi`, `zotero-d46pfxj5` ← `doi-10-1093-cercor-bhx138`, and `doi-10-1162-neco-2007-09-06-340` ← `neco-brain-reading-2008`.
+  What they brought (dates, slides, roles, DOIs, kinds, the SfN 2016 venue) is only here: reflect it back into Zotero before the next import, or that import overwrites it.
 
 ## Upstream of this repository
 

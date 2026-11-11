@@ -2,6 +2,7 @@ attributed_to:
 - object: xyzrins:persons/yaroslav-halchenko
   roles:
   - marcrel:aut
+  - marcrel:spk
   schema_type: dlthings:Attribution
 - object: xyzrins:persons/jason-gors
   roles:
@@ -27,9 +28,19 @@ attributes:
 - predicate: bibo:authorList
   schema_type: dlthings:AttributeSpecification
   value: Y. O. Halchenko; J. Gors; J. S. Guntupalli; J. V. Haxby; M. I. Gobbini
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/posters/sfn-2012-familiar-faces.pdf
 characterized_by:
 - object: fabio:ConferencePoster
   predicate: dcterms:type
+description: 'Poster at Society for Neuroscience Annual Meeting (SfN 2012), 2012-10.
+  Authors: Yaroslav O. Halchenko, Jason Gors, J. Swaroop Guntupalli, James V. Haxby,
+  M. Ida Gobbini.'
+generated_by:
+- at_time: 2012-10
+  object: xyzrins:projects/pymvpa
+  schema_type: dlthings:Generation
 identifiers:
 - notation: http://haxbylab.dartmouth.edu/publications/HGG+12_sfn12_famfaces.png
   schema_type: dlthings:Identifier

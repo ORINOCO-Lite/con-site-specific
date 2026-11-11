@@ -1,0 +1,19 @@
+record: xyzrins:publications/doi-10-1101-2021-06-28-450168
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2021-06-29'
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/2021.06.28.450168
+  locator: Crossref work 10.1101/2021.06.28.450168, published
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Christopher J. Markiewicz; Krzysztof J. Gorgolewski; Franklin Feingold;
+    Ross Blair; Yaroslav O. Halchenko; Eric Miller; Nell Hardcastle; Joe Wexler;
+    Oscar Esteban; Mathias Goncalves; Anita Jwa; Russell A. Poldrack
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/2021.06.28.450168
+  locator: Crossref work 10.1101/2021.06.28.450168, author
+  confidence: certain
+  captured: '2026-11-11'

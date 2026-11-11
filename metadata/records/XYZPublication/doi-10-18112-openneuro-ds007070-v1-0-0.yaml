@@ -1,0 +1,38 @@
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/tor-wager
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2026'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: fMRIPrep Derivatives for SpaceTop
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: fMRIPrep Derivatives for SpaceTop
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Heejung Jung; Maryam Amini; Bethany J. Hung; Eilis I. Murphy; Patrick Sadil;
+    Yaroslav O. Halchenko; Bogdan Petre; Zizhuang Miao; Philip A. Kragel; Xiaochun Han;
+    Mickela O. Heilicher; Michael Sun; Owen G. Collins; Martin A. Lindquist; Tor D.
+    Wager
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://openneuro.org/datasets/ds007070
+characterized_by:
+- object: fabio:Dataset
+  predicate: dcterms:type
+identifiers:
+- notation: 10.18112/openneuro.ds007070.v1.0.0
+  schema_type: dlthings:DOI
+kind: fabio:Dataset
+pid: xyzrins:publications/doi-10-18112-openneuro-ds007070-v1-0-0
+schema_type: xyzri:XYZPublication
+title: fMRIPrep Derivatives for SpaceTop

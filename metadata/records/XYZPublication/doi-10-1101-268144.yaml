@@ -1,0 +1,56 @@
+attributed_to:
+- object: xyzrins:persons/samuel-nastase
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/james-haxby
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/andy-connolly
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2018-02-20'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Neural responses to naturalistic clips of behaving animals in two different
+    task contexts
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Neural responses to naturalistic clips of behaving animals in two different
+    task contexts
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Samuel A. Nastase; Yaroslav O. Halchenko; Andrew C. Connolly; M. Ida Gobbini;
+    James V. Haxby
+characterized_by:
+- object: fabio:Preprint
+  predicate: dcterms:type
+description: Neuroimaging studies of object and action representation often use controlled
+  stimuli and implicitly assume that the relevant neural representational spaces are
+  fixed and context-invariant. Here we present functional MRI data measured while participants
+  freely viewed brief naturalistic video clips of behaving animals in two different
+  task contexts. Participants performed a 1-back category repetition detection task
+  requiring them to attend to either animal taxonomy or animal behavior. The data and
+  analysis code are freely available, and have been curated according to the Brain Imaging
+  Data Structure (BIDS) standard. We thoroughly describe the data, provide quality control
+  metrics, and perform a searchlight classification analysis to demonstrate the potential
+  utility of the data. These data are intended to provide a test bed for investigating
+  how task demands alter the neural representation of complex stimuli and their semantic
+  qualities.
+identifiers:
+- notation: 10.1101/268144
+  schema_type: dlthings:DOI
+kind: fabio:Preprint
+pid: xyzrins:publications/doi-10-1101-268144
+schema_type: xyzri:XYZPublication
+title: Neural responses to naturalistic clips of behaving animals in two different task
+  contexts

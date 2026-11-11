@@ -2,6 +2,7 @@ attributed_to:
 - object: xyzrins:persons/yaroslav-halchenko
   roles:
   - marcrel:aut
+  - marcrel:spk
   schema_type: dlthings:Attribution
 - object: xyzrins:persons/satrajit-ghosh
   roles:
@@ -32,11 +33,21 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Yaroslav O. Halchenko; Satrajit Ghosh; Jean-Baptiste Poline; Dorota Jarecka;
     David Kennedy
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/pdfdeck.html?talk=2018-sobp-variability
+- predicate: dcat:downloadURL
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/2018-sobp-variability.pdf
 characterized_by:
 - object: bibo:Slideshow
   predicate: dcterms:type
+description: Talk at SOBP 2018, 2018-05.
 generated_by:
 - object: xyzrins:projects/neurodebian
+  schema_type: dlthings:Generation
+- at_time: 2018-05
+  object: xyzrins:.
   schema_type: dlthings:Generation
 identifiers:
 - notation: zotero:group:6197458:item:7U85ZJ95

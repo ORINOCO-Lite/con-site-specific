@@ -1,0 +1,51 @@
+attributed_to:
+- object: xyzrins:persons/samuel-nastase
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/james-haxby
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/andy-connolly
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2018-05-15'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Neural Responses to Naturalistic Clips of Behaving Animals in Two Different
+    Task Contexts
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Neural Responses to Naturalistic Clips of Behaving Animals in Two Different
+    Task Contexts
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Samuel A. Nastase; Yaroslav O. Halchenko; Andrew C. Connolly; M. Ida Gobbini;
+    James V. Haxby
+characterized_by:
+- object: bibo:AcademicArticle
+  predicate: dcterms:type
+identifiers:
+- notation: 10.3389/fnins.2018.00316
+  schema_type: dlthings:DOI
+influenced_by:
+- object: xyzrins:publications/doi-10-1101-268144
+  roles:
+  - xyzrins:entity-roles/296e863e-7361-47ee-b337-e51a7e6bfe8d
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:publications/doi-10-18112-openneuro-ds000233-v4
+  schema_type: xyzri:XYZInfluence
+kind: bibo:AcademicArticle
+pid: xyzrins:publications/doi-10-3389-fnins-2018-00316
+schema_type: xyzri:XYZPublication
+title: Neural Responses to Naturalistic Clips of Behaving Animals in Two Different Task
+  Contexts

@@ -1,0 +1,28 @@
+record: xyzrins:publications/doi-10-18112-openneuro-ds007070-v1-0-0
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2026'
+  kind: registry
+  source: https://api.datacite.org/dois/10.18112/openneuro.ds007070.v1.0.0
+  locator: DataCite DOI 10.18112/openneuro.ds007070.v1.0.0, publicationYear
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Heejung Jung; Maryam Amini; Bethany J. Hung; Eilis I. Murphy; Patrick Sadil;
+    Yaroslav O. Halchenko; Bogdan Petre; Zizhuang Miao; Philip A. Kragel; Xiaochun
+    Han; Mickela O. Heilicher; Michael Sun; Owen G. Collins; Martin A. Lindquist;
+    Tor D. Wager
+  kind: registry
+  source: https://api.datacite.org/dois/10.18112/openneuro.ds007070.v1.0.0
+  locator: DataCite DOI 10.18112/openneuro.ds007070.v1.0.0, creators
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: https://openneuro.org/datasets/ds007070
+  kind: registry
+  source: https://api.datacite.org/dois/10.18112/openneuro.ds007070.v1.0.0
+  locator: DataCite DOI 10.18112/openneuro.ds007070.v1.0.0, url
+  note: The dataset's page rather than this release's.
+  confidence: certain
+  captured: '2026-11-11'

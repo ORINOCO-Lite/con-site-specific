@@ -25,3 +25,14 @@ assertions:
   locator: Crossref work 10.1038/s41592-026-03206-7, author
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/0/object
+  value: xyzrins:publications/doi-10-48550-arxiv-2504-07824
+  kind: publication
+  source: https://doi.org/10.48550/arxiv.2504.07824
+  locator: title and authors
+  quote: 'Go Figure: Transparency in neuroscience images preserves context and clarifies
+    interpretation'
+  note: The same title and the same CON authors; the journal published it after
+    the preprint.
+  confidence: certain
+  captured: '2026-11-11'

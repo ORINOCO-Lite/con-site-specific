@@ -2,6 +2,7 @@ attributed_to:
 - object: xyzrins:persons/michael-hanke
   roles:
   - marcrel:aut
+  - marcrel:spk
   schema_type: dlthings:Attribution
 - object: xyzrins:persons/yaroslav-halchenko
   roles:
@@ -24,16 +25,29 @@ attributes:
 - predicate: bibo:authorList
   schema_type: dlthings:AttributeSpecification
   value: Michael Hanke; Yaroslav O. Halchenko; James V. Haxby; Stefan Pollmann
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Cognitive Neuroscience Society Annual Meeting (CNS 2010), Montréal
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/talks/posters/cns-2010-neurodebian.pdf
+- predicate: bibo:locator
+  schema_type: dlthings:AttributeSpecification
+  value: Poster F128
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
+description: 'Poster at Cognitive Neuroscience Society Annual Meeting (CNS 2010),
+  Montréal, 2010-04. Authors: Michael Hanke, Yaroslav O. Halchenko, James V. Haxby,
+  Stefan Pollmann.'
 generated_by:
-- object: xyzrins:projects/neurodebian
+- at_time: 2010-04
+  object: xyzrins:projects/neurodebian
   schema_type: dlthings:Generation
 identifiers:
 - notation: zotero:group:6197458:item:HYWV9D2A
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-hywv9d2a
 schema_type: xyzri:XYZPublication
 title: Improving efficiency in cognitive neuroscience research with NeuroDebian

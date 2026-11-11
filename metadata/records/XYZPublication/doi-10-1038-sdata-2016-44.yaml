@@ -108,6 +108,11 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: https://doi.org/10.1038/sdata.2016.44
   schema_type: dlthings:Identifier
+influenced_by:
+- object: xyzrins:publications/doi-10-1101-034561
+  roles:
+  - xyzrins:entity-roles/296e863e-7361-47ee-b337-e51a7e6bfe8d
+  schema_type: xyzri:XYZInfluence
 kind: bibo:AcademicArticle
 pid: xyzrins:publications/doi-10-1038-sdata-2016-44
 schema_type: xyzri:XYZPublication

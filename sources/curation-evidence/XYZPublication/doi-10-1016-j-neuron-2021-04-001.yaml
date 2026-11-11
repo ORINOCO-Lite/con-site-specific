@@ -56,3 +56,13 @@ assertions:
   locator: Crossref work 10.1016/j.neuron.2021.04.001, author
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/0/object
+  value: xyzrins:publications/doi-10-31234-osf-io-rytjq
+  kind: publication
+  source: https://doi.org/10.31234/osf.io/rytjq
+  locator: title and authors
+  quote: 'Brainhack: developing a culture of open, inclusive, community-driven neuroscience'
+  note: The same title and the same CON authors; the journal published it after
+    the preprint.
+  confidence: certain
+  captured: '2026-11-11'

@@ -1,0 +1,41 @@
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/tor-wager
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2024'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: A multimodal fMRI dataset unifying naturalistic processes with a rich array
+    of experimental tasks
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: A multimodal fMRI dataset unifying naturalistic processes with a rich array
+    of experimental tasks
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Heejung Jung; Yaroslav O. Halchenko; Maryam Amini; Bethany J. Hunt; Eilis I.
+    Murphy; Patrick Sadil; Bogdan Petre; Zizhuang Miao; Philip A. Kragel; Xiaochun Han;
+    Mickela O. Heilicher; Michael Sun; Owen G. Collins; Martin A. Lindquist; Tor D.
+    Wager
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://openneuro.org/datasets/ds005256
+characterized_by:
+- object: fabio:Dataset
+  predicate: dcterms:type
+identifiers:
+- notation: 10.18112/openneuro.ds005256.v1.0.0
+  schema_type: dlthings:DOI
+kind: fabio:Dataset
+pid: xyzrins:publications/doi-10-18112-openneuro-ds005256-v1-0-0
+schema_type: xyzri:XYZPublication
+title: A multimodal fMRI dataset unifying naturalistic processes with a rich array of
+  experimental tasks

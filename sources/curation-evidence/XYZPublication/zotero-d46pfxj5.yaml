@@ -10,3 +10,11 @@ assertions:
   locator: Zotero item, creators
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/0/object
+  value: xyzrins:publications/doi-10-1101-045252
+  kind: registry
+  source: https://api.crossref.org/works/10.1093/cercor/bhx138
+  locator: Crossref work, relation
+  quote: '"has-preprint": 10.1101/045252'
+  confidence: certain
+  captured: '2026-11-11'

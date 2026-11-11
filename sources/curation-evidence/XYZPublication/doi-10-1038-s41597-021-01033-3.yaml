@@ -13,3 +13,12 @@ assertions:
   locator: Crossref work 10.1038/s41597-021-01033-3, author
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/0/object
+  value: xyzrins:publications/doi-10-1101-2020-12-23-424091
+  kind: publication
+  source: https://www.oneukrainian.com/resume/halchenko_vita.tex
+  locator: YOH's curriculum vitae, \preprint{} of the entry
+  quote: \item \rbibentry{NLH+21} \openaccessdoi{10.1038/s41597-021-01033-3} \preprint{10.1101/2020.12.23.424091}  %
+    narratives dataset
+  confidence: certain
+  captured: '2026-11-11'

@@ -28,3 +28,31 @@ assertions:
   locator: Zotero item, creators
   confidence: certain
   captured: '2026-11-11'
+- path: /generated_by/0/at_time
+  value: '2015-10-17'
+  bound: upper
+  kind: publication
+  source: Society for Neuroscience annual meeting (Neuroscience 2015), Chicago
+  locator: SfN 2015, Chicago, Poster 451.11
+  quote: 'Finding Cortical Patches of Shared Representations / SFN 2015 Poster #451.11'
+  note: The opening day of the meeting the poster was presented at; SfN 2015 ran
+    2015-10-17 to 2015-10-21 in Chicago.  An upper bound and a loose one, as with
+    any conference date -- the work precedes the poster.
+  confidence: approximate
+  captured: '2026-10-13'
+- path: /attributes/5/value
+  value: Poster 451.11
+  kind: publication
+  source: xyzrins:publications/sfn2015-shared-representations
+  locator: bibo:locator
+  note: From the hand-made record of the same poster, merged into this one.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/6/value
+  value: en
+  kind: publication
+  source: xyzrins:publications/sfn2015-shared-representations
+  locator: dcterms:language
+  note: From the hand-made record of the same poster, merged into this one.
+  confidence: certain
+  captured: '2026-11-11'

@@ -1,0 +1,66 @@
+attributed_to:
+- object: xyzrins:persons/david-kennedy
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/satrajit-ghosh
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/kyle-meyer
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/jean-baptiste-poline
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2018-12-18'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: 'Everything Matters: The ReproNim Perspective on Reproducible Neuroimaging'
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: 'Everything Matters: The ReproNim Perspective on Reproducible Neuroimaging'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: David N. Kennedy; Satrajit S Ghosh; Tom Gillespie; Mathias Goncalves; Jeffrey
+    Sean Grethe; Yaroslav O Halchenko; Michael Hanke; Dorota Jarecka; Jakub Roman Kaczmarzyk;
+    David Keator; Kyle Meyer; Maryann Elizabeth Martone; Jean-Baptiste Poline; Nina
+    Preuss; Sanu Ann Abraham; Julianna F. Bates; Albert Crowley; Christian Haselgrove;
+    Steven M. Hodge; Smruti Padhy; Troy Sincomb
+characterized_by:
+- object: fabio:Preprint
+  predicate: dcterms:type
+description: 'There has been a recent major upsurge in the concerns about reproducibility
+  in many areas of science. Within the neuroimaging domain, one approach is to promote
+  reproducibility is to target the re-executability of the publication. The information
+  supporting such re-executability can enable the detailed examination of how an initial
+  finding generalizes across changes in the processing approach, and sampled population,
+  in a controlled scientific fashion. ReproNim: A Center for Reproducible Neuroimaging
+  Computation is a recently funded initiative that seeks to facilitate the ‘last mile’
+  implementations of core re-executability tools in order to reduce the accessibility
+  barrier and increase adoption of standards and best practices at the neuroimaging
+  research laboratory level. In this report, we summarize the overall approach and tools
+  we have developed in this domain.'
+generated_by:
+- object: xyzrins:projects/repronim
+  schema_type: dlthings:Generation
+identifiers:
+- notation: 10.31219/osf.io/u78a6
+  schema_type: dlthings:DOI
+kind: fabio:Preprint
+pid: xyzrins:publications/doi-10-31219-osf-io-u78a6
+schema_type: xyzri:XYZPublication
+title: 'Everything Matters: The ReproNim Perspective on Reproducible Neuroimaging'

@@ -18,3 +18,14 @@ assertions:
   locator: Crossref work 10.1016/j.nicl.2021.102790, author
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/0/object
+  value: xyzrins:publications/doi-10-1101-2021-02-25-21252472
+  kind: publication
+  source: https://doi.org/10.1101/2021.02.25.21252472
+  locator: title and authors
+  quote: Aberrant levels of cortical myelin distinguish individuals with unipolar
+    depression from healthy controls
+  note: The same title and the same CON authors; the journal published it after
+    the preprint.
+  confidence: certain
+  captured: '2026-11-11'

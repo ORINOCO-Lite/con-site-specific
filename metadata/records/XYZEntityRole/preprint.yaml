@@ -1,0 +1,7 @@
+description: The preprint of a publication -- the version made public before peer
+  review.  The published record names its preprint in its influenced_by, with
+  this role.
+display_label: Preprint
+name: Preprint
+pid: xyzrins:entity-roles/296e863e-7361-47ee-b337-e51a7e6bfe8d
+schema_type: xyzri:XYZEntityRole

@@ -26,3 +26,13 @@ assertions:
   locator: Zotero item, creators
   confidence: certain
   captured: '2026-11-11'
+- path: /generated_by/1/at_time
+  value: 2018-05
+  bound: exact
+  kind: publication
+  source: pymvpa/papers:talk-sobp-2018/talk-sobp-2018.pdf
+  locator: title slide; commit of 2018-05-10
+  quote: May 2018
+  note: The commit reads "First (final?) full version of SOBP slides".
+  confidence: certain
+  captured: '2026-11-05'

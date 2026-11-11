@@ -1,0 +1,47 @@
+attributed_to:
+- object: xyzrins:persons/samuel-nastase
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/james-haxby
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/andy-connolly
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2018'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Neural responses to naturalistic clips of behaving animals in two different
+    task contexts
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Neural responses to naturalistic clips of behaving animals in two different
+    task contexts
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Samuel A. Nastase; Yaroslav O. Halchenko; Andrew C. Connolly; M. Ida Gobbini;
+    James V. Haxby
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://openneuro.org/datasets/ds000233
+characterized_by:
+- object: fabio:Dataset
+  predicate: dcterms:type
+identifiers:
+- notation: 10.18112/openneuro.ds000233.v4
+  schema_type: dlthings:DOI
+kind: fabio:Dataset
+pid: xyzrins:publications/doi-10-18112-openneuro-ds000233-v4
+schema_type: xyzri:XYZPublication
+title: Neural responses to naturalistic clips of behaving animals in two different task
+  contexts

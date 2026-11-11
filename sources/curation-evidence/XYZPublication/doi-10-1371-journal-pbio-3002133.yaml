@@ -28,3 +28,14 @@ assertions:
   locator: Crossref work 10.1371/journal.pbio.3002133, author
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/0/object
+  value: xyzrins:publications/doi-10-1101-2022-10-26-513573
+  kind: publication
+  source: https://doi.org/10.1101/2022.10.26.513573
+  locator: title and authors
+  quote: 'The BRAIN Initiative Cell Census Network Data Ecosystem: A User’s Guide'
+  note: 'Retitled for publication ("The BRAIN Initiative Cell Census Network Data
+    Ecosystem: A User''s Guide"); the same consortium, the same CON authors, and
+    the journal version followed it.'
+  confidence: certain
+  captured: '2026-11-11'

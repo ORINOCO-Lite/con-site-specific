@@ -25,6 +25,11 @@ characterized_by:
 identifiers:
 - notation: 10.1016/j.nicl.2021.102790
   schema_type: dlthings:DOI
+influenced_by:
+- object: xyzrins:publications/doi-10-1101-2021-02-25-21252472
+  roles:
+  - xyzrins:entity-roles/296e863e-7361-47ee-b337-e51a7e6bfe8d
+  schema_type: xyzri:XYZInfluence
 kind: bibo:AcademicArticle
 pid: xyzrins:publications/doi-10-1016-j-nicl-2021-102790
 schema_type: xyzri:XYZPublication

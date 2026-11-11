@@ -25,3 +25,25 @@ assertions:
   locator: Zotero item, creators
   confidence: certain
   captured: '2026-11-11'
+- path: /generated_by/0/at_time
+  value: 2012-10
+  bound: exact
+  kind: upstream-git
+  source: pymvpa/papers:poster-sfn2012_famfaces/poster.svg
+  locator: commit of 2012-10-10; poster.pdf dated 2012-10-11
+  quote: an ugly unfinished draft of poster for sfn
+  note: The commit names the meeting; the rendered poster is complete despite that
+    message. Only the month is claimed.
+  confidence: approximate
+  captured: '2026-11-05'
+- path: /attributed_to/0/roles/1
+  value: marcrel:spk
+  kind: recollection
+  source: Yaroslav Halchenko, 2026-11-05
+  note: Asked who presented the poster, Yaroslav Halchenko answered "likely the
+    first author", and for the SfN 2010 NeuroDebian poster, both himself and Michael
+    Hanke.
+  confidence: approximate
+  would_confirm: the meeting program or a photo at the poster
+  witness: xyzrins:persons/yaroslav-halchenko
+  captured: '2026-11-05'

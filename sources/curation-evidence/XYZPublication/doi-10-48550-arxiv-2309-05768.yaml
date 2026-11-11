@@ -32,3 +32,13 @@ assertions:
   locator: DataCite DOI 10.48550/arxiv.2309.05768, creators
   confidence: certain
   captured: '2026-11-11'
+- path: /kind
+  value: fabio:Preprint
+  kind: registry
+  source: https://api.datacite.org/dois/10.48550/arxiv.2309.05768
+  locator: DataCite DOI, publisher and relatedIdentifiers
+  quote: '"publisher": "arXiv"'
+  note: An arXiv e-print, which DataCite relates as a version of the Imaging Neuroscience
+    article (10.1162/imag_a_00103); YOH's vita lists it as that paper's preprint.
+  confidence: certain
+  captured: '2026-11-11'

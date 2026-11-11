@@ -12,3 +12,13 @@ assertions:
   locator: Zotero item, creators
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/0/object
+  value: xyzrins:publications/doi-10-31219-osf-io-u78a6
+  kind: publication
+  source: https://doi.org/10.31219/osf.io/u78a6
+  locator: title and authors
+  quote: 'Everything Matters: The ReproNim Perspective on Reproducible Neuroimaging'
+  note: The same title and the same CON authors; the journal published it after
+    the preprint.
+  confidence: certain
+  captured: '2026-11-11'

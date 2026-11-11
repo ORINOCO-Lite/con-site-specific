@@ -2,6 +2,7 @@ attributed_to:
 - object: xyzrins:persons/yaroslav-halchenko
   roles:
   - marcrel:aut
+  - obo:MS_1002035
   schema_type: dlthings:Attribution
 attributes:
 - predicate: bibo:locator
@@ -21,9 +22,15 @@ attributes:
 - predicate: bibo:authorList
   schema_type: dlthings:AttributeSpecification
   value: Stephen José Hanson; Yaroslav O. Halchenko
+- predicate: dcterms:language
+  schema_type: dlthings:AttributeSpecification
+  value: en
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
+description: 'Hanson SJ and Halchenko YO (2008). Brain Reading Using Full Brain Support
+  Vector Machines for Object Recognition: There Is No "Face" Identification Area.
+  Neural Computation, 20(2):486-503, https://doi.org/10.1162/neco.2007.09-06-340'
 identifiers:
 - notation: 10.1162/neco.2007.09-06-340
   schema_type: dlthings:DOI

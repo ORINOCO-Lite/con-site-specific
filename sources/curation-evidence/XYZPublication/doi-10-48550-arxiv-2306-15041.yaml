@@ -1,0 +1,22 @@
+record: xyzrins:publications/doi-10-48550-arxiv-2306-15041
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2023'
+  kind: registry
+  source: https://api.datacite.org/dois/10.48550/arxiv.2306.15041
+  locator: DataCite DOI 10.48550/arxiv.2306.15041, publicationYear
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Priyanka Subash; Alex Gray; Misque Boswell; Samantha L. Cohen; Rachael
+    Garner; Sana Salehi; Calvary Fisher; Samuel Hobel; Satrajit Ghosh; Yaroslav
+    Halchenko; Benjamin Dichter; Russell A. Poldrack; Chris Markiewicz; Dora Hermes;
+    Arnaud Delorme; Scott Makeig; Brendan Behan; Alana Sparks; Stephen R Arnott;
+    Zhengjia Wang; John Magnotti; Michael S. Beauchamp; Nader Pouratian; Arthur
+    W. Toga; Dominique Duncan
+  kind: registry
+  source: https://api.datacite.org/dois/10.48550/arxiv.2306.15041
+  locator: DataCite DOI 10.48550/arxiv.2306.15041, creators
+  confidence: certain
+  captured: '2026-11-11'

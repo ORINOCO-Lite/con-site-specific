@@ -13,3 +13,12 @@ assertions:
   locator: Crossref work 10.1038/s41597-023-02614-0, author
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/0/object
+  value: xyzrins:publications/doi-10-48550-arxiv-2306-15041
+  kind: publication
+  source: https://www.oneukrainian.com/resume/halchenko_vita.tex
+  locator: YOH's curriculum vitae, \preprint{} of the entry
+  quote: \item \rbibentry{SGB+23} \openaccessdoi{10.1038/s41597-023-02614-0} \preprint{10.48550/ARXIV.2306.15041}                %
+    archives comparison
+  confidence: certain
+  captured: '2026-11-11'
