@@ -18,7 +18,7 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: https://reporter.nih.gov/project-details/9795271
 description: Multiple-PI NIH R24 award that funds DANDI, the archive for neurophysiology
-  data, and CON's DataLad work for it. Satrajit Ghosh (MIT) is the contact PI and
+  data. Satrajit Ghosh (MIT) is the contact PI and
   Yaroslav Halchenko a PI of record.
 generated_by:
   at_time: '2019-08-01'

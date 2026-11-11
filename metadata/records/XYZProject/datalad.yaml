@@ -124,14 +124,6 @@ influenced_by:
   roles:
   - FRAPO:Funding
   schema_type: xyzri:XYZInfluence
-- object: xyzrins:grants/nih-dandi
-  roles:
-  - FRAPO:Funding
-  schema_type: xyzri:XYZInfluence
-- object: xyzrins:grants/nih-ember
-  roles:
-  - FRAPO:Funding
-  schema_type: xyzri:XYZInfluence
 - object: xyzrins:objectives/97ded4aa-108d-4b84-8195-d6076dce63ce
   roles:
   - xyzrins:entity-roles/1160471a-9f8e-4379-85f2-351a2a36ef40
