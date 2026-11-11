@@ -1,0 +1,48 @@
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2026-11-05'
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://doi.org/10.5281/zenodo.23968879
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Benchmarking ITU-T T.261 against established codecs on extracellular electrophysiology,
+    with a public comment on DICOM Supplement 253
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Benchmarking ITU-T T.261 against established codecs on extracellular electrophysiology,
+    with a public comment on DICOM Supplement 253
+characterized_by:
+- object: bibo:Report
+  predicate: dcterms:type
+description: Public comment to DICOM Working Group 32 on Supplement 253 (Waveform Compression),
+  with the benchmark of the T.261 codec on Neuropixels recordings it rests on. Every
+  quantitative claim carries a datalad run record, so each measurement can be rerun
+  from the pinned tool commit -- a worked example of the STAMPED principles.
+generated_by:
+- at_time: '2026-11-05'
+  object: xyzrins:projects/dicom-wg32
+  schema_type: dlthings:Generation
+identifiers:
+- notation: 10.5281/zenodo.23968879
+  schema_type: dlthings:DOI
+- notation: https://zenodo.org/records/23968942
+  schema_type: dlthings:Identifier
+influenced_by:
+- object: xyzrins:projects/stamped-principles
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:grants/nih-dandi
+  roles:
+  - FRAPO:Funding
+  schema_type: xyzri:XYZInfluence
+kind: bibo:Report
+pid: xyzrins:publications/doi-10-5281-zenodo-23968879
+schema_type: xyzri:XYZPublication
+title: Benchmarking ITU-T T.261 against established codecs on extracellular electrophysiology,
+  with a public comment on DICOM Supplement 253

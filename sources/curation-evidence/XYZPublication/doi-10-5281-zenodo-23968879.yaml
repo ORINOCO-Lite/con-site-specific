@@ -1,0 +1,29 @@
+record: xyzrins:publications/doi-10-5281-zenodo-23968879
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2026-11-05'
+  bound: exact
+  kind: registry
+  source: https://doi.org/10.5281/zenodo.23968879
+  locator: Zenodo record 23968942, publication_date
+  quote: '"publication_date": "2026-11-05"'
+  note: Publication date of the deposit's current version (0.20261104.2).
+  confidence: certain
+  captured: '2026-11-10'
+- path: /identifiers/0/notation
+  value: 10.5281/zenodo.23968879
+  kind: registry
+  source: https://doi.org/10.5281/zenodo.23968879
+  locator: Zenodo record 23968942, conceptdoi
+  note: The DOI of all versions of the deposit.
+  confidence: certain
+  captured: '2026-11-10'
+- path: /influenced_by/1/object
+  value: xyzrins:grants/nih-dandi
+  kind: registry
+  source: https://doi.org/10.5281/zenodo.23968879
+  locator: Zenodo record 23968942, description, Funding
+  quote: supported by the NIH BRAIN Initiative under award R24MH117295
+  confidence: certain
+  captured: '2026-11-10'
