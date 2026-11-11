@@ -2,7 +2,7 @@ annotations:
   obo:NCIT_C54269: m.hanke@fz-juelich.de
   sio:SIO_001083: '2026-03-08T09:35:47.153000'
 description: |-
-  We are building tools, such as [DataLad](https://datalad.org) and [ReproNim containers](https://github.com/ReproNim/containers), that record which data and software produced each result, so an analysis can be rerun and shared.
+  We are building tools that record which data and software produced each result, so an analysis can be rerun, checked, and shared.
 
   Analyses often depend on manual steps, unrecorded software versions, and files that change without notice. Others then cannot repeat the results, and even the original authors may struggle to.
 pid: xyzrins:objectives/97ded4aa-108d-4b84-8195-d6076dce63ce

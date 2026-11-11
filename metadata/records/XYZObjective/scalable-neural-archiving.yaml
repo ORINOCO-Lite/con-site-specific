@@ -2,7 +2,7 @@ annotations:
   obo:NCIT_C54269: yaroslav.o.halchenko@oneukrainian.com
   sio:SIO_001083: '2026-10-10T18:00:00.000000'
 description: |-
-  We are building tools and practices, collected in [con/serve](https://con.github.io/serve/), that keep data, code, recordings, and other research materials findable and recoverable, with copies in more than one place.
+  We are building tools and practices that keep data, code, recordings, and other research materials findable and recoverable, with copies in more than one place.
 
   A paper is only part of the work. The data, code, and notes behind it are easily lost when a service shuts down, a link breaks, or a project ends.
 pid: xyzrins:objectives/scalable-neural-archiving

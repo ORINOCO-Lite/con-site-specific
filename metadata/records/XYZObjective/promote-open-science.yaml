@@ -2,7 +2,7 @@ annotations:
   obo:NCIT_C54269: m.hanke@fz-juelich.de
   sio:SIO_001083: '2026-03-08T10:39:08.918541'
 description: |-
-  We are publishing data, code, and documentation in open archives such as [DANDI](https://dandiarchive.org) and [OpenNeuro](https://openneuro.org), and helping labs pool their studies.
+  We share our own code and data openly, run and support public data archives, and develop the data standards that let labs share and combine their studies.
 
   Much research data never leaves the lab that collected it. Results are then hard to check, and questions that need larger or more diverse samples go unanswered.
 pid: xyzrins:objectives/87be5fa3-80fb-4221-8406-2ddd40fb1fd1

@@ -1,5 +1,5 @@
 description: |-
-  We are developing ways to analyze brain activity and behavior recorded during rich experiences, such as watching a film, building on [Psychoinformatics' work on naturalistic studies](https://www.psychoinformatics.de/objectives/b6e7dfb2-3534-487e-bd8a-d2f58ec47e47/).
+  We are developing ways to analyze brain activity and behavior recorded during rich experiences, such as watching a film. Hyperalignment, which aligns such responses across people, was first implemented in [PyMVPA](http://pymvpa.org); this work builds on [Psychoinformatics' work on naturalistic studies](https://www.psychoinformatics.de/objectives/b6e7dfb2-3534-487e-bd8a-d2f58ec47e47/).
 
   Films combine images, sound, and events that unfold over time. Most analysis methods were made for simple, controlled tasks, so much of what such recordings contain goes unused.
 pid: xyzrins:objectives/rich-naturalistic-data

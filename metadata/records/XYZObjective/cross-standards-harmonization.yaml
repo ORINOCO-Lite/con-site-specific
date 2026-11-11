@@ -2,9 +2,9 @@ annotations:
   obo:NCIT_C54269: yaroslav.o.halchenko@oneukrainian.com
   sio:SIO_001083: '2026-10-10T18:00:00.000000'
 description: |-
-  We are helping research communities agree on shared data standards, such as [BIDS](https://bids.neuroimaging.io) and [NWB](https://www.nwb.org), and building the converters and tools around them.
+  We work across data standards, such as [BIDS](https://bids.neuroimaging.io), [NWB](https://www.nwb.org), and [DICOM](https://www.dicomstandard.org), and across research initiatives, so that data, tools, and conventions from one community can be used in another.
 
-  When every group organizes its data its own way, each dataset needs custom conversion before anyone else can use it.
+  Standards and initiatives often grow up separately. The same data then has to be converted again for each one, and solutions found in one community rarely reach the next.
 pid: xyzrins:objectives/cross-standards-harmonization
 schema_type: xyzri:XYZObjective
 title: Connect tools, standards, and communities

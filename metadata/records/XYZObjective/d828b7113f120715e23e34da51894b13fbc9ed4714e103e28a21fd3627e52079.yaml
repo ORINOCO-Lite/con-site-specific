@@ -1,5 +1,5 @@
 description: |-
-  We are working with method developers to turn published methods into software that other researchers can install, inspect, and run on their own data.
+  We turn published methods into turnkey software that researchers can install, inspect, and run on their own data. [PyMVPA](http://pymvpa.org), our framework for machine learning analyses of brain imaging data, was one of the first to do this for neuroscience.
 
   Many new methods are described in papers but never released as usable software, so other researchers cannot try them.
 pid: xyzrins:objectives/translational-research-infrastructure
