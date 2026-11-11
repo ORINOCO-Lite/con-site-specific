@@ -20,6 +20,11 @@ generated_by:
 - at_time: '2021-03-02'
   object: xyzrins:projects/datalad
   schema_type: dlthings:Generation
+influenced_by:
+- object: xyzrins:grants/nih-dandi
+  roles:
+  - FRAPO:Funding
+  schema_type: xyzri:XYZInfluence
 kind: obo:IAO_0000010
 name: datalad-fuse
 pid: xyzrins:instruments/datalad-fuse

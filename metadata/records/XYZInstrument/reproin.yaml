@@ -23,6 +23,11 @@ generated_by:
 - at_time: '2018-02-05'
   object: xyzrins:projects/repronim-trd3
   schema_type: dlthings:Generation
+influenced_by:
+- object: xyzrins:grants/nih-repronim
+  roles:
+  - FRAPO:Funding
+  schema_type: xyzri:XYZInfluence
 kind: obo:IAO_0000010
 name: ReproIn
 pid: xyzrins:instruments/reproin
