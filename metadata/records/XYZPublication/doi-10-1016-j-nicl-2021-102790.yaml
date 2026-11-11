@@ -1,0 +1,32 @@
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2021'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Aberrant levels of cortical myelin distinguish individuals with depressive
+    disorders from healthy controls
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Aberrant levels of cortical myelin distinguish individuals with depressive
+    disorders from healthy controls
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: David A.A. Baranger; Yaroslav O. Halchenko; Skye Satz; Rachel Ragozzino; Satish
+    Iyengar; Holly A. Swartz; Anna Manelis
+characterized_by:
+- object: bibo:AcademicArticle
+  predicate: dcterms:type
+identifiers:
+- notation: 10.1016/j.nicl.2021.102790
+  schema_type: dlthings:DOI
+kind: bibo:AcademicArticle
+pid: xyzrins:publications/doi-10-1016-j-nicl-2021-102790
+schema_type: xyzri:XYZPublication
+title: Aberrant levels of cortical myelin distinguish individuals with depressive disorders
+  from healthy controls

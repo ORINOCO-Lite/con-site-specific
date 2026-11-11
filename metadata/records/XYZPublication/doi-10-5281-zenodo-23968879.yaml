@@ -18,6 +18,9 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Benchmarking ITU-T T.261 against established codecs on extracellular electrophysiology,
     with a public comment on DICOM Supplement 253
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav O. Halchenko
 characterized_by:
 - object: bibo:Report
   predicate: dcterms:type

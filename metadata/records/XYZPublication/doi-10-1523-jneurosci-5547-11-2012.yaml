@@ -28,6 +28,10 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Representation of biological classes in the human brain
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Andrew C. Connolly; J. Swaroop Guntupalli; Jason Gors; Michael Hanke; Yaroslav
+    O. Halchenko; Yu-Chien Wu; Hervé Abdi; James V. Haxby
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

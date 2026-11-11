@@ -1,0 +1,24 @@
+record: xyzrins:publications/doi-10-1101-694364
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:Preprint
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/694364
+  locator: Crossref work, type
+  quote: '"type": "posted-content", "subtype": "preprint"'
+  note: Registered as a preprint.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: Oscar Esteban; Rastko Ciric; Karolina Finc; Ross Blair; Christopher J.
+    Markiewicz; Craig A. Moodie; James D. Kent; Mathias Goncalves; Elizabeth DuPre;
+    Daniel E. P. Gomez; Zhifang Ye; Taylor Salo; Romain Valabregue; Inge K. Amlien;
+    Franziskus Liem; Nir Jacoby; Hrvoje Stojić; Matthew Cieslak; Sebastian Urchs;
+    Yaroslav O. Halchenko; Satrajit S. Ghosh; Alejandro De La Vega; Tal Yarkoni;
+    Jessey Wright; William H. Thompson; Russell A. Poldrack; Krzysztof J. Gorgolewski
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/694364
+  locator: Crossref work 10.1101/694364, author
+  confidence: certain
+  captured: '2026-11-11'

@@ -23,7 +23,7 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: '2026-05-26'
 characterized_by:
-- object: bibo:AcademicArticle
+- object: fabio:Preprint
   predicate: dcterms:type
 description: Preprint formalizing the STAMPED principles -- Self-containment, Tracking,
   Actionability, Modularity, Portability, Ephemerality, Distributability -- for reproducible
@@ -35,7 +35,7 @@ generated_by:
 identifiers:
 - notation: 10.31222/osf.io/f3h82_v1
   schema_type: dlthings:DOI
-kind: bibo:AcademicArticle
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-31222-osf-io-f3h82-v1
 schema_type: xyzri:XYZPublication
 title: STAMPED principles for reproducible research objects

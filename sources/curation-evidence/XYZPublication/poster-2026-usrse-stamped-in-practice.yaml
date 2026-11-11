@@ -29,3 +29,10 @@ assertions:
   note: The DOI of all versions of the deposit, in the CON community on Zenodo.
   confidence: certain
   captured: '2026-11-06'
+- path: /attributes/3/value
+  value: John Lee; Austin Macdonald; Cody Baker; Yaroslav Halchenko
+  kind: registry
+  source: https://api.datacite.org/dois/10.5281/zenodo.22833915
+  locator: DataCite DOI 10.5281/zenodo.22833915, creators
+  confidence: certain
+  captured: '2026-11-11'

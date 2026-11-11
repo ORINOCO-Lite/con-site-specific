@@ -1,0 +1,10 @@
+record: xyzrins:publications/zotero-q6fwwrde
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Y. O. Halchenko; B. A. Pearlmutter; S. J. Hanson; A. Zaimi
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/Q6FWWRDE
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

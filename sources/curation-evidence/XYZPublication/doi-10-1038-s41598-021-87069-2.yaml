@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-1038-s41598-021-87069-2
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Anna Manelis; Adriane Soehner; Yaroslav O. Halchenko; Skye Satz; Rachel
+    Ragozzino; Mora Lucero; Holly A. Swartz; Mary L. Phillips; Amelia Versace
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41598-021-87069-2
+  locator: Crossref work 10.1038/s41598-021-87069-2, author
+  confidence: certain
+  captured: '2026-11-11'

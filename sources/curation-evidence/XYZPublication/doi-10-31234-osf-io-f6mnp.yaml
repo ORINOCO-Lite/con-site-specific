@@ -1,0 +1,27 @@
+record: xyzrins:publications/doi-10-31234-osf-io-f6mnp
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:Preprint
+  kind: registry
+  source: https://api.crossref.org/works/10.31234/osf.io/f6mnp
+  locator: Crossref work, type
+  quote: '"type": "posted-content", "subtype": "preprint"'
+  note: Registered as a preprint.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Elise Bannier; Gareth Barker; Valentina Borghesani; Nils Broeckx; Patricia
+    Clement; Maria de la Iglesia Vaya; Kyrre E. Emblem; Satrajit S Ghosh; Enrico
+    Glerean; Krzysztof Jacek Gorgolewski; Marko Havu; Yaroslav O Halchenko; Peer
+    Herholz; Anne Hespel; Stephan Heunis; Yue Hu; Hu Chuan-Peng; Dorien Huijser;
+    Radim Jancalek; Vasileios K. Katsaros; Marie-Luise Kieseler; Camille MAUMET;
+    Clara Moreau; Henk JMM Mutsaerts; Robert Oostenveld; Esin Ozturk Isik; Nicolas
+    Pascual Leone Espinosa; John Pellman; Cyril R Pernet; Francesca Benedetta Pizzini;
+    Amira Šerifović Trbalić; Paule Joanne Toussaint; Matteo Visconti di Oleggio
+    Castello; Fengjuan Wang; Cheng Wang; Hua Zhu
+  kind: registry
+  source: https://api.crossref.org/works/10.31234/osf.io/f6mnp
+  locator: Crossref work 10.31234/osf.io/f6mnp, author
+  confidence: certain
+  captured: '2026-11-11'

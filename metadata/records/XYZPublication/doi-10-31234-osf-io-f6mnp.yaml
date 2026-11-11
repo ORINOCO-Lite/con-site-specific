@@ -15,8 +15,18 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'The Open Brain Consent: Informing research participants and obtaining consent
     to share brain imaging data'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Elise Bannier; Gareth Barker; Valentina Borghesani; Nils Broeckx; Patricia
+    Clement; Maria de la Iglesia Vaya; Kyrre E. Emblem; Satrajit S Ghosh; Enrico Glerean;
+    Krzysztof Jacek Gorgolewski; Marko Havu; Yaroslav O Halchenko; Peer Herholz; Anne
+    Hespel; Stephan Heunis; Yue Hu; Hu Chuan-Peng; Dorien Huijser; Radim Jancalek; Vasileios
+    K. Katsaros; Marie-Luise Kieseler; Camille MAUMET; Clara Moreau; Henk JMM Mutsaerts;
+    Robert Oostenveld; Esin Ozturk Isik; Nicolas Pascual Leone Espinosa; John Pellman;
+    Cyril R Pernet; Francesca Benedetta Pizzini; Amira Šerifović Trbalić; Paule Joanne
+    Toussaint; Matteo Visconti di Oleggio Castello; Fengjuan Wang; Cheng Wang; Hua Zhu
 characterized_by:
-- object: bibo:AcademicArticle
+- object: fabio:Preprint
   predicate: dcterms:type
 generated_by:
 - object: xyzrins:projects/open-brain-consent
@@ -26,7 +36,7 @@ identifiers:
   schema_type: dlthings:DOI
 - notation: zotero:group:6197458:item:CFGYPVL3
   schema_type: dlthings:Identifier
-kind: bibo:AcademicArticle
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-31234-osf-io-f6mnp
 schema_type: xyzri:XYZPublication
 title: 'The Open Brain Consent: Informing research participants and obtaining consent

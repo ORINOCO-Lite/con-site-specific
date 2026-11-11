@@ -15,6 +15,10 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'Structural Equation Modeling of Neuroimaging Data: Exhaustive Search and
     Markov Chain Monte Carlo'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: S. J. Hanson; T. Matsuka; C. Hanson; D. Rebbechi; Y. O. Halchenko; A. Zaimi;
+    B. A. Pearlmutter
 characterized_by:
 - object: bibo:Article
   predicate: dcterms:type

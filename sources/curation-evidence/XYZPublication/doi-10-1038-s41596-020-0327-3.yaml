@@ -1,0 +1,23 @@
+record: xyzrins:publications/doi-10-1038-s41596-020-0327-3
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2020-06-08'
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41596-020-0327-3
+  locator: Crossref work 10.1038/s41596-020-0327-3, published
+  note: Published in Nature Protocols; the version of record of the preprint xyzrins:publications/doi-10-1101-694364.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Oscar Esteban; Rastko Ciric; Karolina Finc; Ross W. Blair; Christopher
+    J. Markiewicz; Craig A. Moodie; James D. Kent; Mathias Goncalves; Elizabeth
+    DuPre; Daniel E. P. Gomez; Zhifang Ye; Taylor Salo; Romain Valabregue; Inge
+    K. Amlien; Franziskus Liem; Nir Jacoby; Hrvoje Stojić; Matthew Cieslak; Sebastian
+    Urchs; Yaroslav O. Halchenko; Satrajit S. Ghosh; Alejandro De La Vega; Tal Yarkoni;
+    Jessey Wright; William H. Thompson; Russell A. Poldrack; Krzysztof J. Gorgolewski
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41596-020-0327-3
+  locator: Crossref work 10.1038/s41596-020-0327-3, author
+  confidence: certain
+  captured: '2026-11-11'

@@ -1,0 +1,10 @@
+record: xyzrins:publications/zotero-egbb5ta7
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: T. B. Martinyuk; A. V. Kogemiako; Y. O. Halchenko
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/EGBB5TA7
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

@@ -22,6 +22,9 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'Cross-modal searchlight classification: Methodological challenges and recommended
     solutions'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Samuel A. Nastase; Yaroslav O. Halchenko; Ben Davis; Uri Hasson
 characterized_by:
 - object: bibo:Article
   predicate: dcterms:type

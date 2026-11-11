@@ -52,8 +52,15 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: 'YODA: YODA’s organigram on data analysis'
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Annual meeting of the Organization for Human Brain Mapping, Singapore
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Michael Hanke; Kyle A. Meyer; Matteo Visconti di Oleggio Castello; Benjamin
+    Poldrack; Yaroslav O. Halchenko
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 generated_by:
 - object: xyzrins:projects/yoda
@@ -69,7 +76,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: https://doi.org/10.7490/f1000research.1116363.1
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/doi-10-7490-f1000research-1116363-1
 schema_type: xyzri:XYZPublication
 title: 'YODA: YODA’s organigram on data analysis'

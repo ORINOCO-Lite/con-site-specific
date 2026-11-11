@@ -42,6 +42,10 @@ attributes:
     readability of final results are facilitated through visualizations. The PyMVPA
     BIDS-App is designed to be accessible to novice users, while also offering more
     control to experts through command-line arguments in a highly reproducible environment.</p>
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Sajjad Torabian; Natalia Vélez; Vanessa Sochat; Yaroslav O. Halchenko; Emily
+    D. Grossman
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

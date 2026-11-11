@@ -35,6 +35,10 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: 'PyMVPA: A Python toolbox for multivariate pattern analysis of fMRI data'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Michael Hanke; Yaroslav O. Halchenko; Per B. Sederberg; Stephen José Hanson;
+    James V. Haxby; Stefan Pollmann
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

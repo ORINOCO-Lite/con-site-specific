@@ -34,6 +34,10 @@ attributes:
     that stimuli that signal threat are processed without awareness, our data suggest
     that the social relevance of a face, defined more broadly, is evaluated in the
     absence of awareness.
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: M. Ida Gobbini; Jason D. Gors; Yaroslav O. Halchenko; Howard C. Hughes; Carlo
+    Cipolli
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

@@ -29,8 +29,17 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: 'Pybids: Python tools for manipulation and analysis of BIDS datasets'
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Annual meeting of the Organization for Human Brain Mapping, Singapore
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Tal Yarkoni; Alejandro de la Vega; Elizabeth DuPre; Oscar Esteban; Yaroslav
+    O. Halchenko; Michael Hanke; Valerie Hayot-Sasson; Alexander Ivanov; Gregory Kiar;
+    Christopher Markiewicz; Quinten McNamara; Dmitry Petrov; Jean-Baptiste Poline; Russell
+    Poldrack; Krzysztof Gorgolewski
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 generated_by:
 - object: xyzrins:projects/bids
@@ -38,7 +47,7 @@ generated_by:
 identifiers:
 - notation: zotero:group:6197458:item:C62B4PEX
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-c62b4pex
 schema_type: xyzri:XYZPublication
 title: 'Pybids: Python tools for manipulation and analysis of BIDS datasets'

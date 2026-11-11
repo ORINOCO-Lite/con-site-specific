@@ -25,6 +25,12 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Align with the NMIND consortium for better neuroimaging
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Gregory Kiar; Jon Clucas; Eric Feczko; Mathias Goncalves; Dorota Jarecka; Christopher
+    J. Markiewicz; Yaroslav O. Halchenko; Robert Hermosillo; Xinhui Li; Oscar Miranda-Dominguez;
+    Satrajit Ghosh; Russell A. Poldrack; Theodore D. Satterthwaite; Michael P. Milham;
+    Damien Fair
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

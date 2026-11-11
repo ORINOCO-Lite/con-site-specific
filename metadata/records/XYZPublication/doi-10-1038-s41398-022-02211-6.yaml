@@ -18,6 +18,11 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'Working memory updating in individuals with bipolar and unipolar depression:
     fMRI study'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Anna Manelis; Yaroslav O. Halchenko; Lisa Bonar; Richelle S. Stiffler; Skye
+    Satz; Rachel Miceli; Cecile D. Ladouceur; Genna Bebko; Satish Iyengar; Holly A.
+    Swartz; Mary L. Phillips
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

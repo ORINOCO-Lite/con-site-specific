@@ -23,6 +23,9 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Neuroscience Runs on GNU/Linux
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Michael Hanke; Yaroslav O. Halchenko
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

@@ -30,8 +30,15 @@ attributes:
     \ learning, present solutions offered by recent neuroinformatics projects, and\
     \ showcase an example of tool integration applied to neurodegenerative disease\
     \ data."
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Michelle Wang; Nikhil Bhagwat; Francesco Cremonesi; Mathieu Dugré; Julia-Katharina
+    Pfarr; Emile d’Angremont; Alyssa Dai; Arman Jahanpour; Sebastian Urchs; Sergen Cansiz;
+    Lucie Chambon; Ali Tolga Dinçer; Jhonatan Torres; Marc Vesin; Gabriel Pinilla-Monsalve;
+    Yuan Song; Chris Vriend; Francis Jeanson; Oury Monchi; Ysbrand D. van der Werf;
+    Marco Lorenzi; Jean-Baptiste Poline
 characterized_by:
-- object: bibo:Manuscript
+- object: fabio:Preprint
   predicate: dcterms:type
 description: "Abstract\n          Despite growing understanding of the benefits of\
   \ having Findable, Accessible, Interoperable, and Reusable (FAIR) data, many datasets\
@@ -53,7 +60,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:G2UZ7L39
   schema_type: dlthings:Identifier
-kind: bibo:Manuscript
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-64898-2026-04-30-721944
 schema_type: xyzri:XYZPublication
 title: Open neuroinformatics infrastructure ecosystem for federated multisite studies

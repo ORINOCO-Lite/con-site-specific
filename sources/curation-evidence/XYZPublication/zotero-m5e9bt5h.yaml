@@ -1,0 +1,30 @@
+record: xyzrins:publications/zotero-m5e9bt5h
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:ConferencePoster
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/M5E9BT5H
+  locator: Zotero item, extra
+  quote: 'Published: Poster and talk presented at the annual meeting of the Organization
+    for Human Brain Mapping, Singapore'
+  note: The Zotero library records it as a poster.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Annual meeting of the Organization for Human Brain Mapping, Singapore
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/M5E9BT5H
+  locator: Zotero item, extra
+  quote: 'Published: Poster and talk presented at the annual meeting of the Organization
+    for Human Brain Mapping, Singapore'
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: Matteo Visconti di Oleggio Castello; James Dobson; Terry Sackett; Chandana
+    Kodiweera; James Haxby; Mathias Goncalves; Satrajit Ghosh; Yaroslav O. Halchenko
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/M5E9BT5H
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

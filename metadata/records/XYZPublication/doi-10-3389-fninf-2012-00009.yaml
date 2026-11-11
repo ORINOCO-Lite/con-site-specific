@@ -36,6 +36,12 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Data sharing in neuroimaging research
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Jean-Baptiste Poline; Janis L. Breeze; Satrajit Ghosh; Krzysztof Gorgolewski;
+    Yaroslav O. Halchenko; Michael Hanke; Christian Haselgrove; Karl G. Helmer; David
+    B. Keator; Daniel S. Marcus; Russell A. Poldrack; Yannick Schwartz; John Ashburner;
+    David N. Kennedy
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

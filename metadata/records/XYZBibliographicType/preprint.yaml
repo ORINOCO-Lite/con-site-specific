@@ -1,0 +1,5 @@
+description: The version of an author's original scholarly work, such as a research
+  paper or a review, first submitted to publisher for publication.
+display_label: Preprint
+pid: fabio:Preprint
+schema_type: xyzri:XYZBibliographicType

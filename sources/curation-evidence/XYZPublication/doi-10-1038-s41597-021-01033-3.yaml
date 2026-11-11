@@ -1,0 +1,15 @@
+record: xyzrins:publications/doi-10-1038-s41597-021-01033-3
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/6/value
+  value: Samuel A. Nastase; Yun-Fei Liu; Hanna Hillman; Asieh Zadbood; Liat Hasenfratz;
+    Neggin Keshavarzian; Janice Chen; Christopher J. Honey; Yaara Yeshurun; Mor
+    Regev; Mai Nguyen; Claire H. C. Chang; Christopher Baldassano; Olga Lositsky;
+    Erez Simony; Michael A. Chow; Yuan Chang Leong; Paula P. Brooks; Emily Micciche;
+    Gina Choe; Ariel Goldstein; Tamara Vanderwal; Yaroslav O. Halchenko; Kenneth
+    A. Norman; Uri Hasson
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41597-021-01033-3
+  locator: Crossref work 10.1038/s41597-021-01033-3, author
+  confidence: certain
+  captured: '2026-11-11'

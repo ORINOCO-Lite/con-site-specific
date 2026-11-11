@@ -1,0 +1,10 @@
+record: xyzrins:publications/doi-10-3389-fninf-2012-00022
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/5/value
+  value: Yaroslav O. Halchenko; Michael Hanke
+  kind: registry
+  source: https://api.crossref.org/works/10.3389/fninf.2012.00022
+  locator: Crossref work 10.3389/fninf.2012.00022, author
+  confidence: certain
+  captured: '2026-11-11'

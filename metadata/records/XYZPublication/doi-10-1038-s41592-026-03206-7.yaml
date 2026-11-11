@@ -1,0 +1,40 @@
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2026-08-31'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: 'Go figure: transparency in neuroscience images preserves context and clarifies
+    interpretation'
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: 'Go figure: transparency in neuroscience images preserves context and clarifies
+    interpretation'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Paul A. Taylor; Himanshu Aggarwal; Peter A. Bandettini; Marco Barilari; Molly
+    G. Bright; César Caballero-Gaudes; Vince D. Calhoun; Mallar Chakravarty; Gabriel
+    A. Devenyi; Jennifer W. Evans; Eduardo A. Garza-Villarreal; Rémi Gau; Daniel R.
+    Glen; Rainer Goebel; Javier Gonzalez-Castillo; Omer Faruk Gulban; Yaroslav Halchenko;
+    Daniel A. Handwerker; Taylor Hanayik; Peter D. Lauren; David A. Leopold; Jason P.
+    Lerch; Christian Mathys; Paul McCarthy; Anke McLeod; Amanda F. Mejia; Stefano Moia;
+    Thomas E. Nichols; Cyril Pernet; Luiz Pessoa; Bettina Pfleiderer; Justin K. Rajendra;
+    Jalil Rasgado-Toledo; Laura D. Reyes; Richard C. Reynolds; Vinai Roopchansingh;
+    Chris Rorden; Brian E. Russ; Benedikt Sundermann; Bertrand Thirion; Salvatore Torrisi;
+    Gang Chen
+characterized_by:
+- object: bibo:AcademicArticle
+  predicate: dcterms:type
+identifiers:
+- notation: 10.1038/s41592-026-03206-7
+  schema_type: dlthings:DOI
+kind: bibo:AcademicArticle
+pid: xyzrins:publications/doi-10-1038-s41592-026-03206-7
+schema_type: xyzri:XYZPublication
+title: 'Go figure: transparency in neuroscience images preserves context and clarifies
+  interpretation'

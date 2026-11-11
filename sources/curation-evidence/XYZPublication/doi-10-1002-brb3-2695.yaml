@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-1002-brb3-2695
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: A Manelis; YO Halchenko; S Satz; R Ragozzino; S Iyengar; HA Swartz; MD
+    Levine
+  kind: registry
+  source: https://api.crossref.org/works/10.1002/brb3.2695
+  locator: Crossref work 10.1002/brb3.2695, author
+  confidence: certain
+  captured: '2026-11-11'

@@ -19,6 +19,9 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Converging catalogues, warehouses, and deployment logistics into a federated
     'data distribution'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav O. Halchenko; Michael Hanke
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type

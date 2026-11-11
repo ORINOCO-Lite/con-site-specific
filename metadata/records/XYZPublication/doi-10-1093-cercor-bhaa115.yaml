@@ -16,6 +16,10 @@ attributes:
 - predicate: dcterms:issued
   schema_type: dlthings:AttributeSpecification
   value: '2020-06-04'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Lucy L W Owen; Tudor A Muntianu; Andrew C Heusser; Patrick M Daly; Katherine
+    W Scangos; Jeremy R Manning
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

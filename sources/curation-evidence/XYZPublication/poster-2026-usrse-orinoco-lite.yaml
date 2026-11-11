@@ -30,3 +30,10 @@ assertions:
   note: The DOI of all versions of the deposit, in the CON community on Zenodo.
   confidence: certain
   captured: '2026-11-06'
+- path: /attributes/2/value
+  value: John Lee; Isaac To; Yaroslav Halchenko
+  kind: registry
+  source: https://api.datacite.org/dois/10.5281/zenodo.22834595
+  locator: DataCite DOI 10.5281/zenodo.22834595, creators
+  confidence: certain
+  captured: '2026-11-11'

@@ -1,0 +1,45 @@
+attributed_to:
+- object: xyzrins:persons/chris-markiewicz
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/satrajit-ghosh
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/russell-poldrack
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2020-06-08'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Analysis of task-based functional MRI data preprocessed with fMRIPrep
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Analysis of task-based functional MRI data preprocessed with fMRIPrep
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Oscar Esteban; Rastko Ciric; Karolina Finc; Ross W. Blair; Christopher J. Markiewicz;
+    Craig A. Moodie; James D. Kent; Mathias Goncalves; Elizabeth DuPre; Daniel E. P.
+    Gomez; Zhifang Ye; Taylor Salo; Romain Valabregue; Inge K. Amlien; Franziskus Liem;
+    Nir Jacoby; Hrvoje Stojić; Matthew Cieslak; Sebastian Urchs; Yaroslav O. Halchenko;
+    Satrajit S. Ghosh; Alejandro De La Vega; Tal Yarkoni; Jessey Wright; William H.
+    Thompson; Russell A. Poldrack; Krzysztof J. Gorgolewski
+characterized_by:
+- object: bibo:AcademicArticle
+  predicate: dcterms:type
+identifiers:
+- notation: 10.1038/s41596-020-0327-3
+  schema_type: dlthings:DOI
+kind: bibo:AcademicArticle
+pid: xyzrins:publications/doi-10-1038-s41596-020-0327-3
+schema_type: xyzri:XYZPublication
+title: Analysis of task-based functional MRI data preprocessed with fMRIPrep

@@ -1,0 +1,10 @@
+record: xyzrins:publications/doi-10-1111-j-1467-9280-2009-02460-x
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/5/value
+  value: Russell A. Poldrack; Yaroslav O. Halchenko; Stephen José Hanson
+  kind: registry
+  source: https://api.crossref.org/works/10.1111/j.1467-9280.2009.02460.x
+  locator: Crossref work 10.1111/j.1467-9280.2009.02460.x, author
+  confidence: certain
+  captured: '2026-11-11'

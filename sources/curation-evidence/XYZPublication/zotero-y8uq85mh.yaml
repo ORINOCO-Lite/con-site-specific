@@ -1,0 +1,32 @@
+record: xyzrins:publications/zotero-y8uq85mh
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:ConferencePoster
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/Y8UQ85MH
+  locator: Zotero item, extra
+  quote: 'Published: Organization of Human Brain Mapping Annual Meeting, Honolulu
+    HI, USA. Poster'
+  note: The Zotero library records it as a poster.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Organization of Human Brain Mapping Annual Meeting, Honolulu HI, USA
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/Y8UQ85MH
+  locator: Zotero item, extra
+  quote: 'Published: Organization of Human Brain Mapping Annual Meeting, Honolulu
+    HI, USA. Poster'
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: Nolan Nichols; David Keator; Camille Maumet; Guillaume Flandin; Thomas
+    Nichols; Krzysztof Gorgolewski; Yaroslav Halchenko; Michael Hanke; Christian
+    Haselgrove; Karl Helmer; Daniel Marcus; Russell Poldrack; Jessica Turner; David
+    Kennedy; Jean Baptiste Poline; Kilian Pohl
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/Y8UQ85MH
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

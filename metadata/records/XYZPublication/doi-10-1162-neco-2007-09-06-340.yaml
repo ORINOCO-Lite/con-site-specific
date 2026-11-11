@@ -18,6 +18,9 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'Brain reading using full brain support vector machines for object recognition:
     there is no “face” identification area'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Stephen José Hanson; Yaroslav O. Halchenko
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

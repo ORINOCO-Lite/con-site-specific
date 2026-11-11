@@ -1,0 +1,33 @@
+record: xyzrins:publications/doi-10-1101-2023-02-17-528834
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:Preprint
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/2023.02.17.528834
+  locator: Crossref work, type
+  quote: '"type": "posted-content", "subtype": "preprint"'
+  note: Registered as a preprint.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Josh Moore; Daniela Basurto-Lozada; Sébastien Besson; John Bogovic; Jordão
+    Bragantini; Eva M. Brown; Jean-Marie Burel; Xavier Casas Moreno; Gustavo de
+    Medeiros; Erin E. Diel; David Gault; Satrajit S. Ghosh; Ilan Gold; Yaroslav
+    O. Halchenko; Matthew Hartley; Dave Horsfall; Mark S. Keller; Mark Kittisopikul;
+    Gabor Kovacs; Aybüke Küpcü Yoldaş; Koji Kyoda; Albane le Tournoulx de la Villegeorges;
+    Tong Li; Prisca Liberali; Dominik Lindner; Melissa Linkert; Joel Lüthi; Jeremy
+    Maitin-Shepard; Trevor Manz; Luca Marconato; Matthew McCormick; Merlin Lange;
+    Khaled Mohamed; William Moore; Nils Norlin; Wei Ouyang; Bugra Özdemir; Giovanni
+    Palla; Constantin Pape; Lucas Pelkmans; Tobias Pietzsch; Stephan Preibisch;
+    Martin Prete; Norman Rzepka; Sameeul Samee; Nicholas Schaub; Hythem Sidky; Ahmet
+    Can Solak; David R. Stirling; Jonathan Striebel; Christian Tischer; Daniel Toloudis;
+    Isaac Virshup; Petr Walczysko; Alan M. Watson; Erin Weisbart; Frances Wong;
+    Kevin A. Yamauchi; Omer Bayraktar; Beth A. Cimini; Nils Gehlenborg; Muzlifah
+    Haniffa; Nathan Hotaling; Shuichi Onami; Loic A. Royer; Stephan Saalfeld; Oliver
+    Stegle; Fabian J. Theis; Jason R. Swedlow
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/2023.02.17.528834
+  locator: Crossref work 10.1101/2023.02.17.528834, author
+  confidence: certain
+  captured: '2026-11-11'

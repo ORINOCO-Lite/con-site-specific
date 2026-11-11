@@ -57,6 +57,13 @@ attributes:
     \ its scalability, we applied BABS to data from the Healthy Brain Network (HBN;\
     \ n = 2,565). Taken together, BABS allows reproducible and scalable image processing\
     \ and is broadly extensible via an open-source development model."
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Chenying Zhao; Dorota Jarecka; Sydney Covitz; Yibei Chen; Simon B. Eickhoff;
+    Damien A. Fair; Alexandre R. Franco; Yaroslav O. Halchenko; Timothy J. Hendrickson;
+    Felix Hoffstaedter; Audrey Houghton; Gregory Kiar; Austin Macdonald; Kahini Mehta;
+    Michael P. Milham; Taylor Salo; Michael Hanke; Satrajit S. Ghosh; Matthew Cieslak;
+    Theodore D. Satterthwaite
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

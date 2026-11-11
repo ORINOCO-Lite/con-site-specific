@@ -1,0 +1,10 @@
+record: xyzrins:publications/zotero-3zvyrxu7
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/3/value
+  value: Andreas Tille; Steffen Moeller; Michael Hanke; Yaroslav O. Halchenko
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/3ZVYRXU7
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

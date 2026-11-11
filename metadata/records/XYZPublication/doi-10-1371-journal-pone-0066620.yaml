@@ -20,6 +20,10 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Prioritized Detection of Personally Familiar Faces
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Maria Ida Gobbini; Jason D. Gors; Yaroslav O. Halchenko; Courtney Rogers; J.
+    Swaroop Guntupalli; Howard Hughes; Carlo Cipolli
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

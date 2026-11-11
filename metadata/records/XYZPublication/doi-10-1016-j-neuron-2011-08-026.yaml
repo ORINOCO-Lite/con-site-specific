@@ -26,6 +26,10 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: A Common, High-Dimensional Model of the Representational Space in Human Ventral
     Temporal Cortex
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: James V. Haxby; J. Swaroop Guntupalli; Andrew C. Connolly; Yaroslav O. Halchenko;
+    Bryan R. Conroy; M. Ida Gobbini; Michael Hanke; Peter J. Ramadge
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

@@ -78,6 +78,15 @@ attributes:
   value: 'Halchenko et al., (2021). DataLad: distributed system for joint management
     of code, data, and their relationship. Journal of Open Source Software, 6(63),
     3262, https://doi.org/10.21105/joss.03262'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav Halchenko; Kyle Meyer; Benjamin Poldrack; Debanjum Solanky; Adina
+    Wagner; Jason Gors; Dave MacFarlane; Dorian Pustina; Vanessa Sochat; Satrajit Ghosh;
+    Christian Mönch; Christopher Markiewicz; Laura Waite; Ilya Shlyakhter; Alejandro
+    de la Vega; Soichi Hayashi; Christian Häusler; Jean-Baptiste Poline; Tobias Kadelka;
+    Kusti Skytén; Dorota Jarecka; David Kennedy; Ted Strauss; Matt Cieslak; Peter Vavra;
+    Horea-Ioan Ioanas; Robin Schneider; Mika Pflüger; James Haxby; Simon Eickhoff; Michael
+    Hanke
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

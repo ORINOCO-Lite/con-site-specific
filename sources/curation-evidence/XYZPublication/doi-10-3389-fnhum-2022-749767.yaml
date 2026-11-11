@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-3389-fnhum-2022-749767
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Skye Satz; Yaroslav O. Halchenko; Rachel Ragozzino; Mora M. Lucero; Mary
+    L. Phillips; Holly A. Swartz; Anna Manelis
+  kind: registry
+  source: https://api.crossref.org/works/10.3389/fnhum.2022.749767
+  locator: Crossref work 10.3389/fnhum.2022.749767, author
+  confidence: certain
+  captured: '2026-11-11'

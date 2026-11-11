@@ -23,13 +23,20 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Temporal dynamics and effective connectivity in the distributed system of
     familiar face processing
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Annual meeting of the Organization for Human Brain Mapping, Singapore
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Oliver Contier; Matteo Visconti di Oleggio Castello; M. Ida Gobbini; Yaroslav
+    O. Halchenko
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 identifiers:
 - notation: zotero:group:6197458:item:FDB48TZJ
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-fdb48tzj
 schema_type: xyzri:XYZPublication
 title: Temporal dynamics and effective connectivity in the distributed system of familiar

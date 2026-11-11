@@ -1,0 +1,30 @@
+record: xyzrins:publications/zotero-wbwu53im
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:ConferencePoster
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/WBWU53IM
+  locator: Zotero item, extra
+  quote: 'Published: Poster presented at the annual meeting of the Organization
+    for Human Brain Mapping, Hamburg, Germany'
+  note: The Zotero library records it as a poster.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Annual meeting of the Organization for Human Brain Mapping, Hamburg, Germany
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/WBWU53IM
+  locator: Zotero item, extra
+  quote: 'Published: Poster presented at the annual meeting of the Organization
+    for Human Brain Mapping, Hamburg, Germany'
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: Samuel A. Nastase; Andrew C. Connolly; Nikolaas N. Oosterhof; Yaroslav
+    O. Halchenko; Jason Gors; M. Ida Gobbini; James V. Haxby
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/WBWU53IM
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

@@ -20,6 +20,10 @@ attributes:
   value: The Relationship Between Default Mode and Dorsal Attention Networks Is Associated
     With Depressive Disorder Diagnosis and the Strength of Memory Representations
     Acquired Prior to the Resting State Scan
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Skye Satz; Yaroslav O. Halchenko; Rachel Ragozzino; Mora M. Lucero; Mary L.
+    Phillips; Holly A. Swartz; Anna Manelis
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

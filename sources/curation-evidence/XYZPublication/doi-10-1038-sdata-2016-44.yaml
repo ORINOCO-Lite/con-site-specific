@@ -1,0 +1,15 @@
+record: xyzrins:publications/doi-10-1038-sdata-2016-44
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/7/value
+  value: Krzysztof J. Gorgolewski; Tibor Auer; Vince D. Calhoun; R. Cameron Craddock;
+    Samir Das; Eugene P. Duff; Guillaume Flandin; Satrajit S. Ghosh; Tristan Glatard;
+    Yaroslav O. Halchenko; Daniel A. Handwerker; Michael Hanke; David Keator; Xiangrui
+    Li; Zachary Michael; Camille Maumet; B. Nolan Nichols; Thomas E. Nichols; John
+    Pellman; Jean-Baptiste Poline; Ariel Rokem; Gunnar Schaefer; Vanessa Sochat;
+    William Triplett; Jessica A. Turner; Gaël Varoquaux; Russell A. Poldrack
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/sdata.2016.44
+  locator: Crossref work 10.1038/sdata.2016.44, author
+  confidence: certain
+  captured: '2026-11-11'

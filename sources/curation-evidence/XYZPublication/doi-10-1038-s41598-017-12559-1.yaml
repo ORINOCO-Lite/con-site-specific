@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-1038-s41598-017-12559-1
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Matteo Visconti di Oleggio Castello; Yaroslav O. Halchenko; J. Swaroop
+    Guntupalli; Jason D. Gors; M. Ida Gobbini
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41598-017-12559-1
+  locator: Crossref work 10.1038/s41598-017-12559-1, author
+  confidence: certain
+  captured: '2026-11-11'

@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-1162-jocn-a-00733
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Long Sha; James V. Haxby; Herve Abdi; J. Swaroop Guntupalli; Nikolaas N.
+    Oosterhof; Yaroslav O. Halchenko; Andrew C. Connolly
+  kind: registry
+  source: https://api.crossref.org/works/10.1162/jocn_a_00733
+  locator: Crossref work 10.1162/jocn_a_00733, author
+  confidence: certain
+  captured: '2026-11-11'

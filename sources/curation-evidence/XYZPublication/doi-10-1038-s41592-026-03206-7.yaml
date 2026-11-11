@@ -1,0 +1,27 @@
+record: xyzrins:publications/doi-10-1038-s41592-026-03206-7
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2026-08-31'
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41592-026-03206-7
+  locator: Crossref work 10.1038/s41592-026-03206-7, published
+  note: Published in Nature Methods; the version of record of the preprint xyzrins:publications/doi-10-48550-arxiv-2504-07824.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Paul A. Taylor; Himanshu Aggarwal; Peter A. Bandettini; Marco Barilari;
+    Molly G. Bright; César Caballero-Gaudes; Vince D. Calhoun; Mallar Chakravarty;
+    Gabriel A. Devenyi; Jennifer W. Evans; Eduardo A. Garza-Villarreal; Rémi Gau;
+    Daniel R. Glen; Rainer Goebel; Javier Gonzalez-Castillo; Omer Faruk Gulban;
+    Yaroslav Halchenko; Daniel A. Handwerker; Taylor Hanayik; Peter D. Lauren; David
+    A. Leopold; Jason P. Lerch; Christian Mathys; Paul McCarthy; Anke McLeod; Amanda
+    F. Mejia; Stefano Moia; Thomas E. Nichols; Cyril Pernet; Luiz Pessoa; Bettina
+    Pfleiderer; Justin K. Rajendra; Jalil Rasgado-Toledo; Laura D. Reyes; Richard
+    C. Reynolds; Vinai Roopchansingh; Chris Rorden; Brian E. Russ; Benedikt Sundermann;
+    Bertrand Thirion; Salvatore Torrisi; Gang Chen
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41592-026-03206-7
+  locator: Crossref work 10.1038/s41592-026-03206-7, author
+  confidence: certain
+  captured: '2026-11-11'

@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-1515-nf-2020-0037
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/7/value
+  value: Michael Hanke; Franco Pestilli; Adina S. Wagner; Christopher J. Markiewicz;
+    Jean-Baptiste Poline; Yaroslav O. Halchenko
+  kind: registry
+  source: https://api.crossref.org/works/10.1515/nf-2020-0037
+  locator: Crossref work 10.1515/nf-2020-0037, author
+  confidence: certain
+  captured: '2026-11-11'

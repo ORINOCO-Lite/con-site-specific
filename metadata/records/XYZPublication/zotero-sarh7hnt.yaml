@@ -35,13 +35,24 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'How to make brain imaging research efficient and reproducible: building
     software and standards'
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Organization of Human Brain Mapping Annual Meeting, Honolulu HI, USA
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Jean Baptiste Poline; Samir Das; David Keator; Krzysztof Gorgolewski; Tibor
+    Auer; Gang Chen; Cameron Craddock; Guillaume Flandin; Satrajit Ghosh; Yaroslav O.
+    Halchenko; Michael Hanke; Christian Haselgrove; Karl Helmer; Mark Jenkinson; Arno
+    Klein; Daniel Marcus; Daniel Margulies; Camille Maumet; Franck Michel; Nolan Nichols;
+    Thomas Nichols; Russell Poldrack; Richard Reynolds; Ziad S. Saad; Tanya Schmah;
+    Jason Steffener; Jessica Turner; Theo van Erp; John Van Horn; Samir Das; David Kennedy
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 identifiers:
 - notation: zotero:group:6197458:item:SARH7HNT
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-sarh7hnt
 schema_type: xyzri:XYZPublication
 title: 'How to make brain imaging research efficient and reproducible: building software

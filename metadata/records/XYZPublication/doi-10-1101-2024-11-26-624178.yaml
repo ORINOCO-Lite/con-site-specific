@@ -23,8 +23,12 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Behaviorally-relevant features of observed actions dominate cortical representational
     geometry in natural vision
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Jane Han; Vassiki Chauhan; Rebecca Philip; Morgan K. Taylor; Heejung Jung;
+    Yaroslav O. Halchenko; M. Ida Gobbini; James V. Haxby; Samuel A. Nastase
 characterized_by:
-- object: bibo:AcademicArticle
+- object: fabio:Preprint
   predicate: dcterms:type
 identifiers:
 - notation: 10.1101/2024.11.26.624178
@@ -33,7 +37,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:5B6WRNBX
   schema_type: dlthings:Identifier
-kind: bibo:AcademicArticle
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-1101-2024-11-26-624178
 schema_type: xyzri:XYZPublication
 title: Behaviorally-relevant features of observed actions dominate cortical representational

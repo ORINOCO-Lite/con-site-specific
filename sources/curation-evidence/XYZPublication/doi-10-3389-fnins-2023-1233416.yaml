@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-3389-fnins-2023-1233416
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/6/value
+  value: Sajjad Torabian; Natalia Vélez; Vanessa Sochat; Yaroslav O. Halchenko;
+    Emily D. Grossman
+  kind: registry
+  source: https://api.crossref.org/works/10.3389/fnins.2023.1233416
+  locator: Crossref work 10.3389/fnins.2023.1233416, author
+  confidence: certain
+  captured: '2026-11-11'

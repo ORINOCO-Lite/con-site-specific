@@ -1,0 +1,35 @@
+record: xyzrins:publications/zotero-sarh7hnt
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:ConferencePoster
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/SARH7HNT
+  locator: Zotero item, extra
+  quote: 'Published: Organization of Human Brain Mapping Annual Meeting, Honolulu
+    HI, USA. Poster'
+  note: The Zotero library records it as a poster.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Organization of Human Brain Mapping Annual Meeting, Honolulu HI, USA
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/SARH7HNT
+  locator: Zotero item, extra
+  quote: 'Published: Organization of Human Brain Mapping Annual Meeting, Honolulu
+    HI, USA. Poster'
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: Jean Baptiste Poline; Samir Das; David Keator; Krzysztof Gorgolewski; Tibor
+    Auer; Gang Chen; Cameron Craddock; Guillaume Flandin; Satrajit Ghosh; Yaroslav
+    O. Halchenko; Michael Hanke; Christian Haselgrove; Karl Helmer; Mark Jenkinson;
+    Arno Klein; Daniel Marcus; Daniel Margulies; Camille Maumet; Franck Michel;
+    Nolan Nichols; Thomas Nichols; Russell Poldrack; Richard Reynolds; Ziad S. Saad;
+    Tanya Schmah; Jason Steffener; Jessica Turner; Theo van Erp; John Van Horn;
+    Samir Das; David Kennedy
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/SARH7HNT
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

@@ -18,6 +18,10 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Protocol for a machine learning algorithm predicting depressive disorders
     using the T1w/T2w ratio
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: David A.A. Baranger; Yaroslav O. Halchenko; Skye Satz; Rachel Ragozzino; Satish
+    Iyengar; Holly A. Swartz; Anna Manelis
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

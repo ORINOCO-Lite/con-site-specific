@@ -1,0 +1,20 @@
+record: xyzrins:publications/doi-10-1016-j-nicl-2021-102790
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2021'
+  kind: registry
+  source: https://api.crossref.org/works/10.1016/j.nicl.2021.102790
+  locator: Crossref work 10.1016/j.nicl.2021.102790, published
+  note: 'Published in NeuroImage: Clinical; the version of record of the preprint
+    xyzrins:publications/doi-10-1101-2021-02-25-21252472.'
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: David A.A. Baranger; Yaroslav O. Halchenko; Skye Satz; Rachel Ragozzino;
+    Satish Iyengar; Holly A. Swartz; Anna Manelis
+  kind: registry
+  source: https://api.crossref.org/works/10.1016/j.nicl.2021.102790
+  locator: Crossref work 10.1016/j.nicl.2021.102790, author
+  confidence: certain
+  captured: '2026-11-11'

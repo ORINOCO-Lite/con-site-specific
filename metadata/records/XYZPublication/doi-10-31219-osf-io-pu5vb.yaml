@@ -25,8 +25,15 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: 'Open and reproducible neuroimaging: from study inception to publication'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Guiomar Niso; Rotem Botvinik-Nezer; Stefan Appelhoff; Alejandro De La Vega;
+    Oscar Esteban; Joset A. Etzel; Karolina Finc; Melanie Ganz; Remi Gau; Yaroslav O
+    Halchenko; Peer Herholz; Agah Karakuzu; David Keator; Camille MAUMET; Christopher
+    Johnson Markiewicz; Cyril R Pernet; Franco Pestilli; Nazek Queder; Tina Schmitt;
+    Weronika Sójka; Adina Svenja Wagner; Kirstie Jane Whitaker; Jochem Rieger
 characterized_by:
-- object: bibo:AcademicArticle
+- object: fabio:Preprint
   predicate: dcterms:type
 identifiers:
 - notation: 10.31219/osf.io/pu5vb
@@ -35,7 +42,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:M6CYXQC2
   schema_type: dlthings:Identifier
-kind: bibo:AcademicArticle
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-31219-osf-io-pu5vb
 schema_type: xyzri:XYZPublication
 title: 'Open and reproducible neuroimaging: from study inception to publication'

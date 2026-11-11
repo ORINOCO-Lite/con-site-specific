@@ -13,6 +13,9 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Predictive Decoding of Neural Data
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav O. Halchenko
 characterized_by:
 - object: bibo:Thesis
   predicate: dcterms:type

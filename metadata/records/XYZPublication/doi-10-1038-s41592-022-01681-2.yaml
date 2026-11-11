@@ -45,6 +45,11 @@ attributes:
     \ TemplateFlow enables multifaceted insights into brains across species, and supports\
     \ multiverse analyses testing whether results generalize across standard references,\
     \ scales, and in the long term, species."
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Rastko Ciric; William H. Thompson; Romy Lorenz; Mathias Goncalves; Eilidh E.
+    MacNicol; Christopher J. Markiewicz; Yaroslav O. Halchenko; Satrajit S. Ghosh; Krzysztof
+    J. Gorgolewski; Russell A. Poldrack; Oscar Esteban
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

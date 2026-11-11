@@ -1,0 +1,13 @@
+record: xyzrins:publications/doi-10-1038-s41562-023-01647-0
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/3/value
+  value: Gregory Kiar; Jon Clucas; Eric Feczko; Mathias Goncalves; Dorota Jarecka;
+    Christopher J. Markiewicz; Yaroslav O. Halchenko; Robert Hermosillo; Xinhui
+    Li; Oscar Miranda-Dominguez; Satrajit Ghosh; Russell A. Poldrack; Theodore D.
+    Satterthwaite; Michael P. Milham; Damien Fair
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41562-023-01647-0
+  locator: Crossref work 10.1038/s41562-023-01647-0, author
+  confidence: certain
+  captured: '2026-11-11'

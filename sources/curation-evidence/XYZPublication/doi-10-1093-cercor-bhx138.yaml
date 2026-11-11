@@ -1,0 +1,20 @@
+record: xyzrins:publications/doi-10-1093-cercor-bhx138
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2017-06-07'
+  kind: registry
+  source: https://api.crossref.org/works/10.1093/cercor/bhx138
+  locator: Crossref work 10.1093/cercor/bhx138, published
+  note: Published in Cerebral Cortex; the version of record of the preprint xyzrins:publications/doi-10-1101-045252.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Samuel A. Nastase; Andrew C. Connolly; Nikolaas N. Oosterhof; Yaroslav
+    O. Halchenko; J. Swaroop Guntupalli; Matteo Visconti di Oleggio Castello; Jason
+    Gors; M. Ida Gobbini; James V. Haxby
+  kind: registry
+  source: https://api.crossref.org/works/10.1093/cercor/bhx138
+  locator: Crossref work 10.1093/cercor/bhx138, author
+  confidence: certain
+  captured: '2026-11-11'

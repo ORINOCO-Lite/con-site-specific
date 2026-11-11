@@ -1,0 +1,12 @@
+record: xyzrins:publications/zotero-d46pfxj5
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Samuel A. Nastase; Andrew C. Connolly; Nikolaas N. Oosterhof; Yaroslav
+    O. Halchenko; J. Swaroop Guntupalli; Matteo Visconti di Oleggio Castello; Jason
+    Gors; M. Ida Gobbini; James V. Haxby
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/D46PFXJ5
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

@@ -15,6 +15,9 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'NeuroDebian: from disjoint tools and data to robust turnkey platform for
     neuroimaging and beyond'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav O. Halchenko
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type

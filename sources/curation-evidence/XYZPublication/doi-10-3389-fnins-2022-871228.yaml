@@ -1,0 +1,14 @@
+record: xyzrins:publications/doi-10-3389-fnins-2022-871228
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/5/value
+  value: Marie-Hélène Bourget; Lee Kamentsky; Satrajit S. Ghosh; Giacomo Mazzamuto;
+    Alberto Lazari; Christopher J. Markiewicz; Robert Oostenveld; Guiomar Niso;
+    Yaroslav O. Halchenko; Ilona Lipp; Sylvain Takerkart; Paule-Joanne Toussaint;
+    Ali R. Khan; Gustav Nilsonne; Filippo Maria Castelli; The BIDS Maintainers;
+    Julien Cohen-Adad
+  kind: registry
+  source: https://api.crossref.org/works/10.3389/fnins.2022.871228
+  locator: Crossref work 10.3389/fnins.2022.871228, author
+  confidence: certain
+  captured: '2026-11-11'

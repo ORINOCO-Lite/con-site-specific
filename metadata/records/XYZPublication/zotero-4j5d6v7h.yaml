@@ -13,15 +13,21 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Resources for practicing PR4NI – pragmatic cursory overview
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Organization of Human Brain Mapping Annual Meeting, Tutorials, Geneva, Switzerland
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav. O Halchenko
 characterized_by:
-- object: bibo:Document
+- object: bibo:Slideshow
   predicate: dcterms:type
 identifiers:
 - notation: http://www.pymvpa.org/files/OHBM2016_Halchenko_resources.pdf
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:4J5D6V7H
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: bibo:Slideshow
 pid: xyzrins:publications/zotero-4j5d6v7h
 schema_type: xyzri:XYZPublication
 title: Resources for practicing PR4NI – pragmatic cursory overview

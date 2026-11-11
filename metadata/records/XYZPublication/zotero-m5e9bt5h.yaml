@@ -27,8 +27,15 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'ReproIn: automatic generation of shareable, version-controlled BIDS datasets
     from MR scanners'
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Annual meeting of the Organization for Human Brain Mapping, Singapore
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Matteo Visconti di Oleggio Castello; James Dobson; Terry Sackett; Chandana
+    Kodiweera; James Haxby; Mathias Goncalves; Satrajit Ghosh; Yaroslav O. Halchenko
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 generated_by:
 - object: xyzrins:projects/heudiconv
@@ -36,7 +43,7 @@ generated_by:
 identifiers:
 - notation: zotero:group:6197458:item:M5E9BT5H
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-m5e9bt5h
 schema_type: xyzri:XYZPublication
 title: 'ReproIn: automatic generation of shareable, version-controlled BIDS datasets

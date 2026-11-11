@@ -1,0 +1,10 @@
+record: xyzrins:publications/zotero-k7pww352
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/3/value
+  value: Y. O. Halchenko; M. Hanke; J. V. Haxby; S. J. Hanson; C. S. Herrmann
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/K7PWW352
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

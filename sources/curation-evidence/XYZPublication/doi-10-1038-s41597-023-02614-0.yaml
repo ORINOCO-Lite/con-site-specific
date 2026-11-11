@@ -1,0 +1,15 @@
+record: xyzrins:publications/doi-10-1038-s41597-023-02614-0
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/6/value
+  value: Priyanka Subash; Alex Gray; Misque Boswell; Samantha L. Cohen; Rachael
+    Garner; Sana Salehi; Calvary Fisher; Samuel Hobel; Satrajit Ghosh; Yaroslav
+    Halchenko; Benjamin Dichter; Russell A. Poldrack; Chris Markiewicz; Dora Hermes;
+    Arnaud Delorme; Scott Makeig; Brendan Behan; Alana Sparks; Stephen R Arnott;
+    Zhengjia Wang; John Magnotti; Michael S. Beauchamp; Nader Pouratian; Arthur
+    W. Toga; Dominique Duncan
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41597-023-02614-0
+  locator: Crossref work 10.1038/s41597-023-02614-0, author
+  confidence: certain
+  captured: '2026-11-11'

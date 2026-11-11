@@ -1,0 +1,16 @@
+record: xyzrins:publications/doi-10-21105-joss-01294
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Tal Yarkoni; Christopher Markiewicz; Alejandro de la Vega; Krzysztof Gorgolewski;
+    Taylor Salo; Yaroslav Halchenko; Quinten McNamara; Krista DeStasio; Jean-Baptiste
+    Poline; Dmitry Petrov; Valérie Hayot-Sasson; Dylan Nielson; Johan Carlin; Gregory
+    Kiar; Kirstie Whitaker; Elizabeth DuPre; Adina Wagner; Lee Tirrell; Mainak Jas;
+    Michael Hanke; Russell Poldrack; Oscar Esteban; Stefan Appelhoff; Chris Holdgraf;
+    Isla Staden; Bertrand Thirion; Dave Kleinschmidt; John Lee; Matteo di Castello;
+    Michael Notter; Ross Blair
+  kind: registry
+  source: https://api.crossref.org/works/10.21105/joss.01294
+  locator: Crossref work 10.21105/joss.01294, author
+  confidence: certain
+  captured: '2026-11-11'

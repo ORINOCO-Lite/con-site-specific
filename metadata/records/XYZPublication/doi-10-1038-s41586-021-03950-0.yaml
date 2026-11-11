@@ -1,0 +1,109 @@
+attributed_to:
+- object: xyzrins:persons/satrajit-ghosh
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2021-10-06'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: A multimodal cell census and atlas of the mammalian primary motor cortex
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: A multimodal cell census and atlas of the mammalian primary motor cortex
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: BRAIN Initiative Cell Census Network (BICCN); Edward M. Callaway; Hong-Wei
+    Dong; Joseph R. Ecker; Michael J. Hawrylycz; Z. Josh Huang; Ed S. Lein; John Ngai;
+    Pavel Osten; Bing Ren; Andreas Savas Tolias; Owen White; Hongkui Zeng; Xiaowei Zhuang;
+    BICCN contributing principal investigators; Giorgio A. Ascoli; M. Margarita Behrens;
+    Jerold Chun; Guoping Feng; James C. Gee; Satrajit S. Ghosh; Yaroslav O. Halchenko;
+    Ronna Hertzano; Byung Kook Lim; Maryann E. Martone; Lydia Ng; Lior Pachter; Alexander
+    J. Ropelewski; Timothy L. Tickle; X. William Yang; Kun Zhang; Principal manuscript
+    editors; Manuscript writing and figure generation; Trygve E. Bakken; Philipp Berens;
+    Tanya L. Daigle; Julie A. Harris; Nikolas L. Jorstad; Brian E. Kalmbach; Dmitry
+    Kobak; Yang Eric Li; Hanqing Liu; Katherine S. Matho; Eran A. Mukamel; Maitham Naeemi;
+    Federico Scala; Pengcheng Tan; Jonathan T. Ting; Fangming Xie; Meng Zhang; Zhuzhu
+    Zhang; Jingtian Zhou; Brian Zingg; Analysis coordination; Integrated data analysis;
+    Ethan Armand; Zizhen Yao; scRNA-seq and snRNA-seq data generation and processing;
+    Darren Bertagnolli; Tamara Casper; Kirsten Crichton; Nick Dee; Dinh Diep; Song-Lin
+    Ding; Weixiu Dong; Elizabeth L. Dougherty; Olivia Fong; Melissa Goldman; Jeff Goldy;
+    Rebecca D. Hodge; Lijuan Hu; C. Dirk Keene; Fenna M. Krienen; Matthew Kroll; Blue
+    B. Lake; Kanan Lathia; Sten Linnarsson; Christine S. Liu; Evan Z. Macosko; Steven
+    A. McCarroll; Delissa McMillen; Naeem M. Nadaf; Thuc Nghi Nguyen; Carter R. Palmer;
+    Thanh Pham; Nongluk Plongthongkum; Nora M. Reed; Aviv Regev; Christine Rimorin;
+    William J. Romanow; Steven Savoia; Kimberly Siletti; Kimberly Smith; Josef Sulc;
+    Bosiljka Tasic; Michael Tieu; Amy Torkelson; Herman Tung; Cindy T. J. van Velthoven;
+    Charles R. Vanderburg; Anna Marie Yanny; ATAC-seq data generation and processing;
+    Rongxin Fang; Xiaomeng Hou; Jacinta D. Lucero; Julia K. Osteen; Antonio Pinto-Duarte;
+    Olivier Poirion; Sebastian Preissl; Xinxin Wang; Methylcytosine data production
+    and analysis; Andrew I. Aldridge; Anna Bartlett; Lara Boggeman; Carolyn O’Connor;
+    Rosa G. Castanon; Huaming Chen; Conor Fitzpatrick; Chongyuan Luo; Joseph R. Nery;
+    Michael Nunn; Angeline C. Rivkin; Wei Tian; Epi-retro-seq data generation and processing;
+    Bertha Dominguez; Tony Ito-Cole; Matthew Jacobs; Xin Jin; Cheng-Ta Lee; Kuo-Fen
+    Lee; Paula Assakura Miyazaki; Yan Pang; Mohammad Rashid; Jared B. Smith; Minh Vu;
+    Elora Williams; Tommaso Biancalani; A. Sina Booeshaghi; Megan Crow; Sandrine Dudoit;
+    Stephan Fischer; Jesse Gillis; Qiwen Hu; Peter V. Kharchenko; Sheng-Yong Niu; Vasilis
+    Ntranos; Elizabeth Purdom; Davide Risso; Hector Roux de Bézieux; Saroja Somasundaram;
+    Kelly Street; Valentine Svensson; Eeshit Dhaval Vaishnav; Koen Van den Berge; Joshua
+    D. Welch; Tracing and connectivity data generation; Xu An; Helen S. Bateup; Ian
+    Bowman; Rebecca K. Chance; Nicholas N. Foster; William Galbavy; Hui Gong; Lin Gou;
+    Joshua T. Hatfield; Houri Hintiryan; Karla E. Hirokawa; Gukhan Kim; Daniel J. Kramer;
+    Anan Li; Xiangning Li; Qingming Luo; Rodrigo Muñoz-Castañeda; David A. Stafford;
+    Morphology data generation and reconstruction; Zhao Feng; Xueyan Jia; Shengdian
+    Jiang; Tao Jiang; Xiuli Kuang; Rachael Larsen; Phil Lesnar; Yaoyao Li; Yuanyuan
+    Li; Lijuan Liu; Hanchuan Peng; Lei Qu; Miao Ren; Zongcai Ruan; Elise Shen; Yuanyuan
+    Song; Wayne Wakeman; Peng Wang; Yimin Wang; Yun Wang; Lulu Yin; Jing Yuan; Sujun
+    Zhao; Xuan Zhao; Arun Narasimhan; Ramesh Palaniswamy; Samik Banerjee; Liya Ding;
+    Dhananjay Huilgol; Bingxing Huo; Hsien-Chi Kuo; Sophie Laturnus; Xu Li; Partha P.
+    Mitra; Judith Mizrachi; Quanxin Wang; Peng Xie; Feng Xiong; Yang Yu; Stephen W.
+    Eichhorn; Jim Berg; Matteo Bernabucci; Yves Bernaerts; Cathryn René Cadwell; Jesus
+    Ramon Castro; Rachel Dalley; Leonard Hartmanis; Gregory D. Horwitz; Xiaolong Jiang;
+    Andrew L. Ko; Elanine Miranda; Shalaka Mulherkar; Philip R. Nicovich; Scott F. Owen;
+    Rickard Sandberg; Staci A. Sorensen; Zheng Huan Tan; Transgenic tools; Shona Allen;
+    Dirk Hockemeyer; Angus Y. Lee; Matthew B. Veldman; NeMO archive and analytics; Ricky
+    S. Adkins; Seth A. Ament; Héctor Corrada Bravo; Robert Carter; Apaala Chatterjee;
+    Carlo Colantuoni; Jonathan Crabtree; Heather Creasy; Victor Felix; Michelle Giglio;
+    Brian R. Herb; Jayaram Kancherla; Anup Mahurkar; Carrie McCracken; Lance Nickel;
+    Dustin Olley; Joshua Orvis; Michael Schor; Greg Hood; DANDI archive; Benjamin Dichter;
+    Michael Grauer; Brian Helba; Anita Bandrowski; Nikolaos Barkas; Benjamin Carlin;
+    Florence D. D’Orazi; Kylee Degatano; Thomas H. Gillespie; Farzaneh Khajouei; Kishori
+    Konwar; Carol Thompson; Project management; Kathleen Kelly; Stephanie Mok; Susan
+    Sunkin
+characterized_by:
+- object: bibo:AcademicArticle
+  predicate: dcterms:type
+description: Here we report the generation of a multimodal cell census and atlas of
+  the mammalian primary motor cortex as the initial product of the BRAIN Initiative
+  Cell Census Network (BICCN). This was achieved by coordinated large-scale analyses
+  of single-cell transcriptomes, chromatin accessibility, DNA methylomes, spatially
+  resolved single-cell transcriptomes, morphological and electrophysiological properties
+  and cellular resolution input–output mapping, integrated through cross-modal computational
+  analysis. Our results advance the collective knowledge and understanding of brain
+  cell-type organization 1–5 . First, our study reveals a unified molecular genetic
+  landscape of cortical cell types that integrates their transcriptome, open chromatin
+  and DNA methylation maps. Second, cross-species analysis achieves a consensus taxonomy
+  of transcriptomic types and their hierarchical organization that is conserved from
+  mouse to marmoset and human. Third, in situ single-cell transcriptomics provides a
+  spatially resolved cell-type atlas of the motor cortex. Fourth, cross-modal analysis
+  provides compelling evidence for the transcriptomic, epigenomic and gene regulatory
+  basis of neuronal phenotypes such as their physiological and anatomical properties,
+  demonstrating the biological validity and genomic underpinning of neuron types. We
+  further present an extensive genetic toolset for targeting glutamatergic neuron types
+  towards linking their molecular and developmental identity to their circuit function.
+  Together, our results establish a unifying and mechanistic framework of neuronal cell-type
+  organization that integrates multi-layered molecular genetic and spatial information
+  with multi-faceted phenotypic properties.
+identifiers:
+- notation: 10.1038/s41586-021-03950-0
+  schema_type: dlthings:DOI
+kind: bibo:AcademicArticle
+pid: xyzrins:publications/doi-10-1038-s41586-021-03950-0
+schema_type: xyzri:XYZPublication
+title: A multimodal cell census and atlas of the mammalian primary motor cortex

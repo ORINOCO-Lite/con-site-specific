@@ -1,0 +1,30 @@
+record: xyzrins:publications/zotero-msjlptey
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:ConferencePoster
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/MSJLPTEY
+  locator: Zotero item, extra
+  quote: 'Published: Poster presented at the annual meeting of the Organization
+    for Human Brain Mapping, Singapore'
+  note: The Zotero library records it as a poster.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Annual meeting of the Organization for Human Brain Mapping, Singapore
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/MSJLPTEY
+  locator: Zotero item, extra
+  quote: 'Published: Poster presented at the annual meeting of the Organization
+    for Human Brain Mapping, Singapore'
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: Samuel Nastase; Rebecca Philip; Vassiki Chauhan; Feilong Ma; Morgan Taylor;
+    Yaroslav O. Halchenko; M. Ida Gobbini; James Haxby
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/MSJLPTEY
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

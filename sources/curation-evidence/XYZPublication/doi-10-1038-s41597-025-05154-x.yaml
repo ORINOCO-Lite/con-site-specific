@@ -1,0 +1,13 @@
+record: xyzrins:publications/doi-10-1038-s41597-025-05154-x
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Heejung Jung; Maryam Amini; Bethany J. Hunt; Eilis I. Murphy; Patrick Sadil;
+    Yaroslav O. Halchenko; Bogdan Petre; Zizhuang Miao; Philip A. Kragel; Xiaochun
+    Han; Mickela O. Heilicher; Michael Sun; Owen G. Collins; Martin A. Lindquist;
+    Tor D. Wager
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41597-025-05154-x
+  locator: Crossref work 10.1038/s41597-025-05154-x, author
+  confidence: certain
+  captured: '2026-11-11'

@@ -1,0 +1,17 @@
+record: xyzrins:publications/doi-10-1016-j-neuron-2016-10-033
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Joshua T. Vogelstein; Brett Mensh; Michael Häusser; Nelson Spruston; Alan
+    C. Evans; Konrad Kording; Katrin Amunts; Christoph Ebell; Jeff Muller; Martin
+    Telefont; Sean Hill; Sandhya P. Koushika; Corrado Calì; Pedro Antonio Valdés-Sosa;
+    Peter B. Littlewood; Christof Koch; Stephan Saalfeld; Adam Kepecs; Hanchuan
+    Peng; Yaroslav O. Halchenko; Gregory Kiar; Mu-Ming Poo; Jean-Baptiste Poline;
+    Michael P. Milham; Alyssa Picchini Schaffer; Rafi Gidron; Hideyuki Okano; Vince
+    D. Calhoun; Miyoung Chun; Dean M. Kleissas; R. Jacob Vogelstein; Eric Perlman;
+    Randal Burns; Richard Huganir; Michael I. Miller
+  kind: registry
+  source: https://api.crossref.org/works/10.1016/j.neuron.2016.10.033
+  locator: Crossref work 10.1016/j.neuron.2016.10.033, author
+  confidence: certain
+  captured: '2026-11-11'

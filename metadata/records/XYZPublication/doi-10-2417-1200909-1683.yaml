@@ -17,6 +17,9 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Advancing Neuroimaging Research with Predictive Multivariate Pattern Analysis
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav O. Halchenko; Michael Hanke
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

@@ -21,8 +21,15 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: 'The impact of shared data in neuroimaging: the case of OpenfMRI.org'
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Organization of Human Brain Mapping Annual Meeting, Honolulu HI, USA
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Krzysztof Gorgolewski; Kelsey Wheeler; Yaroslav O. Halchenko; Jean Baptiste
+    Poline; Russell Poldrack
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 generated_by:
 - object: xyzrins:projects/openfmri
@@ -32,7 +39,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:U6PYQF8I
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-u6pyqf8i
 schema_type: xyzri:XYZPublication
 title: 'The impact of shared data in neuroimaging: the case of OpenfMRI.org'

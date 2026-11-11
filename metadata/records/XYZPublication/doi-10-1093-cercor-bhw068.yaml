@@ -24,6 +24,10 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: A Model of Representational Spaces in Human Cortex
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: J. Swaroop Guntupalli; Michael Hanke; Yaroslav O. Halchenko; Andrew C. Connolly;
+    Peter J. Ramadge; James V. Haxby
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

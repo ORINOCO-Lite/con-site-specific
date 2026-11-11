@@ -1,0 +1,14 @@
+record: xyzrins:publications/doi-10-1162-imag-a-00074
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/6/value
+  value: Chenying Zhao; Dorota Jarecka; Sydney Covitz; Yibei Chen; Simon B. Eickhoff;
+    Damien A. Fair; Alexandre R. Franco; Yaroslav O. Halchenko; Timothy J. Hendrickson;
+    Felix Hoffstaedter; Audrey Houghton; Gregory Kiar; Austin Macdonald; Kahini
+    Mehta; Michael P. Milham; Taylor Salo; Michael Hanke; Satrajit S. Ghosh; Matthew
+    Cieslak; Theodore D. Satterthwaite
+  kind: registry
+  source: https://api.crossref.org/works/10.1162/imag_a_00074
+  locator: Crossref work 10.1162/imag_a_00074, author
+  confidence: certain
+  captured: '2026-11-11'

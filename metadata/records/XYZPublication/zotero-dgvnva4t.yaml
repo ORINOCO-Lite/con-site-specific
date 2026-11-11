@@ -31,8 +31,15 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'The best of both worlds: using semantic web with JSON-LD. An example with
     NIDM-Results & DataLad'
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Annual meeting of the Organization for Human Brain Mapping, Rome, Italy
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Camille Maumet; Satrajit Ghosh; Yaroslav O. Halchenko; Jarecka Dorota; Nolan
+    Nichols; Jean-Baptiste Poline; Michael Hanke
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 generated_by:
 - object: xyzrins:projects/nidm
@@ -42,7 +49,7 @@ generated_by:
 identifiers:
 - notation: zotero:group:6197458:item:DGVNVA4T
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-dgvnva4t
 schema_type: xyzri:XYZPublication
 title: 'The best of both worlds: using semantic web with JSON-LD. An example with

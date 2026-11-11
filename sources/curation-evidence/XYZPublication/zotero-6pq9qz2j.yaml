@@ -1,0 +1,11 @@
+record: xyzrins:publications/zotero-6pq9qz2j
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/3/value
+  value: S. J. Hanson; T. Matsuka; C. Hanson; D. Rebbechi; Y. O. Halchenko; A. Zaimi;
+    B. A. Pearlmutter
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/6PQ9QZ2J
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

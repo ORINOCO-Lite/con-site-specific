@@ -24,6 +24,11 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: 'PyMVPA: A Unifying Approach to the Analysis of Neuroscientific Data'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Michael Hanke; Yaroslav O. Halchenko; Per B. Sederberg; Emanuele Olivetti;
+    Ingo Fründ; Jochem W. Rieger; Christoph S. Herrmann; James V. Haxby; Stephen Jose
+    Hanson; Stefan Pollmann
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

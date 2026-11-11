@@ -1,0 +1,16 @@
+record: xyzrins:publications/doi-10-5281-zenodo-3720628
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/3/value
+  value: Krzysztof J Gorgolewski; Jean-Baptiste Poline; David B Keator; B Nolan
+    Nichols; Tibor Auer; R Cameron Craddock; Guillaume Flandin; Satrajit S Ghosh;
+    Vanessa V Sochat; Ariel Rokem; Yaroslav O Halchenko; Michael Hanke; Christian
+    Haselgrove; Karl Helmer; Camille Maumet; Thomas E Nichols; Jessica A Turner;
+    Samir Das; David N Kennedy; Russell A Poldrack
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/G94NIJ3V
+  locator: Zotero item, creators
+  note: Zotero spells the first name "Kzrysztof"; corrected.  DataCite names only
+    "BIDS-Contributors".
+  confidence: certain
+  captured: '2026-11-11'

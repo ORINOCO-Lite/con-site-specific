@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-1117-12-360283
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Leonid I. Timchenko; Yuri F. Kutaev; Alexander A. Gertsiy; Lubov V. Zahoruiko;
+    Yaroslav O. Galchenko; Tamer Mansur
+  kind: registry
+  source: https://api.crossref.org/works/10.1117/12.360283
+  locator: Crossref work 10.1117/12.360283, author
+  confidence: certain
+  captured: '2026-11-11'

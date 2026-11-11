@@ -17,6 +17,9 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: 'US-RSE Stories: Open up, Neuroscience! Here comes NeuroDebian'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Vanessa Sochat; Yaroslav O. Halchenko
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type

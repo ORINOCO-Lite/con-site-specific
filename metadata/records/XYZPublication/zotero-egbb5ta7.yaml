@@ -16,6 +16,9 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: The model of associative processor for numerical data sorting
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: T. B. Martinyuk; A. V. Kogemiako; Y. O. Halchenko
 characterized_by:
 - object: bibo:BookSection
   predicate: dcterms:type

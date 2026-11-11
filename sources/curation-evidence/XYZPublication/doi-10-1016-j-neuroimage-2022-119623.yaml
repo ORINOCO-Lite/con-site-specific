@@ -1,0 +1,14 @@
+record: xyzrins:publications/doi-10-1016-j-neuroimage-2022-119623
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/5/value
+  value: Guiomar Niso; Rotem Botvinik-Nezer; Stefan Appelhoff; Alejandro De La Vega;
+    Oscar Esteban; Joset A. Etzel; Karolina Finc; Melanie Ganz; Rémi Gau; Yaroslav
+    O. Halchenko; Peer Herholz; Agah Karakuzu; David B. Keator; Christopher J. Markiewicz;
+    Camille Maumet; Cyril R. Pernet; Franco Pestilli; Nazek Queder; Tina Schmitt;
+    Weronika Sójka; Adina S. Wagner; Kirstie J. Whitaker; Jochem W. Rieger
+  kind: registry
+  source: https://api.crossref.org/works/10.1016/j.neuroimage.2022.119623
+  locator: Crossref work 10.1016/j.neuroimage.2022.119623, author
+  confidence: certain
+  captured: '2026-11-11'

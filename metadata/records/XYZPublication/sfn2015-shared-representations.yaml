@@ -43,7 +43,7 @@ attributes:
     effect of cross-validation to reduce physiological noise. Society for
     Neuroscience, Chicago, Poster 451.11.'
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 description: 'Visconti di Oleggio Castello M, Nastase SA, Gobbini MI, Haxby JV and
   Halchenko YO (2015). Finding Cortical Patches of Shared Representations: a
@@ -54,7 +54,7 @@ generated_by:
 - at_time: '2015-10-17'
   object: xyzrins:projects/region-localization
   schema_type: dlthings:Generation
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/sfn2015-shared-representations
 schema_type: xyzri:XYZPublication
 title: Finding Cortical Patches of Shared Representations

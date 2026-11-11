@@ -31,8 +31,17 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Application of the Neuroimaging Data Model to Represent and Exchange Primary
     and Derived Data
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Organization of Human Brain Mapping Annual Meeting, Honolulu HI, USA
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Nolan Nichols; David Keator; Camille Maumet; Guillaume Flandin; Thomas Nichols;
+    Krzysztof Gorgolewski; Yaroslav Halchenko; Michael Hanke; Christian Haselgrove;
+    Karl Helmer; Daniel Marcus; Russell Poldrack; Jessica Turner; David Kennedy; Jean
+    Baptiste Poline; Kilian Pohl
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 generated_by:
 - object: xyzrins:projects/nidm
@@ -40,7 +49,7 @@ generated_by:
 identifiers:
 - notation: zotero:group:6197458:item:Y8UQ85MH
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-y8uq85mh
 schema_type: xyzri:XYZPublication
 title: Application of the Neuroimaging Data Model to Represent and Exchange Primary

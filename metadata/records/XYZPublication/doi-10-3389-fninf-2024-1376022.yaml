@@ -47,6 +47,9 @@ attributes:
     of data analysis variability and the trust in results. Lastly, we comment at length
     on the outlook for reexecutable research outputs and encourage re-use and derivation
     of the system produced herein.
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Horea-Ioan Ioanas; Austin Macdonald; Yaroslav O. Halchenko
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

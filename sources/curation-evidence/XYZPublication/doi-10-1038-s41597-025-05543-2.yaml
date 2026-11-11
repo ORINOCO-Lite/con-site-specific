@@ -1,0 +1,14 @@
+record: xyzrins:publications/doi-10-1038-s41597-025-05543-2
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/5/value
+  value: Amy E. Bouchard; Dickson Wong; Wolfgang Bogner; Rémi Gau; Yaroslav O. Halchenko;
+    Damon G. Lamb; Christopher J. Markiewicz; Paul G. Mullins; Guiomar Niso; Georg
+    Oeltzschner; BIDS Maintainers; Stefan Appelhoff; Ross Blair; Eric Earl; Anthony
+    Galassi; Nell Hardcastle; Julia-Katharina Pfarr; Kimberly Ray; Christine Rogers;
+    Taylor Salo; William T. Clarke; Martin Wilson; Mark Mikkelsen
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41597-025-05543-2
+  locator: Crossref work 10.1038/s41597-025-05543-2, author
+  confidence: certain
+  captured: '2026-11-11'

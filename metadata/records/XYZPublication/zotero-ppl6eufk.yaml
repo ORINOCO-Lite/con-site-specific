@@ -23,8 +23,14 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Localizing functional regions of interest based on responses to dynamic naturalistic
     stimuli
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Annual meeting of the Society for Neuroscience, Chicago, IL
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Samuel A. Nastase; J. Swaroop Guntupalli; James V. Haxby; Yaroslav O. Halchenko
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 generated_by:
 - object: xyzrins:projects/region-localization
@@ -32,7 +38,7 @@ generated_by:
 identifiers:
 - notation: zotero:group:6197458:item:PPL6EUFK
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-ppl6eufk
 schema_type: xyzri:XYZPublication
 title: Localizing functional regions of interest based on responses to dynamic naturalistic

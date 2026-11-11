@@ -1,0 +1,22 @@
+record: xyzrins:publications/doi-10-1101-045104
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:Preprint
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/045104
+  locator: Crossref work, type
+  quote: '"type": "posted-content", "subtype": "preprint"'
+  note: Registered as a preprint.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Stephen J. Eglen; Ben Marwick; Yaroslav O. Halchenko; Michael Hanke; Shoaib
+    Sufi; Padraig Gleeson; R. Angus Silver; Andrew P. Davison; Linda Lanyon; Mathew
+    Abrams; Thomas Wachtler; David J. Willshaw; Christophe Pouzat; Jean-Baptiste
+    Poline
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/045104
+  locator: Crossref work 10.1101/045104, author
+  confidence: certain
+  captured: '2026-11-11'

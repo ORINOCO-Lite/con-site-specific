@@ -16,6 +16,9 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Image Segmentation on the basis of spatial connected features
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: L. I. Tymchenko; J. Scorukova; S. Markov; Y. O. Halchenko
 characterized_by:
 - object: bibo:BookSection
   predicate: dcterms:type

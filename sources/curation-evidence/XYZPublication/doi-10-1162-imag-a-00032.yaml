@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-1162-imag-a-00032
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/3/value
+  value: Ma Feilong; Samuel A. Nastase; Guo Jiahui; Yaroslav O. Halchenko; M. Ida
+    Gobbini; James V. Haxby
+  kind: registry
+  source: https://api.crossref.org/works/10.1162/imag_a_00032
+  locator: Crossref work 10.1162/imag_a_00032, author
+  confidence: certain
+  captured: '2026-11-11'

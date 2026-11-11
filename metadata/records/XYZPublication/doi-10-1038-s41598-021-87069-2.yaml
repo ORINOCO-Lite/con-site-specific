@@ -18,6 +18,10 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: White matter abnormalities in adults with bipolar disorder type-II and unipolar
     depression
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Anna Manelis; Adriane Soehner; Yaroslav O. Halchenko; Skye Satz; Rachel Ragozzino;
+    Mora Lucero; Holly A. Swartz; Mary L. Phillips; Amelia Versace
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

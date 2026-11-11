@@ -13,6 +13,9 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Fusion of Functional Brain Imaging Modalities using L-Norms Signal Reconstruction
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Y. O. Halchenko; S. J. Hanson; B. A. Pearlmutter
 characterized_by:
 - object: bibo:Article
   predicate: dcterms:type

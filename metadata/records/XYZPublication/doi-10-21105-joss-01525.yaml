@@ -24,6 +24,9 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: 'multimatch-gaze: The MultiMatch algorithm for gaze path comparison in Python'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Adina Wagner; Yaroslav Halchenko; Michael Hanke
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

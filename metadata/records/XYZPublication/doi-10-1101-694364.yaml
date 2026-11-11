@@ -42,8 +42,16 @@ attributes:
     a diversity of datasets without manual intervention. In support of the growing
     popularity of fMRIPrep, this protocol describes how to integrate the tool in a
     task-based fMRI investigation workflow.
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Oscar Esteban; Rastko Ciric; Karolina Finc; Ross Blair; Christopher J. Markiewicz;
+    Craig A. Moodie; James D. Kent; Mathias Goncalves; Elizabeth DuPre; Daniel E. P.
+    Gomez; Zhifang Ye; Taylor Salo; Romain Valabregue; Inge K. Amlien; Franziskus Liem;
+    Nir Jacoby; Hrvoje Stojić; Matthew Cieslak; Sebastian Urchs; Yaroslav O. Halchenko;
+    Satrajit S. Ghosh; Alejandro De La Vega; Tal Yarkoni; Jessey Wright; William H.
+    Thompson; Russell A. Poldrack; Krzysztof J. Gorgolewski
 characterized_by:
-- object: bibo:AcademicArticle
+- object: fabio:Preprint
   predicate: dcterms:type
 description: Functional magnetic resonance imaging (fMRI) is a standard tool to investigate
   the neural correlates of cognition. fMRI noninvasively measures brain activity,
@@ -66,7 +74,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:MFQ9RIJA
   schema_type: dlthings:Identifier
-kind: bibo:AcademicArticle
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-1101-694364
 schema_type: xyzri:XYZPublication
 title: Analysis of task-based functional MRI data preprocessed with fMRIPrep

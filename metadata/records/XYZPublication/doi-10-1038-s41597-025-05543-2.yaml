@@ -31,6 +31,13 @@ attributes:
     experimental techniques are being incorporated into the standard, allowing diverse
     experimental methods to be stored within the same cohesive structure. Here, we
     present an extension for magnetic resonance spectroscopy (MRS) data, termed MRS-BIDS.
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Amy E. Bouchard; Dickson Wong; Wolfgang Bogner; Rémi Gau; Yaroslav O. Halchenko;
+    Damon G. Lamb; Christopher J. Markiewicz; Paul G. Mullins; Guiomar Niso; Georg Oeltzschner;
+    BIDS Maintainers; Stefan Appelhoff; Ross Blair; Eric Earl; Anthony Galassi; Nell
+    Hardcastle; Julia-Katharina Pfarr; Kimberly Ray; Christine Rogers; Taylor Salo;
+    William T. Clarke; Martin Wilson; Mark Mikkelsen
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

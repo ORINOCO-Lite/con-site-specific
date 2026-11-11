@@ -57,6 +57,10 @@ attributes:
     \ In conjunction, the four perspectives review how varying requirements of independent\
     \ scientific stakeholders can be addressed by a scalable, uniform dRDM solution\
     \ and present a working system as an exemplary implementation."
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Michael Hanke; Franco Pestilli; Adina S. Wagner; Christopher J. Markiewicz;
+    Jean-Baptiste Poline; Yaroslav O. Halchenko
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

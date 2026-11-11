@@ -1,0 +1,10 @@
+record: xyzrins:publications/doi-10-21105-joss-01525
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Adina Wagner; Yaroslav Halchenko; Michael Hanke
+  kind: registry
+  source: https://api.crossref.org/works/10.21105/joss.01525
+  locator: Crossref work 10.21105/joss.01525, author
+  confidence: certain
+  captured: '2026-11-11'

@@ -15,8 +15,11 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: The interaction between lifetime depression severity and BMI is related to
     altered activation pattern in the right inferior frontal gyrus during food anticipation
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: A Manelis; YO Halchenko; S Satz; R Ragozzino; M Lucero; HA Swartz; MD Levine
 characterized_by:
-- object: bibo:AcademicArticle
+- object: fabio:Preprint
   predicate: dcterms:type
 identifiers:
 - notation: 10.1101/2021.02.17.21251922
@@ -25,7 +28,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:9DTLJ2HP
   schema_type: dlthings:Identifier
-kind: bibo:AcademicArticle
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-1101-2021-02-17-21251922
 schema_type: xyzri:XYZPublication
 title: The interaction between lifetime depression severity and BMI is related to

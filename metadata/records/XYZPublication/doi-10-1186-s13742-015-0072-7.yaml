@@ -20,6 +20,9 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Four aspects to make science open "by design" and not as an after-thought
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav O. Halchenko; Michael Hanke
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

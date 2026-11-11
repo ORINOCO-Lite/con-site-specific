@@ -44,6 +44,15 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: 'PyBIDS: Python tools for BIDS datasets'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Tal Yarkoni; Christopher Markiewicz; Alejandro de la Vega; Krzysztof Gorgolewski;
+    Taylor Salo; Yaroslav Halchenko; Quinten McNamara; Krista DeStasio; Jean-Baptiste
+    Poline; Dmitry Petrov; Valérie Hayot-Sasson; Dylan Nielson; Johan Carlin; Gregory
+    Kiar; Kirstie Whitaker; Elizabeth DuPre; Adina Wagner; Lee Tirrell; Mainak Jas;
+    Michael Hanke; Russell Poldrack; Oscar Esteban; Stefan Appelhoff; Chris Holdgraf;
+    Isla Staden; Bertrand Thirion; Dave Kleinschmidt; John Lee; Matteo di Castello;
+    Michael Notter; Ross Blair
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

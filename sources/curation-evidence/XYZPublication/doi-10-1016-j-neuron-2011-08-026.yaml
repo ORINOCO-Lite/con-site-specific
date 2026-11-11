@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-1016-j-neuron-2011-08-026
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: James V. Haxby; J. Swaroop Guntupalli; Andrew C. Connolly; Yaroslav O.
+    Halchenko; Bryan R. Conroy; M. Ida Gobbini; Michael Hanke; Peter J. Ramadge
+  kind: registry
+  source: https://api.crossref.org/works/10.1016/j.neuron.2011.08.026
+  locator: Crossref work 10.1016/j.neuron.2011.08.026, author
+  confidence: certain
+  captured: '2026-11-11'

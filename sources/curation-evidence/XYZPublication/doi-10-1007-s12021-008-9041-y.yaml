@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-1007-s12021-008-9041-y
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/5/value
+  value: Michael Hanke; Yaroslav O. Halchenko; Per B. Sederberg; Stephen José Hanson;
+    James V. Haxby; Stefan Pollmann
+  kind: registry
+  source: https://api.crossref.org/works/10.1007/s12021-008-9041-y
+  locator: Crossref work 10.1007/s12021-008-9041-y, author
+  confidence: certain
+  captured: '2026-11-11'

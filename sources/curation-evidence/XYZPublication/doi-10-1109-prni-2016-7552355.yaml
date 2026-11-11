@@ -1,0 +1,10 @@
+record: xyzrins:publications/doi-10-1109-prni-2016-7552355
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Samuel A. Nastase; Yaroslav O. Halchenko; Ben Davis; Uri Hasson
+  kind: registry
+  source: https://api.crossref.org/works/10.1109/prni.2016.7552355
+  locator: Crossref work 10.1109/prni.2016.7552355, author
+  confidence: certain
+  captured: '2026-11-11'

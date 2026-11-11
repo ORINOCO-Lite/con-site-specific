@@ -1,0 +1,12 @@
+record: xyzrins:publications/doi-10-1038-s41592-022-01681-2
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/6/value
+  value: Rastko Ciric; William H. Thompson; Romy Lorenz; Mathias Goncalves; Eilidh
+    E. MacNicol; Christopher J. Markiewicz; Yaroslav O. Halchenko; Satrajit S. Ghosh;
+    Krzysztof J. Gorgolewski; Russell A. Poldrack; Oscar Esteban
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41592-022-01681-2
+  locator: Crossref work 10.1038/s41592-022-01681-2, author
+  confidence: certain
+  captured: '2026-11-11'

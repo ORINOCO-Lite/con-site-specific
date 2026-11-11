@@ -38,6 +38,9 @@ attributes:
     These results revealed a small organized set of large-scale networks that map
     cognitive processes across a highly diverse set of mental tasks, suggesting a
     novel way to characterize the neural basis of cognition.
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Russell A. Poldrack; Yaroslav O. Halchenko; Stephen José Hanson
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

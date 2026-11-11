@@ -15,3 +15,10 @@ assertions:
       out for `registry` not being an artifact kind.
     confidence: certain
     captured: "2026-10-12"
+  - path: /attributes/6/value
+    value: Christopher P. Cheng; Yaroslav O. Halchenko
+    kind: registry
+    source: https://api.crossref.org/works/10.12688/f1000research.24544.1
+    locator: Crossref work 10.12688/f1000research.24544.1, author
+    confidence: certain
+    captured: '2026-11-11'

@@ -1,0 +1,30 @@
+record: xyzrins:publications/doi-10-1371-journal-pbio-3002133
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/5/value
+  value: Michael Hawrylycz; Maryann E. Martone; Giorgio A. Ascoli; Jan G. Bjaalie;
+    Hong-Wei Dong; Satrajit S. Ghosh; Jesse Gillis; Ronna Hertzano; David R. Haynor;
+    Patrick R. Hof; Yongsoo Kim; Ed Lein; Yufeng Liu; Jeremy A. Miller; Partha P.
+    Mitra; Eran Mukamel; Lydia Ng; David Osumi-Sutherland; Hanchuan Peng; Patrick
+    L. Ray; Raymond Sanchez; Aviv Regev; Alex Ropelewski; Richard H. Scheuermann;
+    Shawn Zheng Kai Tan; Carol L. Thompson; Timothy Tickle; Hagen Tilgner; Merina
+    Varghese; Brock Wester; Owen White; Hongkui Zeng; Brian Aevermann; David Allemang;
+    Seth Ament; Thomas L. Athey; Cody Baker; Katherine S. Baker; Pamela M. Baker;
+    Anita Bandrowski; Samik Banerjee; Prajal Bishwakarma; Ambrose Carr; Min Chen;
+    Roni Choudhury; Jonah Cool; Heather Creasy; Florence D’Orazi; Kylee Degatano;
+    Benjamin Dichter; Song-Lin Ding; Tim Dolbeare; Joseph R. Ecker; Rongxin Fang;
+    Jean-Christophe Fillion-Robin; Timothy P. Fliss; James Gee; Tom Gillespie; Nathan
+    Gouwens; Guo-Qiang Zhang; Yaroslav O. Halchenko; Nomi L. Harris; Brian R. Herb;
+    Houri Hintiryan; Gregory Hood; Sam Horvath; Bingxing Huo; Dorota Jarecka; Shengdian
+    Jiang; Farzaneh Khajouei; Elizabeth A. Kiernan; Huseyin Kir; Lauren Kruse; Changkyu
+    Lee; Boudewijn Lelieveldt; Yang Li; Hanqing Liu; Lijuan Liu; Anup Markuhar;
+    James Mathews; Kaylee L. Mathews; Chris Mezias; Michael I. Miller; Tyler Mollenkopf;
+    Shoaib Mufti; Christopher J. Mungall; Joshua Orvis; Maja A. Puchades; Lei Qu;
+    Joseph P. Receveur; Bing Ren; Nathan Sjoquist; Brian Staats; Daniel Tward; Cindy
+    T. J. van Velthoven; Quanxin Wang; Fangming Xie; Hua Xu; Zizhen Yao; Zhixi Yun;
+    Yun Renee Zhang; W. Jim Zheng; Brian Zingg
+  kind: registry
+  source: https://api.crossref.org/works/10.1371/journal.pbio.3002133
+  locator: Crossref work 10.1371/journal.pbio.3002133, author
+  confidence: certain
+  captured: '2026-11-11'

@@ -28,6 +28,10 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: 'IQ in Typical Development: A Mega-Analysis of the Historical Literature'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: David Kennedy; Satrajit Ghosh; J.B. Poline; David Keator; Yaroslav Halchenko;
+    Maryann Martone; Jeffrey Grethe
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

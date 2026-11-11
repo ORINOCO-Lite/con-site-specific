@@ -25,6 +25,10 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'Bridging the Scientific Knowledge Gap and Reproducibility: A Survey of Provenance,
     Assertion and Evidence Ontologies'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Tek Raj Chhetri; Yaroslav O. Halchenko; Dorota Jarecka; Puja Trivedi; Satrajit
+    S. Ghosh; Patrick Ray; Lydia Ng
 characterized_by:
 - object: bibo:Article
   predicate: dcterms:type

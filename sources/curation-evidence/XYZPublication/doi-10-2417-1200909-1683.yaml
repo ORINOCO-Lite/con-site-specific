@@ -1,0 +1,10 @@
+record: xyzrins:publications/doi-10-2417-1200909-1683
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/3/value
+  value: Yaroslav O. Halchenko; Michael Hanke
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/DD2JG54D
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

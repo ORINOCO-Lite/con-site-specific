@@ -19,13 +19,20 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Scanning parameters for optimal decoding using a 32-channel head coil for
     fMRI
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Vision Sciences Society Annual Meeting, Naples, FL
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Andrew C. Connolly; Yu-Chien Wu; Yaroslav O. Halchenko; J. Swaroop Guntupalli;
+    James V. Haxby
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 identifiers:
 - notation: zotero:group:6197458:item:YCVIPYY4
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-ycvipyy4
 schema_type: xyzri:XYZPublication
 title: Scanning parameters for optimal decoding using a 32-channel head coil for fMRI

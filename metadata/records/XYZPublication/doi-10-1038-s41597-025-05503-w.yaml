@@ -18,6 +18,14 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: DICOM datasets for reproducible neuroimaging research across manufacturers
     and software versions
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Christopher Rorden; Benoît Béranger; Hu Cheng; Matthew Clemence; Clément Debacker;
+    Brice Fernandez; Yaroslav O. Halchenko; Michael P. Harms; Bharath Holla; Isaiah
+    Innis; Joost P. A. Kuijer; Daniel Levitas; Krisanne Litinas; Jeffrey Luci; Roger
+    Newman-Norlund; Scott Peltier; Wolfgang Rehwald; Robert I. Reid; Baxter Rogers;
+    Christopher G. Schwarz; Jaemin Shin; Venkatasubramanian Ganesan; Sandeep Ganji;
+    Paul S. Morgan
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

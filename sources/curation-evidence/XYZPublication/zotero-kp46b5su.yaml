@@ -1,0 +1,14 @@
+record: xyzrins:publications/zotero-kp46b5su
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/5/value
+  value: David N. Kennedy; Sanu A. Abraham; Julianna F. Bates; Albert Crowley; Satrajit
+    Ghosh; Tom Gillespie; Mathias Goncalves; Jeffrey S. Grethe; Yaroslav O. Halchenko;
+    Michael Hanke; Christian Haselgrove; Steven M. Hodge; Dorota Jarecka; Jakub
+    Kaczmarzyk; David B. Keator; Kyle Meyer; Maryann E. Martone; Smruti Padhy; Jean-Baptiste
+    Poline; Nina Preuss; Troy Sincomb; Matt Travers
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/KP46B5SU
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

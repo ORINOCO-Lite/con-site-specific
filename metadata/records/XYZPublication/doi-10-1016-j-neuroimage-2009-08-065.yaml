@@ -38,6 +38,9 @@ attributes:
     connectivities, with feedback, subject to random differences of BOLD delays, with
     regions of interest missing at random for some subjects, measured with noise approximating
     the signal to noise ratio of the empirical data.
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: J.D. Ramsey; S.J. Hanson; C. Hanson; Y.O. Halchenko; R.A. Poldrack; C. Glymour
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

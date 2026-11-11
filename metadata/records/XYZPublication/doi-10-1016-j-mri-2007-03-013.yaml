@@ -34,6 +34,9 @@ attributes:
     We present benchmark results that demonstrate that the mode clustering method
     consistently outperforms the commonly used single-linkage clustering, k means
     method (centroid method) and Ward's method (variance method).
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Stephen José Hanson; Rebbechi Rebecchi; Catherine Hanson; Yaroslav O. Halchenko
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

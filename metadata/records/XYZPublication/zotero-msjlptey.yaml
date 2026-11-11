@@ -23,13 +23,20 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Decoding the neural representation of observed social and nonsocial human
     actions
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Annual meeting of the Organization for Human Brain Mapping, Singapore
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Samuel Nastase; Rebecca Philip; Vassiki Chauhan; Feilong Ma; Morgan Taylor;
+    Yaroslav O. Halchenko; M. Ida Gobbini; James Haxby
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 identifiers:
 - notation: zotero:group:6197458:item:MSJLPTEY
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-msjlptey
 schema_type: xyzri:XYZPublication
 title: Decoding the neural representation of observed social and nonsocial human actions

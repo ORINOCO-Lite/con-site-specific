@@ -31,13 +31,20 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Attention locally modulates the discriminability of high-level, task-relevant
     representations
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Annual meeting of the Organization for Human Brain Mapping, Hamburg, Germany
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Samuel A. Nastase; Andrew C. Connolly; Nikolaas N. Oosterhof; Yaroslav O. Halchenko;
+    Jason Gors; M. Ida Gobbini; James V. Haxby
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 identifiers:
 - notation: zotero:group:6197458:item:WBWU53IM
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-wbwu53im
 schema_type: xyzri:XYZPublication
 title: Attention locally modulates the discriminability of high-level, task-relevant

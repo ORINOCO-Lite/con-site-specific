@@ -20,6 +20,16 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: To the Cloud! A Grassroots Proposal to Accelerate Brain Science Discovery
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Joshua T. Vogelstein; Brett Mensh; Michael Häusser; Nelson Spruston; Alan C.
+    Evans; Konrad Kording; Katrin Amunts; Christoph Ebell; Jeff Muller; Martin Telefont;
+    Sean Hill; Sandhya P. Koushika; Corrado Calì; Pedro Antonio Valdés-Sosa; Peter B.
+    Littlewood; Christof Koch; Stephan Saalfeld; Adam Kepecs; Hanchuan Peng; Yaroslav
+    O. Halchenko; Gregory Kiar; Mu-Ming Poo; Jean-Baptiste Poline; Michael P. Milham;
+    Alyssa Picchini Schaffer; Rafi Gidron; Hideyuki Okano; Vince D. Calhoun; Miyoung
+    Chun; Dean M. Kleissas; R. Jacob Vogelstein; Eric Perlman; Randal Burns; Richard
+    Huganir; Michael I. Miller
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

@@ -44,6 +44,11 @@ attributes:
     have methodological implications for fMRI studies using MVPA because they demonstrate
     that information can be decoded from hemodynamic activity more quickly than previously
     assumed.
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Peter J. Kohler; Sergey V. Fogelson; Eric A. Reavis; Ming Meng; J. Swaroop
+    Guntupalli; Michael Hanke; Yaroslav O. Halchenko; Andrew C. Connolly; James V. Haxby;
+    Peter U. Tse
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

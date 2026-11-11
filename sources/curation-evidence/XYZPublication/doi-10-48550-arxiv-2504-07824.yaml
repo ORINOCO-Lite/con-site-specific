@@ -1,0 +1,27 @@
+record: xyzrins:publications/doi-10-48550-arxiv-2504-07824
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:Preprint
+  kind: registry
+  source: https://api.datacite.org/dois/10.48550/arxiv.2504.07824
+  locator: DataCite DOI, types.resourceTypeGeneral
+  quote: '"resourceTypeGeneral": "Preprint"'
+  note: Registered as a preprint.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: Paul A. Taylor; Himanshu Aggarwal; Peter Bandettini; Marco Barilari; Molly
+    Bright; Cesar Caballero-Gaudes; Vince Calhoun; Mallar Chakravarty; Gabriel Devenyi;
+    Jennifer Evans; Eduardo Garza-Villarreal; Jalil Rasgado-Toledo; Remi Gau; Daniel
+    Glen; Rainer Goebel; Javier Gonzalez-Castillo; Omer Faruk Gulban; Yaroslav Halchenko;
+    Daniel Handwerker; Taylor Hanayik; Peter Lauren; David Leopold; Jason Lerch;
+    Christian Mathys; Paul McCarthy; Anke McLeod; Amanda Mejia; Stefano Moia; Thomas
+    Nichols; Cyril Pernet; Luiz Pessoa; Bettina Pfleiderer; Justin Rajendra; Laura
+    Reyes; Richard Reynolds; Vinai Roopchansingh; Chris Rorden; Brian Russ; Benedikt
+    Sundermann; Bertrand Thirion; Salvatore Torrisi; Gang Chen
+  kind: registry
+  source: https://api.datacite.org/dois/10.48550/arxiv.2504.07824
+  locator: DataCite DOI 10.48550/arxiv.2504.07824, creators
+  confidence: certain
+  captured: '2026-11-11'

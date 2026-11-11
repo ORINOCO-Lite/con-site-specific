@@ -27,8 +27,13 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'TemplateFlow: a community archive of imaging templates and atlases for improved
     consistency in neuroimaging'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Rastko Ciric; William H. Thompson; Romy Lorenz; Mathias Goncalves; Eilidh MacNicol;
+    Christopher J. Markiewicz; Yaroslav O. Halchenko; Satrajit S. Ghosh; Krzysztof J.
+    Gorgolewski; Russell A. Poldrack; Oscar Esteban
 characterized_by:
-- object: bibo:AcademicArticle
+- object: fabio:Preprint
   predicate: dcterms:type
 identifiers:
 - notation: 10.1101/2021.02.10.430678
@@ -37,7 +42,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:BEINDI3Z
   schema_type: dlthings:Identifier
-kind: bibo:AcademicArticle
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-1101-2021-02-10-430678
 schema_type: xyzri:XYZPublication
 title: 'TemplateFlow: a community archive of imaging templates and atlases for improved

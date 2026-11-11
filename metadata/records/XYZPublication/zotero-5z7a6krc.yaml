@@ -15,8 +15,14 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Overview of statistical evaluation techniques adopted by publicly available
     MVPA toolboxes
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Organization of Human Brain Mapping Annual Meeting, Honolulu HI, USA
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav. O Halchenko
 characterized_by:
-- object: bibo:Document
+- object: bibo:Slideshow
   predicate: dcterms:type
 generated_by:
 - object: xyzrins:projects/pymvpa
@@ -26,7 +32,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:5Z7A6KRC
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: bibo:Slideshow
 pid: xyzrins:publications/zotero-5z7a6krc
 schema_type: xyzri:XYZPublication
 title: Overview of statistical evaluation techniques adopted by publicly available

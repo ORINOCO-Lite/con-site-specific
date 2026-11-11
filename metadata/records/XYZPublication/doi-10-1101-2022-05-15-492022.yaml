@@ -23,8 +23,12 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'The Individualized Neural Tuning Model: Precise and generalizable cartography
     of functional architecture in individual brains'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Ma Feilong; Samuel A. Nastase; Guo Jiahui; Yaroslav O. Halchenko; M. Ida Gobbini;
+    James V. Haxby
 characterized_by:
-- object: bibo:AcademicArticle
+- object: fabio:Preprint
   predicate: dcterms:type
 generated_by:
 - object: xyzrins:projects/hyperalignment-infrastructure
@@ -36,7 +40,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:MG9XQ2NA
   schema_type: dlthings:Identifier
-kind: bibo:AcademicArticle
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-1101-2022-05-15-492022
 schema_type: xyzri:XYZPublication
 title: 'The Individualized Neural Tuning Model: Precise and generalizable cartography

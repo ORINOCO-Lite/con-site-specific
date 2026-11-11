@@ -1,0 +1,15 @@
+record: xyzrins:publications/doi-10-1038-s41597-025-05503-w
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Christopher Rorden; Benoît Béranger; Hu Cheng; Matthew Clemence; Clément
+    Debacker; Brice Fernandez; Yaroslav O. Halchenko; Michael P. Harms; Bharath
+    Holla; Isaiah Innis; Joost P. A. Kuijer; Daniel Levitas; Krisanne Litinas; Jeffrey
+    Luci; Roger Newman-Norlund; Scott Peltier; Wolfgang Rehwald; Robert I. Reid;
+    Baxter Rogers; Christopher G. Schwarz; Jaemin Shin; Venkatasubramanian Ganesan;
+    Sandeep Ganji; Paul S. Morgan
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41597-025-05503-w
+  locator: Crossref work 10.1038/s41597-025-05503-w, author
+  confidence: certain
+  captured: '2026-11-11'

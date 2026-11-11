@@ -41,6 +41,12 @@ attributes:
     \ This extension will facilitate future harmonization efforts in the context of\
     \ multi-modal, multi-scale imaging such as the characterization of tissue microstructure\
     \ with qMRI."
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Marie-Hélène Bourget; Lee Kamentsky; Satrajit S. Ghosh; Giacomo Mazzamuto;
+    Alberto Lazari; Christopher J. Markiewicz; Robert Oostenveld; Guiomar Niso; Yaroslav
+    O. Halchenko; Ilona Lipp; Sylvain Takerkart; Paule-Joanne Toussaint; Ali R. Khan;
+    Gustav Nilsonne; Filippo Maria Castelli; The BIDS Maintainers; Julien Cohen-Adad
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

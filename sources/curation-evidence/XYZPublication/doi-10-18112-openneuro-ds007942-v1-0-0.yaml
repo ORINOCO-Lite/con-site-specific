@@ -1,0 +1,25 @@
+record: xyzrins:publications/doi-10-18112-openneuro-ds007942-v1-0-0
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2026'
+  kind: registry
+  source: https://api.datacite.org/dois/10.18112/openneuro.ds007942.v1.0.0
+  locator: DataCite DOI 10.18112/openneuro.ds007942.v1.0.0, publicationYear
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Jane Han; Vassiki Chauhan; Rebecca Philip; Morgan K. Taylor; Heejung Jung;
+    Yaroslav O. Halchenko; M. Ida Gobbini; James V. Haxby; Samuel A. Nastase
+  kind: registry
+  source: https://api.datacite.org/dois/10.18112/openneuro.ds007942.v1.0.0
+  locator: DataCite DOI 10.18112/openneuro.ds007942.v1.0.0, creators
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: https://openneuro.org/datasets/ds007942/versions/1.0.0
+  kind: registry
+  source: https://api.datacite.org/dois/10.18112/openneuro.ds007942.v1.0.0
+  locator: DataCite DOI 10.18112/openneuro.ds007942.v1.0.0, url
+  confidence: certain
+  captured: '2026-11-11'

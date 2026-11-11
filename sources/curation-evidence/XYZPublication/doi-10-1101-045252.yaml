@@ -1,0 +1,21 @@
+record: xyzrins:publications/doi-10-1101-045252
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:Preprint
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/045252
+  locator: Crossref work, type
+  quote: '"type": "posted-content", "subtype": "preprint"'
+  note: Registered as a preprint.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Samuel A. Nastase; Andrew C. Connolly; Nikolaas N. Oosterhof; Yaroslav
+    O. Halchenko; J. Swaroop Guntupalli; Matteo Visconti di Oleggio Castello; Jason
+    Gors; M. Ida Gobbini; James V. Haxby
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/045252
+  locator: Crossref work 10.1101/045252, author
+  confidence: certain
+  captured: '2026-11-11'

@@ -16,6 +16,9 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Fusion of functional brain imaging modalities via linear programming
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Y. O. Halchenko; B. A. Pearlmutter; S. J. Hanson; A. Zaimi
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

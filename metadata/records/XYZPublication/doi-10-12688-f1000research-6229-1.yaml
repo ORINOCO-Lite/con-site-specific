@@ -22,6 +22,9 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: A communication hub for a decentralized collaboration on studying real-life
     cognition
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Michael Hanke; Yaroslav O. Halchenko
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

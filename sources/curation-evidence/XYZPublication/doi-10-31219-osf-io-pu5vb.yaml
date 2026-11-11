@@ -1,0 +1,23 @@
+record: xyzrins:publications/doi-10-31219-osf-io-pu5vb
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:Preprint
+  kind: registry
+  source: https://api.crossref.org/works/10.31219/osf.io/pu5vb
+  locator: Crossref work, type
+  quote: '"type": "posted-content", "subtype": "preprint"'
+  note: Registered as a preprint.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Guiomar Niso; Rotem Botvinik-Nezer; Stefan Appelhoff; Alejandro De La Vega;
+    Oscar Esteban; Joset A. Etzel; Karolina Finc; Melanie Ganz; Remi Gau; Yaroslav
+    O Halchenko; Peer Herholz; Agah Karakuzu; David Keator; Camille MAUMET; Christopher
+    Johnson Markiewicz; Cyril R Pernet; Franco Pestilli; Nazek Queder; Tina Schmitt;
+    Weronika Sójka; Adina Svenja Wagner; Kirstie Jane Whitaker; Jochem Rieger
+  kind: registry
+  source: https://api.crossref.org/works/10.31219/osf.io/pu5vb
+  locator: Crossref work 10.31219/osf.io/pu5vb, author
+  confidence: certain
+  captured: '2026-11-11'

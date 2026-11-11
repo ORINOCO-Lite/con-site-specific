@@ -1,0 +1,18 @@
+record: xyzrins:publications/doi-10-1002-hbm-25351
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Elise Bannier; Gareth Barker; Valentina Borghesani; Nils Broeckx; Patricia
+    Clement; Kyrre E. Emblem; Satrajit Ghosh; Enrico Glerean; Krzysztof J. Gorgolewski;
+    Marko Havu; Yaroslav O. Halchenko; Peer Herholz; Anne Hespel; Stephan Heunis;
+    Yue Hu; Chuan‐Peng Hu; Dorien Huijser; María de la Iglesia Vayá; Radim Jancalek;
+    Vasileios K. Katsaros; Marie‐Luise Kieseler; Camille Maumet; Clara A. Moreau;
+    Henk‐Jan Mutsaerts; Robert Oostenveld; Esin Ozturk‐Isik; Nicolas Pascual Leone
+    Espinosa; John Pellman; Cyril R Pernet; Francesca Benedetta Pizzini; Amira Šerifović
+    Trbalić; Paule‐Joanne Toussaint; Matteo Visconti di Oleggio Castello; Fengjuan
+    Wang; Cheng Wang; Hua Zhu
+  kind: registry
+  source: https://api.crossref.org/works/10.1002/hbm.25351
+  locator: Crossref work 10.1002/hbm.25351, author
+  confidence: certain
+  captured: '2026-11-11'

@@ -1,0 +1,20 @@
+record: xyzrins:publications/doi-10-1101-138297
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:Preprint
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/138297
+  locator: Crossref work, type
+  quote: '"type": "posted-content", "subtype": "preprint"'
+  note: Registered as a preprint.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Matteo Visconti di Oleggio Castello; Yaroslav O. Halchenko; J. Swaroop
+    Guntupalli; Jason D. Gors; M. Ida Gobbini
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/138297
+  locator: Crossref work 10.1101/138297, author
+  confidence: certain
+  captured: '2026-11-11'

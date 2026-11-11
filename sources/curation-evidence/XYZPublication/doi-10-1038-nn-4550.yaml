@@ -1,0 +1,13 @@
+record: xyzrins:publications/doi-10-1038-nn-4550
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Stephen J Eglen; Ben Marwick; Yaroslav O Halchenko; Michael Hanke; Shoaib
+    Sufi; Padraig Gleeson; R Angus Silver; Andrew P Davison; Linda Lanyon; Mathew
+    Abrams; Thomas Wachtler; David J Willshaw; Christophe Pouzat; Jean-Baptiste
+    Poline
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/nn.4550
+  locator: Crossref work 10.1038/nn.4550, author
+  confidence: certain
+  captured: '2026-11-11'

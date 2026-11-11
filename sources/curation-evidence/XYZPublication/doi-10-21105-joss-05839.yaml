@@ -1,0 +1,15 @@
+record: xyzrins:publications/doi-10-21105-joss-05839
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/6/value
+  value: Yaroslav O. Halchenko; Mathias Goncalves; Satrajit Ghosh; Pablo Velasco;
+    Matteo Visconti di Oleggio Castello; Taylor Salo; John T. Wodder; Michael Hanke;
+    Patrick Sadil; Krzysztof Jacek Gorgolewski; Horea-Ioan Ioanas; Chris Rorden;
+    Timothy J. Hendrickson; Michael Dayan; Sean Dae Houlihan; James Kent; Ted Strauss;
+    John Lee; Isaac To; Christopher J. Markiewicz; Darren Lukas; Ellyn R. Butler;
+    Todd Thompson; Maite Termenon; David V. Smith; Austin Macdonald; David N. Kennedy
+  kind: registry
+  source: https://api.crossref.org/works/10.21105/joss.05839
+  locator: Crossref work 10.21105/joss.05839, author
+  confidence: certain
+  captured: '2026-11-11'

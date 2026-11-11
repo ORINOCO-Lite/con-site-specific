@@ -33,6 +33,9 @@ attributes:
     New methods incorporating structural equation modeling of the data yielded distinct
     patterns of interactivity among brain areas as a function of the degree to which
     bottom-up and top-down data were available.
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: S. J. Hanson; C. Hanson; Y. Halchenko; T. Matsuka; A. Zaimi
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

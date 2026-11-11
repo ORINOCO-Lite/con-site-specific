@@ -1,0 +1,13 @@
+record: xyzrins:publications/doi-10-3389-neuro-11-003-2009
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Michael Hanke; Yaroslav O. Halchenko; Per B. Sederberg; Emanuele Olivetti;
+    Ingo Fründ; Jochem W. Rieger; Christoph S. Herrmann; James V. Haxby; Stephen
+    Jose Hanson; Stefan Pollmann
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/GT4IQW3U
+  locator: Zotero item, creators
+  note: Crossref lists only Michael Hanke, the first author.
+  confidence: certain
+  captured: '2026-11-11'

@@ -1,0 +1,30 @@
+record: xyzrins:publications/doi-10-1038-s41467-026-76599-w
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2026-09-17'
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41467-026-76599-w
+  locator: Crossref work 10.1038/s41467-026-76599-w, published
+  note: Published in Nature Communications; the version of record of the preprint
+    xyzrins:publications/doi-10-1101-2024-11-26-624178.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Jane Han; Vassiki Chauhan; Rebecca Philip; Morgan K. Taylor; Heejung Jung;
+    Yaroslav O. Halchenko; M. Ida Gobbini; James V. Haxby; Samuel A. Nastase
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41467-026-76599-w
+  locator: Crossref work 10.1038/s41467-026-76599-w, author
+  confidence: certain
+  captured: '2026-11-11'
+- path: /influenced_by/1/object
+  value: xyzrins:grants/nih-hyperalignment
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41467-026-76599-w
+  locator: Crossref work 10.1038/s41467-026-76599-w, funder
+  quote: '"award": ["5R01MH127199"]'
+  note: NIMH R01MH127199 is the hyperalignment grant (1R01MH127199-01A1).  Crossref
+    also names NSF 1835200, which has no record here.
+  confidence: certain
+  captured: '2026-11-11'

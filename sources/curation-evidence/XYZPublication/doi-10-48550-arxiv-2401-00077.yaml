@@ -1,0 +1,23 @@
+record: xyzrins:publications/doi-10-48550-arxiv-2401-00077
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:Preprint
+  kind: registry
+  source: https://api.datacite.org/dois/10.48550/arxiv.2401.00077
+  locator: DataCite DOI, types.resourceTypeGeneral
+  quote: '"resourceTypeGeneral": "Preprint"'
+  note: Registered as a preprint.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/5/value
+  value: Erik C. Johnson; Thinh T. Nguyen; Benjamin K. Dichter; Frank Zappulla;
+    Montgomery Kosma; Kabilar Gunalan; Yaroslav O. Halchenko; Shay Q. Neufeld; Kristen
+    Ratan; Nicholas J. Edwards; Susanne Ressl; Sarah R. Heilbronner; Michael Schirner;
+    Petra Ritter; Brock Wester; Satrajit Ghosh; Maryann E. Martone; Franco Pestilli;
+    Dimitri Yatsenko
+  kind: registry
+  source: https://api.datacite.org/dois/10.48550/arxiv.2401.00077
+  locator: DataCite DOI 10.48550/arxiv.2401.00077, creators
+  confidence: certain
+  captured: '2026-11-11'

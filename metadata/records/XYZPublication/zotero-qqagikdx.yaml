@@ -27,8 +27,14 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: (Meta)Data and workflow management for your most important work and your
     daily routine
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: INCF annual meeting Neuroinformatics 2018, Montreal, Canada
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Michael Hanke; Kyle Meyer; Benjamin Poldrack; Yaroslav O. Halchenko
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 generated_by:
 - object: xyzrins:projects/datalad
@@ -36,7 +42,7 @@ generated_by:
 identifiers:
 - notation: zotero:group:6197458:item:QQAGIKDX
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-qqagikdx
 schema_type: xyzri:XYZPublication
 title: (Meta)Data and workflow management for your most important work and your daily

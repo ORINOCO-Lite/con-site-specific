@@ -21,15 +21,21 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Investigation of the familiar face recognition model
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Society for Neuroscience Annual Meeting, New Orleans
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Y. O. Halchenko; J. Gors; J. S. Guntupalli; J. V. Haxby; M. I. Gobbini
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 identifiers:
 - notation: http://haxbylab.dartmouth.edu/publications/HGG+12_sfn12_famfaces.png
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:YQ6VTMDE
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-yq6vtmde
 schema_type: xyzri:XYZPublication
 title: Investigation of the familiar face recognition model

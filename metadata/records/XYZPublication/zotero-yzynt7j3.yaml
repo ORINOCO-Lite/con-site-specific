@@ -25,8 +25,15 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Fantastic containers and how to tame them
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Annual meeting of the Organization for Human Brain Mapping, Rome, Italy
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav O. Halchenko; Kyle Meyer; Dorota Jarecka; Satra Ghosh; Jakub Kaczmarzyk;
+    Michael Hanke
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 generated_by:
 - object: xyzrins:projects/repronim-containers
@@ -36,7 +43,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:YZYNT7J3
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-yzynt7j3
 schema_type: xyzri:XYZPublication
 title: Fantastic containers and how to tame them

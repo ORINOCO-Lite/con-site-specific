@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-1093-cercor-bhaa115
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Lucy L W Owen; Tudor A Muntianu; Andrew C Heusser; Patrick M Daly; Katherine
+    W Scangos; Jeremy R Manning
+  kind: registry
+  source: https://api.crossref.org/works/10.1093/cercor/bhaa115
+  locator: Crossref work 10.1093/cercor/bhaa115, author
+  confidence: certain
+  captured: '2026-11-11'

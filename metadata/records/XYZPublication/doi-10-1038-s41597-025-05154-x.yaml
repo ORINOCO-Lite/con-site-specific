@@ -22,6 +22,12 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'Spacetop: A multimodal fMRI dataset unifying naturalistic processes with
     a rich array of experimental tasks'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Heejung Jung; Maryam Amini; Bethany J. Hunt; Eilis I. Murphy; Patrick Sadil;
+    Yaroslav O. Halchenko; Bogdan Petre; Zizhuang Miao; Philip A. Kragel; Xiaochun Han;
+    Mickela O. Heilicher; Michael Sun; Owen G. Collins; Martin A. Lindquist; Tor D.
+    Wager
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

@@ -1,0 +1,30 @@
+record: xyzrins:publications/zotero-4j5d6v7h
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: bibo:Slideshow
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/4J5D6V7H
+  locator: Zotero item, extra
+  quote: 'Published: Organization of Human Brain Mapping Annual Meeting, Tutorials,
+    Geneva, Switzerland. Talk'
+  note: The Zotero library records it as a talk.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Organization of Human Brain Mapping Annual Meeting, Tutorials, Geneva,
+    Switzerland
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/4J5D6V7H
+  locator: Zotero item, extra
+  quote: 'Published: Organization of Human Brain Mapping Annual Meeting, Tutorials,
+    Geneva, Switzerland. Talk'
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: Yaroslav. O Halchenko
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/4J5D6V7H
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

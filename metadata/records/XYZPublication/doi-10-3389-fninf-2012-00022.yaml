@@ -33,6 +33,9 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'Open is not enough. Let''s take the next step: An integrated, community-driven
     computing platform for neuroscience'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav O. Halchenko; Michael Hanke
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

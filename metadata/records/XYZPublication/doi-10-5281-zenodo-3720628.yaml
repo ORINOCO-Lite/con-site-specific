@@ -37,6 +37,13 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: The Brain Imaging Data Structure (BIDS) Specification, Version 1.3.0
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Krzysztof J Gorgolewski; Jean-Baptiste Poline; David B Keator; B Nolan Nichols;
+    Tibor Auer; R Cameron Craddock; Guillaume Flandin; Satrajit S Ghosh; Vanessa V Sochat;
+    Ariel Rokem; Yaroslav O Halchenko; Michael Hanke; Christian Haselgrove; Karl Helmer;
+    Camille Maumet; Thomas E Nichols; Jessica A Turner; Samir Das; David N Kennedy;
+    Russell A Poldrack
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type

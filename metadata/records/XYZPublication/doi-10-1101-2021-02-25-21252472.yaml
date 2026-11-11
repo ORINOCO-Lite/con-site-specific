@@ -50,8 +50,12 @@ attributes:
     reporting guidelines and uploaded the relevant EQUATOR Network research reporting
     checklist(s) and other pertinent material as supplementary files, if applicable.YesData
     will be made publicly available upon publication.'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: David A.A. Baranger; Yaroslav O. Halchenko; Skye Satz; Rachel Ragozzino; Satish
+    Iyengar; Holly A. Swartz; Anna Manelis
 characterized_by:
-- object: bibo:AcademicArticle
+- object: fabio:Preprint
   predicate: dcterms:type
 description: 'The association of unipolar depression (UD), relative to healthy controls
   (HC), with cortical myelin is underexplored, despite growing evidence of associations
@@ -94,7 +98,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:NTH9GIBW
   schema_type: dlthings:Identifier
-kind: bibo:AcademicArticle
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-1101-2021-02-25-21252472
 schema_type: xyzri:XYZPublication
 title: Aberrant levels of cortical myelin distinguish individuals with unipolar depression

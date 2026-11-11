@@ -1,0 +1,10 @@
+record: xyzrins:publications/doi-10-1007-s00429-007-0160-2
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/5/value
+  value: S. J. Hanson; C. Hanson; Y. Halchenko; T. Matsuka; A. Zaimi
+  kind: registry
+  source: https://api.crossref.org/works/10.1007/s00429-007-0160-2
+  locator: Crossref work 10.1007/s00429-007-0160-2, author
+  confidence: certain
+  captured: '2026-11-11'

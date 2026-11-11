@@ -20,3 +20,12 @@ assertions:
     description also named John A. Lee, who is not among them.
   confidence: certain
   captured: '2026-11-11'
+- path: /kind
+  value: fabio:Preprint
+  kind: registry
+  source: https://api.crossref.org/works/10.31222/osf.io/f3h82_v1
+  locator: Crossref work, type
+  quote: '"type": "posted-content", "subtype": "preprint"'
+  note: Registered as a preprint.
+  confidence: certain
+  captured: '2026-11-11'

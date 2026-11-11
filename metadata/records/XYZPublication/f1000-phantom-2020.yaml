@@ -31,6 +31,9 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'Cheng CP and Halchenko YO (2020). A new virtue of phantom MRI data: explaining
     variance in human participant data. F1000Research, 9:1131, https://doi.org/10.12688/f1000research.24544.1'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Christopher P. Cheng; Yaroslav O. Halchenko
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

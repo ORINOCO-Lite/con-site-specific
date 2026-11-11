@@ -43,6 +43,10 @@ attributes:
     and results of a neuroimaging analysis, in order to generate a verifiable re-executable
     publication. Re-executability provides a starting point for examination of the
     generalizability and reproducibility of a given finding.
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Satrajit S. Ghosh; Jean-Baptiste Poline; David B. Keator; Yaroslav O. Halchenko;
+    Adam G. Thomas; Daniel A. Kessler; David N. Kennedy
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

@@ -1,0 +1,30 @@
+record: xyzrins:publications/zotero-dgvnva4t
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:ConferencePoster
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/DGVNVA4T
+  locator: Zotero item, extra
+  quote: 'Published: Poster presented at the annual meeting of the Organization
+    for Human Brain Mapping, Rome, Italy'
+  note: The Zotero library records it as a poster.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Annual meeting of the Organization for Human Brain Mapping, Rome, Italy
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/DGVNVA4T
+  locator: Zotero item, extra
+  quote: 'Published: Poster presented at the annual meeting of the Organization
+    for Human Brain Mapping, Rome, Italy'
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: Camille Maumet; Satrajit Ghosh; Yaroslav O. Halchenko; Jarecka Dorota;
+    Nolan Nichols; Jean-Baptiste Poline; Michael Hanke
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/DGVNVA4T
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

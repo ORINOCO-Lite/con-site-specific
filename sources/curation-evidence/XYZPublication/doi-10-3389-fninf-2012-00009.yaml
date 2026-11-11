@@ -1,0 +1,13 @@
+record: xyzrins:publications/doi-10-3389-fninf-2012-00009
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Jean-Baptiste Poline; Janis L. Breeze; Satrajit Ghosh; Krzysztof Gorgolewski;
+    Yaroslav O. Halchenko; Michael Hanke; Christian Haselgrove; Karl G. Helmer;
+    David B. Keator; Daniel S. Marcus; Russell A. Poldrack; Yannick Schwartz; John
+    Ashburner; David N. Kennedy
+  kind: registry
+  source: https://api.crossref.org/works/10.3389/fninf.2012.00009
+  locator: Crossref work 10.3389/fninf.2012.00009, author
+  confidence: certain
+  captured: '2026-11-11'

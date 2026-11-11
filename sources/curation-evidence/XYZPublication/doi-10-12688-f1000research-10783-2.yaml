@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-12688-f1000research-10783-2
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/6/value
+  value: Satrajit S. Ghosh; Jean-Baptiste Poline; David B. Keator; Yaroslav O. Halchenko;
+    Adam G. Thomas; Daniel A. Kessler; David N. Kennedy
+  kind: registry
+  source: https://api.crossref.org/works/10.12688/f1000research.10783.2
+  locator: Crossref work 10.12688/f1000research.10783.2, author
+  confidence: certain
+  captured: '2026-11-11'

@@ -24,6 +24,9 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: 'Statistical learning analysis in neuroscience: aiming for transparency'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Michael Hanke; Yaroslav O. Halchenko; James V. Haxby; Stefan Pollmann
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

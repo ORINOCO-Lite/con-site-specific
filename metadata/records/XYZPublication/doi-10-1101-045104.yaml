@@ -21,8 +21,13 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Towards standard practices for sharing computer code and programs in neuroscience
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Stephen J. Eglen; Ben Marwick; Yaroslav O. Halchenko; Michael Hanke; Shoaib
+    Sufi; Padraig Gleeson; R. Angus Silver; Andrew P. Davison; Linda Lanyon; Mathew
+    Abrams; Thomas Wachtler; David J. Willshaw; Christophe Pouzat; Jean-Baptiste Poline
 characterized_by:
-- object: bibo:AcademicArticle
+- object: fabio:Preprint
   predicate: dcterms:type
 identifiers:
 - notation: 10.1101/045104
@@ -31,7 +36,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:7NJBVY9C
   schema_type: dlthings:Identifier
-kind: bibo:AcademicArticle
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-1101-045104
 schema_type: xyzri:XYZPublication
 title: Towards standard practices for sharing computer code and programs in neuroscience

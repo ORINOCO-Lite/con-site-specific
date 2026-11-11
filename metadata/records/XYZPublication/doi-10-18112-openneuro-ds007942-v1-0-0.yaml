@@ -1,0 +1,46 @@
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/james-haxby
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/samuel-nastase
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2026'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Behaviorally-relevant features of observed actions dominate cortical representational
+    geometry in natural vision
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Behaviorally-relevant features of observed actions dominate cortical representational
+    geometry in natural vision
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Jane Han; Vassiki Chauhan; Rebecca Philip; Morgan K. Taylor; Heejung Jung;
+    Yaroslav O. Halchenko; M. Ida Gobbini; James V. Haxby; Samuel A. Nastase
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://openneuro.org/datasets/ds007942/versions/1.0.0
+characterized_by:
+- object: fabio:Dataset
+  predicate: dcterms:type
+description: 'The fMRI data, shared on OpenNeuro, behind the paper of the same title:
+  brain activity while participants viewed 90 video clips of social and nonsocial actions
+  in natural contexts.'
+identifiers:
+- notation: 10.18112/openneuro.ds007942.v1.0.0
+  schema_type: dlthings:DOI
+kind: fabio:Dataset
+pid: xyzrins:publications/doi-10-18112-openneuro-ds007942-v1-0-0
+schema_type: xyzri:XYZPublication
+title: Behaviorally-relevant features of observed actions dominate cortical representational
+  geometry in natural vision

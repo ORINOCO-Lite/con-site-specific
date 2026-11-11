@@ -19,8 +19,14 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: DueCredit - automagically collect citations for software, methods, and data
     you use
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Organization of Human Brain Mapping Annual Meeting, Geneva, Switzerland
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav O. Halchenko; Matteo Visconti di Oleggio Castello
 characterized_by:
-- object: bibo:Document
+- object: bibo:Slideshow
   predicate: dcterms:type
 generated_by:
 - object: xyzrins:projects/duecredit
@@ -28,7 +34,7 @@ generated_by:
 identifiers:
 - notation: zotero:group:6197458:item:QHQKTYYQ
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: bibo:Slideshow
 pid: xyzrins:publications/zotero-qhqktyyq
 schema_type: xyzri:XYZPublication
 title: DueCredit - automagically collect citations for software, methods, and data

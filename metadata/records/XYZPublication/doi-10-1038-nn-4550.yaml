@@ -24,6 +24,11 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Toward standard practices for sharing computer code and programs in neuroscience
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Stephen J Eglen; Ben Marwick; Yaroslav O Halchenko; Michael Hanke; Shoaib Sufi;
+    Padraig Gleeson; R Angus Silver; Andrew P Davison; Linda Lanyon; Mathew Abrams;
+    Thomas Wachtler; David J Willshaw; Christophe Pouzat; Jean-Baptiste Poline
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

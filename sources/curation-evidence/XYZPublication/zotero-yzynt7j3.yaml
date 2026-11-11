@@ -1,0 +1,31 @@
+record: xyzrins:publications/zotero-yzynt7j3
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:ConferencePoster
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/YZYNT7J3
+  locator: Zotero item, extra
+  quote: 'Published: Poster presented at the annual meeting of the Organization
+    for Human Brain Mapping, Rome, Italy'
+  note: The Zotero library records it as a poster.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Annual meeting of the Organization for Human Brain Mapping, Rome, Italy
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/YZYNT7J3
+  locator: Zotero item, extra
+  quote: 'Published: Poster presented at the annual meeting of the Organization
+    for Human Brain Mapping, Rome, Italy'
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: Yaroslav O. Halchenko; Kyle Meyer; Dorota Jarecka; Satra Ghosh; Jakub Kaczmarzyk;
+    Michael Hanke
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/YZYNT7J3
+  locator: Zotero item, creators
+  note: Two of the Zotero names start with a stray ", "; dropped.
+  confidence: certain
+  captured: '2026-11-11'

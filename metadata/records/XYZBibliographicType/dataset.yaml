@@ -1,0 +1,5 @@
+description: A collection of related facts, often expressed in numerical form and
+  encoded in a defined structure.
+display_label: Dataset
+pid: fabio:Dataset
+schema_type: xyzri:XYZBibliographicType

@@ -22,6 +22,9 @@ attributes:
 - predicate: foaf:homepage
   value: https://datasets.datalad.org/centerforopenneuroscience/talks/2026-usrse/orinoco-lite_poster.html
   schema_type: dlthings:AttributeSpecification
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: John Lee; Isaac To; Yaroslav Halchenko
 characterized_by:
 - object: fabio:ConferencePoster
   predicate: dcterms:type

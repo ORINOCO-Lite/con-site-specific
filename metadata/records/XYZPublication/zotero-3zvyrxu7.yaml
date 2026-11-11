@@ -19,6 +19,9 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'Debian Med: Integrated software environment for all medical purposes based
     on Debian GNU/Linux'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Andreas Tille; Steffen Moeller; Michael Hanke; Yaroslav O. Halchenko
 characterized_by:
 - object: bibo:Article
   predicate: dcterms:type

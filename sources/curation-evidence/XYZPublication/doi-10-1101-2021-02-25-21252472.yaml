@@ -1,0 +1,20 @@
+record: xyzrins:publications/doi-10-1101-2021-02-25-21252472
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:Preprint
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/2021.02.25.21252472
+  locator: Crossref work, type
+  quote: '"type": "posted-content", "subtype": "preprint"'
+  note: Registered as a preprint.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: David A.A. Baranger; Yaroslav O. Halchenko; Skye Satz; Rachel Ragozzino;
+    Satish Iyengar; Holly A. Swartz; Anna Manelis
+  kind: registry
+  source: https://api.crossref.org/works/10.1101/2021.02.25.21252472
+  locator: Crossref work 10.1101/2021.02.25.21252472, author
+  confidence: certain
+  captured: '2026-11-11'

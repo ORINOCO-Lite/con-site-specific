@@ -18,3 +18,18 @@ assertions:
       contradict, both giving "Chicago, IL" -- where SfN met in 2015.
     confidence: approximate
     captured: "2026-11-03"
+  - path: /kind
+    value: fabio:ConferencePoster
+    kind: registry
+    source: https://f1000research.com/posters/5-2830
+    locator: foaf:homepage
+    note: Deposited among F1000Research's posters.
+    confidence: certain
+    captured: '2026-11-11'
+  - path: /attributes/6/value
+    value: Samuel A. Nastase; J. Swaroop Guntupalli; James V. Haxby; Yaroslav O. Halchenko
+    kind: registry
+    source: https://api.crossref.org/works/10.7490/f1000research.1113507.1
+    locator: Crossref work 10.7490/f1000research.1113507.1, author
+    confidence: certain
+    captured: '2026-11-11'

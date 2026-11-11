@@ -48,6 +48,13 @@ attributes:
     \ continues to grow within the neuroscientific community, this article will highlight\
     \ the various analytical and customizable tools developed within the chosen archives\
     \ that may advance the field of neuroinformatics."
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Priyanka Subash; Alex Gray; Misque Boswell; Samantha L. Cohen; Rachael Garner;
+    Sana Salehi; Calvary Fisher; Samuel Hobel; Satrajit Ghosh; Yaroslav Halchenko; Benjamin
+    Dichter; Russell A. Poldrack; Chris Markiewicz; Dora Hermes; Arnaud Delorme; Scott
+    Makeig; Brendan Behan; Alana Sparks; Stephen R Arnott; Zhengjia Wang; John Magnotti;
+    Michael S. Beauchamp; Nader Pouratian; Arthur W. Toga; Dominique Duncan
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

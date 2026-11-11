@@ -31,13 +31,20 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Attention alters animal and action representation in highly-distributed functionally-defined
     cortical parcels
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Annual meeting of the Society for Neuroscience, Chicago, IL
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Samuel A. Nastase; Matteo Visconti di Oleggio Castello; Yaroslav O. Halchenko;
+    Andrew C. Connolly; Nikolaas N. Oosterhof; M. Ida and Gobbini; James V. Haxby
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 identifiers:
 - notation: zotero:group:6197458:item:STIS8CE3
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-stis8ce3
 schema_type: xyzri:XYZPublication
 title: Attention alters animal and action representation in highly-distributed functionally-defined

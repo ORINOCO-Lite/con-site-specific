@@ -21,6 +21,9 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Improving efficiency in cognitive neuroscience research with NeuroDebian
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Michael Hanke; Yaroslav O. Halchenko; James V. Haxby; Stefan Pollmann
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type

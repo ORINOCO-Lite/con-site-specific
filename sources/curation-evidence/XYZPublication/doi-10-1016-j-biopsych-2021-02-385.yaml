@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-1016-j-biopsych-2021-02-385
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: David Kennedy; Satrajit Ghosh; J.B. Poline; David Keator; Yaroslav Halchenko;
+    Maryann Martone; Jeffrey Grethe
+  kind: registry
+  source: https://api.crossref.org/works/10.1016/j.biopsych.2021.02.385
+  locator: Crossref work 10.1016/j.biopsych.2021.02.385, author
+  confidence: certain
+  captured: '2026-11-11'

@@ -19,8 +19,13 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: A multimodal fMRI dataset unifying naturalistic processes with a rich array
     of experimental tasks
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Heejung Jung; Maryam Amini; Bethany J Hunt; Eilis I Murphy; Patrick Sadil;
+    Yaroslav O Halchenko; Bogdan Petre; Zizhuang Miao; Philip A Kragel; Xiaochun Han;
+    Mickela O Heilicher; Michael Sun; Owen G Collins; Martin A Lindquist; Tor D Wager
 characterized_by:
-- object: bibo:AcademicArticle
+- object: fabio:Preprint
   predicate: dcterms:type
 identifiers:
 - notation: 10.1101/2024.06.21.599974
@@ -29,7 +34,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:IKDDSUSK
   schema_type: dlthings:Identifier
-kind: bibo:AcademicArticle
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-1101-2024-06-21-599974
 schema_type: xyzri:XYZPublication
 title: A multimodal fMRI dataset unifying naturalistic processes with a rich array

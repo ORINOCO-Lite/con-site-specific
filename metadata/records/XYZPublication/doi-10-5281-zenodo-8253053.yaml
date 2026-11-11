@@ -16,6 +16,9 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Dartmouth Brain Imaging Center (DBIC) QA data (weekly QA scans etc.)
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav O. Halchenko; Chandana Kodiweera; Terry Sacket
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type

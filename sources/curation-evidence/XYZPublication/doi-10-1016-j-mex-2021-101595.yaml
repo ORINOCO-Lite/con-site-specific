@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-1016-j-mex-2021-101595
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: David A.A. Baranger; Yaroslav O. Halchenko; Skye Satz; Rachel Ragozzino;
+    Satish Iyengar; Holly A. Swartz; Anna Manelis
+  kind: registry
+  source: https://api.crossref.org/works/10.1016/j.mex.2021.101595
+  locator: Crossref work 10.1016/j.mex.2021.101595, author
+  confidence: certain
+  captured: '2026-11-11'

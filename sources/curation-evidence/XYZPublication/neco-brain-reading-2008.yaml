@@ -1,0 +1,10 @@
+record: xyzrins:publications/neco-brain-reading-2008
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/6/value
+  value: Stephen José Hanson; Yaroslav O. Halchenko
+  kind: registry
+  source: https://api.crossref.org/works/10.1162/neco.2007.09-06-340
+  locator: Crossref work 10.1162/neco.2007.09-06-340, author
+  confidence: certain
+  captured: '2026-11-11'

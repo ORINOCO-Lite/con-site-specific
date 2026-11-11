@@ -54,6 +54,10 @@ attributes:
     development philosophy allows the software to quickly adapt and address the varied
     needs of the evolving neuroimaging community, especially in the context of increasing
     demand for reproducible research.'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Krzysztof Gorgolewski; Christopher D. Burns; Cindee Madison; Dav Clark; Yaroslav
+    O. Halchenko; Michael L. Waskom; Satrajit S. Ghosh
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

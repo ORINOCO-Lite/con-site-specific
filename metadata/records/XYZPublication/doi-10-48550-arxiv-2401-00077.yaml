@@ -49,8 +49,14 @@ attributes:
     for assessing and improving operational practices in multidisciplinary research
     teams, guiding them towards greater efficiency and effectiveness in scientific
     inquiry.
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Erik C. Johnson; Thinh T. Nguyen; Benjamin K. Dichter; Frank Zappulla; Montgomery
+    Kosma; Kabilar Gunalan; Yaroslav O. Halchenko; Shay Q. Neufeld; Kristen Ratan; Nicholas
+    J. Edwards; Susanne Ressl; Sarah R. Heilbronner; Michael Schirner; Petra Ritter;
+    Brock Wester; Satrajit Ghosh; Maryann E. Martone; Franco Pestilli; Dimitri Yatsenko
 characterized_by:
-- object: bibo:Manuscript
+- object: fabio:Preprint
   predicate: dcterms:type
 description: Scientists are increasingly leveraging advances in instruments, automation,
   and collaborative tools to scale up their experiments and research goals, leading
@@ -77,7 +83,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:N8L2GWY5
   schema_type: dlthings:Identifier
-kind: bibo:Manuscript
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-48550-arxiv-2401-00077
 schema_type: xyzri:XYZPublication
 title: 'SciOps: Achieving Productivity and Reliability in Data-Intensive Research'

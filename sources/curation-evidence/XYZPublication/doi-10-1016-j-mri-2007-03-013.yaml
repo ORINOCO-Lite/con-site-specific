@@ -1,0 +1,10 @@
+record: xyzrins:publications/doi-10-1016-j-mri-2007-03-013
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/5/value
+  value: Stephen José Hanson; Rebbechi Rebecchi; Catherine Hanson; Yaroslav O. Halchenko
+  kind: registry
+  source: https://api.crossref.org/works/10.1016/j.mri.2007.03.013
+  locator: Crossref work 10.1016/j.mri.2007.03.013, author
+  confidence: certain
+  captured: '2026-11-11'

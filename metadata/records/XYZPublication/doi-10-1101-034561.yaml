@@ -35,8 +35,16 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'The Brain Imaging Data Structure: a standard for organizing and describing
     outputs of neuroimaging experiments'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Krzysztof J. Gorgolewski; Tibor Auer; Vince D. Calhoun; R. Cameron Craddock;
+    Samir Das; Eugene P. Duff; Guillaume Flandin; Satrajit S. Ghosh; Tristan Glatard;
+    Yaroslav O. Halchenko; Daniel A. Handwerker; Michael Hanke; David Keator; Xiangrui
+    Li; Zachary Michael; Camille Maumet; B. Nolan Nichols; Thomas E. Nichols; Jean-Baptiste
+    Poline; Ariel Rokem; Gunnar Schaefer; Vanessa Sochat; William Triplett; Jessica
+    A. Turner; Gaël Varoquaux; Russell A. Poldrack
 characterized_by:
-- object: bibo:AcademicArticle
+- object: fabio:Preprint
   predicate: dcterms:type
 generated_by:
 - object: xyzrins:projects/bids
@@ -48,7 +56,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:ER3GRXMK
   schema_type: dlthings:Identifier
-kind: bibo:AcademicArticle
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-1101-034561
 schema_type: xyzri:XYZPublication
 title: 'The Brain Imaging Data Structure: a standard for organizing and describing

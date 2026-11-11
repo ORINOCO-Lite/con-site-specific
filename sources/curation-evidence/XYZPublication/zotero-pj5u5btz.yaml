@@ -1,0 +1,10 @@
+record: xyzrins:publications/zotero-pj5u5btz
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/3/value
+  value: Y. O. Halchenko; S. J. Hanson; B. A. Pearlmutter
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/PJ5U5BTZ
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

@@ -18,8 +18,19 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: 'Go Figure: Transparency in neuroscience images preserves context and clarifies
     interpretation'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Paul A. Taylor; Himanshu Aggarwal; Peter Bandettini; Marco Barilari; Molly
+    Bright; Cesar Caballero-Gaudes; Vince Calhoun; Mallar Chakravarty; Gabriel Devenyi;
+    Jennifer Evans; Eduardo Garza-Villarreal; Jalil Rasgado-Toledo; Remi Gau; Daniel
+    Glen; Rainer Goebel; Javier Gonzalez-Castillo; Omer Faruk Gulban; Yaroslav Halchenko;
+    Daniel Handwerker; Taylor Hanayik; Peter Lauren; David Leopold; Jason Lerch; Christian
+    Mathys; Paul McCarthy; Anke McLeod; Amanda Mejia; Stefano Moia; Thomas Nichols;
+    Cyril Pernet; Luiz Pessoa; Bettina Pfleiderer; Justin Rajendra; Laura Reyes; Richard
+    Reynolds; Vinai Roopchansingh; Chris Rorden; Brian Russ; Benedikt Sundermann; Bertrand
+    Thirion; Salvatore Torrisi; Gang Chen
 characterized_by:
-- object: bibo:Document
+- object: fabio:Preprint
   predicate: dcterms:type
 identifiers:
 - notation: 10.48550/arxiv.2504.07824
@@ -28,7 +39,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:IGKMKAM3
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-48550-arxiv-2504-07824
 schema_type: xyzri:XYZPublication
 title: 'Go Figure: Transparency in neuroscience images preserves context and clarifies

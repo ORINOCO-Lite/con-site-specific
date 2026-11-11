@@ -26,6 +26,10 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: The Neural Representation Of Personally Familiar And Unfamiliar Faces In
     The Distributed System For Face Perception
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Matteo Visconti di Oleggio Castello; Yaroslav O. Halchenko; J. Swaroop Guntupalli;
+    Jason D. Gors; M. Ida Gobbini
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

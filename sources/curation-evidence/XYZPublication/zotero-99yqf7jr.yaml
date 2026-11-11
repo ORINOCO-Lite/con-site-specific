@@ -1,0 +1,10 @@
+record: xyzrins:publications/zotero-99yqf7jr
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: L. I. Tymchenko; J. Scorukova; S. Markov; Y. O. Halchenko
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/99YQF7JR
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

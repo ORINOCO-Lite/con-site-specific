@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-1016-j-neuroimage-2009-08-065
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/5/value
+  value: J.D. Ramsey; S.J. Hanson; C. Hanson; Y.O. Halchenko; R.A. Poldrack; C.
+    Glymour
+  kind: registry
+  source: https://api.crossref.org/works/10.1016/j.neuroimage.2009.08.065
+  locator: Crossref work 10.1016/j.neuroimage.2009.08.065, author
+  confidence: certain
+  captured: '2026-11-11'

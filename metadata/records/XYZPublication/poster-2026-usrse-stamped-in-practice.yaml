@@ -28,6 +28,9 @@ attributes:
 - predicate: dcat:downloadURL
   value: https://datasets.datalad.org/centerforopenneuroscience/talks/2026-usrse/stamped-ai-study/exports/stamped-ai-poster.pdf
   schema_type: dlthings:AttributeSpecification
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: John Lee; Austin Macdonald; Cody Baker; Yaroslav Halchenko
 characterized_by:
 - object: fabio:ConferencePoster
   predicate: dcterms:type

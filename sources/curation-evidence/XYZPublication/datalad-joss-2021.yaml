@@ -19,3 +19,16 @@ assertions:
       event, not a surviving trace of it, so `exact`.
     confidence: certain
     captured: "2026-10-10"
+  - path: /attributes/6/value
+    value: Yaroslav Halchenko; Kyle Meyer; Benjamin Poldrack; Debanjum Solanky; Adina
+      Wagner; Jason Gors; Dave MacFarlane; Dorian Pustina; Vanessa Sochat; Satrajit
+      Ghosh; Christian Mönch; Christopher Markiewicz; Laura Waite; Ilya Shlyakhter;
+      Alejandro de la Vega; Soichi Hayashi; Christian Häusler; Jean-Baptiste Poline;
+      Tobias Kadelka; Kusti Skytén; Dorota Jarecka; David Kennedy; Ted Strauss; Matt
+      Cieslak; Peter Vavra; Horea-Ioan Ioanas; Robin Schneider; Mika Pflüger; James
+      Haxby; Simon Eickhoff; Michael Hanke
+    kind: registry
+    source: https://api.crossref.org/works/10.21105/joss.03262
+    locator: Crossref work 10.21105/joss.03262, author
+    confidence: certain
+    captured: '2026-11-11'

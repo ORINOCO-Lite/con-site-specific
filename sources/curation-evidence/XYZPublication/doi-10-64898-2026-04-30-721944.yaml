@@ -1,0 +1,23 @@
+record: xyzrins:publications/doi-10-64898-2026-04-30-721944
+format: con-association-evidence-v1
+assertions:
+- path: /kind
+  value: fabio:Preprint
+  kind: registry
+  source: https://api.crossref.org/works/10.64898/2026.04.30.721944
+  locator: Crossref work, type
+  quote: '"type": "posted-content", "subtype": "preprint"'
+  note: Registered as a preprint.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/6/value
+  value: Michelle Wang; Nikhil Bhagwat; Francesco Cremonesi; Mathieu Dugré; Julia-Katharina
+    Pfarr; Emile d’Angremont; Alyssa Dai; Arman Jahanpour; Sebastian Urchs; Sergen
+    Cansiz; Lucie Chambon; Ali Tolga Dinçer; Jhonatan Torres; Marc Vesin; Gabriel
+    Pinilla-Monsalve; Yuan Song; Chris Vriend; Francis Jeanson; Oury Monchi; Ysbrand
+    D. van der Werf; Marco Lorenzi; Jean-Baptiste Poline
+  kind: registry
+  source: https://api.crossref.org/works/10.64898/2026.04.30.721944
+  locator: Crossref work 10.64898/2026.04.30.721944, author
+  confidence: certain
+  captured: '2026-11-11'

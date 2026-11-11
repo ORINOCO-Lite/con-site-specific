@@ -17,3 +17,12 @@ assertions:
       one, as with any conference date -- the work precedes the poster.
     confidence: approximate
     captured: "2026-10-13"
+  - path: /kind
+    value: fabio:ConferencePoster
+    kind: publication
+    source: xyzrins:publications/sfn2015-shared-representations
+    locator: bibo:locator
+    quote: Poster 451.11
+    note: Its own citation numbers it as a poster of the meeting.
+    confidence: certain
+    captured: '2026-11-11'

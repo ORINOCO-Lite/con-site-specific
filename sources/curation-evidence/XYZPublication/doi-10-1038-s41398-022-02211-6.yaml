@@ -1,0 +1,12 @@
+record: xyzrins:publications/doi-10-1038-s41398-022-02211-6
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Anna Manelis; Yaroslav O. Halchenko; Lisa Bonar; Richelle S. Stiffler;
+    Skye Satz; Rachel Miceli; Cecile D. Ladouceur; Genna Bebko; Satish Iyengar;
+    Holly A. Swartz; Mary L. Phillips
+  kind: registry
+  source: https://api.crossref.org/works/10.1038/s41398-022-02211-6
+  locator: Crossref work 10.1038/s41398-022-02211-6, author
+  confidence: certain
+  captured: '2026-11-11'

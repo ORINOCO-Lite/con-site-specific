@@ -25,13 +25,20 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Clustering cortical searchlights based on shared representational geometry
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Annual meeting of the Organization for Human Brain Mapping, Honolulu, HI
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Samuel A. Nastase; Matteo Visconti di Oleggio Castello; James V. Haxby; M.
+    Ida Gobbini; Yaroslav O. Halchenko
 characterized_by:
-- object: bibo:Document
+- object: bibo:Slideshow
   predicate: dcterms:type
 identifiers:
 - notation: zotero:group:6197458:item:ABZE6DSN
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: bibo:Slideshow
 pid: xyzrins:publications/zotero-abze6dsn
 schema_type: xyzri:XYZPublication
 title: Clustering cortical searchlights based on shared representational geometry

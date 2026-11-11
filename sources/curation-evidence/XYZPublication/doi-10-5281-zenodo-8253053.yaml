@@ -1,0 +1,10 @@
+record: xyzrins:publications/doi-10-5281-zenodo-8253053
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/4/value
+  value: Yaroslav O. Halchenko; Chandana Kodiweera; Terry Sacket
+  kind: registry
+  source: https://api.datacite.org/dois/10.5281/zenodo.8253053
+  locator: DataCite DOI 10.5281/zenodo.8253053, creators
+  confidence: certain
+  captured: '2026-11-11'

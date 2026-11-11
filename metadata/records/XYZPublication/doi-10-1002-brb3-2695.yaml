@@ -20,6 +20,9 @@ attributes:
   value: The interaction between depression diagnosis and BMI is related to altered
     activation pattern in the right inferior frontal gyrus and anterior cingulate
     cortex during food anticipation
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: A Manelis; YO Halchenko; S Satz; R Ragozzino; S Iyengar; HA Swartz; MD Levine
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

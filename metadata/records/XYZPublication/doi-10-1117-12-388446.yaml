@@ -16,6 +16,10 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Method for image coordinate definition on extended laser paths
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Leonid I. Timchenko; Yuri F. Kutaev; Alexander A. Gertsiy; Yaroslav O. Halchenko;
+    Lubov V. Zahoruiko; Tamer Mansur
 characterized_by:
 - object: bibo:Article
   predicate: dcterms:type

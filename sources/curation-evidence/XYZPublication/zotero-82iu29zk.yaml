@@ -1,0 +1,10 @@
+record: xyzrins:publications/zotero-82iu29zk
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/3/value
+  value: Vanessa Sochat; Yaroslav O. Halchenko
+  kind: registry
+  source: https://api.zotero.org/groups/6197458/items/82IU29ZK
+  locator: Zotero item, creators
+  confidence: certain
+  captured: '2026-11-11'

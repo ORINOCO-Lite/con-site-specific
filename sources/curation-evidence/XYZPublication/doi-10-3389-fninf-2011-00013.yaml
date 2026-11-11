@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-3389-fninf-2011-00013
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/6/value
+  value: Krzysztof Gorgolewski; Christopher D. Burns; Cindee Madison; Dav Clark;
+    Yaroslav O. Halchenko; Michael L. Waskom; Satrajit S. Ghosh
+  kind: registry
+  source: https://api.crossref.org/works/10.3389/fninf.2011.00013
+  locator: Crossref work 10.3389/fninf.2011.00013, author
+  confidence: certain
+  captured: '2026-11-11'

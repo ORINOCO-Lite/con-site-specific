@@ -33,8 +33,13 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Attention selectively reshapes the geometry of distributed semantic representation
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Samuel A. Nastase; Andrew C. Connolly; Nikolaas N. Oosterhof; Yaroslav O. Halchenko;
+    J. Swaroop Guntupalli; Matteo Visconti di Oleggio Castello; Jason Gors; M. Ida Gobbini;
+    James V. Haxby
 characterized_by:
-- object: bibo:AcademicArticle
+- object: fabio:Preprint
   predicate: dcterms:type
 identifiers:
 - notation: 10.1101/045252
@@ -43,7 +48,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:W7QBXMBZ
   schema_type: dlthings:Identifier
-kind: bibo:AcademicArticle
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-1101-045252
 schema_type: xyzri:XYZPublication
 title: Attention selectively reshapes the geometry of distributed semantic representation

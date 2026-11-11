@@ -74,6 +74,14 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: HeuDiConv — flexible DICOM conversion into structured directory layouts
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav O. Halchenko; Mathias Goncalves; Satrajit Ghosh; Pablo Velasco; Matteo
+    Visconti di Oleggio Castello; Taylor Salo; John T. Wodder; Michael Hanke; Patrick
+    Sadil; Krzysztof Jacek Gorgolewski; Horea-Ioan Ioanas; Chris Rorden; Timothy J.
+    Hendrickson; Michael Dayan; Sean Dae Houlihan; James Kent; Ted Strauss; John Lee;
+    Isaac To; Christopher J. Markiewicz; Darren Lukas; Ellyn R. Butler; Todd Thompson;
+    Maite Termenon; David V. Smith; Austin Macdonald; David N. Kennedy
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

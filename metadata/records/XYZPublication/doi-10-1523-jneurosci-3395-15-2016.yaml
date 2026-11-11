@@ -34,6 +34,11 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: How the human brain represents perceived dangerousness or "predacity" of
     animals
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Andrew C. Connolly; Long Sha; J. Swaroop Guntupalli; Nikolaas Oosterhof; Yaroslav
+    O. Halchenko; Samuel A. Nastase; Matteo Visconti di Oleggio Castello; Hervé Abdi;
+    Barbara C. Jobst; M. Ida Gobbini; James V. Haxby
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

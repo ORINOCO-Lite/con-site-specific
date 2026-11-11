@@ -1,0 +1,11 @@
+record: xyzrins:publications/doi-10-1016-j-concog-2013-05-002
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/5/value
+  value: M. Ida Gobbini; Jason D. Gors; Yaroslav O. Halchenko; Howard C. Hughes;
+    Carlo Cipolli
+  kind: registry
+  source: https://api.crossref.org/works/10.1016/j.concog.2013.05.002
+  locator: Crossref work 10.1016/j.concog.2013.05.002, author
+  confidence: certain
+  captured: '2026-11-11'

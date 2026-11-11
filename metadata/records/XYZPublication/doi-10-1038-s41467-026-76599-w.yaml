@@ -1,0 +1,60 @@
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/james-haxby
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/samuel-nastase
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2026-09-17'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Behaviorally-relevant features of observed actions dominate cortical representational
+    geometry in natural vision
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Behaviorally-relevant features of observed actions dominate cortical representational
+    geometry in natural vision
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Jane Han; Vassiki Chauhan; Rebecca Philip; Morgan K. Taylor; Heejung Jung;
+    Yaroslav O. Halchenko; M. Ida Gobbini; James V. Haxby; Samuel A. Nastase
+characterized_by:
+- object: bibo:AcademicArticle
+  predicate: dcterms:type
+description: We effortlessly extract behaviorally relevant information from dynamic
+  visual input to understand the actions of others. Here, we compare behavioral judgments
+  of action meaning against other models capturing semantic and visual features. We
+  measured brain activity using fMRI while participants viewed 90 video clips depicting
+  social and nonsocial actions in real-world contexts. Using arrangement tasks, we developed
+  two behavioral models capturing judgments of action meaning (transitive purpose, social
+  content), as well as three control models capturing judgments of visual content (people,
+  objects, scene). We compared these models with semantic models based on word embeddings
+  and visual models based on gaze and motion energy. Behavioral models of action meaning
+  outperformed models of visual content, semantics, and low-level visual features across
+  much of cortex. Transitivity and sociality captured large portions of unique variance
+  throughout the action observation network, extending into regions not typically associated
+  with action perception, such as ventral temporal cortex.
+identifiers:
+- notation: 10.1038/s41467-026-76599-w
+  schema_type: dlthings:DOI
+influenced_by:
+- object: xyzrins:publications/doi-10-18112-openneuro-ds007942-v1-0-0
+  schema_type: xyzri:XYZInfluence
+- object: xyzrins:grants/nih-hyperalignment
+  roles:
+  - FRAPO:Funding
+  schema_type: xyzri:XYZInfluence
+kind: bibo:AcademicArticle
+pid: xyzrins:publications/doi-10-1038-s41467-026-76599-w
+schema_type: xyzri:XYZPublication
+title: Behaviorally-relevant features of observed actions dominate cortical representational
+  geometry in natural vision

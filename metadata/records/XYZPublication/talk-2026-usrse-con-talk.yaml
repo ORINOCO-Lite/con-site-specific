@@ -34,6 +34,10 @@ attributes:
 - predicate: foaf:homepage
   value: https://datasets.datalad.org/centerforopenneuroscience/talks/2026-usrse-con-talk.html
   schema_type: dlthings:AttributeSpecification
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav Halchenko; Cody Baker; Austin Macdonald; Isaac To; John Lee; Vadim
+    Melnik
 characterized_by:
 - object: bibo:Slideshow
   predicate: dcterms:type

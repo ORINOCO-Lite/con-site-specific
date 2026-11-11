@@ -17,8 +17,15 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: 'Narratives: fMRI data for evaluating models of naturalistic language comprehension'
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Samuel A. Nastase; Yun-Fei Liu; Hanna Hillman; Asieh Zadbood; Liat Hasenfratz;
+    Neggin Keshavarzian; Janice Chen; Christopher J. Honey; Yaara Yeshurun; Mor Regev;
+    Mai Nguyen; Claire H. C. Chang; Christopher Baldassano; Olga Lositsky; Erez Simony;
+    Michael A. Chow; Yuan Chang Leong; Paula P. Brooks; Emily Micciche; Gina Choe; Ariel
+    Goldstein; Tamara Vanderwal; Yaroslav O. Halchenko; Kenneth A. Norman; Uri Hasson
 characterized_by:
-- object: bibo:AcademicArticle
+- object: fabio:Preprint
   predicate: dcterms:type
 identifiers:
 - notation: 10.1101/2020.12.23.424091
@@ -27,7 +34,7 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:28XS48EF
   schema_type: dlthings:Identifier
-kind: bibo:AcademicArticle
+kind: fabio:Preprint
 pid: xyzrins:publications/doi-10-1101-2020-12-23-424091
 schema_type: xyzri:XYZPublication
 title: 'Narratives: fMRI data for evaluating models of naturalistic language comprehension'

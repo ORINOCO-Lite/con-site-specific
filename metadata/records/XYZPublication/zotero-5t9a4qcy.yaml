@@ -13,6 +13,9 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Incorrect probabilities in Harvard-Oxford-sub Left hemisphere
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav O. Halchenko
 characterized_by:
 - object: bibo:Document
   predicate: dcterms:type

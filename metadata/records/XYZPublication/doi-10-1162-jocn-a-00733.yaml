@@ -24,6 +24,10 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: The animacy continuum in the human ventral vision pathway
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Long Sha; James V. Haxby; Herve Abdi; J. Swaroop Guntupalli; Nikolaas N. Oosterhof;
+    Yaroslav O. Halchenko; Andrew C. Connolly
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type

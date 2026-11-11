@@ -17,8 +17,15 @@ attributes:
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: 'NICEMAN: NeuroImaging Computational Environments Manager'
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: Annual meeting of the Organization for Human Brain Mapping, Singapore
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Matthew Travers; Robert Buccigrossi; Christian Haselgrove; Kyle Meyer; Yaroslav
+    O. Halchenko
 characterized_by:
-- object: bibo:Document
+- object: fabio:ConferencePoster
   predicate: dcterms:type
 generated_by:
 - object: xyzrins:projects/reproman
@@ -26,7 +33,7 @@ generated_by:
 identifiers:
 - notation: zotero:group:6197458:item:V65L6J8X
   schema_type: dlthings:Identifier
-kind: bibo:Document
+kind: fabio:ConferencePoster
 pid: xyzrins:publications/zotero-v65l6j8x
 schema_type: xyzri:XYZPublication
 title: 'NICEMAN: NeuroImaging Computational Environments Manager'
