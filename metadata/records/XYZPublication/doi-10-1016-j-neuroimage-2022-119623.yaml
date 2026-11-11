@@ -25,7 +25,7 @@ attributes:
   value: 263, 119623
 - predicate: dcterms:issued
   schema_type: dlthings:AttributeSpecification
-  value: 11/2022
+  value: 2022-11
 - predicate: dcterms:language
   schema_type: dlthings:AttributeSpecification
   value: en
