@@ -1,8 +1,4 @@
 attributes:
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Collaborator at the Center for Open Neuroscience. Affiliated with MIT and Harvard
-    Medical School. Lead of DANDI, NiPype, and other projects.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Satrajit Ghosh
@@ -38,10 +34,10 @@ attributes:
   value: Collaborators
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: An old-time partner in our "scientific plumbing" business and a lead of <a href="/projects#dandi_">DANDI</a>,
+  value: An old-time partner in our "scientific plumbing" business and a lead of <a href="xyzrins:projects/dandi">DANDI</a>,
     <a href="https://nipype.readthedocs.io/">NiPype</a> and other projects.
-description: Collaborator at the Center for Open Neuroscience. Affiliated with MIT and
-  Harvard Medical School. Lead of DANDI, NiPype, and other projects.
+description: An old-time partner in our "scientific plumbing" business and a lead of DANDI,
+  NiPype and other projects.
 display_label: Satrajit Ghosh
 family_name: Ghosh
 formatted_name: Satrajit Ghosh

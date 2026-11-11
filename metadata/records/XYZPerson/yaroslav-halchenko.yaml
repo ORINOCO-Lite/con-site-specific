@@ -10,12 +10,6 @@ attributes:
 - predicate: dlthings:additional_names
   schema_type: dlthings:AttributeSpecification
   value: O.
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Founding Director of the Center for Open Neuroscience. Research Professor of
-    Psychological and Brain Sciences and Adjunct Professor of Computer Science at Dartmouth
-    College. Official Debian Developer and open source contributor leading DANDI, DataLad,
-    PyMVPA, and NeuroDebian projects. Serves on BIDS and NWB technical advisory committees.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Yaroslav O. Halchenko
@@ -65,21 +59,23 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Research Professor of Psychological and Brain Sciences and Adjunct Professor
     of Computer Science at Dartmouth, official Debian Developer, contributor to <a href="https://www.openhub.net/accounts/yarikoptic">many</a>
-    open source projects -- Yaroslav (AKA Yarik) is a lead of <a href="/projects#dandi_">DANDI</a>,
-    <a href="/projects#datalad_">DataLad</a>, <a href="/projects#pymvpa_">PyMVPA</a>,
-    <a href="/projects#neurodebian_">NeuroDebian</a>, and other <a href="/projects">projects</a>.
-    He is also currently serving on BIDS standard Steering and <a href="/projects#nwb_">NWB</a>
-    standard technical advisory committees, and engaged in various other initiatives,
-    projects, and efforts.
+    open source projects -- Yaroslav (AKA Yarik) is a lead of <a href="xyzrins:projects/dandi">DANDI</a>,
+    <a href="xyzrins:projects/datalad">DataLad</a>, <a href="xyzrins:projects/pymvpa">PyMVPA</a>,
+    <a href="xyzrins:projects/neurodebian">NeuroDebian</a>, and other <a href="/projects">projects</a>.
+    He is also currently serving on the <a href="xyzrins:projects/nwb">NWB</a> standard technical
+    advisory committee, previously served on the <a href="xyzrins:projects/bids">BIDS</a>
+    Steering Group, and is engaged in various other initiatives, projects, and efforts.
 delegated_by:
 - object: ror:04tfhh831
   roles:
   - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
   schema_type: dlthings:Delegation
-description: Founding Director of the Center for Open Neuroscience. Research Professor
-  of Psychological and Brain Sciences and Adjunct Professor of Computer Science at Dartmouth
-  College. Official Debian Developer and open source contributor leading DANDI, DataLad,
-  PyMVPA, and NeuroDebian projects. Serves on BIDS and NWB technical advisory committees.
+description: Research Professor of Psychological and Brain Sciences and Adjunct Professor
+  of Computer Science at Dartmouth, official Debian Developer, contributor to many open source
+  projects -- Yaroslav (AKA Yarik) is a lead of DANDI, DataLad, PyMVPA, NeuroDebian, and other
+  projects. He is also currently serving on the NWB standard technical advisory committee,
+  previously served on the BIDS Steering Group, and is engaged in various other initiatives,
+  projects, and efforts.
 display_label: Yaroslav O. Halchenko
 family_name: Halchenko
 formatted_name: Yaroslav O. Halchenko

@@ -19,3 +19,12 @@ assertions:
   note: The recording in the CON mirror of the talk's video.
   confidence: certain
   captured: '2026-11-06'
+- path: /attributed_to/0/roles/1
+  value: marcrel:spk
+  kind: recollection
+  source: Yaroslav Halchenko, 2026-11-10
+  note: Asked who presented the talk, Yaroslav Halchenko answered that Isaac To did.
+  confidence: approximate
+  would_confirm: the recording
+  witness: xyzrins:persons/yaroslav-halchenko
+  captured: '2026-11-10'

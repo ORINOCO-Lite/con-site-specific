@@ -4,14 +4,14 @@ attributes:
   value: https://github.com/con/annextube
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
-  value: con/annextube
+  value: annextube
 description: YouTube-channel archiving system that uses git-annex for efficient, incremental
   storage of video and metadata.
-display_label: con/annextube
+display_label: annextube
 generated_by:
-- object: xyzrins:projects/con-annextube
+- object: xyzrins:projects/annextube
   schema_type: dlthings:Generation
 kind: obo:IAO_0000010
-name: con/annextube
+name: annextube
 pid: xyzrins:instruments/annextube
 schema_type: xyzri:XYZInstrument

@@ -13,12 +13,11 @@ attributes:
   value: Collaborators
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: A principal investigator of <a href="/projects#nwb_">NWB</a> who co-led the
+  value: A principal investigator of <a href="xyzrins:projects/nwb">NWB</a> who co-led the
     development of NWB 2.0 and of its software, <a href="https://github.com/NeurodataWithoutBorders/pynwb">PyNWB</a>
     and <a href="https://github.com/hdmf-dev/hdmf">HDMF</a>.
-description: Staff Scientist at Lawrence Berkeley National Laboratory. A principal
-  investigator of NWB who co-led the development of NWB 2.0 and its software, PyNWB
-  and HDMF.
+description: A principal investigator of NWB who co-led the development of NWB 2.0 and of
+  its software, PyNWB and HDMF.
 family_name: Rübel
 given_name: Oliver
 identifiers:

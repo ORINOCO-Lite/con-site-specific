@@ -1,0 +1,21 @@
+record: xyzrins:publications/talk-2018-ohbm-computational-basis
+format: con-association-evidence-v1
+assertions:
+- path: /generated_by/0/at_time
+  value: '2018-06-17'
+  bound: exact
+  kind: publication
+  source: https://www.humanbrainmapping.org/files/2018/2018%20Singapore%20Program_FINAL.pdf
+  locator: 'Hands on reproducible brain imaging, Course Schedule, 10:15 – 11:45'
+  quote: 'Computational basis'
+  note: 'The program dates the course Sunday, June 17, and gives this session to Yaroslav Halchenko and Michael Hanke.  A slide in the recording names the course, as Yaroslav Halchenko pointed out on 2026-11-10; the session is the one of the course he gave.'
+  confidence: certain
+  captured: '2026-11-10'
+- path: /attributes/1/value
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/2Qm4krjaSfM
+  kind: registry
+  source: https://datasets.datalad.org/centerforopenneuroscience/contube/videos/videos.tsv
+  locator: video_id 2Qm4krjaSfM
+  note: The recording in the CON mirror of the talk's video.
+  confidence: certain
+  captured: '2026-11-06'

@@ -1,8 +1,4 @@
 attributes:
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Emeritus member of the Center for Open Neuroscience. Affiliated with INM-7, Research
-    Centre Jülich. DataLad project contributor.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Benjamin Poldrack
@@ -29,7 +25,7 @@ attributes:
   value: Emeritus Collaborators
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: Worked on the <a href="/projects#datalad_">DataLad</a> project and the magician
+  value: Worked on the <a href="xyzrins:projects/datalad">DataLad</a> project and the magician
     behind OHBM 2020 Booth Design.
 - predicate: foaf:account
   schema_type: dlthings:AttributeSpecification
@@ -39,8 +35,7 @@ delegated_by:
   roles:
   - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
   schema_type: dlthings:Delegation
-description: Emeritus member of the Center for Open Neuroscience. Affiliated with INM-7,
-  Research Centre Jülich. DataLad project contributor.
+description: Worked on the DataLad project and the magician behind OHBM 2020 Booth Design.
 display_label: Benjamin Poldrack
 family_name: Poldrack
 formatted_name: Benjamin Poldrack

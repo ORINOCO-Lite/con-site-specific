@@ -1,8 +1,4 @@
 attributes:
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Emeritus member of the Center for Open Neuroscience. Research Software Engineer
-    at Stanford University. Singularity Hub developer.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Vanessa Sochat
@@ -17,7 +13,7 @@ attributes:
   value: Vanessa
 - predicate: dlthings:position
   schema_type: dlthings:AttributeSpecification
-  value: Stanford University Research Computing Center, Stanford CA
+  value: Lawrence Livermore National Laboratory, Livermore CA
 - predicate: dlthings:github
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/vsoch
@@ -35,11 +31,13 @@ attributes:
   value: Emeritus Collaborators
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: Research Software Engineer in the Stanford Research Computing Center. Likes programming,
+  value: <a href="https://www.linkedin.com/in/vsochat/">Principal Computer Scientist</a>
+    at <a href="https://www.llnl.gov/">Lawrence Livermore National Laboratory</a>, formerly
+    a Research Software Engineer in the Stanford Research Computing Center. Likes programming,
     containers, avocados, and open-source development. Developer of Singularity Hub and
     other <a href="https://github.com/singularityhub" target="_blank">related tools</a>
     for Singularity containers. See a <a href="https://vsoch.github.io/work" target="_blank">list</a>
-    of work or recent ideas on <a href="https://vsoch.github.io" target="_blank>">her
+    of work or recent ideas on <a href="https://vsoch.github.io" target="_blank">her
     personal site</a>.
 - predicate: foaf:weblog
   schema_type: dlthings:AttributeSpecification
@@ -49,8 +47,11 @@ delegated_by:
   roles:
   - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
   schema_type: dlthings:Delegation
-description: Emeritus member of the Center for Open Neuroscience. Research Software Engineer
-  at Stanford University. Singularity Hub developer.
+description: Principal Computer Scientist at Lawrence Livermore National Laboratory, formerly
+  a Research Software Engineer in the Stanford Research Computing Center. Likes programming,
+  containers, avocados, and open-source development. Developer of Singularity Hub and other
+  related tools for Singularity containers. See a list of work or recent ideas on her personal
+  site.
 display_label: Vanessa Sochat
 family_name: Sochat
 formatted_name: Vanessa Sochat

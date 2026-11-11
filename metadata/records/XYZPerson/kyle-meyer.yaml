@@ -2,10 +2,6 @@ attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
   value: kyle@kyleam.com
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Emeritus member of the Center for Open Neuroscience. ReproMan and DataLad contributor.
-    Git expert and Magit authority.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Kyle Meyer
@@ -32,7 +28,7 @@ attributes:
   value: Emeritus
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: Worked on the <a href="/projects#reproman_">ReproMan</a> and <a href="/projects#datalad_">DataLad</a>
+  value: Worked on the <a href="xyzrins:projects/reproman">ReproMan</a> and <a href="xyzrins:projects/datalad">DataLad</a>
     projects. Kyle was our guide through the Git intricacies and best practices, and the
     magit guru. See e.g. <a href="https://www.youtube.com/watch?v=1Jp_EdRf4rs">his presentation
     "A Tour of Magit" at the Distribits 2024 event</a>.
@@ -41,8 +37,9 @@ delegated_by:
   roles:
   - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
   schema_type: dlthings:Delegation
-description: Emeritus member of the Center for Open Neuroscience. ReproMan and DataLad
-  contributor. Git expert and Magit authority.
+description: Worked on the ReproMan and DataLad projects. Kyle was our guide through the Git
+  intricacies and best practices, and the magit guru. See e.g. his presentation "A Tour of
+  Magit" at the Distribits 2024 event.
 display_label: Kyle Meyer
 family_name: Meyer
 formatted_name: Kyle Meyer

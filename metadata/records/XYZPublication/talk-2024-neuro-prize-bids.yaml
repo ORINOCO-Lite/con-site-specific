@@ -10,7 +10,7 @@ attributed_to:
 attributes:
 - predicate: bibo:presentedAt
   schema_type: dlthings:AttributeSpecification
-  value: 'The Neuro – Irv and Helga Cooper Foundation International Prize'
+  value: 'Open Science in Action Symposium, The Neuro, Montreal'
 - predicate: schema:video
   schema_type: dlthings:AttributeSpecification
   value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/6QoFWqfIZDU
@@ -20,9 +20,9 @@ attributes:
 characterized_by:
 - object: bibo:Slideshow
   predicate: dcterms:type
-description: 'Talk at The Neuro – Irv and Helga Cooper Foundation International Prize, 2024-04. Recording only, no slides at hand.'
+description: 'Talk at Open Science in Action Symposium, The Neuro, Montreal, 2023-11-30, where BIDS received The Neuro – Irv and Helga Cooper Foundation International Prize. Recording only, no slides at hand.'
 generated_by:
-- at_time: 2024-04
+- at_time: '2023-11-30'
   object: xyzrins:projects/bids
   schema_type: dlthings:Generation
 kind: bibo:Slideshow

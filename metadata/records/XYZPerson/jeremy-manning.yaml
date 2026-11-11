@@ -7,10 +7,6 @@ attributes:
 - predicate: dlthings:additional_names
   schema_type: dlthings:AttributeSpecification
   value: Rothman
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Associate Professor of Psychological and Brain Sciences at Dartmouth College.
-    Director of the Contextual Dynamics Lab.
 - predicate: skos:altLabel
   schema_type: dlthings:AttributeSpecification
   value: Jeremy R. Manning
@@ -49,8 +45,9 @@ attributes:
   value: Jeremy is an Associate Professor of Psychological and Brain Sciences at Dartmouth
     and directs the Contextual Dynamics Lab. He enjoys thinking about brains, non-brain
     brain-related things (e.g. zombies), computers, annoying-to-solve puzzles, and cats.
-description: Associate Professor of Psychological and Brain Sciences at Dartmouth College.
-  Director of the Contextual Dynamics Lab.
+description: Jeremy is an Associate Professor of Psychological and Brain Sciences at Dartmouth
+  and directs the Contextual Dynamics Lab. He enjoys thinking about brains, non-brain brain-related
+  things (e.g. zombies), computers, annoying-to-solve puzzles, and cats.
 display_label: Jeremy Rothman Manning
 family_name: Manning
 formatted_name: Jeremy Rothman Manning

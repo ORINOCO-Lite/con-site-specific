@@ -10,11 +10,11 @@ attributes:
   value: Collaborators
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: Develops the <a href="/projects#dandi_">DANDI</a> archive's web application
+  value: Develops the <a href="xyzrins:projects/dandi">DANDI</a> archive's web application
     and API, <a href="https://github.com/dandi/dandi-archive">dandi-archive</a>, at <a
     href="https://www.kitware.com">Kitware</a> -- some 600 commits since 2021.
-description: Technical leader at Kitware, developing the DANDI archive's web application
-  and API (dandi-archive) since 2021.
+description: Develops the DANDI archive's web application and API, dandi-archive, at Kitware
+  -- some 600 commits since 2021.
 family_name: Choudhury
 given_name: Roni
 identifiers:

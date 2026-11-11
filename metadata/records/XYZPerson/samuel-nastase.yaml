@@ -2,11 +2,6 @@ attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
   value: sam.nastase@gmail.com
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Emeritus member of the Center for Open Neuroscience. Formerly Dartmouth Ph.D.
-    student, now at Princeton. Cognitive Neuroscience Ph.D. PyMVPA user and NeuroDebian
-    exhibitor.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Samuel Nastase
@@ -21,16 +16,16 @@ attributes:
   value: Samuel
 - predicate: dlthings:position
   schema_type: dlthings:AttributeSpecification
-  value: Princeton, NJ
+  value: Assistant Professor of Psychology and Neuroscience, University of Southern California
 - predicate: vcard:hasEmail
   schema_type: dlthings:AttributeSpecification
   value: mailto:sam.nastase@gmail.com
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
-  value: http://haxbylab.dartmouth.edu/ppl/sam.html
+  value: https://snastase.github.io/
 - predicate: vcard:hasURL
   schema_type: dlthings:AttributeSpecification
-  value: http://haxbylab.dartmouth.edu/publications/Nastase_CV.pdf
+  value: https://snastase.github.io/cv/
 - predicate: dlthings:github
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/snastase
@@ -45,17 +40,18 @@ attributes:
   value: Emeritus
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: Formerly a Ph.D. student in Cognitive Neuroscience at Dartmouth. Avid <a href="/projects#pymvpa_">PyMVPA</a>
-    user and <a href="/projects#neurodebian_">NeuroDebian</a> exhibitor at recent SfN
-    and OHBM conferences.
+  value: Leads the <a href="https://shared-minds.github.io/">Shared Minds Lab</a> at the
+    University of Southern California. Formerly a Ph.D. student in Cognitive Neuroscience
+    at Dartmouth. Avid <a href="xyzrins:projects/pymvpa">PyMVPA</a> user and <a href="xyzrins:projects/neurodebian">NeuroDebian</a> exhibitor at SfN and
+    OHBM conferences of the 2010s decade.
 delegated_by:
 - object: ror:04tfhh831
   roles:
   - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
   schema_type: dlthings:Delegation
-description: Emeritus member of the Center for Open Neuroscience. Formerly Dartmouth Ph.D.
-  student, now at Princeton. Cognitive Neuroscience Ph.D. PyMVPA user and NeuroDebian
-  exhibitor.
+description: Leads the Shared Minds Lab at the University of Southern California. Formerly
+  a Ph.D. student in Cognitive Neuroscience at Dartmouth. Avid PyMVPA user and NeuroDebian
+  exhibitor at SfN and OHBM conferences of the 2010s decade.
 display_label: Samuel Nastase
 family_name: Nastase
 formatted_name: Samuel Nastase

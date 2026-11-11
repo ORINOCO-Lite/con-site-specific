@@ -2,10 +2,6 @@ attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
   value: matteo.visconti.gr@dartmouth.edu
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Emeritus member of the Center for Open Neuroscience. Formerly Dartmouth Ph.D.
-    student, now at UC Berkeley. Cognitive Neuroscience Ph.D. DueCredit co-developer.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Matteo Visconti di Oleggio Castello
@@ -46,15 +42,16 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Formerly a Ph.D. student in Cognitive Neuroscience at Dartmouth, holds a M.Sc.
     in Cognitive Science from the University of Trento, Italy and a degree in Mathematics
-    from the University of Torino, Italy. Co-developer of the <a href="/projects#duecredit_">DueCredit</a>
+    from the University of Torino, Italy. Co-developer of the <a href="xyzrins:projects/duecredit">DueCredit</a>
     project.
 delegated_by:
 - object: ror:04tfhh831
   roles:
   - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
   schema_type: dlthings:Delegation
-description: Emeritus member of the Center for Open Neuroscience. Formerly Dartmouth Ph.D.
-  student, now at UC Berkeley. Cognitive Neuroscience Ph.D. DueCredit co-developer.
+description: Formerly a Ph.D. student in Cognitive Neuroscience at Dartmouth, holds a M.Sc.
+  in Cognitive Science from the University of Trento, Italy and a degree in Mathematics from
+  the University of Torino, Italy. Co-developer of the DueCredit project.
 display_label: Matteo Visconti di Oleggio Castello
 family_name: Visconti di Oleggio Castello
 formatted_name: Matteo Visconti di Oleggio Castello

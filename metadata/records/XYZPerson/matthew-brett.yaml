@@ -2,11 +2,6 @@ attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
   value: matthew.brett@gmail.com
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Emeritus member of the Center for Open Neuroscience. Affiliated with University
-    of Birmingham. Neurologist and neuroimaging methods expert. Neuroimaging in Python
-    lead and NiPy/NiBabel developer.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Matthew Brett
@@ -21,7 +16,7 @@ attributes:
   value: Matthew
 - predicate: dlthings:position
   schema_type: dlthings:AttributeSpecification
-  value: "University of\n\t\tBirmingham, UK"
+  value: University of Birmingham, UK
 - predicate: vcard:hasEmail
   schema_type: dlthings:AttributeSpecification
   value: mailto:matthew.brett@gmail.com
@@ -53,9 +48,10 @@ delegated_by:
   roles:
   - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
   schema_type: dlthings:Delegation
-description: Emeritus member of the Center for Open Neuroscience. Affiliated with University
-  of Birmingham. Neurologist and neuroimaging methods expert. Neuroimaging in Python lead
-  and NiPy/NiBabel developer.
+description: Neurologist, neuroimaging methods guru, early proponent of reproducible practice
+  and in-depth understanding of the used analysis methodologies, lead of Neuroimaging in Python
+  community and some of its popular software (NiPy and NiBabel) projects and infrastructural
+  solutions, such as Nibotmi which we are contributing to.
 display_label: Matthew Brett
 family_name: Brett
 formatted_name: Matthew Brett

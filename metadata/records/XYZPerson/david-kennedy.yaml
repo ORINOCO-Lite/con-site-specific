@@ -7,10 +7,6 @@ attributes:
 - predicate: dlthings:additional_names
   schema_type: dlthings:AttributeSpecification
   value: N.
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Collaborator at the Center for Open Neuroscience. Affiliated with UMass Chan
-    Medical School. The master-mind of the ReproNim project.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: David N. Kennedy
@@ -47,8 +43,7 @@ attributes:
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
   value: The master-mind of the <a href="https://www.repronim.org/">ReproNim</a> project.
-description: Collaborator at the Center for Open Neuroscience. Affiliated with UMass Chan
-  Medical School. The master-mind of the ReproNim project.
+description: The master-mind of the ReproNim project.
 display_label: David N. Kennedy
 family_name: Kennedy
 formatted_name: David N. Kennedy
