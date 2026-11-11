@@ -10,19 +10,19 @@ attributed_to:
 attributes:
 - predicate: bibo:presentedAt
   schema_type: dlthings:AttributeSpecification
-  value: 'OHBM 2018 training course (ReproNim), Singapore'
+  value: 'OHBM 2018 Educational Course: Hands on reproducible brain imaging, Singapore'
 - predicate: schema:video
   schema_type: dlthings:AttributeSpecification
   value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/2Qm4krjaSfM
 characterized_by:
 - object: bibo:Slideshow
   predicate: dcterms:type
-description: 'Talk at OHBM 2018 training course (ReproNim), Singapore, 2018-06. Recording only, no slides at hand.'
+description: 'Talk at OHBM 2018 Educational Course: Hands on reproducible brain imaging, Singapore, 2018-06-17. Recording only, no slides at hand.'
 generated_by:
-- at_time: 2018-06
+- at_time: '2018-06-17'
   object: xyzrins:projects/repronim
   schema_type: dlthings:Generation
 kind: bibo:Slideshow
-pid: xyzrins:publications/talk-2018-ohbm-debian-git-datalad
+pid: xyzrins:publications/talk-2018-ohbm-computational-basis
 schema_type: xyzri:XYZPublication
-title: '(Neuro)Debian/Git/GitAnnex/DataLad: Distributions and Version Control'
+title: 'Computational basis'
