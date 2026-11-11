@@ -18,11 +18,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://dandiarchive.org
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Platform for publishing, sharing, and processing neurophysiology data supported
-    by the BRAIN Initiative. Provides data upload and distribution with supplementary
-    client tools for data introspection and organization. Compliant with NWB standards.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: DANDI
@@ -39,7 +34,7 @@ attributes:
     neurophysiology data funded by the <a href="https://braininitiative.nih.gov/">BRAIN
     Initiative</a>. The platform is now available for data upload and distribution, and
     provides supplementary client tools to assist with introspection and organization
-    of data following <a href="#nwb">NWB standard</a>. </p>
+    of data following <a href="xyzrins:projects/nwb">NWB standard</a>. </p>
 - predicate: dlthings:section
   schema_type: dlthings:AttributeSpecification
   value: Software
@@ -49,9 +44,10 @@ attributes:
 - predicate: dlthings:logo_style
   schema_type: dlthings:AttributeSpecification
   value: width:155px;padding-right:5px;margin-top:0em;
-description: Platform for publishing, sharing, and processing neurophysiology data supported
-  by the BRAIN Initiative. Provides data upload and distribution with supplementary client
-  tools for data introspection and organization. Compliant with NWB standards.
+description: Distributed Archives for Neurophysiology Data Integration (DANDI) is a platform
+  for publishing, sharing, and processing neurophysiology data funded by the BRAIN Initiative.
+  The platform is now available for data upload and distribution, and provides supplementary
+  client tools to assist with introspection and organization of data following NWB standard.
 display_label: DANDI
 influenced_by:
 - object: xyzrins:grants/nih-dandi

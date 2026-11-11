@@ -31,10 +31,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://www.nwb.org/
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: A data standard providing neuroscientists with a common standard to share, archive,
-    use, and build analysis tools for neurophysiology data.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: NWB
@@ -48,10 +44,11 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: '<p> <a href="https://www.nwb.org/">NWB</a> is a data standard for neurophysiology,
     providing neuroscientists with a common standard to share, archive, use, and build
-    analysis tools for neurophysiology data. It is a standard supported by <a href="#bids">BIDS</a>
-    and the <a href="#dandi">DANDI archive</a>. </p> <ul> <li> <a href="https://github.com/con/nwb2bids">con/nwb2bids</a>:
-    a CON tool to reorganize NWB files into a BIDS directory layout, enabling NWB-format
-    datasets to be shared and validated using BIDS conventions. </li> </ul>'
+    analysis tools for neurophysiology data. It is a standard supported by <a href="xyzrins:projects/bids">BIDS</a>
+    and the <a href="xyzrins:projects/dandi">DANDI archive</a>. </p> <ul> <li> <a
+    href="https://github.com/con/nwb2bids">con/nwb2bids</a>: a CON tool to reorganize
+    NWB files into a BIDS directory layout, enabling NWB-format datasets to be shared
+    and validated using BIDS conventions. </li> </ul>'
 - predicate: dlthings:section
   schema_type: dlthings:AttributeSpecification
   value: Standards
@@ -61,8 +58,9 @@ attributes:
 - predicate: dlthings:logo_style
   schema_type: dlthings:AttributeSpecification
   value: width:255px;padding-right:10px;margin-top:0em;
-description: A data standard providing neuroscientists with a common standard to share,
-  archive, use, and build analysis tools for neurophysiology data.
+description: NWB is a data standard for neurophysiology, providing neuroscientists with a
+  common standard to share, archive, use, and build analysis tools for neurophysiology data.
+  It is a standard supported by BIDS and the DANDI archive.
 display_label: NWB
 influenced_by:
 - object: xyzrins:objectives/cross-standards-harmonization

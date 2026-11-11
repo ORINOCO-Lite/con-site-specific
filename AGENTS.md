@@ -22,7 +22,7 @@ In a hand-written record, put each fact in one place:
 - Leave out a `display_label` that repeats `title`; every consumer reads `display_label or title`.
 - Leave out `display_label` and `formatted_name` on a person when `given_name` and `family_name` already compose the name.
 - Keep `description` (plain text) and, where links help, the `dlthings:description_html` attribute.
-  For a person, write only the HTML: `description` is its lead as plain text, so run `tools/sync_descriptions.py` after editing it, and `validate_records.py` fails if the two differ.
+  For a person or a project, write only the HTML: `description` is its lead as plain text, so run `tools/sync_descriptions.py` after editing it, and `validate_records.py` fails if the two differ.
   Both sites render the HTML where there is one.
 - Link to another record by its pid, `<a href="xyzrins:projects/datalad">`, not by a URL of either site; each site resolves it, and `validate_records.py` checks that the record exists.
 

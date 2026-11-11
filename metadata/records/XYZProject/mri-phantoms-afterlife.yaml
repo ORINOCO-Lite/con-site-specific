@@ -15,12 +15,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/dbic/QA
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Scanner QA data is acquired to watch the scanner, and then it is filed away.
-    This asks what else it is good for -- whether the variance in routine phantom
-    scans explains variance in the human data acquired around them, which would make
-    years of accumulated QA scans a covariate rather than a formality.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: MRI Phantoms Afterlife
@@ -42,10 +36,11 @@ attributes:
 - predicate: dlthings:section
   schema_type: dlthings:AttributeSpecification
   value: Initiatives
-description: Scanner QA data is acquired to watch the scanner, and then it is filed
-  away. This asks what else it is good for -- whether the variance in routine phantom
-  scans explains variance in the human data acquired around them, which would make
-  years of accumulated QA scans a covariate rather than a formality.
+description: Scanner QA data is acquired to watch the scanner, and then it is filed away.
+  This asks what else it is good for -- whether the variance in routine phantom scans explains
+  variance in the human data acquired around them, which would make years of accumulated QA
+  scans a covariate rather than a formality. It runs on dbic/QA, the phantom, human and LEGO
+  scans collected at DBIC.
 influenced_by:
 - object: xyzrins:objectives/87be5fa3-80fb-4221-8406-2ddd40fb1fd1
   roles:

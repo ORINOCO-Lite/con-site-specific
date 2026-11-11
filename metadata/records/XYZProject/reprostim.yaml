@@ -21,12 +21,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://reprostim.readthedocs.io/en/latest/
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Automated capture of the audio-visual stimuli actually presented during an
-    experiment, into BIDS datasets -- so what the participant saw and heard is recorded
-    rather than inferred from the script that was supposed to show it. ReproFlow is
-    the setup around it, from the screen and the event relay through to the dataset.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: ReproStim
@@ -54,10 +48,10 @@ attributes:
 - predicate: dlthings:section
   schema_type: dlthings:AttributeSpecification
   value: Software
-description: Automated capture of the audio-visual stimuli actually presented during
-  an experiment, into BIDS datasets -- so what the participant saw and heard is recorded
-  rather than inferred from the script that was supposed to show it. ReproFlow is the
-  setup around it, from the screen and the event relay through to the dataset.
+description: ReproStim captures the audio-visual stimuli actually presented during an experiment,
+  into BIDS datasets -- so what the participant saw and heard is recorded rather than inferred
+  from the script that was supposed to show it. ReproFlow is the setup around it, from the
+  screen and the event relay through to the dataset.
 influenced_by:
 - object: xyzrins:objectives/97ded4aa-108d-4b84-8195-d6076dce63ce
   roles:

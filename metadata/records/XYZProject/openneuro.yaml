@@ -15,11 +15,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://openneuro.org
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: One of the oldest and most well-known BRAIN Initiative archives for neuroimaging
-    data. Uses git-annex as core technology, inspired by early DataLad crawling efforts.
-    Successor to OpenfMRI.org.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: OpenNeuro
@@ -48,9 +43,11 @@ attributes:
 - predicate: dlthings:logo_style
   schema_type: dlthings:AttributeSpecification
   value: width:155px;padding-right:5px;margin-top:0em;
-description: One of the oldest and most well-known BRAIN Initiative archives for neuroimaging
-  data. Uses git-annex as core technology, inspired by early DataLad crawling efforts.
-  Successor to OpenfMRI.org.
+description: OpenNeuro is likely the oldest and the most well known BRAIN Initiative archive
+  for neuroimaging data. One of the exciting features of the project is that being inspired
+  by our early DataLad crawling of its OpenfMRI.org precursor, it is now using git-annex directly
+  as its core technology. CON is contributing in ensuring availability of recent versions
+  of git-annex and DataLad, involved standardization efforts, and inter-archive collaborations.
 influenced_by:
 - object: xyzrins:grants/nih-openneuro
   roles:

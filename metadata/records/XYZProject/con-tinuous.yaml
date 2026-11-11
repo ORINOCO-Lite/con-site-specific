@@ -17,11 +17,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/con/tinuous
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Command for downloading build logs, artifacts, and release assets for a GitHub
-    repository. Supports GitHub Actions, Travis-CI.com, and Appveyor with optional DataLad
-    control for backup and distribution.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: con/tinuous
@@ -36,18 +31,19 @@ attributes:
   value: <p> <a href="https://github.com/con/tinuous">con/tinuous</a> is a command for
     downloading build logs and (for GitHub only) artifacts and release assets for a GitHub
     repository from GitHub Actions, Travis-CI.com, and/or Appveyor. By downloading them
-    all, and optionally placing them under <a href="#datalad">DataLad</a> control you
-    can establish the backup, distribution, and convenient harmonious access to all those
-    artifacts. </p>
+    all, and optionally placing them under <a href="xyzrins:projects/datalad">DataLad</a>
+    control you can establish the backup, distribution, and convenient harmonious access
+    to all those artifacts. </p>
 - predicate: dlthings:section
   schema_type: dlthings:AttributeSpecification
   value: Software
 - predicate: dlthings:anchor
   schema_type: dlthings:AttributeSpecification
   value: tinuous
-description: Command for downloading build logs, artifacts, and release assets for a GitHub
-  repository. Supports GitHub Actions, Travis-CI.com, and Appveyor with optional DataLad
-  control for backup and distribution.
+description: con/tinuous is a command for downloading build logs and (for GitHub only) artifacts
+  and release assets for a GitHub repository from GitHub Actions, Travis-CI.com, and/or Appveyor.
+  By downloading them all, and optionally placing them under DataLad control you can establish
+  the backup, distribution, and convenient harmonious access to all those artifacts.
 influenced_by:
 - object: xyzrins:objectives/scalable-neural-archiving
   roles:

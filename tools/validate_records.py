@@ -262,7 +262,7 @@ def label_problems(doc):
 # and gained facts the page never showed.  For these classes the HTML is
 # written and the plain text is derived from it -- its lead, since the lists
 # that follow (papers, talks) read as a run-on sentence once the markup goes.
-DERIVED_DESCRIPTION = {"xyzri:XYZPerson"}
+DERIVED_DESCRIPTION = {"xyzri:XYZPerson", "xyzri:XYZProject"}
 BLOCK = re.compile(r"<(?:ul|ol|div|figure|blockquote|table|p)\b", re.I)
 PID_LINK = re.compile(r'href="(xyzrins:[^"]*)"')
 

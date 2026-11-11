@@ -7,10 +7,6 @@ assertions:
   path: /attributes
   pav:importedBy: xyzrins:source-adapters/dump-research-info/v2
   pav:importedFrom: https://github.com/con/dump-research-info/blob/main/data/con_site/XYZProject.json#record=xyzrins%3Aprojects%2Fduecredit
-- assertion_sha256: sha256:bd1be6c0f2453f7ac8d722c52b8a49ef1db3e53c798a6c17154d8abb713a1095
-  path: /attributes
-  pav:importedBy: xyzrins:source-adapters/dump-research-info/v2
-  pav:importedFrom: https://github.com/con/dump-research-info/blob/main/data/con_site/XYZProject.json#record=xyzrins%3Aprojects%2Fduecredit
 - assertion_sha256: sha256:de8074c000a334835ca2b36cafb4b2e6412c8c4fed2975e17489a2e48e564c72
   path: /attributes
   pav:importedBy: xyzrins:source-adapters/dump-research-info/v2

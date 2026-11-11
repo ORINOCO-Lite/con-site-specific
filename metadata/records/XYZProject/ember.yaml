@@ -19,11 +19,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://emberarchive.org
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: BRAIN Initiative archive for multi-modal neurophysiological and behavioral data,
-    supporting the Brain Behavior Quantification and Synchronization Program. Being developed
-    based on DANDI.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: EMBER
@@ -64,9 +59,11 @@ attributes:
 - predicate: dlthings:logo_style
   schema_type: dlthings:AttributeSpecification
   value: width:155px;padding-left:5px;margin-top:0em;
-description: BRAIN Initiative archive for multi-modal neurophysiological and behavioral
-  data, supporting the Brain Behavior Quantification and Synchronization Program. Being
-  developed based on DANDI.
+description: Ecosystem for Multi-modal Brain-behavior Experimentation and Research (EMBER)
+  is the BRAIN Initiative archive for multi-modal neurophysiological and behavioral data,
+  supporting the Brain Behavior Quantification and Synchronization (BBQS) Program. The platform
+  is being kick-started based on DANDI to provide data upload and distribution. CON is working
+  on integration with DANDI and involved standards.
 display_label: EMBER
 influenced_by:
 - object: xyzrins:grants/nih-ember

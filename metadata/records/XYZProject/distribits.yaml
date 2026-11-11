@@ -34,10 +34,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://www.distribits.live/
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Community for enthusiasts of tools and workflows in the domain of distributed
-    data.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: distribits
@@ -60,8 +56,9 @@ attributes:
 - predicate: dlthings:logo_style
   schema_type: dlthings:AttributeSpecification
   value: width:155px;padding-right:5px;margin-top:0em;
-description: Community for enthusiasts of tools and workflows in the domain of distributed
-  data.
+description: distribits is a community for enthusiasts of tools and workflows in the domain
+  of distributed data. Take a look at the topics of past meeting contributions, and YouTube
+  videos from distribits 2024 to learn what is being talked about at distribits.
 influenced_by:
 - object: xyzrins:objectives/cross-standards-harmonization
   roles:

@@ -17,11 +17,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://neuro.debian.net
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Turnkey research software platform for all aspects of the neuroscientific research
-    process. Provides a comprehensive suite of readily usable and fully integrated software
-    with robust testing and deployment infrastructure.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: NeuroDebian
@@ -55,9 +50,15 @@ attributes:
 - predicate: dlthings:logo_style
   schema_type: dlthings:AttributeSpecification
   value: padding-left:10px;margin-top:-2em;
-description: Turnkey research software platform for all aspects of the neuroscientific
-  research process. Provides a comprehensive suite of readily usable and fully integrated
-  software with robust testing and deployment infrastructure.
+description: NeuroDebian is a turnkey research software platform for all aspects of the neuroscientific
+  research process. It takes the ideas of the software hosting portals such as NITRC on maximizing
+  research transparency and methods sharing, one step further, by providing a comprehensive
+  suite of readily usable and fully integrated software with a robust testing and deployment
+  infrastructure. Consequently, it improves interoperability among the tools and frees researchers
+  from the burden of tedious installation or upgrade procedures. That, in turn, positively
+  affects their availability for actual research activities, as well as their motivation to
+  test new analysis tools and stay connected with the latest methodological developments in
+  the field.
 influenced_by:
 - object: xyzrins:objectives/self-hosted-it
   roles:

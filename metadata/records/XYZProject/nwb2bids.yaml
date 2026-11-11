@@ -27,10 +27,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://nwb2bids.readthedocs.io/
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Reorganizes NWB files into a BIDS directory layout, so a dandiset can be
-    read by the tooling that expects BIDS without being converted twice.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: con/nwb2bids
@@ -45,14 +41,14 @@ attributes:
   value: https://github.com/con/nwb2bids
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: '<p> <a href="https://nwb2bids.readthedocs.io/">con/nwb2bids</a> reorganizes
-    <a href="/projects#nwb_">NWB</a> files
-    into a <a href="/projects#brain_imaging_data_structure_bids_">BIDS</a> directory
-    layout, so a dandiset can be read by the tooling that expects BIDS without being
-    converted twice. It is what produces <a href="https://github.com/bids-dandisets">bids-dandisets</a>,
-    the GitHub organization holding individual DANDI dandisets in BIDS form. </p>'
-description: Reorganizes NWB files into a BIDS directory layout, so a dandiset can
-  be read by the tooling that expects BIDS without being converted twice.
+  value: <p> <a href="https://nwb2bids.readthedocs.io/">con/nwb2bids</a> reorganizes <a
+    href="xyzrins:projects/nwb">NWB</a> files into a <a href="xyzrins:projects/bids">BIDS</a>
+    directory layout, so a dandiset can be read by the tooling that expects BIDS without
+    being converted twice. It is what produces <a href="https://github.com/bids-dandisets">bids-dandisets</a>,
+    the GitHub organization holding individual DANDI dandisets in BIDS form. </p>
+description: con/nwb2bids reorganizes NWB files into a BIDS directory layout, so a dandiset
+  can be read by the tooling that expects BIDS without being converted twice. It is what produces
+  bids-dandisets, the GitHub organization holding individual DANDI dandisets in BIDS form.
 influenced_by:
 - object: xyzrins:objectives/cross-standards-harmonization
   roles:

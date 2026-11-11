@@ -39,9 +39,14 @@ title: "{{ title }}"
 {{ taxonomy_terms('persons', 'xyzri:XYZPerson', associated_with) -}}
 {{ taxonomy_terms('instruments', 'xyzri:XYZInstrument', generated, typeattr='schema_type', pidattr='pid') -}}
 {% endblock -%}
+{#- the written description; `description` is derived from it (validate_records.py) -#}
+{%- set description_html = (attributes|default([])|selectattr('predicate', 'eq', 'dlthings:description_html')|map(attribute='value')|first) %}
 params:
   graphRootNodePID: {{ pid }}
   conContribution: {{ 'true' if con_contributions else 'false' }}
+{% if description_html %}
+  description_html: {{ description_html|tojson }}
+{% endif %}
   parentProjects:
 {% for parent in part_of|default([]) %}
   - {{ parent.pid }}
@@ -49,7 +54,8 @@ params:
 ---
 
 {% block content -%}
-{{ description }}
+{#- term.html shows description_html where there is one -#}
+{% if not description_html %}{{ description }}{% endif %}
 
 {% if part_of %}## Part of
 {% for item in part_of -%}

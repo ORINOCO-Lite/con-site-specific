@@ -11,11 +11,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://github.com/con/duct
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Lightweight wrapper that collects execution data for an arbitrary command including
-    execution time, system information, and resource usage statistics. Particularly suited
-    for HPC environments.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: con/duct
@@ -32,7 +27,7 @@ attributes:
     execution time, system information, and resource usage statistics of the command and
     all its child processes. duct is intended to simplify the problem of recording the
     resources necessary to execute a command, particularly in an HPC environment. Additionally
-    duct includes optional helpers that interact with logs produced by duct exectutions.
+    duct includes optional helpers that interact with logs produced by duct executions.
     </p>
 - predicate: dlthings:section
   schema_type: dlthings:AttributeSpecification
@@ -40,9 +35,12 @@ attributes:
 - predicate: dlthings:logo_style
   schema_type: dlthings:AttributeSpecification
   value: width:255px;padding-right:10px;margin-top:0em;
-description: Lightweight wrapper that collects execution data for an arbitrary command
-  including execution time, system information, and resource usage statistics. Particularly
-  suited for HPC environments.
+description: con/duct (or just duct) is a lightweight wrapper that collects execution data
+  for an arbitrary command. Execution data includes execution time, system information, and
+  resource usage statistics of the command and all its child processes. duct is intended to
+  simplify the problem of recording the resources necessary to execute a command, particularly
+  in an HPC environment. Additionally duct includes optional helpers that interact with logs
+  produced by duct executions.
 influenced_by:
 - object: xyzrins:objectives/97ded4aa-108d-4b84-8195-d6076dce63ce
   roles:

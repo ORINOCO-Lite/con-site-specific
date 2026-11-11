@@ -3,10 +3,6 @@ assertions:
   path: /associated_with
   pav:importedBy: xyzrins:source-adapters/dump-research-info/v2
   pav:importedFrom: https://github.com/con/dump-research-info/blob/main/data/con_site/XYZProject.json#record=xyzrins%3Aprojects%2Fember
-- assertion_sha256: sha256:0eff9ff17756e669a36abac62e13a9806846e59b7bfac328ad9acbd2dc2db64b
-  path: /attributes
-  pav:importedBy: xyzrins:source-adapters/dump-research-info/v2
-  pav:importedFrom: https://github.com/con/dump-research-info/blob/main/data/con_site/XYZProject.json#record=xyzrins%3Aprojects%2Fember
 - assertion_sha256: sha256:48022030e60b92133346b1de56e4831774bb62261623f5cdbf8383dfb5a17e40
   path: /attributes
   pav:importedBy: xyzrins:source-adapters/dump-research-info/v2

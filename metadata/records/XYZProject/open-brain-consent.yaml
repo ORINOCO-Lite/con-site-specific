@@ -36,11 +36,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://open-brain-consent.readthedocs.io/
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Aims to facilitate neuroimaging data sharing by providing an out-of-the-box solution
-    including consent forms enabling anonymized data deposition and anonymization tools/pipelines.
-    An international effort with GDPR compliance materials.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Open Brain Consent
@@ -52,25 +47,25 @@ attributes:
   value: Open Brain Consent
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: <p> <a href="http://open-brain-consent.readthedocs.org">Open Brain Consent</a>
+  value: '<p> <a href="http://open-brain-consent.readthedocs.org">Open Brain Consent</a>
     initiative aims to facilitate neuroimaging data sharing by providing an "out of the
-    box" solution addressing aforementioned human subjects concerns and consisting of
-    </p> <ul> <li>widely acceptable consent form allowing deposition of anonymized data
-    to public data archives</li> <li>collection of tools/pipelines to help anonymization
-    of neuroimaging data making it ready for sharing</li> </ul> <p>Initiated and managed
-    by CON, OBC is now an international effort with materials for GDPR compliance and
-    multiple internationalization efforts to make sure materials are available in all
-    applicable languages. <a href="https://github.com/con/open-brain-consent/blob/master/CONTRIBUTING.rst">Contribute</a>
-    if you see your language is missing!</p>
+    box" solution addressing human subjects concerns: a widely acceptable consent form
+    allowing deposition of anonymized data to public data archives, and a collection
+    of tools/pipelines to help anonymization of neuroimaging data making it ready for
+    sharing. </p> <p>Initiated and managed by CON, OBC is now an international effort
+    with materials for GDPR compliance and multiple internationalization efforts to make
+    sure materials are available in all applicable languages. <a href="https://github.com/con/open-brain-consent/blob/master/CONTRIBUTING.rst">Contribute</a>
+    if you see your language is missing!</p>'
 - predicate: dlthings:section
   schema_type: dlthings:AttributeSpecification
   value: Initiatives
 - predicate: dlthings:logo_style
   schema_type: dlthings:AttributeSpecification
   value: width:155px;padding-left:5px;margin-top:0em;
-description: Aims to facilitate neuroimaging data sharing by providing an out-of-the-box
-  solution including consent forms enabling anonymized data deposition and anonymization
-  tools/pipelines. An international effort with GDPR compliance materials.
+description: 'Open Brain Consent initiative aims to facilitate neuroimaging data sharing by
+  providing an "out of the box" solution addressing human subjects concerns: a widely acceptable
+  consent form allowing deposition of anonymized data to public data archives, and a collection
+  of tools/pipelines to help anonymization of neuroimaging data making it ready for sharing.'
 influenced_by:
 - object: xyzrins:objectives/87be5fa3-80fb-4221-8406-2ddd40fb1fd1
   roles:

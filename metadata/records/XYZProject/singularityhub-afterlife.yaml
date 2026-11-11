@@ -26,8 +26,8 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Infrastructure
 description: To provide archival and uninterrupted access to over 9TBs of singularity-hub.org
-  Singularity containers, CON established the ///shub DataLad dataset and a service to
-  serve the shub:// URLs.
+  Singularity containers, we have established ///shub DataLad dataset and a service to serve
+  all the shub:// URLs.
 influenced_by:
 - object: xyzrins:objectives/scalable-neural-archiving
   roles:

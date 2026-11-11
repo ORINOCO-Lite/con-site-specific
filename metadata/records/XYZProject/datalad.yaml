@@ -54,11 +54,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://datalad.org
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: A data management platform that adapts open-source software distribution models
-    to address data-sharing limitations. Provides a versatile data management platform
-    using git-annex for large data tracking built on Git.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: DataLad
@@ -93,9 +88,16 @@ attributes:
 - predicate: dlthings:logo_style
   schema_type: dlthings:AttributeSpecification
   value: width:255px;padding-left:5px;margin-top:-2em;
-description: A data management platform that adapts open-source software distribution
-  models to address data-sharing limitations. Provides a versatile data management platform
-  using git-annex for large data tracking built on Git.
+description: DataLad is ongoing work funded by NSF and German BMBF, to adapt the model of
+  open-source software (OSS) distributions to address the technical limitations of today's
+  data-sharing and provides a versatile data management platform. It uses software for data
+  tracking and deployment logistics specialized for large data (git-annex) built atop Git,
+  the most capable distributed version control system (dVCS) available today. DataLad provides
+  access to data available from various sources (e.g. lab or consortium web-sites such as
+  humanconnectome.org; data sharing portals such as openneuro.org and crcns.org) through a
+  single interface. It enables students and scientists to operate on data using familiar concepts,
+  such as files and directories, while transparently managing data access and authorization
+  with underlying hosting providers.
 influenced_by:
 - object: xyzrins:grants/nsf-1912266
   roles:

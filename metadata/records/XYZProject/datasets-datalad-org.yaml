@@ -11,11 +11,6 @@ attributes:
 - predicate: foaf:homepage
   schema_type: dlthings:AttributeSpecification
   value: https://datasets.datalad.org
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: The original DataLad distribution, providing access to a wide collection of
-    data from various initiatives and hosting some datasets directly. Arguably one of
-    the largest hierarchies of nested git repositories.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: datasets.datalad.org
@@ -27,21 +22,23 @@ attributes:
   value: datasets.datalad.org
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: '<p> <a href="https://datasets.datalad.org">datasets.datalad.org</a> is the
-    instance of the original <a href="#datalad">DataLad</a> distribution. It provides
+  value: <p> <a href="https://datasets.datalad.org">datasets.datalad.org</a> is the instance
+    of the original <a href="xyzrins:projects/datalad">DataLad</a> distribution. It provides
     access to a wide collection of data from various initiatives, such as <a href="https://datasets.datalad.org/?dir=/openfmri">OpenfMRI</a>,
-    and hosts some datasets directly. A single <code>datalad install</code> of its
-    superdataset reaches all of them, which arguably makes it one of the largest hierarchies
-    of nested git repositories out there. </p>'
+    and hosts some datasets directly. A single <code>datalad install</code> of its superdataset
+    reaches all of them, which arguably makes it one of the largest hierarchies of nested
+    git repositories out there. </p>
 - predicate: dlthings:section
   schema_type: dlthings:AttributeSpecification
   value: Archives
 - predicate: dlthings:anchor
   schema_type: dlthings:AttributeSpecification
   value: datasets-datalad-org
-description: The original DataLad distribution, providing access to a wide collection
-  of data from various initiatives and hosting some datasets directly. Arguably one of
-  the largest hierarchies of nested git repositories.
+description: datasets.datalad.org is the instance of the original DataLad distribution. It
+  provides access to a wide collection of data from various initiatives, such as OpenfMRI,
+  and hosts some datasets directly. A single datalad install of its superdataset reaches all
+  of them, which arguably makes it one of the largest hierarchies of nested git repositories
+  out there.
 influenced_by:
 - object: xyzrins:objectives/87be5fa3-80fb-4221-8406-2ddd40fb1fd1
   roles:
