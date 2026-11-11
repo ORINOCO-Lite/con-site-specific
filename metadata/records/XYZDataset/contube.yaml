@@ -6,7 +6,7 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: ConTube
 description: CON's archive of recorded talks and tutorials, maintained as a DataLad dataset
-  by con/annextube.
+  by annextube.
 generated_by:
 - object: xyzrins:instruments/annextube
   schema_type: dlthings:Generation
