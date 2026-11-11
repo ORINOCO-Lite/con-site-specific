@@ -1,0 +1,30 @@
+# From CONTube's videos.tsv: a recording with a CON member presenting
+# that had no record here.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: ABCD-ReproNim course, week 10
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: 2021-02
+- predicate: schema:video
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/4pEOGYcbx64
+characterized_by:
+- object: bibo:Slideshow
+  predicate: dcterms:type
+description: Instructor Q&A of the week on ReproMan. Recording only, no slides.
+generated_by:
+- object: xyzrins:projects/repronim
+  schema_type: dlthings:Generation
+- object: xyzrins:projects/reproman
+  schema_type: dlthings:Generation
+kind: bibo:Slideshow
+pid: xyzrins:publications/talk-2021-abcd-repronim-week10-qa
+schema_type: xyzri:XYZPublication
+title: 'ABCD-ReproNim course, week 10: instructor Q&A'

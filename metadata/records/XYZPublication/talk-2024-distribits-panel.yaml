@@ -1,0 +1,41 @@
+# From CONTube's videos.tsv: a recording with a CON member presenting
+# that had no record here.
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/joey-hess
+  roles:
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:spk
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Yaroslav O. Halchenko; Joey Hess; Michael Hanke; Stephan Heunis
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: distribits 2024
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: 2024-04
+- predicate: schema:video
+  schema_type: dlthings:AttributeSpecification
+  value: https://datasets.datalad.org/centerforopenneuroscience/contube/web/#/video/SiTZWbjUIJI
+characterized_by:
+- object: bibo:Slideshow
+  predicate: dcterms:type
+description: Questions and panel discussion at distribits 2024. Recording only, no slides.
+generated_by:
+- object: xyzrins:projects/distribits
+  schema_type: dlthings:Generation
+- object: xyzrins:projects/datalad
+  schema_type: dlthings:Generation
+kind: bibo:Slideshow
+pid: xyzrins:publications/talk-2024-distribits-panel
+schema_type: xyzri:XYZPublication
+title: 'distribits 2024: questions and panel discussion'
