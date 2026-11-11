@@ -1,0 +1,44 @@
+attributed_to:
+- object: xyzrins:persons/adina-wagner
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/samuel-nastase
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Adina Wagner; Samuel Nastase; Yaroslav O. Halchenko; Michael Hanke
+- predicate: bibo:presentedAt
+  schema_type: dlthings:AttributeSpecification
+  value: OHBM 2019, Rome, Italy
+- predicate: dcat:downloadURL
+  schema_type: dlthings:AttributeSpecification
+  value: https://juser.fz-juelich.de/record/865045/files/OHBM_2019_Wagner.pdf
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: 2019-06
+characterized_by:
+- object: bibo:Document
+  predicate: dcterms:type
+description: A. Wagner, S. Nastase, Y.O. Halchenko and M. Hanke (2019). Functional
+  ROI localization in a rich stimuli dataset requires non-GLM style approach. OHBM
+  2019, Rome, Italy.  Moved here from the region-localization project's description.
+generated_by:
+- object: xyzrins:projects/region-localization
+  schema_type: dlthings:Generation
+kind: bibo:Document
+pid: xyzrins:publications/ohbm2019-wagner-roi-localization
+schema_type: xyzri:XYZPublication
+title: Functional ROI localization in a rich stimuli dataset requires non-GLM style
+  approach

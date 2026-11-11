@@ -44,20 +44,10 @@ attributes:
   value: Region localization from rich data
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: '<p> Localizing a functional region usually means running a dedicated localizer.
-    This asks whether the same regions can be found in data that was rich to begin
-    with -- a feature film, watched once -- and reports that a GLM is the wrong tool
-    for it. Dormant; worth returning to. </p> <ul> <li> A. Wagner, S. Nastase, Y.O.
-    Halchenko and M. Hanke (2019). <a href="https://juser.fz-juelich.de/record/865045/files/OHBM_2019_Wagner.pdf">Functional
-    ROI localization in a rich stimuli dataset requires non-GLM style approach</a>.
-    OHBM 2019, Rome, Italy. </li> <li> S.A. Nastase, J.S. Guntupalli, <a href="/whoweare#james_v_haxby_"
-    class="centroid">J.V. Haxby</a> and <a href="/whoweare#yaroslav_o_halchenko_" class="centroid">Y.O.
-    Halchenko</a> (2016). Localizing functional regions of interest based on responses
-    to dynamic naturalistic stimuli. SfN 2016, San Diego. </li> <li> <a href="/whoweare#matteo_visconti_di_oleggio_castello_"
-    class="centroid">M. Visconti di Oleggio Castello</a>, S.A. Nastase, M.I. Gobbini,
-    <a href="/whoweare#james_v_haxby_" class="centroid">J.V. Haxby</a> and <a href="/whoweare#yaroslav_o_halchenko_"
-    class="centroid">Y.O. Halchenko</a> (2015). Finding Cortical Patches of Shared
-    Representations. SfN 2015, Chicago, Poster 451.11. </li> </ul>'
+  value: <p> Localizing a functional region usually means running a dedicated localizer.
+    This asks whether the same regions can be found in data that was rich to begin with
+    -- a feature film, watched once -- and reports that a GLM is the wrong tool for it.
+    Dormant; worth returning to. </p>
 - predicate: dlthings:section
   schema_type: dlthings:AttributeSpecification
   value: Initiatives

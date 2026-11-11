@@ -58,6 +58,8 @@ characterized_by:
 generated_by:
 - object: xyzrins:projects/yoda
   schema_type: dlthings:Generation
+- object: xyzrins:projects/datalad
+  schema_type: dlthings:Generation
 identifiers:
 - notation: 10.7490/f1000research.1116363.1
   schema_type: dlthings:DOI

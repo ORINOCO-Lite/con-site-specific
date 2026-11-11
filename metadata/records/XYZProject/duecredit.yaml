@@ -45,11 +45,7 @@ attributes:
     used functionality will be presented back if software provides multiple citeable implementations.
     </p> <p> As a side-effect, we hope that DueCredit also will reduce demand in "prima-ballerina"
     projects, will encourage contributions to existing open-source codebases, and as a
-    result would solidify scientific software ecosystem. </p> <ul> <li> <a href="/whoweare#yaroslav_o_halchenko_"
-    class="centroid">Y.O. Halchenko</a> and <a href="/whoweare#matteo_visconti_di_oleggio_castello_"
-    class="centroid">M. Visconti di Oleggio Castello</a> (2016). <a href="http://haxbylab.dartmouth.edu/publications/HV+OHBM16.pdf">
-    DueCredit - automagically collect citations for software, methods, and data you use.
-    </a> OHBM 2016, Geneva, Switzerland </li> </ul>
+    result would solidify scientific software ecosystem. </p>
 - predicate: dlthings:section
   schema_type: dlthings:AttributeSpecification
   value: Software

@@ -96,11 +96,7 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: '<p> <a href="http://bids.neuroimaging.io">BIDS</a> is a project lead by a steering
     group elected by the BIDS community to provide a simple and intuitive way to organize
-    and describe your neuroimaging and behavioral data. </p> <ul> <li> Gorgolewski, K.
-    J., et many, <a href="/whoweare#yaroslav_o_halchenko_" class="centroid">Y.O. Halchenko</a>
-    et many more (2016). <a href="http://www.nature.com/articles/sdata201644">The brain
-    imaging data structure, a format for organizing and describing outputs of neuroimaging
-    experiments.</a> Scientific Data, 3. DOI: 10.1038/sdata.2016.44 </li> <li> <a href="https://github.com/bids-standard/bids-examples">Example
+    and describe your neuroimaging and behavioral data. </p> <ul> <li> <a href="https://github.com/bids-standard/bids-examples">Example
     (test) datasets</a> </li> <li> <a href="http://datasets.datalad.org/?dir=/openfmri">Historical
     OpenfMRI</a> and up-to-date <a href="http://datasets.datalad.org/?dir=/openneuro">OpenNeuro</a>
     Datasets in DataLad distribution. </li> <li> <a href="https://github.com/bids-dandisets">bids-dandisets</a>:

@@ -32,16 +32,13 @@ attributes:
   value: MRI Phantoms Afterlife
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: '<p> Scanner QA data is acquired to watch the scanner, and then it is filed
+  value: <p> Scanner QA data is acquired to watch the scanner, and then it is filed
     away. This asks what else it is good for -- whether the variance in routine phantom
     scans explains variance in the human data acquired around them, which would make
     years of accumulated QA scans a covariate rather than a formality. It runs on
     <a href="https://github.com/dbic/QA">dbic/QA</a>, the phantom, human and LEGO
     scans <a href="https://datasets.datalad.org/?dir=/dbic/QA">collected at DBIC</a>.
-    </p> <ul> <li> C.P. Cheng and <a href="/whoweare#yaroslav_o_halchenko_" class="centroid">Y.O.
-    Halchenko</a> (2020). <a href="https://doi.org/10.12688/f1000research.24544.1">A
-    new virtue of phantom MRI data: explaining variance in human participant data</a>.
-    F1000Research, 9:1131. </li> </ul>'
+    </p>
 - predicate: dlthings:section
   schema_type: dlthings:AttributeSpecification
   value: Initiatives

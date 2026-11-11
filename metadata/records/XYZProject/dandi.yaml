@@ -39,10 +39,7 @@ attributes:
     neurophysiology data funded by the <a href="https://braininitiative.nih.gov/">BRAIN
     Initiative</a>. The platform is now available for data upload and distribution, and
     provides supplementary client tools to assist with introspection and organization
-    of data following <a href="#nwb">NWB standard</a>. </p> <ul> <li> <a href="https://reporter.nih.gov/project-details/9795271">NIH
-    (#1R24MH117295-01A1)</a>. PIs: <a href="https://mcgovern.mit.edu/profile/satrajit-ghosh/"
-    class="centroid">S. Ghosh</a> and <a href="/whoweare#yaroslav_o_halchenko_" class="centroid">Y.O.
-    Halchenko</a> </li> <li> <a href="https://github.com/dandi/dandisets">dandisets</a>:
+    of data following <a href="#nwb">NWB standard</a>. </p> <ul> <li> <a href="https://github.com/dandi/dandisets">dandisets</a>:
     a <a href="#datalad">DataLad</a> superdataset providing unified access to all public
     DANDI datasets, with individual dandisets also mirrored as DataLad datasets in the
     <a href="https://github.com/dandisets">dandisets</a> GitHub organization and their

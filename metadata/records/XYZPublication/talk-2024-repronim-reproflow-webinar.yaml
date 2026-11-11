@@ -25,6 +25,8 @@ generated_by:
 - at_time: 2024-06
   object: xyzrins:projects/repronim
   schema_type: dlthings:Generation
+- object: xyzrins:projects/reprostim
+  schema_type: dlthings:Generation
 kind: bibo:Slideshow
 pid: xyzrins:publications/talk-2024-repronim-reproflow-webinar
 schema_type: xyzri:XYZPublication
