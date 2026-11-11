@@ -2,10 +2,6 @@ attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
   value: jbpoline@mcgill.ca
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Collaborator at the Center for Open Neuroscience. Affiliated with McGill University,
-    Canada.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Jean-Baptiste Poline
@@ -42,8 +38,7 @@ attributes:
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
   value: The root cause of all kinds of Open and Standard things in neuroimaging.
-description: Collaborator at the Center for Open Neuroscience. Affiliated with McGill
-  University, Canada.
+description: The root cause of all kinds of Open and Standard things in neuroimaging.
 display_label: Jean-Baptiste Poline
 family_name: Poline
 formatted_name: Jean-Baptiste Poline

@@ -3,10 +3,6 @@ assertions:
   path: /attributes
   pav:importedBy: xyzrins:source-adapters/dump-research-info/v2
   pav:importedFrom: https://github.com/con/dump-research-info/blob/main/data/con_site/XYZPerson.json#record=xyzrins%3Apersons%2Fjean-baptiste-poline
-- assertion_sha256: sha256:159b96d6ba7b103da991271c73fb0d4d0e37f306638023f7a40dee3132163ef6
-  path: /attributes
-  pav:importedBy: xyzrins:source-adapters/dump-research-info/v2
-  pav:importedFrom: https://github.com/con/dump-research-info/blob/main/data/con_site/XYZPerson.json#record=xyzrins%3Apersons%2Fjean-baptiste-poline
 - assertion_sha256: sha256:34b648ef71446e4aebebf1d9a03cbe78b17246eaab09644922105727ff22c3bd
   path: /attributes
   pav:importedBy: xyzrins:source-adapters/dump-research-info/v2

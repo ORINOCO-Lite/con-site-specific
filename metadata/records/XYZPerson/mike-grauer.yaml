@@ -11,7 +11,7 @@ attributes:
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
   value: Started <a href="https://github.com/dandi/dandi-archive">dandi-archive</a>,
-    the web application and API of the <a href="/projects#dandi_">DANDI</a> archive,
+    the web application and API of the <a href="xyzrins:projects/dandi">DANDI</a> archive,
     at <a href="https://www.kitware.com">Kitware</a> in 2019, and worked on it through
     2020.
 description: Started dandi-archive, the web application and API of the DANDI archive,

@@ -2,10 +2,6 @@ attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
   value: Isaac.C.To@dartmouth.edu
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Software Developer at the Center for Open Neuroscience. Python and open-source
-    enthusiast. Works on DataLad-Registry and DANDI metadata-related initiatives.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Isaac To
@@ -38,7 +34,7 @@ attributes:
   value: Centroids
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: Loves Python and open-source software. Works on <a href="/projects#dataladregistry_">DataLad-Registry</a>
+  value: Loves Python and open-source software. Works on <a href="xyzrins:projects/datalad-registry">DataLad-Registry</a>
     and various metadata-related <a href="https://dandiarchive.org/">DANDI</a> things.
     Currently resides in sunny Southern California with his wife and son.
 delegated_by:
@@ -46,8 +42,9 @@ delegated_by:
   roles:
   - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
   schema_type: dlthings:Delegation
-description: Software Developer at the Center for Open Neuroscience. Python and open-source
-  enthusiast. Works on DataLad-Registry and DANDI metadata-related initiatives.
+description: Loves Python and open-source software. Works on DataLad-Registry and various
+  metadata-related DANDI things. Currently resides in sunny Southern California with his wife
+  and son.
 display_label: Isaac To
 family_name: To
 formatted_name: Isaac To

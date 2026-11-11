@@ -15,11 +15,10 @@ attributes:
   schema_type: dlthings:AttributeSpecification
   value: Her <a href="https://github.com/MultimodalNeuroimagingLab">Multimodal Neuroimaging
     Lab</a> at Mayo Clinic studies the human brain with intracranial EEG and fMRI. A member
-    of the <a href="/projects#brain_imaging_data_structure_bids_">BIDS</a> Steering Group
+    of the <a href="xyzrins:projects/bids">BIDS</a> Steering Group
     and a lead of <a href="https://bids.neuroimaging.io/bep044">BEP044 (Stimuli)</a>.
-description: Neuroscientist at Mayo Clinic, whose Multimodal Neuroimaging Lab studies the
-  human brain with intracranial EEG and fMRI. A member of the BIDS Steering Group and a
-  lead of BIDS BEP044 (Stimuli).
+description: Her Multimodal Neuroimaging Lab at Mayo Clinic studies the human brain with intracranial
+  EEG and fMRI. A member of the BIDS Steering Group and a lead of BEP044 (Stimuli).
 family_name: Hermes
 given_name: Dora
 identifiers:

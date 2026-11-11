@@ -2,11 +2,6 @@ attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
   value: jwodder@gmail.com
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Emeritus Software Developer at the Center for Open Neuroscience. DANDI client
-    developer. Skilled in Python, Rust, DevOps, testing, packaging, type-hinting, and
-    CI.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: John Wodder
@@ -33,7 +28,7 @@ attributes:
   value: Emeritus
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: Works on the <a href="/projects#dandi_">DANDI</a> client and related projects.
+  value: Works on the <a href="xyzrins:projects/dandi">DANDI</a> client and related projects.
     Jack of all trades and skilled in Python, Rust, DevOps, testing, packaging, &amp;
     type-hinting and in continuous integration. Likes abstract mathematics, *nix-based
     operating systems, and large properly-formatted data files.
@@ -42,8 +37,10 @@ delegated_by:
   roles:
   - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
   schema_type: dlthings:Delegation
-description: Emeritus Software Developer at the Center for Open Neuroscience. DANDI client
-  developer. Skilled in Python, Rust, DevOps, testing, packaging, type-hinting, and CI.
+description: Works on the DANDI client and related projects. Jack of all trades and skilled
+  in Python, Rust, DevOps, testing, packaging, & type-hinting and in continuous integration.
+  Likes abstract mathematics, *nix-based operating systems, and large properly-formatted data
+  files.
 display_label: John Wodder
 family_name: Wodder
 formatted_name: John Wodder

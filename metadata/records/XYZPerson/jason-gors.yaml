@@ -2,10 +2,6 @@ attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
   value: jason.gors@dartmouth.edu
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Emeritus member of the Center for Open Neuroscience. Pythonista. DataLad project
-    contributor.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Jason Gors
@@ -35,15 +31,14 @@ attributes:
   value: Emeritus
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: Pythonista and heavy user of open-source offerings. Works on the <a href="/projects#datalad_">DataLad</a>
+  value: Pythonista and heavy user of open-source offerings. Works on the <a href="xyzrins:projects/datalad">DataLad</a>
     project.
 delegated_by:
 - object: ror:04tfhh831
   roles:
   - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
   schema_type: dlthings:Delegation
-description: Emeritus member of the Center for Open Neuroscience. Pythonista. DataLad
-  project contributor.
+description: Pythonista and heavy user of open-source offerings. Works on the DataLad project.
 display_label: Jason Gors
 family_name: Gors
 formatted_name: Jason Gors

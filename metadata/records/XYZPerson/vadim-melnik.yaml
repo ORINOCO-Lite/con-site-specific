@@ -2,10 +2,6 @@ attributes:
 - predicate: vcard:Email
   schema_type: dlthings:AttributeSpecification
   value: vmelnik@docsultant.com
-- predicate: dcterms:description
-  schema_type: dlthings:AttributeSpecification
-  value: Software Engineer and Consultant at the Center for Open Neuroscience. Working
-    on ReproStim, ReproMon, con/noisseur, and event collection/timing projects.
 - predicate: skos:prefLabel
   schema_type: dlthings:AttributeSpecification
   value: Vadim Melnik
@@ -41,7 +37,7 @@ attributes:
   value: Centroids
 - predicate: dlthings:description_html
   schema_type: dlthings:AttributeSpecification
-  value: External consultant working on <a href="/projects#reprostim_">ReproStim</a>,
+  value: External consultant working on <a href="xyzrins:projects/reprostim">ReproStim</a>,
     <a href="https://github.com/ReproNim/repromon">ReproMon</a>, <a href="https://github.com/con/noisseur">con/noisseur</a>,
     events collection/timing projects and cosmic harmony.
 - predicate: dlthings:home_page
@@ -52,8 +48,8 @@ delegated_by:
   roles:
   - xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87
   schema_type: dlthings:Delegation
-description: Software Engineer and Consultant at the Center for Open Neuroscience. Working
-  on ReproStim, ReproMon, con/noisseur, and event collection/timing projects.
+description: External consultant working on ReproStim, ReproMon, con/noisseur, events collection/timing
+  projects and cosmic harmony.
 display_label: Vadim Melnik
 family_name: Melnik
 formatted_name: Vadim Melnik
