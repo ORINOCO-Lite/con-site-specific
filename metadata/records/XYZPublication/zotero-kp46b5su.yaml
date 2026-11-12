@@ -80,6 +80,8 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:KP46B5SU
   schema_type: dlthings:Identifier
+- notation: 10.3389/fninf.2019.00001
+  schema_type: dlthings:DOI
 influenced_by:
 - object: xyzrins:publications/doi-10-31219-osf-io-u78a6
   roles:
