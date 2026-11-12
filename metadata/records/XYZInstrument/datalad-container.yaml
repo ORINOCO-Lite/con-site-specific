@@ -20,6 +20,8 @@ attributes:
   value: datalad-container
 description: DataLad extension for working with computational containers
 display_label: datalad-container
+exact_mappings:
+- https://concepts.datalad.org/s/demo-research-information/ns/instruments/bb72fbdb-8d22-4756-a55f-313a7a6a9626
 generated_by:
 - at_time: '2018-05-07'
   object: xyzrins:projects/datalad

@@ -431,6 +431,33 @@ they ever diverge, that is a curation question, not a modelling one.
 Two are CON's own: cross-standards collaboration and harmonization in
 neurosciences, and scalable and reliable archiving of neural data.
 
+## The same thing in another store
+
+A thing another ORINOCO store also describes should carry **that store's
+pid** here, as the shared objectives above do: then there is nothing to
+map.  Where the two stores already minted different pids -- ours a slug,
+theirs a UUID, or ours a ROR and theirs a local record -- the record names
+the other one in `exact_mappings` (`skos:exactMatch`), by its full IRI:
+
+```yaml
+pid: xyzrins:projects/distribits
+exact_mappings:
+- https://concepts.datalad.org/s/demo-research-information/ns/projects/a605574d-ee49-4ad4-8348-599b632ed5eb
+```
+
+`xyzrins:` expands to the same namespace in every store built on the demo
+schema, so that IRI is the other store's `xyzrins:projects/a605574d-...`.
+The website's graph (`scripts/congraph.py` in
+con/centerforopenneuroscience.org) joins the two nodes on it.
+
+Record a mapping only after reading the other record: same kind of thing,
+same scope.  A preprint is not its journal article (see below), and a
+yearly meeting is not the series.  The five recorded on 2026-11-12 were
+checked against a dump of pool.psychoinformatics.de's public records:
+distribits, datalad-container, the Psychoinformatics group,
+Forschungszentrum Jülich, and the SPIE Newsroom piece on PyMVPA, which that
+store holds without its DOI.
+
 ## Parts and collaborations
 
 `part_of` says a project is a piece of another: DANDI Compute of DANDI,

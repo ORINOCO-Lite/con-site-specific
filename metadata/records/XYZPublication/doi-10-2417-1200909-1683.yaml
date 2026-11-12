@@ -23,6 +23,8 @@ attributes:
 characterized_by:
 - object: bibo:AcademicArticle
   predicate: dcterms:type
+exact_mappings:
+- https://concepts.datalad.org/s/demo-research-information/ns/publications/8f4249c5-92c9-43aa-84c7-294aa464d6d2
 generated_by:
 - object: xyzrins:projects/pymvpa
   schema_type: dlthings:Generation

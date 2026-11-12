@@ -12,6 +12,8 @@ description: Research group at the Institute of Neuroscience and Medicine, Brain
   (INM-7), Forschungszentrum Jülich. Home of DataLad and of the datalad-concepts metadata
   work these records are built on.
 display_label: Psychoinformatics
+exact_mappings:
+- https://concepts.datalad.org/s/demo-research-information/ns/organizations/psyinf-group
 influenced_by:
 - object: xyzrins:persons/michael-hanke
   roles:
