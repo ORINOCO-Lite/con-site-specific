@@ -13,3 +13,14 @@ assertions:
       Her first commit in nidm-specs, timestamped -0800 the day after the INCF Neuroimaging Data Sharing Task Force meeting in San Diego (2013-11-07, see pending).  2349 commits there, the most of anyone, through 2020; NIDM-Results continued in incf-nidash/nidmresults (469).
     confidence: certain
     captured: "2026-10-29"
+  - path: /associated_with/2/started/at_time
+    value: "2013-05-23"
+    bound: upper
+    kind: upstream-git
+    source: https://github.com/incf-nidash/nidm-specs
+    locator: e99c8d0
+    quote: 'updated with more info'
+    note: >-
+      His first commit in nidm-specs (11 there).  Yaroslav Halchenko asked on 2026-11-11 that Satra be linked to NIDM, being "associated heavily" with it.
+    confidence: certain
+    captured: "2026-11-11"
