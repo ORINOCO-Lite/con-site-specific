@@ -59,6 +59,8 @@ attributes:
 description: distribits is a community for enthusiasts of tools and workflows in the domain
   of distributed data. Take a look at the topics of past meeting contributions, and YouTube
   videos from distribits 2024 to learn what is being talked about at distribits.
+exact_mappings:
+- https://concepts.datalad.org/s/demo-research-information/ns/projects/a605574d-ee49-4ad4-8348-599b632ed5eb
 influenced_by:
 - object: xyzrins:objectives/cross-standards-harmonization
   roles:

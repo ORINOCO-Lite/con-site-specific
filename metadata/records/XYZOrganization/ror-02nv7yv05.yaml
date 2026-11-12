@@ -18,6 +18,8 @@ attributes:
 description: 'Forschungszentrum Jülich: a German national research centre, and home of
   the INM-7 Psychoinformatics group.'
 display_label: Research Centre Jülich
+exact_mappings:
+- https://concepts.datalad.org/s/demo-research-information/ns/organizations/fzj
 name: Forschungszentrum Jülich
 pid: ror:02nv7yv05
 schema_type: xyzri:XYZOrganization
