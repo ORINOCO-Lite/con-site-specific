@@ -466,6 +466,12 @@ A dataset is a publication of kind `fabio:Dataset`, by the DOI of its first
 release; a paper that analyses it names it in `influenced_by` with no role.
 Only datasets whose DOI record lists a CON member among its creators are
 recorded -- OpenNeuro's search also finds datasets that merely mention one.
+A dataset OpenNeuro released before it minted DOIs (ds000241, ds001297) has
+no DOI; its authors and the paper it backs come from the first snapshot's
+`dataset_description.json`, and its pid is `openneuro-dsNNNNNN`.  Every
+dataset also carries its archive's accession as an identifier,
+`OPENNEURO:ds000241` or `DANDI:000027`, which the site shows on the dataset
+and as the tag after a paper that uses it.
 
 ## Open questions
 

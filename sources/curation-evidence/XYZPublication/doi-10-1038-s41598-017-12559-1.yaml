@@ -17,3 +17,14 @@ assertions:
   quote: '"has-preprint": 10.1101/138297'
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/1/object
+  value: xyzrins:publications/openneuro-ds001297
+  kind: registry
+  source: https://openneuro.org/crn/datasets/ds001297/snapshots/00001/files/dataset_description.json
+  locator: OpenNeuro ds001297, snapshot 00001, dataset_description.json, HowToAcknowledge
+  quote: 'Please cite: ''Visconti di Oleggio Castello, M., Halchenko, Y. O., Guntupalli,
+    J. S., Gors, J. D., & Gobbini, M. I. (2017). The neural representation of personally
+    familiar and unfamiliar faces in the distributed system for face perception.
+    Scientific Reports, 7(1), 12237. https://doi.org/10.1038/s41598-017-12559-1'''
+  confidence: certain
+  captured: '2026-11-11'

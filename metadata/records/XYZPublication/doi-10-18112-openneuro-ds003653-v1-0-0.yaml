@@ -1,0 +1,37 @@
+attributed_to:
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2021'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Cortical myelin measured by the T1w/T2w ratio in individuals with depressive
+    disorders and healthy controls
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Cortical myelin measured by the T1w/T2w ratio in individuals with depressive
+    disorders and healthy controls
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Anna Manelis; David A.A. Baranger; Skye Satz; Rachel Ragozzino; Satish Iyengar;
+    Holly A. Swartz; Yaroslav O. Halchenko
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://openneuro.org/datasets/ds003653
+characterized_by:
+- object: fabio:Dataset
+  predicate: dcterms:type
+identifiers:
+- notation: 10.18112/openneuro.ds003653.v1.0.0
+  schema_type: dlthings:DOI
+- notation: OPENNEURO:ds003653
+  schema_type: dlthings:Identifier
+kind: fabio:Dataset
+pid: xyzrins:publications/doi-10-18112-openneuro-ds003653-v1-0-0
+schema_type: xyzri:XYZPublication
+title: Cortical myelin measured by the T1w/T2w ratio in individuals with depressive
+  disorders and healthy controls

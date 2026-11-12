@@ -1,0 +1,42 @@
+attributed_to:
+- object: xyzrins:persons/matteo-visconti-di-oleggio-castello
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/jason-gors
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2018-07-15'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: Personally familiar faces
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: Personally familiar faces
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Matteo Visconti di Oleggio Castello; Yaroslav O. Halchenko; J. Swaroop Guntupalli;
+    Jason D. Gors; M. Ida Gobbini
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://openneuro.org/datasets/ds001297
+characterized_by:
+- object: fabio:Dataset
+  predicate: dcterms:type
+description: The fMRI data behind the paper "The neural representation of personally
+  familiar and unfamiliar faces in the distributed system for face perception".
+identifiers:
+- notation: OPENNEURO:ds001297
+  schema_type: dlthings:Identifier
+kind: fabio:Dataset
+pid: xyzrins:publications/openneuro-ds001297
+schema_type: xyzri:XYZPublication
+title: Personally familiar faces

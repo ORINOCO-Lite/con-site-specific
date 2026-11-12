@@ -40,6 +40,8 @@ characterized_by:
 identifiers:
 - notation: 10.18112/openneuro.ds000233.v4
   schema_type: dlthings:DOI
+- notation: OPENNEURO:ds000233
+  schema_type: dlthings:Identifier
 kind: fabio:Dataset
 pid: xyzrins:publications/doi-10-18112-openneuro-ds000233-v4
 schema_type: xyzri:XYZPublication

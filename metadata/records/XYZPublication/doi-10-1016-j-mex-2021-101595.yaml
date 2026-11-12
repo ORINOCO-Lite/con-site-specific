@@ -32,6 +32,9 @@ identifiers:
   schema_type: dlthings:Identifier
 - notation: zotero:group:6197458:item:I3FRTJW7
   schema_type: dlthings:Identifier
+influenced_by:
+- object: xyzrins:publications/doi-10-18112-openneuro-ds003653-v1-0-0
+  schema_type: xyzri:XYZInfluence
 kind: bibo:AcademicArticle
 pid: xyzrins:publications/doi-10-1016-j-mex-2021-101595
 schema_type: xyzri:XYZPublication

@@ -30,6 +30,8 @@ influenced_by:
   roles:
   - xyzrins:entity-roles/296e863e-7361-47ee-b337-e51a7e6bfe8d
   schema_type: xyzri:XYZInfluence
+- object: xyzrins:publications/doi-10-18112-openneuro-ds003653-v1-0-0
+  schema_type: xyzri:XYZInfluence
 kind: bibo:AcademicArticle
 pid: xyzrins:publications/doi-10-1016-j-nicl-2021-102790
 schema_type: xyzri:XYZPublication

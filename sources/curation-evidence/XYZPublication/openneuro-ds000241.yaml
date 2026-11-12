@@ -1,0 +1,28 @@
+record: xyzrins:publications/openneuro-ds000241
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2018-07-16'
+  kind: registry
+  source: https://openneuro.org/datasets/ds000241
+  locator: OpenNeuro ds000241, snapshot 00001, created (OpenNeuro GraphQL, snapshots)
+  note: OpenNeuro minted no DOI for its first snapshots; the first one's date stands
+    for the release.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Andrew C. Connolly; J. Swaroop Guntupalli; Jason Gors; Michael Hanke; Yaroslav
+    O. Halchenko; Yu-Chien Wu; Hervé Abdi; James V. Haxby
+  kind: registry
+  source: https://openneuro.org/crn/datasets/ds000241/snapshots/00001/files/dataset_description.json
+  locator: OpenNeuro ds000241, snapshot 00001, dataset_description.json, Authors
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: https://openneuro.org/datasets/ds000241
+  kind: registry
+  source: https://openneuro.org/datasets/ds000241
+  locator: OpenNeuro dataset ds000241, its page
+  note: The dataset's page rather than a release's.
+  confidence: certain
+  captured: '2026-11-11'

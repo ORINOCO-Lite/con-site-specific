@@ -39,6 +39,8 @@ description: 'The fMRI data, shared on OpenNeuro, behind the paper of the same t
 identifiers:
 - notation: 10.18112/openneuro.ds007942.v1.0.0
   schema_type: dlthings:DOI
+- notation: OPENNEURO:ds007942
+  schema_type: dlthings:Identifier
 kind: fabio:Dataset
 pid: xyzrins:publications/doi-10-18112-openneuro-ds007942-v1-0-0
 schema_type: xyzri:XYZPublication

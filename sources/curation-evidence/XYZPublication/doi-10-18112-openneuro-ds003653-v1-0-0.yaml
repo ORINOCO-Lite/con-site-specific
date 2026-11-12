@@ -1,0 +1,27 @@
+record: xyzrins:publications/doi-10-18112-openneuro-ds003653-v1-0-0
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2021'
+  kind: registry
+  source: https://api.datacite.org/dois/10.18112/openneuro.ds003653.v1.0.0
+  locator: DataCite DOI 10.18112/openneuro.ds003653.v1.0.0, publicationYear
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Anna Manelis; David A.A. Baranger; Skye Satz; Rachel Ragozzino; Satish
+    Iyengar; Holly A. Swartz; Yaroslav O. Halchenko
+  kind: registry
+  source: https://api.datacite.org/dois/10.18112/openneuro.ds003653.v1.0.0
+  locator: DataCite DOI 10.18112/openneuro.ds003653.v1.0.0, creators
+  note: Degrees after the names left out.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: https://openneuro.org/datasets/ds003653
+  kind: registry
+  source: https://api.datacite.org/dois/10.18112/openneuro.ds003653.v1.0.0
+  locator: DataCite DOI 10.18112/openneuro.ds003653.v1.0.0, url
+  note: The dataset's page rather than a release's.
+  confidence: certain
+  captured: '2026-11-11'

@@ -1,0 +1,28 @@
+record: xyzrins:publications/openneuro-ds001297
+format: con-association-evidence-v1
+assertions:
+- path: /attributes/0/value
+  value: '2018-07-15'
+  kind: registry
+  source: https://openneuro.org/datasets/ds001297
+  locator: OpenNeuro ds001297, snapshot 00001, created (OpenNeuro GraphQL, snapshots)
+  note: OpenNeuro minted no DOI for its first snapshots; the first one's date stands
+    for the release.
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/3/value
+  value: Matteo Visconti di Oleggio Castello; Yaroslav O. Halchenko; J. Swaroop
+    Guntupalli; Jason D. Gors; M. Ida Gobbini
+  kind: registry
+  source: https://openneuro.org/crn/datasets/ds001297/snapshots/00001/files/dataset_description.json
+  locator: OpenNeuro ds001297, snapshot 00001, dataset_description.json, Authors
+  confidence: certain
+  captured: '2026-11-11'
+- path: /attributes/4/value
+  value: https://openneuro.org/datasets/ds001297
+  kind: registry
+  source: https://openneuro.org/datasets/ds001297
+  locator: OpenNeuro dataset ds001297, its page
+  note: The dataset's page rather than a release's.
+  confidence: certain
+  captured: '2026-11-11'

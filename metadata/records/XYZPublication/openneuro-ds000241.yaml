@@ -1,0 +1,51 @@
+attributed_to:
+- object: xyzrins:persons/andy-connolly
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/jason-gors
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/michael-hanke
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/yaroslav-halchenko
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+- object: xyzrins:persons/james-haxby
+  roles:
+  - marcrel:aut
+  schema_type: dlthings:Attribution
+attributes:
+- predicate: dcterms:issued
+  schema_type: dlthings:AttributeSpecification
+  value: '2018-07-16'
+- predicate: dlthings:title
+  schema_type: dlthings:AttributeSpecification
+  value: AK6
+- predicate: skos:prefLabel
+  schema_type: dlthings:AttributeSpecification
+  value: AK6
+- predicate: bibo:authorList
+  schema_type: dlthings:AttributeSpecification
+  value: Andrew C. Connolly; J. Swaroop Guntupalli; Jason Gors; Michael Hanke; Yaroslav
+    O. Halchenko; Yu-Chien Wu; Hervé Abdi; James V. Haxby
+- predicate: foaf:homepage
+  schema_type: dlthings:AttributeSpecification
+  value: https://openneuro.org/datasets/ds000241
+characterized_by:
+- object: fabio:Dataset
+  predicate: dcterms:type
+description: 'The fMRI data behind the paper "Representation of biological classes in
+  the human brain": brain activity while participants viewed pictures of animals of
+  six species.'
+identifiers:
+- notation: OPENNEURO:ds000241
+  schema_type: dlthings:Identifier
+kind: fabio:Dataset
+pid: xyzrins:publications/openneuro-ds000241
+schema_type: xyzri:XYZPublication
+title: AK6

@@ -34,6 +34,8 @@ characterized_by:
 identifiers:
 - notation: 10.18112/openneuro.ds005256.v1.0.0
   schema_type: dlthings:DOI
+- notation: OPENNEURO:ds005256
+  schema_type: dlthings:Identifier
 kind: fabio:Dataset
 pid: xyzrins:publications/doi-10-18112-openneuro-ds005256-v1-0-0
 schema_type: xyzri:XYZPublication

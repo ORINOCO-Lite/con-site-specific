@@ -9,3 +9,12 @@ assertions:
   locator: Crossref work 10.1016/j.mex.2021.101595, author
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/0/object
+  value: xyzrins:publications/doi-10-18112-openneuro-ds003653-v1-0-0
+  kind: registry
+  source: https://api.crossref.org/works/10.1016/j.mex.2021.101595
+  locator: Crossref work 10.1016/j.mex.2021.101595, reference 10.1016/j.mex.2021.101595_bib0007
+  quote: Cortical myelin measured by the T1w/T2w ratio in individuals with depressive
+    disorders and healthy controls (Manelis, 2021, OpenNeuro)
+  confidence: certain
+  captured: '2026-11-11'

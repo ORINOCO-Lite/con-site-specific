@@ -40,6 +40,9 @@ identifiers:
   schema_type: dlthings:DOI
 - notation: zotero:group:6197458:item:KHCCE3BE
   schema_type: dlthings:Identifier
+influenced_by:
+- object: xyzrins:publications/openneuro-ds000241
+  schema_type: xyzri:XYZInfluence
 kind: bibo:AcademicArticle
 pid: xyzrins:publications/doi-10-1523-jneurosci-5547-11-2012
 schema_type: xyzri:XYZPublication

@@ -29,3 +29,16 @@ assertions:
     the preprint.
   confidence: certain
   captured: '2026-11-11'
+- path: /influenced_by/1/object
+  value: xyzrins:publications/doi-10-18112-openneuro-ds003653-v1-0-0
+  kind: registry
+  source: https://openneuro.org/crn/datasets/ds003653/snapshots/1.0.0/files/dataset_description.json
+  locator: OpenNeuro ds003653, snapshot 1.0.0, dataset_description.json, HowToAcknowledge
+  quote: 'To cite the associated paper use: Baranger D, Halchenko YO, Satz S, Ragozzino
+    R, Iyengar S, Swartz HA, Manelis A. 2021. Aberrant levels of cortical myelin
+    distinguish individuals with unipolar depression from healthy controls, DOI:
+    10.1101/2021.02.25.21252472v2'
+  note: The dataset names the paper's preprint, medRxiv 10.1101/2021.02.25.21252472,
+    which this record has as its preprint.
+  confidence: certain
+  captured: '2026-11-11'
