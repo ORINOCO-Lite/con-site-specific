@@ -22,3 +22,14 @@ assertions:
     the preprint.
   confidence: certain
   captured: '2026-11-11'
+- path: /identifiers/3/notation
+  value: 10.3389/fninf.2019.00001
+  kind: registry
+  source: https://api.crossref.org/works/10.3389/fninf.2019.00001
+  locator: DOI, title, container-title
+  quote: 'Everything Matters: The ReproNim Perspective on Reproducible Neuroimaging'
+  note: The Zotero item has the publisher's URL and an empty DOI field; the DOI
+    is the one inside that URL.  Crossref registers it as a journal article of
+    this title in Frontiers in Neuroinformatics, issued 2019-02-07.
+  confidence: certain
+  captured: '2026-11-12'
